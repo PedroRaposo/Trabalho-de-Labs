@@ -1,0 +1,3 @@
+x = "teste"
+
+print("isto é um ", x)
