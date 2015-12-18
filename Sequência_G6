@@ -1,0 +1,10 @@
+Entrez.email = "mafaldasap@gmail.com"     # Always tell NCBI who you are
+handle4 = Entrez.efetch(db="nucleotide", id="15638995", rettype="gb", strand=1, seq_start=639851, 
+                       seq_stop=765100)
+record4 = SeqIO.read(handle4, "genbank")
+filename2 = "g6.gb"
+save_file2 = open(filename2, "w")
+save_file2.write(handle4.read())
+save_file2.close()
+handle4.close()
+print (record4.seq)  # recupera a nossa parte do genoma a estudar
