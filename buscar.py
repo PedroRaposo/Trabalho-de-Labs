@@ -19,12 +19,18 @@ handle5 = Entrez.efetch(db="nucleotide", id="15638995", rettype="fasta", strand=
 recordF = SeqIO.read(handle5, "fasta")
 #---------------------------------------------------------------------------
 #Save information in variables
-fastaSeq= str(recordF.seq)
+fastaSeq= str(recordF.seq) 
+genbankSeq = str (record4.seq)
 #print(str(recordF.seq)[122609:124403])
-filename2 = "g6.gb"
+filename2 = "g6.fna"
 save_file2 = open(filename2, "w")
 save_file2.write(fastaSeq)
 save_file2.close()
+handle5.close()
+filename3 = "g6.gbk"
+save_file3 = open(filename3, "w")
+save_file3.write(genbankSeq, "w")
+save_file3.close()
 handle4.close()
 #-------------------------------------------------------------
 
