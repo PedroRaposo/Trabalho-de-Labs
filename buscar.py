@@ -23,7 +23,7 @@ fastaSeq= str(recordF.seq)
 #print(str(recordF.seq)[122609:124403])
 filename2 = "g6.gb"
 save_file2 = open(filename2, "w")
-save_file2.write(handle4.read())
+save_file2.write(fastaSeq.read())
 save_file2.close()
 handle4.close()
 #-------------------------------------------------------------
