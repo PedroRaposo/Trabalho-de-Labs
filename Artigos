@@ -25,7 +25,7 @@ idlist = record2["IdList"] # cria lista com IDs dos artigos
 
 from Bio import Medline
 handle3 = Entrez.efetch(db="pubmed", id=idlist, rettype="medline",
-                           retmode="cvs")
+                           retmode="text")
 records = Medline.parse(handle3)
 
 for record in records:
@@ -35,9 +35,8 @@ for record in records:
     print("Source:", record.get("SO", "?"))
     print ("")
     
-filename = "lista_pubmed.cvs"
-records3 = str(records)
+filename = "lista_pubmed.txt"
 save_file = open(filename, "w")
-save_file.write(records3)
+save_file.write(str(records))
 save_file.close()
 
