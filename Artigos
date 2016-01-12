@@ -27,6 +27,7 @@ from Bio import Medline
 handle3 = Entrez.efetch(db="pubmed", id=idlist, rettype="medline",
                            retmode="text")
 records = Medline.parse(handle3)
+records = list(records)
 
 for record in records:
     print("ID:", record.get("PMID", "?"))
@@ -37,6 +38,7 @@ for record in records:
     
 filename = "lista_pubmed.txt"
 save_file = open(filename, "w")
-save_file.write(str(records))
+for line in records:
+    save_file.write(str(records))
 save_file.close()
 
