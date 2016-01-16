@@ -1,0 +1,101 @@
+ID   SYG_TREPA               Reviewed;         462 AA.
+AC   O83678;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 101.
+DE   RecName: Full=Glycine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00253};
+DE            EC=6.1.1.14 {ECO:0000255|HAMAP-Rule:MF_00253};
+DE   AltName: Full=Glycyl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00253};
+DE            Short=GlyRS {ECO:0000255|HAMAP-Rule:MF_00253};
+GN   Name=glyQS {ECO:0000255|HAMAP-Rule:MF_00253}; Synonyms=glyS;
+GN   OrderedLocusNames=TP_0672;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the attachment of glycine to tRNA(Gly).
+CC       {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -!- CATALYTIC ACTIVITY: ATP + glycine + tRNA(Gly) = AMP + diphosphate
+CC       + glycyl-tRNA(Gly). {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase
+CC       family. {ECO:0000255|HAMAP-Rule:MF_00253}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC26570.1; -; Genomic_DNA.
+DR   PIR; C71296; C71296.
+DR   ProteinModelPortal; O83678; -.
+DR   STRING; 243276.TP0672; -.
+DR   EnsemblBacteria; AAC26570; AAC26570; TP_0672.
+DR   KEGG; tpa:TP_0672; -.
+DR   PATRIC; 20531419; VBITrePal57110_0712.
+DR   eggNOG; ENOG4105D9H; Bacteria.
+DR   eggNOG; COG0423; LUCA.
+DR   KO; K01880; -.
+DR   OMA; RAAWDYG; -.
+DR   OrthoDB; EOG6R87F8; -.
+DR   BioCyc; TPAL243276:GC1H-715-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004820; F:glycine-tRNA ligase activity; ISS:UniProtKB.
+DR   GO; GO:0046983; F:protein dimerization activity; ISS:UniProtKB.
+DR   GO; GO:0006426; P:glycyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.800; -; 1.
+DR   HAMAP; MF_00253_B; Gly_tRNA_synth_B; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR004154; Anticodon-bd.
+DR   InterPro; IPR027031; Gly-tRNA_synthase/POLG2.
+DR   InterPro; IPR022961; Gly_tRNA_ligase_bac.
+DR   InterPro; IPR002315; tRNA-synt_gly.
+DR   PANTHER; PTHR10745; PTHR10745; 2.
+DR   Pfam; PF03129; HGTP_anticodon; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   PRINTS; PR01043; TRNASYNTHGLY.
+DR   SUPFAM; SSF52954; SSF52954; 1.
+DR   TIGRFAMs; TIGR00389; glyS_dimeric; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN         1    462       Glycine--tRNA ligase.
+FT                                /FTId=PRO_0000072986.
+FT   NP_BIND     175    177       ATP. {ECO:0000255|HAMAP-Rule:MF_00253}.
+FT   NP_BIND     185    190       ATP. {ECO:0000255|HAMAP-Rule:MF_00253}.
+FT   NP_BIND     259    260       ATP. {ECO:0000255|HAMAP-Rule:MF_00253}.
+FT   NP_BIND     308    311       ATP. {ECO:0000255|HAMAP-Rule:MF_00253}.
+FT   REGION      190    194       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00253}.
+FT   REGION      304    308       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00253}.
+FT   BINDING      94     94       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00253}.
+FT   BINDING     143    143       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00253}.
+SQ   SEQUENCE   462 AA;  52677 MW;  D2E52E16B9CA61BE CRC64;
+     MEKIVGLCKR RGFVFPSSEI YGGQGGVWDY GPMGIALKNN IAHAWWQDMT RLHDHIVGLD
+     AAILMHPNVW RTSGHVDHFS DPLVDCTVCK SRFRADQVAV PSAGGPCPQC GGALTGVRNF
+     NLMFSTHMGP TDERASLLYL RPETAQGIYV NYKNVLQTTR LKVPFGIAQI GKAFRNEIVT
+     KNFIFRTCEF EQMEMQFFVR PAEDTHWFEY WCAQRWAFYQ KYGVRMNHMR WRTHAAHELA
+     HYARAACDIE YAFPMGFREL EGVHNRGDFD LTRHAQHSGK DLCYVDPDPN LDAAARRYVP
+     CVVETSAGLT RCVLMFLCDA YTEEYVQAPN VAFSETTQTA DQEGAARTGE MRIVLRLHPA
+     LSPTTVAFLP LVKKDGLVDL ARAVRDELRE DFACDFDAAG AIGKRYRRQD EVGTPFCVTV
+     DYQSKEDDTV TVRLRDSMAQ RRVSRAFLAE FLRTEIKHYR RP
+//

@@ -1,0 +1,54 @@
+ID   Y629_TREPA              Reviewed;         274 AA.
+AC   O83637;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 64.
+DE   RecName: Full=Uncharacterized protein TP_0629;
+GN   OrderedLocusNames=TP_0629;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65612.1; -; Genomic_DNA.
+DR   PIR; C71300; C71300.
+DR   ProteinModelPortal; O83637; -.
+DR   IntAct; O83637; 6.
+DR   MINT; MINT-6479249; -.
+DR   STRING; 243276.TP0629; -.
+DR   EnsemblBacteria; AAC65612; AAC65612; TP_0629.
+DR   KEGG; tpa:TP_0629; -.
+DR   PATRIC; 20531329; VBITrePal57110_0672.
+DR   eggNOG; ENOG4106URY; Bacteria.
+DR   eggNOG; ENOG410YNSS; LUCA.
+DR   OMA; FYRLEGR; -.
+DR   OrthoDB; EOG6TN43X; -.
+DR   BioCyc; TPAL243276:GC1H-668-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+PE   4: Predicted;
+KW   Complete proteome; Reference proteome.
+FT   CHAIN         1    274       Uncharacterized protein TP_0629.
+FT                                /FTId=PRO_0000202292.
+SQ   SEQUENCE   274 AA;  31272 MW;  89ACAAA4D859546D CRC64;
+     MDLGMTMAGF LRGLWCVVGT SVCAQTLQEA PAHFLLEGTD FAARVLRMSI SARNVPSYWF
+     EEGVWSEAPS ASSRLPAKNK STPGVPRRVT RALPRVKPDV FVFGNEHETV FWGQLNTIEH
+     ARYVVHRAVH PLDAHAHERY YEPLLKRFHF YCLEGRTPIT SVSLCLFALD VSTRLIWAYA
+     LPSQVEMVWG TCIPRAWIPL EMHSHVRARY PKAKFYQFDP IGFVDSEGKV VLYPWALEQH
+     AQRPQDFLVY EPQQGDWEQV ASQTGPGHSP YRAM
+//

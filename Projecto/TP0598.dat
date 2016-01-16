@@ -1,0 +1,65 @@
+ID   Y598_TREPA              Reviewed;         605 AA.
+AC   O83607;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 78.
+DE   RecName: Full=Uncharacterized protein TP_0598;
+GN   OrderedLocusNames=TP_0598;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65581.1; -; Genomic_DNA.
+DR   PIR; H71303; H71303.
+DR   RefSeq; WP_010882044.1; NC_000919.1.
+DR   ProteinModelPortal; O83607; -.
+DR   IntAct; O83607; 4.
+DR   STRING; 243276.TP0598; -.
+DR   EnsemblBacteria; AAC65581; AAC65581; TP_0598.
+DR   GeneID; 2611206; -.
+DR   KEGG; tpa:TP_0598; -.
+DR   PATRIC; 20531257; VBITrePal57110_0637.
+DR   eggNOG; ENOG4105X1A; Bacteria.
+DR   eggNOG; ENOG411246X; LUCA.
+DR   OMA; GSISWYN; -.
+DR   OrthoDB; EOG6P06TK; -.
+DR   BioCyc; TPAL243276:GC1H-636-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Gene3D; 2.130.10.10; -; 1.
+DR   InterPro; IPR011048; Haem_d1.
+DR   InterPro; IPR015943; WD40/YVTN_repeat-like_dom.
+DR   SUPFAM; SSF51004; SSF51004; 1.
+PE   4: Predicted;
+KW   Complete proteome; Reference proteome.
+FT   CHAIN         1    605       Uncharacterized protein TP_0598.
+FT                                /FTId=PRO_0000202284.
+SQ   SEQUENCE   605 AA;  66846 MW;  F027857FD2F587D1 CRC64;
+     MGCCTLGLFA DSVEKRAAKD VFTEPARFYP SQKSTLESAR SDTSESENAS SSVPSHSQQE
+     LAPDSAAPAR NSVLSPAPPE RREKQGTAVH GAEVTRAGAV SPRFVGGLTK ILAASDHTFF
+     AAGNDGFLTQ YTYPDYKPDT WQITPVSIKH CAVHPDRARI AVYETDGRNY HRVSVWNWRT
+     KEILFAKRFT ASVVSLSWIV QGSFLSVGTA SREGVTVLDG SGNTVSLFSE EPGVVLLTAS
+     GPRLVLSYAE SGRLTYVDYS KKTTVKRLLT EKNLLSPMLI HNGAHLVGYR DQRVYVIQSS
+     SGAVLTEYPA RSACFAHTFS DSLPVWIEPA ELKYHWRIRK AAQRSADFML PDNARITSAC
+     SVRTRVIVGT DRGILYELQQ GDDRRVTIRA LNGERQIYAS DVHGADEGAY FLADGSLYHS
+     MASGGPYRVL VRGVKGTRFL PYRDGFIVWS AGKETEFLHC AQKTSQHRMI YRARSTVSGV
+     SVYGRMLVIT EPFSGVSVVD IERGIRVFFH KAIGMQDSLL ITDDVIVATQ SGLQPLVLLH
+     MRTGETYTQR WEAICLGVRA HDTQHVYFFS LDTNAGTTDL IHFVCNCSNP QKVLCDASSL
+     IRMRI
+//

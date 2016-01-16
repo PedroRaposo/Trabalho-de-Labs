@@ -1,0 +1,97 @@
+ID   O83673_TREPA            Unreviewed;       555 AA.
+AC   O83673;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 103.
+DE   SubName: Full=Bifunctional phosphoribulokinase/uridine kinase {ECO:0000313|EMBL:AGN75845.1};
+DE            EC=2.7.1.19 {ECO:0000313|EMBL:AGN75845.1};
+DE            EC=2.7.1.48 {ECO:0000313|EMBL:AGN75845.1};
+DE   SubName: Full=Uridine kinase (Udk) {ECO:0000313|EMBL:AAC65638.1};
+GN   OrderedLocusNames=TP_0667 {ECO:0000313|EMBL:AAC65638.1};
+GN   ORFNames=TPANIC_0667 {ECO:0000313|EMBL:AGN75845.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65638.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65638.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65638.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75845.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75845.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65638.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75845.1; -; Genomic_DNA.
+DR   PIR; D71298; D71298.
+DR   STRING; 243276.TP0667; -.
+DR   EnsemblBacteria; AAC65638; AAC65638; TP_0667.
+DR   EnsemblBacteria; AGN75845; AGN75845; TPANIC_0667.
+DR   KEGG; tpa:TP_0667; -.
+DR   KEGG; tpw:TPANIC_0667; -.
+DR   PATRIC; 20531407; VBITrePal57110_0708.
+DR   eggNOG; COG0441; LUCA.
+DR   eggNOG; COG0572; LUCA.
+DR   eggNOG; ENOG4107RC7; Bacteria.
+DR   KO; K00876; -.
+DR   OMA; EKNIFPY; -.
+DR   OrthoDB; EOG6KDKQZ; -.
+DR   BioCyc; TPAL243276:GC1H-708-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0008974; F:phosphoribulokinase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0004849; F:uridine kinase activity; IEA:UniProtKB-EC.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   InterPro; IPR003593; AAA+_ATPase.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR006083; PRK/URK.
+DR   InterPro; IPR018163; Thr/Ala-tRNA-synth_IIc_edit.
+DR   InterPro; IPR000764; Uridine_kinase-like.
+DR   Pfam; PF00485; PRK; 1.
+DR   PRINTS; PR00988; URIDINKINASE.
+DR   SMART; SM00382; AAA; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   SUPFAM; SSF55186; SSF55186; 1.
+PE   4: Predicted;
+KW   ATP-binding {ECO:0000256|RuleBase:RU003528};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Kinase {ECO:0000256|RuleBase:RU003528, ECO:0000313|EMBL:AAC65638.1};
+KW   Nucleotide-binding {ECO:0000256|RuleBase:RU003528};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Transferase {ECO:0000256|RuleBase:RU003528,
+KW   ECO:0000313|EMBL:AAC65638.1}.
+FT   DOMAIN      287    452       AAA. {ECO:0000259|SMART:SM00382}.
+SQ   SEQUENCE   555 AA;  63001 MW;  2DCC799AE3F38C4C CRC64;
+     MGDWMGTFVV SLPGGRREKF SECVPARVLF ERFFGTESSV YGLMCNGTPV LPCQVIGADA
+     VVEPVREDTV LGAALYRRTA RLLFATAFHS VYPHVRLFAG YRVQGGYCYR TEGACADDLD
+     VSLVVRRMKA LVAQDAPIHM QYMTRREALN LFTQWNFPYS HHYILGSYRT VFLTQVLDGF
+     SALFFQPLMA SVGRLTVFEV RMCAEGCLLR FPEGGQRHII SQHNASPQFV VMYRRHRQQE
+     EQTKICSVGQ LNACIQSGDV ATCVDMAEAA HNRQIECCAT EIARRDSVRV VSIAGPSGSG
+     KTTIAKKLSV QLQVLGYDPH VISLDDYYVG IERTPCDAEG NPDFECVEAL DLPLINKLFL
+     DLLQGKRVAL PSYNFKTGKR EYRGREVQFG ERSLLIIEGI HGLNDRLISL MNRRVVFRLY
+     VSVFMHLCLD EQHRVSASDG RLLRRVVRDA QFRGISVEKT LEMWQRVRAG EERYIFPFQH
+     RADMMFNSAL VYEFAVLKRR AQEVLSTVSS ACTTYREVRN LRALLEQFCS LSDVHVPGQS
+     ILREFIGQSD FCYCL
+//

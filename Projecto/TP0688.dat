@@ -1,0 +1,81 @@
+ID   Y688_TREPA              Reviewed;         337 AA.
+AC   P96129;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   09-DEC-2015, entry version 86.
+DE   RecName: Full=Putative carboxypeptidase TP_0688;
+DE            EC=3.4.16.-;
+GN   OrderedLocusNames=TP_0688;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Nichols;
+RA   Stamm L.V., Barnes N.Y.;
+RL   Submitted (SEP-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- SIMILARITY: Belongs to the peptidase S66 family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U70661; AAB38706.1; -; Genomic_DNA.
+DR   EMBL; AE000520; AAC65657.1; -; Genomic_DNA.
+DR   PIR; E71292; E71292.
+DR   RefSeq; WP_010882133.1; NC_021490.2.
+DR   ProteinModelPortal; P96129; -.
+DR   IntAct; P96129; 12.
+DR   STRING; 243276.TP0688; -.
+DR   MEROPS; S66.003; -.
+DR   EnsemblBacteria; AAC65657; AAC65657; TP_0688.
+DR   GeneID; 2611771; -.
+DR   KEGG; tpa:TP_0688; -.
+DR   PATRIC; 20531455; VBITrePal57110_0729.
+DR   eggNOG; ENOG4105EU2; Bacteria.
+DR   eggNOG; COG1619; LUCA.
+DR   OMA; CILFIED; -.
+DR   OrthoDB; EOG6R87C6; -.
+DR   BioCyc; TPAL243276:GC1H-732-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0004180; F:carboxypeptidase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0008236; F:serine-type peptidase activity; IEA:UniProtKB-KW.
+DR   Gene3D; 3.40.50.10740; -; 1.
+DR   Gene3D; 3.50.30.60; -; 1.
+DR   InterPro; IPR027461; Carboxypeptidase_A_C.
+DR   InterPro; IPR029062; Class_I_gatase-like.
+DR   InterPro; IPR027478; LdcA_N_dom.
+DR   InterPro; IPR003507; S66_fam.
+DR   Pfam; PF02016; Peptidase_S66; 1.
+DR   PIRSF; PIRSF028757; LD-carboxypeptidase; 1.
+DR   SUPFAM; SSF141986; SSF141986; 1.
+DR   SUPFAM; SSF52317; SSF52317; 1.
+PE   3: Inferred from homology;
+KW   Carboxypeptidase; Complete proteome; Hydrolase; Protease;
+KW   Reference proteome; Serine protease.
+FT   CHAIN         1    337       Putative carboxypeptidase TP_0688.
+FT                                /FTId=PRO_0000172847.
+FT   ACT_SITE    118    118       Nucleophile. {ECO:0000250}.
+FT   ACT_SITE    234    234       Charge relay system. {ECO:0000250}.
+FT   ACT_SITE    302    302       Charge relay system. {ECO:0000250}.
+SQ   SEQUENCE   337 AA;  37958 MW;  959513EDCECE4993 CRC64;
+     MQDEGVDMKK LLLRSSDEVR VIAPSCSMRK IDSSVIERAQ ERFRCLGLNV AFGDHVYDED
+     FLGSASVDKR VADLHAAFAD KKVKLILTAI GGFNSNQLLQ HIDYALLKKN PKLLCGFSDV
+     TALLNAIHAK TGMPVFYGPH FSTFGMEKGI EFTIECFKNT FFYGRCDILA SETWSDDMWF
+     KDQEHRQFIT NPGYEIIHRG DMVGMGVGGN ISTFNLLAGT EYEPSLKKSI LFIEDTSRMS
+     ITDFDRHLEA LTQRDDFCTV RGILIGRFQK DSGIDMDMLR KIISRKKALD AIPLFANVDF
+     GHTTPHCILP IGGMIRVNVD RKCITVQLHS SVEQLPE
+//

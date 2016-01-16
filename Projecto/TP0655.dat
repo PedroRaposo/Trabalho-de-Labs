@@ -1,0 +1,86 @@
+ID   O83661_TREPA            Unreviewed;       348 AA.
+AC   O83661;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 92.
+DE   SubName: Full=Spermidine/putrescine ABC superfamily ATP binding cassette transporter, binding protein {ECO:0000313|EMBL:AGN75834.1};
+DE   SubName: Full=Spermidine/putrescine ABC transporter, periplasmic binding protein (PotD) {ECO:0000313|EMBL:AAC65630.1};
+GN   Name=potD {ECO:0000313|EMBL:AGN75834.1};
+GN   OrderedLocusNames=TP_0655 {ECO:0000313|EMBL:AAC65630.1};
+GN   ORFNames=TPANIC_0655 {ECO:0000313|EMBL:AGN75834.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65630.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AAC65630.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65630.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75834.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75834.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65630.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75834.1; -; Genomic_DNA.
+DR   PIR; H71296; H71296.
+DR   RefSeq; WP_010882100.1; NC_021490.2.
+DR   PDB; 2V84; X-ray; 1.78 A; A=25-348.
+DR   PDBsum; 2V84; -.
+DR   STRING; 243276.TP0655; -.
+DR   EnsemblBacteria; AAC65630; AAC65630; TP_0655.
+DR   EnsemblBacteria; AGN75834; AGN75834; TPANIC_0655.
+DR   GeneID; 2611153; -.
+DR   KEGG; tpa:TP_0655; -.
+DR   KEGG; tpw:TPANIC_0655; -.
+DR   PATRIC; 20531385; VBITrePal57110_0697.
+DR   eggNOG; COG0687; LUCA.
+DR   eggNOG; ENOG4108HM4; Bacteria.
+DR   KO; K11069; -.
+DR   OMA; VEYYIPK; -.
+DR   OrthoDB; EOG66XBH9; -.
+DR   BioCyc; TPAL243276:GC1H-696-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0042597; C:periplasmic space; IEA:InterPro.
+DR   GO; GO:0019808; F:polyamine binding; IEA:InterPro.
+DR   GO; GO:0015846; P:polyamine transport; IEA:InterPro.
+DR   InterPro; IPR001188; Sperm_putr-bd.
+DR   PIRSF; PIRSF019574; Periplasmic_polyamine_BP; 1.
+DR   PRINTS; PR00909; SPERMDNBNDNG.
+PE   1: Evidence at protein level;
+KW   3D-structure {ECO:0000213|PDB:2V84};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     29       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        30    348       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5005692347.
+SQ   SEQUENCE   348 AA;  39752 MW;  44ABD94E5D1F920B CRC64;
+     MKRFCVSSSR ILSLLFLSLW MGSCLQTRQD VLYLYNWTYY TPTSLIKKFE QQYNVQVVYD
+     DYASNEDMFA KLSIGASGYD LVVPSGDFVS IMKRKHLLEK IDLSKIPNVQ FIKESVRARI
+     AYDPKMEYSV PYYLGAAGIA VNKKAVPSYA RTWSIFSRKD LAYRMSMMDD MREVMGAALA
+     SLGYNVNTKN EQELAQAAIL VTDHWKPNLV KFDSDGYAKS FASGDFVVAH GFAEAFFAET
+     PEAMHEHIDF FIPQDVASPV YVDSFCIPKG ARNRDLAHAF INFFLEPAHY AEFLDTFGFP
+     STIHREAAAY QKKTPYYSEH DLERGTLKTD VGAAIEHYNA HWNAVRFR
+//

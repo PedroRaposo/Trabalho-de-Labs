@@ -1,0 +1,106 @@
+ID   MSRAB_TREPA             Reviewed;         291 AA.
+AC   O83641;
+DT   11-JAN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 108.
+DE   RecName: Full=Peptide methionine sulfoxide reductase MsrB/MsrA;
+DE   Includes:
+DE     RecName: Full=Peptide methionine sulfoxide reductase MsrB;
+DE              EC=1.8.4.12;
+DE     AltName: Full=Peptide-methionine (R)-S-oxide reductase;
+DE   Includes:
+DE     RecName: Full=Peptide methionine sulfoxide reductase MsrA;
+DE              Short=Protein-methionine-S-oxide reductase;
+DE              EC=1.8.4.11;
+DE     AltName: Full=Peptide-methionine (S)-S-oxide reductase;
+DE              Short=Peptide Met(O) reductase;
+GN   Name=msrAB; Synonyms=msrA; OrderedLocusNames=TP_0633;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Has an important function as a repair enzyme for
+CC       proteins that have been inactivated by oxidation. Catalyzes the
+CC       reversible oxidation-reduction of methionine sulfoxide in proteins
+CC       to methionine (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Peptide-L-methionine + thioredoxin disulfide +
+CC       H(2)O = peptide-L-methionine (R)-S-oxide + thioredoxin.
+CC   -!- CATALYTIC ACTIVITY: Peptide-L-methionine + thioredoxin disulfide +
+CC       H(2)O = peptide-L-methionine (S)-S-oxide + thioredoxin.
+CC   -!- CATALYTIC ACTIVITY: L-methionine + thioredoxin disulfide + H(2)O =
+CC       L-methionine (S)-S-oxide + thioredoxin.
+CC   -!- SIMILARITY: In the N-terminal section; belongs to the MsrB Met
+CC       sulfoxide reductase family. {ECO:0000305}.
+CC   -!- SIMILARITY: In the C-terminal section; belongs to the MsrA Met
+CC       sulfoxide reductase family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65608.1; -; Genomic_DNA.
+DR   PIR; G71300; G71300.
+DR   RefSeq; WP_010882079.1; NC_000919.1.
+DR   ProteinModelPortal; O83641; -.
+DR   SMR; O83641; 6-127.
+DR   STRING; 243276.TP0633; -.
+DR   EnsemblBacteria; AAC65608; AAC65608; TP_0633.
+DR   GeneID; 2611495; -.
+DR   KEGG; tpa:TP_0633; -.
+DR   PATRIC; 20531339; VBITrePal57110_0677.
+DR   eggNOG; ENOG4105E0X; Bacteria.
+DR   eggNOG; COG0225; LUCA.
+DR   eggNOG; COG0229; LUCA.
+DR   KO; K12267; -.
+DR   OMA; FWGVEYH; -.
+DR   OrthoDB; EOG6091JX; -.
+DR   BioCyc; TPAL243276:GC1H-672-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0033743; F:peptide-methionine (R)-S-oxide reductase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0008113; F:peptide-methionine (S)-S-oxide reductase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006464; P:cellular protein modification process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0030091; P:protein repair; IEA:InterPro.
+DR   GO; GO:0006979; P:response to oxidative stress; IEA:InterPro.
+DR   Gene3D; 2.170.150.20; -; 1.
+DR   Gene3D; 3.30.1060.10; -; 1.
+DR   HAMAP; MF_01401; MsrA; 1.
+DR   InterPro; IPR028427; Met_Sox_Rdtase.
+DR   InterPro; IPR002569; Met_Sox_Rdtase_MsrA.
+DR   InterPro; IPR002579; Met_Sox_Rdtase_MsrB.
+DR   InterPro; IPR011057; Mss4-like.
+DR   PANTHER; PTHR10173; PTHR10173; 1.
+DR   Pfam; PF01625; PMSR; 1.
+DR   Pfam; PF01641; SelR; 1.
+DR   SUPFAM; SSF51316; SSF51316; 1.
+DR   SUPFAM; SSF55068; SSF55068; 1.
+DR   TIGRFAMs; TIGR00401; msrA; 1.
+DR   TIGRFAMs; TIGR00357; TIGR00357; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Multifunctional enzyme; Oxidoreductase;
+KW   Reference proteome.
+FT   CHAIN         1    291       Peptide methionine sulfoxide reductase
+FT                                MsrB/MsrA.
+FT                                /FTId=PRO_0000138525.
+FT   REGION        1    124       Peptide methionine sulfoxide reductase B.
+FT   REGION      127    284       Peptide methionine sulfoxide reductase A.
+FT   ACT_SITE    113    113       {ECO:0000250}.
+FT   ACT_SITE    135    135       {ECO:0000250}.
+SQ   SEQUENCE   291 AA;  32802 MW;  3FF46CC8D37E8C15 CRC64;
+     MLANLQHLSD IQYRVTQQSA TETPFKNEFW NSYQPGFYLD VVSGELLFLS EDKFDSGCGW
+     PSFSAPAYAR AVIEKEDRTH NMLRTEVRSR NANSHLGHVF KDGPPERGGL RYCINSAALR
+     FVAREEGTAL FAAGCFWSTE AYFRRVKGVL RVRVGYTGGT TKSPTYRNVC TGTTGHAEAV
+     EILFDPQVIS YEDLLKHFFR MHDPTSLNKQ GGDVGTQYRS AIFYLSGTQK QQAETLMGRY
+     AGAGKFTRPL VTTLEEARDF YPAEEYHQDY LTKNPGGYCH VSLHLASEPL E
+//

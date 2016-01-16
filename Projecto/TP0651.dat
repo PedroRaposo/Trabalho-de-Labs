@@ -1,0 +1,87 @@
+ID   O83657_TREPA            Unreviewed;       803 AA.
+AC   O83657;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 85.
+DE   SubName: Full=Conserved hypothetical integral membrane protein {ECO:0000313|EMBL:AAC65624.1};
+GN   OrderedLocusNames=TP_0651 {ECO:0000313|EMBL:AAC65624.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65624.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65624.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65624.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65624.1; -; Genomic_DNA.
+DR   PIR; B71300; B71300.
+DR   RefSeq; WP_010882096.1; NC_000919.1.
+DR   ProteinModelPortal; O83657; -.
+DR   IntAct; O83657; 19.
+DR   STRING; 243276.TP0651; -.
+DR   EnsemblBacteria; AAC65624; AAC65624; TP_0651.
+DR   GeneID; 2611774; -.
+DR   KEGG; tpa:TP_0651; -.
+DR   PATRIC; 20531377; VBITrePal57110_0693.
+DR   eggNOG; COG1480; LUCA.
+DR   eggNOG; ENOG4105CTJ; Bacteria.
+DR   KO; K07037; -.
+DR   OMA; HIANHRE; -.
+DR   OrthoDB; EOG6VXF6V; -.
+DR   BioCyc; TPAL243276:GC1H-692-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   Gene3D; 1.10.3210.10; -; 1.
+DR   InterPro; IPR003607; HD/PDEase_dom.
+DR   InterPro; IPR006674; HD_domain.
+DR   InterPro; IPR006675; HDIG_dom.
+DR   InterPro; IPR011624; Metal-dep_PHydrolase_7TM_extra.
+DR   InterPro; IPR011621; Metal-dep_PHydrolase_7TM_intra.
+DR   Pfam; PF07698; 7TM-7TMR_HD; 1.
+DR   Pfam; PF07697; 7TMR-HDED; 1.
+DR   Pfam; PF01966; HD; 1.
+DR   SMART; SM00471; HDc; 1.
+DR   TIGRFAMs; TIGR00277; HDIG; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    365    385       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    397    416       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    428    444       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    449    466       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    500    517       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    523    545       Helical. {ECO:0000256|SAM:Phobius}.
+FT   DOMAIN      577    731       HDc. {ECO:0000259|SMART:SM00471}.
+SQ   SEQUENCE   803 AA;  88246 MW;  79F01FA9F42BEC7A CRC64;
+     MAYAVSRTSP PGARALNLAL SFVVLSIATA VSISEQHDPA RLNLADFAVG RVAERNVVSP
+     VFLSLTDELA TQRQYARRKK EIPAVFERRL DLEQAEVRAY QAFCHALQKA RVGMALDTSS
+     DGGGGAADYE EERSLHAAHD RASAHVHLLQ QKFVHFSRQT LRSLLQLDDD TFESLLRVGT
+     QVLARIFAQG VVQLSDHALK DFNPHTITIS EERPFHAPSD MSAPVASQAS AGDLPSASVP
+     LSPDASADEA ENAAGDVFSR TQAIETLIRS DQLAARVHAL ASDFGLTSQA ALLFSSLGPF
+     LRPNIVFDPI QSERHVRNAL ARLRPVTLSI HPNEIIVRRG FIVSATDYAR LQALAHSKLS
+     VDRSLLVSSL LLLAFLYLLA FFLFSKRMAH PPLKLRVELL ILYTSVAGYL CTLFLSKIAA
+     LPAPLDSIPF QPTALCIMLV TALVSHRSAV TSSFLIAFAV LIASQFHTEP TLFALLSGVS
+     ASACMRVMSS RLDIVKSSCV LAVAQPFLAA TLMFAFPHAY TDAIFLLTGV AISGFLNGIL
+     VLGLLPILEA LTNAPTVFRL MELSDLNVPI MKKMLLTVSG TYNHTMMVAT LAENACRSIG
+     AHSLLARVGA YYHDIGKMEN GEYFVENQTG DSKHLDLNPR LSATVIRSHV KLGVEKAHQL
+     RLPQEVIDII AEHHGNSLIT YFYEKARELD PNVDREDFTY PGVPPRTKES AVVMLADVVE
+     ASCRTLNKPT IPRLGKFIDK VVQQKIETHQ LDNSDLTFRD VQVVKECFVR ILAGYYHSRI
+     EYPHQRDSDQ QQLVSVAQGS YKE
+//

@@ -1,0 +1,86 @@
+ID   SYW_TREPA               Reviewed;         337 AA.
+AC   O83640;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 94.
+DE   RecName: Full=Tryptophan--tRNA ligase;
+DE            EC=6.1.1.2;
+DE   AltName: Full=Tryptophanyl-tRNA synthetase;
+DE            Short=TrpRS;
+GN   Name=trpS; Synonyms=trsA; OrderedLocusNames=TP_0632;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- CATALYTIC ACTIVITY: ATP + L-tryptophan + tRNA(Trp) = AMP +
+CC       diphosphate + L-tryptophyl-tRNA(Trp).
+CC   -!- SUBUNIT: Homodimer. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the class-I aminoacyl-tRNA synthetase
+CC       family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65607.1; -; Genomic_DNA.
+DR   PIR; F71300; F71300.
+DR   RefSeq; WP_010882078.1; NC_021490.2.
+DR   ProteinModelPortal; O83640; -.
+DR   IntAct; O83640; 2.
+DR   STRING; 243276.TP0632; -.
+DR   EnsemblBacteria; AAC65607; AAC65607; TP_0632.
+DR   GeneID; 2611479; -.
+DR   KEGG; tpa:TP_0632; -.
+DR   PATRIC; 20531337; VBITrePal57110_0676.
+DR   eggNOG; ENOG4105C31; Bacteria.
+DR   eggNOG; COG0180; LUCA.
+DR   KO; K01867; -.
+DR   OMA; WVRLQSE; -.
+DR   OrthoDB; EOG686NJQ; -.
+DR   BioCyc; TPAL243276:GC1H-671-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004830; F:tryptophan-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006436; P:tryptophanyl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.620; -; 1.
+DR   HAMAP; MF_00140_B; Trp_tRNA_synth_B; 1.
+DR   InterPro; IPR001412; aa-tRNA-synth_I_CS.
+DR   InterPro; IPR002305; aa-tRNA-synth_Ic.
+DR   InterPro; IPR014729; Rossmann-like_a/b/a_fold.
+DR   InterPro; IPR002306; Trp-tRNA-ligase.
+DR   InterPro; IPR024109; Trp-tRNA-ligase_bac-type.
+DR   PANTHER; PTHR10055; PTHR10055; 1.
+DR   Pfam; PF00579; tRNA-synt_1b; 1.
+DR   PRINTS; PR01039; TRNASYNTHTRP.
+DR   TIGRFAMs; TIGR00233; trpS; 1.
+DR   PROSITE; PS00178; AA_TRNA_LIGASE_I; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN         1    337       Tryptophan--tRNA ligase.
+FT                                /FTId=PRO_0000136701.
+FT   MOTIF        10     18       "HIGH" region.
+FT   MOTIF       195    199       "KMSKS" region.
+FT   BINDING     198    198       ATP. {ECO:0000250}.
+SQ   SEQUENCE   337 AA;  37562 MW;  75CE7018C14A166D CRC64;
+     MLRVLTGDRP TGRLHLGHYA GSLGTRLRIQ SEHECFFIIA DLHTLTTRHG RAQLAELPAL
+     VRELVLDYLA CGIDAQRAVI YLQSAVPEVT ELAFIFANLV TVPRLQRIPS LKEMAQAANL
+     SELPFGLLGY PVLQAADILL ARAHLVPVGK DNESHVELTR EVAKRFNRLY GEVFPLPRAL
+     LSDCATLVGT DGQAKMSKSL GNAIFLSDDE ETVRRKVRAM YTDPARTRAD IPGRVEGNPV
+     FAYHDAFNPN TDEVAHFKER YRAGRVGDTE VKDALARALN TFLEPIRARR AQLEQQPAYL
+     ARVLEEGCAR MRAEARKTMQ RVKEAMGLSA RPLVHLP
+//

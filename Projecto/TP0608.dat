@@ -1,0 +1,61 @@
+ID   Y608_TREPA              Reviewed;         296 AA.
+AC   O83617;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 75.
+DE   RecName: Full=Uncharacterized protein TP_0608;
+GN   OrderedLocusNames=TP_0608;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- SUBCELLULAR LOCATION: Membrane {ECO:0000305}; Single-pass membrane
+CC       protein {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65584.1; -; Genomic_DNA.
+DR   PIR; B71305; B71305.
+DR   ProteinModelPortal; O83617; -.
+DR   STRING; 243276.TP0608; -.
+DR   EnsemblBacteria; AAC65584; AAC65584; TP_0608.
+DR   KEGG; tpa:TP_0608; -.
+DR   PATRIC; 20531279; VBITrePal57110_0647.
+DR   eggNOG; ENOG4105SXG; Bacteria.
+DR   eggNOG; ENOG4111VQ0; LUCA.
+DR   OMA; VEESYLQ; -.
+DR   OrthoDB; EOG6CGCB8; -.
+DR   BioCyc; TPAL243276:GC1H-647-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   Gene3D; 1.25.10.10; -; 1.
+DR   InterPro; IPR011989; ARM-like.
+DR   InterPro; IPR016024; ARM-type_fold.
+DR   SUPFAM; SSF48371; SSF48371; 1.
+PE   4: Predicted;
+KW   Complete proteome; Membrane; Reference proteome; Transmembrane;
+KW   Transmembrane helix.
+FT   CHAIN         1    296       Uncharacterized protein TP_0608.
+FT                                /FTId=PRO_0000202287.
+FT   TRANSMEM     59     76       Helical. {ECO:0000255}.
+SQ   SEQUENCE   296 AA;  31910 MW;  D0C07235FA48DEFC CRC64;
+     MADPSACVFR SLRIPGHKPL TWCAKCSTMC PRVPCGSVSV PCAFCTISFR RKCPMQQRFF
+     LLGVCAFAFG VPVFPQQGTD PSVGAQASAG DGGMMTVEQA YLNSAEGVVI KEMVESRGHD
+     SKVLALQYIQ EALEGGRGSD DLQEALSRLA TAGLFRVIRE QGRVINDFPD IRLRACELLA
+     RLPSARTKDA LIQVMCADRE PSVVRAAVKS LGEVGINEQD ETTATIGWIS RKFSAINPTG
+     SLALEILNTY ERLAPTVRDR RAVVESIMDI AADGRYAAAV RARALEVVKG VVSGGK
+//

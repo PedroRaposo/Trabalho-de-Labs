@@ -1,0 +1,69 @@
+ID   O83629_TREPA            Unreviewed;       609 AA.
+AC   O83629;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 64.
+DE   SubName: Full=Tpr protein I (TprI) {ECO:0000313|EMBL:AAC65594.1};
+GN   OrderedLocusNames=TP_0620 {ECO:0000313|EMBL:AAC65594.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65594.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65594.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65594.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65594.1; -; Genomic_DNA.
+DR   PIR; E71301; E71301.
+DR   RefSeq; WP_010882066.1; NC_000919.1.
+DR   ProteinModelPortal; O83629; -.
+DR   IntAct; O83629; 1.
+DR   STRING; 243276.TP0620; -.
+DR   EnsemblBacteria; AAC65594; AAC65594; TP_0620.
+DR   GeneID; 2611656; -.
+DR   KEGG; tpa:TP_0620; -.
+DR   PATRIC; 20531307; VBITrePal57110_0661.
+DR   OMA; MWSERYF; -.
+DR   OrthoDB; EOG6S52V2; -.
+DR   BioCyc; TPAL243276:GC1H-659-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   InterPro; IPR003872; MOSP_C.
+DR   InterPro; IPR003857; MOSP_N.
+DR   Pfam; PF02722; MOSP_C; 1.
+DR   Pfam; PF02707; MOSP_N; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Signal {ECO:0000256|SAM:SignalP}.
+FT   SIGNAL        1     22       {ECO:0000256|SAM:SignalP}.
+FT   CHAIN        23    609       {ECO:0000256|SAM:SignalP}.
+FT                                /FTId=PRO_5004160545.
+FT   DOMAIN       84    278       MOSP_N. {ECO:0000259|Pfam:PF02707}.
+FT   DOMAIN      411    609       MOSP_C. {ECO:0000259|Pfam:PF02722}.
+SQ   SEQUENCE   609 AA;  66511 MW;  AB9A0DFE27859235 CRC64;
+     MGRQVMQAGV LAGMVCAASG YAGVLTPQVS GTAQLQWGIA FQKNPRTGPG KHTHGFRTTN
+     SLTISLPLVS KHTHTRRGEA RSGVWAQLQL KDLAVELASS KSSTALSFTK XTASFQATLH
+     CYGAYLTVGT SPSCVVNFAQ LWKPFVTRAY SEKDTRYAPG FSGSGAKLGY QAHNVGNSGV
+     DVDIGFLSFL SNGAWDSTDT THSKYGFGAD ATLSYGVDRQ RLLTLELAGN ATLEQHYRKG
+     TEDSTNENKT ALLWGVGGRL TLEPGAGFRF SFALDAGNQH QDPADAGNRL LATGSSREKF
+     DSAFDALRVE QYRVKDKYLE FLLGQMAESS ILERVGLALT LQDGTLVSTL TKVATDSGDR
+     FIQMALVKLL PQRAQAEQRL QEIVAPSQSD IVLIMLLTWL ERARLDRFNA DALLTAQWTY
+     VSAGLYGATA GTNVFGKRVL PALRSWHFDF AGFLKLETKS GDPYTHLLTG LNAGVEARVY
+     IPLTYIRYRN NGGYELNGAV PPGTINMPIL GKAWCSYRIP LGSHAWLTPH TSVLGTTNRF
+     NVINPAYTLL NERALQYQVG LTFSPFEKVE LSAQWEQGVL ADAPYMGIAE SMWSERYFGT
+     FICGVKVVW
+//

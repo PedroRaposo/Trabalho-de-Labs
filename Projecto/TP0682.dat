@@ -1,0 +1,96 @@
+ID   RLME_TREPA              Reviewed;         200 AA.
+AC   O83687;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 92.
+DE   RecName: Full=Ribosomal RNA large subunit methyltransferase E {ECO:0000255|HAMAP-Rule:MF_01547};
+DE            EC=2.1.1.166 {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=23S rRNA Um2552 methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+DE   AltName: Full=rRNA (uridine-2\''-O-)-methyltransferase {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Name=rlmE {ECO:0000255|HAMAP-Rule:MF_01547};
+GN   Synonyms=ftsJ {ECO:0000255|HAMAP-Rule:MF_01547},
+GN   rrmJ {ECO:0000255|HAMAP-Rule:MF_01547}; OrderedLocusNames=TP_0682;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Specifically methylates the uridine in position 2552 of
+CC       23S rRNA at the 2\''-O position of the ribose in the fully assembled
+CC       50S ribosomal subunit. {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- CATALYTIC ACTIVITY: S-adenosyl-L-methionine + uridine(2552) in 23S
+CC       rRNA = S-adenosyl-L-homocysteine + 2\''-O-methyluridine(2552) in 23S
+CC       rRNA. {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -!- SIMILARITY: Belongs to the class I-like SAM-binding
+CC       methyltransferase superfamily. RNA methyltransferase RlmE family.
+CC       {ECO:0000255|HAMAP-Rule:MF_01547}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65645.1; -; Genomic_DNA.
+DR   PIR; B71295; B71295.
+DR   RefSeq; WP_010882127.1; NC_021490.2.
+DR   ProteinModelPortal; O83687; -.
+DR   STRING; 243276.TP0682; -.
+DR   EnsemblBacteria; AAC65645; AAC65645; TP_0682.
+DR   GeneID; 2611272; -.
+DR   KEGG; tpa:TP_0682; -.
+DR   PATRIC; 20531443; VBITrePal57110_0723.
+DR   eggNOG; ENOG4105F7M; Bacteria.
+DR   eggNOG; COG0293; LUCA.
+DR   KO; K02427; -.
+DR   OMA; YRSRAVY; -.
+DR   OrthoDB; EOG657JC0; -.
+DR   BioCyc; TPAL243276:GC1H-726-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0008650; F:rRNA (uridine-2\''-O-)-methyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.150; -; 1.
+DR   HAMAP; MF_01547; RNA_methyltr_E; 1.
+DR   InterPro; IPR015507; rRNA-MeTfrase_E.
+DR   InterPro; IPR002877; rRNA_MeTrfase_FtsJ_dom.
+DR   InterPro; IPR029063; SAM-dependent_MTases.
+DR   PANTHER; PTHR10920; PTHR10920; 1.
+DR   Pfam; PF01728; FtsJ; 1.
+DR   PIRSF; PIRSF005461; 23S_rRNA_mtase; 1.
+DR   SUPFAM; SSF53335; SSF53335; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Methyltransferase; Reference proteome;
+KW   rRNA processing; S-adenosyl-L-methionine; Transferase.
+FT   CHAIN         1    200       Ribosomal RNA large subunit
+FT                                methyltransferase E.
+FT                                /FTId=PRO_0000155545.
+FT   ACT_SITE    151    151       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01547}.
+FT   BINDING      51     51       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01547}.
+FT   BINDING      53     53       S-adenosyl-L-methionine; via amide
+FT                                nitrogen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_01547}.
+FT   BINDING      71     71       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01547}.
+FT   BINDING      90     90       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01547}.
+FT   BINDING     112    112       S-adenosyl-L-methionine.
+FT                                {ECO:0000255|HAMAP-Rule:MF_01547}.
+SQ   SEQUENCE   200 AA;  21318 MW;  BE3F15687CD02B5A CRC64;
+     MNVYKRADFW AKKAAAAGYR ARSVYKLAAL DKKYSLLSRA SRVLDLGAAP GSWTQYVLGT
+     AAACTAVCAV DVQPIASDIQ DARLQRVQGD LCAADTRARV ACNAPFDLIL SDAAPRTTGN
+     RTVDTSASAC LAAGVCAYVN FLSSDGGLVF KVFQGSEHLA ILTHLRAHFG AVCSFKPPAS
+     RPRSCELYVV ARFFRGTCGK
+//

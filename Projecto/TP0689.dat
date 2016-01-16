@@ -1,0 +1,106 @@
+ID   DER_TREPA               Reviewed;         460 AA.
+AC   P96128;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-MAY-1997, sequence version 1.
+DT   09-DEC-2015, entry version 107.
+DE   RecName: Full=GTPase Der {ECO:0000255|HAMAP-Rule:MF_00195};
+DE   AltName: Full=GTP-binding protein EngA {ECO:0000255|HAMAP-Rule:MF_00195};
+GN   Name=der {ECO:0000255|HAMAP-Rule:MF_00195}; Synonyms=engA;
+GN   OrderedLocusNames=TP_0689;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RC   STRAIN=Nichols;
+RA   Stamm L.V., Barnes N.Y.;
+RL   Submitted (SEP-1996) to the EMBL/GenBank/DDBJ databases.
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: GTPase that plays an essential role in the late steps of
+CC       ribosome biogenesis. {ECO:0000255|HAMAP-Rule:MF_00195}.
+CC   -!- SUBUNIT: Associates with the 50S ribosomal subunit.
+CC       {ECO:0000255|HAMAP-Rule:MF_00195}.
+CC   -!- SIMILARITY: Belongs to the TRAFAC class TrmE-Era-EngA-EngB-Septin-
+CC       like GTPase superfamily. EngA (Der) GTPase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00195}.
+CC   -!- SIMILARITY: Contains 2 EngA-type G (guanine nucleotide-binding)
+CC       domains. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 KH-like domain. {ECO:0000255|HAMAP-
+CC       Rule:MF_00195}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; U70661; AAB38705.1; -; Genomic_DNA.
+DR   EMBL; AE000520; AAC65658.1; -; Genomic_DNA.
+DR   PIR; F71292; F71292.
+DR   RefSeq; WP_010882134.1; NC_021490.2.
+DR   ProteinModelPortal; P96128; -.
+DR   STRING; 243276.TP0689; -.
+DR   EnsemblBacteria; AAC65658; AAC65658; TP_0689.
+DR   GeneID; 2611772; -.
+DR   KEGG; tpa:TP_0689; -.
+DR   PATRIC; 20531457; VBITrePal57110_0730.
+DR   eggNOG; ENOG4105DKZ; Bacteria.
+DR   eggNOG; COG1160; LUCA.
+DR   KO; K03977; -.
+DR   OMA; WDIRYAP; -.
+DR   OrthoDB; EOG6DC6K1; -.
+DR   BioCyc; TPAL243276:GC1H-733-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005525; F:GTP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0042254; P:ribosome biogenesis; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.300.20; -; 1.
+DR   Gene3D; 3.40.50.300; -; 2.
+DR   HAMAP; MF_00195; GTPase_Der; 1.
+DR   InterPro; IPR031166; G_ENGA.
+DR   InterPro; IPR016484; GTP-bd_EngA.
+DR   InterPro; IPR006073; GTP_binding_domain.
+DR   InterPro; IPR015946; KH_dom-like_a/b.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR005225; Small_GTP-bd_dom.
+DR   Pfam; PF01926; MMR_HSR1; 2.
+DR   PIRSF; PIRSF006485; GTP-binding_EngA; 1.
+DR   PRINTS; PR00326; GTP1OBG.
+DR   SUPFAM; SSF52540; SSF52540; 2.
+DR   TIGRFAMs; TIGR03594; GTPase_EngA; 1.
+DR   TIGRFAMs; TIGR00231; small_GTP; 2.
+DR   PROSITE; PS51712; G_ENGA; 2.
+PE   3: Inferred from homology;
+KW   Complete proteome; GTP-binding; Nucleotide-binding;
+KW   Reference proteome; Repeat; Ribosome biogenesis.
+FT   CHAIN         1    460       GTPase Der.
+FT                                /FTId=PRO_0000179066.
+FT   DOMAIN       21    187       EngA-type G 1.
+FT   DOMAIN      198    373       EngA-type G 2.
+FT   DOMAIN      374    457       KH-like. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00195}.
+FT   NP_BIND      27     34       GTP 1. {ECO:0000255|HAMAP-Rule:MF_00195}.
+FT   NP_BIND      74     78       GTP 1. {ECO:0000255|HAMAP-Rule:MF_00195}.
+FT   NP_BIND     141    144       GTP 1. {ECO:0000255|HAMAP-Rule:MF_00195}.
+FT   NP_BIND     204    211       GTP 2. {ECO:0000255|HAMAP-Rule:MF_00195}.
+FT   NP_BIND     251    255       GTP 2. {ECO:0000255|HAMAP-Rule:MF_00195}.
+FT   NP_BIND     316    319       GTP 2. {ECO:0000255|HAMAP-Rule:MF_00195}.
+SQ   SEQUENCE   460 AA;  52121 MW;  A2E191853D520A78 CRC64;
+     MKGQDVILCD GGRHFSYKVL PRVVIVGRPN VGKSTLFNRL LGRRRSITSN TSGVTRDSIE
+     ETVILRGFPL RLVDTSGFTV FSEKKASRQH IDTLVLEQTY KSIQCADKIL LVLDGTCESA
+     EDEEVIQYLR PYWGKLIAAV NKTEGGEEVH YNYARYGFST LICVSAEHGR NIDALERAII
+     QNLFSVDERR ELPKDDVVRL AIVGKPNTGK STLMNYLMRR TVSLVCDRAG TTRDVVTGHV
+     EFKQYKFIIA DTAGIRKRQK VYESIEYYSV IRAISILNAV DIVLYIVDAR DGFSEQDKKI
+     VSQISKRNLG VIFLLNKWDL LEGSTSLIAK KKRDVRTAFG KMNFVPVVPV SAKTGHGISD
+     ALHCVCKIFA QLNTKVETSA LNTALKDWVT SYPPPRKYGH VSLKYLVQVS VRPIEFLLFA
+     NRPDRIPENY VRFLQNRIRE DLGLDSIPVK LTIRKNCRKR
+//
