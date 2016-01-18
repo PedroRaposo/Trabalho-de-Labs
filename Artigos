@@ -20,11 +20,15 @@ for row in record["eGQueryResult"]:
 
 handle2 = Entrez.esearch(db="pubmed", term="Treponema pallidum subsp. pallidum", retmax=159)
 record2 = Entrez.read(handle2)
-idlist = record2["IdList"] # cria lista com IDs dos artigos
-#print(idlist)
+IdList = record2["IdList"] # cria lista com IDs dos artigos
+print(IdList)
+IdList20 = record2["IdList"][:20]
+print(IdList20) # cria lista com IDs dos 20 primeiros artigos
+
+
 
 from Bio import Medline
-handle3 = Entrez.efetch(db="pubmed", id=idlist, rettype="medline",
+handle3 = Entrez.efetch(db="pubmed", id=IdList20, rettype="medline",
                            retmode="text")
 records = Medline.parse(handle3)
 records = list(records)
@@ -34,11 +38,13 @@ for record in records:
     print("Title:", record.get("TI", "?"))
     print("Authors:", record.get("AU", "?"))
     print("Source:", record.get("SO", "?"))
-    print ("")
+    print("")
     
-filename = "lista_pubmed.txt"
+    
+filename = "pubmed_lista.txt"
 save_file = open(filename, "w")
 for line in records:
-    save_file.write(str(records))
+    save_file.write(str(line))
 save_file.close()
+
 
