@@ -40,7 +40,11 @@ if __name__ == '__main__':
     #print only rna retaded genes
     #data.printRNA()
     #print only CDS
-    data.printCDS()
+    #data.printCDS()
+    #print only repeat resgions
+    #data.printRepRegion()
+    #print CDS tofile
+    data.CDStoFile()
     
     
 

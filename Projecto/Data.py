@@ -163,6 +163,28 @@ class Data:
             print(cds)
             print()
             indice+=1
+            
+    def printRepRegion(self):
+        indice =0
+        for r in self.repList:
+            print("GENE number ",indice,": ")
+            print(r)
+            print()
+            indice+=1
+            
+    def CDStoFile(self):
+        indice = 1
+        
+        with open("CDSinfo.txt", "w") as text_file:
+            for cds in self.cdsList:
+                n="CDS num :"+str(indice)
+                print(n, file=text_file)
+                print(cds, file=text_file)
+                print("-------------------------------------------------------",file=text_file)
+                print("",file=text_file)
+                indice+=1
+        #text_file.close()
+        
         
         
             

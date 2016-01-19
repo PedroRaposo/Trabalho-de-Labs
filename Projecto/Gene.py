@@ -34,7 +34,10 @@ class MyRep:
         self.strand = strand
         self.location=location
         self.seq=seq
-
+        
+    def __str__(self):
+        res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location + "\n Seq: " + self.seq
+        return res        
 
 class MyTRNA:
      def __init__(self,typeG,strand,location,locus_tag,old_locus_tag,geneID,product,anticodon,seq):
