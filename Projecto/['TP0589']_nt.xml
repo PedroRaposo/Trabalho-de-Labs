@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3641</BlastOutput_query-ID>
+  <BlastOutput_query-def>[&apos;TP0589&apos;]</BlastOutput_query-def>
+  <BlastOutput_query-len>267</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_3641</Iteration_query-ID>
+  <Iteration_query-def>[&apos;TP0589&apos;]</Iteration_query-def>
+  <Iteration_query-len>267</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|742686725|gb|CP007548.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. endemicum str. Bosnia A genome</Hit_def>
+  <Hit_accession>CP007548</Hit_accession>
+  <Hit_len>1137653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>640284</Hsp_hit-from>
+      <Hsp_hit-to>640550</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|601116384|gb|CP003679.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum str. Sea 81-4, complete genome</Hit_def>
+  <Hit_accession>CP003679</Hit_accession>
+  <Hit_len>1139203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>641885</Hsp_hit-from>
+      <Hsp_hit-to>642151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|520750339|gb|CP004010.2|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum str. Nichols, complete genome</Hit_def>
+  <Hit_accession>CP004010</Hit_accession>
+  <Hit_len>1139633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642299</Hsp_hit-from>
+      <Hsp_hit-to>642565</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|511533127|gb|CP004011.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum SS14, complete genome</Hit_def>
+  <Hit_accession>CP004011</Hit_accession>
+  <Hit_len>1139569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642182</Hsp_hit-from>
+      <Hsp_hit-to>642448</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|485593303|gb|CP003902.1|</Hit_id>
+  <Hit_def>Treponema pallidum str. Fribourg-Blanc, complete genome</Hit_def>
+  <Hit_accession>CP003902</Hit_accession>
+  <Hit_len>1140481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>643016</Hsp_hit-from>
+      <Hsp_hit-to>643282</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|408475275|gb|CP003064.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum str. Mexico A, complete genome</Hit_def>
+  <Hit_accession>CP003064</Hit_accession>
+  <Hit_len>1140038</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642678</Hsp_hit-from>
+      <Hsp_hit-to>642944</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|374680031|gb|CP003115.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum DAL-1, complete genome</Hit_def>
+  <Hit_accession>CP003115</Hit_accession>
+  <Hit_len>1139971</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642641</Hsp_hit-from>
+      <Hsp_hit-to>642907</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|374678962|gb|CP002376.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pertenue str. Gauthier, complete genome</Hit_def>
+  <Hit_accession>CP002376</Hit_accession>
+  <Hit_len>1139417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642783</Hsp_hit-from>
+      <Hsp_hit-to>643049</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|374677893|gb|CP002375.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pertenue str. CDC2, complete genome</Hit_def>
+  <Hit_accession>CP002375</Hit_accession>
+  <Hit_len>1139744</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642749</Hsp_hit-from>
+      <Hsp_hit-to>643015</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|374676824|gb|CP002374.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pertenue str. SamoaD, complete genome</Hit_def>
+  <Hit_accession>CP002374</Hit_accession>
+  <Hit_len>1139330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642295</Hsp_hit-from>
+      <Hsp_hit-to>642561</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|335344043|gb|CP002103.1|</Hit_id>
+  <Hit_def>Treponema paraluiscuniculi Cuniculi A, complete genome</Hit_def>
+  <Hit_accession>CP002103</Hit_accession>
+  <Hit_len>1133390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>638182</Hsp_hit-from>
+      <Hsp_hit-to>638448</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|291059420|gb|CP001752.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum str. Chicago, complete genome</Hit_def>
+  <Hit_accession>CP001752</Hit_accession>
+  <Hit_len>1139281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>641948</Hsp_hit-from>
+      <Hsp_hit-to>642214</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|189017811|gb|CP000805.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum SS14, complete genome</Hit_def>
+  <Hit_accession>CP000805</Hit_accession>
+  <Hit_len>1139457</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>642155</Hsp_hit-from>
+      <Hsp_hit-to>642421</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|6626258|gb|AE000520.1|</Hit_id>
+  <Hit_def>Treponema pallidum subsp. pallidum str. Nichols complete genome</Hit_def>
+  <Hit_accession>AE000520</Hit_accession>
+  <Hit_len>1138011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>482.786</Hsp_bit-score>
+      <Hsp_score>534</Hsp_score>
+      <Hsp_evalue>1.17404e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>640705</Hsp_hit-from>
+      <Hsp_hit-to>640971</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>267</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_qseq>
+      <Hsp_hseq>TTACTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTCTACAACCAACTCGAGCTCACTTCCACACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCACGCGCACCGTTTTTACGACCAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|719625061|gb|CP009227.1|</Hit_id>
+  <Hit_def>Treponema sp. OMZ 838, complete genome</Hit_def>
+  <Hit_accession>CP009227</Hit_accession>
+  <Hit_len>2708067</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.4042</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.03534e-06</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>733305</Hsp_hit-from>
+      <Hsp_hit-to>733452</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ACCCTGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATTAAGCAC</Hsp_qseq>
+      <Hsp_hseq>ACCCCGCTGCCATTGTCATTACACCCATAATGGATTTTGCATTGACGGTAAGGCTTCCTCTTTCAAACATAATATTCGACTGGAACTTGTTTGCCGTTTGTACAATCAACGATGAGGGACGCGCATGGATGCCGGCGCGATTTTGCAC</Hsp_hseq>
+      <Hsp_midline>|||| || ||||| | ||| ||||||||||| || |||||||| ||  | |   |  | |   ||| ||| || ||||| |  ||     |||||| ||| ||||| | ||  |  ||||||||||| | ||| || |||||  ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|831185332|gb|CP009687.1|</Hit_id>
+  <Hit_def>Clostridium aceticum strain DSM 1496, complete genome</Hit_def>
+  <Hit_accession>CP009687</Hit_accession>
+  <Hit_len>4201318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.0228049</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1476953</Hsp_hit-from>
+      <Hsp_hit-to>1476912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>TGCAGCCATAGCCATAACACCCATAATAGACTTTGCATTCAC</Hsp_qseq>
+      <Hsp_hseq>TGCAGCCATAGCCATAAGTCCCATAATACTTTTTGCATTTAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||  |||||||||   |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|753369882|gb|CP009692.1|</Hit_id>
+  <Hit_def>Bacillus mycoides strain ATCC 6462, complete genome</Hit_def>
+  <Hit_accession>CP009692</Hit_accession>
+  <Hit_len>5255868</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.0228049</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>894137</Hsp_hit-from>
+      <Hsp_hit-to>894021</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>CATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCC</Hsp_qseq>
+      <Hsp_hseq>CATAATCCCCATTATGCTCTTTGCATTCACTGTCTTTCCATCTTTCTCGATGAAGATATCCGCATGAAAGCGATTTGCCTCTTGTACAAACAACGCAGCCGGACGTGCTTGTAAGCC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||| ||   ||||||||||||| |  |   |||   | | |  |  || | || || ||||||| ||||| |||| ||||  | ||| || ||||| || |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|719642273|gb|CP009746.1|</Hit_id>
+  <Hit_def>Bacillus weihenstephanensis strain WSBC 10204, complete genome</Hit_def>
+  <Hit_accession>CP009746</Hit_accession>
+  <Hit_len>5608349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.0228049</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>4412559</Hsp_hit-from>
+      <Hsp_hit-to>4412443</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>CATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCC</Hsp_qseq>
+      <Hsp_hseq>CATAATCCCCATTATGCTCTTTGCATTCACTGTCTTTCCATCTTTCTCGATGAAGATATCCGCATGAAAGCGATTTGCCTCTTGTACAAACAACGCAGCCGGACGTGCTTGTAAGCC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||| ||   ||||||||||||| |  |   |||   | | |  |  || | || || ||||||| ||||| |||| ||||  | ||| || ||||| || |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|163860210|gb|CP000903.1|</Hit_id>
+  <Hit_def>Bacillus weihenstephanensis KBAB4, complete genome</Hit_def>
+  <Hit_accession>CP000903</Hit_accession>
+  <Hit_len>5262775</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.9773</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.0228049</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>4907011</Hsp_hit-from>
+      <Hsp_hit-to>4907127</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>CATAACACCCATAATAGACTTTGCATTCACTCTGATCGTATCCCGCACAAGCATTATCTTCGAATCAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCC</Hsp_qseq>
+      <Hsp_hseq>CATAATCCCCATTATGCTCTTTGCATTCACTGTCTTTCCATCTTTCTCGATGAAGATATCCGCATGAAAGCGATTTGCCTCTTGTACAAACAACGCAGCCGGACGTGCTTGTAAGCC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||| ||   ||||||||||||| |  |   |||   | | |  |  || | || || ||||||| ||||| |||| ||||  | ||| || ||||| || |||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|655550757|gb|CP003923.1|</Hit_id>
+  <Hit_def>Bacillus lehensis G1, complete genome</Hit_def>
+  <Hit_accession>CP003923</Hit_accession>
+  <Hit_len>3993073</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1739</Hsp_bit-score>
+      <Hsp_score>52</Hsp_score>
+      <Hsp_evalue>0.0795969</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>2889323</Hsp_hit-from>
+      <Hsp_hit-to>2889376</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>CAAAGCGACTTGCCGCTTGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCG</Hsp_qseq>
+      <Hsp_hseq>CAAAACGATTTGCCTCTTGTACAAACAGTGCCGCAGGACGTGCTTGCAAGCCCG</Hsp_hseq>
+      <Hsp_midline>|||| ||| ||||| |||| ||||  || ||||||||||| || || | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|764027052|gb|CP010578.1|</Hit_id>
+  <Hit_def>Bacillus thuringiensis serovar morrisoni strain BGSC 4AA1 plasmid pBMB232, complete sequence</Hit_def>
+  <Hit_accession>CP010578</Hit_accession>
+  <Hit_len>232994</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.3705</Hsp_bit-score>
+      <Hsp_score>50</Hsp_score>
+      <Hsp_evalue>0.27782</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>53854</Hsp_hit-from>
+      <Hsp_hit-to>53886</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>GCCATAACACCCATAATAGACTTTGCATTCACT</Hsp_qseq>
+      <Hsp_hseq>GCCATAACACCCATAATAGATTTTAAATTCACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| |||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|840012197|emb|LK064669.1|</Hit_id>
+  <Hit_def>Apteryx australis mantelli genome assembly AptMant0, scaffold scaffold19</Hit_def>
+  <Hit_accession>LK064669</Hit_accession>
+  <Hit_len>16422433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.969688</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>13720657</Hsp_hit-from>
+      <Hsp_hit-to>13720693</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CAATGGCGGACAATGCAGCAACTTCGTCTGGACCTTC</Hsp_qseq>
+      <Hsp_hseq>CAATGGGGGACAATGCAGCAAATTCTTCTTGACTTTC</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||||| ||| ||| ||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|308824094|emb|FP565809.1|</Hit_id>
+  <Hit_def>Clostridium sticklandii str. DSM 519 chromosome, complete genome</Hit_def>
+  <Hit_accession>FP565809</Hit_accession>
+  <Hit_len>2715461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.969688</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1788573</Hsp_hit-from>
+      <Hsp_hit-to>1788609</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>CCATAGCCATAACACCCATAATAGACTTTGCATTCAC</Hsp_qseq>
+      <Hsp_hseq>CCATAGCCATAACTCCCATTATTGACTTTGCGTTTAC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| ||||| || |||||||| || ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|301633733|gb|CP002116.1|</Hit_id>
+  <Hit_def>Spirochaeta smaragdinae DSM 11293, complete genome</Hit_def>
+  <Hit_accession>CP002116</Hit_accession>
+  <Hit_len>4653970</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.5672</Hsp_bit-score>
+      <Hsp_score>48</Hsp_score>
+      <Hsp_evalue>0.969688</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>4380119</Hsp_hit-from>
+      <Hsp_hit-to>4380076</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>TGCACAATAAGCGCCGCAGGACGCGCATGTACGCCCGCACGATT</Hsp_qseq>
+      <Hsp_hseq>TGCACAATAAGGGCCGCCGGCCGTGCATGAATTCCCGCACGGTT</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||| || || ||||| |  |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|953254167|emb|LN854573.1|</Hit_id>
+  <Hit_def>Pseudomonas sp. URMO17WK12:I11 genome assembly Shine, chromosome : 1</Hit_def>
+  <Hit_accession>LN854573</Hit_accession>
+  <Hit_len>6374437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>3.38455</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1810340</Hsp_hit-from>
+      <Hsp_hit-to>1810315</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>AATAAGCGCCGCAGGACGCGCATGTA</Hsp_qseq>
+      <Hsp_hseq>AATCAGCGCCGCAGGACGCGCATGTA</Hsp_hseq>
+      <Hsp_midline>||| ||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|918602891|ref|XR_001234690.1|</Hit_id>
+  <Hit_def>PREDICTED: Chinchilla lanigera uncharacterized LOC106148922 (LOC106148922), ncRNA</Hit_def>
+  <Hit_accession>XR_001234690</Hit_accession>
+  <Hit_len>5121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>3.38455</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>1467</Hsp_hit-from>
+      <Hsp_hit-to>1506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>TACAACCAACT-CGAGCTCACTTCCACACCCTGCAGCCAT</Hsp_qseq>
+      <Hsp_hseq>TACATCCATCTTCCAGCTCTCTTCCACAGCCTGCAGCCAT</Hsp_hseq>
+      <Hsp_midline>|||| ||| || | ||||| |||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|762131157|ref|XM_011450434.1|</Hit_id>
+  <Hit_def>PREDICTED: Crassostrea gigas TGF-beta-activated kinase 1 and MAP3K7-binding protein 3-like (LOC105343186), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_011450434</Hit_accession>
+  <Hit_len>2858</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>3.38455</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>10</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>TATTCTGAAATAGCCGCTC-AATGGCGGACAATGC</Hsp_qseq>
+      <Hsp_hseq>TATTCTGAAATATTCGTTCTAATGGCGGACAATGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||  || || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|762131155|ref|XM_011450433.1|</Hit_id>
+  <Hit_def>PREDICTED: Crassostrea gigas TGF-beta-activated kinase 1 and MAP3K7-binding protein 3-like (LOC105343186), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_011450433</Hit_accession>
+  <Hit_len>2667</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>3.38455</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>10</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>TATTCTGAAATAGCCGCTC-AATGGCGGACAATGC</Hsp_qseq>
+      <Hsp_hseq>TATTCTGAAATATTCGTTCTAATGGCGGACAATGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||  || || |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|753356293|gb|CP009368.1|</Hit_id>
+  <Hit_def>Bacillus cereus strain FM1 plasmid, complete sequence</Hit_def>
+  <Hit_accession>CP009368</Hit_accession>
+  <Hit_len>402605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>3.38455</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>397533</Hsp_hit-from>
+      <Hsp_hit-to>397565</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>GCCATAACACCCATAATAGACTTTGCATTCACT</Hsp_qseq>
+      <Hsp_hseq>GCCATAATACCCATAATAGATTTTAAATTCACT</Hsp_hseq>
+      <Hsp_midline>||||||| |||||||||||| |||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|310943164|gb|CP002280.1|</Hit_id>
+  <Hit_def>Rothia dentocariosa ATCC 17931, complete genome</Hit_def>
+  <Hit_accession>CP002280</Hit_accession>
+  <Hit_len>2506025</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>3.38455</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>966694</Hsp_hit-from>
+      <Hsp_hit-to>966726</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>CTCTTCCTCGAATTTATTCTGAAATAGCCGCTCAA</Hsp_qseq>
+      <Hsp_hseq>CTCTTCCTCGAATTTCTTCTG--ATAGTCGCTCAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| |||||  |||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|157886369|emb|CU407187.7|</Hit_id>
+  <Hit_def>Pig DNA sequence from clone CH242-277B4 on chromosome 5, complete sequence</Hit_def>
+  <Hit_accession>CU407187</Hit_accession>
+  <Hit_len>184540</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.7638</Hsp_bit-score>
+      <Hsp_score>46</Hsp_score>
+      <Hsp_evalue>3.38455</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>110747</Hsp_hit-from>
+      <Hsp_hit-to>110772</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>26</Hsp_align-len>
+      <Hsp_qseq>ACTTCCACACCCTGCAGCCATAGCCA</Hsp_qseq>
+      <Hsp_hseq>ACTTCCACACACTGCAGCCATAGCCA</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>34454334</Statistics_db-num>
+      <Statistics_db-len>110653833256</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

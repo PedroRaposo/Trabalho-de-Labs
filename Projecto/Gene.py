@@ -90,6 +90,7 @@ class MyCDS:
         self.review=""
         self.goList=[]
         self.uniprotSearch(up)
+        self.blast()
         
     def __str__(self):
          uniprotInfo=""
@@ -168,6 +169,7 @@ class MyCDS:
                 #store List of the accession numbers, e.g. [‘P00321’]                 
                 self.prot_accessions = record.accessions
                 #store versified information
+                
                 for comment in record.comments:
                     if(comment.find("FUNCTION:")>=0):
                         self.function+=comment
@@ -198,39 +200,52 @@ class MyCDS:
                 
                 
         
-    def blast(self,update=0,database="nt"):
+    def blast(self,update=0,databaseP="pdb",database="nt"):
         header = ">"+self.old_locus_tag
         name= self.old_locus_tag+".fasta"
-        tag = re.search("[^\['].+[^\]']",self.db_xref)
-        prot= tag.group().replace(":","-")
+        prot= self.geneID
         nameProt= prot+"_prot.fasta"
         headerProt= ">"+prot
         #save seqs as fasta--------------------------------
         #seq nucl
-        if(update==1):
-            with open(name, "w") as text_file:
-                print(header, file=text_file)
-                print(self.seq,file=text_file)
+
+        with open(name, "w") as text_file:
+            print(header, file=text_file)
+            print(self.seq,file=text_file)
         #seq prot
-            if(self.translation!=None):
-                translation= re.search("[^\['].+[^\]']" , self.translation).group()
-                with open(nameProt, "w") as text_file:
-                    print(headerProt, file=text_file)
-                    print(translation,file=text_file)
+        if(self.translation!=None):
+            #translation= re.search("[^\['].+[^\]']" , self.translation).group()
+            with open(nameProt, "w") as text_file:
+                print(headerProt, file=text_file)
+                print(self.translation,file=text_file)
         
         #blast-----------------------------------------
         
-        #record=SeqIO.read(open(name), format="fasta")
+        record=SeqIO.read(open(name), format="fasta")
 
-        #result_handle=NCBIWWW.qblast("blastn", database, record.format("fasta"))
+        result_handle=NCBIWWW.qblast("blastn", database, record.format("fasta"))
         
-        #save_file = open(self.old_locus_tag+"_"+database+".xml", "w")
-        #save_file.write(result_handle.read())
-        #save_file.close()
-        #result_handle.close()
+        save_file = open(self.old_locus_tag+"_"+database+".xml", "w")
+        save_file.write(result_handle.read())
+        save_file.close()
+        result_handle.close()
+        
+        #blast prot
+        record=SeqIO.read(open(nameProt), format="fasta")
+
+        result_handle=NCBIWWW.qblast("blastp", databaseP, record.format("fasta"))
+        
+        save_file = open(prot+"_"+database+".xml", "w")
+        save_file.write(result_handle.read())
+        save_file.close()
+        result_handle.close()
+        
         #open XML-------------------------------------------------
-        
-        result_handle = open(self.old_locus_tag+"_"+database+".xml")
+    def parseBlast(self,database="pdb", molecule="prot"):
+        if(molecule=="prot"):
+            name = self.geneID+"_"+database+".xml"
+            
+        result_handle = open(name)
         blast_record = NCBIXML.read(result_handle)
         print("Global results: ")
         print("Database:")

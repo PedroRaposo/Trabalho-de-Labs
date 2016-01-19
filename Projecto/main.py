@@ -44,7 +44,7 @@ if __name__ == '__main__':
     #print only repeat resgions
     #data.printRepRegion()
     #print CDS tofile
-    data.CDStoFile()
+    #data.CDStoFile()
     
     
 

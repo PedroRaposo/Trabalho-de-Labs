@@ -100,7 +100,7 @@ class Data:
                 qualifiers= feature.qualifiers #store qualifiers
                 if(str(feature.type)=="CDS"):
                     # create MyCDS object and add it to cdslist
-                    cDS= Gene.MyCDS(str(feature.type),str(feature.strand),loc,str(qualifiers.get(locus_tag))[2:-2],str(qualifiers.get(old_locus_tag)), str(qualifiers.get(db_xref)),str(qualifiers.get(product))[2:-2],str(qualifiers.get(accession))[2:-2],str(qualifiers.get(translation)),fastaSeq[int(locations[0]):int(locations[1])],str(qualifiers.get(ec)),str(qualifiers.get(tc)),update )
+                    cDS= Gene.MyCDS(str(feature.type),str(feature.strand),loc,str(qualifiers.get(locus_tag))[2:-2],str(qualifiers.get(old_locus_tag)), str(qualifiers.get(db_xref)),str(qualifiers.get(product))[2:-2],str(qualifiers.get(accession))[2:-2],str(qualifiers.get(translation))[2:-2],fastaSeq[int(locations[0]):int(locations[1])],str(qualifiers.get(ec)),str(qualifiers.get(tc)),update )
                     self.cdsList.append(cDS)
                     #end
                 if(str(feature.type)=="repeat_region"):
