@@ -122,7 +122,7 @@ FEATURES             Location/Qualifiers
                      gene prediction method: Protein Homology."
                      /codon_start=1
                      /transl_table=11
-                     /product="aldolase"
+                     /product="HPr kinase/phosphorylase"
                      /protein_id="WP_010882037.1"
                      /db_xref="GI:499184497"
                      /db_xref="GeneID:2611806"

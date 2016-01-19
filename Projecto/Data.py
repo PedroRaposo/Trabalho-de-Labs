@@ -54,10 +54,11 @@ class Data:
         #end
         #method end
         
-    def getData(self):
+    def getData(self,update):
         #initialize array variables to store results
         self.cdsList = []
         self.trnaList = []
+        self.repList = []
         #saving in variables the file names with the appropriate extenssion
         gb_filename =self.fileName + ".gb"
         fasta_filename = self.fileName+".fasta"
@@ -97,23 +98,27 @@ class Data:
                 #end
                 loc="["+str(l1)+":"+str(l2)+"]" #store location with desired format
                 qualifiers= feature.qualifiers #store qualifiers
-                if(str(feature.type)=="tRNA"):
-                    #crete MyTRNA object and add it to the trnaList
-                    trna= Gene.MyTRNA(str(feature.type),str(feature.strand),loc,str(qualifiers.get(locus_tag)),str(qualifiers.get(old_locus_tag)), str(qualifiers.get(db_xref)),str(qualifiers.get(product)),str(qualifiers.get(anticodon)),fastaSeq[int(locations[0]):int(locations[1])] )
-                    self.trnaList.append(trna)
-                    #end
-                else:
+                if(str(feature.type)=="CDS"):
                     # create MyCDS object and add it to cdslist
-                    cDS= Gene.MyCDS(str(feature.type),str(feature.strand),loc,str(qualifiers.get(locus_tag)),str(qualifiers.get(old_locus_tag)), str(qualifiers.get(db_xref)),str(qualifiers.get(product)),str(qualifiers.get(accession)),str(qualifiers.get(translation)),fastaSeq[int(locations[0]):int(locations[1])],str(qualifiers.get(ec)),str(qualifiers.get(tc)) )
+                    cDS= Gene.MyCDS(str(feature.type),str(feature.strand),loc,str(qualifiers.get(locus_tag))[2:-2],str(qualifiers.get(old_locus_tag)), str(qualifiers.get(db_xref)),str(qualifiers.get(product))[2:-2],str(qualifiers.get(accession))[2:-2],str(qualifiers.get(translation)),fastaSeq[int(locations[0]):int(locations[1])],str(qualifiers.get(ec)),str(qualifiers.get(tc)),update )
                     self.cdsList.append(cDS)
+                    #end
+                if(str(feature.type)=="repeat_region"):
+                    repR = Gene.MyRep(str(feature.type),str(feature.strand),loc,fastaSeq[int(locations[0]):int(locations[1])]) 
+                    self.repList.append(repR)
+                else:
+                    #crete MyTRNA object and add it to the trnaList
+                    trna= Gene.MyTRNA(str(feature.type),str(feature.strand),loc,str(qualifiers.get(locus_tag))[2:-2],str(qualifiers.get(old_locus_tag))[2:-2], str(qualifiers.get(db_xref))[2:-2],str(qualifiers.get(product))[2:-2],str(qualifiers.get(anticodon))[2:-2],fastaSeq[int(locations[0]):int(locations[1])] )
+                    self.trnaList.append(trna)
                     #end
         #end method
     
     #method responsible for pinting informtion                 
     def printData(self):
-        #go though the list and print it's information
-        print("CDS and repetition zones:")
+        #go though the lists and print it's information
+        
         print("\\-------------------------------------------------------------------------------------\\")
+        print("CDS :")        
         print(" ")
         indice=0
         for cds in self.cdsList:
@@ -121,11 +126,47 @@ class Data:
             print(cds)
             print()
             indice+=1
+        
+        print("\\-------------------------------------------------------------------------------------\\")
+        print("RNA related genes :")        
+        print(" ")
         for tr in self.trnaList:
             print("GENE number ",indice,": ")
             print(tr)
             print()
             indice+=1
+        
+        print("\\-------------------------------------------------------------------------------------\\")
+        print("Repeat regions :")        
+        print(" ")
+        for r in self.repList:
+            print("GENE number ",indice,": ")
+            print(r)
+            print()
+            indice+=1
+        print("\\-------------------------------------------------------------------------------------\\")
+            
         #end method
+            
+    def printRNA(self):
+        indice=0
+        for tr in self.trnaList:
+            print("GENE number ",indice,": ")
+            print(tr)
+            print()
+            indice+=1
+            
+    def printCDS(self):
+        indice=0
+        for cds in self.cdsList:
+            print("GENE number ",indice,": ")
+            print(cds)
+            print()
+            indice+=1
+        
+        
+            
+    
+        
         
 

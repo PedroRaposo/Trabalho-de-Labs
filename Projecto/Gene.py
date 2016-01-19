@@ -28,6 +28,12 @@ import sys
 
 
 
+class MyRep:
+    def __init__(self,typeG,strand,location,seq):
+        self.type=typeG
+        self.strand = strand
+        self.location=location
+        self.seq=seq
 
 
 class MyTRNA:
@@ -63,15 +69,63 @@ class MyCDS:
         self.seq=seq
         self.ec = ec
         self.tc = tc
+        tag= re.findall("[0-9]+",db_xref)
+        if(len(tag)>1):        
+            self.gi = tag[0]
+            self.geneID = tag[1]
+        else:
+            self.geneID = tag[0]
+        tag= re.search("[^\['].+[^\]']",self.old_locus_tag)
+        self.old_locus=tag.group()
+        self.similarity=""
+        self.catalytic_Activity=""
+        self.function=""
+        self.subunit=""
+        self.cofactor=""
+        self.seqCaution=""
+        self.subcelularLoc=""
+        self.review=""
+        self.goList=[]
         self.uniprotSearch(up)
         
     def __str__(self):
-         
-         res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location+ "\n Locus_Tag: "+ self.locus_tag+"\n Old_Locus_Tag: "+ self.old_locus_tag+ "\n Db_xref: "+ self.db_xref + "\n Name: "+ self.product+ "\n Notes: "+ self.notes+ "\n Seq: " + self.seq+ "\n Accession: "+ self.accession+ "\n Translation: " + self.translation + "\n EC_number: " + self.ec+ "\n TC_number: "+ self.tc
+         uniprotInfo=""
+         if(self.catalytic_Activity !=""):
+             uniprotInfo+="\n Catalytic Activity: " + self.catalytic_Activity
+         if(self.cofactor !=""):
+             uniprotInfo+="\n Cofactor: " + self.cofactor
+         if(self.function !=""):
+             uniprotInfo+="\n Function: " + self.function
+         for go in self.goList:
+             uniprotInfo+="\n " + str(go)
+         if(self.molecular_weight !=""):
+             uniprotInfo+="\n Molecular weight: " + str(self.molecular_weight)
+         for pA in self.prot_accessions :
+             uniprotInfo+="\n Uniprot Accession: " + pA
+         if(self.review !=""):
+             uniprotInfo+="\n Grade of Revision: " + self.review
+         if(self.similarity !=""):
+             uniprotInfo+="\n Similarities: " + self.similarity
+         if(self.subcelularLoc !=""):
+             uniprotInfo+="\n  " + self.subcelularLoc
+         if(self.seqCaution !=""):
+             uniprotInfo+="\n Area of caution: " + self.seqCaution
+         if(self.subunit !=""):
+             uniprotInfo+="\n " + self.subunit
+        
+             
+         res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location+ "\n Locus_Tag: "+ self.locus_tag+"\n Old_Locus_Tag: "+ self.old_locus_tag+ "\n Db_xref: "+ self.db_xref + "\n Name: "+ self.product+ "\n Notes: "+ self.notes+ "\n Seq: " + self.seq+ "\n Accession: "+ self.accession+ "\n Translation: " + self.translation + "\n EC_number: " + self.ec+ "\n TC_number: "+ self.tc+uniprotInfo
          return res
-         
+ 
+   
+    #Method uniprotSearch, add relevant information to the MyCDS object from
+    #the uniprot website. The method functions by downloading a txt obtained
+    #from a query to uniprot's REST service, afterwards the file is stored and
+    #parsed. A flag update is used to control the download file by need.     
     def uniprotSearch(self,update=0):
         tag= re.search("[^\['].+[^\]']",self.old_locus_tag)
+          
+        #If it´s neccessary to download the txt file from uniprot
         if(update==1):
             base_url= "http://www.uniprot.org/uniprot"
             payload={'query':'gene:'+tag.group(), 'format':'txt'}
@@ -82,6 +136,7 @@ class MyCDS:
                 advance=0
                 flag=1
                 linha=""
+                #writes the file with the format needed for SwissProt.parse()
                 with open(tag.group()+".dat", "w") as text_file:
                     for word in cont:
                         if(advance<2):
@@ -103,21 +158,41 @@ class MyCDS:
                                     linha+= word
        
             else:
-                print("Noooooooo!")
+                #error message
+                print("Communication to unipot failed on ",self.geneID)
             
         for record in SwissProt.parse(open(tag.group()+".dat")):
-                print("-----------------------------------------------")
-                print(record.accessions)
-                print(record.comments)
-                print(record.entry_name)
-                print(record.molecule_type)
-                print(record.organelle)
-                print(record.features)
-                print(record.description)
-                print(record.data_class)#Review 
-                print(record.seqinfo)
-                print(record.cross_references)
-                print("--------------------------------------------")
+                #store List of the accession numbers, e.g. [‘P00321’]                 
+                self.prot_accessions = record.accessions
+                #store versified information
+                for comment in record.comments:
+                    if(comment.find("FUNCTION:")>=0):
+                        self.function+=comment
+                    if(comment.find("SUBCELLULAR LOCATION:")>=0):
+                        self.subcelularLoc = comment
+                    if(comment.find("SIMILARITY:")>=0):
+                        self.similarity += comment
+                    if(comment.find("CATALYTIC ACTIVITY:")>=0):
+                        self.catalytic_Activity+=comment
+                    if(comment.find("SUBUNIT:")>=0):
+                        self.subunit+=comment
+                    if(comment.find("SEQUENCE CAUTION")>=0):
+                        self.seqCaution= comment
+                    if(comment.find("COFACTOR:")>=0):
+                        self.cofactor = comment
+                #print(record.comments)
+                #print(record.molecule_type) // maybe not relevant
+                #print(record.organelle) // maybe not relevant
+                #print(record.features) //USEFULNESS NOT ANALYSED YET
+                #print(record.description)// maybe not relevant
+                self.review = record.data_class 
+                self.molecular_weight = record.seqinfo[1]
+                #fetch GO 
+                for reference in record.cross_references:
+                    if(reference[0]=="GO"):
+                        self.goList.append(reference)
+                
+                
                 
         
     def blast(self,update=0,database="nt"):

@@ -33,12 +33,18 @@ if __name__ == '__main__':
     #--end--
     #--Next step retrieve the information necessary to process from those files
     print("retrieving information from Treponema files")
-    data.getData()
+    data.getData(0)
     print("information retrieved successfully!")
     #--if neededfor debug print the information in data comment line if it´s not needed
     #data.printData()
+    #print only rna retaded genes
+    #data.printRNA()
+    #print only CDS
+    data.printCDS()
     
     
+
+   
     
     
     
