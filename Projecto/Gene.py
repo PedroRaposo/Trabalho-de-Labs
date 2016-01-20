@@ -131,8 +131,8 @@ class MyCDS:
         self.blastPInfo=None
         self.hits=[]
         #self.blast()
-        self.parseBlast()
-        self.hitsToFile()
+        self.parseBlast("nt","nucl")
+#        self.hitsToFile()
         
         
     def __str__(self):
@@ -292,6 +292,10 @@ class MyCDS:
     def parseBlast(self,database="pdb", molecule="prot", e_param=0.05, i_param=30):
         if(molecule=="prot"):
             name = self.geneID+"_"+database+".xml"
+            tam = len(self.translation)
+        if(molecule=="nucl"):
+            name= self.old_locus_tag+"_"+database+".xml"
+            tam = len(self.seq)
         if(os.path.isfile(name)==True):    
             result_handle = open(name)
             blast_record = NCBIXML.read(result_handle)
@@ -313,7 +317,7 @@ class MyCDS:
                 self.hits.append([])
                 for i2 in range(len(alignment.hsps)):               
                     alignment_hsp = alignment.hsps[i2]
-                    rang = (alignment_hsp.align_length/len(self.translation))*100
+                    rang = (alignment_hsp.align_length/tam)*100
                     if(molecule=="prot"):
                        if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,True)
@@ -322,6 +326,8 @@ class MyCDS:
                         if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
                             hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities)
                             self.hits[i].append(hsp)
+            
+            self.hitsToFileNT()
             
 
             
@@ -382,6 +388,38 @@ class MyCDS:
                 text_file.close()
         else:
             with open("failedBlastP.txt","a") as text_file:
+                print(self.geneID,file=text_file )
+            text_file.close()
+            
+    def hitsToFileNT(self):
+        hitIndice = 1
+        hspIndice = 1
+        if(len(self.hits)>0):
+            if(len(self.hits[0])==0 ):
+                with open("failedBlastNTwith_0.005_30.txt","a") as text_file:
+                    print(self.geneID,file=text_file )
+                text_file.close()
+            else:            
+                name = "BlastNT_Results_"+ self.geneID+ ".txt"
+                with open(name, "w") as text_file:
+                    for hit in self.hits:
+                        hspIndice = 1
+                        if(len(hit)>0):
+                            ni= "Hit num: "+str(hitIndice)
+                            print(ni, file=text_file)
+                            print("",file=text_file)
+                            for hsp in hit:
+                                n="Hsp num :"+str(hspIndice)
+                                print(n, file=text_file)
+                                print(hsp, file=text_file)
+                                print("------------------------------------------------------------------",file=text_file)
+                                print("",file=text_file)
+                                hspIndice+= 1    
+                        hitIndice+=1
+                        print("",file=text_file)
+                text_file.close()
+        else:
+            with open("failedBlastNT.txt","a") as text_file:
                 print(self.geneID,file=text_file )
             text_file.close()
         
