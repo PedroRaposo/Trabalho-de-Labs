@@ -1,0 +1,79 @@
+LOCUS       4XWJ_B                    85 aa            linear   BCT 21-OCT-2015
+DEFINITION  Chain B, Histidine-containing Phosphocarrier Protein (hpr) And
+            Antisigma Factor Rsd Complex.
+ACCESSION   4XWJ_B
+VERSION     4XWJ_B  GI:940376486
+DBSOURCE    pdb: molecule 4XWJ, chain 66, release Oct 21, 2015;
+            deposition: Jan 29, 2015;
+            class: TranscriptionTRANSFERASE;
+            source: Mmdb_id: 133497, Pdb_id 1: 4XWJ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 85)
+  AUTHORS   Park,Y.H., Um,S.H., Song,S., Seok,Y.J. and Ha,N.C.
+  TITLE     Structural basis for the sequestration of the anti-sigma(70) factor
+            Rsd from sigma(70) by the histidine-containing phosphocarrier
+            protein HPr
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 71 (PT 10), 1998-2008 (2015)
+   PUBMED   26457424
+REFERENCE   2  (residues 1 to 85)
+  AUTHORS   Um,S.H., Seok,Y.J. and Ha,N.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2015)
+COMMENT     2 Phosphocarrier Protein Hpr.
+FEATURES             Location/Qualifiers
+     source          1..85
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     SecStr          1..9
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          17..26
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          58..67
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          70..81
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 msqqevtita pnglhtrpaa qfvkeakgft seitvtsngk sasakslfkl qtlgltqgtv
+       61 vtisaegede qkavehlvkl maele
+//
+

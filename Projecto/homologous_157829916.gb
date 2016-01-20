@@ -1,0 +1,139 @@
+LOCUS       1AK2_A                   233 aa            linear   MAM 10-OCT-2012
+DEFINITION  Chain A, Adenylate Kinase Isoenzyme-2.
+ACCESSION   1AK2_A
+VERSION     1AK2_A  GI:157829916
+DBSOURCE    pdb: molecule 1AK2, chain 65, release Aug 27, 2007;
+            deposition: Dec 29, 1995;
+            class: Phosphotransferase;
+            source: Mmdb_id: 55231, Pdb_id 1: 1AK2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 233)
+  AUTHORS   Tomasselli,A.G. and Noda,L.H.
+  TITLE     Mitochondrial ATP:AMP phosphotransferase from beef heart:
+            purification and properties
+  JOURNAL   Eur. J. Biochem. 103 (3), 481-491 (1980)
+   PUBMED   6244157
+REFERENCE   2  (residues 1 to 233)
+  AUTHORS   Frank,R., Trosin,M., Tomasselli,A.G., Noda,L., Krauth-Siegel,R.L.
+            and Schirmer,R.H.
+  TITLE     Mitochondrial adenylate kinase (AK2) from bovine heart. The
+            complete primary structure
+  JOURNAL   Eur. J. Biochem. 154 (1), 205-211 (1986)
+   PUBMED   3002789
+REFERENCE   3  (residues 1 to 233)
+  AUTHORS   Kishi,F., Tanizawa,Y. and Nakazawa,A.
+  TITLE     Isolation and characterization of two types of cDNA for
+            mitochondrial adenylate kinase and their expression in Escherichia
+            coli
+  JOURNAL   J. Biol. Chem. 262 (24), 11785-11789 (1987)
+   PUBMED   3040716
+REFERENCE   4  (residues 1 to 233)
+  AUTHORS   Vonrhein,C., Schlauderer,G.J. and Schulz,G.E.
+  TITLE     Movie of the structural changes during a catalytic cycle of
+            nucleoside monophosphate kinases
+  JOURNAL   Structure 3 (5), 483-490 (1995)
+   PUBMED   7663945
+REFERENCE   5  (residues 1 to 233)
+  AUTHORS   Schlauderer,G.J. and Schulz,G.E.
+  TITLE     The structure of bovine mitochondrial adenylate kinase: comparison
+            with isoenzymes in other compartments
+  JOURNAL   Protein Sci. 5 (3), 434-441 (1996)
+   PUBMED   8868479
+REFERENCE   6  (residues 1 to 233)
+  AUTHORS   Schlauderer,G.J. and Schulz,G.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-1995)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..233
+                     /organism="Bos taurus"
+                     /db_xref="taxon:9913"
+     Region          join(1..131,180..233)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          16..23
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          18..220
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     Region          21..207
+                     /region_name="ADK"
+                     /note="Adenylate kinase; pfam00406"
+                     /db_xref="CDD:249837"
+     SecStr          33..40
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          42..46
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Bond            bond(43,93)
+                     /bond_type="disulfide"
+     Site            order(47,52,75,100..101,103..104,108)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          47..56
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(52,100,104,143,187,191)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          60..71
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          77..88
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          95..101
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          106..119
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          124..130
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          132..179
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          133..142
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          143..148
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          149..154
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          173..177
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          181..205
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          207..212
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          217..232
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 apnvpaaepv pespkgvrav llgppgagkg tqapklaknf cvchlatgdm lramvasgse
+       61 lgkklkatmd agklvsdemv lelieknlet ppckngflld gfprtvrqae mlddlmekrk
+      121 ekldsviefs ipdsllirri tgrlihpqsg rsyheefnpp kepmkdditg eplirrsddn
+      181 kkalkirlea yhtqttplve yyskrgihsa idasqtpdvv fasilaafsk ats
+//
+

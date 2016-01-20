@@ -1,0 +1,78 @@
+LOCUS       3CCD_A                    85 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, 1.0 A Structure Of Post-Succinimide His15asp Hpr.
+ACCESSION   3CCD_A
+VERSION     3CCD_A  GI:209870425
+DBSOURCE    pdb: molecule 3CCD, chain 65, release Oct 17, 2008;
+            deposition: Feb 25, 2008;
+            class: Transferase;
+            source: Mmdb_id: 67467, Pdb_id 1: 3CCD;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 85)
+  AUTHORS   Napper,S., Prasad,L. and Delbaere,L.T.
+  TITLE     Structural investigation of a phosphorylation-catalyzed,
+            isoaspartate-free, protein succinimide: crystallographic structure
+            of post-succinimide His15Asp histidine-containing protein
+  JOURNAL   Biochemistry 47 (36), 9486-9496 (2008)
+   PUBMED   18702519
+REFERENCE   2  (residues 1 to 85)
+  AUTHORS   Napper,S., Prasad,L. and Delbaere,L.T.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-FEB-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..85
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     SecStr          1..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          17..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          59..67
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          70..80
+                     /sec_str_type="helix"
+                     /note="helix 2"
+ORIGIN      
+        1 mfeqevtita pngldtrpaa qfvkeakgft seitvtsngk sasakslfkl qtlgltqgtv
+       61 vtisaegede qkavehlvkl maele
+//
+

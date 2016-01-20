@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_184849</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611619</BlastOutput_query-def>
+  <BlastOutput_query-len>242</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_184849</Iteration_query-ID>
+  <Iteration_query-def>2611619</Iteration_query-def>
+  <Iteration_query-len>242</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|973744158|pdb|5AMC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta Fluorogenic Fragment 4-10</Hit_def>
+  <Hit_accession>5AMC_A</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.480012</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DPSV-GAQASAGDGGMMTVEQAYLNSAEGVVIKEMVESRGHDSKVLA</Hsp_qseq>
+      <Hsp_hseq>DPGLQPGQFSAEDAGAQLFAQSYQSSAEQVLFQSVAASWAHDTNITA</Hsp_hseq>
+      <Hsp_midline>DP +   Q SA D G     Q+Y +SAE V+ + +  S  HD+ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|332639414|pdb|2XYD|A</Hit_id>
+  <Hit_def>Chain A, Human Angiotenisn Converting Enzyme N-Domain In Complex With Phosphinic Tripeptide &gt;gi|332639415|pdb|2XYD|B Chain B, Human Angiotenisn Converting Enzyme N-Domain In Complex With Phosphinic Tripeptide &gt;gi|564730893|pdb|4CA6|A Chain A, Human Angiotensin Converting Enzyme N-domain In Complex With A Phosphinic Tripeptide Fi &gt;gi|564730894|pdb|4CA6|B Chain B, Human Angiotensin Converting Enzyme N-domain In Complex With A Phosphinic Tripeptide Fi</Hit_def>
+  <Hit_accession>2XYD_A</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.34472</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DPSV-GAQASAGDGGMMTVEQAYLNSAEGVVIKEMVESRGHDSKVLA</Hsp_qseq>
+      <Hsp_hseq>DPGLQPGQFSADEAGAQLFAQSYQSSAEQVLFQSVAASWAHDTNITA</Hsp_hseq>
+      <Hsp_midline>DP +   Q SA + G     Q+Y +SAE V+ + +  S  HD+ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|306440676|pdb|3NXQ|A</Hit_id>
+  <Hit_def>Chain A, Angiotensin Converting Enzyme N Domain Glycsoylation Mutant (Ndom389) In Complex With Rxp407 &gt;gi|306440677|pdb|3NXQ|B Chain B, Angiotensin Converting Enzyme N Domain Glycsoylation Mutant (Ndom389) In Complex With Rxp407 &gt;gi|544191872|pdb|4BXK|A Chain A, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With A Domain-specific Inhibitor &gt;gi|544191873|pdb|4BXK|B Chain B, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With A Domain-specific Inhibitor &gt;gi|973744146|pdb|5AM9|A Chain A, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 10-16 &gt;gi|973744147|pdb|5AM9|B Chain B, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 10-16 &gt;gi|973744148|pdb|5AM9|C Chain C, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 10-16 &gt;gi|973744149|pdb|5AM9|D Chain D, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 10-16 &gt;gi|973744150|pdb|5AMA|A Chain A, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 1-16 &gt;gi|973744151|pdb|5AMA|B Chain B, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 1-16 &gt;gi|973744152|pdb|5AMA|C Chain C, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 1-16 &gt;gi|973744153|pdb|5AMA|D Chain D, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 1-16 &gt;gi|973744154|pdb|5AMB|A Chain A, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 35-42 &gt;gi|973744155|pdb|5AMB|B Chain B, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 35-42 &gt;gi|973744159|pdb|5AMC|B Chain B, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta Fluorogenic Fragment 4-10</Hit_def>
+  <Hit_accession>3NXQ_A</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.42517</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DPSV-GAQASAGDGGMMTVEQAYLNSAEGVVIKEMVESRGHDSKVLA</Hsp_qseq>
+      <Hsp_hseq>DPGLQPGQFSADEAGAQLFAQSYQSSAEQVLFQSVAASWAHDTNITA</Hsp_hseq>
+      <Hsp_midline>DP +   Q SA + G     Q+Y +SAE V+ + +  S  HD+ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|973744138|pdb|5AM8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 4-10 &gt;gi|973744139|pdb|5AM8|B Chain B, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 4-10 &gt;gi|973744140|pdb|5AM8|C Chain C, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 4-10 &gt;gi|973744141|pdb|5AM8|D Chain D, Crystal Structure Of The Angiotensin-1 Converting Enzyme N- Domain In Complex With Amyloid-beta 4-10</Hit_def>
+  <Hit_accession>5AM8_A</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.4506</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DPSV-GAQASAGDGGMMTVEQAYLNSAEGVVIKEMVESRGHDSKVLA</Hsp_qseq>
+      <Hsp_hseq>DPGLQPGQFSADEAGAQLFAQSYQSSAEQVLFQSVAASWAHDTNITA</Hsp_hseq>
+      <Hsp_midline>DP +   Q SA + G     Q+Y +SAE V+ + +  S  HD+ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|225734171|pdb|3FYO|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Triple Mutant (N23cD247EP249A) OF 3-Deoxy- D-Manno-Octulosonate 8-Phosphate Synthase (Kdo8ps) From Neisseria Meningitidis &gt;gi|225734172|pdb|3FYO|B Chain B, Crystal Structure Of The Triple Mutant (N23cD247EP249A) OF 3-Deoxy- D-Manno-Octulosonate 8-Phosphate Synthase (Kdo8ps) From Neisseria Meningitidis &gt;gi|225734173|pdb|3FYO|C Chain C, Crystal Structure Of The Triple Mutant (N23cD247EP249A) OF 3-Deoxy- D-Manno-Octulosonate 8-Phosphate Synthase (Kdo8ps) From Neisseria Meningitidis &gt;gi|225734174|pdb|3FYO|D Chain D, Crystal Structure Of The Triple Mutant (N23cD247EP249A) OF 3-Deoxy- D-Manno-Octulosonate 8-Phosphate Synthase (Kdo8ps) From Neisseria Meningitidis</Hit_def>
+  <Hit_accession>3FYO_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.63055</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>ALEGGRGSDDLQEALSRLAT--AGLFRVIREQGRVINDFPDIRLRACELLARLPSARTKDALIQVMCAD</Hsp_qseq>
+      <Hsp_hseq>AASGGRRAQALDLALAGMATRLAGLF---------LESHPDPKLAKCEGASALPLHLLEDFLIRIKALD</Hsp_hseq>
+      <Hsp_midline>A  GGR +  L  AL+ +AT  AGLF         +   PD +L  CE  + LP    +D LI++   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|295789486|pdb|3LX9|A</Hit_id>
+  <Hit_def>Chain A, Interconversion Of Human Lysosomal Enzyme Specificities &gt;gi|295789487|pdb|3LX9|B Chain B, Interconversion Of Human Lysosomal Enzyme Specificities &gt;gi|295789488|pdb|3LXA|A Chain A, Interconversion Of Human Lysosomal Enzyme Specificities &gt;gi|295789489|pdb|3LXA|B Chain B, Interconversion Of Human Lysosomal Enzyme Specificities &gt;gi|295789490|pdb|3LXB|A Chain A, Interconversion Of Human Lysosomal Enzyme Specificities &gt;gi|295789491|pdb|3LXB|B Chain B, Interconversion Of Human Lysosomal Enzyme Specificities &gt;gi|295789492|pdb|3LXC|A Chain A, Interconversion Of Human Lysosomal Enzyme Specificities &gt;gi|295789493|pdb|3LXC|B Chain B, Interconversion Of Human Lysosomal Enzyme Specificities</Hit_def>
+  <Hit_accession>3LX9_A</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.09864</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>WISRKFSAINPTGSLALEILNT</Hsp_qseq>
+      <Hsp_hseq>WTSRLRSHINPTGTVLLQLENT</Hsp_hseq>
+      <Hsp_midline>W SR  S INPTG++ L++ NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|47168708|pdb|1R46|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Human Alpha-galactosidase &gt;gi|47168709|pdb|1R46|B Chain B, Structure Of Human Alpha-galactosidase &gt;gi|47168710|pdb|1R47|A Chain A, Structure Of Human Alpha-Galactosidase &gt;gi|47168711|pdb|1R47|B Chain B, Structure Of Human Alpha-Galactosidase &gt;gi|229597937|pdb|3GXN|A Chain A, Crystal Structure Of Apo Alpha-Galactosidase A At Ph 4.5 &gt;gi|229597938|pdb|3GXN|B Chain B, Crystal Structure Of Apo Alpha-Galactosidase A At Ph 4.5 &gt;gi|229597939|pdb|3GXP|A Chain A, Crystal Structure Of Acid-alpha-galactosidase A Complexed With Galactose At Ph 4.5 &gt;gi|229597940|pdb|3GXP|B Chain B, Crystal Structure Of Acid-alpha-galactosidase A Complexed With Galactose At Ph 4.5 &gt;gi|238537965|pdb|3GXT|A Chain A, Crystal Structure Of Alpha-Galactosidase A At Ph 4.5 Complexed With 1- Deoxygalactonijirimycin &gt;gi|238537966|pdb|3GXT|B Chain B, Crystal Structure Of Alpha-Galactosidase A At Ph 4.5 Complexed With 1- Deoxygalactonijirimycin &gt;gi|269914453|pdb|3HG2|A Chain A, Human Alpha-Galactosidase Catalytic Mechanism 1. Empty Active Site &gt;gi|269914454|pdb|3HG2|B Chain B, Human Alpha-Galactosidase Catalytic Mechanism 1. Empty Active Site &gt;gi|269914457|pdb|3HG4|A Chain A, Human Alpha-Galactosidase Catalytic Mechanism 3. Covalent Intermediate &gt;gi|269914458|pdb|3HG4|B Chain B, Human Alpha-Galactosidase Catalytic Mechanism 3. Covalent Intermediate &gt;gi|269914459|pdb|3HG5|A Chain A, Human Alpha-Galactosidase Catalytic Mechanism 4. Product Bound &gt;gi|269914460|pdb|3HG5|B Chain B, Human Alpha-Galactosidase Catalytic Mechanism 4. Product Bound &gt;gi|367460152|pdb|3S5Y|A Chain A, Pharmacological Chaperoning In Human Alpha-Galactosidase &gt;gi|367460153|pdb|3S5Y|B Chain B, Pharmacological Chaperoning In Human Alpha-Galactosidase &gt;gi|367460154|pdb|3S5Z|A Chain A, Pharmacological Chaperoning In Human Alpha-Galactosidase &gt;gi|367460155|pdb|3S5Z|B Chain B, Pharmacological Chaperoning In Human Alpha-Galactosidase &gt;gi|651207675|pdb|4NXS|A Chain A, Crystal Structure Of Human Alpha-galactosidase A In Complex With 1- Deoxygalactonojirimycin-pfpht &gt;gi|651207676|pdb|4NXS|B Chain B, Crystal Structure Of Human Alpha-galactosidase A In Complex With 1- Deoxygalactonojirimycin-pfpht</Hit_def>
+  <Hit_accession>1R46_A</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.12481</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>WISRKFSAINPTGSLALEILNT</Hsp_qseq>
+      <Hsp_hseq>WTSRLRSHINPTGTVLLQLENT</Hsp_hseq>
+      <Hsp_midline>W SR  S INPTG++ L++ NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|269914455|pdb|3HG3|A</Hit_id>
+  <Hit_def>Chain A, Human Alpha-Galactosidase Catalytic Mechanism 2. Substrate Bound &gt;gi|269914456|pdb|3HG3|B Chain B, Human Alpha-Galactosidase Catalytic Mechanism 2. Substrate Bound &gt;gi|367460173|pdb|3TV8|A Chain A, Pharmacological Chaperoning In Human Alpha-Galactosidase &gt;gi|367460174|pdb|3TV8|B Chain B, Pharmacological Chaperoning In Human Alpha-Galactosidase</Hit_def>
+  <Hit_accession>3HG3_A</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.23629</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>368</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>WISRKFSAINPTGSLALEILNT</Hsp_qseq>
+      <Hsp_hseq>WTSRLRSHINPTGTVLLQLENT</Hsp_hseq>
+      <Hsp_midline>W SR  S INPTG++ L++ NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|93278981|pdb|2C6N|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Human Somatic Angiontensin-i Converting Enzyme N Domain With Lisinopril &gt;gi|93278982|pdb|2C6N|B Chain B, Structure Of Human Somatic Angiontensin-i Converting Enzyme N Domain With Lisinopril &gt;gi|119389056|pdb|2C6F|A Chain A, Structure Of Human Somatic Angiontensin-I Converting Enzyme N Domain &gt;gi|119389057|pdb|2C6F|B Chain B, Structure Of Human Somatic Angiontensin-I Converting Enzyme N Domain</Hit_def>
+  <Hit_accession>2C6N_A</Hit_accession>
+  <Hit_len>612</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.43376</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>SAGDGGMMTVEQAYLNSAEGVVIKEMVESRGHDSKVLA</Hsp_qseq>
+      <Hsp_hseq>SADEAGAQLFAQSYNSSAEQVLFQSVAASWAHDTNITA</Hsp_hseq>
+      <Hsp_midline>SA + G     Q+Y +SAE V+ + +  S  HD+ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|588292817|pdb|4BZS|A</Hit_id>
+  <Hit_def>Chain A, Human Angiotenisn Converting Enzyme N-domain In Complex With K-26 &gt;gi|588292818|pdb|4BZS|B Chain B, Human Angiotenisn Converting Enzyme N-domain In Complex With K-26</Hit_def>
+  <Hit_accession>4BZS_A</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.6024</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>SAGDGGMMTVEQAYLNSAEGVVIKEMVESRGHDSKVLA</Hsp_qseq>
+      <Hsp_hseq>SADEAGAQLFAQSYNSSAEQVLFQSVAASWAHDTNITA</Hsp_hseq>
+      <Hsp_midline>SA + G     Q+Y +SAE V+ + +  S  HD+ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|704360240|pdb|3J80|C</Hit_id>
+  <Hit_def>Chain C, Cryoem Structure Of 40s-eif1-eif1a Preinitiation Complex &gt;gi|704360292|pdb|3J81|C Chain C, Cryoem Structure Of A Partial Yeast 48s Preinitiation Complex &gt;gi|914684519|pdb|3JAM|C Chain C, Cryoem Structure Of 40s-eif1a-eif1 Complex From Yeast</Hit_def>
+  <Hit_accession>3J80_C</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>6.28629</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>223</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>ILNTYERLAPTVRDRRAVVESIMDIAADGRYAAAVRAR</Hsp_qseq>
+      <Hsp_hseq>IGNTYGFLTPNLWEVQALTPSPMDVYAD--YATASKKK</Hsp_hseq>
+      <Hsp_midline>I NTY  L P + + +A+  S MD+ AD  YA A + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|293651904|pdb|3KH7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Periplasmic Soluble Domain Of Reduced Ccmg From Pseudomonas Aeruginosa &gt;gi|293651905|pdb|3KH9|A Chain A, Crystal Structure Of The Periplasmic Soluble Domain Of Oxidized Ccmg From Pseudomonas Aeruginosa</Hit_def>
+  <Hit_accession>3KH7_A</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.87176</Hsp_evalue>
+      <Hsp_query-from>132</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>RTKDALIQVM------CADREPSVVRAAVKSLGEVGINEQDETTATIGWIS</Hsp_qseq>
+      <Hsp_hseq>KGKPALVNVWGTWCPSCRVEHPELTRLAEQGVVIYGINYKDDNAAAIKWLN</Hsp_hseq>
+      <Hsp_midline>+ K AL+ V       C    P + R A + +   GIN +D+  A I W++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|384482283|pdb|3SBG|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Prp8 C-Terminal Fragment</Hit_def>
+  <Hit_accession>3SBG_A</Hit_accession>
+  <Hit_len>565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.6429</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>150</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>DFPDIRLRACELLARLPSARTKDALIQVMCADREPSVV</Hsp_qseq>
+      <Hsp_hseq>DFPNIAIRPTELRLPFSAAMSIDKLSDVVMKATEPQMV</Hsp_hseq>
+      <Hsp_midline>DFP+I +R  EL     +A + D L  V+    EP +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

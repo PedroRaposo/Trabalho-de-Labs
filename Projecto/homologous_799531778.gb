@@ -1,0 +1,109 @@
+LOCUS       3X2S_A                   214 aa            linear   BCT 01-APR-2015
+DEFINITION  Chain A, Crystal Structure Of Pyrene-conjugated Adenylate Kinase.
+ACCESSION   3X2S_A
+VERSION     3X2S_A  GI:799531778
+DBSOURCE    pdb: molecule 3X2S, chain 65, release Apr 1, 2015;
+            deposition: Dec 31, 2014;
+            class: Transferase;
+            source: Mmdb_id: 128185, Pdb_id 1: 3X2S;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli str. K-12 substr. MDS42
+  ORGANISM  Escherichia coli str. K-12 substr. MDS42
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 214)
+  AUTHORS   Fujii,A., Sekiguchi,Y., Matsumura,H., Inoue,T., Chung,W.S.,
+            Hirota,S. and Matsuo,T.
+  TITLE     Excimer Emission Properties on Pyrene-Labeled Protein Surface:
+            Correlation between Emission Spectra, Ring Stacking Modes, and
+            Flexibilities of Pyrene Probes
+  JOURNAL   Bioconjug. Chem. 26 (3), 537-548 (2015)
+   PUBMED   25646669
+REFERENCE   2  (residues 1 to 214)
+  AUTHORS   Fujii,A., Sekiguchi,Y., Matsumura,H., Inoue,T., Chung,W.-S. and
+            Hirota,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-DEC-2014)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Escherichia coli str. K-12 substr. MDS42"
+                     /strain="K-12 substr. MDS42"
+                     /db_xref="taxon:1110693"
+     Region          1..214
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     SecStr          1..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..205
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          17..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..31
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(31,36,59,84..85,87..88,92)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          32..41
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(36,84,88,123,167,171)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          49..56
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Het             bond(55)
+                     /heterogen="(JPY,1000 )"
+     SecStr          61..72
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          80..85
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          90..99
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          104..111
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          122..127
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          130..135
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          161..173
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Het             bond(169)
+                     /heterogen="(JPY,1001 )"
+     SecStr          178..188
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          191..198
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          202..213
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 mriillgapg agkgtqaqfi mekygipqis tgdmlraavk sgselgkqak dimdcgklvt
+       61 delvialvke riaqedsrng flldgfprti pqadamkeag invdyvlefd vpdelivdri
+      121 vgrrvhapsg rvyhvkfnpp kvegkddvtg eelttrkddq eetvrkrlce yhqmtaplig
+      181 yyskeaeagn tkyakvdgtk pvaevradle kilg
+//
+

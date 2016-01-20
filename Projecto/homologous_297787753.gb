@@ -1,0 +1,302 @@
+LOCUS       3MMP_A                   678 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of The Qb Replicase, An Rna-Dependent Rna
+            Polymerase Consisting Of Viral And Host Proteins.
+ACCESSION   3MMP_A
+VERSION     3MMP_A  GI:297787753
+DBSOURCE    pdb: molecule 3MMP, chain 65, release Jun 30, 2010;
+            deposition: Apr 20, 2010;
+            class: Transferase;
+            source: Mmdb_id: 82653, Pdb_id 1: 3MMP;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 678)
+  AUTHORS   Kidmose,R.T., Vasiliev,N.N., Chetverin,A.B., Andersen,G.R. and
+            Knudsen,C.R.
+  TITLE     Structure of the Qbeta replicase, an RNA-dependent RNA polymerase
+            consisting of viral and host proteins
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (24), 10884-10889 (2010)
+   PUBMED   20534494
+REFERENCE   2  (residues 1 to 678)
+  AUTHORS   Kidmose,R.T., Vasiliev,N.N., Chetverin,A.B., Knudsen,C.R. and
+            Ander,G.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..678
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..281
+                     /region_name="tsf"
+                     /note="elongation factor Ts; Provisional; PRK09377"
+                     /db_xref="CDD:236491"
+     Region          1..266
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          6..16
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          7..43
+                     /region_name="UBA_EF-Ts"
+                     /note="UBA domain found in elongation factor Ts (EF-Ts)
+                     from bacteria, chloroplasts and mitochondria of
+                     eukaryotes; cd14275"
+                     /db_xref="CDD:270461"
+     Site            order(9..10,13..14,20..21,24)
+                     /site_type="other"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:270461"
+     SecStr          20..30
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          34..52
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          58..68
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          69..79
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          87..103
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          108..116
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          117..126
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          129..140
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          141..149
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          151..160
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          163..176
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          189..202
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          209..227
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          242..249
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          251..261
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          267..489
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          272..281
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Region          285..677
+                     /region_name="PRK00049"
+                     /note="elongation factor Tu; Reviewed"
+                     /db_xref="CDD:234596"
+     Region          295..487
+                     /region_name="EF_Tu"
+                     /note="Elongation Factor Tu (EF-Tu) GTP-binding proteins;
+                     cd01884"
+                     /db_xref="CDD:206671"
+     SecStr          295..303
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            303..310
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206671"
+     Site            order(304,306,310..311,314,317..318,322,350..351,369..370,
+                     393..394,396..399,402,433,437,463..464)
+                     /site_type="other"
+                     /note="GEF interaction site [polypeptide binding]"
+                     /db_xref="CDD:206671"
+     Site            order(306..311,331,420..421,423,458..460)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206671"
+     SecStr          309..323
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Site            340..350
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206671"
+     Site            346
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206671"
+     SecStr          351..357
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          358..366
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            365..368
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206671"
+     Site            367..385
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206671"
+     SecStr          369..378
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          384..392
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          400..410
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          414..421
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            420..423
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206671"
+     SecStr          429..445
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          453..457
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          458..465
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     Site            458..460
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206671"
+     SecStr          470..483
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     Region          490..583
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          495..581
+                     /region_name="EFTU_II"
+                     /note="EFTU_II: Elongation factor Tu domain II. Elongation
+                     factors Tu (EF-Tu) are three-domain GTPases with an
+                     essential function in the elongation phase of mRNA
+                     translation. The GTPase center of EF-Tu is in the
+                     N-terminal domain (domain I), also known as the...;
+                     cd03697"
+                     /db_xref="CDD:239668"
+     SecStr          495..499
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          500..506
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          508..516
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          519..523
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          525..531
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          535..540
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          541..546
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          547..550
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          551..555
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          557..564
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          575..579
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     Region          584..678
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     Region          584..673
+                     /region_name="EFTU_III"
+                     /note="Domain III of elongation factor (EF) Tu; cd03707"
+                     /db_xref="CDD:275451"
+     SecStr          587..592
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          593..596
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     Site            order(594,596,598..601,616..619,658..660,662,667,669..670)
+                     /site_type="other"
+                     /note="antibiotic binding site [chemical binding]"
+                     /db_xref="CDD:275451"
+     Site            order(600..601,604..605,608,611..612,614,634,636,639,
+                     664..666)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:275451"
+     Site            order(603..605,608..612,614,623,627,648..649,663..665)
+                     /site_type="other"
+                     /note="tRNA binding site [nucleotide binding]"
+                     /db_xref="CDD:275451"
+     SecStr          606..609
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          613..618
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          619..622
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          623..628
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          633..636
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          638..642
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          643..648
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          657..664
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          665..669
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          670..677
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+ORIGIN      
+        1 maeitaslvk elrertgagm mdckkaltea ngdielaien mrksgaikaa kkagnvaadg
+       61 viktkidgny giilevncqt dfvakdagfq afadkvldaa vagkitdvev lkaqfeeerv
+      121 alvakigeni nirrvaaleg dvlgsyqhga rigvlvaakg adeelvkhia mhvaaskpef
+      181 ikpedvsaev vekeyqvqld iamqsgkpke iaekmvegrm kkftgevslt gqpfvmepsk
+      241 tvgqllkehn aevtgfirfe vgegiekvet dfaaevaams kqshmskekf ertkphvnvg
+      301 tighvdhgkt tltaaittvl aktyggaara fdqidnapee kargitints hveydtptrh
+      361 yahvdcpgha dyvknmitga aqmdgailvv aatdgpmpqt rehillgrqv gvpyiivfln
+      421 kcdmvddeel lelvemevre llsqydfpgd dtpivrgsal kalegdaewe akilelagfl
+      481 dsyipepera idkpfllpie dvfsisgrgt vvtgrvergi ikvgeeveiv giketqkstc
+      541 tgvemfrkll degragenvg vllrgikree iergqvlakp gtikphtkfe sevyilskde
+      601 ggrhtpffkg yrpqfyfrtt dvtgtielpe gvemvmpgdn ikmvvtlihp iamddglrfa
+      661 ireggrtvga gvvakvls
+//
+

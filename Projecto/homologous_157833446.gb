@@ -1,0 +1,95 @@
+LOCUS       1PCH_A                    88 aa            linear   BCT 01-FEB-2013
+DEFINITION  Chain A, Structural Evidence For The Evolutionary Divergence Of
+            Mycoplasma From Gram-positive Bacteria: The Histidine- Containing
+            Phosphocarrier Protein.
+ACCESSION   1PCH_A
+VERSION     1PCH_A  GI:157833446
+DBSOURCE    pdb: molecule 1PCH, chain 65, release Jan 25, 2013;
+            deposition: Jul 11, 1995;
+            class: Phosphotransferase;
+            source: Mmdb_id: 57080, Pdb_id 1: 1PCH;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycoplasma capricolum
+  ORGANISM  Mycoplasma capricolum
+            Bacteria; Tenericutes; Mollicutes; Mycoplasmataceae; Mycoplasma.
+REFERENCE   1  (residues 1 to 88)
+  AUTHORS   Herzberg,O., Reddy,P., Sutrina,S., Saier,M.H. Jr., Reizer,J. and
+            Kapadia,G.
+  TITLE     Structure of the histidine-containing phosphocarrier protein HPr
+            from Bacillus subtilis at 2.0-A resolution
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 89 (6), 2499-2503 (1992)
+   PUBMED   1549615
+REFERENCE   2  (residues 1 to 88)
+  AUTHORS   Liao,D.I. and Herzberg,O.
+  TITLE     Refined structures of the active Ser83-->Cys and impaired
+            Ser46-->Asp histidine-containing phosphocarrier proteins
+  JOURNAL   Structure 2 (12), 1203-1216 (1994)
+   PUBMED   7704530
+REFERENCE   3  (residues 1 to 88)
+  AUTHORS   Pieper,U., Kapadia,G., Zhu,P.P., Peterkofsky,A. and Herzberg,O.
+  TITLE     Structural evidence for the evolutionary divergence of mycoplasma
+            from gram-positive bacteria: the histidine-containing
+            phosphocarrier protein
+  JOURNAL   Structure 3 (8), 781-790 (1995)
+   PUBMED   7582895
+REFERENCE   4  (residues 1 to 88)
+  AUTHORS   Pieper,U. and Herzberg,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-1995)
+COMMENT     1 Phosphocarrier Protein.
+FEATURES             Location/Qualifiers
+     source          1..88
+                     /organism="Mycoplasma capricolum"
+                     /db_xref="taxon:2095"
+     SecStr          1..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..80
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..7
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(13,15..16,18..19,23,26,44..47,50..51)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            14
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          15..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          30..37
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          38..43
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          45..53
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            45
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          58..66
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          69..83
+                     /sec_str_type="helix"
+                     /note="helix 3"
+ORIGIN      
+        1 akfsaiitdk vglharpasv lakeaskfss nitiianekq gnlksimnvm amaiktgtei
+       61 tiqadgndad qaiqaikqtm idtaliqg
+//
+

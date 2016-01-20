@@ -1,0 +1,169 @@
+LOCUS       3ZI0_A                   397 aa            linear   BCT 19-OCT-2013
+DEFINITION  Chain A, Structure Of Mycobacterium Tuberculosis Dxr In Complex
+            With A Fosmidomycin Analogue.
+ACCESSION   3ZI0_A
+VERSION     3ZI0_A  GI:550545813
+DBSOURCE    pdb: molecule 3ZI0, chain 65, release Oct 17, 2013;
+            deposition: Dec 30, 2012;
+            class: Oxidoreductase;
+            source: Mmdb_id: 114377, Pdb_id 1: 3ZI0;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium tuberculosis H37Rv
+  ORGANISM  Mycobacterium tuberculosis H37Rv
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium; Mycobacterium tuberculosis complex.
+REFERENCE   1  (residues 1 to 397)
+  AUTHORS   Henriksson,L.M., Bjorkelid,C., Mowbray,S.L. and Unge,T.
+  TITLE     The 1.9 A resolution structure of Mycobacterium tuberculosis
+            1-deoxy-D-xylulose 5-phosphate reductoisomerase, a potential drug
+            target
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 62 (PT 7), 807-813 (2006)
+   PUBMED   16790937
+REFERENCE   2  (residues 1 to 397)
+  AUTHORS   Henriksson,L.M., Unge,T., Carlsson,J., Aqvist,J., Mowbray,S.L. and
+            Jones,T.A.
+  TITLE     Structures of Mycobacterium tuberculosis
+            1-deoxy-D-xylulose-5-phosphate reductoisomerase provide new
+            insights into catalysis
+  JOURNAL   J. Biol. Chem. 282 (27), 19905-19916 (2007)
+   PUBMED   17491006
+REFERENCE   3  (residues 1 to 397)
+  AUTHORS   Andaloussi,M., Henriksson,L.M., Wieckowska,A., Lindh,M.,
+            Bjorkelid,C., Larsson,A.M., Suresh,S., Iyer,H., Srinivasa,B.R.,
+            Bergfors,T., Unge,T., Mowbray,S.L., Larhed,M., Jones,T.A. and
+            Karlen,A.
+  TITLE     Design, synthesis, and X-ray crystallographic studies of alpha-aryl
+            substituted fosmidomycin analogues as inhibitors of Mycobacterium
+            tuberculosis 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+  JOURNAL   J. Med. Chem. 54 (14), 4964-4976 (2011)
+   PUBMED   21678907
+REFERENCE   4  (residues 1 to 397)
+  AUTHORS   Bjorkelid,C., Bergfors,T., Unge,T., Mowbray,S.L. and Jones,T.A.
+  TITLE     Structural studies on Mycobacterium tuberculosis DXR in complex
+            with the antibiotic FR-900098
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 68 (PT 2), 134-143 (2012)
+   PUBMED   22281742
+REFERENCE   5  (residues 1 to 397)
+  AUTHORS   Jansson,A.M., Wieckowska,A., Bjorkelid,C., Yahiaoui,S.,
+            Sooriyaarachchi,S., Lindh,M., Bergfors,T., Dharavath,S.,
+            Desroses,M., Suresh,S., Andaloussi,M., Nikhil,R., Sreevalli,S.,
+            Srinivasa,B.R., Larhed,M., Jones,T.A., Karlen,A. and Mowbray,S.L.
+  TITLE     DXR inhibition by potent mono- and disubstituted fosmidomycin
+            analogues
+  JOURNAL   J. Med. Chem. 56 (15), 6190-6199 (2013)
+   PUBMED   23819803
+REFERENCE   6  (residues 1 to 397)
+  AUTHORS   Bjorkelid,C., Jansson,A.M., Bergfors,T., Unge,T., Mowbray,S.L. and
+            Jo,T.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-DEC-2012)
+COMMENT     1 1-deoxy-d-xylulose 5-phosphate Reductoisomerase.
+FEATURES             Location/Qualifiers
+     source          1..397
+                     /organism="Mycobacterium tuberculosis H37Rv"
+                     /db_xref="taxon:83332"
+     Region          1..159
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          20..27
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          22..395
+                     /region_name="PRK05447"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase;
+                     Provisional"
+                     /db_xref="CDD:235472"
+     Region          23..143
+                     /region_name="DXP_reductoisom"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase;
+                     pfam02670"
+                     /db_xref="CDD:251461"
+     SecStr          31..43
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          46..54
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          60..69
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          73..76
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          95..102
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          106..112
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          118..127
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          129..135
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          142..150
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          154..158
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          155..238
+                     /region_name="DXP_redisom_C"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase
+                     C-terminal; pfam08436"
+                     /db_xref="CDD:254800"
+     Region          160..328
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          160..168
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          178..185
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          225..238
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          244..250
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          254..262
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          264..271
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Region          271..390
+                     /region_name="DXPR_C"
+                     /note="DXP reductoisomerase C-terminal domain; pfam13288"
+                     /db_xref="CDD:257629"
+     SecStr          276..284
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          316..326
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          329..397
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          330..347
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          355..365
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          377..393
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mahhhhhhvt nstdgradgr lrvvvlgstg sigtqalqvi adnpdrfevv glaaggahld
+       61 tllrqraqtg vtniavadeh aaqrvgdipy hgsdaatrlv eqteadvvln alvgalglrp
+      121 tlaalktgar lalankeslv aggslvlraa rpgqivpvds ehsalaqclr ggtpdevakl
+      181 vltasggpfr gwsaadlehv tpeqagahpt wsmgpmntln saslvnkgle viethllfgi
+      241 pydridvvvh pqsiihsmvt fidgstiaqa sppdmklpis lalgwprrvs gaaaacdfht
+      301 asswefepld tdvfpavela rqagvaggcm tavynaanee aaaaflagri gfpaivgiia
+      361 dvlhaadqwa vepatvddvl daqrwarera qravsgm
+//
+

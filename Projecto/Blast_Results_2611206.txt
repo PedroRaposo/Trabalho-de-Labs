@@ -1,0 +1,64 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 67463777 
+ Accession: 1VYH_C 
+ Score: 37.7354
+ E-value: 0.0268408
+ Identities: 49
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VYH_C
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+
+Hit num: 3
+
+
+Hit num: 4
+
+
+Hit num: 5
+
+
+Hit num: 6
+
+
+Hit num: 7
+
+
+Hit num: 8
+
+
+Hit num: 9
+
+
+Hit num: 10
+
+
+Hit num: 11
+
+
+Hit num: 12
+
+
+Hit num: 13
+
+
+Hit num: 14
+
+
+Hit num: 15
+
+
+Hit num: 16
+
+
+Hit num: 17
+
+
+Hit num: 18
+
+

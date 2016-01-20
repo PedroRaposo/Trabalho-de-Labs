@@ -1,0 +1,100 @@
+LOCUS       3J6V_B                   293 aa            linear   MAM 18-JUN-2014
+DEFINITION  Chain B, Cryo-em Structure Of The Small Subunit Of The Mammalian
+            Mitochondrial Ribosome.
+ACCESSION   3J6V_B
+VERSION     3J6V_B  GI:657231756
+DBSOURCE    pdb: molecule 3J6V, chain 66, release Jun 18, 2014;
+            deposition: Apr 1, 2014;
+            class: Ribosome;
+            source: Mmdb_id: 120712, Pdb_id 1: 3J6V;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 293)
+  AUTHORS   Kaushal,P.S., Sharma,M.R., Booth,T.M., Haque,E.M., Tung,C.S.,
+            Sanbonmatsu,K.Y., Spremulli,L.L. and Agrawal,R.K.
+  TITLE     Cryo-EM structure of the small subunit of the mammalian
+            mitochondrial ribosome
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 111 (20), 7284-7289 (2014)
+   PUBMED   24799711
+REFERENCE   2  (residues 1 to 293)
+  AUTHORS   Kaushal,P.S., Sharma,M.R., Booth,T.M., Haque,E., Tung,C.,
+            Sanbonmats,K., Spremulli,L. and Agrawal,R.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-APR-2014)
+COMMENT     2 28s Ribosomal Protein S2, Mitochondrial.
+FEATURES             Location/Qualifiers
+     source          1..293
+                     /organism="Bos taurus"
+                     /db_xref="taxon:9913"
+     Region          1..106
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          73..248
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     SecStr          79..82
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(89..90,99..101,159,161..163,166..167,200,203)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          96..100
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          101..105
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          107..293
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          108..122
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          141..151
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          168..175
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          196..204
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(202..203,205,219..222)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          208..213
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          222..227
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          232..250
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            237..242
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+     SecStr          257..265
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 matgavlprl lgagvraapr graaqrgrtl gsaaaaaare perdsdrsar ilseplkhsd
+       61 ffnvkelfsv rslfnarvhl ghkagcrhrf mepyifgsrl gqdiidleqt athlqlalnf
+      121 tahvafrggi ilfvsrarqf shliestars cgeyahtryf kgglltnapl llgarvrlpd
+      181 liiflhtlnn vfephvavrd aakmsiptvg vvdtncnpcl itypvpgndd sppavqlfcq
+      241 lfqtavtrak ekrrqlealy rlqgapgphp anpaapgaps pgaqaqlgmg hsp
+//
+

@@ -1,0 +1,107 @@
+LOCUS       1TXE_A                    88 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Solution Structure Of The Active-Centre Mutant Ile14ala Of
+            The Histidine-Containing Phosphocarrier Protein (Hpr) From
+            Staphylococcus Carnosus.
+ACCESSION   1TXE_A
+VERSION     1TXE_A  GI:62738053
+DBSOURCE    pdb: molecule 1TXE, chain 65, release Jun 18, 2009;
+            deposition: Jul 4, 2004;
+            class: Transport Protein;
+            source: Mmdb_id: 32254, Pdb_id 1: 1TXE;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Staphylococcus carnosus
+  ORGANISM  Staphylococcus carnosus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+            Staphylococcus.
+REFERENCE   1  (residues 1 to 88)
+  AUTHORS   Kalbitzer,H.R., Gorler,A., Li,H., Dubovskii,P.V., Hengstenberg,W.,
+            Kowolik,C., Yamada,H. and Akasaka,K.
+  TITLE     15N and 1H NMR study of histidine containing protein (HPr) from
+            Staphylococcus carnosus at high pressure
+  JOURNAL   Protein Sci. 9 (4), 693-703 (2000)
+   PUBMED   10794411
+REFERENCE   2  (residues 1 to 88)
+  AUTHORS   Linge,J.P., Williams,M.A., Spronk,C.A., Bonvin,A.M. and Nilges,M.
+  TITLE     Refinement of protein structures in explicit solvent
+  JOURNAL   Proteins 50 (3), 496-506 (2003)
+   PUBMED   12557191
+REFERENCE   3  (residues 1 to 88)
+  AUTHORS   Groger,C., Moglich,A., Pons,M., Koch,B., Hengstenberg,W.,
+            Kalbitzer,H.R. and Brunner,E.
+  TITLE     NMR-spectroscopic mapping of an engineered cavity in the I14A
+            mutant of HPr from Staphylococcus carnosus using xenon
+  JOURNAL   J. Am. Chem. Soc. 125 (29), 8726-8727 (2003)
+   PUBMED   12862458
+REFERENCE   4  (residues 1 to 88)
+  AUTHORS   Nabuurs,S.B., Nederveen,A.J., Vranken,W., Doreleijers,J.F.,
+            Bonvin,A.M., Vuister,G.W., Vriend,G. and Spronk,C.A.
+  TITLE     DRESS: a database of REfined solution NMR structures
+  JOURNAL   Proteins 55 (3), 483-486 (2004)
+   PUBMED   15103611
+REFERENCE   5  (residues 1 to 88)
+  AUTHORS   Moglich,A., Koch,B., Gronwald,W., Hengstenberg,W., Brunner,E. and
+            Kalbitzer,H.R.
+  TITLE     Solution structure of the active-centre mutant I14A of the
+            histidine-containing phosphocarrier protein from Staphylococcus
+            carnosus
+  JOURNAL   Eur. J. Biochem. 271 (23-24), 4815-4824 (2004)
+   PUBMED   15606769
+REFERENCE   6  (residues 1 to 88)
+  AUTHORS   Moeglich,A., Koch,B., Hengstenberg,W., Brunner,E., Kalbitzer,H.R.
+            and Structural Proteomics In Europe (Spine).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUL-2004)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..88
+                     /organism="Staphylococcus carnosus"
+                     /db_xref="taxon:1281"
+     SecStr          1..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            7..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          17..28
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          32..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          59..66
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          70..84
+                     /sec_str_type="helix"
+                     /note="helix 2"
+ORIGIN      
+        1 meqqsytiid etgaharpat mlvqtaskfd sdiqleyngk kvnlksimgv mslgvgkdae
+       61 itiyadgsde adaiqaitdv lskeglte
+//
+

@@ -1,0 +1,105 @@
+LOCUS       1I94_B                   255 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Crystal Structures Of The Small Ribosomal Subunit With
+            Tetracycline, Edeine And If3.
+ACCESSION   1I94_B
+VERSION     1I94_B  GI:14278531
+DBSOURCE    pdb: molecule 1I94, chain 66, release Aug 27, 2007;
+            deposition: Mar 18, 2001;
+            class: Ribosome;
+            source: Mmdb_id: 16306, Pdb_id 1: 1I94;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus
+  ORGANISM  Thermus thermophilus
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 255)
+  AUTHORS   Schluenzen,F., Tocilj,A., Zarivach,R., Harms,J., Gluehmann,M.,
+            Janell,D., Bashan,A., Bartels,H., Agmon,I., Franceschi,F. and
+            Yonath,A.
+  TITLE     Structure of functionally activated small ribosomal subunit at 3.3
+            angstroms resolution
+  JOURNAL   Cell 102 (5), 615-623 (2000)
+   PUBMED   11007480
+REFERENCE   2  (residues 1 to 255)
+  AUTHORS   Pioletti,M., Schlunzen,F., Harms,J., Zarivach,R., Gluhmann,M.,
+            Avila,H., Bashan,A., Bartels,H., Auerbach,T., Jacobi,C.,
+            Hartsch,T., Yonath,A. and Franceschi,F.
+  TITLE     Crystal structures of complexes of the small ribosomal subunit with
+            tetracycline, edeine and IF3
+  JOURNAL   EMBO J. 20 (8), 1829-1839 (2001)
+   PUBMED   11296217
+REFERENCE   3  (residues 1 to 255)
+  AUTHORS   Pioletti,M., Schluenzen,F., Harms,J., Zarivach,R., Gluehmann,M.,
+            Avila,H., Bartels,H., Jacobi,C., Hartsch,T., Yonath,A. and
+            Franceschi,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAR-2001)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..255
+                     /organism="Thermus thermophilus"
+                     /db_xref="taxon:274"
+     Region          9..218
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     Site            order(25..26,35..37,95,97..99,102..103,175,178)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     Het             bond(36)
+                     /heterogen="(WO2,1001 )"
+     SecStr          43..63
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          66..72
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          77..87
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          89..94
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          108..121
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          132..147
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          159..165
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          170..179
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(177..178,180,194..197)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          181..187
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          197..201
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          207..223
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Site            order(212..213,214)
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+ORIGIN      
+        1 pveitvkell eagvhfgher krwnpkfary iyaerngihi idlqktmeel ertfrfiedl
+       61 amrggtilfv gtkkqaqdiv rmeaeragmp yvnqrwlggm ltnfktisqr vhrleeleal
+      121 faspeieerp kkeqvrlkhe lerlqkylsg frllkrlpda ifvvdptkea iavrearklf
+      181 ipvialadtd sdpdlvdyii pgnddairsi qlilsravdl iiqarggvve pspsyalvqe
+      241 aeatetpege sevea
+//
+

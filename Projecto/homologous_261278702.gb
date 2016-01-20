@@ -1,0 +1,167 @@
+LOCUS       3H37_A                   441 aa            linear   BCT 05-FEB-2014
+DEFINITION  Chain A, The Structure Of Cca-adding Enzyme Apo Form I.
+ACCESSION   3H37_A
+VERSION     3H37_A  GI:261278702
+DBSOURCE    pdb: molecule 3H37, chain 65, release Feb 5, 2014;
+            deposition: Apr 16, 2009;
+            class: Transferase;
+            source: Mmdb_id: 77304, Pdb_id 1: 3H37;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 441)
+  AUTHORS   Toh,Y., Takeshita,D., Numata,T., Fukai,S., Nureki,O. and Tomita,K.
+  TITLE     Mechanism for the definition of elongation and termination by the
+            class II CCA-adding enzyme
+  JOURNAL   EMBO J. 28 (21), 3353-3365 (2009)
+   PUBMED   19745807
+REFERENCE   2  (residues 1 to 441)
+  AUTHORS   Toh,Y. and Tomita,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-APR-2009)
+COMMENT     1 Trna Nucleotidyl Transferase-related Protein.
+FEATURES             Location/Qualifiers
+     source          1..441
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     Region          1..151
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          3..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          8..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          12..429
+                     /region_name="PcnB"
+                     /note="tRNA nucleotidyltransferase/poly(A) polymerase
+                     [Translation, ribosomal structure and biogenesis];
+                     COG0617"
+                     /db_xref="CDD:223690"
+     SecStr          17..33
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          21..160
+                     /region_name="NT_ClassII-CCAase"
+                     /note="Nucleotidyltransferase (NT) domain of ClassII
+                     CCA-adding enzymes; cd05398"
+                     /db_xref="CDD:143388"
+     SecStr          35..41
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(41..42,45..46,55,57,85,99,104,128..131,134)
+                     /site_type="active"
+                     /db_xref="CDD:143388"
+     Site            order(41..42,45,55,57,128..130,134)
+                     /site_type="other"
+                     /note="NTP binding site [chemical binding]"
+                     /db_xref="CDD:143388"
+     SecStr          42..50
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(55,57,99)
+                     /site_type="metal-binding"
+                     /note="metal binding triad [ion binding]"
+                     /db_xref="CDD:143388"
+     SecStr          56..62
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          64..72
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          77..83
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..93
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          95..103
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          136..141
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          146..150
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          152..247
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          153..160
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          161..164
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          177..188
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          189..248
+                     /region_name="PolyA_pol_RNAbd"
+                     /note="Probable RNA and SrmB- binding site of polymerase
+                     A; pfam12627"
+                     /db_xref="CDD:257174"
+     SecStr          190..193
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          194..206
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          215..226
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          230..240
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          248..354
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          254..273
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          279..287
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          293..303
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          309..329
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          345..352
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     Region          355..441
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          357..373
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     Region          <368..421
+                     /region_name="HDc"
+                     /note="Metal dependent phosphohydrolases with conserved
+                     'HD' motif; cl21469"
+                     /db_xref="CDD:276310"
+     SecStr          381..388
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          394..407
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          412..426
+                     /sec_str_type="helix"
+                     /note="helix 18"
+ORIGIN      
+        1 xqifrdvskl lvervdpkil nlfrllgkfg devnxpvyvv ggfvrdlllg iknldidivv
+       61 egnalefaey akrflpgklv khdkfxtasl flkgglridi atarleyyes paklpdvexs
+      121 tikkdlyrrd ftinaxaikl npkdfgllid ffggyrdlke gvirvlhtls fvddptrilr
+      181 airfeqrfdf rieetterll kqaveegyle rttgprlrqe lekileeknp lksirrxaqf
+      241 dvikhlfpkt yytpsxdekx enlfrnipwv eenfgevdrf yavlhvflef yddeswkevr
+      301 dryslrrnli neirhveksa pallexlser vpasfvyplv kgvsnetich flaylsgeke
+      361 glfksyllki kntkleking eylirkgits gkiigevlek ilxkkldgdt rdeeeileev
+      421 lasletegkl aaalehhhhh h
+//
+

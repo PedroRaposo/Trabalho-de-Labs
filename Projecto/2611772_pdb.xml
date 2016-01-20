@@ -1,0 +1,2107 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_180949</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611772</BlastOutput_query-def>
+  <BlastOutput_query-len>460</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_180949</Iteration_query-ID>
+  <Iteration_query-def>2611772</Iteration_query-def>
+  <Iteration_query-len>460</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|414145478|pdb|4DCS|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of B. Subtilis Enga In Complex With Sulfate Ion And Gdp &gt;gi|414145479|pdb|4DCT|A Chain A, Crystal Structure Of B. Subtilis Enga In Complex With Half-Occupacy Gdp &gt;gi|414145480|pdb|4DCU|A Chain A, Crystal Structure Of B. Subtilis Enga In Complex With Gdp &gt;gi|414145481|pdb|4DCV|A Chain A, Crystal Structure Of B. Subtilis Enga In Complex With Gmppcp</Hit_def>
+  <Hit_accession>4DCS_A</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>7.30102e-79</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>PRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDG-TCESAEDEEVIQYLRPYWGKLIAAVNKTEGGEEVH--YNYARYGFSTLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVETSALNTALKDWVTSYPPPRKYG-HVSLKYLVQVSVRPIEFLLFANRPDRIPENYVRFLQNRIREDLGLDSIPVKLTIR</Hsp_qseq>
+      <Hsp_hseq>PVVAIVGRPNVGKSTIFNRIAGERISIVEDTPGVTRDRIYSSAEWLNYDFNLIDTGGIDIGDEPFLAQ------IRQQAEIAMDEADVIIFMVNGREGVTAADEEVAKILYRTKKPVVLAVNKLDNTEMRANIYDFYSLGFGEPYPISGTHGLGLGDLLDAVAEHFKNIPETKY--NEEVIQFCLIGRPNVGKSSLVNAMLGEERVIVSNVAGTTRDAVDTSFTYNQQEFVIVDTAGMRKKGKVYETTEKYSVLRALKAIDRSEVVAVVLDGEEGIIEQDKRIAGYAHEAGKAVVIVVNKWDAVDKDESTMKEFEENIRDHFQFLDYAPILFMSALTKKRIHTLMPAIIKASENHSLRVQTNVLNDVIMDAVAMNPTPTHNGSRLKIYYATQVSVKPPSFVVFVNDPELMHFSYERFLENRIRDAFGFEGTPIKIFAR</Hsp_hseq>
+      <Hsp_midline>P V IVGRPNVGKST+FNR+ G R SI  +T GVTRD I  +     +   L+DT G  +  E   ++      + +Q   ++  AD I+ +++G    +A DEEV + L      ++ AVNK +  E     Y++   GF     +S  HG  +  L  A+ ++  ++ E +    ++V++  ++G+PN GKS+L+N ++     +V + AGTTRD V     + Q +F+I DTAG+RK+ KVYE+ E YSV+RA+  ++  ++V  ++D  +G  EQDK+I     +    V+ ++NKWD ++   S + + + ++R  F  +++ P++ +SA T   I   +  + K     + +V+T+ LN  + D V   P P   G  + + Y  QVSV+P  F++F N P+ +  +Y RFL+NRIR+  G +  P+K+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|114794390|pdb|2HJG|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The B. Subtilis Yphc Gtpase In Complex With Gdp</Hit_def>
+  <Hit_accession>2HJG_A</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>3.28827e-76</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>PRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDG-TCESAEDEEVIQYLRPYWGKLIAAVNKTEGGEEVH--YNYARYGFSTLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVETSALNTALKDWVTSYPPPRKYG-HVSLKYLVQVSVRPIEFLLFANRPDRIPENYVRFLQNRIREDLGLDSIPVKLTIR</Hsp_qseq>
+      <Hsp_hseq>PVVAIVGRPNVGKSTIFNRIAGERISIVEDTPGVTRDRIYSSAEWLNYDFNLIDTGGIDIGDEPFLAQ------IRQQAEIAXDEADVIIFXVNGREGVTAADEEVAKILYRTKKPVVLAVNKLDNTEXRANIYDFYSLGFGEPYPISGTHGLGLGDLLDAVAEHFKNIPETKY--NEEVIQFCLIGRPNVGKSSLVNAXLGEERVIVSNVAGTTRDAVDTSFTYNQQEFVIVDTAGXRKKGKVYETTEKYSVLRALKAIDRSEVVAVVLDGEEGIIEQDKRIAGYAHEAGKAVVIVVNKWDAVDKDESTXKEFEENIRDHFQFLDYAPILFXSALTKKRIHTLXPAIIKASENHSLRVQTNVLNDVIXDAVAXNPTPTHNGSRLKIYYATQVSVKPPSFVVFVNDPELXHFSYERFLENRIRDAFGFEGTPIKIFAR</Hsp_hseq>
+      <Hsp_midline>P V IVGRPNVGKST+FNR+ G R SI  +T GVTRD I  +     +   L+DT G  +  E   ++      + +Q   +   AD I+  ++G    +A DEEV + L      ++ AVNK +  E     Y++   GF     +S  HG  +  L  A+ ++  ++ E +    ++V++  ++G+PN GKS+L+N  +     +V + AGTTRD V     + Q +F+I DTAG RK+ KVYE+ E YSV+RA+  ++  ++V  ++D  +G  EQDK+I     +    V+ ++NKWD ++   S   + + ++R  F  +++ P++  SA T   I      + K     + +V+T+ LN  + D V   P P   G  + + Y  QVSV+P  F++F N P+    +Y RFL+NRIR+  G +  P+K+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|28373695|pdb|1MKY|A</Hit_id>
+  <Hit_def>Chain A, Structural Analysis Of The Domain Interactions In Der, A Switch Protein Containing Two Gtpase Domains</Hit_def>
+  <Hit_accession>1MKY_A</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.149</Hsp_bit-score>
+      <Hsp_score>531</Hsp_score>
+      <Hsp_evalue>3.56206e-61</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>440</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>428</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGT-CESAEDEEVIQYLRPYWGKLIAAVNKTEG----GEEVHYNYARYGFSTLICVSAEHGRNIDALERAIIQNL----FSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVY-ESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVETSALNTALKDWVTSYPPPRKYGHVSLKYLVQVSVRPIEFLLFANRPDRIPENYVRFLQNRIRE</Hsp_qseq>
+      <Hsp_hseq>VLIVGRPNVGKSTLFNKLVKKKKAIVEDEEGVTRDPVQDTVEWYGKTFKLVDTCG--VFDN---PQDIISQKXKEVTLNXIREADLVLFVVDGKRGITKEDESLADFLRKSTVDTILVANKAENLREFEREVKPELYSLGFGEPIPVSAEHNINLDTXLETIIKKLEEKGLDLESKPEI--TDAIKVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGLRRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRXAGLXERRGRASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNIDRXIDAXNLAYASYTTKVPSSAINSALQKVLAFTNLPR---GLKIFFGVQVDIKPPTFLFFVNSIEKVKNPQKIFLRKLIRD</Hsp_hseq>
+      <Hsp_midline>V+IVGRPNVGKSTLFN+L+ ++++I  +  GVTRD +++TV   G   +LVDT G  VF      +  I     E T   I+ AD +L V+DG    + EDE +  +LR      I   NK E       EV       GF   I VSAEH  N+D     II+ L      ++ + E+   D +++AIVG+PN GKSTL N ++ +  +LV    GTTRD V   V     K++  DTAG+R++ +V   ++E YS  R +  +   D+V+ ++DA  G + QD++      +R    + + NKWDL+        +  +  R     +++ P++  SA  G  I   +      +A   TKV +SA+N+AL+  +     PR    + + + VQV ++P  FL F N  +++      FL+  IR+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>4.70007e-13</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYK---SIQCADKILLVLDGTCESAEDEEVIQYLRPYWGKLIAAVNKTEGGEEVHYNYARY--------------GFSTLICVSAEHGRNID</Hsp_qseq>
+      <Hsp_hseq>KVAIVGRPNVGKSTLFNAILNKERALVSPIPGTTRDPVDDEVFIDGRKYVFVDTAGL-----RRKSRVEPRTVEKYSNYRVVDSIEKADVVVIVLDATQGITRQDQRXAGLXERRGR--ASVVVFNKWDLVVHREKRYDEFTKLFREKLYFIDYSPLIFTSADKGWNID</Hsp_hseq>
+      <Hsp_midline>+V IVGRPNVGKSTLFN +L + R++ S   G TRD +++ V + G     VDT+G      ++ SR    T+     Y+   SI+ AD +++VLD T      ++    L    G+  A+V      + V +   RY               +S LI  SA+ G NID</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|939186870|pdb|5DN8|A</Hit_id>
+  <Hit_def>Chain A, 1.76 Angstrom Crystal Structure Of Gtp-binding Protein Der From Coxiella Burnetii In Complex With Gdp.</Hit_def>
+  <Hit_accession>5DN8_A</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>1.27213e-58</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>449</Hsp_align-len>
+      <Hsp_qseq>SYKVLPRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEVI-QYLRPYWGKLIAAVNKTEGGEE--VHYNYARYGFSTLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFG-KMNFVPVVP---VSAKTGHGISDALHCVCKIFAQLNTKVETSALNTALKDWVTSYPPPRKYG-HVSLKYLVQVSVRPIEFLLFANRPDRIPENYVRFLQNRIREDLGLDSIPVKLTIRKN</Hsp_qseq>
+      <Hsp_hseq>SNAMLPVIAIVGRPNVGKSTLFNYLTKSRAALVADVPGVTRDRQYGETTIDSQRLLLVDTGGL-VDTENK----EVAPLAETQVEQAIDESDCILFLVDAKAGLVPADEIIAERLRKKGKKIFLAVNKADRARAAVVQSDFYKLGFGEPYVIAAASGRGVKDLMTQVLENLPEEKEVIEKEVG--IKIAMIGRPNVGKSTLINRLLGEERVIVYDQPGTTRDSIYIPFARNDENYTLIDTAGIRRRAKIQDYVEKFSMIKSLQAMHAADVVIFLLDARQGVTEQDLRLLNRIVEAGVSLIIAVNKWD------GLNIEERDNVRNAIDRRMPFVDFARRYFISALHGTGVGKLFRAIQESYQSIQQELTTGQLTRALEKAVAEHEPPLVKGRRIRLRYAHLGARHPLTIVVHGKQTKSLPQSYSRYLANYFRKTFNFIGVPVHIKLKTD</Hsp_hseq>
+      <Hsp_midline>S  +LP + IVGRPNVGKSTLFN L   R ++ ++  GVTRD       +    L LVDT G  V +E K     +  L   Q  ++I  +D IL ++D        +E+I + LR    K+  AVNK +      V  ++ + GF     ++A  GR +  L   +++NL    E  E      +++A++G+PN GKSTL+N L+     +V D+ GTTRD +          + + DTAGIR+R K+ + +E +S+I+++  ++A D+V++++DAR G +EQD +++++I +  + +I  +NKWD       L  +++ +VR A   +M FV       +SA  G G+      + + +  +  ++ T  L  AL+  V  + PP   G  + L+Y    +  P+  ++   +   +P++Y R+L N  R+      +PV + ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|726968679|pdb|3J8G|X</Hit_id>
+  <Hit_def>Chain X, Electron Cryo-microscopy Structure Of Enga Bound With The 50s Ribosomal Subunit</Hit_def>
+  <Hit_accession>3J8G_X</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>4.2205e-56</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>456</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>460</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>228</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>468</Hsp_align-len>
+      <Hsp_qseq>VLPRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCE-SAEDEEVIQYLRPYWGKLIAAVNKTEG--GEEVHYNYARYGFSTLICVSAEHGRNIDALERAIIQNLFS-------VDERREL-------------------PKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVETSALNTALKDWVTSYPPPRKYG-HVSLKYLVQVSVRPIEFLLFANRPDRIPENYVRFLQNRIREDLGLDSIPVKLTIRKN</Hsp_qseq>
+      <Hsp_hseq>MVPVVALVGRPNVGKSTLFNRLTRTRDALVADFPGLTRDRKYGRAEIEGREFICIDTGGI------DGTEDGVETRMAEQSLLAIEEADVVLFMVDARAGLMPADEAIAKHLRSREKPTFLVANKTDGLDPDQAVVDFYSLGLGEIYPIAASHGRGVLSLLEHVLLPWMEDLAPQEEVDEDAEYWAQFEAEENGEEEEEDDFDPQSLPIKLAIVGRPNVGKSTLTNRILGEERVVVYDMPGTTRDSIYIPMERDGREYVLIDTAGVRKRGKITDAVEKFSVIKTLQAIEDANVVMLVIDAREGISDQDLSLLGFILNSGRSLVIVVNKWDGLSQEVKEQVKETLDFRLGF--IDFARVHFISALHGSGVGNLFESVREAYDSSTRRVGTSMLTRIMTMAVEDHQPPLVRGRRVKLKYAHAGGYNPPIVVIHGNQVKDLPDSYKRYLMNYFRKSLDVMGSPIRIQFKEG</Hsp_hseq>
+      <Hsp_midline>++P V +VGRPNVGKSTLFNRL   R ++ ++  G+TRD       + G     +DT G         +   ++T + EQ+  +I+ AD +L ++D        DE + ++LR          NKT+G   ++   ++   G   +  ++A HGR + +L   ++            VDE  E                    P+   ++LAIVG+PN GKSTL N ++     +V D  GTTRD +   +E    ++++ DTAG+RKR K+ +++E +SVI+ +  +   ++V+ ++DAR+G S+QD  ++  I      ++ ++NKWD L        K+  D R  F  ++F  V  +SA  G G+ +    V + +     +V TS L   +   V  + PP   G  V LKY       P   ++  N+   +P++Y R+L N  R+ L +   P+++  ++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|61679425|pdb|1XZP|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Gtp-Binding Protein Trme From Thermotoga Maritima &gt;gi|61679427|pdb|1XZQ|A Chain A, Structure Of The Gtp-binding Protein Trme From Thermotoga Maritima Complexed With 5-formyl-thf</Hit_def>
+  <Hit_accession>1XZP_A</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>4.70881e-20</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>245</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCE-SAEDEEVIQYLRPYWGKLIAAVNKTEGGEEVHYNYARYGFST---LICVSAEHGRNIDALERAIIQNLFSVDER</Hsp_qseq>
+      <Hsp_hseq>RMVIVGKPNVGKSTLLNRLLNEDRAIVTDIPGTTRDVISEEIVIRGILFRIVDTAGV-----RSETNDLVERLGIERTLQEIEKADIVLFVLDASSPLDEEDRKILERIKNK--RYLVVINKVDVVEKINEEEIKNKLGTDRHMVKISALKGEGLEKLEESIYRETQEIFER</Hsp_hseq>
+      <Hsp_midline>R+VIVG+PNVGKSTL NRLL   R+I ++  G TRD I E +++RG   R+VDT+G      +  +   ++ L +E+T + I+ AD +L VLD +     ED ++++ ++    + +  +NK +  E+++    +    T   ++ +SA  G  ++ LE +I +    + ER</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>3.23838e-18</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>244</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLE</Hsp_qseq>
+      <Hsp_hseq>LRMVIVGKPNVGKSTLLNRLLNEDRAIVTDIPGTTRDVISEEIVIRGILFRIVDTAGV--RSETNDLVERLGIERTLQEIEKADIVLFVLDASSPLDEEDRKILERI--KNKRYLVVINKVDVVE</Hsp_hseq>
+      <Hsp_midline>+R+ IVGKPN GKSTL+N L+    ++V D  GTTRDV++  +  +   F I DTAG+  R +  + +E   + R +  +   DIVL+++DA     E+D+KI+ +I  +N   + ++NK D++E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|145579207|pdb|2DYK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of N-Terminal Gtp-Binding Domain Of Enga From Thermus Thermophilus Hb8 &gt;gi|145579208|pdb|2DYK|B Chain B, Crystal Structure Of N-Terminal Gtp-Binding Domain Of Enga From Thermus Thermophilus Hb8</Hit_def>
+  <Hit_accession>2DYK_A</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>4.55221e-19</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCE-SAEDEEVIQYLRPYWGKLIAAVNKTEGGEEVHYNYARY--GFSTLICVSAEHGRNIDALERAIIQNL</Hsp_qseq>
+      <Hsp_hseq>KVVIVGRPNVGKSSLFNRLLKKRSAVVADVPGVTRDLKEGVVETDRGRFLLVDTGGL--WSGDKWEKK-----IQEKVDRALEDAEVVLFAVDGRAELTQADYEVAEYLRRKGKPVILVATKVDDPKHELYLGPLYGLGFGDPIPTSSEHARGLEELLEAIWERL</Hsp_hseq>
+      <Hsp_midline>+VVIVGRPNVGKS+LFNRLL +R ++ ++  GVTRD  E  V        LVDT G   +S  K  ++     + E+  ++++ A+ +L  +DG  E +  D EV +YLR     +I    K +  +   Y    Y  GF   I  S+EH R ++ L  AI + L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>6.3219e-14</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>RLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCK</Hsp_qseq>
+      <Hsp_hseq>KVVIVGRPNVGKSSLFNRLLKKRSAVVADVPGVTRDLKEGVVETDRGRFLLVDTGGLWSGDKWEKKIQ-EKVDRA---LEDAEVVLFAVDGRAELTQADYEVAEYLRRKGKPVILVATKVD--------DPKHELYLGPLYG-LGFGDPIPTSSEHARGLEELLEAIWE</Hsp_hseq>
+      <Hsp_midline>++ IVG+PN GKS+L N L+++  ++V D  G TRD+  G VE  + +F++ DT G+    K  + I+   V RA   L   ++VL+ VD R   ++ D ++   + ++   VI +  K D          K +  +   +G + F   +P S++   G+ + L  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|645985686|pdb|4KYU|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of N-terminal G-domain Of Enga From Bacillus Subtilis &gt;gi|645985687|pdb|4KYU|B Chain B, Crystal Structure Of N-terminal G-domain Of Enga From Bacillus Subtilis</Hit_def>
+  <Hit_accession>4KYU_A</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.43195e-18</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>PRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDG-TCESAEDEEVIQYLRPYWGKLIAAVNKTEGGEEVH--YNYARYGFSTLICVSAEHGRNIDALERAIIQNL</Hsp_qseq>
+      <Hsp_hseq>PVVAIVGRPNVGKSTIFNRIAGERISIVEDTPGVTRDRIYSSAEWLNYDFNLIDTGGIDIGDEPFLAQ------IRQQAEIAMDEADVIIFMVNGREGVTAADEEVAKILYRTKKPVVLAVNKLDNTEMRANIYDFYSLGFGEPYPISGTHGLGLGDLLDAVAEHF</Hsp_hseq>
+      <Hsp_midline>P V IVGRPNVGKST+FNR+ G R SI  +T GVTRD I  +     +   L+DT G  +  E   ++      + +Q   ++  AD I+ +++G    +A DEEV + L      ++ AVNK +  E     Y++   GF     +S  HG  +  L  A+ ++ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>5.00603e-15</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIR--AISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIF</Hsp_qseq>
+      <Hsp_hseq>VAIVGRPNVGKSTIFNRIAGERISIVEDTPGVTRDRIYSSAEWLNYDFNLIDTGGIDIGDE-----PFLAQIRQQAEIAMDEADVIIFMVNGREGVTAADEEVAKILYRTKKPVVLAVNKLDNTEMRANIY---------DFYSLGFGEPYPISGTHGLGLGDLLDAVAEHF</Hsp_hseq>
+      <Hsp_midline>+AIVG+PN GKST+ N +    +S+V D  G TRD +    E+  Y F + DT GI    +      + + IR  A   ++  D+++++V+ R+G +  D+++   + +    V+  +NK D  E   ++           F  + F    P+S   G G+ D L  V + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|159162931|pdb|1RFL|A</Hit_id>
+  <Hit_def>Chain A, Nmr Data Driven Structural Model Of G-Domain Of Mnme Protein</Hit_def>
+  <Hit_accession>1RFL_A</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.3445</Hsp_bit-score>
+      <Hsp_score>207</Hsp_score>
+      <Hsp_evalue>1.77406e-18</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEVI--QYLRPYWGKLIAAV--NKTEGGEEVHYNYARYGFSTLICVSAEHGRNIDALERAIIQNL</Hsp_qseq>
+      <Hsp_hseq>KVVIAGRPNAGKSSLLNALAGREAAIVTDIAGTTRDVLREHIHIDGMPLHIIDTAGLREASDE------VERIGIERAWQEIEQADRVLFMVDGTTTDAVDPAEIWPEFIARLPAKLPITVVRNKADITGET-LGMSEVNGHALIRLSARTGEGVDVLRNHLKQSM</Hsp_hseq>
+      <Hsp_midline>+VVI GRPN GKS+L N L GR  +I ++ +G TRD + E + + G PL ++DT+G    S++      ++ + +E+ ++ I+ AD++L ++DGT   A D   I  +++     KL   V  NK +   E     +      LI +SA  G  +D L   + Q++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.4294e-13</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKR---NLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGI</Hsp_qseq>
+      <Hsp_hseq>MKVVIAGRPNAGKSSLLNALAGREAAIVTDIAGTTRDVLREHIHIDGMPLHIIDTAGLR---EASDEVERIGIERAWQEIEQADRVLFMVDGTTTDAVDPAEIWPEFIARLPAKLPITVVRNKADIT-GET-----------LGMSEVNGHALIRLSARTGEGV</Hsp_hseq>
+      <Hsp_midline>+++ I G+PN GKS+L+N L  R  ++V D AGTTRDV+  H+        I DTAG+R   +  + +E   + RA   +   D VL++VD     +    +I  +   R    L +  + NK D+  G T               ++N   ++ +SA+TG G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|110590301|pdb|2GJ9|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Mnme G-Domain In Complex With GdpAlf4-, Mg2+ And Rb+ &gt;gi|110590302|pdb|2GJ9|B Chain B, Structure Of The Mnme G-Domain In Complex With GdpAlf4-, Mg2+ And Rb+ &gt;gi|110590303|pdb|2GJ9|C Chain C, Structure Of The Mnme G-Domain In Complex With GdpAlf4-, Mg2+ And Rb+ &gt;gi|110590304|pdb|2GJ9|D Chain D, Structure Of The Mnme G-Domain In Complex With GdpAlf4-, Mg2+ And Rb+ &gt;gi|110590305|pdb|2GJA|A Chain A, Structure Of The Mnme G-Domain In Complex With GdpAlf4-, Mg2+ And Nh4+ &gt;gi|110590306|pdb|2GJA|B Chain B, Structure Of The Mnme G-Domain In Complex With GdpAlf4-, Mg2+ And Nh4+</Hit_def>
+  <Hit_accession>2GJ9_A</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>2.35269e-18</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEVI--QYLRPYWGKLIAAV--NKTEGGEEVHYNYARYGFSTLICVSAEHGRNIDALERAIIQNL</Hsp_qseq>
+      <Hsp_hseq>KVVIAGRPNAGKSSLLNALAGREAAIVTDIAGTTRDVLREHIHIDGMPLHIIDTAGL-----REASDE-VERIGIERAWQEIEQADRVLFMVDGTTTDAVDPAEIWPEFIARLPAKLPITVVRNKADITGET-LGMSEVNGHALIRLSARTGEGVDVLRNHLKQSM</Hsp_hseq>
+      <Hsp_midline>+VVI GRPN GKS+L N L GR  +I ++ +G TRD + E + + G PL ++DT+G      ++AS + ++ + +E+ ++ I+ AD++L ++DGT   A D   I  +++     KL   V  NK +   E     +      LI +SA  G  +D L   + Q++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.62672e-13</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKR---NLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVE</Hsp_qseq>
+      <Hsp_hseq>MKVVIAGRPNAGKSSLLNALAGREAAIVTDIAGTTRDVLREHIHIDGMPLHIIDTAGLR---EASDEVERIGIERAWQEIEQADRVLFMVDGTTTDAVDPAEIWPEFIARLPAKLPITVVRNKADIT-GET-----------LGMSEVNGHALIRLSARTGEGV-DVLRNHLKQSMGFDTNME</Hsp_hseq>
+      <Hsp_midline>+++ I G+PN GKS+L+N L  R  ++V D AGTTRDV+  H+        I DTAG+R   +  + +E   + RA   +   D VL++VD     +    +I  +   R    L +  + NK D+  G T               ++N   ++ +SA+TG G+ D L    K     +T +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|110590297|pdb|2GJ8|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Mnme G-domain In Complex With Gdp*alf4-, Mg2+ And K+ &gt;gi|110590298|pdb|2GJ8|B Chain B, Structure Of The Mnme G-domain In Complex With Gdp*alf4-, Mg2+ And K+ &gt;gi|110590299|pdb|2GJ8|C Chain C, Structure Of The Mnme G-domain In Complex With Gdp*alf4-, Mg2+ And K+ &gt;gi|110590300|pdb|2GJ8|D Chain D, Structure Of The Mnme G-domain In Complex With Gdp*alf4-, Mg2+ And K+</Hit_def>
+  <Hit_accession>2GJ8_A</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>2.91491e-17</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEVI--QYLRPYWGKLIAAV--NKTEGGEEVHYNYARYGFSTLICVSAEHGRNIDALERAIIQN</Hsp_qseq>
+      <Hsp_hseq>KVVIAGRPNAGKSSLLNALAGREAAIVTDIAGTTRDVLREHIHIDGXPLHIIDTAGLREASDE------VERIGIERAWQEIEQADRVLFXVDGTTTDAVDPAEIWPEFIARLPAKLPITVVRNKADITGET-LGXSEVNGHALIRLSARTGEGVDVLRNHLKQS</Hsp_hseq>
+      <Hsp_midline>+VVI GRPN GKS+L N L GR  +I ++ +G TRD + E + + G PL ++DT+G    S++      ++ + +E+ ++ I+ AD++L  +DGT   A D   I  +++     KL   V  NK +   E     +      LI +SA  G  +D L   + Q+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>9.35416e-13</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>RLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKR---NLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVE</Hsp_qseq>
+      <Hsp_hseq>KVVIAGRPNAGKSSLLNALAGREAAIVTDIAGTTRDVLREHIHIDGXPLHIIDTAGLR---EASDEVERIGIERAWQEIEQADRVLFXVDGTTTDAVDPAEIWPEFIARLPAKLPITVVRNKADIT-GET-----------LGXSEVNGHALIRLSARTGEGV-DVLRNHLKQSXGFDTNXE</Hsp_hseq>
+      <Hsp_midline>++ I G+PN GKS+L+N L  R  ++V D AGTTRDV+  H+        I DTAG+R   +  + +E   + RA   +   D VL+ VD     +    +I  +   R    L +  + NK D+  G T               ++N   ++ +SA+TG G+ D L    K     +T  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|262118592|pdb|3GEH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mnme From Nostoc In Complex With Gdp, Folinic Acid And Zn</Hit_def>
+  <Hit_accession>3GEH_A</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>6.75568e-17</Hsp_evalue>
+      <Hsp_query-from>178</Hsp_query-from>
+      <Hsp_query-to>322</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>AIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLE</Hsp_qseq>
+      <Hsp_hseq>AEISQLLATKDKGELLRTGL-KVAIVGRPNVGKSSLLNAWSQSDRAIVTDLPGTTRDVVESQLVVGGIPVQVLDTAGIR---ETSDQVEKIGVERSRQAANTADLVLLTIDAATGWTTGDQEIYEQVKHRPL--ILVMNKIDLVE</Hsp_hseq>
+      <Hsp_midline>A I  L +  ++ EL +  + ++AIVG+PN GKS+L+N   +   ++V D  GTTRDVV   +        + DTAGIR   +  + +E   V R+    N  D+VL  +DA  G++  D++I  Q+  R L  I ++NK DL+E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>2.0572e-14</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>226</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLD-GTCESAEDEEVIQYL--RPYWGKLIAAVNKTEGGEEVHYNYARY--GFSTLICVSAEHGRNIDALERAIIQ</Hsp_qseq>
+      <Hsp_hseq>KVAIVGRPNVGKSSLLNAWSQSDRAIVTDLPGTTRDVVESQLVVGGIPVQVLDTAGI------RETSDQVEKIGVERSRQAANTADLVLLTIDAATGWTTGDQEIYEQVKHRP----LILVMNKIDLVEKQLITSLEYPENITQIVHTAAAQKQGIDSLETAILE</Hsp_hseq>
+      <Hsp_midline>+V IVGRPNVGKS+L N      R+I ++  G TRD +E  +++ G P++++DT+G       + +   ++ + +E++ ++   AD +LL +D  T  +  D+E+ + +  RP    LI  +NK +  E+       Y    + ++  +A   + ID+LE AI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|67464182|pdb|1X18|X</Hit_id>
+  <Hit_def>Chain X, Contact Sites Of Era Gtpase On The Thermus Thermophilus 30s Subunit</Hit_def>
+  <Hit_accession>1X18_X</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>3.82195e-16</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEVIQYLRPYWGKLIAAVNKTEGGEE-------VHYNYARYGFSTLICVSAEHGRNIDALERAIIQNL</Hsp_qseq>
+      <Hsp_hseq>IAIVGRPNVGKSTLLNKLLGQKISITSRKAQTTRHRIVGIHTEGAYQAIYVDTPGLHM-EEKRA----INRLMNKAASSSIGDVELVIFVVEGTRWTPDDEMVLNKLREGKAPVILAVNKVDNVQEKADLLPHLQFLASQMNFLDIVPISAETGLNVDTIAAIVRKHL</Hsp_hseq>
+      <Hsp_midline>+ IVGRPNVGKSTL N+LLG++ SITS  +  TR  I        +    VDT G  +  EK+A    I+ L+ +    SI   + ++ V++GT  + +DE V+  LR     +I AVNK +  +E       + +  ++  F  ++ +SAE G N+D +   + ++L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>2.95708e-14</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTG-HVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTG</Hsp_qseq>
+      <Hsp_hseq>IAIVGRPNVGKSTLLNKLLGQKISITSRKAQTTRHRIVGIHTE-GAYQAIYVDTPGLHMEEK--RAINRLMNKAASSSIGDVELVIFVVEGTR-WTPDDEMVLNKLREGKAPVILAVNKVDNVQEKADLLPH----LQFLASQMNFLDIVPISAETG</Hsp_hseq>
+      <Hsp_midline>+AIVG+PN GKSTL+N L+ + +S+   +A TTR  + G H E   Y+ I  DT G+   +K   +I       A S +  V++V+++V+    ++  D+ +++++ +    VI  +NK D ++    L+      ++    +MNF+ +VP+SA+TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|5822055|pdb|1EGA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Widely Conserved Gtpase Era &gt;gi|5822056|pdb|1EGA|B Chain B, Crystal Structure Of A Widely Conserved Gtpase Era &gt;gi|67464189|pdb|1X1L|X Chain X, Interaction Of Era,A Gtpase Protein, With The 3&apos;minor Domain Of The 16s Rrna Within The Thermus Thermophilus 30s Subunit. &gt;gi|256599905|pdb|3IEU|A Chain A, Crystal Structure Of Era In Complex With Gdp &gt;gi|256599906|pdb|3IEU|B Chain B, Crystal Structure Of Era In Complex With Gdp</Hit_def>
+  <Hit_accession>1EGA_A</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>4.90033e-16</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEVIQYLRPYWGKLIAAVNKTEGGEE-------VHYNYARYGFSTLICVSAEHGRNIDALERAIIQNL</Hsp_qseq>
+      <Hsp_hseq>IAIVGRPNVGKSTLLNKLLGQKISITSRKAQTTRHRIVGIHTEGAYQAIYVDTPGLHM-EEKRA----INRLMNKAASSSIGDVELVIFVVEGTRWTPDDEMVLNKLREGKAPVILAVNKVDNVQEKADLLPHLQFLASQMNFLDIVPISAETGLNVDTIAAIVRKHL</Hsp_hseq>
+      <Hsp_midline>+ IVGRPNVGKSTL N+LLG++ SITS  +  TR  I        +    VDT G  +  EK+A    I+ L+ +    SI   + ++ V++GT  + +DE V+  LR     +I AVNK +  +E       + +  ++  F  ++ +SAE G N+D +   + ++L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.47731e-14</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTG-HVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTG</Hsp_qseq>
+      <Hsp_hseq>IAIVGRPNVGKSTLLNKLLGQKISITSRKAQTTRHRIVGIHTE-GAYQAIYVDTPGLHMEEK--RAINRLMNKAASSSIGDVELVIFVVEGTR-WTPDDEMVLNKLREGKAPVILAVNKVDNVQEKADLLPH----LQFLASQMNFLDIVPISAETG</Hsp_hseq>
+      <Hsp_midline>+AIVG+PN GKSTL+N L+ + +S+   +A TTR  + G H E   Y+ I  DT G+   +K   +I       A S +  V++V+++V+    ++  D+ +++++ +    VI  +NK D ++    L+      ++    +MNF+ +VP+SA+TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|345100867|pdb|3R9W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Era In Complex With Mggdpnp And Nucleotides 1506- 1542 Of 16s Ribosomal Rna &gt;gi|345100869|pdb|3R9X|A Chain A, Crystal Structure Of Era In Complex With Mggdpnp, Nucleotides 1506- 1542 Of 16s Ribosomal Rna, And Ksga</Hit_def>
+  <Hit_accession>3R9W_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.87703e-14</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEF-KQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQ-ISKRNLGVIFLLNKWDLLEGSTSLIA-----KKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQ</Hsp_qseq>
+      <Hsp_hseq>VAIVGKPNVGKSTLLNNLLGTKVSIISPKAGTTRMRVLGVKNIPNEAQIIFLDTPGIYEPKK-SDVLGHSMVEIAKQSLEEADVILFMIDATEGWRPRDEEIYQNFIKPLNKPVIVVINKIDKIGPAKNVLPLIDEIHKKHPELTE--------IVPISALKGANLDELVKTILKYLPE</Hsp_hseq>
+      <Hsp_midline>+AIVGKPN GKSTL+N L+   VS++  +AGTTR  V G      + + I  DT GI + +K  + + +  V  A   L   D++L+++DA +G+  +D++I    I   N  VI ++NK D +  + +++       KK    T         +VP+SA  G  + + +  + K   +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.47158e-12</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFP----LRLVDTSGFTVFSEKKASRQHIDTL---VLEQTYKSIQCADKILLVLDGT-CESAEDEEVIQ-YLRPYWGKLIAAVNKTEG----------GEEVHYNYARYGFSTLICVSAEHGRNIDALERAII------QNLFSVDERRELP</Hsp_qseq>
+      <Hsp_hseq>VAIVGKPNVGKSTLLNNLLGTKVSIISPKAGTTRMRV---LGVKNIPNEAQIIFLDTPG--IYEPKKS-----DVLGHSMVEIAKQSLEEADVILFMIDATEGWRPRDEEIYQNFIKPLNKPVIVVINKIDKIGPAKNVLPLIDEIHKKHPE--LTEIVPISALKGANLDELVKTILKYLPEGEPLFPEDMITDLP</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTL N LLG + SI S  +G TR  +   + ++  P    +  +DT G  ++  KK+     D L   ++E   +S++ AD IL ++D T      DEE+ Q +++P    +I  +NK +            +E+H  +     + ++ +SA  G N+D L + I+      + LF  D   +LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|256599907|pdb|3IEV|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Era In Complex With Mggnp And The 3&apos; End Of 16s Rrna</Hit_def>
+  <Hit_accession>3IEV_A</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>2.96549e-14</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEF-KQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQ-ISKRNLGVIFLLNKWDLLEGSTSLIA-----KKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQ</Hsp_qseq>
+      <Hsp_hseq>VAIVGKPNVGKSTLLNNLLGTKVSIISPKAGTTRMRVLGVKNIPNEAQIIFLDTPGIYEPKK-SDVLGHSMVEIAKQSLEEADVILFMIDATEGWRPRDEEIYQNFIKPLNKPVIVVINKIDKIGPAKNVLPLIDEIHKKHPELTE--------IVPISALKGANLDELVKTILKYLPE</Hsp_hseq>
+      <Hsp_midline>+AIVGKPN GKSTL+N L+   VS++  +AGTTR  V G      + + I  DT GI + +K  + + +  V  A   L   D++L+++DA +G+  +D++I    I   N  VI ++NK D +  + +++       KK    T         +VP+SA  G  + + +  + K   +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.52946e-12</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFP----LRLVDTSGFTVFSEKKASRQHIDTL---VLEQTYKSIQCADKILLVLDGT-CESAEDEEVIQ-YLRPYWGKLIAAVNKTEG----------GEEVHYNYARYGFSTLICVSAEHGRNIDALERAII------QNLFSVDERRELP</Hsp_qseq>
+      <Hsp_hseq>VAIVGKPNVGKSTLLNNLLGTKVSIISPKAGTTRMRV---LGVKNIPNEAQIIFLDTPG--IYEPKKS-----DVLGHSMVEIAKQSLEEADVILFMIDATEGWRPRDEEIYQNFIKPLNKPVIVVINKIDKIGPAKNVLPLIDEIHKKHPE--LTEIVPISALKGANLDELVKTILKYLPEGEPLFPEDMITDLP</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTL N LLG + SI S  +G TR  +   + ++  P    +  +DT G  ++  KK+     D L   ++E   +S++ AD IL ++D T      DEE+ Q +++P    +I  +NK +            +E+H  +     + ++ +SA  G N+D L + I+      + LF  D   +LP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|262118591|pdb|3GEE|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mnme From Chlorobium Tepidum In Complex With Gdp And Folinic Acid &gt;gi|262118593|pdb|3GEI|A Chain A, Crystal Structure Of Mnme From Chlorobium Tepidum In Complex With Gcp &gt;gi|262118594|pdb|3GEI|B Chain B, Crystal Structure Of Mnme From Chlorobium Tepidum In Complex With Gcp &gt;gi|262118595|pdb|3GEI|C Chain C, Crystal Structure Of Mnme From Chlorobium Tepidum In Complex With Gcp</Hit_def>
+  <Hit_accession>3GEE_A</Hit_accession>
+  <Hit_len>476</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.90312e-11</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEV-IQYLRPYW--GKLIAAVNKTE---GGEEVHYNYARYGFSTLICVSAEHGRNIDALERA---IIQNLFSVDE</Hsp_qseq>
+      <Hsp_hseq>VIAGKPNAGKSTLLNTLLGQERAIVSHMPGTTRDYIEECFIHDKTMFRLTDTAGL------REAGEEIEHEGIRRSRMKMAEADLILYLLDLGTERLDDELTEIRELKAAHPAAKFLTVANKLDRAANADALIRAIADGTGTEVIGISALNGDGIDTLKQHMGDLVKNLDKLHE</Hsp_hseq>
+      <Hsp_midline>VI G+PN GKSTL N LLG+ R+I S+  G TRD IEE  I      RL DT+G       + + + I+   + ++   +  AD IL +LD   E  +DE   I+ L+      K +   NK +     + +    A    + +I +SA +G  ID L++    +++NL  + E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>4.24296e-11</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>234</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFL--LNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVETSALNTALKDW</Hsp_qseq>
+      <Hsp_hseq>VSTVIAGKPNAGKSTLLNTLLGQERAIVSHMPGTTRDYIEECFIHDKTMFRLTDTAGLR---EAGEEIEHEGIRRSRMKMAEADLILYLLDLGTERLDDELTEIRELKAAHPAAKFLTVANKLDRAANADALI--------RAIADGTGTEVIGISALNGDGIDTLKQHMGDLVKNLDKLHEASVLVTSLRHY</Hsp_hseq>
+      <Hsp_midline>V   I GKPN GKSTL+N L+ +  ++V    GTTRD +       +  F + DTAG+R   +  E IE+  + R+   +   D++LY++D      + +   + ++   +    FL   NK D    + +LI         A        V+ +SA  G GI      +  +   L+   E S L T+L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|508123630|pdb|4B47|A</Hit_id>
+  <Hit_def>Chain A, Bacterial Translation Initiation Factor If2 (1-363), Complex With Gdp At Ph6.5 &gt;gi|508123631|pdb|4B48|A Chain A, Bacterial Translation Initiation Factor If2 (1-363), Complex With Gtp &gt;gi|544191774|pdb|4B44|A Chain A, Bacterial Translation Initiation Factor If2 (1-363), Complex With Gdp At Ph8.0</Hit_def>
+  <Hit_accession>4B47_A</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>7.69502e-11</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>STLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVP--------VVPVSAKTGHGISDALHCVCKIFAQLN</Hsp_qseq>
+      <Hsp_hseq>STLEEKDAEAVRELVKEQRGLQEKLAEEERRKSLPRRPPV-VVIMGHVDHGKTTLLDYL-RKSRIAEKEAGGITQHVGAFEVKTPQGTVVFIDTPGH----------EAFTTIRQRGA-KVADIAVIVIAADDGIMPQTEEAIAHAKAAGAKLIFAINKIDLPQADPE-------KVKRQLMERGFVPEEYGGDAIVIPISAKTGQGVQDLLEMIL-LLAELE</Hsp_hseq>
+      <Hsp_midline>STL    AE  R +   +R + + L   + R+ LP+   V + I+G  + GK+TL++YL R++     +  G T+ V    V+  Q   +  DT G           E ++ IR        DI + ++ A DG   Q ++ ++        +IF +NK DL +            V+    +  FVP        V+P+SAKTG G+ D L  +  + A+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|508123629|pdb|4B3X|A</Hit_id>
+  <Hit_def>Chain A, Bacterial Translation Initiation Factor If2 (1-363), Apo Form</Hit_def>
+  <Hit_accession>4B3X_A</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>1.05108e-10</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>STLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVP--------VVPVSAKTGHGISDALHCVCKIFAQLN</Hsp_qseq>
+      <Hsp_hseq>STLEEKDAEAVRELVKEQRGLQEKLAEEERRKSLPRRPPV-VVIMGHVDHGKTTLLDYL-RKSRIAEKEGGGITQHVGAFEVKTPQGTVVFIDTPGH----------EAFTTIRQRGA-KVADIAVIVIAADDGIMPQTEEAIAHAKAAGAKLIFAINKIDLPQADPE-------KVKRQLMERGFVPEEYGGDAIVIPISAKTGQGVQDLLEMIL-LLAELE</Hsp_hseq>
+      <Hsp_midline>STL    AE  R +   +R + + L   + R+ LP+   V + I+G  + GK+TL++YL R++     +  G T+ V    V+  Q   +  DT G           E ++ IR        DI + ++ A DG   Q ++ ++        +IF +NK DL +            V+    +  FVP        V+P+SAKTG G+ D L  +  + A+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|541881671|pdb|4KJZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thermus Thermophilus If2, Apo And Gdp-bound Forms (2-474) &gt;gi|541881672|pdb|4KJZ|D Chain D, Crystal Structure Of Thermus Thermophilus If2, Apo And Gdp-bound Forms (2-474) &gt;gi|541881673|pdb|4KJZ|B Chain B, Crystal Structure Of Thermus Thermophilus If2, Apo And Gdp-bound Forms (2-474) &gt;gi|541881674|pdb|4KJZ|C Chain C, Crystal Structure Of Thermus Thermophilus If2, Apo And Gdp-bound Forms (2-474)</Hit_def>
+  <Hit_accession>4KJZ_A</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.15131e-10</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>STLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVP--------VVPVSAKTGHGISDALHCVCKIFAQLN</Hsp_qseq>
+      <Hsp_hseq>STLEEKDAEAVRELVKEQRGLQEKLAEEERRKSLPRRPPV-VVIMGHVDHGKTTLLDYL-RKSRIAEKEAGGITQHVGAFEVKTPQGTVVFIDTPGH----------EAFTTIRQRGA-KVADIAVIVIAADDGIMPQTEEAIAHAKAAGAKLIFAINKIDLPQADPE-------KVKRQLMERGFVPEEYGGDAIVIPISAKTGQGVQDLLEMIL-LLAELE</Hsp_hseq>
+      <Hsp_midline>STL    AE  R +   +R + + L   + R+ LP+   V + I+G  + GK+TL++YL R++     +  G T+ V    V+  Q   +  DT G           E ++ IR        DI + ++ A DG   Q ++ ++        +IF +NK DL +            V+    +  FVP        V+P+SAKTG G+ D L  +  + A+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|545719621|pdb|3J4J|A</Hit_id>
+  <Hit_def>Chain A, Model Of Full-length T. Thermophilus Translation Initiation Factor 2 Refined Against Its Cryo-em Density From A 30s Initiation Complex Map</Hit_def>
+  <Hit_accession>3J4J_A</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.52061e-10</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>STLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVP--------VVPVSAKTGHGISDALHCVCKIFAQLN</Hsp_qseq>
+      <Hsp_hseq>STLEEKDAEAVRELVKEQRGLQEKLAEEERRKSLPRRPPV-VVIMGHVDHGKTTLLDYL-RKSRIAEKEAGGITQHVGAFEVKTPQGTVVFIDTPGH----------EAFTTIRQRGA-KVADIAVIVIAADDGIMPQTEEAIAHAKAAGAKLIFAINKIDLPQADPE-------KVKRQLMERGFVPEEYGGDAIVIPISAKTGQGVQDLLEMIL-LLAELE</Hsp_hseq>
+      <Hsp_midline>STL    AE  R +   +R + + L   + R+ LP+   V + I+G  + GK+TL++YL R++     +  G T+ V    V+  Q   +  DT G           E ++ IR        DI + ++ A DG   Q ++ ++        +IF +NK DL +            V+    +  FVP        V+P+SAKTG G+ D L  +  + A+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|544191773|pdb|4B43|A</Hit_id>
+  <Hit_def>Chain A, Bacterial Translation Initiation Factor If2 (1-363), Apo Form, Double Mutant K86l H130a</Hit_def>
+  <Hit_accession>4B43_A</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>4.32419e-10</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>STLICVSAEHGRNIDALERAIIQNLFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVP--------VVPVSAKTGHGISDALHCVCKIFAQLN</Hsp_qseq>
+      <Hsp_hseq>STLEEKDAEAVRELVKEQRGLQEKLAEEERRKSLPRRPPV-VVIMGHVDHGLTTLLDYL-RKSRIAEKEAGGITQHVGAFEVKTPQGTVVFIDTPGA----------EAFTTIRQRGA-KVADIAVIVIAADDGIMPQTEEAIAHAKAAGAKLIFAINKIDLPQADPE-------KVKRQLMERGFVPEEYGGDAIVIPISAKTGQGVQDLLEMIL-LLAELE</Hsp_hseq>
+      <Hsp_midline>STL    AE  R +   +R + + L   + R+ LP+   V + I+G  + G +TL++YL R++     +  G T+ V    V+  Q   +  DT G           E ++ IR        DI + ++ A DG   Q ++ ++        +IF +NK DL +            V+    +  FVP        V+P+SAKTG G+ D L  +  + A+L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|335892384|pdb|3PQC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thermotoga Maritima Ribosome Biogenesis Gtp- Binding Protein Engb (YsxcYIHA) IN COMPLEX WITH GDP &gt;gi|335892385|pdb|3PQC|B Chain B, Crystal Structure Of Thermotoga Maritima Ribosome Biogenesis Gtp- Binding Protein Engb (YsxcYIHA) IN COMPLEX WITH GDP &gt;gi|335892386|pdb|3PR1|A Chain A, Crystal Structure Of Apo Thermotoga Maritima Ribosome Biogenesis Gtp- Binding Protein Engb</Hit_def>
+  <Hit_accession>3PQC_A</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>4.68649e-10</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQ</Hsp_qseq>
+      <Hsp_hseq>VAFVGRSNVGKSSLLNALFNRKIAFVSKTPGKTRSINFYLVNSKYY-FVDLPGYGYAKVSKKERMLWKRLVEDYFKNRWSLQMVFLLVDGRIPPQDSDLMMVEWMKSLNIPFTIVLTKMDKVKMSER--AKKLEEHRKVFSKYGEYTIIPTSSVTGEGISELLDLISTLLKE</Hsp_hseq>
+      <Hsp_midline>+A VG+ N GKS+L+N L  R ++ V    G TR +    V  K Y F+     G  K  K    +    V        ++ +V  +VD R    + D  +V  +   N+    +L K D ++ S    AKK  + R  F K     ++P S+ TG GIS+ L  +  +  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.15968e-05</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDE----EVIQYLRPYWGKLIAAVNKTEGGE-----EVHYN-YARYGFSTLICVSAEHGRNIDAL</Hsp_qseq>
+      <Hsp_hseq>VAFVGRSNVGKSSLLNALFNRKIAFVSKTPGKTR-SINFYLVNSKY--YFVDLPGYGYAKVSKKERMLWKRLV-EDYFKNRWSLQMVFLLVDGRIPPQDSDLMMVEWMKSLNIPFTIVLTKMDKVKMSERAKKLEEHRKVFSKYGEYTIIPTSSVTGEGISEL</Hsp_hseq>
+      <Hsp_midline>V  VGR NVGKS+L N L  R+ +  S T G TR SI   ++   +    VD  G+      K  R     LV E  +K+      + L++DG     + +    E ++ L   +  ++  ++K +  E     E H   +++YG  T+I  S+  G  I  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|296863478|pdb|3K53|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Nfeob From P. Furiosus &gt;gi|296863479|pdb|3K53|B Chain B, Crystal Structure Of Nfeob From P. Furiosus &gt;gi|296863480|pdb|3K53|C Chain C, Crystal Structure Of Nfeob From P. Furiosus &gt;gi|296863481|pdb|3K53|D Chain D, Crystal Structure Of Nfeob From P. Furiosus</Hit_def>
+  <Hit_accession>3K53_A</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.36235e-09</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYL--MRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAIS---ILNA-VDIVLYIVDA----RDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISD</Hsp_qseq>
+      <Hsp_hseq>VALVGNPNVGKTTIFNALTGLRQHVG---NWPGVTVEKKEGIMEYREKEFLVVDLPGIY-------SLTAHSIDELIARNFILDGNADVIVDIVDSTCLMRNLFLTLE---LFEMEVKN--IILVLNKFDLLKKKGAKIDIKK--MRKELG----VPVIPTNAKKGEGVEE</Hsp_hseq>
+      <Hsp_midline>+A+VG PN GK+T+ N L  +R+ V    +  G T +   G +E+++ +F++ D  GI        S+  +S+   I+   IL+   D+++ IVD+    R+ F   +   + ++  +N  +I +LNK+DLL+   + I  KK  +R   G    VPV+P +AK G G+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>5.55727e-05</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VLPRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTC</Hsp_qseq>
+      <Hsp_hseq>VLKTVALVGNPNVGKTTIFNALTGLRQHV-GNWPGVTVEKKEGIMEYREKEFLVVDLPG--IYS---LTAHSIDELI-ARNFILDGNADVIVDIVDSTC</Hsp_hseq>
+      <Hsp_midline>VL  V +VG PNVGK+T+FN L G R+ +  N  GVT +  E  +  R     +VD  G  ++S    +   ID L+  + +     AD I+ ++D TC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|56966801|pdb|1WF3|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Gtp-Binding Protein Tt1341 From Thermus Thermophilus Hb8</Hit_def>
+  <Hit_accession>1WF3_A</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>3.36802e-08</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLL---NKWD</Hsp_qseq>
+      <Hsp_hseq>VAIVGKPNVGKSTLLNNLLGVKVAPISPRPQTTRKRLRGILTEGRRQIVFVDTPGLHKPMDALGEFMDQEVYEALADVNA---VVWVVDLRHPPTPED-ELVARALKPLVGKVPILLVGNKLD</Hsp_hseq>
+      <Hsp_midline>+AIVGKPN GKSTL+N L+   V+ +  R  TTR  + G +   + + +  DT G+ K            V  A++ +NA   V+++VD R   + +D ++V++  K  +G + +L   NK D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.19714e-05</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFSEKKASRQHIDTL---VLEQTYKSIQCADKILLVLD-GTCESAEDEEVIQYLRPYWGKL</Hsp_qseq>
+      <Hsp_hseq>VAIVGKPNVGKSTLLNNLLGVKVAPISPRPQTTRKR------LRGI---LTEGRRQIVFVDTPGLHKPMDALGEFMDQEVYEALADVNAVVWVVDLRHPPTPEDELVARALKPLVGKV</Hsp_hseq>
+      <Hsp_midline>V IVG+PNVGKSTL N LLG + +  S     TR        LRG    L +     VF +     + +D L   + ++ Y+++   + ++ V+D     + EDE V + L+P  GK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|482676792|pdb|3W5I|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Nfeob From Gallionella Capsiferriformans &gt;gi|482676793|pdb|3W5I|B Chain B, Crystal Structure Of Nfeob From Gallionella Capsiferriformans &gt;gi|482676794|pdb|3W5J|A Chain A, Crystal Structure Of Gdp-bound Nfeob From Gallionella Capsiferriformans &gt;gi|482676795|pdb|3W5J|B Chain B, Crystal Structure Of Gdp-bound Nfeob From Gallionella Capsiferriformans</Hit_def>
+  <Hit_accession>3W5I_A</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>6.94955e-08</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>RLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCK</Hsp_qseq>
+      <Hsp_hseq>RIALLGMPNTGKSTLFNR-MTGGAARVGNWPGITVELLSGKILLGADMVEIIDLPGIYDLHGFSDD---EQVVRHFLHDNVPDLALVILNATQ--IERQMSLLLQLKQLNMNIVVLLNMSDEAKQYGITIDSRK------MSELLQIPVFQLSGKYGTGYQEALQAVTR</Hsp_hseq>
+      <Hsp_midline>R+A++G PNTGKSTL N  M    + V +  G T ++++G +        I D  GI       +      V+R     N  D+ L I++A     E+   ++ Q+ + N+ ++ LLN  D  +     I  +K        ++  +PV  +S K G G  +AL  V +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00227292</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGF</Hsp_qseq>
+      <Hsp_hseq>RIALLGMPNTGKSTLFNRMTGGAARV-GNWPGITVELLSGKILLGADMVEIIDLPGI</Hsp_hseq>
+      <Hsp_midline>R+ ++G PN GKSTLFNR+ G    +  N  G+T + +   ++L    + ++D  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|357380559|pdb|3QQ5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The [fefe]-Hydrogenase Maturation Protein Hydf</Hit_def>
+  <Hit_accession>3QQ5_A</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>8.54104e-08</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGF-PLRLVDTSGFTVFSEKKASRQHIDTLVLEQTYKSIQCADKILLVLDGTCESAEDEEVIQYLRPYWGKLIAAVNKT----EGGEEVHYNYARYGFSTLICVSAEHGRNIDALERAIIQNLFSVDE</Hsp_qseq>
+      <Hsp_hseq>IVVAGRRNVGKSSFMNALVGQNVSIVSDYAGTTTDPVYKSMELHPIGPVTLVDTPGLDDVGE-------LGRLRVEKARRVFYRADCGILVTDSAPTPYED-DVVNLFKEMEIPFVVVVNKIDVLGEKAEELKGLYESRYEAKVLLVSALQKKGFDDIGKTISEILPGDEE</Hsp_hseq>
+      <Hsp_midline>+V+ GR NVGKS+  N L+G+  SI S+ +G T D + +++ L    P+ LVDT G     E       +  L +E+  +    AD  +LV D      ED +V+   +      +  VNK     E  EE+   Y     + ++ VSA   +  D + + I + L   +E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.000759378</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFI-IADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIF</Hsp_qseq>
+      <Hsp_hseq>IVVAGRRNVGKSSFMNALVGQNVSIVSDYAGTTTDPVYKSMELHPIGPVTLVDTPGL---DDVGE-LGRLRVEKARRVFYRADCGILVTDSAPTPYEDD--VVNLFKEMEIPFVVVVNKIDVL-------GEKAEELKGLYESRYEAKVLLVSALQKKGFDDIGKTISEIL</Hsp_hseq>
+      <Hsp_midline>+ + G+ N GKS+ MN L+ + VS+V D AGTT D V   +E      + + DT G+     V E +    V +A  +    D  + + D+     E D  +V+   +  +  + ++NK D+L        +K  +++  +       V+ VSA    G  D    + +I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|158430436|pdb|2QU8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Putative Nucleolar Gtp-Binding Protein 1 Pff0625w From Plasmodium Falciparum</Hit_def>
+  <Hit_accession>2QU8_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.36892e-05</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVD</Hsp_qseq>
+      <Hsp_hseq>GAPNVGKSSFMNIVSRANVD-VQSYSFTTKNLYVGHFDHKLNKYQIIDTPGLLDRAFENRNTIEMTTITALAHINGV--ILFIID</Hsp_hseq>
+      <Hsp_midline>G PN GKS+ MN + R  V  V   + TT+++  GH + K  K+ I DT G+  R     +    + I A++ +N V  +L+I+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|12084691|pdb|1FZQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Murine Arl3-Gdp</Hit_def>
+  <Hit_accession>1FZQ_A</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>1.52647e-05</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARD--GFSEQDKKIVSQISKRNLG---VIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCK</Hsp_qseq>
+      <Hsp_hseq>LLSILRKLKSAPDQEVRILLLGLDNAGKTTLLKQLASEDISHITPTQGFN----IKSVQSQGFKLNVWDIGGQRKIRPYWRS--YFE---------NTDILIYVIDSADRKRFEETGQELTELLEEEKLSCVPVLIFANKQDLLTAAPASEIAEGLNLHTIRDRV--WQIQSCSALTGEGVQDGMNWVCK</Hsp_hseq>
+      <Hsp_midline>L S+  + +   D  VR+ ++G  N GK+TL+  L    +S +    G         V+ + +K  + D  G RK +  + S  Y+            DI++Y++D+ D   F E  +++   + +  L    V+   NK DLL  + +    +  ++ T   ++    +   SA TG G+ D ++ VCK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.09818</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>RILLLGLDNAGKTTLLKQLASEDISHITPTQGFNIKSVQS----QGFKLNVWDIGG</Hsp_hseq>
+      <Hsp_midline>R++++G  N GK+TL  +L     S  + T G    S++     +GF L + D  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|951272690|pdb|4ZI2|A</Hit_id>
+  <Hit_def>Chain A, Bart-like Domain Of Bartl1/ccdc104 In Complex With Arl3fl Bound To Gppnhp In P21 21 21 &gt;gi|951272691|pdb|4ZI2|B Chain B, Bart-like Domain Of Bartl1/ccdc104 In Complex With Arl3fl Bound To Gppnhp In P21 21 21</Hit_def>
+  <Hit_accession>4ZI2_A</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>1.59522e-05</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARD--GFSEQDKKIVSQISKRNLG---VIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCK</Hsp_qseq>
+      <Hsp_hseq>LLSILRKLKSAPDQEVRILLLGLDNAGKTTLLKQLASEDISHITPTQGFN----IKSVQSQGFKLNVWDIGGQRKIRPYWRS--YFE---------NTDILIYVIDSADRKRFEETGQELTELLEEEKLSCVPVLIFANKQDLLTAAPASEIAEGLNLHTIRDRV--WQIQSCSALTGEGVQDGMNWVCK</Hsp_hseq>
+      <Hsp_midline>L S+  + +   D  VR+ ++G  N GK+TL+  L    +S +    G         V+ + +K  + D  G RK +  + S  Y+            DI++Y++D+ D   F E  +++   + +  L    V+   NK DLL  + +    +  ++ T   ++    +   SA TG G+ D ++ VCK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.62062</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>RILLLGLDNAGKTTLLKQLASEDISHITPTQGFNIKSVQS----QGFKLNVWDIGG</Hsp_hseq>
+      <Hsp_midline>R++++G  N GK+TL  +L     S  + T G    S++     +GF L + D  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|405945083|pdb|4GOJ|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Full Length Arl3gppnhp In Complex With Unc119a &gt;gi|405945084|pdb|4GOJ|B Chain B, The Crystal Structure Of Full Length Arl3gppnhp In Complex With Unc119a</Hit_def>
+  <Hit_accession>4GOJ_A</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>1.68082e-05</Hsp_evalue>
+      <Hsp_query-from>183</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>LFSVDERRELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARD--GFSEQDKKIVSQISKRNLG---VIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCK</Hsp_qseq>
+      <Hsp_hseq>LLSILRKLKSAPDQEVRILLLGLDNAGKTTLLKQLASEDISHITPTQGFN----IKSVQSQGFKLNVWDIGGQRKIRPYWRS--YFE---------NTDILIYVIDSADRKRFEETGQELTELLEEEKLSCVPVLIFANKQDLLTAAPASEIAEGLNLHTIRDRV--WQIQSCSALTGEGVQDGMNWVCK</Hsp_hseq>
+      <Hsp_midline>L S+  + +   D  VR+ ++G  N GK+TL+  L    +S +    G         V+ + +K  + D  G RK +  + S  Y+            DI++Y++D+ D   F E  +++   + +  L    V+   NK DLL  + +    +  ++ T   ++    +   SA TG G+ D ++ VCK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.83993</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>RILLLGLDNAGKTTLLKQLASEDISHITPTQGFNIKSVQS----QGFKLNVWDIGG</Hsp_hseq>
+      <Hsp_midline>R++++G  N GK+TL  +L     S  + T G    S++     +GF L + D  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|170785130|pdb|3BH6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Rp2-arl3 Complex Bound To Gppnhp</Hit_def>
+  <Hit_accession>3BH6_A</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>2.08718e-05</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARD--GFSEQDKKIVSQISKRNLG---VIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCK</Hsp_qseq>
+      <Hsp_hseq>VRILLLGLDNAGKTTLLKQLASEDISHIT----PTQGFNIKSVQSQGFKLNVWDIGGLRKIRPYWRS--YFE---------NTDILIYVIDSADRKRFEETGQELTELLEEEKLSCVPVLIFANKQDLLTAAPASEIAEGLNLHTIRDRV--WQIQSCSALTGEGVQDGMNWVCK</Hsp_hseq>
+      <Hsp_midline>VR+ ++G  N GK+TL+  L    +S +      T+      V+ + +K  + D  G+RK +  + S  Y+            DI++Y++D+ D   F E  +++   + +  L    V+   NK DLL  + +    +  ++ T   ++    +   SA TG G+ D ++ VCK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.20291</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGF</Hsp_qseq>
+      <Hsp_hseq>RILLLGLDNAGKTTLLKQLASEDISHITPTQGFNIKSVQS----QGFKLNVWDIGGL</Hsp_hseq>
+      <Hsp_midline>R++++G  N GK+TL  +L     S  + T G    S++     +GF L + D  G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|259090130|pdb|3A1W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structue Of The G Domain Of T. Maritima Feob Iron Iransporter</Hit_def>
+  <Hit_accession>3A1W_A</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>2.62089e-05</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>KVALAGCPNVGKTSLFNALTGTKQYV-ANWPGVTVEKKEGVFTYKGYTINLIDLPG</Hsp_hseq>
+      <Hsp_midline>+V + G PNVGK++LFN L G ++ + +N  GVT +  E     +G+ + L+D  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.00289963</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>VVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLN</Hsp_qseq>
+      <Hsp_hseq>MVKVALAGCPNVGKTSLFNAL-TGTKQYVANWPGVTVEKKEGVFTYKGYTINLIDLPGTYSLG--YSSID-EKIARDYLLKGDADLVILVADSVN--PEQSLYLLLEILEMEKKVILAMTAID--EAKKTGMKIDRYELQKHLG----IPVVFTSSVTGEGLEELKEKIVE-YAQKN</Hsp_hseq>
+      <Hsp_midline>+V++A+ G PN GK++L N L   T   V +  G T +   G   +K Y   + D  G       Y SI+   + R   +    D+V+ + D+ +   EQ   ++ +I +    VI  +   D  E   + +   + +++   G    +PVV  S+ TG G+ +    + + +AQ N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|192988491|pdb|3CNL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Gnp-Bound Ylqf From T. Maritima &gt;gi|192988493|pdb|3CNN|A Chain A, Gtp-Bound Structure Of Tm Ylqf &gt;gi|192988495|pdb|3CNO|A Chain A, Gdp-Bound Structue Of Tm Ylqf</Hit_def>
+  <Hit_accession>3CNL_A</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.70677e-05</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>RHFSYKVLPRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGF---TVFSEKKASR</Hsp_qseq>
+      <Hsp_hseq>KKLSFDRLARVLIVGVPNTGKSTIINKLKGKRASSVGAQPGITK-GIQWFSLENG--VKILDTPGILYKNIFSEDLAAK</Hsp_hseq>
+      <Hsp_midline>+  S+  L RV+IVG PN GKST+ N+L G+R S      G+T+  I+   +  G  ++++DT G     +FSE  A++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0104541</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>92</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>RELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDV</Hsp_qseq>
+      <Hsp_hseq>KKLSFDRLARVLIVGVPNTGKSTIINKLKGKRASSVGAQPGITKGI</Hsp_hseq>
+      <Hsp_midline>++L  D + R+ IVG PNTGKST++N L  +  S V  + G T+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|254839190|pdb|2WJH|A</Hit_id>
+  <Hit_def>Chain A, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii &gt;gi|254839191|pdb|2WJH|B Chain B, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii</Hit_def>
+  <Hit_accession>2WJH_A</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>3.6154e-05</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>RLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISD</Hsp_qseq>
+      <Hsp_hseq>EIALIGNPNVGKSTIFNALTGENV-YIGNWPGVTVEKKEGEFEYNGEKFKVVDLPGVYSLTA--NSIDEI-IARDYIINEKPDLVVNIVDAT--ALERNLYLTLQLMEMGANLLLALNKMDLAKSLGIEIDVDKLE------KILGVKVVPLSAAKKMGIEE</Hsp_hseq>
+      <Hsp_midline> +A++G PN GKST+ N L    V  + +  G T +   G  E+   KF + D  G+        SI+   + R   I    D+V+ IVDA     E++  +  Q+ +    ++  LNK DL +     I   K +      K+  V VVP+SA    GI +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00170296</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>EIALIGNPNVGKSTIFNALTGENVYI-GNWPGVTVEKKEGEFEYNGEKFKVVDLPG</Hsp_hseq>
+      <Hsp_midline> + ++G PNVGKST+FN L G    I  N  GVT +  E      G   ++VD  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|254839192|pdb|2WJI|A</Hit_id>
+  <Hit_def>Chain A, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii &gt;gi|254839193|pdb|2WJI|B Chain B, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii</Hit_def>
+  <Hit_accession>2WJI_A</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>4.10767e-05</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>RLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISD</Hsp_qseq>
+      <Hsp_hseq>EIALIGNPNVGKSTIFNALTGENV-YIGNWPGVTVEKKEGEFEYNGEKFKVVDLPGVYSLTA--NSIDEI-IARDYIINEKPDLVVNIVDAT--ALERNLYLTLQLMEMGANLLLALNKMDLAKSLGIEIDVDKLE------KILGVKVVPLSAAKKMGIEE</Hsp_hseq>
+      <Hsp_midline> +A++G PN GKST+ N L    V  + +  G T +   G  E+   KF + D  G+        SI+   + R   I    D+V+ IVDA     E++  +  Q+ +    ++  LNK DL +     I   K +      K+  V VVP+SA    GI +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00164697</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>EIALIGNPNVGKSTIFNALTGENVYI-GNWPGVTVEKKEGEFEYNGEKFKVVDLPG</Hsp_hseq>
+      <Hsp_midline> + ++G PNVGKST+FN L G    I  N  GVT +  E      G   ++VD  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|254839194|pdb|2WJJ|A</Hit_id>
+  <Hit_def>Chain A, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii &gt;gi|254839195|pdb|2WJJ|B Chain B, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii</Hit_def>
+  <Hit_accession>2WJJ_A</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>4.41765e-05</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>RLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISD</Hsp_qseq>
+      <Hsp_hseq>EIALIGNPNVGKSTIFNALTGENV-YIGNWPGVTVEKKEGEFEYNGEKFKVVDLPGVYSLTA--NSIDEI-IARDYIINEKPDLVVNIVDAT--ALERNLYLTLQLXEXGANLLLALNKXDLAKSLGIEIDVDKLE------KILGVKVVPLSAAKKXGIEE</Hsp_hseq>
+      <Hsp_midline> +A++G PN GKST+ N L    V  + +  G T +   G  E+   KF + D  G+        SI+   + R   I    D+V+ IVDA     E++  +  Q+ +    ++  LNK DL +     I   K +      K+  V VVP+SA    GI +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00151857</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>EIALIGNPNVGKSTIFNALTGENVYI-GNWPGVTVEKKEGEFEYNGEKFKVVDLPG</Hsp_hseq>
+      <Hsp_midline> + ++G PNVGKST+FN L G    I  N  GVT +  E      G   ++VD  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|254839187|pdb|2WJG|A</Hit_id>
+  <Hit_def>Chain A, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii &gt;gi|254839188|pdb|2WJG|B Chain B, Structure And Function Of The Feob G-Domain From Methanococcus Jannaschii</Hit_def>
+  <Hit_accession>2WJG_A</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>4.52974e-05</Hsp_evalue>
+      <Hsp_query-from>199</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>RLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNA-VDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISD</Hsp_qseq>
+      <Hsp_hseq>EIALIGNPNVGKSTIFNALTGENV-YIGNWPGVTVEKKEGEFEYNGEKFKVVDLPGVYSLTA--NSID--EIIARDYIINEKPDLVVNIVDAT--ALERNLYLTLQLMEMGANLLLALNKMDLAKSLGIEIDVDKLE------KILGVKVVPLSAAKKMGIEE</Hsp_hseq>
+      <Hsp_midline> +A++G PN GKST+ N L    V  + +  G T +   G  E+   KF + D  G+        SI+   +I    I+N   D+V+ IVDA     E++  +  Q+ +    ++  LNK DL +     I   K +      K+  V VVP+SA    GI +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000196368</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>GGRHF-SYKVLPRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>GGSHMKSY----EIALIGNPNVGKSTIFNALTGENVYI-GNWPGVTVEKKEGEFEYNGEKFKVVDLPG</Hsp_hseq>
+      <Hsp_midline>GG H  SY     + ++G PNVGKST+FN L G    I  N  GVT +  E      G   ++VD  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|85544494|pdb|2CXX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Probable Gtp-binding Protein Engb &gt;gi|85544495|pdb|2CXX|B Chain B, Crystal Structure Of A Probable Gtp-binding Protein Engb &gt;gi|85544496|pdb|2CXX|C Chain C, Crystal Structure Of A Probable Gtp-binding Protein Engb</Hit_def>
+  <Hit_accession>2CXX_A</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>5.62601e-05</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>VVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGFTVFS--EKKASRQHIDTLV--LEQTYKSIQCADKILLVLDGTC------------ESAEDEEVIQYLRPYWGKLIAAVNKTEGGEEVH--YNYARYGFS--------TLICVSAEHGRNIDALERAIIQ</Hsp_qseq>
+      <Hsp_hseq>IIFAGRSNVGKSTLIYRLTGKKVR-RGKRPGVTRKIIE----IEWKNHKIIDXPGFGFXXGLPKEVQERIKDEIVHFIEDNAKNIDVA---VLVVDGKAAPEIIKRWEKRGEIPIDVEFYQFLRELDIPTIVAVNKLDKIKNVQEVINFLAEKFEVPLSEIDKVFIPISAKFGDNIERLKNRIFE</Hsp_hseq>
+      <Hsp_midline>++  GR NVGKSTL  RL G++        GVTR  IE    +     +++D  GF       K+   +  D +V  +E   K+I  A   +LV+DG              E   D E  Q+LR      I AVNK +  + V    N+    F           I +SA+ G NI+ L+  I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|170785132|pdb|3BH7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Rp2-arl3 Complex Bound To Gdp-alf4</Hit_def>
+  <Hit_accession>3BH7_A</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>7.7958e-05</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARD--GFSEQDKKIVSQISKRNLG---VIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCK</Hsp_qseq>
+      <Hsp_hseq>VRILLLGLDNAGKTTLLKQLASEDISHIT----PTQGFNIKSVQSQGFKLNVWDIGGQRKIRPYWRS--YFE---------NTDILIYVIDSADRKRFEETGQELTELLEEEKLSCVPVLIFANKQDLLTAAPASEIAEGLNLHTIRDRV--WQIQSCSALTGEGVQDGMNWVCK</Hsp_hseq>
+      <Hsp_midline>VR+ ++G  N GK+TL+  L    +S +      T+      V+ + +K  + D  G RK +  + S  Y+            DI++Y++D+ D   F E  +++   + +  L    V+   NK DLL  + +    +  ++ T   ++    +   SA TG G+ D ++ VCK</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.01948</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>RILLLGLDNAGKTTLLKQLASEDISHITPTQGFNIKSVQS----QGFKLNVWDIGG</Hsp_hseq>
+      <Hsp_midline>R++++G  N GK+TL  +L     S  + T G    S++     +GF L + D  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|259090125|pdb|3A1T|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structue Of The Cytosolic Domain Of T. Maritima Feob Iron Iransporter In Gdp Form Ii &gt;gi|259090126|pdb|3A1U|A Chain A, Crystal Structue Of The Cytosolic Domain Of T. Maritima Feob Iron Iransporter In Gmppnp Form &gt;gi|259090127|pdb|3A1U|B Chain B, Crystal Structue Of The Cytosolic Domain Of T. Maritima Feob Iron Iransporter In Gmppnp Form &gt;gi|259090128|pdb|3A1V|A Chain A, Crystal Structue Of The Cytosolic Domain Of T. Maritima Feob Iron Iransporter In Apo Form &gt;gi|259090129|pdb|3A1V|B Chain B, Crystal Structue Of The Cytosolic Domain Of T. Maritima Feob Iron Iransporter In Apo Form</Hit_def>
+  <Hit_accession>3A1T_A</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000103694</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>KVALAGCPNVGKTSLFNALTGTKQYV-ANWPGVTVEKKEGVFTYKGYTINLIDLPG</Hsp_hseq>
+      <Hsp_midline>+V + G PNVGK++LFN L G ++ + +N  GVT +  E     +G+ + L+D  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.000646982</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>374</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>VVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNT</Hsp_qseq>
+      <Hsp_hseq>MVKVALAGCPNVGKTSLFNALT-GTKQYVANWPGVTVEKKEGVFTYKGYTINLIDLPGTYSLG--YSSID-EKIARDYLLKGDADLVILVADSVN--PEQSLYLLLEILEMEKKVILAMTAID--EAKKTGMKIDRYELQKHLG----IPVVFTSSVTGEGLEELKEKIVE-YAQKNT</Hsp_hseq>
+      <Hsp_midline>+V++A+ G PN GK++L N L   T   V +  G T +   G   +K Y   + D  G       Y SI+   + R   +    D+V+ + D+ +   EQ   ++ +I +    VI  +   D  E   + +   + +++   G    +PVV  S+ TG G+ +    + + +AQ NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|259090123|pdb|3A1S|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structue Of The Cytosolic Domain Of T. Maritima Feob Iron Iransporter In Gdp Form I &gt;gi|259090124|pdb|3A1S|B Chain B, Crystal Structue Of The Cytosolic Domain Of T. Maritima Feob Iron Iransporter In Gdp Form I</Hit_def>
+  <Hit_accession>3A1S_A</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>0.000110397</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>KVALAGCPNVGKTSLFNALTGTKQYV-ANWPGVTVEKKEGVFTYKGYTINLIDLPG</Hsp_hseq>
+      <Hsp_midline>+V + G PNVGK++LFN L G ++ + +N  GVT +  E     +G+ + L+D  G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0520338</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>374</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNT</Hsp_qseq>
+      <Hsp_hseq>VKVALAGCPNVGKTSLFNALT-GTKQYVANWPGVTVEKKEGVFTYKGYTINLIDLPGTYSLG--YSSID-EKIARDYLLKGDADLVILVADSVN--PEQSLYLLLEILEXEKKVILAXTAID--EAKKTGXKIDRYELQKHLG----IPVVFTSSVTGEGLEELKEKIVE-YAQKNT</Hsp_hseq>
+      <Hsp_midline>V++A+ G PN GK++L N L   T   V +  G T +   G   +K Y   + D  G       Y SI+   + R   +    D+V+ + D+ +   EQ   ++ +I +    VI      D  E   +     + +++   G    +PVV  S+ TG G+ +    + + +AQ NT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|597959904|pdb|3J65|OO</Hit_id>
+  <Hit_def>Chain o, Arx1 Pre-60s Particle. This Entry Contains The R-proteins And Biogenesis Factors.</Hit_def>
+  <Hit_accession>3J65_OO</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000169615</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKR-QKVYESIEYYSVIRAISILNAVDIVLYIVDARD--GFS-EQDKKIVSQISK--RNLGVIFLLNKWDLL</Hsp_qseq>
+      <Hsp_hseq>LLICGYPNVGKSSFLRCITKSDVD-VQPYAFTTKSLYVGHFDYKYLRFQAIDTPGILDRPTEEMNNIEMQS-IYAIAHLRSC--VLYFMDLSEQCGFTIEAQVKLFHSIKPLFANKSVMVVINKTDII</Hsp_hseq>
+      <Hsp_midline>L I G PN GKS+ +  + +  V  V   A TT+ +  GH ++K  +F   DT GI  R  +   +IE  S I AI+ L +   VLY +D  +  GF+ E   K+   I     N  V+ ++NK D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|401871400|pdb|4AC9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With Gdp &gt;gi|401871401|pdb|4AC9|B Chain B, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With Gdp &gt;gi|401871402|pdb|4AC9|C Chain C, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With Gdp &gt;gi|401871403|pdb|4AC9|D Chain D, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With Gdp &gt;gi|411024199|pdb|4ACA|A Chain A, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis, Apo Form &gt;gi|411024200|pdb|4ACA|B Chain B, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis, Apo Form &gt;gi|411024201|pdb|4ACA|C Chain C, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis, Apo Form &gt;gi|411024202|pdb|4ACA|D Chain D, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis, Apo Form &gt;gi|411024203|pdb|4ACB|A Chain A, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With The Gtp Analogue Gppnhp &gt;gi|411024204|pdb|4ACB|B Chain B, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With The Gtp Analogue Gppnhp &gt;gi|411024205|pdb|4ACB|C Chain C, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With The Gtp Analogue Gppnhp &gt;gi|411024206|pdb|4ACB|D Chain D, Crystal Structure Of Translation Elongation Factor Selb From Methanococcus Maripaludis In Complex With The Gtp Analogue Gppnhp</Hit_def>
+  <Hit_accession>4AC9_A</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.000591718</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRA------GTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAI-SILNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKK---RDVRTAFGKMNFVPVVPVSAKTGHGISD</Hsp_qseq>
+      <Hsp_hseq>INLGIFGHIDHGKTTLSKVLTEIASTSAHDKLPESQKRGITIDIGFSAFKLENYRITLVDAPG------------HADLIRAVVSAADIIDLALIVVDAKEGPKTQTGEHMLILDHFNIPIIVVITKSD--NAGTEEIKRTEMIMKSILQSTHNLKNSSIIPISAKTGFGVDE</Hsp_hseq>
+      <Hsp_midline>+ L I G  + GK+TL   L     +   D+       G T D+     + + Y+  + D  G            +  +IRA+ S  + +D+ L +VDA++G   Q  + +  +   N+ +I ++ K D     T  I + +   + +  +   +    ++P+SAKTG G+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|261278788|pdb|3IBY|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Cytosolic Domain Of L. Pneumophila Feob &gt;gi|261278789|pdb|3IBY|B Chain B, Structure Of Cytosolic Domain Of L. Pneumophila Feob &gt;gi|261278790|pdb|3IBY|C Chain C, Structure Of Cytosolic Domain Of L. Pneumophila Feob &gt;gi|261278791|pdb|3IBY|D Chain D, Structure Of Cytosolic Domain Of L. Pneumophila Feob</Hit_def>
+  <Hit_accession>3IBY_A</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00119836</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>IVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILN-AVDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGI----SDALHCVCKI</Hsp_qseq>
+      <Hsp_hseq>LIGNPNCGKTTLFNALTNAN-QRVGNWPGVTVEKKTGEFLLGEHLIEITDLPGVYSLVANAEGISQDEQIAAQSVIDLEYDCIINVIDA--CHLERHLYLTSQLFELGKPVVVALNMMDIAEHRGISIDTEK--LESLLG----CSVIPIQAHKNIGIPALQQSLLHCSQKI</Hsp_hseq>
+      <Hsp_midline>++G PN GK+TL N L       V +  G T +  TG     ++   I D  G+       E I     I A S+++   D ++ ++DA     E+   + SQ+ +    V+  LN  D+ E     I  +K  + +  G      V+P+ A    GI       LHC  KI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.728731</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LPRVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG</Hsp_qseq>
+      <Hsp_hseq>MTHALLIGNPNCGKTTLFNALTNANQRV-GNWPGVTVEKKTGEFLLGEHLIEITDLPG</Hsp_hseq>
+      <Hsp_midline>+   +++G PN GK+TLFN L    + +  N  GVT +      +L    + + D  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|157834845|pdb|2E87|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Hypothetical Gtp-Binding Protein Ph1320 From Pyrococcus Horikoshii Ot3, In Complex With Gdp</Hit_def>
+  <Hit_accession>2E87_A</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00144383</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>353</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>HGRNIDALERAIIQNLFSVDERRELPKD------DVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARD--GFS-EQDKKIVSQISK--RNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGISDALHCVCKIFAQLNTKVETSALNTALKDW</Hsp_qseq>
+      <Hsp_hseq>YGRVASVL-RDIDDRLRYLNKAREVLKDLPVVDLEIPTVVIAGHPNVGKSTLLKALTTAKPE-IASYPFTTRGINVGQFEDGYFRYQIIDTPGLLDRPISERNEIEKQAILALRYLG--NLIIYIFDPSEHCGFPLEEQIHLFEEVHGEFKDLPFLVVINKIDVADEENIKRLEK-------FVKEKGLNPIKISALKGTGIDLVKEEIIKTLRPLAEKVAREKIERELRRY</Hsp_hseq>
+      <Hsp_midline>+GR    L R I   L  +++ RE+ KD      ++  + I G PN GKSTL+  L       +     TTR +  G  E   +++ I DT G+  R     +      I A+  L   ++++YI D  +  GF  E+   +  ++    ++L  + ++NK D+ +       +K       F K   +  + +SA  G GI      + K    L  KV    +   L+ +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0953046</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LPRVVIVGRPNVGKSTLFNRLLGRRRSITS---NTSGVTRDSIEETVILRGFPLRLVDTSGF</Hsp_qseq>
+      <Hsp_hseq>IPTVVIAGHPNVGKSTLLKALTTAKPEIASYPFTTRGINVGQFEDGY----FRYQIIDTPGL</Hsp_hseq>
+      <Hsp_midline>+P VVI G PNVGKSTL   L   +  I S    T G+     E+      F  +++DT G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|33358156|pdb|1PUJ|A</Hit_id>
+  <Hit_def>Chain A, Structure Of B. Subtilis Ylqf Gtpase</Hit_def>
+  <Hit_accession>1PUJ_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.00246072</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>RVVIVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSGF</Hsp_qseq>
+      <Hsp_hseq>RALIIGIPNVGKSTLINRLAKKNIAKTGDRPGIT---TSQQWVKVGKELELLDTPGI</Hsp_hseq>
+      <Hsp_midline>R +I+G PNVGKSTL NRL  +  + T +  G+T     +  +  G  L L+DT G </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00844098</Hsp_evalue>
+      <Hsp_query-from>194</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>KDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTT</Hsp_qseq>
+      <Hsp_hseq>KPRAIRALIIGIPNVGKSTLINRLAKKNIAKTGDRPGIT</Hsp_hseq>
+      <Hsp_midline>K   +R  I+G PN GKSTL+N L ++ ++   DR G T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|47169233|pdb|1UDX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Conserved Protein Tt1381 From Thermus Thermophilus Hb8</Hit_def>
+  <Hit_accession>1UDX_A</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00286251</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>VVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEF-KQYKFIIADTAGIRKRQKVYESIEYYSVIRAISI-----LNAVDIVLYIVDARDGFSEQDKKIVSQISKRNLGV-----IFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNFVPVVPVSAKTGHGIS---DALHCVCK</Hsp_qseq>
+      <Hsp_hseq>IADVGLVGYPNAGKSSLLAA-MTRAHPKIAPYPFTTLSPNLGVVEVSEEERFTLADIPGI---------IEGASEGKGLGLEFLRHIARTRVLLYVLDAADEPLKTLETLRKEVGAYDPALLRRPSLVALNKVDLLE------EEAVKALADALAREGLA-VLPVSALTGAGLPALKEALHALVR</Hsp_hseq>
+      <Hsp_midline>+  + +VG PN GKS+L+   M R    +     TT     G VE  ++ +F +AD  GI         IE  S  + + +     +    ++LY++DA D   +  + +  ++   +  +     +  LNK DLLE       +  + +  A  +     V+PVSA TG G+    +ALH + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|290790349|pdb|3LXX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Gtpase Imap Family Member 4</Hit_def>
+  <Hit_accession>3LXX_A</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00370559</Hsp_evalue>
+      <Hsp_query-from>190</Hsp_query-from>
+      <Hsp_query-to>327</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>RELPKDDVVRLAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVE-----FKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNAVDIVLYIVDARDGFSEQDKKIVSQISK------RNLGVIFLLNKWDLLEGSTSL</Hsp_qseq>
+      <Hsp_hseq>RQEPRNSQLRIVLVGKTGAGKSATGNSILGRKVF----HSGTAAKSITKKCEKRSSSWKETELVVVDTPGIFDTE-VPNAETSKEIIRCILLTSPGPHALLLVVPLGRYTEEEHKATEKILKXFGERARSFXILIFTRKDDL--GDTNL</Hsp_hseq>
+      <Hsp_midline>R+ P++  +R+ +VGK   GKS   N ++ R V      +GT    +T   E     +K+ + ++ DT GI   + V  +     +IR I + +     L +V     ++E++ K   +I K      R+  ++    K DL  G T+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|757819116|pdb|4Q00|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of An S150a Mutant Of The E. Coli Feob G-domain &gt;gi|757819117|pdb|4Q00|B Chain B, Crystal Structure Of An S150a Mutant Of The E. Coli Feob G-domain &gt;gi|757819118|pdb|4Q00|C Chain C, Crystal Structure Of An S150a Mutant Of The E. Coli Feob G-domain</Hit_def>
+  <Hit_accession>4Q00_A</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.00405928</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LAIVGKPNTGKSTLMNYLMRRTVSLVCDRAGTTRDVVTGHVEFKQYKFIIADTAGIRKRQKVYESIEYYSVIRAISILNA-VDIVLYIVDARDGFSEQDKKIVSQISKRNLGVIFLLNKWDLLEGSTSLIAKKKRDVRTAFGKMNF---VPVVPVSAKTGHGI</Hsp_qseq>
+      <Hsp_hseq>IGLIGNPNSGKTTLFNQLT-GSRQRVGNWAGVTVERKEGQFSTTDHQVTLVDLPGTYSLTTISSQTSLDEQIACHYILSGDADLLINVVDASN--LERNLYLTLQLLELGIPCIVALNMLDIAE---------KQNIRIEIDALSARLGCPVIPLVATRGRGI</Hsp_hseq>
+      <Hsp_midline>+ ++G PN+GK+TL N L   +   V + AG T +   G      ++  + D  G      +         I    IL+   D+++ +VDA +   E++  +  Q+ +  +  I  LN  D+ E         K+++R     ++     PV+P+ A  G GI</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.00743226</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>IVGRPNVGKSTLFNRLLGRRRSITSNTSGVTRDSIEETVILRGFPLRLVDTSG---FTVFSEKKASRQHI</Hsp_qseq>
+      <Hsp_hseq>LIGNPNSGKTTLFNQLTGSRQRV-GNWAGVTVERKEGQFSTTDHQVTLVDLPGTYSLTTISSQTSLDEQI</Hsp_hseq>
+      <Hsp_midline>++G PN GK+TLFN+L G R+ +  N +GVT +  E         + LVD  G    T  S + +  + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

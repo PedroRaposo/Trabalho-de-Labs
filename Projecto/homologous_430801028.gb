@@ -1,0 +1,94 @@
+LOCUS       4H8E_A                   256 aa            linear   BCT 16-JAN-2013
+DEFINITION  Chain A, Structure Of S. Aureus Undecaprenyl Diphosphate Synthase
+            In Complex With Fpp And Sulfate.
+ACCESSION   4H8E_A
+VERSION     4H8E_A  GI:430801028
+DBSOURCE    pdb: molecule 4H8E, chain 65, release Jan 16, 2013;
+            deposition: Sep 22, 2012;
+            class: TransferaseTRANSFERASE INHIBITOR;
+            source: Mmdb_id: 105981, Pdb_id 1: 4H8E;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Staphylococcus aureus subsp. aureus N315
+  ORGANISM  Staphylococcus aureus subsp. aureus N315
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+            Staphylococcus.
+REFERENCE   1  (residues 1 to 256)
+  AUTHORS   Zhu,W., Zhang,Y., Sinko,W., Hensler,M.E., Olson,J., Molohon,K.J.,
+            Lindert,S., Cao,R., Li,K., Wang,K., Wang,Y., Liu,Y.L.,
+            Sankovsky,A., de Oliveira,C.A., Mitchell,D.A., Nizet,V.,
+            McCammon,J.A. and Oldfield,E.
+  TITLE     Antibacterial drug leads targeting isoprenoid biosynthesis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 110 (1), 123-128 (2013)
+   PUBMED   23248302
+REFERENCE   2  (residues 1 to 256)
+  AUTHORS   Zhu,W. and Oldfield,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-SEP-2012)
+COMMENT     1 Undecaprenyl Pyrophosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..256
+                     /organism="Staphylococcus aureus subsp. aureus N315"
+                     /db_xref="taxon:158879"
+     SecStr          26..32
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          27..245
+                     /region_name="Cis_IPPS"
+                     /note="Cis (Z)-Isoprenyl Diphosphate Synthases; cd00475"
+                     /db_xref="CDD:259850"
+     Site            order(32..37,46,50,54,57,76,84,88,95..96,99,148,201,207,
+                     209)
+                     /site_type="active"
+                     /db_xref="CDD:259850"
+     Het             bond(33)
+                     /heterogen="( MG,1000 )"
+     SecStr          35..42
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          47..67
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          70..77
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          86..105
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          111..119
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          125..138
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          143..151
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          154..172
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(155..156,158..159,162..163,179..181,184,195,
+                     206..210,213..215,217..221,223)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:259850"
+     SecStr          180..188
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          197..203
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          219..225
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          233..245
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 mfkklinkkn tinnyneeld ssnipehiai imdgngrwak krkmprikgh yegmqtikki
+       61 triasdigvk yltlyafste nwsrpesevn yimnlpvnfl ktflpeliek nvkvetigft
+      121 dklpkstiea innakektan ntglklifai nyggraelvh siknmfdelh qqglnsdiid
+      181 etyinnhlmt kdypdpelli rtsgeqrisn fliwqvsyse fifnqklwpd fdedelikci
+      241 kiyqsrqrrf gglsee
+//
+

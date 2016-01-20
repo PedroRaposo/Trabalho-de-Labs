@@ -1,0 +1,361 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 315113404 
+ Accession: 3LE1_A 
+ Score: 87.0409
+ E-value: 5.27243e-23
+ Identities: 40
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3LE1_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 315113409 
+ Accession: 3LE5_A 
+ Score: 87.0409
+ E-value: 6.96197e-23
+ Identities: 40
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3LE5_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 37926835 
+ Accession: 1MU4_A 
+ Score: 77.0258
+ E-value: 4.74229e-19
+ Identities: 37
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1MU4_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 190613399 
+ Accession: 2RLZ_A 
+ Score: 76.6406
+ E-value: 5.6692e-19
+ Identities: 37
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2RLZ_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 90108654 
+ Accession: 1ZVV_W 
+ Score: 75.485
+ E-value: 1.36989e-18
+ Identities: 37
+ Function: TranscriptionDNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZVV_W
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 9257068 
+ Accession: 1QR5_A 
+ Score: 75.0998
+ E-value: 2.48899e-18
+ Identities: 33
+ Function: Signaling Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1QR5_A
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 110590813 
+ Accession: 2AK7_A 
+ Score: 74.7146
+ E-value: 3.17215e-18
+ Identities: 36
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2AK7_A
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 16975282 
+ Accession: 1K1C_A 
+ Score: 74.3294
+ E-value: 3.48486e-18
+ Identities: 36
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1K1C_A
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 62738053 
+ Accession: 1TXE_A 
+ Score: 73.9442
+ E-value: 7.26306e-18
+ Identities: 33
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1TXE_A
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 31615465 
+ Accession: 1KA5_A 
+ Score: 73.559
+ E-value: 7.73979e-18
+ Identities: 32
+ Function: Ligand Transport
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KA5_A
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 13399637 
+ Accession: 1QFR_A 
+ Score: 73.559
+ E-value: 1.0091e-17
+ Identities: 35
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1QFR_A
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 157833574 
+ Accession: 1PTF_A 
+ Score: 73.1738
+ E-value: 1.09784e-17
+ Identities: 36
+ Function: Phosphotransferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1PTF_A
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 37926787 
+ Accession: 1MO1_A 
+ Score: 72.0182
+ E-value: 2.8754e-17
+ Identities: 35
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1MO1_A
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 56553701 
+ Accession: 1RZR_T 
+ Score: 71.2478
+ E-value: 5.96402e-17
+ Identities: 37
+ Function: TranscriptionTRANSPORT PROTEINDNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1RZR_T
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 11513548 
+ Accession: 1FU0_A 
+ Score: 71.2478
+ E-value: 6.15595e-17
+ Identities: 34
+ Function: Signaling Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FU0_A
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 23200247 
+ Accession: 1KKL_H 
+ Score: 71.2478
+ E-value: 7.81848e-17
+ Identities: 34
+ Function: Transferase,HydrolaseTRANSPORT PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KKL_H
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 999615 
+ Accession: 1SPH_A 
+ Score: 70.0922
+ E-value: 2.00753e-16
+ Identities: 33
+ Function: Phosphotransferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1SPH_A
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 37926788 
+ Accession: 1MO1_B 
+ Score: 70.0922
+ E-value: 2.1393e-16
+ Identities: 34
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1MO1_B
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 110591383 
+ Accession: 2FEP_S 
+ Score: 69.707
+ E-value: 2.47873e-16
+ Identities: 33
+ Function: Transcription
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FEP_S
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 23200253 
+ Accession: 1KKM_H 
+ Score: 69.3218
+ E-value: 4.33414e-16
+ Identities: 33
+ Function: Transferase,HydrolaseTRANSPORT PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KKM_H
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 313754452 
+ Accession: 3OQM_S 
+ Score: 68.5514
+ E-value: 6.67462e-16
+ Identities: 32
+ Function: TranscriptionTRANSFERASEDNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3OQM_S
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 157835062 
+ Accession: 2HID_A 
+ Score: 68.5514
+ E-value: 7.8986e-16
+ Identities: 32
+ Function: Phosphotransferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2HID_A
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 408489443 
+ Accession: 2HPR_A 
+ Score: 68.1662
+ E-value: 9.24875e-16
+ Identities: 32
+ Function: Phosphotransferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2HPR_A
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 255918048 
+ Accession: 3IHS_A 
+ Score: 64.6994
+ E-value: 2.60321e-14
+ Identities: 32
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3IHS_A
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 157831545 
+ Accession: 1JEM_A 
+ Score: 64.3142
+ E-value: 2.90898e-14
+ Identities: 31
+ Function: Phosphotransferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1JEM_A
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+
+Hit num: 27
+
+
+Hit num: 28
+
+
+Hit num: 29
+
+
+Hit num: 30
+
+
+Hit num: 31
+
+
+Hit num: 32
+
+
+Hit num: 33
+
+
+Hit num: 34
+
+
+Hit num: 35
+
+
+Hit num: 36
+
+
+Hit num: 37
+
+

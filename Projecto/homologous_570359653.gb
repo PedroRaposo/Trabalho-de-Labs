@@ -1,0 +1,168 @@
+LOCUS       3WFP_A                   497 aa            linear   BCT 15-AUG-2014
+DEFINITION  Chain A, Trna Processing Enzyme (apo Form 2).
+ACCESSION   3WFP_A
+VERSION     3WFP_A  GI:570359653
+DBSOURCE    pdb: molecule 3WFP, chain 65, release Aug 14, 2014;
+            deposition: Jul 23, 2013;
+            class: Transferase;
+            source: Mmdb_id: 116353, Pdb_id 1: 3WFP;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Aquifex aeolicus VF5
+  ORGANISM  Aquifex aeolicus VF5
+            Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+REFERENCE   1  (residues 1 to 497)
+  AUTHORS   Yamashita,S., Takeshita,D. and Tomita,K.
+  TITLE     Translocation and rotation of tRNA during template-independent RNA
+            polymerization by tRNA nucleotidyltransferase
+  JOURNAL   Structure 22 (2), 315-325 (2014)
+   PUBMED   24389024
+REFERENCE   2  (residues 1 to 497)
+  AUTHORS   Yamashita,S., Takeshita,D. and Tomita,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUL-2013)
+COMMENT     1 Poly A Polymerase.
+FEATURES             Location/Qualifiers
+     source          1..497
+                     /organism="Aquifex aeolicus VF5"
+                     /db_xref="taxon:224324"
+     Region          1..141
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          3..153
+                     /region_name="NT_ClassII-CCAase"
+                     /note="Nucleotidyltransferase (NT) domain of ClassII
+                     CCA-adding enzymes; cd05398"
+                     /db_xref="CDD:143388"
+     SecStr          8..16
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          20..401
+                     /region_name="PcnB"
+                     /note="tRNA nucleotidyltransferase/poly(A) polymerase
+                     [Translation, ribosomal structure and biogenesis];
+                     COG0617"
+                     /db_xref="CDD:223690"
+     SecStr          20..26
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(26..27,30..31,43,45,79,97,102,116..119,122)
+                     /site_type="active"
+                     /db_xref="CDD:143388"
+     Site            order(26..27,30,43,45,116..118,122)
+                     /site_type="other"
+                     /note="NTP binding site [chemical binding]"
+                     /db_xref="CDD:143388"
+     SecStr          27..35
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          40..50
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(43,45,97)
+                     /site_type="metal-binding"
+                     /note="metal binding triad [ion binding]"
+                     /db_xref="CDD:143388"
+     SecStr          52..62
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          82..90
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          91..101
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          106..116
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          124..128
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          142..244
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          154..157
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          161..168
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          171..180
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          183..186
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          188..196
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          <202..241
+                     /region_name="PolyA_pol_RNAbd"
+                     /note="Probable RNA and SrmB- binding site of polymerase
+                     A; pfam12627"
+                     /db_xref="CDD:257174"
+     SecStr          205..216
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          222..231
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          join(245..283,363..437)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          258..275
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          269..357
+                     /region_name="HDc"
+                     /note="Metal dependent phosphohydrolases with conserved
+                     'HD' motif; cl21469"
+                     /db_xref="CDD:276310"
+     Region          284..362
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          291..294
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          296..299
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          300..309
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          331..345
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          349..361
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          364..374
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          379..388
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          393..407
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          411..429
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          446..457
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          460..468
+                     /sec_str_type="helix"
+                     /note="helix 19"
+ORIGIN      
+        1 mlnfylsyfd dvakvlpreh ycfivggwvr drilgepvgy nidvdfltta dpvelaknfa
+       61 krigghffvf ekrgflikrp tiasvvlhlp pyryrfdfsp lkgkdlekal iedlkerdft
+      121 anaiavnldd vlsigakqti vydptggikd leqgllrpvs ienlkrdpvr vlrgfriaie
+      181 knlqltedfy efvkedpriv lksaverith elfkimkekt ahkvirelye ygvleaiipe
+      241 igrlrevkdq gehhiyplde htlktleyle qviedrakyl saellenfgk krvlgeftdv
+      301 ellkwgalfh digkpqtfav regkvtfyeh dkvgaqivre igerlrwgde atefvaklvr
+      361 hhlrpfflre afkkgelkrr gmanfwrecg diaphlflls iadamasgde eedikalmet
+      421 iaelesfnrn emkeexxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx xxxxxxxxxx
+      481 xxxxxxxxxx xxxxxxx
+//
+

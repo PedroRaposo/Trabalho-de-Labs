@@ -1,0 +1,118 @@
+LOCUS       2RGX_A                   206 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Adenylate Kinase From Aquifex
+            Aeolicus In Complex With Ap5a.
+ACCESSION   2RGX_A
+VERSION     2RGX_A  GI:163310973
+DBSOURCE    pdb: molecule 2RGX, chain 65, release Sep 22, 2012;
+            deposition: Oct 5, 2007;
+            class: Transferase;
+            source: Mmdb_id: 61390, Pdb_id 1: 2RGX;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Aquifex aeolicus
+  ORGANISM  Aquifex aeolicus
+            Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+REFERENCE   1  (residues 1 to 206)
+  AUTHORS   Henzler-Wildman,K.A., Thai,V., Lei,M., Ott,M., Wolf-Watz,M.,
+            Fenn,T., Pozharski,E., Wilson,M.A., Petsko,G.A., Karplus,M.,
+            Hubner,C.G. and Kern,D.
+  TITLE     Intrinsic motions along an enzymatic reaction trajectory
+  JOURNAL   Nature 450 (7171), 838-844 (2007)
+   PUBMED   18026086
+REFERENCE   2  (residues 1 to 206)
+  AUTHORS   Thai,V., Wolf-Watz,M., T Fenn, Pozharski,E., Wilson,M.A. and
+            Petsko,G.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-OCT-2007)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..206
+                     /organism="Aquifex aeolicus"
+                     /db_xref="taxon:63363"
+     Region          join(1..112,171..206)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..203
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     SecStr          1..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..194
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          13..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..31
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(31,36,59,81..82,84..85,89)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          32..41
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(36,81,85,124,161,165)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          43..50
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          61..71
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          77..82
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          87..100
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Het             join(bond(95),bond(98))
+                     /heterogen="( ZN,1002 )"
+     SecStr          105..111
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Het             bond(106)
+                     /heterogen="( ZN,1003 )"
+     Region          113..170
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          114..123
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          124..128
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          131..136
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          155..170
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Het             join(bond(163),bond(167),bond(167))
+                     /heterogen="( ZN,1001 )"
+     SecStr          171..179
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          181..186
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          191..202
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 milvflgppg agkgtqakrl akekgfvhis tgdilreavq kgtplgkkak eymergelvp
+       61 ddliialiee vfpkhgnvif dgfprtvkqa ealdemlekk glkvdhvllf evpdevvier
+      121 lsgrrinpet gevyhvkynp pppgvkviqr eddkpevikk rlevyreqta plieyykkkg
+      181 ilriidaskp veevyrqvle vigdgn
+//
+

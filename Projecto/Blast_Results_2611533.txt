@@ -1,0 +1,234 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 400977594 
+ Accession: 4GFQ_A 
+ Score: 178.333
+ E-value: 1.48824e-55
+ Identities: 85
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4GFQ_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 61680226 
+ Accession: 1WQF_A 
+ Score: 154.066
+ E-value: 2.40583e-46
+ Identities: 75
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1WQF_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 595588334 
+ Accession: 4KAW_X 
+ Score: 153.295
+ E-value: 3.94426e-46
+ Identities: 75
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KAW_X
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 6730315 
+ Accession: 1DD5_A 
+ Score: 152.525
+ E-value: 8.19011e-46
+ Identities: 74
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1DD5_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 11513707 
+ Accession: 1EH1_A 
+ Score: 152.14
+ E-value: 1.07136e-45
+ Identities: 85
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1EH1_A
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 594147099 
+ Accession: 4KB2_A 
+ Score: 150.984
+ E-value: 3.239e-45
+ Identities: 74
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KB2_A
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 594147100 
+ Accession: 4KB4_A 
+ Score: 150.984
+ E-value: 3.239e-45
+ Identities: 74
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KB4_A
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 594147101 
+ Accession: 4KC6_A 
+ Score: 150.214
+ E-value: 4.9413e-45
+ Identities: 73
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KC6_A
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 33357058 
+ Accession: 1IS1_A 
+ Score: 140.198
+ E-value: 4.66104e-41
+ Identities: 77
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1IS1_A
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 13399451 
+ Accession: 1EK8_A 
+ Score: 137.887
+ E-value: 3.71359e-40
+ Identities: 71
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1EK8_A
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 409973972 
+ Accession: 4GD1_Y 
+ Score: 137.502
+ E-value: 4.95567e-40
+ Identities: 71
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4GD1_Y
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 37926485 
+ Accession: 1ISE_A 
+ Score: 135.191
+ E-value: 4.98437e-39
+ Identities: 70
+ Function: Translation
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ISE_A
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 14277735 
+ Accession: 1GE9_A 
+ Score: 115.161
+ E-value: 1.76779e-31
+ Identities: 75
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1GE9_A
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 61680523 
+ Accession: 1Y69_8 
+ Score: 57.7658
+ E-value: 6.53184e-11
+ Identities: 32
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y69_8
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 307568226 
+ Accession: 3LF9_A 
+ Score: 44.669
+ E-value: 3.23154e-06
+ Identities: 30
+ Function: Immune System
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3LF9_A
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+
+Hit num: 17
+
+
+Hit num: 18
+
+
+Hit num: 19
+
+
+Hit num: 20
+
+
+Hit num: 21
+
+
+Hit num: 22
+
+
+Hit num: 23
+
+
+Hit num: 24
+
+
+Hit num: 25
+
+
+Hit num: 26
+
+
+Hit num: 27
+
+
+Hit num: 28
+
+

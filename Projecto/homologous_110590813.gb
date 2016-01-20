@@ -1,0 +1,76 @@
+LOCUS       2AK7_A                    86 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of A Dimeric P-Ser-Crh.
+ACCESSION   2AK7_A
+VERSION     2AK7_A  GI:110590813
+DBSOURCE    pdb: molecule 2AK7, chain 65, release Oct 11, 2011;
+            deposition: Aug 3, 2005;
+            class: Transport Protein;
+            source: Mmdb_id: 39567, Pdb_id 1: 2AK7;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 86)
+  AUTHORS   Chaptal,V., Lariviere,L., Gueguen-Chaignon,V., Galinier,A.,
+            Nessler,S. and Morera,S.
+  TITLE     X-ray structure of a domain-swapped dimer of Ser46-phosphorylated
+            Crh from Bacillus subtilis
+  JOURNAL   Proteins 63 (1), 249-251 (2006)
+   PUBMED   16411239
+REFERENCE   2  (residues 1 to 86)
+  AUTHORS   Chaptal,V., Gueguen-Chaignon,V., Poncet,S., Lecampion,C.,
+            Lariviere,L., Meyer,P., Galinier,A., Deutscher,J., Nessler,S. and
+            Morera,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-AUG-2005)
+COMMENT     1 Hpr-like Protein Crh.
+FEATURES             Location/Qualifiers
+     source          1..86
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          16..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          61..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          70..82
+                     /sec_str_type="helix"
+                     /note="helix 2"
+ORIGIN      
+        1 mvqqkvevrl ktglqarpaa lfvqeanrft sdvflekdgk kvnakximgl mslavstgte
+       61 vtliaqgede qealeklaay vqeevl
+//
+

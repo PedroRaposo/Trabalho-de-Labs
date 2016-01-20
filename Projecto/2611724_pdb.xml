@@ -5,7 +5,7 @@
   <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
   <BlastOutput_db>pdb</BlastOutput_db>
-  <BlastOutput_query-ID>Query_243653</BlastOutput_query-ID>
+  <BlastOutput_query-ID>Query_42023</BlastOutput_query-ID>
   <BlastOutput_query-def>2611724</BlastOutput_query-def>
   <BlastOutput_query-len>254</BlastOutput_query-len>
   <BlastOutput_param>
@@ -20,7 +20,7 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_243653</Iteration_query-ID>
+  <Iteration_query-ID>Query_42023</Iteration_query-ID>
   <Iteration_query-def>2611724</Iteration_query-def>
   <Iteration_query-len>254</Iteration_query-len>
 <Iteration_hits>
@@ -35,7 +35,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>30.8018</Hsp_bit-score>
       <Hsp_score>68</Hsp_score>
-      <Hsp_evalue>0.649326</Hsp_evalue>
+      <Hsp_evalue>0.647708</Hsp_evalue>
       <Hsp_query-from>5</Hsp_query-from>
       <Hsp_query-to>67</Hsp_query-to>
       <Hsp_hit-from>29</Hsp_hit-from>
@@ -63,7 +63,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>31.187</Hsp_bit-score>
       <Hsp_score>69</Hsp_score>
-      <Hsp_evalue>0.679836</Hsp_evalue>
+      <Hsp_evalue>0.678142</Hsp_evalue>
       <Hsp_query-from>24</Hsp_query-from>
       <Hsp_query-to>170</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -91,7 +91,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>29.261</Hsp_bit-score>
       <Hsp_score>64</Hsp_score>
-      <Hsp_evalue>3.57193</Hsp_evalue>
+      <Hsp_evalue>3.56303</Hsp_evalue>
       <Hsp_query-from>126</Hsp_query-from>
       <Hsp_query-to>153</Hsp_query-to>
       <Hsp_hit-from>265</Hsp_hit-from>
@@ -119,7 +119,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>29.6462</Hsp_bit-score>
       <Hsp_score>65</Hsp_score>
-      <Hsp_evalue>3.60738</Hsp_evalue>
+      <Hsp_evalue>3.59839</Hsp_evalue>
       <Hsp_query-from>11</Hsp_query-from>
       <Hsp_query-to>83</Hsp_query-to>
       <Hsp_hit-from>240</Hsp_hit-from>
@@ -147,7 +147,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>29.261</Hsp_bit-score>
       <Hsp_score>64</Hsp_score>
-      <Hsp_evalue>3.73741</Hsp_evalue>
+      <Hsp_evalue>3.7281</Hsp_evalue>
       <Hsp_query-from>126</Hsp_query-from>
       <Hsp_query-to>153</Hsp_query-to>
       <Hsp_hit-from>286</Hsp_hit-from>
@@ -175,7 +175,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>29.261</Hsp_bit-score>
       <Hsp_score>64</Hsp_score>
-      <Hsp_evalue>3.82898</Hsp_evalue>
+      <Hsp_evalue>3.81943</Hsp_evalue>
       <Hsp_query-from>126</Hsp_query-from>
       <Hsp_query-to>153</Hsp_query-to>
       <Hsp_hit-from>294</Hsp_hit-from>
@@ -203,7 +203,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>28.1054</Hsp_bit-score>
       <Hsp_score>61</Hsp_score>
-      <Hsp_evalue>7.96212</Hsp_evalue>
+      <Hsp_evalue>7.94228</Hsp_evalue>
       <Hsp_query-from>2</Hsp_query-from>
       <Hsp_query-to>57</Hsp_query-to>
       <Hsp_hit-from>65</Hsp_hit-from>
@@ -231,7 +231,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>28.1054</Hsp_bit-score>
       <Hsp_score>61</Hsp_score>
-      <Hsp_evalue>8.85428</Hsp_evalue>
+      <Hsp_evalue>8.83222</Hsp_evalue>
       <Hsp_query-from>76</Hsp_query-from>
       <Hsp_query-to>101</Hsp_query-to>
       <Hsp_hit-from>172</Hsp_hit-from>
@@ -259,7 +259,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>28.1054</Hsp_bit-score>
       <Hsp_score>61</Hsp_score>
-      <Hsp_evalue>9.59905</Hsp_evalue>
+      <Hsp_evalue>9.57513</Hsp_evalue>
       <Hsp_query-from>11</Hsp_query-from>
       <Hsp_query-to>83</Hsp_query-to>
       <Hsp_hit-from>240</Hsp_hit-from>
@@ -287,7 +287,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>27.335</Hsp_bit-score>
       <Hsp_score>59</Hsp_score>
-      <Hsp_evalue>9.98697</Hsp_evalue>
+      <Hsp_evalue>9.96208</Hsp_evalue>
       <Hsp_query-from>24</Hsp_query-from>
       <Hsp_query-to>170</Hsp_query-to>
       <Hsp_hit-from>29</Hsp_hit-from>
@@ -307,8 +307,8 @@
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>81321</Statistics_db-num>
-      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.041</Statistics_kappa>

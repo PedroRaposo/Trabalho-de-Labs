@@ -1,0 +1,120 @@
+LOCUS       1EFU_B                   282 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Elongation Factor Complex Ef-TuEF-Ts From Escherichia
+            Coli.
+ACCESSION   1EFU_B
+VERSION     1EFU_B  GI:1942722
+DBSOURCE    pdb: molecule 1EFU, chain 66, release Jun 18, 2009;
+            deposition: Jul 9, 1996;
+            class: Complex (Two Elongation Factors);
+            source: Mmdb_id: 5374, Pdb_id 1: 1EFU;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 282)
+  AUTHORS   Kawashima,T., Berthet-Colominas,C., Wulff,M., Cusack,S. and
+            Leberman,R.
+  TITLE     The structure of the Escherichia coli EF-Tu.EF-Ts complex at 2.5 A
+            resolution
+  JOURNAL   Nature 379 (6565), 511-518 (1996)
+   PUBMED   8596629
+  REMARK    Erratum:[Nature 1996 May 9;381(6578):172]
+REFERENCE   2  (residues 1 to 282)
+  AUTHORS   Kawashima,T., Berthet-Colominas,C., Cusack,S. and Leberman,R.
+  TITLE     Interconversion of crystals of the Escherichia coli EF-Tu.EF-Ts
+            complex between high- and low-diffraction forms
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 52 (PT 4), 799-805 (1996)
+   PUBMED   15299644
+REFERENCE   3  (residues 1 to 282)
+  AUTHORS   Kawashima,T., Berthet-Colominas,C., Wulff,M., Cusack,S. and
+            Leberman,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUL-1996)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..282
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          1..280
+                     /region_name="tsf"
+                     /note="elongation factor Ts; Provisional; PRK09377"
+                     /db_xref="CDD:236491"
+     Region          1..265
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          5..14
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          6..42
+                     /region_name="UBA_EF-Ts"
+                     /note="UBA domain found in elongation factor Ts (EF-Ts)
+                     from bacteria, chloroplasts and mitochondria of
+                     eukaryotes; cd14275"
+                     /db_xref="CDD:270461"
+     Site            order(8..9,12..13,19..20,23)
+                     /site_type="other"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:270461"
+     SecStr          19..29
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          33..51
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          57..67
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          68..78
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          86..102
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          <104..>145
+                     /region_name="SMP_2"
+                     /note="Bacterial virulence factor haemolysin; cl11479"
+                     /db_xref="CDD:277470"
+     SecStr          107..115
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          116..125
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          127..139
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          140..148
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          150..159
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          162..175
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          187..204
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          208..226
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          241..248
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          250..260
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          271..278
+                     /sec_str_type="helix"
+                     /note="helix 17"
+ORIGIN      
+        1 aeitaslvke lrertgagmm dckkaltean gdielaienm rksgaikaak kagnvaadgv
+       61 iktkidgnyg iilevncqtd fvakdagfqa fadkvldaav agkitdvevl kaqfeeerva
+      121 lvakigenin irrvaalegd vlgsyqhgar igvlvaakga deelvkhiam hvaaskpefi
+      181 kpedvsaevv ekeyqvqldi amqsgkpkei aekmvegrmk kftgevsltg qpfvmepskt
+      241 vgqllkehna evtgfirfev gegiekvetd faaevaamsk qs
+//
+

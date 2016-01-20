@@ -184,6 +184,14 @@ class Data:
                 print("",file=text_file)
                 indice+=1
         #text_file.close()
+                
+    def makeBlast(self , f=80, t=106):
+        i=f
+        i2=f
+        for i in range(t-f):
+            self.cdsList[i2].blast()
+            i2+=1
+
         
         
         

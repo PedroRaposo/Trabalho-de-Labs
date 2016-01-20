@@ -1,0 +1,910 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_137881</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611755</BlastOutput_query-def>
+  <BlastOutput_query-len>265</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_137881</Iteration_query-ID>
+  <Iteration_query-def>2611755</Iteration_query-def>
+  <Iteration_query-len>265</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|448262570|pdb|4HG0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Magnesium And Cobalt Efflux Protein Corc, Northeast Structural Genomics Consortium (nesg) Target Er40</Hit_def>
+  <Hit_accession>4HG0_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>4.98558e-38</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>LNEEKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEV-RLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVG-DIQDEFDHEREDIEPLGQGVWLCDARVDLEDLSECLHTVFPSQEFGTLGGFVFNLFGKIPVKYEKVSWGAFDFIIQDMEAHKI</Hsp_qseq>
+      <Hsp_hseq>IDEDTRDXLEGVXDIADQRVRDIXIPRSQXITLKRNQTLDECLDVIIESAHSRFPVISEDKDHIEGILXAKDLLPFXRSDAEAFSXDKVLRQAVVVPESKRVDRXLKEFRSQRYHXAIVIDEFGGVSGLVTIEDILELIVGEIEDEYDEEDDIDFRQLSRHTWTVRALASIEDFNEAFGTHFSDEEVDTIGGLVXQAFGHLPARGETIDIDGYQFKVAXADSRRI</Hsp_hseq>
+      <Hsp_midline>++E+ +D + G+ D++D  VR++ IPR     L+ + + +  ++ + ES HSRFPV  +  D++ G+L  KDL+       E    +++LR+   VPESKR+D  L+EF+ +  H AI +DE+GGVSG+  +EDI+E IVG    +  + +  D   L +  W   A   +ED +E   T F  +E  T+GG V   FG +P + E +    + F +   ++ +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|284794170|pdb|3LFR|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of A Cbs Domain From A Putative Metal Ion Transporter Bound To Amp From Pseudomonas Syringae To 1.55a &gt;gi|284794171|pdb|3LFR|B Chain B, The Crystal Structure Of A Cbs Domain From A Putative Metal Ion Transporter Bound To Amp From Pseudomonas Syringae To 1.55a</Hit_def>
+  <Hit_accession>3LFR_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.03507e-31</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>SDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLF----GRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGDIQDEFDHE</Hsp_qseq>
+      <Hsp_hseq>ADLQVRDIXVPRSQXISIKATQTPREFLPAVIDAAHSRYPVIGESHDDVLGVLLAKDLLPLILKADGDSDDVK--KLLRPATFVPESKRLNVLLREFRANHNHXAIVIDEYGGVAGLVTIEDVLEQIVGDIEDEHDVE</Hsp_hseq>
+      <Hsp_midline>+D  VR++ +PR     ++ + +    +  V ++ HSR+PV  ++ D+V+GVL  KDL+ L     G   +V+  +LLR   FVPESKR++ LLREF+  H H AI +DEYGGV+G+  +ED++E+IVGDI+DE D E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|281500787|pdb|3JTF|A</Hit_id>
+  <Hit_def>Chain A, The Cbs Domain Pair Structure Of A Magnesium And Cobalt Efflux Protein From Bordetella Parapertussis In Complex With Amp &gt;gi|281500788|pdb|3JTF|B Chain B, The Cbs Domain Pair Structure Of A Magnesium And Cobalt Efflux Protein From Bordetella Parapertussis In Complex With Amp</Hit_def>
+  <Hit_accession>3JTF_A</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.39</Hsp_bit-score>
+      <Hsp_score>285</Hsp_score>
+      <Hsp_evalue>8.10776e-31</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>SDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGDIQ</Hsp_qseq>
+      <Hsp_hseq>AERTVADIXVPRSRXDLLDISQPLPQLLATIIETAHSRFPVYEDDRDNIIGILLAKDLLRYXLEPA-LDIRSLVRPAVFIPEVKRLNVLLREFRASRNHLAIVIDEHGGISGLVTXEDVLEQIVGDIE</Hsp_hseq>
+      <Hsp_midline>++ +V ++ +PR   D L++S     L+  + E+ HSRFPVYE   DN++G+L  KDL++    P  + +  L+R   F+PE KR++ LLREF+    H+AI +DE+GG+SG+   ED++E+IVGDI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|307568413|pdb|3OI8|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Functionally Unknown Conserved Protein Domain From Neisseria Meningitidis Mc58 &gt;gi|307568414|pdb|3OI8|B Chain B, The Crystal Structure Of Functionally Unknown Conserved Protein Domain From Neisseria Meningitidis Mc58</Hit_def>
+  <Hit_accession>3OI8_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>3.37431e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>VIDWLRRRHAVTHIFQQPLNEEKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIE</Hsp_qseq>
+      <Hsp_hseq>VLNLLRQAHE-----QEVFDADTLLRLEKVLDFSDLEVRDAXITRSRXNVLKENDSIERITAYVIDTAHSRFPVIGEDKDEVLGILHAKDLLKYXFNPEQFHLKSILRPAVFVPEGKSLTALLKEFREQRNHXAIVIDEYGGTSGLVTFEDIIE</Hsp_hseq>
+      <Hsp_midline>V++ LR+ H      Q+  + +    +  ++D SD  VR+  I R   + L+ + S E +   V ++ HSRFPV  +  D V+G+L+ KDL+K    P++  L+ +LR   FVPE K + +LL+EF+ +  H AI +DEYGG SG+   EDIIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|304446004|pdb|3NQR|A</Hit_id>
+  <Hit_def>Chain A, A Putative Cbs Domain-Containing Protein From Salmonella Typhimurium Lt2 &gt;gi|304446005|pdb|3NQR|B Chain B, A Putative Cbs Domain-Containing Protein From Salmonella Typhimurium Lt2 &gt;gi|304446006|pdb|3NQR|C Chain C, A Putative Cbs Domain-Containing Protein From Salmonella Typhimurium Lt2 &gt;gi|304446007|pdb|3NQR|D Chain D, A Putative Cbs Domain-Containing Protein From Salmonella Typhimurium Lt2</Hit_def>
+  <Hit_accession>3NQR_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.42147e-24</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>SDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEV-RLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGD</Hsp_qseq>
+      <Hsp_hseq>ADQRVRDIXIPRSQXITLKRNQTLDECLDVIIESAHSRFPVISEDKDHIEGILXAKDLLPFXRSDAEAFSXDKVLRTAVVVPESKRVDRXLKEFRSQRYHXAIVIDEFGGVSGLVTIEDILELIVGE</Hsp_hseq>
+      <Hsp_midline>+D  VR++ IPR     L+ + + +  ++ + ES HSRFPV  +  D++ G+L  KDL+       E    +++LR    VPESKR+D  L+EF+ +  H AI +DE+GGVSG+  +EDI+E IVG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|290790309|pdb|3LV9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Cbs Domain Of A Putative Transporter From Clostridium Difficile 630</Hit_def>
+  <Hit_accession>3LV9_A</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>2.3717e-24</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>LNEEKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGDIQ</Hsp_qseq>
+      <Hsp_hseq>IDESEQRLVDNIFEFEEKKIREIXVPRTDXVCIYESDSEEKILAILKEEGVTRYPVCRKNKDDILGFVHIRDLYNQKINENKIELEEILRDIIYISENLTIDKALERIRKEKLQLAIVVDEYGGTSGVVTIEDILEEIVGEIQ</Hsp_hseq>
+      <Hsp_midline>++E +Q ++  I +  +  +RE+ +PR D   +  S S E ++  + E G +R+PV  +  D+++G ++++DL        ++ LE +LR   ++ E+  ID  L   ++  + +AI VDEYGG SG+  +EDI+EEIVG+IQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|238538019|pdb|3HF7|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of A Cbs-Domain Pair With Bound Amp From Klebsiella Pneumoniae To 2.75a</Hit_def>
+  <Hit_accession>3HF7_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>2.59784e-19</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>SVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKP---FFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGD</Hsp_qseq>
+      <Hsp_hseq>SVNDIMVPRNEIVGIDINDDWKSIVRQLTHSPHGRIVLYRDSLDDAISMLRVREAYRLMTEKKEFTKEIMLRAADEIYFVPEGTPLSTQLVKFQRNKKKVGLVVDEYGDIQGLVTVEDILEEIVGD</Hsp_hseq>
+      <Hsp_midline>SV ++M+PR ++  ++++   +++V ++T S H R  +Y  ++D+ + +L V++  +L    +E   E +LR     +FVPE   + + L +F+R    + + VDEYG + G+  +EDI+EEIVGD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|308198642|pdb|3OCM|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of A Domain From A Possible Membrane Protein Of Bordetella Parapertussis &gt;gi|308198643|pdb|3OCM|B Chain B, The Crystal Structure Of A Domain From A Possible Membrane Protein Of Bordetella Parapertussis</Hit_def>
+  <Hit_accession>3OCM_A</Hit_accession>
+  <Hit_len>173</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>2.34908e-18</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>EKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGDIQDE</Hsp_qseq>
+      <Hsp_hseq>EERNXVSGVLTLAERSIRSIXTPRTDVSWVNIDDDAATIRQQLTAAPHSFFPVCRGSLDEVVGIGRAKDLVADLITEGRVRRNR-LRDPIIVHESIGILRLXDTLKRSRGQLVLVADEFGAIEGLVTPIDVFEAIAGEFPDE</Hsp_hseq>
+      <Hsp_midline>E+++ + G++ L++ S+R +  PR DV ++ +     T+ +++T + HS FPV   ++D VVG+   KDL+        VR  R LR P  V ES  I  L    KR    + +  DE+G + G+    D+ E I G+  DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|285803798|pdb|3LHH|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Cbs Domain Protein From Shewanella Oneidensis Mr-1.</Hit_def>
+  <Hit_accession>3LHH_A</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>9.90268e-16</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>IRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGD</Hsp_qseq>
+      <Hsp_hseq>VKNVFRLDERTISSLXVPRSDIVFLDLNLPLDANLRTVXQSPHSRFPVCRNNVDDXVGIISAKQLLSESIAGERLELVDLVKNCNFVPNSLSGXELLEHFRTTGSQXVFVVDEYGDLKGLVTLQDXXDALTGE</Hsp_hseq>
+      <Hsp_midline>++ +  L + ++  + +PR D+ FL+L++  +  +  V +S HSRFPV    +D+ VG++  K L+      + + L  L++   FVP S     LL  F+         VDEYG + G+  ++D  + + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|589910957|pdb|4IY0|A</Hit_id>
+  <Hit_def>Chain A, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4</Hit_def>
+  <Hit_accession>4IY0_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>6.67363e-14</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>EEKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVE-----KVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPF-----FVPESKRIDSLLREFKRRHVHIAIAV--------DEYGGVSGIACMEDIIEEIV-GDIQDE</Hsp_qseq>
+      <Hsp_hseq>KEELNIIQGALELRTKTVEDVMTPLRDC----FMITGEAILDFNTMSEIMESGYTRIPVFEGERSNIVDLLFVKDLA--FVDPDDCTPLKTITKFYNHPLHFVFNDTKLDAMLEEFKKGKSHLAIVQRVNNEGEGDPFYEVLGIVTLEDVIEEIIKSEILDE</Hsp_hseq>
+      <Hsp_midline>+E+ ++I+G ++L   +V +VM P  D       ++GE +++     ++ ESG++R PV+E    N+V +L+VKDL   F  P +    + + K +     FV    ++D++L EFK+   H+AI          D +  V GI  +ED+IEEI+  +I DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|589910964|pdb|4IYS|A</Hit_id>
+  <Hit_def>Chain A, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4</Hit_def>
+  <Hit_accession>4IYS_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>7.08276e-14</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>EKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVE-----KVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPF-----FVPESKRIDSLLREFKRRHVHIAIAV--------DEYGGVSGIACMEDIIEEIV-GDIQDE</Hsp_qseq>
+      <Hsp_hseq>EELNIIQGALELRTKTVEDVMTPLRDC----FMITGEAILDFNTMSEIMESGYTRIPVFEGERSNIVDLLFVKDLA--FVDPDDCTPLKTITKFYNHPLHFVFNDTKLDAMLEEFKKGKSHLAIVQRVNNEGEGDPFYEVLGIVTLEDVIEEIIKSEILDE</Hsp_hseq>
+      <Hsp_midline>E+ ++I+G ++L   +V +VM P  D       ++GE +++     ++ ESG++R PV+E    N+V +L+VKDL   F  P +    + + K +     FV    ++D++L EFK+   H+AI          D +  V GI  +ED+IEEI+  +I DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|764090998|pdb|4P1G|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Bateman Domain Of Murine Magnesium Transporter Cnnm2 Bound To Amp &gt;gi|808042899|pdb|4P1O|A Chain A, Crystal Structure Of The Bateman Domain Of Murine Magnesium Transporter Cnnm2 Bound To Atp-mg &gt;gi|808042900|pdb|4P1O|B Chain B, Crystal Structure Of The Bateman Domain Of Murine Magnesium Transporter Cnnm2 Bound To Atp-mg</Hit_def>
+  <Hit_accession>4P1G_A</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>8.80326e-14</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>EKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVE-----KVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPF-----FVPESKRIDSLLREFKRRHVHIAIAV--------DEYGGVSGIACMEDIIEEIV</Hsp_qseq>
+      <Hsp_hseq>EELNIIQGALELRTKTVEDVMTPLRDC----FMITGEAILDFNTMSEIMESGYTRIPVFEGERSNIVDLLFVKDLA--FVDPDDCTPLKTITKFYNHPLHFVFNDTKLDAMLEEFKKGKSHLAIVQRVNNEGEGDPFYEVLGIVTLEDVIEEII</Hsp_hseq>
+      <Hsp_midline>E+ ++I+G ++L   +V +VM P  D       ++GE +++     ++ ESG++R PV+E    N+V +L+VKDL   F  P +    + + K +     FV    ++D++L EFK+   H+AI          D +  V GI  +ED+IEEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|594147067|pdb|4IY4|A</Hit_id>
+  <Hit_def>Chain A, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4 &gt;gi|594147068|pdb|4IY4|C Chain C, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4</Hit_def>
+  <Hit_accession>4IY4_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>8.89877e-14</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>EEKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVE-----KVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPF-----FVPESKRIDSLLREFKRRHVHIAIAV--------DEYGGVSGIACMEDIIEEIV-GDIQDE</Hsp_qseq>
+      <Hsp_hseq>KEELNIIQGALELRTKTVEDVMTPLRDC----FMITGEAILDFNTMSEIMESGYTRIPVFEGERSNIVDLLFVKDLA--FVDPDDCTPLKTITKFYNHPLHFVFNDTKLDAMLEEFKKGKSHLAIVQRVNNEGEGDPFYEVLGIVILEDVIEEIIKSEILDE</Hsp_hseq>
+      <Hsp_midline>+E+ ++I+G ++L   +V +VM P  D       ++GE +++     ++ ESG++R PV+E    N+V +L+VKDL   F  P +    + + K +     FV    ++D++L EFK+   H+AI          D +  V GI  +ED+IEEI+  +I DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|589910960|pdb|4IY3|B</Hit_id>
+  <Hit_def>Chain B, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4 &gt;gi|589910961|pdb|4IY3|C Chain C, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4 &gt;gi|589910962|pdb|4IY3|D Chain D, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4 &gt;gi|589910963|pdb|4IY3|A Chain A, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4</Hit_def>
+  <Hit_accession>4IY3_B</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>8.89174e-13</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>DMIRGIVDLSDTSVREVMIPRIDVDFL--ELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEV----RLERLLRKPF-FVPESKRIDSLLREFKRRHVHIAIAV--------DEYGGVSGIACMEDIIEEIV-GDIQDE</Hsp_qseq>
+      <Hsp_hseq>NMIQGALELRTKTVEDVMTQLQDCFMIRSDAILDFNTMSE-IMESGYTRIPVFEDEQSNIVDILYVKDLA--FVDPDDCTPLKTITRFYNHPVHFVFHDTKLDAMLEEFKKGKSHLAIVQKVNNEGEGDPFYEVLGLVTLEDVIEEIIKSEILDE</Hsp_hseq>
+      <Hsp_midline>+MI+G ++L   +V +VM    D   +  +  +   T+ E + ESG++R PV+E    N+V +LYVKDL   F  P +      + R    P  FV    ++D++L EFK+   H+AI          D +  V G+  +ED+IEEI+  +I DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|589910958|pdb|4IY2|A</Hit_id>
+  <Hit_def>Chain A, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4 &gt;gi|589910959|pdb|4IY2|C Chain C, Structural And Ligand Binding Properties Of The Bateman Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4</Hit_def>
+  <Hit_accession>4IY2_A</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.14649e-12</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>165</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>EKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVE-----KVTESGHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPF-----FVPESKRIDSLLREFKRRHVHIAIAV--------DEYGGVSGIACMEDIIEEIV-GDIQDE</Hsp_qseq>
+      <Hsp_hseq>EELNIIQGALELRTKTVEDVXTPLRDC----FXITGEAILDFNTXSEIXESGYTRIPVFEGERSNIVDLLFVKDLA--FVDPDDCTPLKTITKFYNHPLHFVFNDTKLDAXLEEFKKGKSHLAIVQRVNNEGEGDPFYEVLGIVTLEDVIEEIIKSEILDE</Hsp_hseq>
+      <Hsp_midline>E+ ++I+G ++L   +V +V  P  D       ++GE +++     ++ ESG++R PV+E    N+V +L+VKDL   F  P +    + + K +     FV    ++D+ L EFK+   H+AI          D +  V GI  +ED+IEEI+  +I DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|308198644|pdb|3OCO|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of A Hemolysin-Like Protein Containing Cbs Domain Of Oenococcus Oeni Psu &gt;gi|308198645|pdb|3OCO|B Chain B, The Crystal Structure Of A Hemolysin-Like Protein Containing Cbs Domain Of Oenococcus Oeni Psu</Hit_def>
+  <Hit_accession>3OCO_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>4.95317e-12</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>ESGHSRFPVY-EQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGDIQDEFDHE</Hsp_qseq>
+      <Hsp_hseq>EEQYSRFPVTADNDKDKIIGYAYNYDIVRQARIDDKAKISTIXRDIVSVPENXKVPDVXEEXSAHRVPXAIVIDEYGGTSGIITDKDVYEELFGNLRDEQDDE</Hsp_hseq>
+      <Hsp_midline>E  +SRFPV  +   D ++G  Y  D+++      + ++  + R    VPE+ ++  +  E     V  AI +DEYGG SGI   +D+ EE+ G+++DE D E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|257097694|pdb|3I8N|A</Hit_id>
+  <Hit_def>Chain A, A Domain Of A Conserved Functionally Known Protein From Vibrio Parahaemolyticus Rimd 2210633. &gt;gi|257097695|pdb|3I8N|B Chain B, A Domain Of A Conserved Functionally Known Protein From Vibrio Parahaemolyticus Rimd 2210633.</Hit_def>
+  <Hit_accession>3I8N_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>7.31412e-07</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>DLSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLYVKDLIKL--FGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDIIEEIVGD</Hsp_qseq>
+      <Hsp_hseq>NAQDVPVTQVXTPRPVVFRVDATXTINEFLDKHKDTPFSRPLVYSEQKDNIIGFVHRLELFKXQQSGSGQK-QLGAVXRPIQVVLNNTALPKVFDQXXTHRLQLALVVDEYGTVLGLVTLEDIFEHLVGE</Hsp_hseq>
+      <Hsp_midline>+  D  V +V  PR  V  ++ + +    ++K  ++  SR  VY +  DN++G ++  +L K    G  Q+ +L  + R    V  +  +  +  +     + +A+ VDEYG V G+  +EDI E +VG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|149243205|pdb|2PLI|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Putative Mg2+ And Co2+ Transporter(Corc) Associated Region From Neisseria Meningitidis Mc58 &gt;gi|149243206|pdb|2PLI|B Chain B, Crystal Structure Of Putative Mg2+ And Co2+ Transporter(Corc) Associated Region From Neisseria Meningitidis Mc58 &gt;gi|149243207|pdb|2PLI|C Chain C, Crystal Structure Of Putative Mg2+ And Co2+ Transporter(Corc) Associated Region From Neisseria Meningitidis Mc58 &gt;gi|149243208|pdb|2PLI|D Chain D, Crystal Structure Of Putative Mg2+ And Co2+ Transporter(Corc) Associated Region From Neisseria Meningitidis Mc58</Hit_def>
+  <Hit_accession>2PLI_A</Hit_accession>
+  <Hit_len>91</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>7.95535e-07</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>DHEREDIEPLGQGVWLCDARVDLEDLSECLHTVFPSQEFGTLGGFVFNLFGKIPVKYEKVSWGAFDFIIQDMEAHKINTIKIVSV</Hsp_qseq>
+      <Hsp_hseq>DDSADNIHAVSSERWRIHAATEIEDINTFFGTEYSSEEADTIGGLVIQELGHLPVRGEKVLIGGLQFTVARADNRRLHTLXATRV</Hsp_hseq>
+      <Hsp_midline>D   ++I  +    W   A  ++ED++    T + S+E  T+GG V    G +PV+ EKV  G   F +   +  +++T+    V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|291191246|pdb|3LLB|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The Protein Pa3983 With Unknown Function From Pseudomonas Aeruginosa Pao1</Hit_def>
+  <Hit_accession>3LLB_A</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>3.58254e-06</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>IEPLGQGVWLCDARVDLEDLSECLHTVFPSQEFGTLGGFVFNLFGKIPVKYEKVSWGAFDFIIQDMEAHKINTIKI</Hsp_qseq>
+      <Hsp_hseq>IKPLPSGDFIVKALTPVDAFNDFFGSEFSDEEFDTVGGLVMSAFGHLPKRNEVVELGEFRFRVLNADSRRVHLLRL</Hsp_hseq>
+      <Hsp_midline>I+PL  G ++  A   ++  ++   + F  +EF T+GG V + FG +P + E V  G F F + + ++ +++ +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|145580398|pdb|2P13|A</Hit_id>
+  <Hit_def>Chain A, Transporter Associated Domain Corc_hlyc From Nitrosomonas Europaea &gt;gi|145580399|pdb|2P13|B Chain B, Transporter Associated Domain Corc_hlyc From Nitrosomonas Europaea</Hit_def>
+  <Hit_accession>2P13_A</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.000456991</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>EPLGQGVWLCDARVDLEDLSECLH--TVFPSQEFGTLGGFVFNLFGKIPVKYEKVSWGAFDFIIQDMEAHKINTIKI</Hsp_qseq>
+      <Hsp_hseq>EQQADGTWLXDGWISIRKASNLLEHDLVDEAERYSTLGGYLLWQFGYIPAAGEQITVDGLIFEIVSVNKHNIGKVRV</Hsp_hseq>
+      <Hsp_midline>E    G WL D  + +   S  L    V  ++ + TLGG++   FG IP   E+++     F I  +  H I  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|126031452|pdb|2OAI|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Transporter Associated Domain Corc_hlyc From A Xylella Fastidiosa Temecula1 Hemolysin. &gt;gi|160286065|pdb|2R8D|A Chain A, The Structure Of Transporter Associated Domain Corc_hlyc From A Xylella Fastidiosa Temecula1 Hemolysin In Complex With Mg++ And Mn++</Hit_def>
+  <Hit_accession>2OAI_A</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.00260863</Hsp_evalue>
+      <Hsp_query-from>179</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>GVWLCDARVDLEDLSECLHTVFPSQE---FGTLGGFVFNLFGKIPVKYEKVSWGAFDFIIQDMEAHKINTI</Hsp_qseq>
+      <Hsp_hseq>GSFLIDGTLPIEELREVLGAELPDGEENNYHTLAGXCISYFGRIPHVGEYFDWAGWRIEIVDLDGARIDXL</Hsp_hseq>
+      <Hsp_midline>G +L D  + +E+L E L    P  E   + TL G   + FG+IP   E   W  +   I D++  +I+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|195927549|pdb|3DED|A</Hit_id>
+  <Hit_def>Chain A, C-terminal Domain Of Probable Hemolysin From Chromobacterium Violaceum &gt;gi|195927550|pdb|3DED|B Chain B, C-terminal Domain Of Probable Hemolysin From Chromobacterium Violaceum &gt;gi|195927551|pdb|3DED|C Chain C, C-terminal Domain Of Probable Hemolysin From Chromobacterium Violaceum &gt;gi|195927552|pdb|3DED|D Chain D, C-terminal Domain Of Probable Hemolysin From Chromobacterium Violaceum &gt;gi|195927553|pdb|3DED|E Chain E, C-terminal Domain Of Probable Hemolysin From Chromobacterium Violaceum &gt;gi|195927554|pdb|3DED|F Chain F, C-terminal Domain Of Probable Hemolysin From Chromobacterium Violaceum</Hit_def>
+  <Hit_accession>3DED_A</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.00712421</Hsp_evalue>
+      <Hsp_query-from>167</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>DHEREDIEPLGQGVWLCDARVDLEDLSEC--LHTVFPSQEFG---TLGGFVFNLFGKIPVKYEKVSWGAFDFIIQDMEAHKINTIKI</Hsp_qseq>
+      <Hsp_hseq>DGEEDEIVQREDGSWLVDGXVSLDRFREFFELEAPLPGEAGGNIHTLAGVXLYQLGRVPSVTDRFEWNGFSFEVVDXDRTRVDKILV</Hsp_hseq>
+      <Hsp_midline>D E ++I     G WL D  V L+   E   L    P +  G   TL G      G++P   ++  W  F F + D +  +++ I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|149242881|pdb|2P4P|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Corc_hlyc Domain From Haemophilus Ducreyi &gt;gi|149242882|pdb|2P4P|B Chain B, Crystal Structure Of A Corc_hlyc Domain From Haemophilus Ducreyi</Hit_def>
+  <Hit_accession>2P4P_A</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.0220139</Hsp_evalue>
+      <Hsp_query-from>181</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>WLCDARVDLEDLSECL--HTVFPSQEFGTLGGFVFNLFGKIPVKYEKVSWGAFDFIIQDMEAHKINTIKI</Hsp_qseq>
+      <Hsp_hseq>WLIDGATPLEDVXRALNIHTFPRDENYETIGGFXXYXLRXIPXXTDFVLYDXYXFEIIDTENFRIDQLXV</Hsp_hseq>
+      <Hsp_midline>WL D    LED+   L  HT    + + T+GGF       IP   + V +  + F I D E  +I+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|109156944|pdb|1YZ1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein &gt;gi|109156945|pdb|1YZ1|B Chain B, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein &gt;gi|109156946|pdb|1YZ1|C Chain C, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein &gt;gi|109156947|pdb|1YZ1|D Chain D, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein</Hit_def>
+  <Hit_accession>1YZ1_A</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.65465</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>YVKDLIK-LFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMED</Hsp_qseq>
+      <Hsp_hseq>YIKDYMKSIKGKLEEQRPERV--KPFMTGAAEQIKHILANFKNYQFFIGENMNPDGMVALLDYRED</Hsp_hseq>
+      <Hsp_midline>Y+KD +K + G+ +E R ER+  KPF    +++I  +L  FK     I   ++  G V+ +   ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|114794484|pdb|2HR9|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of Human Translationally Controlled Tumor Protein</Hit_def>
+  <Hit_accession>2HR9_A</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.72589</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>YVKDLIK-LFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMED</Hsp_qseq>
+      <Hsp_hseq>YIKDYMKSIKGKLEEQRPERV--KPFMTGAAEQIKHILANFKNYQFFIGENMNPDGMVALLDYRED</Hsp_hseq>
+      <Hsp_midline>Y+KD +K + G+ +E R ER+  KPF    +++I  +L  FK     I   ++  G V+ +   ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|242556420|pdb|3EBM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein (Htctp) Mutant E12v &gt;gi|242556421|pdb|3EBM|B Chain B, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein (Htctp) Mutant E12v &gt;gi|242556422|pdb|3EBM|C Chain C, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein (Htctp) Mutant E12v &gt;gi|242556423|pdb|3EBM|D Chain D, Crystal Structure Of Human Translationally Controlled Tumour Associated Protein (Htctp) Mutant E12v</Hit_def>
+  <Hit_accession>3EBM_A</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>1.85608</Hsp_evalue>
+      <Hsp_query-from>89</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>YVKDLIK-LFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMED</Hsp_qseq>
+      <Hsp_hseq>YIKDYMKSIKGKLEEQRPERV--KPFMTGAAEQIKHILANFKNYQFFIGENMNPDGMVALLDYRED</Hsp_hseq>
+      <Hsp_midline>Y+KD +K + G+ +E R ER+  KPF    +++I  +L  FK     I   ++  G V+ +   ED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|56966760|pdb|1WD7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Uroporphyrinogen Iii Synthase From An Extremely Thermophilic Bacterium Thermus Thermophilus Hb8 (Wild Type, Native, Form-2 Crystal) &gt;gi|56966761|pdb|1WD7|B Chain B, Crystal Structure Of Uroporphyrinogen Iii Synthase From An Extremely Thermophilic Bacterium Thermus Thermophilus Hb8 (Wild Type, Native, Form-2 Crystal) &gt;gi|67464623|pdb|1WCW|A Chain A, Crystal Structure Of Uroporphyrinogen Iii Synthase From An Extremely Thermophilic Bacterium Thermus Thermophilus Hb8 (Wild Type, Native, Form-1 Crystal)</Hit_def>
+  <Hit_accession>1WD7_A</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.63761</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>235</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>KPFFVPESKRIDSLLREFKR</Hsp_qseq>
+      <Hsp_hseq>KPFYVDETERLGSLLQGFKR</Hsp_hseq>
+      <Hsp_midline>KPF+V E++R+ SLL+ FKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|48425489|pdb|1RY6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Internal Kinesin Motor Domain</Hit_def>
+  <Hit_accession>1RY6_A</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.86422</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>QQPLNE-EKQDMIRGIVDLSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPVYEQTIDNVVGVLY</Hsp_qseq>
+      <Hsp_hseq>KRPLSELEKKKKDSDIITVKNNCTLYIDEPRYKVDMTKYIERHEFIVDKVFDDTVDNFTVYENTIKPLIIDLY</Hsp_hseq>
+      <Hsp_midline>++PL+E EK+     I+ + +     +  PR  VD  +     E +V+KV +     F VYE TI  ++  LY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|195927526|pdb|3D8R|A</Hit_id>
+  <Hit_def>Chain A, Thermus Thermophilus Uroporphyrinogen Iii Synthase &gt;gi|195927527|pdb|3D8S|A Chain A, Thermus Thermophilus Uroporphyrinogen Iii Synthase &gt;gi|196049808|pdb|3D8N|A Chain A, Uroporphyrinogen Iii Synthase-uroporphyringen Iii Complex &gt;gi|196049809|pdb|3D8T|A Chain A, Thermus Thermophilus Uroporphyrinogen Iii Synthase &gt;gi|196049810|pdb|3D8T|B Chain B, Thermus Thermophilus Uroporphyrinogen Iii Synthase</Hit_def>
+  <Hit_accession>3D8R_A</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.99661</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>20</Hsp_align-len>
+      <Hsp_qseq>KPFFVPESKRIDSLLREFKR</Hsp_qseq>
+      <Hsp_hseq>KPFYVDETERLGSLLQGFKR</Hsp_hseq>
+      <Hsp_midline>KPF+V E++R+ SLL+ FKR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|940376603|pdb|5AN9|A</Hit_id>
+  <Hit_def>Chain A, Mechanism Of Eif6 Release From The Nascent 60s Ribosomal Subunit &gt;gi|940376614|pdb|5ANB|A Chain A, Mechanism Of Eif6 Release From The Nascent 60s Ribosomal Subunit &gt;gi|940376626|pdb|5ANC|A Chain A, Mechanism Of Eif6 Release From The Nascent 60s Ribosomal Subunit</Hit_def>
+  <Hit_accession>5AN9_A</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.71475</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>98</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LSDTSVREVMIPRIDVDFLELSMSGETLVEKVTESGHSRFPV--YEQTIDNVVGVLYVKDLIKLFG</Hsp_qseq>
+      <Hsp_hseq>IAHTQVHKLKLTQKKAHVLEIQVNGGSIVEKVN------FAVANFEKTV-NVTGVFAENELIDVIG</Hsp_hseq>
+      <Hsp_midline>++ T V ++ + +     LE+ ++G ++VEKV       F V  +E+T+ NV GV    +LI + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|109157383|pdb|2CU0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Inosine-5&apos;-Monophosphate Dehydrogenase From Pyrococcus Horikoshii Ot3 &gt;gi|109157384|pdb|2CU0|B Chain B, Crystal Structure Of Inosine-5&apos;-Monophosphate Dehydrogenase From Pyrococcus Horikoshii Ot3</Hit_def>
+  <Hit_accession>2CU0_A</Hit_accession>
+  <Hit_len>486</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.00247</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>GHSRFPVYEQTIDNVVGVLYVKDLIKLFGRPQEVRLERLLRKPFFVPESKRIDSLLREFKRRHVHIAIAVDEYGGVSGIACMEDII</Hsp_qseq>
+      <Hsp_hseq>GIDGLPVVED--EKVVGIITKKDI---AAREGKLVKELMTKEVITVPESIEVEEALKIMIENRIDRLPVVDERGKLVGLITMSDLV</Hsp_hseq>
+      <Hsp_midline>G    PV E   + VVG++  KD+     R  ++  E + ++   VPES  ++  L+      +     VDE G + G+  M D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

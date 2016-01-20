@@ -1,0 +1,425 @@
+LOCUS       3AGP_A                  1289 aa            linear       29-JAN-2014
+DEFINITION  Chain A, Structure Of Viral Polymerase Form I.
+ACCESSION   3AGP_A
+VERSION     3AGP_A  GI:305677666
+DBSOURCE    pdb: molecule 3AGP, chain 65, release Jan 29, 2014;
+            deposition: Apr 6, 2010;
+            class: Translation, Transferase;
+            source: Mmdb_id: 84533, Pdb_id 1: 3AGP;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Unknown.
+  ORGANISM  Unknown.
+            Unclassified.
+REFERENCE   1  (residues 1 to 1289)
+  AUTHORS   Takeshita,D. and Tomita,K.
+  TITLE     Assembly of Q{beta} viral RNA polymerase with host translational
+            elongation factors EF-Tu and -Ts
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (36), 15733-15738 (2010)
+   PUBMED   20798060
+REFERENCE   2  (residues 1 to 1289)
+  AUTHORS   Takeshita,D. and Tomita,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-2010)
+COMMENT     1 Elongation Factor Ts, Elongation Factor Tu, Linker, Q Beta
+            Replicase.
+FEATURES             Location/Qualifiers
+     source          1..1289
+                     /organism="unknown"
+     Region          1..281
+                     /region_name="tsf"
+                     /note="elongation factor Ts; Provisional; PRK09377"
+                     /db_xref="CDD:236491"
+     Region          1..55
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          7..43
+                     /region_name="UBA_EF-Ts"
+                     /note="UBA domain found in elongation factor Ts (EF-Ts)
+                     from bacteria, chloroplasts and mitochondria of
+                     eukaryotes; cd14275"
+                     /db_xref="CDD:270461"
+     Site            order(9..10,13..14,20..21,24)
+                     /site_type="other"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:270461"
+     SecStr          9..16
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          20..30
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          34..52
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          56..267
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          58..68
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          69..79
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          87..103
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          110..125
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          129..140
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          141..149
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          151..160
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          163..176
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          188..205
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          209..227
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          241..249
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          251..261
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          268..488
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          273..280
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          285..677
+                     /region_name="PRK00049"
+                     /note="elongation factor Tu; Reviewed"
+                     /db_xref="CDD:234596"
+     Region          295..487
+                     /region_name="EF_Tu"
+                     /note="Elongation Factor Tu (EF-Tu) GTP-binding proteins;
+                     cd01884"
+                     /db_xref="CDD:206671"
+     SecStr          295..303
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            303..310
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206671"
+     Site            order(304,306,310..311,314,317..318,322,350..351,369..370,
+                     393..394,396..399,402,433,437,463..464)
+                     /site_type="other"
+                     /note="GEF interaction site [polypeptide binding]"
+                     /db_xref="CDD:206671"
+     Site            order(306..311,331,420..421,423,458..460)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206671"
+     SecStr          309..323
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Site            340..350
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206671"
+     Site            346
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206671"
+     SecStr          351..357
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          358..366
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            365..368
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206671"
+     Site            367..385
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206671"
+     SecStr          369..378
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          384..392
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          400..410
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          413..421
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            420..423
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206671"
+     SecStr          429..444
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          453..458
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            458..460
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206671"
+     SecStr          471..482
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     Region          join(489..583,691..718,1161..1289)
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     Region          495..581
+                     /region_name="EFTU_II"
+                     /note="EFTU_II: Elongation factor Tu domain II. Elongation
+                     factors Tu (EF-Tu) are three-domain GTPases with an
+                     essential function in the elongation phase of mRNA
+                     translation. The GTPase center of EF-Tu is in the
+                     N-terminal domain (domain I), also known as the...;
+                     cd03697"
+                     /db_xref="CDD:239668"
+     SecStr          495..499
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          500..506
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          508..517
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          519..523
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          525..531
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          535..540
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          541..546
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          547..550
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          551..555
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          556..564
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          575..579
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     Region          584..690
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     Region          584..673
+                     /region_name="EFTU_III"
+                     /note="Domain III of elongation factor (EF) Tu; cd03707"
+                     /db_xref="CDD:275451"
+     SecStr          587..596
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     Site            order(594,596,598..601,616..619,658..660,662,667,669..670)
+                     /site_type="other"
+                     /note="antibiotic binding site [chemical binding]"
+                     /db_xref="CDD:275451"
+     Site            order(600..601,604..605,608,611..612,614,634,636,639,
+                     664..666)
+                     /site_type="other"
+                     /note="heterodimer interface [polypeptide binding]"
+                     /db_xref="CDD:275451"
+     Site            order(603..605,608..612,614,623,627,648..649,663..665)
+                     /site_type="other"
+                     /note="tRNA binding site [nucleotide binding]"
+                     /db_xref="CDD:275451"
+     SecStr          606..609
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          611..618
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          619..628
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          633..636
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          638..642
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          643..648
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          657..664
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          665..669
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          670..677
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          703..714
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     Region          717..1264
+                     /region_name="RNA_replicase_B"
+                     /note="RNA replicase, beta-chain; pfam03431"
+                     /db_xref="CDD:251948"
+     Region          join(719..746,1108..1160)
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          723..735
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     Region          747..1107
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     SecStr          757..768
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          784..803
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          818..833
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          838..846
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          851..854
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          855..858
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          871..875
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     SecStr          879..887
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          895..899
+                     /sec_str_type="sheet"
+                     /note="strand 37"
+     SecStr          900..910
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+     SecStr          911..919
+                     /sec_str_type="sheet"
+                     /note="strand 39"
+     SecStr          921..937
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          949..960
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          964..969
+                     /sec_str_type="sheet"
+                     /note="strand 40"
+     Het             join(bond(968),bond(1089))
+                     /heterogen="( CA,1000 )"
+     SecStr          977..985
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          987..996
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          999..1004
+                     /sec_str_type="sheet"
+                     /note="strand 41"
+     SecStr          1006..1011
+                     /sec_str_type="sheet"
+                     /note="strand 42"
+     SecStr          1022..1041
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          1047..1052
+                     /sec_str_type="sheet"
+                     /note="strand 43"
+     SecStr          1053..1058
+                     /sec_str_type="sheet"
+                     /note="strand 44"
+     SecStr          1062..1072
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          1080..1083
+                     /sec_str_type="sheet"
+                     /note="strand 45"
+     SecStr          1086..1091
+                     /sec_str_type="sheet"
+                     /note="strand 46"
+     SecStr          1092..1097
+                     /sec_str_type="sheet"
+                     /note="strand 47"
+     SecStr          1098..1102
+                     /sec_str_type="sheet"
+                     /note="strand 48"
+     SecStr          1113..1126
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          1127..1130
+                     /sec_str_type="sheet"
+                     /note="strand 49"
+     SecStr          1131..1134
+                     /sec_str_type="sheet"
+                     /note="strand 50"
+     SecStr          1138..1145
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          1176..1180
+                     /sec_str_type="sheet"
+                     /note="strand 51"
+     SecStr          1181..1190
+                     /sec_str_type="sheet"
+                     /note="strand 52"
+     SecStr          1191..1195
+                     /sec_str_type="sheet"
+                     /note="strand 53"
+     SecStr          1199..1214
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          1247..1251
+                     /sec_str_type="sheet"
+                     /note="strand 54"
+     SecStr          1254..1261
+                     /sec_str_type="sheet"
+                     /note="strand 55"
+ORIGIN      
+        1 maeitaslvk elrertgagm mdckkaltea ngdielaien mrksgaikaa kkagnvaadg
+       61 viktkidgny giilevncqt dfvakdagfq afadkvldaa vagkitdvev lkaqfeeerv
+      121 alvakigeni nirrvaaleg dvlgsyqhga rigvlvaakg adeelvkhia mhvaaskpef
+      181 ikpedvsaev vekeyqvqld iamqsgkpke iaekmvegrm kkftgevslt gqpfvmepsk
+      241 tvgqllkehn aevtgfirfe vgegiekvet dfaaevaams kqshmskekf ertkphvnvg
+      301 tighvdhgkt tltaaittvl aktyggaara fdqidnapee kargitints hveydtptrh
+      361 yahvdcpgha dyvknmitga aqmdgailvv aatdgpmpqt rehillgrqv gvpyiivfln
+      421 kcdmvddeel lelvemevre llsqydfpgd dtpivrgsal kalegdaewe akilelagfl
+      481 dsyipepera idkpfllpie dvfsisgrgt vvtgrvergi ikvgeeveiv giketqkstc
+      541 tgvemfrkll degragenvg vllrgikree iergqvlakp gtikphtkfe sevyilskde
+      601 ggrhtpffkg yrpqfyfrtt dvtgtielpe gvemvmpgdn ikmvvtlihp iamddglrfa
+      661 ireggrtvga gvvakvlsga sgaaggggsg gggsmsktas srnslsaqlr raantrieve
+      721 gnlalsiand lllaygqspf nseaecisfs prfdgtpddf rinylkaeim skyddfslgi
+      781 dteavawekf laaeaecalt narlyrpdys edfnfslges cihmarrkia kligdvpsve
+      841 gmlrhcrfsg gatttnnrsy ghpsfkfalp qactpralky vlalrasthf dirisdispf
+      901 nkavtvpkns ktdrciaiep gwnmffqlgi ggilrdrlrc wgidlndqti nqrrahegsv
+      961 tnnlatvdls aasdsislal celllppgwf evlmdlrspk grlpdgsvvt yekissmgng
+     1021 ytfeleslif aslarsvcei ldldssevtv ygddiilpsc avpalrevfk yvgfttntkk
+     1081 tfsegpfres cgkhyysgvd vtpfyirhri vspadlilvl nnlyrwatid gvwdprahsv
+     1141 ylkyrkllpk qlqrntipdg ygdgalvgsv linpfaknrg wiryvpvitd htrdrerael
+     1201 gsylydlfsr clsesndglp lrgpsgcdsa dlfaidqlic rsnptkisrs tgkfdiqyia
+     1261 cssrvlapyg vfqgtkvasl heahhhhhh
+//
+

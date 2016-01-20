@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_247275</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611156</BlastOutput_query-def>
+  <BlastOutput_query-len>73</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_247275</Iteration_query-ID>
+  <Iteration_query-def>2611156</Iteration_query-def>
+  <Iteration_query-len>73</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|82407304|pdb|1T3O|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of Csra, A Bacterial Carbon Storage Regulatory Protein</Hit_def>
+  <Hit_accession>1T3O_A</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>1.19066e-15</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MLILSRKTNQKIFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQRE-NRAAS</Hsp_qseq>
+      <Hsp_hseq>MLVLSRKINEAIQIGADIEVKVIAVEGDQVKLGIDAPKHIDIHRKEIYLTIQEENNRAAA</Hsp_hseq>
+      <Hsp_midline>ML+LSRK N+ I IG  IE+ +I + GDQVK+G++AP+ + I R+E+Y  IQ E NRAA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|157881049|pdb|1Y00|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of The Carbon Storage Regulator Protein Csra &gt;gi|157881050|pdb|1Y00|B Chain B, Solution Structure Of The Carbon Storage Regulator Protein Csra</Hit_def>
+  <Hit_accession>1Y00_A</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.83937e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>MLILSRKTNQKIFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQRE</Hsp_qseq>
+      <Hsp_hseq>MLILTRRVGETLMIGDEVTVTVLGVKGNQVRIGVNAPKEVSVHREEIYQRIQAE</Hsp_hseq>
+      <Hsp_midline>MLIL+R+  + + IGD + +T++ ++G+QV++GV AP+ V + R+E+Y+ IQ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|158429051|pdb|2JPP|A</Hit_id>
+  <Hit_def>Chain A, Structural Basis Of RsmaCSRA RNA RECOGNITION: STRUCTURE OF Rsme Bound To The Shine-Dalgarno Sequence Of Hcna Mrna &gt;gi|158429052|pdb|2JPP|B Chain B, Structural Basis Of RsmaCSRA RNA RECOGNITION: STRUCTURE OF Rsme Bound To The Shine-Dalgarno Sequence Of Hcna Mrna &gt;gi|588292775|pdb|2MFC|A Chain A, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl1)/rsme(dimer) 2:1 Complex &gt;gi|588292777|pdb|2MFC|C Chain C, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl1)/rsme(dimer) 2:1 Complex &gt;gi|588292779|pdb|2MFE|A Chain A, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl2)/rsme(dimer) 2:1 Complex &gt;gi|588292781|pdb|2MFE|C Chain C, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl2)/rsme(dimer) 2:1 Complex &gt;gi|588292783|pdb|2MFF|A Chain A, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl3)/rsme(dimer) 2:1 Complex &gt;gi|588292785|pdb|2MFF|C Chain C, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl3)/rsme(dimer) 2:1 Complex &gt;gi|588292787|pdb|2MFG|A Chain A, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl4)/rsme(dimer) 2:1 Complex &gt;gi|588292789|pdb|2MFG|C Chain C, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(sl4)/rsme(dimer) 2:1 Complex &gt;gi|588292791|pdb|2MFH|A Chain A, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(36- 44)/rsme(dimer) 2:1 Complex &gt;gi|588292793|pdb|2MFH|C Chain C, Csr/rsm Protein-rna Recognition - A Molecular Affinity Ruler: Rsmz(36- 44)/rsme(dimer) 2:1 Complex &gt;gi|636665536|pdb|2MF0|A Chain A, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer L Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665537|pdb|2MF0|B Chain B, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer L Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665538|pdb|2MF0|C Chain C, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer L Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665539|pdb|2MF0|D Chain D, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer L Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665540|pdb|2MF0|E Chain E, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer L Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665541|pdb|2MF0|F Chain F, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer L Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665543|pdb|2MF1|A Chain A, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer R Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665544|pdb|2MF1|B Chain B, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer R Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665545|pdb|2MF1|C Chain C, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer R Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665546|pdb|2MF1|D Chain D, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer R Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665547|pdb|2MF1|E Chain E, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer R Of Rsmz(1-72)/rsme(dimer) 1to3 Complex &gt;gi|636665548|pdb|2MF1|F Chain F, Structural Basis Of The Non-coding Rna Rsmz Acting As Protein Sponge: Conformer R Of Rsmz(1-72)/rsme(dimer) 1to3 Complex</Hit_def>
+  <Hit_accession>2JPP_A</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>7.82869e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>MLILSRKTNQKIFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQ</Hsp_qseq>
+      <Hsp_hseq>MLILTRKVGESINIGDDITITILGVSGQQVRIGINAPKDVAVHREEIYQRIQ</Hsp_hseq>
+      <Hsp_midline>MLIL+RK  + I IGD I +TI+ + G QV++G+ AP+ V + R+E+Y+ IQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|58177051|pdb|1VPZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Putative Carbon Storage Regulator Protein (Csra, Pa0905) From Pseudomonas Aeruginosa At 2.05 A Resolution &gt;gi|58177052|pdb|1VPZ|B Chain B, Crystal Structure Of A Putative Carbon Storage Regulator Protein (Csra, Pa0905) From Pseudomonas Aeruginosa At 2.05 A Resolution</Hit_def>
+  <Hit_accession>1VPZ_A</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>2.30252e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LILSRKTNQKIFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQRE</Hsp_qseq>
+      <Hsp_hseq>LILTRRVGETLXVGDDVTVTVLGVKGNQVRIGVNAPKEVAVHREEIYQRIQKE</Hsp_hseq>
+      <Hsp_midline>LIL+R+  + + +GD + +T++ ++G+QV++GV AP+ V + R+E+Y+ IQ+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|88192455|pdb|2BTI|A</Hit_id>
+  <Hit_def>Chain A, Structure-Function Studies Of The Rmsa Csra Post- Transcriptional Global Regulator Protein Family Reveals A Class Of Rna-Binding Structure &gt;gi|88192456|pdb|2BTI|B Chain B, Structure-Function Studies Of The Rmsa Csra Post- Transcriptional Global Regulator Protein Family Reveals A Class Of Rna-Binding Structure</Hit_def>
+  <Hit_accession>2BTI_A</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.99036e-12</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>56</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LILSRKTNQKIFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQRE</Hsp_qseq>
+      <Hsp_hseq>LILTRRVGETLXIGDEVTVTVLGVKGNQVRIGVNAPKEVSVHREEIYQRIQAE</Hsp_hseq>
+      <Hsp_midline>LIL+R+  + + IGD + +T++ ++G+QV++GV AP+ V + R+E+Y+ IQ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|534286606|pdb|4K59|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Pseudomonas Aeruginosa Rsmf</Hit_def>
+  <Hit_accession>4K59_A</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.00459862</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SIELTIIEIRGDQVKVGVEAPRSVKIFRQEV</Hsp_qseq>
+      <Hsp_hseq>GIRILVTDIIGNQARVGIEAPRGVLIVRDEL</Hsp_hseq>
+      <Hsp_midline> I + + +I G+Q +VG+EAPR V I R E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|538261241|pdb|4KJI|A</Hit_id>
+  <Hit_def>Chain A, Novel Re-arrangement Of An Rsma/csra Family Protein To Create A Structurally Distinct New Rna-binding Family Member &gt;gi|538261242|pdb|4KJI|B Chain B, Novel Re-arrangement Of An Rsma/csra Family Protein To Create A Structurally Distinct New Rna-binding Family Member &gt;gi|538261259|pdb|4KRW|A Chain A, Novel Re-arrangement Of An Rsma/csra Family Protein To Create A Structurally Distinct New Rna-binding Family Member</Hit_def>
+  <Hit_accession>4KJI_A</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.00548312</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SIELTIIEIRGDQVKVGVEAPRSVKIFRQEV</Hsp_qseq>
+      <Hsp_hseq>GIRILVTDIIGNQARVGIEAPRGVLIVRDEL</Hsp_hseq>
+      <Hsp_midline> I + + +I G+Q +VG+EAPR V I R E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|13399575|pdb|1FZ4|A</Hit_id>
+  <Hit_def>Chain A, Methane Monooxygenase Hydroxylase, Form Iii Soaked At Ph 8.5 (0.1 M Tris) &gt;gi|13399576|pdb|1FZ4|B Chain B, Methane Monooxygenase Hydroxylase, Form Iii Soaked At Ph 8.5 (0.1 M Tris) &gt;gi|13399581|pdb|1FZ5|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Crystallized Anaerobically From Reduced Enzyme &gt;gi|13399582|pdb|1FZ5|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Crystallized Anaerobically From Reduced Enzyme &gt;gi|13399587|pdb|1FZ7|A Chain A, Methane Monooxygenase Hydroxylase, Form Iii Soaked In 0.9 M Ethanol &gt;gi|13399588|pdb|1FZ7|B Chain B, Methane Monooxygenase Hydroxylase, Form Iii Soaked In 0.9 M Ethanol &gt;gi|13399720|pdb|1FYZ|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Reduced By Soaking &gt;gi|13399721|pdb|1FYZ|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Reduced By Soaking &gt;gi|13399726|pdb|1FZ0|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Mixed-Valent Grown Anaerobically &gt;gi|13399727|pdb|1FZ0|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Mixed-Valent Grown Anaerobically &gt;gi|13399732|pdb|1FZ1|A Chain A, Methane Monooxygenase Hydroxylase, Form Iii Oxidized &gt;gi|13399733|pdb|1FZ1|B Chain B, Methane Monooxygenase Hydroxylase, Form Iii Oxidized &gt;gi|13399738|pdb|1FZ2|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Mixed-Valent Generated By Crystal Soaking &gt;gi|13399739|pdb|1FZ2|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Mixed-Valent Generated By Crystal Soaking &gt;gi|13399744|pdb|1FZ3|A Chain A, Methane Monooxygenase Hydroxylase, Form Iii Soak At Ph 6.2 (0.1 M Pipes) &gt;gi|13399745|pdb|1FZ3|B Chain B, Methane Monooxygenase Hydroxylase, Form Iii Soak At Ph 6.2 (0.1 M Pipes) &gt;gi|14278255|pdb|1FZ6|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Soaked In 1 M Methanol &gt;gi|14278256|pdb|1FZ6|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Soaked In 1 M Methanol &gt;gi|14278261|pdb|1FZ8|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Cocrystallized With Dibromomethane &gt;gi|14278262|pdb|1FZ8|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Cocrystallized With Dibromomethane &gt;gi|14278267|pdb|1FZ9|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Cocrystallized With Iodoethane &gt;gi|14278268|pdb|1FZ9|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Cocrystallized With Iodoethane &gt;gi|14278273|pdb|1FZH|A Chain A, Methane Monooxygenase Hydroxylase, Form Ii Pressurized With Xenon Gas &gt;gi|14278274|pdb|1FZH|B Chain B, Methane Monooxygenase Hydroxylase, Form Ii Pressurized With Xenon Gas &gt;gi|14278279|pdb|1FZI|A Chain A, Methane Monooxygenase Hydroxylase, Form I Pressurized With Xenon Gas &gt;gi|14278280|pdb|1FZI|B Chain B, Methane Monooxygenase Hydroxylase, Form I Pressurized With Xenon Gas &gt;gi|60594012|pdb|1XMF|A Chain A, Structure Of Mn(Ii)-Soaked Apo Methane Monooxygenase Hydroxylase Crystals From M. Capsulatus (Bath) &gt;gi|60594013|pdb|1XMF|B Chain B, Structure Of Mn(Ii)-Soaked Apo Methane Monooxygenase Hydroxylase Crystals From M. Capsulatus (Bath) &gt;gi|60594018|pdb|1XMG|A Chain A, Crystal Structure Of Apo Methane Monooxygenase Hydroxylase From M. Capsulatus (Bath) &gt;gi|60594019|pdb|1XMG|B Chain B, Crystal Structure Of Apo Methane Monooxygenase Hydroxylase From M. Capsulatus (Bath) &gt;gi|60594024|pdb|1XMH|A Chain A, Structure Of Co(Ii) Reconstituted Methane Monooxygenase Hydroxylase From M. Capsulatus (Bath) &gt;gi|60594025|pdb|1XMH|B Chain B, Structure Of Co(Ii) Reconstituted Methane Monooxygenase Hydroxylase From M. Capsulatus (Bath) &gt;gi|66360569|pdb|1XU5|A Chain A, Soluble Methane Monooxygenase Hydroxylase-phenol Soaked &gt;gi|66360570|pdb|1XU5|B Chain B, Soluble Methane Monooxygenase Hydroxylase-phenol Soaked &gt;gi|66360577|pdb|1XVB|A Chain A, Soluble Methane Monooxygenase Hydroxylase: 6-Bromohexanol Soaked Structure &gt;gi|66360578|pdb|1XVB|B Chain B, Soluble Methane Monooxygenase Hydroxylase: 6-Bromohexanol Soaked Structure &gt;gi|66360583|pdb|1XVC|A Chain A, Soluble Methane Monooxygenase Hydroxylase: 8-Bromooctanol Soaked Structure &gt;gi|66360584|pdb|1XVC|B Chain B, Soluble Methane Monooxygenase Hydroxylase: 8-Bromooctanol Soaked Structure &gt;gi|66360589|pdb|1XVD|A Chain A, Soluble Methane Monooxygenase Hydroxylase: 4-Fluorophenol Soaked Structure &gt;gi|66360590|pdb|1XVD|B Chain B, Soluble Methane Monooxygenase Hydroxylase: 4-Fluorophenol Soaked Structure &gt;gi|66360597|pdb|1XVE|A Chain A, Soluble Methane Monooxygenase Hydroxylase: 3-bromo-3- Butenol Soaked Structure &gt;gi|66360598|pdb|1XVE|B Chain B, Soluble Methane Monooxygenase Hydroxylase: 3-bromo-3- Butenol Soaked Structure &gt;gi|66360603|pdb|1XVF|A Chain A, Soluble Methane Monooxygenase Hydroxylase: Chloropropanol Soaked Structure &gt;gi|66360604|pdb|1XVF|B Chain B, Soluble Methane Monooxygenase Hydroxylase: Chloropropanol Soaked Structure &gt;gi|66360609|pdb|1XVG|A Chain A, Soluble Methane Monooxygenase Hydroxylase: Bromoethanol Soaked Structure &gt;gi|66360610|pdb|1XVG|B Chain B, Soluble Methane Monooxygenase Hydroxylase: Bromoethanol Soaked Structure &gt;gi|67464468|pdb|1XU3|A Chain A, Soluble Methane Monooxygenase Hydroxylase-Soaked With Bromophenol &gt;gi|67464469|pdb|1XU3|B Chain B, Soluble Methane Monooxygenase Hydroxylase-Soaked With Bromophenol</Hit_def>
+  <Hit_accession>1FZ4_A</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>4.43428</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>KVGVEAPRSVKIFRQEVY</Hsp_qseq>
+      <Hsp_hseq>KYGVESPRSLKDAKQDAY</Hsp_hseq>
+      <Hsp_midline>K GVE+PRS+K  +Q+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|448262516|pdb|4GAM|A</Hit_id>
+  <Hit_def>Chain A, Complex Structure Of Methane Monooxygenase Hydroxylase And Regulatory Subunit &gt;gi|448262520|pdb|4GAM|F Chain F, Complex Structure Of Methane Monooxygenase Hydroxylase And Regulatory Subunit &gt;gi|448262524|pdb|4GAM|K Chain K, Complex Structure Of Methane Monooxygenase Hydroxylase And Regulatory Subunit &gt;gi|448262528|pdb|4GAM|P Chain P, Complex Structure Of Methane Monooxygenase Hydroxylase And Regulatory Subunit</Hit_def>
+  <Hit_accession>4GAM_A</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>4.43428</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>323</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>KVGVEAPRSVKIFRQEVY</Hsp_qseq>
+      <Hsp_hseq>KYGVESPRSLKDAKQDAY</Hsp_hseq>
+      <Hsp_midline>K GVE+PRS+K  +Q+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|999647|pdb|1MMO|D</Hit_id>
+  <Hit_def>Chain D, Crystal Structure Of A Bacterial Non-Haem Iron Hydroxylase That Catalyses The Biological Oxidation Of Methane &gt;gi|999648|pdb|1MMO|E Chain E, Crystal Structure Of A Bacterial Non-Haem Iron Hydroxylase That Catalyses The Biological Oxidation Of Methane &gt;gi|2098317|pdb|1MTY|D Chain D, Methane Monooxygenase Hydroxylase From Methylococcus Capsulatus (Bath) &gt;gi|2098318|pdb|1MTY|E Chain E, Methane Monooxygenase Hydroxylase From Methylococcus Capsulatus (Bath)</Hit_def>
+  <Hit_accession>1MMO_D</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.7942</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>4.6946</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>14</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>18</Hsp_align-len>
+      <Hsp_qseq>KVGVEAPRSVKIFRQEVY</Hsp_qseq>
+      <Hsp_hseq>KYGVESPRSLKDAKQDAY</Hsp_hseq>
+      <Hsp_midline>K GVE+PRS+K  +Q+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|3212605|pdb|1SGF|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of 7s Ngf: A Complex Of Nerve Growth Factor With Four Binding Proteins (serine Proteinases) &gt;gi|3212608|pdb|1SGF|Y Chain Y, Crystal Structure Of 7s Ngf: A Complex Of Nerve Growth Factor With Four Binding Proteins (serine Proteinases)</Hit_def>
+  <Hit_accession>1SGF_B</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>5.11554</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>IFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQR</Hsp_qseq>
+      <Hsp_hseq>VWVGD--KTTATDIKGKEVTVLAEVNINNSVFRQYFFETKCR</Hsp_hseq>
+      <Hsp_midline>+++GD  + T  +I+G +V V  E   +  +FRQ  +E   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|404312873|pdb|4EAX|A</Hit_id>
+  <Hit_def>Chain A, Mouse Ngf In Complex With Lyso-Ps &gt;gi|404312874|pdb|4EAX|B Chain B, Mouse Ngf In Complex With Lyso-Ps &gt;gi|404312875|pdb|4EAX|C Chain C, Mouse Ngf In Complex With Lyso-Ps &gt;gi|404312876|pdb|4EAX|D Chain D, Mouse Ngf In Complex With Lyso-Ps &gt;gi|887492665|pdb|4XPJ|A Chain A, Crystal Structure Of Nerve Growth Factor In Complex With Lysophosphatidylinositol &gt;gi|887492666|pdb|4XPJ|B Chain B, Crystal Structure Of Nerve Growth Factor In Complex With Lysophosphatidylinositol</Hit_def>
+  <Hit_accession>4EAX_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>5.52596</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>IFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQR</Hsp_qseq>
+      <Hsp_hseq>VWVGD--KTTATDIKGKEVTVLAEVNINNSVFRQYFFETKCR</Hsp_hseq>
+      <Hsp_midline>+++GD  + T  +I+G +V V  E   +  +FRQ  +E   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|1431725|pdb|1BTG|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Beta Nerve Growth Factor At 2.5 A Resolution In C2 Space Group With Zn Ions Bound &gt;gi|1431726|pdb|1BTG|B Chain B, Crystal Structure Of Beta Nerve Growth Factor At 2.5 A Resolution In C2 Space Group With Zn Ions Bound &gt;gi|1431727|pdb|1BTG|C Chain C, Crystal Structure Of Beta Nerve Growth Factor At 2.5 A Resolution In C2 Space Group With Zn Ions Bound</Hit_def>
+  <Hit_accession>1BTG_A</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>5.60773</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>IFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQR</Hsp_qseq>
+      <Hsp_hseq>VWVGD--KTTATDIKGKEVTVLAEVNINNSVFRQYFFETKCR</Hsp_hseq>
+      <Hsp_midline>+++GD  + T  +I+G +V V  E   +  +FRQ  +E   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|157830263|pdb|1BET|A</Hit_id>
+  <Hit_def>Chain A, New Protein Fold Revealed By A 2.3 Angstrom Resolution Crystal Structure Of Nerve Growth Factor</Hit_def>
+  <Hit_accession>1BET_A</Hit_accession>
+  <Hit_len>107</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>5.75426</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>IFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEEIQR</Hsp_qseq>
+      <Hsp_hseq>VWVGD--KTTATDIKGKEVTVLAEVNINNSVFRQYFFETKCR</Hsp_hseq>
+      <Hsp_midline>+++GD  + T  +I+G +V V  E   +  +FRQ  +E   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|605603734|pdb|4JZ6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Salicylaldehyde Dehydrogenase From Pseudomonas Putida G7 Complexed With Salicylaldehyde</Hit_def>
+  <Hit_accession>4JZ6_A</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.409</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>6.42158</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>428</Hsp_hit-from>
+      <Hsp_hit-to>462</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>18</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>ILSRKTNQKIFIGDSIELTIIEIRGDQVKVGVEAP</Hsp_qseq>
+      <Hsp_hseq>VFGRDINRALRVGMSIEYGCVHINGSTVQNEAQAP</Hsp_hseq>
+      <Hsp_midline>+  R  N+ + +G SIE   + I G  V+   +AP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|159164378|pdb|2EDK|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of The Third Ig-Like Domain From Human Myosin-Binding Protein C, Fast-Type</Hit_def>
+  <Hit_accession>2EDK_A</Hit_accession>
+  <Hit_len>101</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>6.68428</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>MLILSRKTNQKIFIGDSIELTI-IEIRGDQV---KVGVEAPR</Hsp_qseq>
+      <Hsp_hseq>VLIVTPLEDQQVFVGDRVEMAVEVSEEGAQVMWMKNGVELTR</Hsp_hseq>
+      <Hsp_midline>+LI++   +Q++F+GD +E+ + +   G QV   K GVE  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|119388983|pdb|2AYA|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of The C-Terminal 14 Kda Domain Of The Tau Subunit From Escherichia Coli Dna Polymerase Iii</Hit_def>
+  <Hit_accession>2AYA_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>25.0238</Hsp_bit-score>
+      <Hsp_score>53</Hsp_score>
+      <Hsp_evalue>7.08475</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>50</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>IFIGDSIELTIIEIRGDQVKVGVEAPRSVKIFRQEVYEE</Hsp_qseq>
+      <Hsp_hseq>MLKGSTVELTIVEDDNPAVRTPLE-------WRQAIYEE</Hsp_hseq>
+      <Hsp_midline>+  G ++ELTI+E     V+  +E       +RQ +YEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_75151</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611197</BlastOutput_query-def>
+  <BlastOutput_query-len>332</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_75151</Iteration_query-ID>
+  <Iteration_query-def>2611197</Iteration_query-def>
+  <Iteration_query-len>332</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|122920737|pdb|2ISV|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Giardia Fructose-1,6-biphosphate Aldolase In Complex With Phosphoglycolohydroxamate &gt;gi|122920738|pdb|2ISV|B Chain B, Structure Of Giardia Fructose-1,6-biphosphate Aldolase In Complex With Phosphoglycolohydroxamate &gt;gi|122920740|pdb|2ISW|A Chain A, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase In Complex With Phosphoglycolohydroxamate &gt;gi|122920741|pdb|2ISW|B Chain B, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase In Complex With Phosphoglycolohydroxamate &gt;gi|319443635|pdb|3OHI|A Chain A, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase In Complex With 3-Hydroxy-2-Pyridone &gt;gi|319443636|pdb|3OHI|B Chain B, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase In Complex With 3-Hydroxy-2-Pyridone</Hit_def>
+  <Hit_accession>2ISV_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.937</Hsp_bit-score>
+      <Hsp_score>694</Hsp_score>
+      <Hsp_evalue>3.43079e-88</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGRA</Hsp_qseq>
+      <Hsp_hseq>LCTLRQMLGEARKHKYGVGAFNVNNMEQIQGIMKAVVQLKSPVILQCSRGALKYSDMIYLKKLCEAALE-KHP---DIPICIHLDHGDTLESVKMAIDLGFSSVMIDASHHPFDENVRITKEVVAYAHARS--VSVEAELGTLGGIEEDV-QNTVQLTEPQDAKKFVELTGVDALAVAIGTSHGAYKFKSESDIR----------LAIDRVKTISD-LTGIPLVMHGSSSVPKDVKDMINKYGGKMPDAVGVPIESIVHAIGEGVCKINVDSDSRMAMTGAIRKVFVEHPEKFDPRDYLGPGRDAITEMLIPKIK-AFGSAGHA</Hsp_hseq>
+      <Hsp_midline>L   + +  +A K  Y + A+N NN+EQ+Q I++A V+ +SPVILQ S GA KY++   L+ +   A+E  H    DIPI +HLDHGD+LE     I+ GFSSVMID S  P+DENV ++++V  YAHAR+  V+VE ELG L G+E+DV       T P + + FV+ TGVD+LA++IGTSHG  KF  E   R          L  D +  I   + G P+V+HG+SSVP +    + +YGG +PD+VG+P E +  A    VCK+N+DSD R+AMT AIR+V     ++FDPR YLGP RD + ++ + K K   GSAG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|226192705|pdb|3GAK|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase &gt;gi|226192706|pdb|3GAK|B Chain B, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase &gt;gi|226192707|pdb|3GAY|A Chain A, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase In Co Tagatose-1,6-Biphosphate &gt;gi|226192708|pdb|3GAY|B Chain B, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase In Co Tagatose-1,6-Biphosphate</Hit_def>
+  <Hit_accession>3GAK_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>5.45511e-88</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGRA</Hsp_qseq>
+      <Hsp_hseq>LCTLRQMLGEARKHKYGVGAFNVNNMEQIQGIMKAVVQLKSPVILQCSRGALKYSDMIYLKKLCEAALE-KHP---DIPICIHLDHGDTLESVKMAIDLGFSSVMIDASHHPFDENVRITKEVVAYAHARG--VSVEAELGTLGGIEEDV-QNTVQLTEPQDAKKFVELTGVDALAVAIGTSHGAYKFKSESDIR----------LAIDRVKTISD-LTGIPLVMHGSSSVPKDVKDMINKYGGKMPDAVGVPIESIVHAIGEGVCKINVDSDSRMAMTGAIRKVFVEHPEKFDPRDYLGPGRDAITEMLIPKIK-AFGSAGHA</Hsp_hseq>
+      <Hsp_midline>L   + +  +A K  Y + A+N NN+EQ+Q I++A V+ +SPVILQ S GA KY++   L+ +   A+E  H    DIPI +HLDHGD+LE     I+ GFSSVMID S  P+DENV ++++V  YAHAR   V+VE ELG L G+E+DV       T P + + FV+ TGVD+LA++IGTSHG  KF  E   R          L  D +  I   + G P+V+HG+SSVP +    + +YGG +PD+VG+P E +  A    VCK+N+DSD R+AMT AIR+V     ++FDPR YLGP RD + ++ + K K   GSAG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|226192709|pdb|3GB6|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase D83a Complex With Fructose-1,6-Bisphosphate &gt;gi|226192710|pdb|3GB6|B Chain B, Structure Of Giardia Fructose-1,6-Biphosphate Aldolase D83a Complex With Fructose-1,6-Bisphosphate</Hit_def>
+  <Hit_accession>3GB6_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.085</Hsp_bit-score>
+      <Hsp_score>684</Hsp_score>
+      <Hsp_evalue>8.90534e-87</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGRA</Hsp_qseq>
+      <Hsp_hseq>LCTLRQMLGEARKHKYGVGAFNVNNMEQIQGIMKAVVQLKSPVILQCSRGALKYSDMIYLKKLCEAALE-KHP---DIPICIHLAHGDTLESVKMAIDLGFSSVMIDASHHPFDENVRITKEVVAYAHARG--VSVEAELGTLGGIEEDV-QNTVQLTEPQDAKKFVELTGVDALAVAIGTSHGAYKFKSESDIR----------LAIDRVKTISD-LTGIPLVMHGSSSVPKDVKDMINKYGGKMPDAVGVPIESIVHAIGEGVCKINVDSDSRMAMTGAIRKVFVEHPEKFDPRDYLGPGRDAITEMLIPKIK-AFGSAGHA</Hsp_hseq>
+      <Hsp_midline>L   + +  +A K  Y + A+N NN+EQ+Q I++A V+ +SPVILQ S GA KY++   L+ +   A+E  H    DIPI +HL HGD+LE     I+ GFSSVMID S  P+DENV ++++V  YAHAR   V+VE ELG L G+E+DV       T P + + FV+ TGVD+LA++IGTSHG  KF  E   R          L  D +  I   + G P+V+HG+SSVP +    + +YGG +PD+VG+P E +  A    VCK+N+DSD R+AMT AIR+V     ++FDPR YLGP RD + ++ + K K   GSAG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|42543612|pdb|1RV8|A</Hit_id>
+  <Hit_def>Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Cobalt &gt;gi|42543613|pdb|1RV8|B Chain B, Class Ii Fructose-1,6-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Cobalt &gt;gi|42543614|pdb|1RV8|C Chain C, Class Ii Fructose-1,6-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Cobalt &gt;gi|42543615|pdb|1RV8|D Chain D, Class Ii Fructose-1,6-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Cobalt &gt;gi|42543616|pdb|1RVG|A Chain A, Crystal Strcuture Of Class Ii Fructose-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Y &gt;gi|42543617|pdb|1RVG|B Chain B, Crystal Strcuture Of Class Ii Fructose-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Y &gt;gi|42543618|pdb|1RVG|C Chain C, Crystal Strcuture Of Class Ii Fructose-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Y &gt;gi|42543619|pdb|1RVG|D Chain D, Crystal Strcuture Of Class Ii Fructose-Bisphosphate Aldolase From Thermus Aquaticus In Complex With Y</Hit_def>
+  <Hit_accession>1RV8_A</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>2.04777e-71</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSH--YTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGRA</Hsp_qseq>
+      <Hsp_hseq>LVTGLEILKKAREEGYGVGAFNVNNMEFLQAVLEAAEEQRSPVILALSEGAMKYGG----RALTLMAVELAKE--ARVPVAVHLDHGSSYESVLRALRAGFTSVMIDKSHEDFETNVRETRRVVEAAHAVG--VTVEAELGRLAGIEEHVAVDEKDALLTNPEEARIFMERTGADYLAVAIGTSHGAYKGKGRPFIDHAR------------LERIARLVPA-PLVLHGASAVPPELVERFRASGGEIGEAAGIHPEDIKKAISLGIAKINTDTDLRLAFTALIREALNKNPKEFDPRKYLGPAREAVKEV-VKSRMELFGSVGRA</Hsp_hseq>
+      <Hsp_midline>LV   ++  KA + GY + A+N NN+E LQA+++A  E RSPVIL +S GA KY      R +   AVE A E    +P+ +HLDHG S E  +  + +GF+SVMID S   ++ NV  +R+V E AHA    VTVE ELG LAG+E+ V  ++     T P+E   F+++TG D LA++IGTSHG  K        +A             L  I + +P  P+VLHGAS+VP E V      GG + ++ GI  E ++KA    + K+N D+D RLA TA IR  L     EFDPRKYLGPAR+ +K++ +    E+ GS GRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|726969037|pdb|4TO8|A</Hit_id>
+  <Hit_def>Chain A, Methicillin-resistant Staphylococcus Aureus Class Iib Fructose 1,6- Bisphosphate Aldolase &gt;gi|726969038|pdb|4TO8|B Chain B, Methicillin-resistant Staphylococcus Aureus Class Iib Fructose 1,6- Bisphosphate Aldolase</Hit_def>
+  <Hit_accession>4TO8_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>1.58168e-68</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANA--TLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGRA</Hsp_qseq>
+      <Hsp_hseq>LVSMKEMLIDAKENGYAVGQYNINNLEFTQAILEASQEENAPVILGVSEGAARYMSGFYTIVK-MVEGLM---HDLNITIPVAIHLDHGSSFEKCKEAIDAGFTSVMIDASHSPFEENVATTKKVVEYAHEKG--VSVEAELGTVGGQEDDVVADGIIYADPKECQELVEKTGIDALAPALGSVHGPYKGEPK--------------LGFKEMEEIGLST-GLPLVLHGGT---------------------GIPTKDIQKAIPFGTAKINVNTENQIASAKAVRDVLNNDKEVYDPRKYLGPAREAIKETVKGKIKE-FGTSNRA</Hsp_hseq>
+      <Hsp_midline>LV+ K++   A + GYA+  YN NNLE  QAI++A  E  +PVIL VS GA +Y +   T+++ M  G +   H+L + IP+ +HLDHG S E C + I++GF+SVMID S  P++ENVA ++KV EYAH +   V+VE ELG + G EDDVVA+   Y  P E ++ V+KTG+D+LA ++G+ HG  K  P+              L F  + EI     G P+VLHG +                     GIP + ++KA      K+N++++ ++A   A+R VL    + +DPRKYLGPAR+ +K+    K KE  G++ RA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|114793829|pdb|2FJK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Fructose-1,6-Bisphosphate Aldolase In Thermus Caldophilus &gt;gi|114793830|pdb|2FJK|B Chain B, Crystal Structure Of Fructose-1,6-Bisphosphate Aldolase In Thermus Caldophilus &gt;gi|114793831|pdb|2FJK|C Chain C, Crystal Structure Of Fructose-1,6-Bisphosphate Aldolase In Thermus Caldophilus &gt;gi|114793832|pdb|2FJK|D Chain D, Crystal Structure Of Fructose-1,6-Bisphosphate Aldolase In Thermus Caldophilus</Hit_def>
+  <Hit_accession>2FJK_A</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>3.9278e-68</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSH--YTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGRA</Hsp_qseq>
+      <Hsp_hseq>LVTGLEILRKARAEGYGVGAFNTNNXEFTQAILEAAEEXKSPVILALSEGAXKYGG----RALTRXVVALAQE--ARVPVAVHLDHGSSYESVLKALREGFTSVXIDKSHEDFETNVRETKRVVEAAHAVG--VTVEAELGRLAGIEEHVAVDEKDALLTNPEEARIFXERTGADYLAVAIGTSHGAYKGKGR------------PFIDHPRLARIAKLVPA-PLVLHGASAVPQELVERFRAAGGEIGEASGIHPEDIKKAISLGIAKINTDTDLRLAFTALVRETLGKNPKEFDPRKYLGPAREAVKEV-VKSRXELFGSVGRA</Hsp_hseq>
+      <Hsp_midline>LV   ++  KA   GY + A+N NN E  QAI++A  E +SPVIL +S GA KY      R + R  V  A E    +P+ +HLDHG S E  +  +  GF+SV ID S   ++ NV  +++V E AHA    VTVE ELG LAG+E+ V  ++     T P+E   F ++TG D LA++IGTSHG  K                P +    LA I K +P  P+VLHGAS+VP E V      GG + ++ GI  E ++KA    + K+N D+D RLA TA +R  L     EFDPRKYLGPAR+ +K++ +    E+ GS GRA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|197305039|pdb|3C4U|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Class Ii Fructose-Biphosphate Aldolase From Helicobacter Pylori &gt;gi|197305040|pdb|3C4U|B Chain B, Structure Of Class Ii Fructose-Biphosphate Aldolase From Helicobacter Pylori &gt;gi|197305041|pdb|3C52|A Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|197305042|pdb|3C52|B Chain B, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|197305043|pdb|3C56|A Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(3-Hydroxypropyl)- Glycolohydroxamic Acid Bisphosphate, A Competitive Inhibitor &gt;gi|197305044|pdb|3C56|B Chain B, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(3-Hydroxypropyl)- Glycolohydroxamic Acid Bisphosphate, A Competitive Inhibitor &gt;gi|312207915|pdb|3N9R|A Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207916|pdb|3N9R|B Chain B, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207917|pdb|3N9R|K Chain K, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207918|pdb|3N9R|P Chain P, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207919|pdb|3N9R|U Chain U, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207920|pdb|3N9R|Z Chain Z, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207921|pdb|3N9R|EE Chain e, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207922|pdb|3N9R|JJ Chain j, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)-Phosphoglycolohydroxamic Acid, A Competitive Inhibitor &gt;gi|312207923|pdb|3N9S|A Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)- Glycolohydroxamic Acid Bis- Phosphate, A Competitive Inhibitor &gt;gi|312207924|pdb|3N9S|B Chain B, Class Ii Fructose-1,6-Bisphosphate Aldolase From Helicobacter Pylori In Complex With N-(4-Hydroxybutyl)- Glycolohydroxamic Acid Bis- Phosphate, A Competitive Inhibitor</Hit_def>
+  <Hit_accession>3C4U_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>9.47428e-68</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>325</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSHYTM--PDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGR</Hsp_qseq>
+      <Hsp_hseq>LVKGNEILLKAHKEGYGVGAFNFVNFEMLNAIFEAGNEENSPLFIQASEGAIKYMGI----DMAVGMVKIMCERYPHIPVALHLDHGTTFESCEKAVKAGFTSVMIDASHHAFEENLELTSKVVKMAHNAG--VSVEAELGRLMGIEDNISVDEKDAVLVNPKEAEQFVKESQVDYLAPAIGTSHGAFKFKGE------------PKLDFERLQEV-KRLTNIPLVLHGASAIPDNVRKSYLDAGGDLKGSKGVPFEFLQESVKGGINKVNTDTDLRIAFIAEVRKVANEDKSQFDLRKFFSPAQLALKNVVKERMK-LLGSANK</Hsp_hseq>
+      <Hsp_midline>LV   ++  KA K GY + A+NF N E L AI +A  E  SP+ +Q S GA KY       +MA G V+   E    IP+ LHLDHG + E C   +++GF+SVMID S   ++EN+ L+ KV + AH     V+VE ELG L G+ED++  ++    +  P E E FVK++ VD LA +IGTSHG  KF  E            P L F+ L E+ KR+   P+VLHGAS++P    +     GG+L  S G+P E L+++ K  + KVN D+D R+A  A +R+V      +FD RK+  PA+  LK +   + K +LGSA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|320089957|pdb|3Q94|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Fructose 1,6-Bisphosphate Aldolase From Bacillus Anthracis Str. &apos;ames Ancestor&apos; &gt;gi|320089958|pdb|3Q94|B Chain B, The Crystal Structure Of Fructose 1,6-Bisphosphate Aldolase From Bacillus Anthracis Str. &apos;ames Ancestor&apos;</Hit_def>
+  <Hit_accession>3Q94_A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>8.67214e-63</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIE--KRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGRA</Hsp_qseq>
+      <Hsp_hseq>LVSXKEXLNKALEGKYAVGQFNXNNLEWTQAILAAAEEEKSPVILGVSEGAARHX--TGFKTVVAXVKALIEEXNITVPVAIHLDHGSSFEKCKEAIDAGFTSVXIDASHHPFEENVETTKKVVEYAHAR--NVSVEAELGTVGGQEDDVIAEGVIYADPAECKHLVEATGIDCLAPALGSVHGPYKGEPN--------------LGF---AEXEQVRDFTGVPLVLHGGT---------------------GIPTADIEKAISLGTSKINVNTENQIEFTKAVREVLNKDQEVYDPRKFIGPGRDAIKATVIGKIRE-FGSNGKA</Hsp_hseq>
+      <Hsp_midline>LV+ K+   KA++G YA+  +N NNLE  QAI+ A  E +SPVIL VS GA ++   T  + +         E  + +P+ +HLDHG S E C + I++GF+SV ID S  P++ENV  ++KV EYAHAR   V+VE ELG + G EDDV+AE   Y  P E +  V+ TG+D LA ++G+ HG  K  P               L F   AE E  +   G P+VLHG +                     GIP   + KA      K+N++++ ++  T A+R VL    + +DPRK++GP RD +K   + K +E  GS G+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|21730242|pdb|1GVF|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Tagatose-1,6-Bisphosphate Aldolase &gt;gi|21730243|pdb|1GVF|B Chain B, Structure Of Tagatose-1,6-Bisphosphate Aldolase</Hit_def>
+  <Hit_accession>1GVF_A</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>4.25847e-52</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>170</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LGLVNTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELCIDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDD--VVAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRIPGFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYLGPARDELKKLYMHKNKEVLGSAGR</Hsp_qseq>
+      <Hsp_hseq>MSIISTKYLLQDAQANGYAVPAFNIHNAETIQAILEVCSEMRSPVILAGTPGTFKHIALEEIYALCS-----AYSTTYNMPLALHLDHHESLDDIRRKVHAGVRSAMIDGSHFPFAENVKLVKSVVDFCHSQD--CSVEAELGRLGGVEDDMSVDAESAFLTDPQEAKRFVELTGVDSLAVAIGTAHGLYSKTPK--------------IDFQRLAEI-REVVDVPLVLHGASDVPDEFVRRTIELG---------------------VTKVNVATELKIAFAGAVKAWFAENPQGNDPRYYMRVGMDAMKEVVRNK-INVCGSANR</Hsp_hseq>
+      <Hsp_midline>+ +++TK L   A   GYA+PA+N +N E +QAI++ C E RSPVIL  + G  K+     +  +       A+    ++P+ LHLDH +SL+     + +G  S MIDGS  P+ ENV L + V ++ H++    +VE ELG L GVEDD  V AE +  T P E + FV+ TGVDSLA++IGT+HG    TP+              + F  LAEI + +   P+VLHGAS VP E+VR     G                     V KVN+ ++ ++A   A++          DPR Y+    D +K++  +K   V GSA R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|315113776|pdb|3PM6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Putative Fructose-1,6-Biphosphate Aldolase From Coccidioides Immitis Solved By Combined Sad Mr &gt;gi|315113777|pdb|3PM6|B Chain B, Crystal Structure Of A Putative Fructose-1,6-Biphosphate Aldolase From Coccidioides Immitis Solved By Combined Sad Mr</Hit_def>
+  <Hit_accession>3PM6_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>2.05786e-21</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>283</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>60</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAVEYAHELGVDIPIVLHLDHGDSLELC--------IDCIESGFSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVED---DVVAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKRI-PGFPIVLHGAS----------------------SVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKV--NIDSDGR</Hsp_qseq>
+      <Hsp_hseq>LLTFARTHSFAIPAICVYNLEGILAIIRAAEHKRSPAMILLFPWAIQYADSLLVRTAASAC------RAASVPITLHLDHAQDPEIIKRAADLSRSETHEPGFDSIMVDMSHFSKEENLRLTRELVAYCNARG--IATEAEPGRIEGGEDGVQDTVDLEGVLTTPEESEEFV-ATGINWLAPAFGNVHG--NYGPR-------GV----QLDYERLQRINEAVGERVGLVLHGADPFTKEIFEKCIERGVAKVNVNRAVNNEYVKVMREKAGSLP--ITRLHEEVTNAMQAAVEKIMDMIDSTGK</Hsp_hseq>
+      <Hsp_midline>L   A    +AIPA    NLE + AII+A    RSP ++ +   A +YA++ L+R  A             +PI LHLDH    E+          +  E GF S+M+D S    +EN+ L+R++  Y +AR   +  E E G + G ED   D V  +   T P+E E+FV  TG++ LA + G  HG   + P        GV     L ++ L  I + +     +VLHGA                       +V  EYV+ +    G+LP  +    E++  A ++AV K+   IDS G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|349587956|pdb|4A21|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Mycobacterium Tuberculosis Fructose 1,6- Bisphosphate Aldolase Bound To Sulfate &gt;gi|349587957|pdb|4A21|B Chain B, Structure Of Mycobacterium Tuberculosis Fructose 1,6- Bisphosphate Aldolase Bound To Sulfate &gt;gi|349587958|pdb|4A21|C Chain C, Structure Of Mycobacterium Tuberculosis Fructose 1,6- Bisphosphate Aldolase Bound To Sulfate &gt;gi|349587959|pdb|4A21|D Chain D, Structure Of Mycobacterium Tuberculosis Fructose 1,6- Bisphosphate Aldolase Bound To Sulfate &gt;gi|350610903|pdb|4A22|A Chain A, Structure Of Mycobacterium Tuberculosis Fructose 1,6-Bisphosphate Aldolase Bound To N-(4-Hydroxybutyl)-Glycolohydroxamic Acid Bis-Phosphate &gt;gi|350610904|pdb|4A22|B Chain B, Structure Of Mycobacterium Tuberculosis Fructose 1,6-Bisphosphate Aldolase Bound To N-(4-Hydroxybutyl)-Glycolohydroxamic Acid Bis-Phosphate &gt;gi|350610905|pdb|4A22|C Chain C, Structure Of Mycobacterium Tuberculosis Fructose 1,6-Bisphosphate Aldolase Bound To N-(4-Hydroxybutyl)-Glycolohydroxamic Acid Bis-Phosphate &gt;gi|350610906|pdb|4A22|D Chain D, Structure Of Mycobacterium Tuberculosis Fructose 1,6-Bisphosphate Aldolase Bound To N-(4-Hydroxybutyl)-Glycolohydroxamic Acid Bis-Phosphate</Hit_def>
+  <Hit_accession>4A21_A</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>2.27277e-19</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>DLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAV---EYAHELGVDIP--IVLHLDHG-----DS-----LELCIDCIESG----FSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSH--YTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPP--PLRFDILAEIEK------RIPG----FPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDE-------------FDPRKYLGPARDELKK</Hsp_qseq>
+      <Hsp_hseq>EMLGQAKQNSYAFPAINCTSSETVNAAIKGFADAGSDGIIQFSTGGAEFGSGLGVKDMVTGAVALAEFTHVIAAKYPVNVALHTDHCPKDKLDSYVRPLLAISAQRVSKGGNPLFQSHMWDGSAVPIDENLAIAQELLKAAAAAKIILEI--EIGVVGGEEDGVANEINEKLYTSPEDFEKTIEALGAG--------EHG--KYLLAATFGNVHGVYKPGNVKLRPDILAQGQQVAAAKLGLPADAKPFDFVFHGGSGSLKSEIEEALRYG---------------------VVKMNVDTDTQYAFTRPIAGHMFTNYDGVLKVDGEVGVKKVYDPRSYLKKAEASMSQ</Hsp_hseq>
+      <Hsp_midline>++  +A +  YA PA N  + E + A I+   +  S  I+Q S+G  ++ +   +++M  GAV   E+ H +    P  + LH DH      DS     L +    +  G    F S M DGSA+P DEN+A+++++ + A A    + +  E+GV+ G ED V  E +   YT P++ E  ++  G           HG  K+       N  GV  P    LR DILA+ ++       +P     F  V HG S      + E  RYG                     V K+N+D+D + A T  I   + T  D              +DPR YL  A   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|223365866|pdb|3EKL|A</Hit_id>
+  <Hit_def>Chain A, Structural Characterization Of Tetrameric Mycobacterium Tuberculosis Fructose 1,6-Bisphosphate Aldolase - Substrate Binding And Catalysis Mechanism Of A Class Iia Bacterial Aldolase &gt;gi|223365867|pdb|3EKZ|A Chain A, Structural Characterization Of Tetrameric Mycobacterium Tuberculosis Fructose 1,6-Bisphosphate Aldolase - Substrate Binding And Catalysis Mechanism Of A Class Iia Bacterial Aldolase &gt;gi|223365868|pdb|3ELF|A Chain A, Structural Characterization Of Tetrameric Mycobacterium Tuberculosis Fructose 1,6-Bisphosphate Aldolase - Substrate Binding And Catalysis Mechanism Of A Class Iia Bacterial Aldolase &gt;gi|443428088|pdb|4DEF|A Chain A, Active Site Loop Dynamics Of A Class Iia Fructose 1,6-bisphosphate Aldolase From M. Tuberculosis &gt;gi|443428089|pdb|4DEL|A Chain A, Active Site Loop Dynamics Of A Class Iia Fructose 1,6-bisphosphate Aldolase From M. Tuberculosis &gt;gi|572153287|pdb|4LV4|A Chain A, A Noncompetitive Inhibitor For M. Tuberculosis&apos;s Class Iia Fructose 1, 6-bisphosphate Aldolase</Hit_def>
+  <Hit_accession>3EKL_A</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>2.43464e-19</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>DLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKYANATLLRNMARGAV---EYAHELGVDIP--IVLHLDHG-----DS-----LELCIDCIESG----FSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSH--YTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPP--PLRFDILAEIEK------RIPG----FPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDE-------------FDPRKYLGPARDELKK</Hsp_qseq>
+      <Hsp_hseq>EMLGQAKQNSYAFPAINCTSSETVNAAIKGFADAGSDGIIQFSTGGAEFGSGLGVKDMVTGAVALAEFTHVIAAKYPVNVALHTDHCPKDKLDSYVRPLLAISAQRVSKGGNPLFQSHMWDGSAVPIDENLAIAQELLKAAAAAKIILEI--EIGVVGGEEDGVANEINEKLYTSPEDFEKTIEALGAG--------EHG--KYLLAATFGNVHGVYKPGNVKLRPDILAQGQQVAAAKLGLPADAKPFDFVFHGGSGSLKSEIEEALRYG---------------------VVKMNVDTDTQYAFTRPIAGHMFTNYDGVLKVDGEVGVKKVYDPRSYLKKAEASMSQ</Hsp_hseq>
+      <Hsp_midline>++  +A +  YA PA N  + E + A I+   +  S  I+Q S+G  ++ +   +++M  GAV   E+ H +    P  + LH DH      DS     L +    +  G    F S M DGSA+P DEN+A+++++ + A A    + +  E+GV+ G ED V  E +   YT P++ E  ++  G           HG  K+       N  GV  P    LR DILA+ ++       +P     F  V HG S      + E  RYG                     V K+N+D+D + A T  I   + T  D              +DPR YL  A   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|323714681|pdb|3QM3|A</Hit_id>
+  <Hit_def>Chain A, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni &gt;gi|323714682|pdb|3QM3|B Chain B, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni &gt;gi|323714683|pdb|3QM3|C Chain C, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni &gt;gi|323714684|pdb|3QM3|D Chain D, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni &gt;gi|323714685|pdb|3QM3|E Chain E, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni &gt;gi|323714686|pdb|3QM3|F Chain F, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni &gt;gi|323714687|pdb|3QM3|G Chain G, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni &gt;gi|323714688|pdb|3QM3|H Chain H, 1.85 Angstrom Resolution Crystal Structure Of Fructose-Bisphosphate Aldolase (Fba) From Campylobacter Jejuni</Hit_def>
+  <Hit_accession>3QM3_A</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.65339e-13</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>FAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS-GARKYANATLLRNMARGAV---EYAHEL--GVDIPIVLHLDH-GDSLELCIDCI------------ESGFSSVMIDGSALPYDENVALSRKVCEYAHARADY--VTVEGELGVLAGVEDDV----VAEKSHYTMPDEVEDFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPP--PLRFDILAEIEKRIPG-FPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAIRRVLTTKVDEFDPRKYL</Hsp_qseq>
+      <Hsp_hseq>YAKAE--GFAIPAVNVVGTDSINAVLEAAKKVNSPVIIQFSNGGAKFYAGKNCPNGEVLGAISGAKHVHLLAKAYGVPVILHTDHAARKLLPWIDGLIEANAQYKKTHGQALFSSHMLDLSEESLEENLS----TCEVYLQKLDALGVALEIELGCTGGEEDGVDNTGIDNSKLYTQPEDVALAYERLGKISDKFSIAASFG-----------NVHGVYKPGNVSLQPEILKNSQKFVKDKFAL----NSDKPINFV----FHGGS-----GSELKDIKNAVSYGVIKMNIDTDTQWAFWDGVREY------ELKNRAYL</Hsp_hseq>
+      <Hsp_midline>+AKA   G+AIPA N    + + A+++A  +  SPVI+Q S+ GA+ YA          GA+   ++ H L     +P++LH DH    L   ID +            ++ FSS M+D S    +EN++     CE    + D   V +E ELG   G ED V    +     YT P++V    ++ G  S   SI  S G           N  GV  P    L+ +IL   +K +   F +     S  P+ +V     +GG+     G   + ++ A    V K+NID+D + A    +R        E   R YL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2392284|pdb|1DOS|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Fructose-Bisphosphate Aldolase &gt;gi|2392285|pdb|1DOS|B Chain B, Structure Of Fructose-Bisphosphate Aldolase</Hit_def>
+  <Hit_accession>1DOS_A</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.27552e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>NTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKY-ANATLLRNMARGA--------VEYAHELG--VDIPIVLHLDH-GDSLELCID-CIESG-----------FSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSH------YTMPDEVE----DFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKR--IP--GFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAI</Hsp_qseq>
+      <Hsp_hseq>DVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIG--MTLEIELGCTGGEEDGV--DNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHGVYK---------AGNVVLTPTILRDSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYG---------------------VVKMNIDTDTQWATWEGV</Hsp_hseq>
+      <Hsp_midline>+ + +F  A +  +A+PA N    + + A+++   + ++PVI+Q S+G   + A   +  ++ +GA          + H++     +P++LH DH    L   ID  +++G           FSS MID S     EN+ +  K  E        +T+E ELG   G ED V  + SH      YT P++V+    +  K +   ++A S G  HG  K         A  V++ P +  D    + K+  +P      V HG S    + +++   YG                     V K+NID+D + A    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|6980737|pdb|1B57|A</Hit_id>
+  <Hit_def>Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase In Complex With Phosphoglycolohydroxamate &gt;gi|6980738|pdb|1B57|B Chain B, Class Ii Fructose-1,6-Bisphosphate Aldolase In Complex With Phosphoglycolohydroxamate &gt;gi|28948351|pdb|1GYN|A Chain A, Class Ii Fructose 1,6-Bisphosphate Aldolase With Cadmium (Not Zinc) In The Active Site &gt;gi|157834389|pdb|1ZEN|A Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase</Hit_def>
+  <Hit_accession>1B57_A</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>4.91973e-12</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>299</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>NTKDLFAKAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSSGARKY-ANATLLRNMARGA--------VEYAHELG--VDIPIVLHLDH-GDSLELCID-CIESG-----------FSSVMIDGSALPYDENVALSRKVCEYAHARADYVTVEGELGVLAGVEDDVVAEKSH------YTMPDEVE----DFVKKTGVDSLAISIGTSHGRAKFTPEQCTRNADGVLIPPPLRFDILAEIEKR--IP--GFPIVLHGASSVPVEYVREVERYGGNLPDSVGIPEEQLRKAAKSAVCKVNIDSDGRLAMTAAI</Hsp_qseq>
+      <Hsp_hseq>DVQKVFQVAKENNFALPAVNCVGTDSINAVLETAAKVKAPVIVQFSNGGASFIAGKGVKSDVPQGAAILGAISGAHHVHQMAEHYGVPVILHTDHCAKKLLPWIDGLLDAGEKHFAATGKPLFSSHMIDLSEESLQENIEICSKYLERMSKIG--MTLEIELGCTGGEEDGV--DNSHMDASALYTQPEDVDYAYTELSKISPRFTIAASFGNVHG--------VYKPGNVVLTPTILR-DSQEYVSKKHNLPHNSLNFVFHGGSGSTAQEIKDSVSYG---------------------VVKMNIDTDTQWATWEGV</Hsp_hseq>
+      <Hsp_midline>+ + +F  A +  +A+PA N    + + A+++   + ++PVI+Q S+G   + A   +  ++ +GA          + H++     +P++LH DH    L   ID  +++G           FSS MID S     EN+ +  K  E        +T+E ELG   G ED V  + SH      YT P++V+    +  K +   ++A S G  HG          +  + VL P  LR D    + K+  +P      V HG S    + +++   YG                     V K+NID+D + A    +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|927774884|pdb|5DEI|A</Hit_id>
+  <Hit_def>Chain A, Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|927774885|pdb|5DEI|B Chain B, Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|927774886|pdb|5DEI|C Chain C, Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|927774887|pdb|5DEI|D Chain D, Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>5DEI_A</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.122685</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|507043091|pdb|4GM1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant L403s</Hit_def>
+  <Hit_accession>4GM1_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.124497</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|929985276|pdb|5DGT|A</Hit_id>
+  <Hit_def>Chain A, Benzoylformate Decarboxylase H70a Mutant At Ph 8.5 From Pseudomonas Putida</Hit_def>
+  <Hit_accession>5DGT_A</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.124849</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|28948619|pdb|1MCZ|A</Hit_id>
+  <Hit_def>Chain A, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948620|pdb|1MCZ|B Chain B, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948621|pdb|1MCZ|C Chain C, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948622|pdb|1MCZ|D Chain D, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948623|pdb|1MCZ|E Chain E, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948624|pdb|1MCZ|F Chain F, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948625|pdb|1MCZ|G Chain G, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948626|pdb|1MCZ|H Chain H, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948627|pdb|1MCZ|I Chain I, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948628|pdb|1MCZ|J Chain J, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948629|pdb|1MCZ|K Chain K, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948630|pdb|1MCZ|L Chain L, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948631|pdb|1MCZ|M Chain M, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948632|pdb|1MCZ|N Chain N, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948633|pdb|1MCZ|O Chain O, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|28948634|pdb|1MCZ|P Chain P, Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With An Inhibitor, R-Mandelate &gt;gi|157830273|pdb|1BFD|A Chain A, Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|222143254|pdb|3FSJ|X Chain X, Crystal Structure Of Benzoylformate Decarboxylase In Complex With The Inhibitor Mbp</Hit_def>
+  <Hit_accession>1MCZ_A</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.1251</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|122920216|pdb|2FWN|A</Hit_id>
+  <Hit_def>Chain A, Phosphorylation Of An Active Site Serine In A Thdp- Dependent Enzyme By Phosphonate Inactivation</Hit_def>
+  <Hit_accession>2FWN_A</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.1251</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|229597857|pdb|3FZN|A</Hit_id>
+  <Hit_def>Chain A, Intermediate Analogue In Benzoylformate Decarboxylase &gt;gi|229597858|pdb|3FZN|B Chain B, Intermediate Analogue In Benzoylformate Decarboxylase &gt;gi|229597859|pdb|3FZN|C Chain C, Intermediate Analogue In Benzoylformate Decarboxylase &gt;gi|229597860|pdb|3FZN|D Chain D, Intermediate Analogue In Benzoylformate Decarboxylase</Hit_def>
+  <Hit_accession>3FZN_A</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.125469</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|480312347|pdb|4JUD|X</Hit_id>
+  <Hit_def>Chain X, Crystal Structure Of The Ser26thr Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4JUD_X</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.125469</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|675082406|pdb|4MPR|A</Hit_id>
+  <Hit_def>Chain A, Benzoylformate Decarboxylase: Is The Tetramer Vital For Activity?</Hit_def>
+  <Hit_accession>4MPR_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.12559</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|770386245|pdb|4MPJ|A</Hit_id>
+  <Hit_def>Chain A, Phosphorylation Of An Active Site Threonine In The Benzyolformate Decarboxylase Mutant S26t By Phosphonate Inactivation</Hit_def>
+  <Hit_accession>4MPJ_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.12559</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|491668793|pdb|4K9L|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The His281thr Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4K9L_A</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.126385</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|480312343|pdb|4JUC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Ser26met Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|480312344|pdb|4JUC|B Chain B, Crystal Structure Of The Ser26met Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|480312345|pdb|4JUC|C Chain C, Crystal Structure Of The Ser26met Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|480312346|pdb|4JUC|D Chain D, Crystal Structure Of The Ser26met Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4JUC_A</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.12657</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|507043087|pdb|4GG1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant L403t</Hit_def>
+  <Hit_accession>4GG1_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.126692</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|507043093|pdb|4GM4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant L403i</Hit_def>
+  <Hit_accession>4GM4_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.126692</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|507043098|pdb|4GPE|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant L403m</Hit_def>
+  <Hit_accession>4GPE_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.126692</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|217035466|pdb|3F6B|X</Hit_id>
+  <Hit_def>Chain X, Crystal Structure Of Benzoylformate Decarboxylase In Complex With The Pyridyl Inhibitor Paa &gt;gi|217035467|pdb|3F6E|X Chain X, Crystal Structure Of Benzoylformate Decarboxylase In Complex With The Pyridyl Inhibitor 3-Pkb</Hit_def>
+  <Hit_accession>3F6B_X</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.127116</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|122920199|pdb|2FN3|A</Hit_id>
+  <Hit_def>Chain A, High Resolution Structure Of S26a Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With Thiamine Thiazolone Diphosphate</Hit_def>
+  <Hit_accession>2FN3_A</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.127307</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|491668792|pdb|4K9K|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The His281tyr Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4K9K_A</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.127433</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|491668799|pdb|4K9O|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Phe397ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668800|pdb|4K9O|B Chain B, Crystal Structure Of The Phe397ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668801|pdb|4K9O|C Chain C, Crystal Structure Of The Phe397ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668802|pdb|4K9O|D Chain D, Crystal Structure Of The Phe397ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4K9O_A</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.12762</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|675082408|pdb|4MQ5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant A306f</Hit_def>
+  <Hit_accession>4MQ5_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.127805</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|822599367|pdb|4QEL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant H70a</Hit_def>
+  <Hit_accession>4QEL_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.127805</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|166007201|pdb|2V3W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Benzoylformate Decarboxylase Variant L461a From Pseudomonas Putida &gt;gi|166007202|pdb|2V3W|B Chain B, Crystal Structure Of The Benzoylformate Decarboxylase Variant L461a From Pseudomonas Putida &gt;gi|166007203|pdb|2V3W|C Chain C, Crystal Structure Of The Benzoylformate Decarboxylase Variant L461a From Pseudomonas Putida &gt;gi|166007204|pdb|2V3W|D Chain D, Crystal Structure Of The Benzoylformate Decarboxylase Variant L461a From Pseudomonas Putida</Hit_def>
+  <Hit_accession>2V3W_A</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.128425</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|491668794|pdb|4K9M|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The His281asn Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4K9M_A</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.128552</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|491668795|pdb|4K9N|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Ala460ile Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668796|pdb|4K9N|B Chain B, Crystal Structure Of The Ala460ile Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668797|pdb|4K9N|C Chain C, Crystal Structure Of The Ala460ile Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668798|pdb|4K9N|D Chain D, Crystal Structure Of The Ala460ile Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4K9N_A</Hit_accession>
+  <Hit_len>530</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.128552</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|507043237|pdb|4JD5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant L403e</Hit_def>
+  <Hit_accession>4JD5_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.128927</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|88191849|pdb|1YNO|A</Hit_id>
+  <Hit_def>Chain A, High Resolution Structure Of Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With Thiamine Thiazolone Diphosphate</Hit_def>
+  <Hit_accession>1YNO_A</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.129488</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|56965879|pdb|1PI3|A</Hit_id>
+  <Hit_def>Chain A, E28q Mutant Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>1PI3_A</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.129553</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|56965880|pdb|1PO7|A</Hit_id>
+  <Hit_def>Chain A, High Resolution Structure Of E28a Mutant Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|56965890|pdb|1Q6Z|A Chain A, High Resolution Structure Of E28a Mutant Benzoylformate Decarboxylase From Pseudomonas Putida Complexed With Thiamin Thiazolone Diphosphate</Hit_def>
+  <Hit_accession>1PO7_A</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.129553</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|507043089|pdb|4GM0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant L403n</Hit_def>
+  <Hit_accession>4GM0_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.130059</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|927774910|pdb|5DGD|A</Hit_id>
+  <Hit_def>Chain A, Benzoylformate Decarboxylase F464i And A460v Mutant From Pseudomonas Putida</Hit_def>
+  <Hit_accession>5DGD_A</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.13043</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|485602154|pdb|4JUF|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of His281ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|485602155|pdb|4JUF|B Chain B, Crystal Structure Of His281ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|485602156|pdb|4JUF|C Chain C, Crystal Structure Of His281ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|485602157|pdb|4JUF|D Chain D, Crystal Structure Of His281ala Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4JUF_A</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.131011</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>483</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|480312340|pdb|4JU8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The His70phe Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4JU8_A</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.131075</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|480312341|pdb|4JU9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The His70leu Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4JU9_A</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.131075</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|491668708|pdb|4JUB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The His70thr Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668709|pdb|4JUB|B Chain B, Crystal Structure Of The His70thr Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668710|pdb|4JUB|C Chain C, Crystal Structure Of The His70thr Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida &gt;gi|491668711|pdb|4JUB|D Chain D, Crystal Structure Of The His70thr Mutant Of Benzoylformate Decarboxylase From Pseudomonas Putida</Hit_def>
+  <Hit_accession>4JUB_A</Hit_accession>
+  <Hit_len>534</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.131075</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|507043095|pdb|4GP9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant L403f</Hit_def>
+  <Hit_accession>4GP9_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.131201</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|770386246|pdb|4MPP|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Benzoylformate Decarboxylase Mutant H281y/t377p/f397t/a460i</Hit_def>
+  <Hit_accession>4MPP_A</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.131201</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>484</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KAVKGGYAIPAYNFNNLEQLQAIIQACVETRSPVILQVSS</Hsp_qseq>
+      <Hsp_hseq>RALAKGYGVQALKADNLEQLKGSLQEALSAKGPVLIEVST</Hsp_hseq>
+      <Hsp_midline>+A+  GY + A   +NLEQL+  +Q  +  + PV+++VS+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,117 @@
+LOCUS       4MKH_A                   222 aa            linear   BCT 26-MAR-2014
+DEFINITION  Chain A, Crystal Structure Of A Stable Adenylate Kinase Variant
+            Akv18.
+ACCESSION   4MKH_A
+VERSION     4MKH_A  GI:597960176
+DBSOURCE    pdb: molecule 4MKH, chain 65, release Mar 26, 2014;
+            deposition: Sep 5, 2013;
+            class: Transferase;
+            source: Mmdb_id: 118611, Pdb_id 1: 4MKH;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis subsp. subtilis str. 168
+  ORGANISM  Bacillus subtilis subsp. subtilis str. 168
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 222)
+  AUTHORS   Moon,S., Jung,D.K., Phillips GN,Jr. and Bae,E.
+  TITLE     An integrated approach for thermal stabilization of a mesophilic
+            adenylate kinase
+  JOURNAL   Proteins (2014) In press
+   PUBMED   24615904
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 222)
+  AUTHORS   Moon,S. and Bae,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-SEP-2013)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..222
+                     /organism="Bacillus subtilis subsp. subtilis str. 168"
+                     /strain="168"
+                     /db_xref="taxon:224308"
+     Region          join(1..117,165..222)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          3..214
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     Region          4..206
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          4..9
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          15..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          28..33
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(33,38,61,86..87,89..90,94)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          34..43
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(38,86,90,129,173,177)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          46..57
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          64..74
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          81..87
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          92..105
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          110..116
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          118..164
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          119..128
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          129..134
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Het             join(bond(132),bond(135),bond(152),bond(155),bond(155))
+                     /heterogen="( ZN,1000 )"
+     SecStr          137..141
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          150..154
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          155..161
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          167..191
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          193..198
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          203..217
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 mgmnivlmgl pgagkgtlae kivekygiph istgdmfraa mkeetplgle aksyidkgel
+       61 vpdevtigiv rerlsksdce rgflldgfpr tvaqaealee ileemgrpid yviniqvrke
+      121 elmerltgrr icsvcgttyh lvfnppktpg icdkdggely qraddneetv tkrlevnmkq
+      181 mapllafyds kevlvnvnge rdiedvfadv dvillehhhh hh
+//
+

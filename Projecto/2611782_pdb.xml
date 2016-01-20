@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_196083</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611782</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_196083</Iteration_query-ID>
+  <Iteration_query-def>2611782</Iteration_query-def>
+  <Iteration_query-len>225</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|60594282|pdb|1YDM|A</Hit_id>
+  <Hit_def>Chain A, X-ray Structure Of Northeast Structural Genomics Target Sr44 &gt;gi|60594283|pdb|1YDM|B Chain B, X-ray Structure Of Northeast Structural Genomics Target Sr44 &gt;gi|60594284|pdb|1YDM|C Chain C, X-ray Structure Of Northeast Structural Genomics Target Sr44</Hit_def>
+  <Hit_accession>1YDM_A</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>3.10526e-14</Hsp_evalue>
+      <Hsp_query-from>139</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>LIVVPALAFSTNGARLGRGGGHYDRFLARIAATIPAGSYYTLGLCFDCQIMAVIPQEAHDQSVHAVLTETRLISC</Hsp_qseq>
+      <Hsp_hseq>LXIVPGVCFDVNGFRVGFGGGYYDRYLSEYEGK-------TVSLLLECQLFAHVPRLPHDIPVHKLITEDRIISC</Hsp_hseq>
+      <Hsp_midline>L +VP + F  NG R+G GGG+YDR+L+            T+ L  +CQ+ A +P+  HD  VH ++TE R+ISC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|50513600|pdb|1SOU|A</Hit_id>
+  <Hit_def>Chain A, Nmr Structure Of Aquifex Aeolicus 5,10- Methenyltetrahydrofolate Synthetase: Northeast Structural Genomics Consortium Target Qr46</Hit_def>
+  <Hit_accession>1SOU_A</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>8.46539e-12</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>AYQRARTVFFYAPLPLEIDPYALAYTAENAGKHVALPRVSGNDLHFHAV-TYACTTRPSVSCFTTLCPRTRGIREPDAHSPRLYPPHPSPNTPAQRTLALPLLIVVPALAFSTNGARLGRGGGHYDRFLARIAATIPAGSYYTLGLCFDCQIMAVIPQEAHDQSVHAVLTETRLISCATARA</Hsp_qseq>
+      <Hsp_hseq>EFKKSKKVALYCPIKGEVDLTPL-FPEVLKEKELILPKVEGNEISLYRVHSPACL---GVGAF--------GIMEP-VEGERVNPEDVD-------------FIAVPGVAFDLEGYRLGFGKGYYDRLLKRVKGL-------KVGVAYSFQVFERLPRDAWDIPVDVLVTEKNVRRLRDGRS</Hsp_hseq>
+      <Hsp_midline> +++++ V  Y P+  E+D   L +      K + LP+V GN++  + V + AC     V  F        GI EP     R+ P                  I VP +AF   G RLG G G+YDR L R+           +G+ +  Q+   +P++A D  V  ++TE  +      R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|254221105|pdb|3HXT|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Human Mthfs &gt;gi|254221106|pdb|3HY3|A Chain A, Structure Of Human Mthfs With 10-Formyltetrahydrofolate &gt;gi|254221107|pdb|3HY4|A Chain A, Structure Of Human Mthfs With N5-Iminium Phosphate &gt;gi|254221108|pdb|3HY6|A Chain A, Structure Of Human Mthfs With Adp</Hit_def>
+  <Hit_accession>3HXT_A</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>9.15519e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>NAKQNARRIASARLRAFRASPTAPAYPAHSL-FTAQTAYQRARTVFFYAPLPLEIDPYALAYTAENAGKHVALPRVSGNDLHFHAVTYACTTRPSVSCFTTLCPRTRGIREPDAHSPRLYPPHPSPNTPAQRTLALPL----LIVVPALAFSTNGARLGRGGGHYDRFLARIAATIPAGSYYTLGLCFDCQIMAVIPQEAHDQSVHAVLTE</Hsp_qseq>
+      <Hsp_hseq>SAKRSLRGELKQRLRAMSAEERLRQSRVLSQKVIAHSEYQKSKRISIFLSMQDEIETEEIIKDIFQRGKICFIPRYRFQSNHMDMVRIESPEEIS------LLPKTSW-------------NIPQPGEGDVREEALSTGGLDLIFMPGLGFDKHGNRLGRGKGYYDAYLKRCLQHQEVKP-YTLALAFKEQICLQVPVNENDMKVDEVLYE</Hsp_hseq>
+      <Hsp_midline>+AK++ R     RLRA  A          S    A + YQ+++ +  +  +  EI+   +       GK   +PR      H   V        S      L P+T                 P P     R  AL      LI +P L F  +G RLGRG G+YD +L R          YTL L F  QI   +P   +D  V  VL E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|58177181|pdb|1WKC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A 5-Formyltetrahydrofolate Cycloligase-Related Protein From Thermus Thermophilus Hb8</Hit_def>
+  <Hit_accession>1WKC_A</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.75731e-09</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>RTVFFYAPLPLEID--PYALAYTAENAGKHVALPRVSGNDLHFHAVTYACTTRPSVSCFTTLCPRTRGIREPDAHSPRLYPPHPSPNTPAQRTLALPLLIVVPALAFSTNGARLGRGGGHYDRFLARIAATIPAGSYYTLGLCFDCQIMAVIPQEAHDQSVHAVLTETRLISCATARAPAP</Hsp_qseq>
+      <Hsp_hseq>RHILLYHPLPHELNLLPLXEAYPAR-----YYLPKVAGKGLTVHP-------------FGPLAPGPFGLLEP--------------TTPPEDPRVLDL-VVVPGLAFDREGYRLGHGQGFYDRFLKEVRAA-------TVGVVPQALLFPALPRDPWDVPVDHLATEA---GVEAVKRPAP</Hsp_hseq>
+      <Hsp_midline>R +  Y PLP E++  P   AY A        LP+V+G  L  H              F  L P   G+ EP               TP +    L L +VVP LAF   G RLG G G YDRFL  + A        T+G+     +   +P++  D  V  + TE         + PAP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|134104769|pdb|2JCB|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of 5-formyl-tetrahydrofolate Cycloligase From Bacillus Anthracis (ba4489) &gt;gi|134104770|pdb|2JCB|B Chain B, The Crystal Structure Of 5-formyl-tetrahydrofolate Cycloligase From Bacillus Anthracis (ba4489)</Hit_def>
+  <Hit_accession>2JCB_A</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.86397e-05</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>SLFTAQTAYQRARTVFFYAPLPLEIDPYALAYTAENAGKHVALPRVSGNDLHFHAVTYACTTRPSVSCFTTLCPRTRGIREPDAHSPRLYPPHPSPNTPAQRTLALPLLIVVPALAFSTNGARLGRGGGHYDRFLARIAATIPAGSYYTLGLCFDCQIMAVIPQEAHDQSVHAVLTE</Hsp_qseq>
+      <Hsp_hseq>SLY-EQKEWAEAKTIGITLSMENEVNTYPIIEKAWKEGKRVVVPKCNKE-------TRTMSFR-QISNFDQLETVYMNLREP---IPALTEEVNADEIDLQ---------IVPGVAYTERGERIGYGGGYYDRYLVHYKGK-------TLSLAYSFQMVEHIPVEPFDKNVEKIITE</Hsp_hseq>
+      <Hsp_midline>SL+  Q  +  A+T+     +  E++ Y +   A   GK V +P+ +         T   + R  +S F  L      +REP    P L     +     Q         +VP +A++  G R+G GGG+YDR+L             TL L +  Q++  IP E  D++V  ++TE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|52695451|pdb|1SBQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Methenyltetrahydrofolate Synthetase From Mycoplasma Pneumoniae At 2.2 Resolution &gt;gi|52695452|pdb|1SBQ|B Chain B, Crystal Structure Of Methenyltetrahydrofolate Synthetase From Mycoplasma Pneumoniae At 2.2 Resolution &gt;gi|58176878|pdb|1U3F|A Chain A, Structural And Functional Characterization Of A 5,10- Methenyltetrahydrofolate Synthetase From Mycoplasma Pneumoniae (Gi: 13508087) &gt;gi|58176879|pdb|1U3F|B Chain B, Structural And Functional Characterization Of A 5,10- Methenyltetrahydrofolate Synthetase From Mycoplasma Pneumoniae (Gi: 13508087) &gt;gi|58176880|pdb|1U3G|A Chain A, Structural And Functional Characterization Of A 5,10- Methenyltetrahydrofolate Synthetase From Mycoplasma Pneumoniae (gi: 13508087)</Hit_def>
+  <Hit_accession>1SBQ_A</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0127607</Hsp_evalue>
+      <Hsp_query-from>141</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VVPALAFSTNGARLGRGGGHYDRFLAR---------IAATIPAGSYYTLGLCFDCQIMAVIPQE</Hsp_qseq>
+      <Hsp_hseq>LIPLVGFNKDNYRLGFGKGYYDRYLMQLTRQQPKIGIAYSFQKGDF--LADPWDVQLDLIINDE</Hsp_hseq>
+      <Hsp_midline>++P + F+ +  RLG G G+YDR+L +         IA +   G +  L   +D Q+  +I  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|584579660|pdb|4CBV|A</Hit_id>
+  <Hit_def>Chain A, X-ray Structure Of Full-length Come From Streptococcus Pneumoniae. &gt;gi|584579661|pdb|4CBV|B Chain B, X-ray Structure Of Full-length Come From Streptococcus Pneumoniae. &gt;gi|584579662|pdb|4CBV|C Chain C, X-ray Structure Of Full-length Come From Streptococcus Pneumoniae. &gt;gi|584579663|pdb|4CBV|D Chain D, X-ray Structure Of Full-length Come From Streptococcus Pneumoniae. &gt;gi|584579664|pdb|4CBV|E Chain E, X-ray Structure Of Full-length Come From Streptococcus Pneumoniae. &gt;gi|584579665|pdb|4CBV|F Chain F, X-ray Structure Of Full-length Come From Streptococcus Pneumoniae.</Hit_def>
+  <Hit_accession>4CBV_A</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>1.89553</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>SGNDLH--FHAVTYACTTRPSVSCFTTLCPRT---------RGIREPDAHSPRLYPPHPS</Hsp_qseq>
+      <Hsp_hseq>KGNDLKIPYHDILYIETT--GVSHKLRIIGKNFAKEFYGTXTDIQEKDKHTQRFYSPHKS</Hsp_hseq>
+      <Hsp_midline> GNDL   +H + Y  TT   VS    +  +            I+E D H+ R Y PH S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

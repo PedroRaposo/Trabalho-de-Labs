@@ -1,0 +1,114 @@
+LOCUS       2EU8_A                   216 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of A Thermostable Mutant Of Bacillus
+            Subtilis Adenylate Kinase (Q199r).
+ACCESSION   2EU8_A
+VERSION     2EU8_A  GI:110591304
+DBSOURCE    pdb: molecule 2EU8, chain 65, release Sep 4, 2012;
+            deposition: Oct 28, 2005;
+            class: Transferase;
+            source: Mmdb_id: 39821, Pdb_id 1: 2EU8;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 216)
+  AUTHORS   Counago,R., Chen,S. and Shamoo,Y.
+  TITLE     In vivo molecular evolution reveals biophysical origins of
+            organismal fitness
+  JOURNAL   Mol. Cell 22 (4), 441-449 (2006)
+   PUBMED   16713575
+REFERENCE   2  (residues 1 to 216)
+  AUTHORS   Chen,S. and Shamoo,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2005)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..216
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     Region          join(1..117,163..216)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..215
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     SecStr          1..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..204
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          13..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..31
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(31,36,59,84..85,87..88,92)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          32..41
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(36,84,88,127,171,175)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          44..55
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          62..72
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          80..85
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          90..103
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          108..114
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          118..162
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          120..127
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          128..132
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Het             join(bond(130),bond(133),bond(150),bond(153),bond(153))
+                     /heterogen="( ZN,1000 )"
+     SecStr          135..139
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          155..159
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          165..189
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Het             bond(190)
+                     /heterogen="( CA,1005 )"
+     SecStr          191..196
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          201..211
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 mnlvlmglpg agkgtqgeri vedygiphis tgdmfraamk eetplgleak syidkgelvp
+       61 devtigivke rlgkddcerg flldgfprtv aqaealeeil eeygkpidyv inievdkdvl
+      121 merltgrric svcgttyhlv fnppktpgic dkdggelyqr addneetvsk rlevnmkqtq
+      181 plldfysekg ylanvngqrd iqdvyadvkd llgglk
+//
+

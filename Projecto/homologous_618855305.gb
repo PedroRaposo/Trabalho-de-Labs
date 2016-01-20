@@ -1,0 +1,112 @@
+LOCUS       4PZL_A                   242 aa            linear   BCT 23-APR-2014
+DEFINITION  Chain A, The Crystal Structure Of Adenylate Kinase From Francisella
+            Tularensis Subsp. Tularensis Schu S4.
+ACCESSION   4PZL_A
+VERSION     4PZL_A  GI:618855305
+DBSOURCE    pdb: molecule 4PZL, chain 65, release Apr 23, 2014;
+            deposition: Mar 31, 2014;
+            class: Transferase;
+            source: Mmdb_id: 119283, Pdb_id 1: 4PZL;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Francisella tularensis subsp. tularensis SCHU S4
+  ORGANISM  Francisella tularensis subsp. tularensis SCHU S4
+            Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+            Francisellaceae; Francisella.
+REFERENCE   1  (residues 1 to 242)
+  AUTHORS   Tan,K., Zhou,M., Kwon,K., Anderson,W.F. and Joachimiak,A.
+  TITLE     The Crystal Structure Of Adenylate Kinase From Fran Tularensis
+            Subsp. Tularensis Schu S4
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 242)
+  AUTHORS   Tan,K., Zhou,M., Kwon,K., Anderson,W.F., Joachimiak,A., Center For
+            Str and Genomics Of Infectious Diseases (Csgid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAR-2014)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..242
+                     /organism="Francisella tularensis subsp. tularensis SCHU
+                     S4"
+                     /db_xref="taxon:177416"
+     Region          join(1..135,213..242)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          24..31
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          26..242
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     Region          26..231
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          38..48
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             bond(49)
+                     /heterogen="( CA,1000 )"
+     SecStr          50..55
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(55,60,83,108..109,111..112,116)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          56..64
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(60,108,112,147,191,195)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          68..79
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          85..96
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          103..109
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          114..123
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          128..134
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          136..212
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          137..145
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          146..152
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          153..159
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          185..208
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          217..223
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          228..239
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 xhhhhhhssg vdlgtenlyf qsnaxriill gapgagkgtq akiieqkyni ahistgdxir
+       61 etiksgsalg qelkkvldag elvsdefiik ivkdrisknd cnngflldgv prtipqaqel
+      121 dklgvnidyi vevdvadnll ieritgrrih pasgrtyhtk fnppkvadkd dvtgeplitr
+      181 tddnedtvkq rlsvyhaqta klidfyrnfs stntkipkyi kingdqavek vsqdifdqln
+      241 kr
+//
+

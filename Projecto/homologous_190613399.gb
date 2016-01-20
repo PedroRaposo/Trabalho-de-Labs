@@ -1,0 +1,75 @@
+LOCUS       2RLZ_A                    85 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Solid-State Mas Nmr Structure Of The Dimer Crh.
+ACCESSION   2RLZ_A
+VERSION     2RLZ_A  GI:190613399
+DBSOURCE    pdb: molecule 2RLZ, chain 65, release Jun 18, 2009;
+            deposition: Sep 4, 2007;
+            class: Transport Protein;
+            source: Mmdb_id: 64943, Pdb_id 1: 2RLZ;
+            Exp. method: Solid-State Nmr.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 85)
+  AUTHORS   Loquet,A., Bardiaux,B., Gardiennet,C., Blanchet,C., Baldus,M.,
+            Nilges,M., Malliavin,T. and Bockmann,A.
+  TITLE     3D structure determination of the Crh protein from highly ambiguous
+            solid-state NMR restraints
+  JOURNAL   J. Am. Chem. Soc. 130 (11), 3579-3589 (2008)
+   PUBMED   18284240
+REFERENCE   2  (residues 1 to 85)
+  AUTHORS   Loquet,A., Bardiaux,B., Gardiennet,C., Blanchet,C., Baldus,M.,
+            Nilges,M., Malliavin,T. and Bockmann,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2007)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..85
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          18..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          39..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          61..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          75..83
+                     /sec_str_type="helix"
+                     /note="helix 2"
+ORIGIN      
+        1 mvqqkvevrl ktglqarpaa lfvqeanrft sdvflekdgk kvnaksimgl mslavstgte
+       61 vtliaqgede qealeklaay vqeev
+//
+

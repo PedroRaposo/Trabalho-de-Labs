@@ -1,0 +1,76 @@
+LOCUS       1ZVV_W                    85 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain W, Crystal Structure Of A Ccpa-Crh-Dna Complex.
+ACCESSION   1ZVV_W
+VERSION     1ZVV_W  GI:90108654
+DBSOURCE    pdb: molecule 1ZVV, chain 87, release Aug 22, 2012;
+            deposition: Jun 2, 2005;
+            class: TranscriptionDNA;
+            source: Mmdb_id: 102284, Pdb_id 1: 1ZVV;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 85)
+  AUTHORS   Schumacher,M.A., Seidel,G., Hillen,W. and Brennan,R.G.
+  TITLE     Phosphoprotein Crh-Ser46-P displays altered binding to CcpA to
+            effect carbon catabolite regulation
+  JOURNAL   J. Biol. Chem. 281 (10), 6793-6800 (2006)
+   PUBMED   16316990
+REFERENCE   2  (residues 1 to 85)
+  AUTHORS   Schumacher,M.A., Brennan,R.G., Hillen,W. and Seidel,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-JUN-2005)
+COMMENT     3 Hpr-like Protein Crh.
+FEATURES             Location/Qualifiers
+     source          1..85
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     SecStr          1..8
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          18..27
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          59..67
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          70..82
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 mvqqkvevrl ktglqarpaa lfvqeanrft sdiflekdgk kvnakximgl mslaistgte
+       61 itliaqgede qealeklaay vqeev
+//
+

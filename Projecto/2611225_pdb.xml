@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_136779</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611225</BlastOutput_query-def>
+  <BlastOutput_query-len>254</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_136779</Iteration_query-ID>
+  <Iteration_query-def>2611225</Iteration_query-def>
+  <Iteration_query-len>254</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|21730740|pdb|1LK5|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The D-Ribose-5-Phosphate Isomerase From Pyrococcus Horikoshii &gt;gi|21730741|pdb|1LK5|B Chain B, Structure Of The D-Ribose-5-Phosphate Isomerase From Pyrococcus Horikoshii &gt;gi|21730742|pdb|1LK5|C Chain C, Structure Of The D-Ribose-5-Phosphate Isomerase From Pyrococcus Horikoshii &gt;gi|21730743|pdb|1LK5|D Chain D, Structure Of The D-Ribose-5-Phosphate Isomerase From Pyrococcus Horikoshii &gt;gi|21730744|pdb|1LK7|A Chain A, Structure Of D-Ribose-5-Phosphate Isomerase From In Complex With Phospho-Erythronic Acid &gt;gi|21730745|pdb|1LK7|B Chain B, Structure Of D-Ribose-5-Phosphate Isomerase From In Complex With Phospho-Erythronic Acid &gt;gi|21730746|pdb|1LK7|C Chain C, Structure Of D-Ribose-5-Phosphate Isomerase From In Complex With Phospho-Erythronic Acid &gt;gi|21730747|pdb|1LK7|D Chain D, Structure Of D-Ribose-5-Phosphate Isomerase From In Complex With Phospho-Erythronic Acid</Hit_def>
+  <Hit_accession>1LK5_A</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>7.99959e-52</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>LHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADG</Hsp_qseq>
+      <Hsp_hseq>IEDDMVIGLGTGSTTAYFIKLLGEKLKRGEISDIVGVPTSYQAKLLAIEHDIPIASLDQV---DAIDVAVDGADEVDPNLNLIKGRGAALTMEKIIEYRAGTFIVLVDERKLVDYLCQKMPVPIEVIPQAWKAIIEELSIFNAKAELRMGVNKDGPVITDNGNFIIDAKFPRI--DDPLDMEIELNTIPGVIENGIFADIADIVIVGTREG</Hsp_hseq>
+      <Hsp_midline>+   M IGLGTGST    +K + + L RG +SDI  VPTS+Q  L+   ++IP+ SL        +DV +DGADE+D    +IKG GAAL  EKI  Y +  F+++VDE K+V+ L  +  +PIEV+P+A  +++  L  +     +R  V K GPV+TD+GNFI+DA++  +    P DME  LN +PGVIENG+F +    V V   +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|260656416|pdb|3IXQ|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Ribose 5-Phosphate Isomerase A From Methanocaldococcus Jannaschii &gt;gi|260656417|pdb|3IXQ|B Chain B, Structure Of Ribose 5-Phosphate Isomerase A From Methanocaldococcus Jannaschii &gt;gi|260656418|pdb|3IXQ|C Chain C, Structure Of Ribose 5-Phosphate Isomerase A From Methanocaldococcus Jannaschii &gt;gi|260656419|pdb|3IXQ|D Chain D, Structure Of Ribose 5-Phosphate Isomerase A From Methanocaldococcus Jannaschii</Hit_def>
+  <Hit_accession>3IXQ_A</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>3.80979e-47</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>KLLVAQRSVDTLVQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEID-TQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADG</Hsp_qseq>
+      <Hsp_hseq>KLKVAKEAV-KLVKDG-----MVIGLGTGSTAALFIRELGNRIREEELT-VFGIPTSFEAKMLAMQYEIPLVTLDEYDV----DIAFDGADEVEETTLFLIKGGGGCHTQEKIVDYNANEFVVLVDESKLVKKLGEKFPIPVEVIPSAYRVVIRALSEMGGEAVIRLGDRKRGPVITDNGNMIIDV---FMNIDDAIELEKEINNIPGVVENGIFT-KVDKVLVGTKKG</Hsp_hseq>
+      <Hsp_midline>KL VA+ +V  LV++G     M IGLGTGSTA   ++ + + +    L+ +  +PTSF+  ++  +Y IPL +L    +    D+  DGADE++ T  F+IKGGG    QEKI  YN+  FV++VDE+K+V+ LG +  +P+EV+P A   V+R L + G    IR   RK+GPV+TD+GN I+D     +      ++E+ +N +PGV+ENG+FT +  +V V    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|238538032|pdb|3HHE|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribose-5-Phosphate Isomerase A From Bartonella Henselae &gt;gi|238538033|pdb|3HHE|B Chain B, Crystal Structure Of Ribose-5-Phosphate Isomerase A From Bartonella Henselae</Hit_def>
+  <Hit_accession>3HHE_A</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.23048e-35</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVP----EARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADGSVE</Hsp_qseq>
+      <Hsp_hseq>MRLGIGSGSTVNEFIPLLGERVANGL--RVTCVATSQYSEQLCHKFGVPISTLEKIP---ELDLDIDGADEIGPEMTLIKGGGGALLHEKIVASASRAMFVIADETKMVKTLGAF-ALPIEVNPFGIHATRIAIEKAADNLGLSGEITLRMNGDDPFKTDGGHFIFDAFWGRI--LQPKLLSEALLAIPGVVEHGLFLGLASRAIVAMADSQIK</Hsp_hseq>
+      <Hsp_midline>M +G+G+GST    +  + + +A G    +  V TS  +  +C ++ +P+ +L       +LD+ IDGADEI  +  +IKGGG ALL EKI A  S    +I DETK+V+TLG   ALPIEV P      R+++ +   + GLS  I   +    P  TD G+FI DA W  +    P+ +  AL A+PGV+E+GLF     R  VA AD  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|51247842|pdb|1UJ5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thermus Thermophilus Ribose-5-Phosphate Isomerase Complexed With Ribose-5-Phosphate</Hit_def>
+  <Hit_accession>1UJ5_A</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>8.71653e-34</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADGSVEE</Hsp_qseq>
+      <Hsp_hseq>VQDG-----MVVGLGTGSTARYAVLELARRLREGELKGVVGVPTSRATEELAKREGIPLVDLPPEGV----DLAIDGADEIAPGLALIKGMGGALLREKIVERVAKEFIVIADHTKKVPVLG-RGPVPVEIVPFGYRATLKAIADLGGEPELR--MDGDEFYFTDGGHLIADCRFG--PIGDPLGLHRALLEIPGVVETGLFVGMATRALVAGPFG-VEE</Hsp_hseq>
+      <Hsp_midline>VQ+G     M +GLGTGSTA  AV  +A  L  G L  +  VPTS  T  + +R  IPL  L  + +    D+ IDGADEI     +IKG G ALL+EKI    +  F++I D TK V  LG R  +P+E+VP    + ++ + D G    +R  +       TD G+ I D R+   P   P  + RAL  +PGV+E GLF     R  VA   G VEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|51247841|pdb|1UJ4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thermus Thermophilus Ribose-5-phosphate Isomerase &gt;gi|51247843|pdb|1UJ6|A Chain A, Crystal Structure Of Thermus Thermophilus Ribose-5-Phosphate Isomerase Complexed With Arabinose-5-Phosphate</Hit_def>
+  <Hit_accession>1UJ4_A</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>2.00456e-33</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>IGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADGSVEE</Hsp_qseq>
+      <Hsp_hseq>VGLGTGSTARYAVLELARRLREGELKGVVGVPTSRATEELAKREGIPLVDLPPEGV----DLAIDGADEIAPGLALIKGXGGALLREKIVERVAKEFIVIADHTKKVPVLG-RGPVPVEIVPFGYRATLKAIADLGGEPELRXDGDEF--YFTDGGHLIADCRFG--PIGDPLGLHRALLEIPGVVETGLFVGXATRALVAGPFG-VEE</Hsp_hseq>
+      <Hsp_midline>+GLGTGSTA  AV  +A  L  G L  +  VPTS  T  + +R  IPL  L  + +    D+ IDGADEI     +IKG G ALL+EKI    +  F++I D TK V  LG R  +P+E+VP    + ++ + D G    +R    +     TD G+ I D R+   P   P  + RAL  +PGV+E GLF     R  VA   G VEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|85544643|pdb|2F8M|A</Hit_id>
+  <Hit_def>Chain A, Ribose 5-Phosphate Isomerase From Plasmodium Falciparum &gt;gi|85544644|pdb|2F8M|B Chain B, Ribose 5-Phosphate Isomerase From Plasmodium Falciparum</Hit_def>
+  <Hit_accession>2F8M_A</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>4.69771e-33</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>KLLVAQRSVDTLVQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVET-LGTRAALPIEVVPEARMSVMRTLQDW----GLSVHIREAVRKKGPV-VTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADGSV</Hsp_qseq>
+      <Hsp_hseq>KKIVAYKAVDEYVQ-----SNMTIGLGTGSTVFYVLERIDNLLKSGKLKDVVCIPTSIDTELKARKLGIPLTTLEKH---SNIDITIDGTDEIDLNLNLIKGRGGALVREKLVASSSSLLIIIGDESKLCTNGLGMTGAVPIEILTFGYEKIIENLLKIYTLKGCTYKIR---KRNGEIFITDNKNYIVDFFFTE-PIQDLLETCTRIKMTTGVVDHGIFVNMTNVALISKHDGTV</Hsp_hseq>
+      <Hsp_midline>K +VA ++VD  VQ     ++M+IGLGTGST    ++RI + L  G L D+  +PTS  T L   +  IPL +L        +D+TIDG DEID    +IKG G AL++EK+ A +S+  +II DE+K+    LG   A+PIE++      ++  L       G +  IR   ++ G + +TD+ N+I+D  +   P +   +    +    GV+++G+F   T    ++  DG+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75765507|pdb|1XTZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The S. Cerevisiae D-Ribose-5-Phosphate Isomerase: Comparison With The Archeal And Bacterial Enzymes</Hit_def>
+  <Hit_accession>1XTZ_A</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>7.94767e-33</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>KLLVAQRSVDTLVQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAA----VPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDE-TKVVETLGT--RAALPIEVVPEARMSVMRTL--QDWGLSVHIRE-AVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADGSVE</Hsp_qseq>
+      <Hsp_hseq>KRAAAYRAVDENLK---FDDHKIIGIGSGSTVVYVAERIGQYLHDPKFYEVASKFICIPTGFQSRNLILDNKLQLGSIEQYP---RIDIAFDGADEVDENLQLIKGGGACLFQEKLVSTSAKTFIVVADSRKKSPKHLGKNWRQGVPIEIVPSSYVRVKNDLLEQLHAEKVDIRQGGSAKAGPVVTDNNNFIIDADFGEI--SDPRKLHREIKLLVGVVETGLFIDNASKAYFGNSDGSVE</Hsp_hseq>
+      <Hsp_midline>K   A R+VD  ++      H  IG+G+GST +   +RI  +L      ++A+    +PT FQ+  +     + L S+       ++D+  DGADE+D    +IKGGGA L QEK+ + ++  F+++ D   K  + LG   R  +PIE+VP + + V   L  Q     V IR+    K GPVVTD+ NFI+DA +  +    P+ + R +  L GV+E GLF +   + +  ++DGSVE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|563321000|pdb|4NML|A</Hit_id>
+  <Hit_def>Chain A, 2.60 Angstrom Resolution Crystal Structure Of Putative Ribose 5- Phosphate Isomerase From Toxoplasma Gondii Me49 In Complex With Dl- Malic Acid</Hit_def>
+  <Hit_accession>4NML_A</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>4.63544e-32</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>KLLVAQRSVDTLVQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNF-VIKGGGAALLQEKIAAYNSAHFVIIVDETKVVET-LGTRAALPIEVV------PEARMSVMRTLQDWGLSVHIR--------------EAVRKKGPVVTDHGNFILDARW-QSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADGSV</Hsp_qseq>
+      <Hsp_hseq>KQAVGYFAVDTYVRSG-----XKVGLGTGTTAKFVVERIGQRXQEGSLKDLLCVPTSEATRKQAESLGIPLTTLDG--IADXLDVAIDGADEILPPTLGLVKGRGGALLREKXIAAAAKTFIVAADETKLVSNGIGSTGALPVEVVVFSGSHTKRLLSALPSVKRHGGRAEFRKRAGAATGEKNGGQEDIREEDRFVTDNGNYIVDLYFTETVPDLHEXDKE--LKSIPGVVETGFFLDLASVCLIGKADGSV</Hsp_hseq>
+      <Hsp_midline>K  V   +VDT V+ G       +GLGTG+TA   V+RI      G+L D+  VPTS  T    E   IPL +L    I   LDV IDGADEI      ++KG G ALL+EK  A  +  F++  DETK+V   +G+  ALP+EVV       +  +S + +++  G     R              E +R++   VTD+GN+I+D  + +++P     D E  L ++PGV+E G F +      +  ADGSV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|23200407|pdb|1M0S|A</Hit_id>
+  <Hit_def>Chain A, Northeast Structural Genomics Consortium (Nesg Id Ir21) &gt;gi|23200408|pdb|1M0S|B Chain B, Northeast Structural Genomics Consortium (Nesg Id Ir21)</Hit_def>
+  <Hit_accession>1M0S_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.013</Hsp_bit-score>
+      <Hsp_score>297</Hsp_score>
+      <Hsp_evalue>1.04464e-31</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>LHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDI--AAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFV</Hsp_qseq>
+      <Hsp_hseq>VKADRIVGVGSGSTVNCFIE------ALGTIKDKIQGAVAASKESEELLRKQGIEVFNANDVS---SLDIYVDGADEINPQKMMIKGGGAALTREKIVAALAKKFICIVDSSKQVDVLGSTFPLPVEVIPMARSQVGRKLAALGGSPEYREG------VVTDNGNVILDVHNFSI--LNPVEIEKELNNVAGVVTNGIFALRGADVVI</Hsp_hseq>
+      <Hsp_midline>+ A   +G+G+GST    ++      A GT+ D    AV  S ++  +  +  I +F+ +       LD+ +DGADEI+ Q  +IKGGGAAL +EKI A  +  F+ IVD +K V+ LG+   LP+EV+P AR  V R L   G S   RE       VVTD+GN ILD    S+    P ++E+ LN + GV+ NG+F  R   V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|260099879|pdb|3ENQ|A</Hit_id>
+  <Hit_def>Chain A, Substrate And Inhibitor Complexes Of Ribose 5-Phosphate Isomerase A From Vibrio Vulnificus Yj016 &gt;gi|260099880|pdb|3ENQ|B Chain B, Substrate And Inhibitor Complexes Of Ribose 5-Phosphate Isomerase A From Vibrio Vulnificus Yj016 &gt;gi|260099881|pdb|3ENV|A Chain A, Substrate And Inhibitor Complexes Of Ribose 5-Phosphate Isomerase From Vibrio Vulnificus Yj016 &gt;gi|260099882|pdb|3ENV|B Chain B, Substrate And Inhibitor Complexes Of Ribose 5-Phosphate Isomerase From Vibrio Vulnificus Yj016 &gt;gi|260099883|pdb|3ENW|A Chain A, Substrate And Inhibitor Complexes Of Ribose 5-Phosphate Isomerase From Vibrio Vulnificus Yj016 &gt;gi|260099884|pdb|3ENW|B Chain B, Substrate And Inhibitor Complexes Of Ribose 5-Phosphate Isomerase From Vibrio Vulnificus Yj016</Hit_def>
+  <Hit_accession>3ENQ_A</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>3.42333e-30</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>IGLGTGSTAMPAVKRIADHLARGTLSD--IAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFV</Hsp_qseq>
+      <Hsp_hseq>VGVGTGST----VNHFIDAL--GTMSEEIKGAVSSSVASTEKLEALGIKIFDCNEV---ASLDIYVDGADEINADREMIKGGGAALTREKIVAAIADKFICIVDGTKAVDVLGTF-PLPVEVIPMARSYVARQLVKLGGDPCYREG------VITDNGNVILDVY--GMKITNPKQLEDQINAIPGVVTVGLFAHRGADVVI</Hsp_hseq>
+      <Hsp_midline>+G+GTGST    V    D L  GT+S+    AV +S  +    E   I +F  +       LD+ +DGADEI+    +IKGGGAAL +EKI A  +  F+ IVD TK V+ LGT   LP+EV+P AR  V R L   G     RE       V+TD+GN ILD     +    P+ +E  +NA+PGV+  GLF  R   V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|742261595|pdb|4X84|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribose-5-phosphate Isomerase A From Pseudomonas Aeruginosa &gt;gi|742261596|pdb|4X84|B Chain B, Crystal Structure Of Ribose-5-phosphate Isomerase A From Pseudomonas Aeruginosa &gt;gi|742261597|pdb|4X84|C Chain C, Crystal Structure Of Ribose-5-phosphate Isomerase A From Pseudomonas Aeruginosa &gt;gi|742261598|pdb|4X84|D Chain D, Crystal Structure Of Ribose-5-phosphate Isomerase A From Pseudomonas Aeruginosa</Hit_def>
+  <Hit_accession>4X84_A</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>8.90048e-30</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>KLLVAQRSVDTLVQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVR-VFVAHADG</Hsp_qseq>
+      <Hsp_hseq>KQAVAQAAVDHILPH--LDSKSIVGVGTGSTA----NFFIDALARHKAEFDGAVASSEATAKRLKEHGIPVYELNTVS---ELEFYVDGADESNERLELIKGGGAALTREKIVAAVAKTFICIADASKLVPILG-QFPLPVEVIPMARSHVARQLVKLGGDPVYREG------VLTDNGNIILDV--HNLRIDSPVELEEKINAIVGVVTNGLFAARPADLLLLGTADG</Hsp_hseq>
+      <Hsp_midline>K  VAQ +VD ++    L +   +G+GTGSTA        D LAR       AV +S  TA   + + IP++ L++     +L+  +DGADE + +  +IKGGGAAL +EKI A  +  F+ I D +K+V  LG +  LP+EV+P AR  V R L   G     RE       V+TD+GN ILD    +L   +P ++E  +NA+ GV+ NGLF  R    + +  ADG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|316983217|pdb|3L7O|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribose-5-Phosphate Isomerase A From Streptococcus Mutans Ua159 &gt;gi|316983218|pdb|3L7O|B Chain B, Crystal Structure Of Ribose-5-Phosphate Isomerase A From Streptococcus Mutans Ua159</Hit_def>
+  <Hit_accession>3L7O_A</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.88514e-28</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIRE--AVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADG</Hsp_qseq>
+      <Hsp_hseq>MIVGLGTGSTAYYFVEEVGRRVQEEGLQ-VIGVTTSSRTTAQAQALGIPLKSIDEVD---SVDVTVDGADEVDPNFNGIKGGGGALLMEKIVGTLTKDYIWVVDESKMVDTLGA-FRLPVEVVQYGAERLFREFEKKGYKPSFREYDGVR----FVTDMKNFIIDLDLGSIP--DPIAFGNMLDHQVGVVEHGLFNGMVNRVIVAGKDG</Hsp_hseq>
+      <Hsp_midline>M +GLGTGSTA   V+ +   +    L  +  V TS +T    +   IPL S+        +DVT+DGADE+D     IKGGG ALL EKI    +  ++ +VDE+K+V+TLG    LP+EVV      + R  +  G     RE   VR     VTD  NFI+D    S+P   P      L+   GV+E+GLF     RV VA  DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|357380759|pdb|3U7J|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribose-5-phosphate Isomerase A From Burkholderia Thailandensis &gt;gi|364506218|pdb|3UW1|A Chain A, Crystal Structure Of Ribose-5-phosphate Isomerase A From Burkholderia Thailandensis With Ribose-5-phosphate</Hit_def>
+  <Hit_accession>3U7J_A</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.18157e-27</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>IGLGTGSTA---MPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKG-PVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTER</Hsp_qseq>
+      <Hsp_hseq>IGVGTGSTANCFIDALAAVKDRY-RG------AVSSSVATTERLKSHGIRVFDLNEIE---SLQVYVDGADEIDESGAMIKGGGGALTREKIVASVAETFVCIADASKRVAMLG-QFPLPVEVVPMARTAIGRRLAALGGVPVLR--VKQDGTPYVTDNGNEILDVK--GLRIDDPRALEAAINGWPGVVTVGLFAQR</Hsp_hseq>
+      <Hsp_midline>IG+GTGSTA   + A+  + D   RG      AV +S  T    + + I +F L+       L V +DGADEID    +IKGGG AL +EKI A  +  FV I D +K V  LG +  LP+EVVP AR ++ R L   G    +R  V++ G P VTD+GN ILD +   L    P+ +E A+N  PGV+  GLF +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|402550779|pdb|4GMK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribose 5-Phosphate Isomerase From The Probiotic Bacterium Lactobacillus Salivarius Ucc118 &gt;gi|402550780|pdb|4GMK|B Chain B, Crystal Structure Of Ribose 5-Phosphate Isomerase From The Probiotic Bacterium Lactobacillus Salivarius Ucc118</Hit_def>
+  <Hit_accession>4GMK_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>7.58725e-26</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>KLLVAQRSVDTLVQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVV-TDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRVFVAHADG</Hsp_qseq>
+      <Hsp_hseq>KQLVGTKAVE-WIKDG-----MIVGLGTGSTVKYMVDALGKRVNEEGL-DIVGVTTSIRTAEQAKSLGIVIKDIDEVD---HIDLTIDGADEISSDFQGIKGGGAALLYEKIVATKSNKNMWIVDESKMVDDLG-QFPLPVEVIPYGSGTVFKRFEEKGLNPEFRK--NEDGSLLHTDSDNYIIDLHLGKI--ENPKELGDYLINQVGVVEHGLFLDIVNTVIVGRQDG</Hsp_hseq>
+      <Hsp_midline>K LV  ++V+  +++G     M +GLGTGST    V  +   +    L DI  V TS +TA   +   I +  +        +D+TIDGADEI +    IKGGGAALL EKI A  S   + IVDE+K+V+ LG +  LP+EV+P    +V +  ++ GL+   R+   + G ++ TD  N+I+D     +    P+++   L    GV+E+GLF +    V V   DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|283135401|pdb|3KWM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribose-5-Isomerase A &gt;gi|283135402|pdb|3KWM|B Chain B, Crystal Structure Of Ribose-5-Isomerase A &gt;gi|283135403|pdb|3KWM|C Chain C, Crystal Structure Of Ribose-5-Isomerase A &gt;gi|283135404|pdb|3KWM|D Chain D, Crystal Structure Of Ribose-5-Isomerase A &gt;gi|449802734|pdb|4IO1|A Chain A, Crystal Structure Of Ribose-5-isomerase A From Francisella Tularensis &gt;gi|449802735|pdb|4IO1|B Chain B, Crystal Structure Of Ribose-5-isomerase A From Francisella Tularensis &gt;gi|550544975|pdb|4M8L|A Chain A, Crystal Structure Of Rpia-r5p Complex &gt;gi|550544976|pdb|4M8L|B Chain B, Crystal Structure Of Rpia-r5p Complex &gt;gi|550544977|pdb|4M8L|C Chain C, Crystal Structure Of Rpia-r5p Complex &gt;gi|550544978|pdb|4M8L|D Chain D, Crystal Structure Of Rpia-r5p Complex</Hit_def>
+  <Hit_accession>3KWM_A</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>1.53136e-25</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>HMSIGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLF</Hsp_qseq>
+      <Hsp_hseq>EITLGVGTGSTVGFLIEELVNYRDK-----IKTVVSSSEDS--TRKLKALGFDVVDLNYAGEIDLYIDGADECNNHKELIKGGGAALTREKICVAAAKKFICIIDESKKVNTLG-NFPLPIEVIPMARSYIARQIVKLGGQPVYREQ------TITDNGNVILDV--YNLKIDNPLKLETELNQITGVVTNGIF</Hsp_hseq>
+      <Hsp_midline> +++G+GTGST    ++ + ++  +     I  V +S + +    +     F +      G++D+ IDGADE +    +IKGGGAAL +EKI    +  F+ I+DE+K V TLG    LPIEV+P AR  + R +   G     RE        +TD+GN ILD    +L    P  +E  LN + GV+ NG+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|23200281|pdb|1KS2|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Analysis Of The Rpia, Structural Genomics, Protein Ec1268. &gt;gi|23200282|pdb|1KS2|B Chain B, Crystal Structure Analysis Of The Rpia, Structural Genomics, Protein Ec1268.</Hit_def>
+  <Hit_accession>1KS2_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>2.28878e-25</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRV-FVAHADG</Hsp_qseq>
+      <Hsp_hseq>VGVGTGSTAAHFIDALG--TXKGQIE--GAVSSSDASTEKLKSLGIHVFDLNEVD---SLGIYVDGADEINGHXQXIKGGGAALTREKIIASVAEKFICIADASKQVDILG-KFPLPVEVIPXARSAVARQLVKLGGRPEYRQG------VVTDNGNVILDVHGXEI--LDPIAXENAINAIPGVVTVGLFANRGADVALIGTPDG</Hsp_hseq>
+      <Hsp_midline>+G+GTGSTA   +  +     +G +    AV +S  +    +   I +F L+       L + +DGADEI+     IKGGGAAL +EKI A  +  F+ I D +K V+ LG +  LP+EV+P AR +V R L   G     R+       VVTD+GN ILD     +    P   E A+NA+PGV+  GLF  R   V  +   DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|21466109|pdb|1LKZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of D-Ribose-5-Phosphate Isomerase (Rpia) From Escherichia Coli. &gt;gi|21466110|pdb|1LKZ|B Chain B, Crystal Structure Of D-Ribose-5-Phosphate Isomerase (Rpia) From Escherichia Coli. &gt;gi|28374109|pdb|1O8B|A Chain A, Structure Of Escherichia Coli Ribose-5-Phosphate Isomerase, Rpia, Complexed With Arabinose-5-Phosphate. &gt;gi|28374110|pdb|1O8B|B Chain B, Structure Of Escherichia Coli Ribose-5-Phosphate Isomerase, Rpia, Complexed With Arabinose-5-Phosphate.</Hit_def>
+  <Hit_accession>1LKZ_A</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>2.35881e-25</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>IGLGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGADEIDTQNFVIKGGGAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIREAVRKKGPVVTDHGNFILDARWQSLPTRTPQDMERALNALPGVIENGLFTERTVRV-FVAHADG</Hsp_qseq>
+      <Hsp_hseq>VGVGTGSTAAHFIDALG--TXKGQIE--GAVSSSDASTEKLKSLGIHVFDLNEVD---SLGIYVDGADEINGHXQXIKGGGAALTREKIIASVAEKFICIADASKQVDILG-KFPLPVEVIPXARSAVARQLVKLGGRPEYRQG------VVTDNGNVILDVHGXEI--LDPIAXENAINAIPGVVTVGLFANRGADVALIGTPDG</Hsp_hseq>
+      <Hsp_midline>+G+GTGSTA   +  +     +G +    AV +S  +    +   I +F L+       L + +DGADEI+     IKGGGAAL +EKI A  +  F+ I D +K V+ LG +  LP+EV+P AR +V R L   G     R+       VVTD+GN ILD     +    P   E A+NA+PGV+  GLF  R   V  +   DG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|384482295|pdb|3T6V|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Laccase From Steccherinum Ochraceum &gt;gi|384482296|pdb|3T6V|B Chain B, Crystal Structure Of Laccase From Steccherinum Ochraceum &gt;gi|384482297|pdb|3T6V|C Chain C, Crystal Structure Of Laccase From Steccherinum Ochraceum &gt;gi|384482298|pdb|3T6W|A Chain A, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (10% Dose) &gt;gi|384482299|pdb|3T6W|B Chain B, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (10% Dose) &gt;gi|384482300|pdb|3T6W|C Chain C, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (10% Dose) &gt;gi|384482301|pdb|3T6X|A Chain A, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (20% Dose) &gt;gi|384482302|pdb|3T6X|B Chain B, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (20% Dose) &gt;gi|384482303|pdb|3T6X|C Chain C, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (20% Dose) &gt;gi|384482304|pdb|3T6Z|A Chain A, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (60% Dose) &gt;gi|384482305|pdb|3T6Z|B Chain B, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (60% Dose) &gt;gi|384482306|pdb|3T6Z|C Chain C, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (60% Dose) &gt;gi|384482307|pdb|3T71|A Chain A, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (90% Dose) &gt;gi|384482308|pdb|3T71|B Chain B, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (90% Dose) &gt;gi|384482309|pdb|3T71|C Chain C, Crystal Structure Of Steccherinum Ochraceum Laccase Obtained By Multi- Crystals Composite Data Collection Technique (90% Dose)</Hit_def>
+  <Hit_accession>3T6V_A</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.69662</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LGTGSTAMPAVKRIADHLARGTLSDIAAVPTSFQTALICERYNIPLFSLSSKRIGGKLDVTIDGAD</Hsp_qseq>
+      <Hsp_hseq>MGAGG-AITADSTLIDGLGR-THVNVAAVPLSVITVEVGKRYRMRLVSISCDP---NYDFSIDGHD</Hsp_hseq>
+      <Hsp_midline>+G G  A+ A   + D L R T  ++AAVP S  T  + +RY + L S+S        D +IDG D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|940376718|pdb|5CX8|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Ragb, A Major Immunodominant Virulence Factor Of Porphyromonas Gingivalis. &gt;gi|940376719|pdb|5CX8|B Chain B, Structure Of Ragb, A Major Immunodominant Virulence Factor Of Porphyromonas Gingivalis.</Hit_def>
+  <Hit_accession>5CX8_A</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.86799</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>GAALLQEKIAAYNSAHFVIIVDETKVVETLGTRAALPIEVVPEARMSVMRTLQDWGLSVHIR</Hsp_qseq>
+      <Hsp_hseq>GVILLKE----YNPGYIGPRATKAQCYDYILSRLSEAIEVLPENRESVLYVSRDYAYALRAR</Hsp_hseq>
+      <Hsp_midline>G  LL+E    YN  +      + +  + + +R +  IEV+PE R SV+   +D+  ++  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|469474647|pdb|4IV6|A</Hit_id>
+  <Hit_def>Chain A, X-ray Crystal Structure Of An Isovaleryl-coa Dehydrogenase From Mycobacterium Smegmatis &gt;gi|469474648|pdb|4IV6|B Chain B, X-ray Crystal Structure Of An Isovaleryl-coa Dehydrogenase From Mycobacterium Smegmatis</Hit_def>
+  <Hit_accession>4IV6_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.2489</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>41</Hsp_align-len>
+      <Hsp_qseq>VDTLVQEGVLHAHMSIGLGTGSTAMPAVKRIADHLARGTLS</Hsp_qseq>
+      <Hsp_hseq>IETMKEIGIFGLAIPEPYGFGAVSMPCYVQVAEELARGWMS</Hsp_hseq>
+      <Hsp_midline>++T+ + G+    +    G G+ +MP   ++A+ LARG +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

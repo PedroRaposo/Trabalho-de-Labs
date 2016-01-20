@@ -1,0 +1,162 @@
+LOCUS       1VYH_C                   410 aa            linear   ROD 10-OCT-2012
+DEFINITION  Chain C, Paf-Ah Holoenzyme: Lis1ALFA2.
+ACCESSION   1VYH_C
+VERSION     1VYH_C  GI:67463777
+DBSOURCE    pdb: molecule 1VYH, chain 67, release Jun 18, 2009;
+            deposition: Apr 30, 2004;
+            class: Hydrolase;
+            source: Mmdb_id: 33195, Pdb_id 1: 1VYH;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (residues 1 to 410)
+  AUTHORS   Tarricone,C., Perrina,F., Monzani,S., Massimiliano,L., Kim,M.H.,
+            Derewenda,Z.S., Knapp,S., Tsai,L.H. and Musacchio,A.
+  TITLE     Coupling PAF signaling to dynein regulation: structure of LIS1 in
+            complex with PAF-acetylhydrolase
+  JOURNAL   Neuron 44 (5), 809-821 (2004)
+   PUBMED   15572112
+REFERENCE   2  (residues 1 to 410)
+  AUTHORS   Tarricone,C., Perrina,F., Monzani,S., Massimiliano,L., Knapp,S.,
+            Tsai,L.-H., Derewenda,Z.S. and Musacchio,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-APR-2004)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..410
+                     /organism="Mus musculus"
+                     /db_xref="taxon:10090"
+     Region          join(1..149,380..410)
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     Region          9..35
+                     /region_name="LisH"
+                     /note="LisH; pfam08513"
+                     /db_xref="CDD:149534"
+     Region          97..>410
+                     /region_name="WD40"
+                     /note="WD40 repeat [General function prediction only];
+                     COG2319"
+                     /db_xref="CDD:225201"
+     SecStr          101..105
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Region          104..408
+                     /region_name="WD40"
+                     /note="WD40 domain, found in a number of eukaryotic
+                     proteins that cover a wide variety of functions including
+                     adaptor/regulatory modules in signal transduction,
+                     pre-mRNA processing and cytoskeleton assembly; typically
+                     contains a GH dipeptide 11-24 residues from...; cd00200"
+                     /db_xref="CDD:238121"
+     Site            order(107,125,129,135..136,148..149,167,171,177..178,
+                     190..191,208,213,219..220,233,250,255,261..262,274..275,
+                     313,317,323..324,336..337,354,359,365..366,378..379,397,
+                     401,407..408)
+                     /site_type="other"
+                     /note="structural tetrad"
+                     /db_xref="CDD:238121"
+     SecStr          110..117
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          122..128
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          130..137
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          139..142
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          143..147
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     Region          150..275
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          152..159
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          163..170
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          172..180
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          181..189
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          194..201
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          205..212
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          214..222
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          223..231
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          235..243
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          247..255
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          256..264
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          265..273
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     Region          276..379
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     SecStr          278..285
+                     /sec_str_type="sheet"
+                     /note="strand 37"
+     SecStr          310..316
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+     SecStr          318..326
+                     /sec_str_type="sheet"
+                     /note="strand 39"
+     SecStr          327..335
+                     /sec_str_type="sheet"
+                     /note="strand 40"
+     SecStr          339..347
+                     /sec_str_type="sheet"
+                     /note="strand 41"
+     SecStr          352..359
+                     /sec_str_type="sheet"
+                     /note="strand 42"
+     SecStr          360..367
+                     /sec_str_type="sheet"
+                     /note="strand 43"
+     SecStr          370..378
+                     /sec_str_type="sheet"
+                     /note="strand 44"
+     SecStr          381..389
+                     /sec_str_type="sheet"
+                     /note="strand 45"
+     SecStr          394..401
+                     /sec_str_type="sheet"
+                     /note="strand 46"
+     SecStr          402..407
+                     /sec_str_type="sheet"
+                     /note="strand 47"
+ORIGIN      
+        1 mvlsqrqrde lnraiadylr sngyeeaysv fkkeaeldmn eeldkkyagl lekkwtsvir
+       61 lqkkvmeles klneakeeft sggplgqkrd pkewiprppe kyalsghrsp vtrvifhpvf
+      121 svmvsaseda tikvwdyetg dfertlkght dsvqdisfdh sgkllascsa dmtiklwdfq
+      181 gfecirtmhg hdhnvssvsi mpngdhivsa srdktikmwe vqtgycvktf tghrewvrmv
+      241 rpnqdgtlia scsndqtvrv wvvatkecka elrehrhvve ciswapessy ssiseatgse
+      301 tkksgkpgpf llsgsrdkti kmwdvstgmc lmtlvghdnw vrgvlfhsgg kfilscaddk
+      361 tlrvwdyknk rcmktlnahe hfvtsldfhk tapyvvtgsv dqtvkvwecr
+//
+

@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_199709</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611473</BlastOutput_query-def>
+  <BlastOutput_query-len>280</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_199709</Iteration_query-ID>
+  <Iteration_query-def>2611473</Iteration_query-def>
+  <Iteration_query-len>280</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|157829850|pdb|1AF7|A</Hit_id>
+  <Hit_def>Chain A, Cher From Salmonella Typhimurium</Hit_def>
+  <Hit_accession>1AF7_A</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.08912e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>LSDAEFAAFKTLIYEHSGITFSALNRSVLESRIRSRLRELALPSACAYYQQVLAS--SAELSALLDSVTTNLTRFFRNKAHFDSFSHYVIPELVKAKRSVGEHSITVWSAGCSTGEEPYTIAMLLKR---YAPAAFSCQVIASDLSLKSLLVARQGYYPRARVSGVPDEYLRAYF-RET--QEGY-QINADIRKMVRFDYHNL--KHRSMHRNVDVLFCRNVLIYFDETAQKAVIERFWDAMSAHSFLFIGHSESLFGMNTKFSF</Hsp_qseq>
+      <Hsp_hseq>LSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEH-------ARRRHGEYR--VWSAAASTGEEPYSIAITLADALGMAPGRW--KVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSL</Hsp_hseq>
+      <Hsp_midline>LSDA F     LIY+ +GI  +   R ++ +R+  RLR L L     Y   + A+  SAE  A ++++TTNLT FFR   HF   + +       A+R  GE+   VWSA  STGEEPY+IA+ L      AP  +  +V ASD+  + L  AR G Y  + +  +  + L+ YF R T   EG  ++  ++   V F   NL  K  ++    D +FCRNV+IYFD+T Q+ ++ RF   +     LF GHSE+   +  +FS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|4139941|pdb|1BC5|A</Hit_id>
+  <Hit_def>Chain A, Chemotaxis Receptor Recognition By Protein Methyltransferase Cher</Hit_def>
+  <Hit_accession>1BC5_A</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.26736e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>LSDAEFAAFKTLIYEHSGITFSALNRSVLESRIRSRLRELALPSACAYYQQVLAS--SAELSALLDSVTTNLTRFFRNKAHFDSFSHYVIPELVKAKRSVGEHSITVWSAGCSTGEEPYTIAMLLKR---YAPAAFSCQVIASDLSLKSLLVARQGYYPRARVSGVPDEYLRAYF-RET--QEGY-QINADIRKMVRFDYHNL--KHRSMHRNVDVLFCRNVLIYFDETAQKAVIERFWDAMSAHSFLFIGHSESLFGMNTKFSF</Hsp_qseq>
+      <Hsp_hseq>LSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALTTNLTAFFREAHHFPILAEH-------ARRRHGEYR--VWSAAASTGEEPYSIAITLADALGMAPGRW--KVFASDIDTEVLEKARSGIYRLSELKTLSPQQLQRYFMRGTGPHEGLVRVRQELANYVEFSSVNLLEKQYNVPGPFDAIFCRNVMIYFDKTTQEDILRRFVPLLKPDGLLFAGHSENFSNLVREFSL</Hsp_hseq>
+      <Hsp_midline>LSDA F     LIY+ +GI  +   R ++ +R+  RLR L L     Y   + A+  SAE  A ++++TTNLT FFR   HF   + +       A+R  GE+   VWSA  STGEEPY+IA+ L      AP  +  +V ASD+  + L  AR G Y  + +  +  + L+ YF R T   EG  ++  ++   V F   NL  K  ++    D +FCRNV+IYFD+T Q+ ++ RF   +     LF GHSE+   +  +FS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|720063188|pdb|4UM9|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Alpha V Beta 6 With Peptide</Hit_def>
+  <Hit_accession>4UM9_B</Hit_accession>
+  <Hit_len>788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.815523</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>FDETAQKAVIER--FWDAMSAHSFLFIGHSESLFGMNTKFSFLKTPWGCLC</Hsp_qseq>
+      <Hsp_hseq>FDAIMQAAVCKEKIGWRNDSLHLLVFVSDADSHFGMDSKLAGIVCPNDGLC</Hsp_hseq>
+      <Hsp_midline>FD   Q AV +    W   S H  +F+  ++S FGM++K + +  P   LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|720063179|pdb|4UM8|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Alpha V Beta 6 &gt;gi|720063181|pdb|4UM8|D Chain D, Crystal Structure Of Alpha V Beta 6</Hit_def>
+  <Hit_accession>4UM8_B</Hit_accession>
+  <Hit_len>788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.822695</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>FDETAQKAVIER--FWDAMSAHSFLFIGHSESLFGMNTKFSFLKTPWGCLC</Hsp_qseq>
+      <Hsp_hseq>FDAIMQAAVCKEKIGWRNDSLHLLVFVSDADSHFGMDSKLAGIVCPNDGLC</Hsp_hseq>
+      <Hsp_midline>FD   Q AV +    W   S H  +F+  ++S FGM++K + +  P   LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|720063190|pdb|4UM9|D</Hit_id>
+  <Hit_def>Chain D, Crystal Structure Of Alpha V Beta 6 With Peptide</Hit_def>
+  <Hit_accession>4UM9_D</Hit_accession>
+  <Hit_len>788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>0.837227</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>FDETAQKAVIER--FWDAMSAHSFLFIGHSESLFGMNTKFSFLKTPWGCLC</Hsp_qseq>
+      <Hsp_hseq>FDAIMQAAVCKEKIGWRNDSLHLLVFVSDADSHFGMDSKLAGIVCPNDGLC</Hsp_hseq>
+      <Hsp_midline>FD   Q AV +    W   S H  +F+  ++S FGM++K + +  P   LC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|51247537|pdb|1T3N|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Catalytic Core Of Dna Polymerase Iota In Complex With Dna And Dttp &gt;gi|51247538|pdb|1T3N|B Chain B, Structure Of The Catalytic Core Of Dna Polymerase Iota In Complex With Dna And Dttp &gt;gi|73535911|pdb|1ZET|A Chain A, X-Ray Data Do Not Support Hoogsteen Base-Pairing During Replication By Human Polymerase Iota</Hit_def>
+  <Hit_accession>1T3N_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.94044</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VKAKRSVGEHSITVWSAGCSTGEEPYTIAMLLKRYA</Hsp_qseq>
+      <Hsp_hseq>VEAKNKIEELLASLLNRVCQDGRKPHTVRLIIRRYS</Hsp_hseq>
+      <Hsp_midline>V+AK  + E   ++ +  C  G +P+T+ ++++RY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|254574961|pdb|3H40|A</Hit_id>
+  <Hit_def>Chain A, Binary Complex Of Human Dna Polymerase Iota With Template UT</Hit_def>
+  <Hit_accession>3H40_A</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.94461</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>290</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VKAKRSVGEHSITVWSAGCSTGEEPYTIAMLLKRYA</Hsp_qseq>
+      <Hsp_hseq>VEAKNKIEELLASLLNRVCQDGRKPHTVRLIIRRYS</Hsp_hseq>
+      <Hsp_midline>V+AK  + E   ++ +  C  G +P+T+ ++++RY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|82407825|pdb|2ALZ|A</Hit_id>
+  <Hit_def>Chain A, Ternary Complex Of Hpoli With Dna And Dctp &gt;gi|254574964|pdb|3H4B|A Chain A, Ternary Complex Of Human Dna Polymerase Iota With Template UT AND Incoming Datp &gt;gi|254574967|pdb|3H4D|A Chain A, Ternary Complex Of Human Dna Polymerase Iota With Template UT AND Incoming Dgtp</Hit_def>
+  <Hit_accession>2ALZ_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.05465</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>326</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VKAKRSVGEHSITVWSAGCSTGEEPYTIAMLLKRYA</Hsp_qseq>
+      <Hsp_hseq>VEAKNKIEELLASLLNRVCQDGRKPHTVRLIIRRYS</Hsp_hseq>
+      <Hsp_midline>V+AK  + E   ++ +  C  G +P+T+ ++++RY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|110591264|pdb|2DPI|A</Hit_id>
+  <Hit_def>Chain A, Ternary Complex Of Hpoli With Dna And Dctp &gt;gi|110591267|pdb|2DPJ|A Chain A, Structure Of Hpoli With Dna And Dttp &gt;gi|119389500|pdb|2FLN|A Chain A, Binary Complex Of Catalytic Core Of Human Dna Polymerase Iota With Dna (Template A) &gt;gi|119389503|pdb|2FLP|A Chain A, Binary Complex Of The Catalytic Core Of Human Dna Polymerase Iota With Dna (Template G) &gt;gi|122920195|pdb|2FLL|A Chain A, Ternary Complex Of Human Dna Polymerase Iota With Dna And Dttp &gt;gi|218681853|pdb|3EPG|A Chain A, Structure Of Human Dna Polymerase Iota Complexed With N2-Ethylguanine &gt;gi|218681856|pdb|3EPI|A Chain A, Structure Of Human Dna Polymerase Iota Complexed With N2-Ethylguanine And Incoming Ttp &gt;gi|237640547|pdb|3G6V|A Chain A, Dna Synthesis Across An Abasic Lesion By Human Dna Polymerase-Iota &gt;gi|237640550|pdb|3G6X|A Chain A, Ternary Complex Of Dna Polymerase Iota:dna:dgtp With An Abasic Site At The Templating Position &gt;gi|237640553|pdb|3G6Y|A Chain A, Ternary Complex Of Dna Polymerase Iota:dna:dttp With An Abasic Site At The Templating Position &gt;gi|238828276|pdb|3GV7|B Chain B, Human Dna Polymerase Iota In Complex With T Template Dna And Incoming Dttp &gt;gi|238828279|pdb|3GV8|B Chain B, Human Dna Polymerase Iota In Complex With T Template Dna And Incoming Dgtp &gt;gi|309319996|pdb|3NGD|A Chain A, Structural Basis For Proficient Incorporation Of Dttp Opposite O6- Methylguanine By Human Dna Polymerase Iota &gt;gi|309320677|pdb|3OSN|A Chain A, Structural Basis For Proficient Incorporation Of Dttp Opposite O6- Methylguanine By Human Dna Polymerase Iota &gt;gi|323714640|pdb|3Q8P|B Chain B, Human Dna Polymerase Iota Incorporating Dctp Opposite 8-Oxo-Guanine &gt;gi|323714643|pdb|3Q8Q|B Chain B, Human Dna Polymerase Iota Incorporating Datp Opposite 8-Oxo-Guanine &gt;gi|323714646|pdb|3Q8R|B Chain B, Human Dna Polymerase Iota Incorporating Dgtp Opposite 8-Oxo-Guanine &gt;gi|323714649|pdb|3Q8S|B Chain B, Human Dna Polymerase Iota Incorporating Dttp Opposite 8-Oxo-Guanine &gt;gi|390981111|pdb|4EBC|A Chain A, Conformationally Restrained North-Methanocarba-2&apos;-Deoxyadenosine Corrects The Error-Prone Nature Of Human Dna Polymerase Iota &gt;gi|390981114|pdb|4EBD|A Chain A, Conformationally Restrained North-Methanocarba-2&apos;-Deoxyadenosine Corrects The Error-Prone Nature Of Human Dna Polymerase Iota &gt;gi|390981117|pdb|4EBE|A Chain A, Conformationally Restrained North-Methanocarba-2&apos;-Deoxyadenosine Corrects The Error-Prone Nature Of Human Dna Polymerase Iota &gt;gi|402550536|pdb|4FS1|A Chain A, Base Pairing Mechanism Of N2,3-Ethenoguanine With Dttp By Human Polymerase Iota &gt;gi|402550539|pdb|4FS2|A Chain A, Base Pairing Mechanism Of N2,3-Ethenoguanine With Dctp By Human Polymerase Iota &gt;gi|440690932|pdb|4EYH|B Chain B, Human Dna Polymerase Iota Incorporating Dctp Opposite N- (deoxyguanosin-8-yl)-1-aminopyrene Lesion &gt;gi|440690936|pdb|4EYI|B Chain B, Human Dna Polymerase Iota Incorporating Datp Opposite N- (deoxyguanosin-8-yl)-1-aminopyrene Lesion</Hit_def>
+  <Hit_accession>2DPI_A</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.7402</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VKAKRSVGEHSITVWSAGCSTGEEPYTIAMLLKRYA</Hsp_qseq>
+      <Hsp_hseq>VEAKNKIEELLASLLNRVCQDGRKPHTVRLIIRRYS</Hsp_hseq>
+      <Hsp_midline>V+AK  + E   ++ +  C  G +P+T+ ++++RY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|238828270|pdb|3GV5|B</Hit_id>
+  <Hit_def>Chain B, Human Dna Polymerase Iota In Complex With T Template Dna And Incoming Ddadp &gt;gi|238828273|pdb|3GV5|D Chain D, Human Dna Polymerase Iota In Complex With T Template Dna And Incoming Ddadp</Hit_def>
+  <Hit_accession>3GV5_B</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.92063</Hsp_evalue>
+      <Hsp_query-from>95</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VKAKRSVGEHSITVWSAGCSTGEEPYTIAMLLKRYA</Hsp_qseq>
+      <Hsp_hseq>VEAKNKIEELLASLLNRVCQDGRKPHTVRLIIRRYS</Hsp_hseq>
+      <Hsp_midline>V+AK  + E   ++ +  C  G +P+T+ ++++RY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|163311097|pdb|3BIP|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Yeast Spt16 N-Terminal Domain &gt;gi|163311098|pdb|3BIP|B Chain B, Crystal Structure Of Yeast Spt16 N-Terminal Domain &gt;gi|163311099|pdb|3BIQ|A Chain A, Crystal Structure Of Yeast Spt16 N-Terminal Domain</Hit_def>
+  <Hit_accession>3BIP_A</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>8.01945</Hsp_evalue>
+      <Hsp_query-from>173</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>374</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>FRETQEGYQINADIRKMVR-------FDYHNLKHRSMHRNVDVLFCRNVLIYFDETAQKAVIERFWDAMSAHSFLFIGHSES</Hsp_qseq>
+      <Hsp_hseq>FRDSNFILNVKNDYRKIQRGDCFNISFGFNNLKDSQSANNYALQLADTVQIPLDETEPPRFLTNYTKAKSQISFYFNNEEED</Hsp_hseq>
+      <Hsp_midline>FR++     +  D RK+ R       F ++NLK      N  +     V I  DET     +  +  A S  SF F    E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

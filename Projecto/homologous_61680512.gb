@@ -1,0 +1,81 @@
+LOCUS       1Y4Y_A                    88 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, X-Ray Crystal Structure Of Bacillus Stearothermophilus
+            Histidine Phosphocarrier Protein (Hpr).
+ACCESSION   1Y4Y_A
+VERSION     1Y4Y_A  GI:61680512
+DBSOURCE    pdb: molecule 1Y4Y, chain 65, release Jan 4, 2013;
+            deposition: Dec 1, 2004;
+            class: Transport Protein;
+            source: Mmdb_id: 32028, Pdb_id 1: 1Y4Y;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus stearothermophilus
+  ORGANISM  Geobacillus stearothermophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 88)
+  AUTHORS   Sridharan,S., Razvi,A., Scholtz,J.M. and Sacchettini,J.C.
+  TITLE     The HPr proteins from the thermophile Bacillus stearothermophilus
+            can form domain-swapped dimers
+  JOURNAL   J. Mol. Biol. 346 (3), 919-931 (2005)
+   PUBMED   15713472
+REFERENCE   2  (residues 1 to 88)
+  AUTHORS   Sridharan,S., Razvi,A., Scholtz,J.M. and Sacchettini,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-DEC-2004)
+COMMENT     1 Phosphocarrier Protein Hpr.
+FEATURES             Location/Qualifiers
+     source          1..88
+                     /organism="Geobacillus stearothermophilus"
+                     /db_xref="taxon:1422"
+     SecStr          4..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..>64
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          17..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          39..43
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          58..67
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          70..84
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          85..88
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+ORIGIN      
+        1 maektfkvvs dsgiharpat ilvqtaskfn seiqleyngk tvnlksimgv mslgipkgat
+       61 ikitaegada aeamaaltdt lakeglae
+//
+

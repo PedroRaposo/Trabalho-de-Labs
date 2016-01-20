@@ -1,0 +1,450 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 116666568 
+ Accession: 1VS5_B 
+ Score: 244.202
+ E-value: 3.30933e-79
+ Identities: 109
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VS5_B
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 742261432 
+ Accession: 4TOI_A 
+ Score: 245.358
+ E-value: 2.06133e-78
+ Identities: 109
+ Function: Ribosomal Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4TOI_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 33357956 
+ Accession: 1P87_B 
+ Score: 241.891
+ E-value: 2.84573e-78
+ Identities: 108
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1P87_B
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 116667411 
+ Accession: 2GY9_B 
+ Score: 238.424
+ E-value: 6.84568e-77
+ Identities: 106
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2GY9_B
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 224510723 
+ Accession: 3FIH_B 
+ Score: 235.728
+ E-value: 4.22271e-76
+ Identities: 106
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FIH_B
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 557804006 
+ Accession: 3J4V_B 
+ Score: 235.728
+ E-value: 4.49911e-76
+ Identities: 106
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J4V_B
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 10835586 
+ Accession: 1FJG_B 
+ Score: 233.802
+ E-value: 6.70337e-75
+ Identities: 105
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FJG_B
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 14278531 
+ Accession: 1I94_B 
+ Score: 233.802
+ E-value: 7.0099e-75
+ Identities: 105
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1I94_B
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 806394373 
+ Accession: 4YHH_B 
+ Score: 232.646
+ E-value: 8.6389e-75
+ Identities: 105
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4YHH_B
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 149241276 
+ Accession: 2E5L_B 
+ Score: 232.646
+ E-value: 9.10933e-75
+ Identities: 105
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2E5L_B
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 953267431 
+ Accession: 4X62_B 
+ Score: 231.876
+ E-value: 2.00546e-74
+ Identities: 105
+ Function: RibosomeANTIBIOTIC
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4X62_B
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 34811530 
+ Accession: 1PNS_B 
+ Score: 229.565
+ E-value: 1.54569e-73
+ Identities: 104
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1PNS_B
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 224510685 
+ Accession: 3FIC_B 
+ Score: 229.565
+ E-value: 1.64702e-73
+ Identities: 104
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FIC_B
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 73536330 
+ Accession: 1X18_E 
+ Score: 218.779
+ E-value: 2.23553e-69
+ Identities: 103
+ Function: Structural ProteinRNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1X18_E
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 188036203 
+ Accession: 3BBN_B 
+ Score: 194.126
+ E-value: 8.66142e-60
+ Identities: 91
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BBN_B
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 657231756 
+ Accession: 3J6V_B 
+ Score: 108.227
+ E-value: 6.33047e-27
+ Identities: 67
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J6V_B
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 810516681 
+ Accession: 5AJ3_B 
+ Score: 97.4413
+ E-value: 3.83206e-23
+ Identities: 63
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5AJ3_B
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 40889982 
+ Accession: 1VI6_A 
+ Score: 74.7146
+ E-value: 9.84044e-16
+ Identities: 61
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VI6_A
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 40889978 
+ Accession: 1VI5_A 
+ Score: 72.7886
+ E-value: 4.75173e-15
+ Identities: 60
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VI5_A
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 428697927 
+ Accession: 3J20_B 
+ Score: 66.2402
+ E-value: 9.312e-13
+ Identities: 55
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J20_B
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 665764124 
+ Accession: 3J7A_C 
+ Score: 64.6994
+ E-value: 6.44996e-12
+ Identities: 50
+ Function: RibosomeINHIBITOR
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J7A_C
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 319443357 
+ Accession: 2XZM_B 
+ Score: 56.6102
+ E-value: 4.11642e-09
+ Identities: 55
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2XZM_B
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 281500808 
+ Accession: 3JYV_B 
+ Score: 53.9138
+ E-value: 1.75904e-08
+ Identities: 49
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3JYV_B
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 49258822 
+ Accession: 1S1H_B 
+ Score: 53.5286
+ E-value: 2.1816e-08
+ Identities: 49
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1S1H_B
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 313103664 
+ Accession: 3IZB_A 
+ Score: 54.6842
+ E-value: 2.18212e-08
+ Identities: 49
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3IZB_A
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+Hsp num :1
+ Gi: 699027831 
+ Accession: 4UJF_B 
+ Score: 54.6842
+ E-value: 2.20344e-08
+ Identities: 49
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4UJF_B
+------------------------------------------------------------------
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 635575167 
+ Accession: 4CUY_A 
+ Score: 53.9138
+ E-value: 2.21075e-08
+ Identities: 49
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4CUY_A
+------------------------------------------------------------------
+
+
+Hit num: 28
+
+Hsp num :1
+ Gi: 449802196 
+ Accession: 3ZEY_C 
+ Score: 54.299
+ E-value: 3.27079e-08
+ Identities: 53
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ZEY_C
+------------------------------------------------------------------
+
+
+Hit num: 29
+
+Hsp num :1
+ Gi: 704360238 
+ Accession: 3J80_A 
+ Score: 51.9878
+ E-value: 1.52654e-07
+ Identities: 49
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J80_A
+------------------------------------------------------------------
+
+
+Hit num: 30
+
+Hsp num :1
+ Gi: 582044882 
+ Accession: 3J60_A 
+ Score: 47.3654
+ E-value: 5.61126e-06
+ Identities: 46
+ Function: Ribosome
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J60_A
+------------------------------------------------------------------
+
+
+Hit num: 31
+
+
+Hit num: 32
+
+
+Hit num: 33
+
+
+Hit num: 34
+
+
+Hit num: 35
+
+
+Hit num: 36
+
+
+Hit num: 37
+
+
+Hit num: 38
+
+
+Hit num: 39
+
+
+Hit num: 40
+
+
+Hit num: 41
+
+
+Hit num: 42
+
+
+Hit num: 43
+
+
+Hit num: 44
+
+
+Hit num: 45
+
+
+Hit num: 46
+
+
+Hit num: 47
+
+
+Hit num: 48
+
+
+Hit num: 49
+
+
+Hit num: 50
+
+

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_67121</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611774</BlastOutput_query-def>
+  <BlastOutput_query-len>803</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_67121</Iteration_query-ID>
+  <Iteration_query-def>2611774</Iteration_query-def>
+  <Iteration_query-len>803</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|756142644|pdb|4S1B|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of L. Monocytogenes Phosphodiesterase Pgph Hd Domain In Complex With Cyclic-di-amp &gt;gi|756142645|pdb|4S1B|D Chain D, Crystal Structure Of L. Monocytogenes Phosphodiesterase Pgph Hd Domain In Complex With Cyclic-di-amp &gt;gi|756142646|pdb|4S1C|D Chain D, Crystal Structure Of L. Monocytogenes Phosphodiesterase Pgph Hd Domain &gt;gi|756142647|pdb|4S1C|A Chain A, Crystal Structure Of L. Monocytogenes Phosphodiesterase Pgph Hd Domain</Hit_def>
+  <Hit_accession>4S1B_A</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>1.60389e-57</Hsp_evalue>
+      <Hsp_query-from>567</Hsp_query-from>
+      <Hsp_query-to>783</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>NVPIMKKMLLTVSGTYNHTMMVATLAENACRSIGAHSLLARVGAYYHDIGKMENGEYFVENQ-TGDSKHLDLNPRLSATVIRSHVKLGVEKAHQLRLPQEVIDIIAEHHGNSLITYFYEKARELDPNVDREDFTYPGVPPRTKESAVVMLADVVEASCRTLNKPTIPRLGKFIDKVVQQKIETHQLDNSDLTFRDVQVVKECFVRILAGYYHSRIEYP</Hsp_qseq>
+      <Hsp_hseq>NHPLLKKILMKAPGTYHHSMMVANLAEACADKIGANSLLVRVGCFYHDIGKTLRPPYFVENQLQGINPHDRLTPEQSRDIILSHTKDGAEILKENHMPQPIIDIALQHHGTTLLKYFYFKAKETNPDVKEADYRYSGPKPQTKEIAIINISDSVEAAVRSSTEPTMAKITEIIDGIIKDRFLDGQFTECDITIQEIKIIRDTLIATLNGIYHQRIQYP</Hsp_hseq>
+      <Hsp_midline>N P++KK+L+   GTY+H+MMVA LAE     IGA+SLL RVG +YHDIGK     YFVENQ  G + H  L P  S  +I SH K G E   +  +PQ +IDI  +HHG +L+ YFY KA+E +P+V   D+ Y G  P+TKE A++ ++D VEA+ R+  +PT+ ++ + ID +++ +    Q    D+T ++++++++  +  L G YH RI+YP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|970842022|pdb|4ZXH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Holo-ab3403 A Four Domain Nonribosomal Peptide Synthetase From Acinetobacter Baumanii &gt;gi|970842023|pdb|4ZXI|A Chain A, Crystal Structure Of Holo-ab3403 A Four Domain Nonribosomal Peptide Synthetase Bound To Amp And Glycine</Hit_def>
+  <Hit_accession>4ZXH_A</Hit_accession>
+  <Hit_len>1320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.87613</Hsp_evalue>
+      <Hsp_query-from>569</Hsp_query-from>
+      <Hsp_query-to>644</Hsp_query-to>
+      <Hsp_hit-from>718</Hsp_hit-from>
+      <Hsp_hit-to>792</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>PIMKKMLLTVSGTYNHTMMVATLAENACRSIGAHSLLARVGAYYHDIGKMENGEYFVENQTGDSKHLDLNPRLSAT</Hsp_qseq>
+      <Hsp_hseq>PATWKMLLDSEWSGN-AGLTALCGGEALDTILAEKLLGKVGCLWNVYGPTETTVWSSAARITDAKYIDLGEPLANT</Hsp_hseq>
+      <Hsp_midline>P   KMLL    + N   + A     A  +I A  LL +VG  ++  G  E   +    +  D+K++DL   L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|82407893|pdb|2ATZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Hp0184 From Helicobacter Pylori</Hit_def>
+  <Hit_accession>2ATZ_A</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>6.50508</Hsp_evalue>
+      <Hsp_query-from>617</Hsp_query-from>
+      <Hsp_query-to>689</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>KMENGEYFVENQTGDSKHLD------------LNPRLSATVIRSHVKLGVEKAHQLRLPQEVIDIIAEHHGNSLITYFYEKAREL</Hsp_qseq>
+      <Hsp_hseq>KIDTSHYF-EKKPGLGERVDYAGRCFYNKFQRVNAXLTSSLIQKHLKREIEIAHNLILRNDKVENIVFDYNGRNPERFYHKAQLL</Hsp_hseq>
+      <Hsp_midline>K++   YF E + G  + +D            +N  L++++I+ H+K  +E AH L L  + ++ I   +       FY KA+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|538261139|pdb|4HQB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ddrb From Deinococcus Radiodurans Bound To Ssdna &gt;gi|538261140|pdb|4HQB|B Chain B, Crystal Structure Of Ddrb From Deinococcus Radiodurans Bound To Ssdna &gt;gi|538261141|pdb|4HQB|C Chain C, Crystal Structure Of Ddrb From Deinococcus Radiodurans Bound To Ssdna &gt;gi|538261142|pdb|4HQB|D Chain D, Crystal Structure Of Ddrb From Deinococcus Radiodurans Bound To Ssdna &gt;gi|538261143|pdb|4HQB|E Chain E, Crystal Structure Of Ddrb From Deinococcus Radiodurans Bound To Ssdna &gt;gi|822599286|pdb|4NOE|A Chain A, Crystal Structure Of Ddrb Bound To 30b Ssdna &gt;gi|822599287|pdb|4NOE|B Chain B, Crystal Structure Of Ddrb Bound To 30b Ssdna &gt;gi|822599288|pdb|4NOE|C Chain C, Crystal Structure Of Ddrb Bound To 30b Ssdna &gt;gi|822599289|pdb|4NOE|D Chain D, Crystal Structure Of Ddrb Bound To 30b Ssdna &gt;gi|822599290|pdb|4NOE|E Chain E, Crystal Structure Of Ddrb Bound To 30b Ssdna</Hit_def>
+  <Hit_accession>4HQB_A</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.65006</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>NLADFAVGRVAERNVVSPVFLSLTDELATQRQYARRKKEIPAVFERRLDLEQA</Hsp_qseq>
+      <Hsp_hseq>NEADFDWSLIGARKWKSPE----GEELVIHRGHAYRRRELEAVDSRKLKLPAA</Hsp_hseq>
+      <Hsp_midline>N ADF    +  R   SP      +EL   R +A R++E+ AV  R+L L  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|299689246|pdb|3MMR|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Plasmodium Falciparum Arginase In Complex With Abh &gt;gi|340780650|pdb|3SL0|A Chain A, Crystal Structure Of P. Falciparum Arginase Complexed With 2-Amino-6- Borono-2-(Difluoromethyl)hexanoic Acid &gt;gi|340780651|pdb|3SL1|A Chain A, Crystal Structure Of P. Falciparum Arginase Complexed With 2-Amino-6- Borono-2-Methylhexanoic Acid</Hit_def>
+  <Hit_accession>3MMR_A</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.32855</Hsp_evalue>
+      <Hsp_query-from>591</Hsp_query-from>
+      <Hsp_query-to>622</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>LAENACRSIGAHSLLARVGAYYHDIGKMENGE</Hsp_qseq>
+      <Hsp_hseq>LACDDLRKLGLHNVIDVLGWKYEDIGNIDNGD</Hsp_hseq>
+      <Hsp_midline>LA +  R +G H+++  +G  Y DIG ++NG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

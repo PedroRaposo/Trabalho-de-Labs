@@ -1,0 +1,111 @@
+LOCUS       4JKY_A                   203 aa            linear   BCT 18-FEB-2015
+DEFINITION  Chain A, Cobalt Between Two Adp's In The Active Site Of Adenylate
+            Kinase.
+ACCESSION   4JKY_A
+VERSION     4JKY_A  GI:659835213
+DBSOURCE    pdb: molecule 4JKY, chain 65, release Feb 18, 2015;
+            deposition: Mar 12, 2013;
+            class: Transferase;
+            source: Mmdb_id: 120941, Pdb_id 1: 4JKY;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Aquifex aeolicus VF5
+  ORGANISM  Aquifex aeolicus VF5
+            Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+REFERENCE   1  (residues 1 to 203)
+  AUTHORS   Kerns,S.J., Agafonov,R.V., Cho,Y.J., Pontiggia,F., Otten,R.,
+            Pachov,D.V., Kutter,S., Phung,L.A., Murphy,P.N., Thai,V., Alber,T.,
+            Hagan,M.F. and Kern,D.
+  TITLE     The energy landscape of adenylate kinase during catalysis
+  JOURNAL   Nat. Struct. Mol. Biol. 22 (2), 124-131 (2015)
+   PUBMED   25580578
+REFERENCE   2  (residues 1 to 203)
+  AUTHORS   Cho,Y.-J. and Kern,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAR-2013)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..203
+                     /organism="Aquifex aeolicus VF5"
+                     /db_xref="taxon:224324"
+     Region          1..203
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     Region          join(1..112,170..203)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          1..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..194
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          13..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..31
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(31,36,59,81..82,84..85,89)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          32..41
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(36,81,85,124,161,165)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          44..55
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          61..71
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          77..82
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          87..100
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          105..111
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          113..169
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          114..123
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          124..129
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          130..136
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          155..167
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          172..179
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          181..186
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          191..202
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 milvflgppg agkgtqakrl akekgfvhis tgdilreavq kgtplgkkak eymergelvp
+       61 ddliialiee vfpkhgnvif dgfprtvkqa ealdemlekk glkvdhvllf evpdevvier
+      121 lsgrrinpet gevyhvkynp pppgvkviqr eddkpevikk rlevyreqta plieyykkkg
+      181 ilriidaskp veevyrqvle vig
+//
+

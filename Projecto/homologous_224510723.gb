@@ -1,0 +1,116 @@
+LOCUS       3FIH_B                   218 aa            linear   BCT 11-OCT-2012
+DEFINITION  Chain B, Ternary Complex-Bound E.Coli 70s Ribosome. This Entry
+            Consists Of The 30s Subunit, Trnas And The Ternary Complex.
+ACCESSION   3FIH_B
+VERSION     3FIH_B  GI:224510723
+DBSOURCE    pdb: molecule 3FIH, chain 66, release Feb 15, 2012;
+            deposition: Dec 11, 2008;
+            class: Ribosome;
+            source: Mmdb_id: 99478, Pdb_id 1: 3FIH, Pdb_id 2: 3FIK;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 218)
+  AUTHORS   Trabuco,L.G., Villa,E., Mitra,K., Frank,J. and Schulten,K.
+  TITLE     Flexible fitting of atomic structures into electron microscopy maps
+            using molecular dynamics
+  JOURNAL   Structure 16 (5), 673-683 (2008)
+   PUBMED   18462672
+REFERENCE   2  (residues 1 to 218)
+  AUTHORS   LeBarron,J., Grassucci,R.A., Shaikh,T.R., Baxter,W.T., Sengupta,J.
+            and Frank,J.
+  TITLE     Exploration of parameters in cryo-EM leading to an improved density
+            map of the E. coli ribosome
+  JOURNAL   J. Struct. Biol. 164 (1), 24-32 (2008)
+   PUBMED   18606549
+REFERENCE   3  (residues 1 to 218)
+  AUTHORS   Villa,E., Sengupta,J., Trabuco,L.G., LeBarron,J., Baxter,W.T.,
+            Shaikh,T.R., Grassucci,R.A., Nissen,P., Ehrenberg,M., Schulten,K.
+            and Frank,J.
+  TITLE     Ribosome-induced changes in elongation factor Tu conformation
+            control GTP hydrolysis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 106 (4), 1063-1068 (2009)
+   PUBMED   19122150
+REFERENCE   4  (residues 1 to 218)
+  AUTHORS   Villa,E., Sengupta,J., Trabuco,L.G., Lebarron,J., Baxter,W.T.,
+            Sha,T.R., Grassucci,R.A., Nissen,P., Ehrenberg,M., Schulten,K. and
+            Frank,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-DEC-2008)
+COMMENT     13 30s Ribosomal Protein S2.
+FEATURES             Location/Qualifiers
+     source          1..218
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          1..215
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     Region          1..36
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          8..11
+                     /sec_str_type="sheet"
+                     /note="strand 45"
+     Site            order(17..18,27..29,87,89..91,94..95,167,170)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          23..28
+                     /sec_str_type="sheet"
+                     /note="strand 46"
+     SecStr          29..34
+                     /sec_str_type="sheet"
+                     /note="strand 47"
+     Region          37..218
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          38..45
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          59..64
+                     /sec_str_type="sheet"
+                     /note="strand 48"
+     SecStr          81..86
+                     /sec_str_type="sheet"
+                     /note="strand 49"
+     SecStr          99..108
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          126..137
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          152..156
+                     /sec_str_type="sheet"
+                     /note="strand 50"
+     SecStr          162..170
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     Site            order(169..170,172,186..189)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          174..179
+                     /sec_str_type="sheet"
+                     /note="strand 51"
+     SecStr          189..193
+                     /sec_str_type="sheet"
+                     /note="strand 52"
+     Site            204..209
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+ORIGIN      
+        1 mlkagvhfgh qtrywnpkmk pfifgarnkv hiinlektvp mfnealaeln kiasrkgkil
+       61 fvgtkraase avkdaalscd qffvnhrwlg gmltnwktvr qsikrlkdle tqsqdgtfdk
+      121 ltkkealmrt releklensl ggikdmgglp dalfvidadh ehiaikeann lgipvfaivd
+      181 tnsdpdgvdf vipgnddair avtlylgava atvregrs
+//
+

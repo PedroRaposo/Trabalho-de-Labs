@@ -1,0 +1,81 @@
+LOCUS       1CM2_A                    85 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of His15asp Hpr After Hydrolysis Of Ringed
+            Species.
+ACCESSION   1CM2_A
+VERSION     1CM2_A  GI:8569498
+DBSOURCE    pdb: molecule 1CM2, chain 65, release Jun 18, 2009;
+            deposition: May 13, 1999;
+            class: Transferase;
+            source: Mmdb_id: 13445, Pdb_id 1: 1CM2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 85)
+  AUTHORS   Napper,S., Delbaere,L.T. and Waygood,E.B.
+  TITLE     The aspartyl replacement of the active site histidine in
+            histidine-containing protein, HPr, of the Escherichia coli
+            Phosphoenolpyruvate:Sugar phosphotransferase system can accept and
+            donate a phosphoryl group. Spontaneous dephosphorylation of
+            acyl-phosphate autocatalyzes an internal cyclization
+  JOURNAL   J. Biol. Chem. 274 (31), 21776-21782 (1999)
+   PUBMED   10419492
+REFERENCE   2  (residues 1 to 85)
+  AUTHORS   Napper,S., Delbaere,L.T.J. and Waygood,E.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAY-1999)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..85
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     SecStr          1..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          16..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          57..67
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          70..83
+                     /sec_str_type="helix"
+                     /note="helix 2"
+ORIGIN      
+        1 mfqqevtita pngldtrpaa qfvkeakgft seitvtsngk sasakslfkl qtlgltqgtv
+       61 vtisaegede qkavehlvkl maele
+//
+

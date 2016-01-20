@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_169261</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611266</BlastOutput_query-def>
+  <BlastOutput_query-len>377</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_169261</Iteration_query-ID>
+  <Iteration_query-def>2611266</Iteration_query-def>
+  <Iteration_query-len>377</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|929984804|pdb|4Y2W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Thermostable Alanine Racemase From Thermoanaerobacter Tengcongensis Mb4 &gt;gi|929984805|pdb|4Y2W|B Chain B, Crystal Structure Of A Thermostable Alanine Racemase From Thermoanaerobacter Tengcongensis Mb4</Hit_def>
+  <Hit_accession>4Y2W_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.95043e-66</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>374</Hsp_align-len>
+      <Hsp_qseq>IHLANLRHNLGEIMS--RTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRV-HTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAP-DEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYG-YAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>VYLDAITHNFREIKKIVGKNVKIMAVIKGDAYGHGASYVAKFLEKEGVDYFGVATTEEALELREKGIKTPILIFGYTPPTQLRQIVKHDLTQTVYDIKYAKELEKESLKQNK----RAKVHIKIDTGLGRIGYIDFDLAQKEILEMANMRGLILEGIYSHFAAASE---DDRDYCKEQFDKFMNLISSLEKKRLKIPLKHIANAAAILNLNYSHLDMVRPGIILFGAYPSKRVERKVE--LRETLRFTTRVVHLKDVPAGFFIGYGKSFVTKRKSVIATIPVGYADGLDRRLSNNYKLLLKGKYVPIVGRVCMDQCMIDVTDVEGVEIGDEVVIIGTQN--NETVSVESMADKIETIPQEVFSRISRRVPRVYF</Hsp_hseq>
+      <Hsp_midline>++L  + HN  EI        ++   +K DAYGHGA  VA+     GV  F VA  +EA +LR  G++ PIL        ++  +++H +  TV   +    L   +L+Q+        VH+KIDTG+GRIG    D A   +  +    GL LEG+ +HF+ A     +D  Y + Q   FM+ +  + K  + IPL H AN+AA+L    +H DMVRPG++ +G Y  + V   V       +   T+V  +K +PAG ++ Y + +    ++ +  +P+GYADG+ R LS   ++ + GK+ P+VG +CMDQC++D+     V +GD V + G Q+        + +A    TIP E+   I +RV RVY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|645985741|pdb|4LUT|A</Hit_id>
+  <Hit_def>Chain A, Alanine Racemase [clostridium Difficile 630] Complex With Cycloserine</Hit_def>
+  <Hit_accession>4LUT_A</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>2.01887e-65</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMS--RTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRV-HTVIS-ERAH-IALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLH---LEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>AEINLDNLRFNLNNIKNLLEEDIKICGVIKADAYGHGAVEVAKLLEKEKVDYLAVARTAEGIELRQNGITLPILNLGYTPDEAFEDSIKNKITMTVYSLETAQKINEIAKSLGEKA-----C-VHVKIDSGMTRIGFQPNEES--VQEIIELNKLEYIDLEGMFTHFATADEVSKE---YTYKQANNYKFMSDKLDEAGVKIAIKHVSNSAAIMDCPDLRLNMVRAGIILYGHYPSDDVFKDRLELRPAMKLKSKIGHIKQVEPGVGISYGLKYTTTGKETIATVPIGYADGFTR-IQKNPKVLIKGEVFDVVGRICMDQIMVRIDKDIDIKVGDEVILFGEGEV-----TAERIAKDLGTINYEVLCMISRRVDRVYME</Hsp_hseq>
+      <Hsp_midline>A I+L NLR NL  I +      ++C  +KADAYGHGA +VA+      V   AVA   E  +LR  G+  PIL L     E     I++++  TV S E A  I  IA++L + A     C VHVKID+GM RIG  P+E    VQ +     L    LEG+ THF+ AD V  E   YT  Q  ++      + ++G+ I + H +NSAA++  P    +MVR G++ YG+ P       R    P M+L +++  IK++  G  +SY   +    +  +  +PIGYADG  R +    +V I G+ + VVG ICMDQ +V +   + + VGD V LFG  +       A+ +A   GTI YE+LC I +RV+RVY+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|645985737|pdb|4LUS|B</Hit_id>
+  <Hit_def>Chain B, Alanine Racemase [clostridium Difficile 630]</Hit_def>
+  <Hit_accession>4LUS_B</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>2.13345e-64</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMS--RTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRV-HTVIS-ERAH-IALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLH---LEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>AEINLDNLRFNLNNIKNLLEEDIKICGVIXADAYGHGAVEVAKLLEKEKVDYLAVARTAEGIELRQNGITLPILNLGYTPDEAFEDSIKNKITMTVYSLETAQKINEIAKSLGEKA-----C-VHVKIDSGMTRIGFQPNEES--VQEIIELNKLEYIDLEGMFTHFATADEVSKE---YTYKQANNYKFMSDKLDEAGVKIAIKHVSNSAAIMDCPDLRLNMVRAGIILYGHYPSDDVFKDRLELRPAMKLKSKIGHIKQVEPGVGISYGLKYTTTGKETIATVPIGYADGFTR-IQKNPKVLIKGEVFDVVGRICMDQIMVRIDKDIDIKVGDEVILFGEGEV-----TAERIAKDLGTINYEVLCMISRRVDRVYME</Hsp_hseq>
+      <Hsp_midline>A I+L NLR NL  I +      ++C  + ADAYGHGA +VA+      V   AVA   E  +LR  G+  PIL L     E     I++++  TV S E A  I  IA++L + A     C VHVKID+GM RIG  P+E    VQ +     L    LEG+ THF+ AD V  E   YT  Q  ++      + ++G+ I + H +NSAA++  P    +MVR G++ YG+ P       R    P M+L +++  IK++  G  +SY   +    +  +  +PIGYADG  R +    +V I G+ + VVG ICMDQ +V +   + + VGD V LFG  +       A+ +A   GTI YE+LC I +RV+RVY+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|645985742|pdb|4LUT|B</Hit_id>
+  <Hit_def>Chain B, Alanine Racemase [clostridium Difficile 630] Complex With Cycloserine</Hit_def>
+  <Hit_accession>4LUT_B</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>2.13345e-64</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMS--RTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRV-HTVIS-ERAH-IALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLH---LEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>AEINLDNLRFNLNNIKNLLEEDIKICGVIKADAYGHGAVEVAKLLEKEKVDYLAVARTAEGIELRQNGITLPILNLGYTPDEAFEDSIKNKITMTVYSLETAQKINEIAKSLGEKA-----C-VHVXIDSGMTRIGFQPNEES--VQEIIELNKLEYIDLEGMFTHFATADEVSKE---YTYKQANNYKFMSDKLDEAGVKIAIKHVSNSAAIMDCPDLRLNMVRAGIILYGHYPSDDVFKDRLELRPAMKLKSKIGHIKQVEPGVGISYGLKYTTTGKETIATVPIGYADGFTR-IQKNPKVLIKGEVFDVVGRICMDQIMVRIDKDIDIKVGDEVILFGEGEV-----TAERIAKDLGTINYEVLCMISRRVDRVYME</Hsp_hseq>
+      <Hsp_midline>A I+L NLR NL  I +      ++C  +KADAYGHGA +VA+      V   AVA   E  +LR  G+  PIL L     E     I++++  TV S E A  I  IA++L + A     C VHV ID+GM RIG  P+E    VQ +     L    LEG+ THF+ AD V  E   YT  Q  ++      + ++G+ I + H +NSAA++  P    +MVR G++ YG+ P       R    P M+L +++  IK++  G  +SY   +    +  +  +PIGYADG  R +    +V I G+ + VVG ICMDQ +V +   + + VGD V LFG  +       A+ +A   GTI YE+LC I +RV+RVY+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|645985744|pdb|4LUY|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Cdalr Mutant K 271 T &gt;gi|645985745|pdb|4LUY|B Chain B, Crystal Structure Of Cdalr Mutant K 271 T</Hit_def>
+  <Hit_accession>4LUY_A</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.46</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>1.31273e-63</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMS--RTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRV-HTVIS-ERAH-IALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLH---LEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>AEINLDNLRFNLNNIKNLLEEDIKICGVIXADAYGHGAVEVAKLLEKEKVDYLAVARTAEGIELRQNGITLPILNLGYTPDEAFEDSIKNKITMTVYSLETAQKINEIAKSLGEKA-----C-VHVXIDSGMTRIGFQPNEES--VQEIIELNKLEYIDLEGMFTHFATADEVSKE---YTYKQANNYKFMSDKLDEAGVKIAIKHVSNSAAIMDCPDLRLNMVRAGIILYGHYPSDDVFKDRLELRPAMKLKSKIGHIKQVEPGVGISYGLTYTTTGKETIATVPIGYADGFTR-IQKNPKVLIKGEVFDVVGRICMDQIMVRIDKDIDIKVGDEVILFGEGEV-----TAERIAKDLGTINYEVLCMISRRVDRVYME</Hsp_hseq>
+      <Hsp_midline>A I+L NLR NL  I +      ++C  + ADAYGHGA +VA+      V   AVA   E  +LR  G+  PIL L     E     I++++  TV S E A  I  IA++L + A     C VHV ID+GM RIG  P+E    VQ +     L    LEG+ THF+ AD V  E   YT  Q  ++      + ++G+ I + H +NSAA++  P    +MVR G++ YG+ P       R    P M+L +++  IK++  G  +SY   +    +  +  +PIGYADG  R +    +V I G+ + VVG ICMDQ +V +   + + VGD V LFG  +       A+ +A   GTI YE+LC I +RV+RVY+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|645985736|pdb|4LUS|A</Hit_id>
+  <Hit_def>Chain A, Alanine Racemase [clostridium Difficile 630] &gt;gi|645985738|pdb|4LUS|C Chain C, Alanine Racemase [clostridium Difficile 630] &gt;gi|645985739|pdb|4LUS|D Chain D, Alanine Racemase [clostridium Difficile 630]</Hit_def>
+  <Hit_accession>4LUS_A</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>2.06705e-63</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>372</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>380</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMS--RTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRV-HTVIS-ERAH-IALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLH---LEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>AEINLDNLRFNLNNIKNLLEEDIKICGVIXADAYGHGAVEVAKLLEKEKVDYLAVARTAEGIELRQNGITLPILNLGYTPDEAFEDSIKNKITMTVYSLETAQKINEIAKSLGEKA-----C-VHVXIDSGMTRIGFQPNEES--VQEIIELNKLEYIDLEGMFTHFATADEVSKE---YTYKQANNYKFMSDKLDEAGVKIAIKHVSNSAAIMDCPDLRLNMVRAGIILYGHYPSDDVFKDRLELRPAMKLKSKIGHIKQVEPGVGISYGLKYTTTGKETIATVPIGYADGFTR-IQKNPKVLIKGEVFDVVGRICMDQIMVRIDKDIDIKVGDEVILFGEGEV-----TAERIAKDLGTINYEVLCMISRRVDRVYME</Hsp_hseq>
+      <Hsp_midline>A I+L NLR NL  I +      ++C  + ADAYGHGA +VA+      V   AVA   E  +LR  G+  PIL L     E     I++++  TV S E A  I  IA++L + A     C VHV ID+GM RIG  P+E    VQ +     L    LEG+ THF+ AD V  E   YT  Q  ++      + ++G+ I + H +NSAA++  P    +MVR G++ YG+ P       R    P M+L +++  IK++  G  +SY   +    +  +  +PIGYADG  R +    +V I G+ + VVG ICMDQ +V +   + + VGD V LFG  +       A+ +A   GTI YE+LC I +RV+RVY+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75765474|pdb|1XFC|A</Hit_id>
+  <Hit_def>Chain A, The 1.9 A Crystal Structure Of Alanine Racemase From Mycobacterium Tuberculosis Contains A Conserved Entryway Into The Active Site &gt;gi|75765475|pdb|1XFC|B Chain B, The 1.9 A Crystal Structure Of Alanine Racemase From Mycobacterium Tuberculosis Contains A Conserved Entryway Into The Active Site</Hit_def>
+  <Hit_accession>1XFC_A</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.608</Hsp_bit-score>
+      <Hsp_score>527</Hsp_score>
+      <Hsp_evalue>4.34415e-62</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>QALIHLANLRHNLGEIMSRT-RARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALV---QMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSV-FLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGT-PLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>EAMVDLGAIEHNVRVLREHAGHAQLMAVVKADGYGHGATRVAQTALGAGAAELGVATVDEALALRADGITAPVLAWLHPPGIDFGPALLADVQVAVSSLRQLDELLHAVRR---TGRTATVTVKVDTGLNRNGVGPAQFPAMLTALRQAMAEDAVRLRGLMSHMVYADK---PDDSINDVQAQRFTAFLAQAREQGVRFEVAHLSNSSATMARPDLTFDLVRPGIAVYGLSPV---PALGDMGLVPAMTVKCAVALVKSIRAGEGVSYGHTWIAPRDTNLALLPIGYADGVFRSLGGRLEVLINGRRCPGVGRICMDQFMVDLGPGPLDVAEGDEAILFGPGIRGEP--TAQDWADLVGTIHYEVVTSPRGRITRTY</Hsp_hseq>
+      <Hsp_midline>+A++ L  + HN+  +      A++   VKAD YGHGA  VAQ AL  G     VA V EA  LRA G+ AP+L    P   +    +   V   +S    +  +  A+R+   TG T  V VK+DTG+ R G  P +  A++   +   A   + L G+ +H   AD     D    ++Q   F   +   R+ G+   + H +NS+A +  P   FD+VRPG+  YG +P    PA+  +  +P M +   V  +K I AG  VSY   W A  +T++ +LPIGYADGV R+L   L+V I G+  P VG ICMDQ +VDLG  PL V  GD   LFGP   G P   A   A   GTI YE++ +   R+ R Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1942328|pdb|1SFT|A</Hit_id>
+  <Hit_def>Chain A, Alanine Racemase &gt;gi|1942329|pdb|1SFT|B Chain B, Alanine Racemase &gt;gi|3891941|pdb|1BD0|A Chain A, Alanine Racemase Complexed With Alanine Phosphonate &gt;gi|3891942|pdb|1BD0|B Chain B, Alanine Racemase Complexed With Alanine Phosphonate</Hit_def>
+  <Hit_accession>1SFT_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.64599e-58</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACA-LVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>VKANAYGHGDVQVARTALEAGASRLAVAFLDEALALREKGIEAPILVLGASRPADAALAAQQRIALTVF-RSDWLEEASALYSGP---FPIHFHLKMDTGMGRLGVKDEEETKRIVALIERHPHFVLEGLYTHFATADEVNTDYFSY---QYTRFLHMLEWLPSRP---PLVHCANSAASLRFPDRTFNMVRFGIAMYGLAPSPGIKPLLPYPLKEAFSLHSRLVHVKKLQPGEKVSYGATYTAQTEEWIGTIPIGYADGWLRRLQ-HFHVLVDGQKAPIVGRICMDQCMIRLPGPL--PVGTKVTLIGRQ--GDEVISIDDVARHLETINYEVPCTISYRVPRIFFR</Hsp_hseq>
+      <Hsp_midline>VKA+AYGHG   VA+ AL  G    AVA + EA  LR  G+ APIL L      + +   + R+   +  R+     A AL            H+K+DTGMGR+G   +E    +V ++   P   LEG+ THF+ AD V  +   Y   Q   F+H ++++       PLVH ANSAA L  P   F+MVR G+  YG AP   + P +         L +++  +KK+  G  VSY   + A TE  +G +PIGYADG +R L     V + G+  P+VG ICMDQC++ L  PL   VG +VTL G Q  G      D +A H  TI YE+ C I  RV R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|258588448|pdb|3HA1|A</Hit_id>
+  <Hit_def>Chain A, Alanine Racemase From Bacillus Anthracis (Ames) &gt;gi|258588449|pdb|3HA1|B Chain B, Alanine Racemase From Bacillus Anthracis (Ames)</Hit_def>
+  <Hit_accession>3HA1_A</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>8.91901e-58</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAP-DEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>VXGNAYGHDYVPVAKIALEAGATRLAVAFLDEALVLRRAGITAPILVLGPSPPRDINVAAENDVALTVFQK---EWVDEAIKL-WDGSSTMKYHINFDSGMGRIGIRERKELKGFLKSLEGAPFLELEGVYTHFATADEV---ETSYFDKQYNTFLEQLSWLKEFGVDPKFVHTANSAATLRFQGITFNAVRIGIAMYGLSPSVEIRPFLPFKLEPALSLHTKVAHIKQVIKGDGISYNVTYRTKTEEWIATVAIGYADGWLRRLQ-GFEVLVNGKRVPIVGRVTMDQFMIHL--PCEVPLGTKVTLIGRQ--GDEYISATEVAEYSGTINYEIITTISFRVPRIFIR</Hsp_hseq>
+      <Hsp_midline>V  +AYGH    VA+ AL  G    AVA + EA  LR AG+ APIL L      +I+   E+ V   + ++     +  A++   D  +T   H+  D+GMGRIG     E    ++ +   P L LEGV THF+ AD V   +  Y + Q   F+  + ++++ G+    VH ANSAA L      F+ VR G+  YG +P   + P +     P + L T+V  IK++  G  +SY   +R  TE  +  + IGYADG +R L  G +V + GK  P+VG + MDQ ++ L  P  V +G +VTL G Q  G     A  +A ++GTI YE++  I  RV R++IR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|4558012|pdb|2SFP|A</Hit_id>
+  <Hit_def>Chain A, Alanine Racemase With Bound Propionate Inhibitor &gt;gi|4558013|pdb|2SFP|B Chain B, Alanine Racemase With Bound Propionate Inhibitor &gt;gi|21465981|pdb|1L6F|A Chain A, Alanine Racemase Bound With N-(5&apos;-Phosphopyridoxyl)-L- Alanine &gt;gi|21465982|pdb|1L6F|B Chain B, Alanine Racemase Bound With N-(5&apos;-Phosphopyridoxyl)-L- Alanine &gt;gi|21465983|pdb|1L6G|A Chain A, Alanine Racemase Bound With N-(5&apos;-Phosphopyridoxyl)-D- Alanine &gt;gi|21465984|pdb|1L6G|B Chain B, Alanine Racemase Bound With N-(5&apos;-Phosphopyridoxyl)-D- Alanine &gt;gi|37926920|pdb|1NIU|A Chain A, Alanine Racemase With Bound Inhibitor Derived From L- Cycloserine &gt;gi|37926921|pdb|1NIU|B Chain B, Alanine Racemase With Bound Inhibitor Derived From L- Cycloserine</Hit_def>
+  <Hit_accession>2SFP_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>1.45862e-57</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACA-LVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>VKANAYGHGDVQVARTALEAGASRLAVAFLDEALALREKGIEAPILVLGASRPADAALAAQQRIALTVF-RSDWLEEASALYSGP---FPIHFHLXMDTGMGRLGVKDEEETKRIVALIERHPHFVLEGLYTHFATADEVNTDYFSY---QYTRFLHMLEWLPSRP---PLVHCANSAASLRFPDRTFNMVRFGIAMYGLAPSPGIKPLLPYPLKEAFSLHSRLVHVKKLQPGEKVSYGATYTAQTEEWIGTIPIGYADGWLRRLQ-HFHVLVDGQKAPIVGRICMDQCMIRLPGPL--PVGTKVTLIGRQ--GDEVISIDDVARHLETINYEVPCTISYRVPRIFFR</Hsp_hseq>
+      <Hsp_midline>VKA+AYGHG   VA+ AL  G    AVA + EA  LR  G+ APIL L      + +   + R+   +  R+     A AL            H+ +DTGMGR+G   +E    +V ++   P   LEG+ THF+ AD V  +   Y   Q   F+H ++++       PLVH ANSAA L  P   F+MVR G+  YG AP   + P +         L +++  +KK+  G  VSY   + A TE  +G +PIGYADG +R L     V + G+  P+VG ICMDQC++ L  PL   VG +VTL G Q  G      D +A H  TI YE+ C I  RV R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|28373266|pdb|1EPV|A</Hit_id>
+  <Hit_def>Chain A, Alanine Racemase With Bound Inhibitor Derived From D- Cycloserine &gt;gi|28373267|pdb|1EPV|B Chain B, Alanine Racemase With Bound Inhibitor Derived From D- Cycloserine &gt;gi|28373268|pdb|1FTX|A Chain A, Crystal Stucture Of Alanine Racemase In Complex With D- Alanine Phosphonate &gt;gi|28373269|pdb|1FTX|B Chain B, Crystal Stucture Of Alanine Racemase In Complex With D- Alanine Phosphonate</Hit_def>
+  <Hit_accession>1EPV_A</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>1.58216e-57</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACA-LVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>VKANAYGHGDVQVARTALEAGASRLAVAFLDEALALREKGIEAPILVLGASRPADAALAAQQRIALTVF-RSDWLEEASALYSGP---FPIHFHLXMDTGMGRLGVKDEEETKRIVALIERHPHFVLEGLYTHFATADEVNTDYFSY---QYTRFLHMLEWLPSRP---PLVHCANSAASLRFPDRTFNMVRFGIAMYGLAPSPGIKPLLPYPLKEAFSLHSRLVHVKKLQPGEKVSYGATYTAQTEEWIGTIPIGYADGWLRRLQ-HFHVLVDGQKAPIVGRICMDQCMIRLPGPL--PVGTKVTLIGRQ--GDEVISIDDVARHLETINYEVPCTISYRVPRIFFR</Hsp_hseq>
+      <Hsp_midline>VKA+AYGHG   VA+ AL  G    AVA + EA  LR  G+ APIL L      + +   + R+   +  R+     A AL            H+ +DTGMGR+G   +E    +V ++   P   LEG+ THF+ AD V  +   Y   Q   F+H ++++       PLVH ANSAA L  P   F+MVR G+  YG AP   + P +         L +++  +KK+  G  VSY   + A TE  +G +PIGYADG +R L     V + G+  P+VG ICMDQC++ L  PL   VG +VTL G Q  G      D +A H  TI YE+ C I  RV R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|60594046|pdb|1XQK|A</Hit_id>
+  <Hit_def>Chain A, Effect Of A Y265f Mutant On The Transamination Based Cycloserine Inactivation Of Alanine Racemase &gt;gi|60594047|pdb|1XQK|B Chain B, Effect Of A Y265f Mutant On The Transamination Based Cycloserine Inactivation Of Alanine Racemase &gt;gi|60594048|pdb|1XQL|A Chain A, Effect Of A Y265f Mutant On The Transamination Based Cycloserine Inactivation Of Alanine Racemase &gt;gi|60594049|pdb|1XQL|B Chain B, Effect Of A Y265f Mutant On The Transamination Based Cycloserine Inactivation Of Alanine Racemase</Hit_def>
+  <Hit_accession>1XQK_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>4.33761e-57</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACA-LVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>VKANAYGHGDVQVARTALEAGASRLAVAFLDEALALREKGIEAPILVLGASRPADAALAAQQRIALTVF-RSDWLEEASALYSGP---FPIHFHLXMDTGMGRLGVKDEEETKRIVALIERHPHFVLEGLYTHFATADEVNTDYFSY---QYTRFLHMLEWLPSRP---PLVHCANSAASLRFPDRTFNMVRFGIAMYGLAPSPGIKPLLPYPLKEAFSLHSRLVHVKKLQPGEKVSFGATYTAQTEEWIGTIPIGYADGWLRRLQ-HFHVLVDGQKAPIVGRICMDQCMIRLPGPL--PVGTKVTLIGRQ--GDEVISIDDVARHLETINYEVPCTISYRVPRIFFR</Hsp_hseq>
+      <Hsp_midline>VKA+AYGHG   VA+ AL  G    AVA + EA  LR  G+ APIL L      + +   + R+   +  R+     A AL            H+ +DTGMGR+G   +E    +V ++   P   LEG+ THF+ AD V  +   Y   Q   F+H ++++       PLVH ANSAA L  P   F+MVR G+  YG AP   + P +         L +++  +KK+  G  VS+   + A TE  +G +PIGYADG +R L     V + G+  P+VG ICMDQC++ L  PL   VG +VTL G Q  G      D +A H  TI YE+ C I  RV R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|256032536|pdb|3E5P|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alanine Racemase From E.Faecalis &gt;gi|256032537|pdb|3E5P|B Chain B, Crystal Structure Of Alanine Racemase From E.Faecalis &gt;gi|256032538|pdb|3E5P|C Chain C, Crystal Structure Of Alanine Racemase From E.Faecalis &gt;gi|256032547|pdb|3E6E|A Chain A, Crystal Structure Of Alanine Racemase From E.Faecalis Complex With Cycloserine &gt;gi|256032548|pdb|3E6E|B Chain B, Crystal Structure Of Alanine Racemase From E.Faecalis Complex With Cycloserine &gt;gi|256032549|pdb|3E6E|C Chain C, Crystal Structure Of Alanine Racemase From E.Faecalis Complex With Cycloserine</Hit_def>
+  <Hit_accession>3E5P_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>1.89789e-54</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIG-CAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIP-LVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>VKANGYGHGAVESAKAAKKGGATGFCVALLDEAIELREAGVQDPILILSVVDLAYVPLLIQYDLSVTVATQEWLEAALQQLTPESNT--PLRVHLKVDTGMGRIGFLTPEETKQAVRFVQSHKEFLWEGIFTHFSTADEI---DTSYFEKQAGRFKAVLAVLEE----LPRYVHVSNSATALWHPDVPGNMIRYGVAMYGLNPSGNKLAPSYALKPALRLTSELIHVKRLAAGEGIGYGETYVTEAEEWIGTVPIGYADGWLRHLQ-GFTVLVNGKRCEIVGRVCMDQCMIRLAE--EVPVGPVVTLVGKD--GNEENTLQMVAEKLETIHYEVACTFSQRIPREY</Hsp_hseq>
+      <Hsp_midline>VKA+ YGHGA + A+AA   G   F VA + EA +LR AGV+ PIL LS      +  LI++ +   ++ +  +    + L   ++T     VH+K+DTGMGRIG   P+E    V+ V +      EG+ THFS AD +   D  Y E Q   F   +  + +    +P  VH +NSA  L HP    +M+R G+  YG  P     A      P + L +++  +K++ AG  + Y   +    E  +G +PIGYADG +R L  G  V + GK   +VG +CMDQC++ L     V VG  VTL G    G       ++A    TI YE+ C   +R+ R Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|188595863|pdb|2VD9|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Alanine Racemase From Bacillus Anthracis (Ba0252) With Bound L-Ala-P &gt;gi|188595864|pdb|2VD9|B Chain B, The Crystal Structure Of Alanine Racemase From Bacillus Anthracis (Ba0252) With Bound L-Ala-P &gt;gi|817599246|pdb|2VD8|A Chain A, The Crystal Structure Of Alanine Racemase From Bacillus Anthracis (ba0252) &gt;gi|817599247|pdb|2VD8|B Chain B, The Crystal Structure Of Alanine Racemase From Bacillus Anthracis (ba0252)</Hit_def>
+  <Hit_accession>2VD9_A</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>7.82692e-54</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>348</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAP-DEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>VKGNAYGHDYVPVAXIALEAGATRLAVAFLDEALVLRRAGITAPILVLGPSPPRDINVAAENDVALTVFQX---EWVDEAIXL-WDGSSTMXYHINFDSGMGRIGIRERXELXGFLXSLEGAPFLELEGVYTHFATADEVET---SYFDXQYNTFLEQLSWLXEFGVDPXFVHTANSAATLRFQGITFNAVRIGIAMYGLSPSVEIRPFLPFXLEPALSLHTXVAHIKQVIXGDGISYNVTYRTXTEEWIATVAIGYADGWLRRLQ-GFEVLVNGXRVPIVGRVTMDQFMIHL--PCEVPLGTXVTLIGRQ--GDEYISATEVAEYSGTINYEIITTISFRVPRIFIR</Hsp_hseq>
+      <Hsp_midline>VK +AYGH    VA  AL  G    AVA + EA  LR AG+ APIL L      +I+   E+ V   + +      +  A+    D  +T   H+  D+GMGRIG     E    +  +   P L LEGV THF+ AD V      Y + Q   F+  + ++ + G+    VH ANSAA L      F+ VR G+  YG +P   + P +     P + L T V  IK++  G  +SY   +R  TE  +  + IGYADG +R L  G +V + G   P+VG + MDQ ++ L  P  V +G  VTL G Q  G     A  +A ++GTI YE++  I  RV R++IR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|384482567|pdb|4ECL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Cytoplasmic Domain Of Vancomycin Resistance Serine Racemase Vantg &gt;gi|384482568|pdb|4ECL|B Chain B, Crystal Structure Of The Cytoplasmic Domain Of Vancomycin Resistance Serine Racemase Vantg &gt;gi|384482569|pdb|4ECL|C Chain C, Crystal Structure Of The Cytoplasmic Domain Of Vancomycin Resistance Serine Racemase Vantg &gt;gi|384482570|pdb|4ECL|D Chain D, Crystal Structure Of The Cytoplasmic Domain Of Vancomycin Resistance Serine Racemase Vantg</Hit_def>
+  <Hit_accession>4ECL_A</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>1.73484e-52</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>IHLANLRHNLGEIMSRTRARVCLP--VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRV-HTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFL-PVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQ-VCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVE</Hsp_qseq>
+      <Hsp_hseq>INLNNLEHNVNTLQKAXSPKCELXAVVKAEAYGHGXYEVTTYLEQIGVSSFAVATIDEGIRLRKYGISSEILILGYTSPSRAKELCKYELTQTLIDYRYSLLLN----KQGYDIKA----HIKIDTGXHRLGFSTEDKDKIL-AAFSLKHIKVAGIFTHLCAADSLEENDVAFTNKQIGSFYKVLDWLKSSGLNIPKVHIQSSYGLLNYPELECDYIRVGVALYGVLSSTNDKTKLELDLRPVLSLKAKVVLIRKIKQGESVGYSRAFTATRDSLIAILPIGYADGFPRNLSCGNSYVLIGGRQAPIVGKICXDQLAVDVTDIPNVKTGSIATLIGKD--GKEEITAPXVAESAESITNELLSRXGHRLN</Hsp_hseq>
+      <Hsp_midline>I+L NL HN+  +      +  L   VKA+AYGHG  +V       GV SFAVA + E  +LR  G+ + IL L   +      L ++ +  T+I  R  + L     +Q  D  A    H+KIDTG  R+G + ++   ++    +   + + G+ TH   ADS+   D+ +T  Q   F   + +++ SG++IP VH  +S  LL +P    D +R G+  YG    +       + L PV+ L  +V  I+KI  G  V Y R + A  ++ + ILPIGYADG  R LS G   V IGG+  P+VG IC DQ  VD+     V  G   TL G    G     A  +A  A +I  ELL   G R+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|49258690|pdb|1RCQ|A</Hit_id>
+  <Hit_def>Chain A, The 1.45 A Crystal Structure Of Alanine Racemase From A Pathogenic Bacterium, Pseudomonas Aeruginosa, Contains Both Internal And External Aldimine Forms</Hit_def>
+  <Hit_accession>1RCQ_A</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>4.74978e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAP-ESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>MRPARALIDLQALRHNYRLAREATGARALAVIKADAYGHGAVRCAEA-LAAEADGFAVACIEEGLELREAGIRQPILLLEGFFEASELELIVAHDFWCVV----HCAWQLEAI-ERASLARPLNVWLXMDSGMHRVGFFPEDFRAAHERLRASGKVAKIVMMSHFSRADEL---DCPRTEEQLAAFSAASQGLEGE------ISLRNSPAVLGWPKVPSDWVRPGILLYGATPFERAHP-LADRLRPVMTLESKVISVRDLPAGEPVGYGARYSTERRQRIGVVAMGYADGYPRHAADGTLVFIDGKPGRLVGRVSMDMLTVDLTDHPQAGLGSRVELWGPNVPVG------ALAAQFGSIPYQLLCNL-KRVPRVY</Hsp_hseq>
+      <Hsp_midline>M   +ALI L  LRHN       T AR    +KADAYGHGA   A+A L+     FAVAC++E  +LR AG+R PIL L     A E+  ++ H    V+    H A    A+ + A       V + +D+GM R+G  P++  A  + + A+  +    + +HFS AD +   D   TE Q A F    Q +         +   NS A+L  P+   D VRPG+L YG  P E  HP +     PVM L ++V +++ +PAG  V Y   +       +G++ +GYADG  R  + G  V I GK   +VG + MD   VDL    +  +G RV L+GP    G       LA+  G+IPY+LLC + KRV RVY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|308198664|pdb|3OO2|A</Hit_id>
+  <Hit_def>Chain A, 2.37 Angstrom Resolution Crystal Structure Of An Alanine Racemase (Alr) From Staphylococcus Aureus Subsp. Aureus Col &gt;gi|308198665|pdb|3OO2|B Chain B, 2.37 Angstrom Resolution Crystal Structure Of An Alanine Racemase (Alr) From Staphylococcus Aureus Subsp. Aureus Col</Hit_def>
+  <Hit_accession>3OO2_A</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>1.11417e-48</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEAC-ALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAP-ESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>VKANAYGLGSVKVARHLMENGATFFAVATLDEAIELRMHGITAKILVLGVLPAKDIDKAIQHRVALTVPSKQWLKEAIKNI--SGEQEKKLWLHIKLDTGMGRLGIKDTKTYQEVIEIIQQYEQLVFEGVFTHFACAD--EPGDMTTEQYQR--FKDMV----NEAIKPEYIHCQNSAGSLLMDCQFCNAIRPGISLYGYYPSEYVQQKVKVHLKPSVQLIANVVQTKTLQAGESVSYGATYTATDPTTIALLPIGYADGYLRIMQ-GSFVNVNGHQCEVIGRVCMDQTIVKV--PDQVKAGDSVILIDNHRES--PQSVEVVAEKQHTINYEVLCNLSRRLPRIY</Hsp_hseq>
+      <Hsp_midline>VKA+AYG G+  VA+  +  G   FAVA + EA +LR  G+ A IL L    A++I   I+HRV   +  +  +    + +  S +      +H+K+DTGMGR+G    +    +++++     L  EGV THF+ AD     D+   + QR  F   V       I    +H  NSA  L       + +RPG+  YGY P E V   V+    P ++L+  V   K + AG  VSY   + A   T + +LPIGYADG +R +  G  V + G    V+G +CMDQ +V +  P +V  GD V L          Q  +V+A    TI YE+LC + +R+ R+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|365813402|pdb|4A3Q|A</Hit_id>
+  <Hit_def>Chain A, The 2.15 Angstrom Resolution Crystal Structure Of Staphylococcus Aureus Alanine Racemase &gt;gi|365813403|pdb|4A3Q|B Chain B, The 2.15 Angstrom Resolution Crystal Structure Of Staphylococcus Aureus Alanine Racemase</Hit_def>
+  <Hit_accession>4A3Q_A</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>1.82811e-48</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEAC-ALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAP-ESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>VKANAYGLGSVKVARHLMENGATFFAVATLDEAIELRMHGITAKILVLGVLPAKDIDKAIQHRVALTVPSKQWLKEAIKNI--SGEQEKKLWLHIKLDTGMGRLGIKDTNTYQEVIEIIQQYEQLVFEGVFTHFACAD--EPGDMTTEQYQR--FKDMV----NEAIKPEYIHCQNSAGSLLMDCQFCNAIRPGISLYGYYPSEYVQQKVKVHLKPSVQLIANVVQTKTLQAGESVSYGATYTATDPTTIALLPIGYADGYLRIMQ-GSFVNVNGHQCEVIGRVCMDQTIVKV--PDQVKAGDSVILIDNHRES--PQSVEVVAEKQHTINYEVLCNLSRRLPRIY</Hsp_hseq>
+      <Hsp_midline>VKA+AYG G+  VA+  +  G   FAVA + EA +LR  G+ A IL L    A++I   I+HRV   +  +  +    + +  S +      +H+K+DTGMGR+G         +++++     L  EGV THF+ AD     D+   + QR  F   V       I    +H  NSA  L       + +RPG+  YGY P E V   V+    P ++L+  V   K + AG  VSY   + A   T + +LPIGYADG +R +  G  V + G    V+G +CMDQ +V +  P +V  GD V L          Q  +V+A    TI YE+LC + +R+ R+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|469474569|pdb|4ILS|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Engineered Protein. Northeast Structural Genomics Consortium Target Or117 &gt;gi|469474570|pdb|4ILS|B Chain B, Crystal Structure Of Engineered Protein. Northeast Structural Genomics Consortium Target Or117 &gt;gi|469474571|pdb|4ILS|C Chain C, Crystal Structure Of Engineered Protein. Northeast Structural Genomics Consortium Target Or117</Hit_def>
+  <Hit_accession>4ILS_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.785</Hsp_bit-score>
+      <Hsp_score>434</Hsp_score>
+      <Hsp_evalue>1.82852e-48</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>HLANLRHNLGEIMSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACA-LVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>NVENLRRLLPDD-THIMASVC----GNAYGHGDVQVARTALEAGASRLAVAFLDEALALREKGIEAPILVTGASRPADAALAAQQRIALTVF-RSDWLEEASALYSGP---FPIHFHLYMDTGMGSLGVKDEEETKRIVALIERHPHFVLEGLWTWFATADEVNTDYFSY---QYTRFLHMLEWLPSRP---PLVFCANSAASLRFPDRTFNMVQFGIAMYGLAPSPGIKPLLPYPLKEAFSLHSRLVHVKKLQPGEKVSYGATYTAQTEEWIGTIPIGYKDGWLRRLQ-HFHVLVDGQKAPIVGRILMDMCMIRLPGPL--PVGTKVTLIGRQ--GDKVISIDDVARHLETINYEVPCTISYRVPRIFFR</Hsp_hseq>
+      <Hsp_midline>++ NLR  L +  +   A VC     +AYGHG   VA+ AL  G    AVA + EA  LR  G+ APIL        + +   + R+   +  R+     A AL            H+ +DTGMG +G   +E    +V ++   P   LEG+ T F+ AD V  +   Y   Q   F+H ++++       PLV  ANSAA L  P   F+MV+ G+  YG AP   + P +         L +++  +KK+  G  VSY   + A TE  +G +PIGY DG +R L     V + G+  P+VG I MD C++ L  PL   VG +VTL G Q  G      D +A H  TI YE+ C I  RV R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|158428171|pdb|2DY3|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alanine Racemase From Corynebacterium Glutamicum &gt;gi|158428172|pdb|2DY3|B Chain B, Crystal Structure Of Alanine Racemase From Corynebacterium Glutamicum &gt;gi|158428173|pdb|2DY3|C Chain C, Crystal Structure Of Alanine Racemase From Corynebacterium Glutamicum &gt;gi|158428174|pdb|2DY3|D Chain D, Crystal Structure Of Alanine Racemase From Corynebacterium Glutamicum</Hit_def>
+  <Hit_accession>2DY3_A</Hit_accession>
+  <Hit_len>361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>5.86375e-48</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>IHLANLRHNLGEIMSRTR--------ARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLG-TPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MNLLTTKIDLDAIAHNTRVLKQMAGPAKLMAVVKANAYNHGVEKVAPVIAAHGADAFGVATLAEAMQLRDIGISQEVLCWIWTPEQDFRAAIDRNIDLAVISPAH----AKALIET--DAEHIRVSIKIDSGLHRSGVDEQEWEGVFSALAAAPHIEVTGMFTHLACADEPENPE---TDRQIIAFRRALALARKHGLECPVNHVCNSPAFLTRSDLHMEMVRPGLAFYGLEPVA---GLEHGLKPAMTWEAKVSVVKQIEAGQGTSYGLTWRAEDRGFVAVVPAGYADGMPRHAQGKFSVTIDGLDYPQVGRVCMDQFVISLGDNPHGVEAGAKAVIFGEN-----GHDATDFAERLDTINYEVVCRPTGRTVRAYV</Hsp_hseq>
+      <Hsp_midline>++L   + +L  I   TR        A++   VKA+AY HG   VA    + G  +F VA + EA QLR  G+   +LC      ++  + I+  +   +   AH    A+AL ++        V +KID+G+ R G    E   +   + A P + + G+ TH + AD     +   T+ Q   F   +   RK G+  P+ H  NS A L     H +MVRPGL  YG  P +    +     P M    +V  +K+I AG   SY   WRA     V ++P GYADG+ R       V I G  YP VG +CMDQ V+ LG  P  V  G +  +FG       G  A   A    TI YE++C    R  R Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|340708222|pdb|3S46|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Alanine Racemase From Streptococcus Pneumoniae &gt;gi|340708223|pdb|3S46|B Chain B, The Crystal Structure Of Alanine Racemase From Streptococcus Pneumoniae</Hit_def>
+  <Hit_accession>3S46_A</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>166.007</Hsp_bit-score>
+      <Hsp_score>419</Hsp_score>
+      <Hsp_evalue>1.56969e-46</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>NQALIHLANLRHNLGEI---MSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSAD-TGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIP-LVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>TKALIHLGAIRQNIQQMGAHIPQGTLKLAV-VXANAYGHGAVAVAKA-IQDDVDGFCVSNIDEAIELRQAGLSKPILILGVSEIEAVALAKEYDFTLTV---AGLEWIQALLDKEVDLTGLT--VHLXIDSGMGRIGFREASEVEQAQDLLQQHGVCVEGIFTHFATADE---ESDDYFNAQLERF----KTILASMKEVPELVHASNSATTLWHVETIFNAVRMGDAMYGLNPSGAVLDLPYDLIPALTLESALVHVKTVPAGACMGYGATYQADSEQVIATVPIGYADGWTRDMQ-NFSVLVDGQACPIVGRVSMDQITIRL--PKLYPLGTKVTLIGSN--GDKEITATQVATYRVTINYEVVCLLSDRIPREY</Hsp_hseq>
+      <Hsp_midline> +ALIHL  +R N+ ++   + +   ++ + V A+AYGHGA  VA+A +   V  F V+ + EA +LR AG+  PIL L     E ++   E+     +   A +  I   L +  D TG T  VH+ ID+GMGRIG          Q +    G+ +EG+ THF+ AD    E   Y   Q   F    + I  S   +P LVHA+NSA  L H    F+ VR G   YG  P      +    +P + L + +  +K +PAGA + Y   ++A +E  +  +PIGYADG  R +     V + G+  P+VG + MDQ  + L  P    +G +VTL G    G     A  +A++  TI YE++C +  R+ R Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|167013239|pdb|2ODO|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Pseudomonas Fluorescens Alanine Racemase &gt;gi|167013240|pdb|2ODO|B Chain B, Crystal Structure Of Pseudomonas Fluorescens Alanine Racemase &gt;gi|167013241|pdb|2ODO|C Chain C, Crystal Structure Of Pseudomonas Fluorescens Alanine Racemase &gt;gi|167013242|pdb|2ODO|D Chain D, Crystal Structure Of Pseudomonas Fluorescens Alanine Racemase</Hit_def>
+  <Hit_accession>2ODO_A</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>4.33565e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>376</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>MRPARALIDLQALRHNYQLAREVTGAKALAVIXADAYGHGAVRCAQA-LEAEADGFAVACIEEALELRAAGIRAPILLLEGFFEADELPLIVEHDFWCVVHSLWQLDAI-----EQARLAKPIHVWLXLDSGMHRVGLHPNDYKAAYQRLQASANVAKIVLMSHFARADEL---DCTRSVEQVAVFLGARADLTAE------ISLRNSPAVLGWPRVPSDWVRPGLMLYGSSPFDEPQATASRLQPVMTLESKVICVRELPAGEPVGYGARFITPKPMRIGVVAMGYADGYPRQAPTGTPVFVDGVRSQLLGRVSMDMLCIDLTDVPQAGLGSTVELWGKNIL------ASEVATAADTIPYQIFCNL-KRVPRLY</Hsp_hseq>
+      <Hsp_midline>M   +ALI L  LRHN       T A+    + ADAYGHGA   AQA L      FAVAC++EA +LRAAG+RAPIL L     A+E+  ++EH    V+     +  I     + A       V + +D+GM R+G  P++  A  Q + A+  +    + +HF+ AD +   D   +  Q A F+     +         +   NS A+L  PR   D VRPGL+ YG +P     A  S   PVM L ++V  ++++PAG  V Y   +       +G++ +GYADG  R    G  V + G    ++G + MD   +DL    +  +G  V L+G          A  +A+ A TIPY++ C + KRV R+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|55670437|pdb|1VFH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alanine Racemase From D-cycloserine Producing Streptomyces Lavendulae &gt;gi|55670438|pdb|1VFS|A Chain A, Crystal Structure Of D-Cycloserine-Bound Form Of Alanine Racemase From D-Cycloserine-Producing Streptomyces Lavendulae &gt;gi|55670439|pdb|1VFS|B Chain B, Crystal Structure Of D-Cycloserine-Bound Form Of Alanine Racemase From D-Cycloserine-Producing Streptomyces Lavendulae &gt;gi|55670440|pdb|1VFT|A Chain A, Crystal Structure Of L-Cycloserine-Bound Form Of Alanine Racemase From D-Cycloserine-Producing Streptomyces Lavendulae &gt;gi|55670441|pdb|1VFT|B Chain B, Crystal Structure Of L-Cycloserine-Bound Form Of Alanine Racemase From D-Cycloserine-Producing Streptomyces Lavendulae</Hit_def>
+  <Hit_accession>1VFH_A</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>2.3693e-45</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMSRT-RARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPG---LHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAP--ESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>AEIDLDAVRANVRALRARAPRSALMAVVKSNAYGHGAVPCARAAQEAGAAWLGTATPEEALELRAAGIQGRIMCWLWTPGGPWREAIETDIDVSVS---GMWALDEVRAAARAAGRTARIQLXADTGLGRNGCQPADWAELVGAAVAAQAEGTVQVTGVWSHFACADEPGHPSIR---LQLDAFRDMLAYAEKEGVDPEVRHIANSPATLTLPETHFDLVRTGLAVYGVSPSPELGTPA-QLGLRPAMTLRASLALVKTVPAGHGVSYGHHYVTESETHLALVPAGYADGIPRNASGRGPVLVAGKIRRAAGRIAMDQFVVDLGEDL-AEAGDEAVILGDAERGEP--TAEDWAQAAHTIAYEIVTRIGGRVPRVYL</Hsp_hseq>
+      <Hsp_midline>A I L  +R N+  + +R  R+ +   VK++AYGHGA   A+AA   G      A  +EA +LRAAG++  I+C            IE  +   +S    +  +      +   G T  + +  DTG+GR GC P +   LV    A      + + GV +HF+ AD      ++   +Q   F   + Y  K G+   + H ANS A L  P  HFD+VR GL  YG +P  E   PA +    P M L   +  +K +PAG  VSY   +   +ETH+ ++P GYADG+ R  S    V + GK     G I MDQ VVDLG  L    GD   + G  + G P   A+  A  A TI YE++  IG RV RVY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|374977778|pdb|3UW6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Engineered Protein, Northeast Structural Genomics Consortium Target Or120 &gt;gi|374977779|pdb|3UW6|B Chain B, Crystal Structure Of Engineered Protein, Northeast Structural Genomics Consortium Target Or120 &gt;gi|374977780|pdb|3UW6|C Chain C, Crystal Structure Of Engineered Protein, Northeast Structural Genomics Consortium Target Or120</Hit_def>
+  <Hit_accession>3UW6_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.925</Hsp_bit-score>
+      <Hsp_score>411</Hsp_score>
+      <Hsp_evalue>2.74897e-45</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>HLANLRHNLGEIMSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACA-LVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPE-SVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>NVENLRRLLPD-DTHIXASVC----GNAYGHGDVQVARTALEAGASRLAVAFLDEALALREKGIEAPILVTGASRPADAALAAQQRIALTVF-RSDWLEEASALYSGP---FPIHFHLYXDTGXGSLGVKDEEETKRIVALIERHPHFVLEGLWTWFATADEVNTDYFSY---QYTRFLHXLEWLPSRP---PLVHCANSAASLRFPDRTFNXVQFGIAXYGLAPSPGIKPLLPYPLKEAFSLHSRLVHVKKLQPGEKVSFGATYTAQTEEWIGTIPIGYKDGWLRRLQ-HFHVLVDGQKAPIVGRILGDXCXIRLPGPL--PVGTKVTLIGRQ--GDKVISIDDVARHLETINYEVPCTISYRVPRIFFR</Hsp_hseq>
+      <Hsp_midline>++ NLR  L +  +   A VC     +AYGHG   VA+ AL  G    AVA + EA  LR  G+ APIL        + +   + R+   +  R+     A AL            H+  DTG G +G   +E    +V ++   P   LEG+ T F+ AD V  +   Y   Q   F+H ++++       PLVH ANSAA L  P   F+ V+ G+  YG AP   + P +         L +++  +KK+  G  VS+   + A TE  +G +PIGY DG +R L     V + G+  P+VG I  D C + L  PL   VG +VTL G Q  G      D +A H  TI YE+ C I  RV R++ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|574451057|pdb|4BHY|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Alanine Racemase From Aeromonas Hydrophila &gt;gi|574451058|pdb|4BHY|B Chain B, Structure Of Alanine Racemase From Aeromonas Hydrophila &gt;gi|574451059|pdb|4BHY|C Chain C, Structure Of Alanine Racemase From Aeromonas Hydrophila &gt;gi|574451060|pdb|4BHY|D Chain D, Structure Of Alanine Racemase From Aeromonas Hydrophila</Hit_def>
+  <Hit_accession>4BHY_A</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>1.89873e-43</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRT-RARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGL-HLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHA---ANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MKAAIAQINTAALRHNLAVVKRHAPQCKIIAVVKANAYGHGLLPVARTLVDA--DAYAVARIEEALMLRSCAVVKPIVLLEGFFSAADLPVLAANNLQTAV----HTWEQLEALEQ-ADLPAPVVAWLXLDTGMHRLGVRADEMPAFIERLAKCKNVVQPFNIMTHFSRSDELE----QPTTREQIDLF--------SQLTAPLLGERAMANSAGILAWPDSHCDWVRPGVILYGVSPFPNTVAADYDLQPVMTLKTQLIAVRDHKAGEPVGYGANWVSDRDTRLGVIAIGYGDGYPRMAPNGTPVLVNGRIVPLVGRVSMDMTTVDLGPGATDKAGDEAVLW------GEGLPVERVADQIGTIPYELITKLTSRVFMEYV</Hsp_hseq>
+      <Hsp_midline>M    A I+ A LRHNL  +     + ++   VKA+AYGHG   VA+  +     ++AVA ++EA  LR+  V  PI+ L    +A ++  L  + + T +    H      AL Q AD  A     + +DTGM R+G   DE  A ++ +     +     + THFS +D +     Q T  ++            S ++ PL+     ANSA +L  P +H D VRPG++ YG +P     A      PVM L TQ+ A++   AG  V Y   W +  +T +G++ IGY DG  R    G  V + G+  P+VG + MD   VDLG       GD   L+      G G   + +A   GTIPYEL+  +  RV   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|946926174|pdb|4WR3|A</Hit_id>
+  <Hit_def>Chain A, Y274f Alanine Racemase From E. Coli &gt;gi|946926175|pdb|4WR3|B Chain B, Y274f Alanine Racemase From E. Coli &gt;gi|946926176|pdb|4WR3|C Chain C, Y274f Alanine Racemase From E. Coli &gt;gi|946926177|pdb|4WR3|D Chain D, Y274f Alanine Racemase From E. Coli &gt;gi|969812684|pdb|4XBJ|A Chain A, Y274f Alanine Racemase From E. Coli Inhibited By L-ala-p &gt;gi|969812685|pdb|4XBJ|B Chain B, Y274f Alanine Racemase From E. Coli Inhibited By L-ala-p &gt;gi|969812686|pdb|4XBJ|C Chain C, Y274f Alanine Racemase From E. Coli Inhibited By L-ala-p &gt;gi|969812687|pdb|4XBJ|D Chain D, Y274f Alanine Racemase From E. Coli Inhibited By L-ala-p</Hit_def>
+  <Hit_accession>4WR3_A</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.14986e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRA-RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLE-GVCTHFSVADSVRAEDLQYTEMQRAHF-MHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAP-ESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MQAATVVINRRALRHNLQRLRELAPASKMVAVVKANAYGHGLLETARTLPDA--DAFGVARLEEALRLRAGGITKPVLLLEGFFDARDLPTISAQHFHTAVHNEEQLAALEEA---SLDEPVT--VWMKLDTGMHRLGVRPEQAEAFYHRLTQCKNVRQPVNIVSHFARADEPKC---GATEKQLAIFNTFCEGKPGQRSI-------AASGGILLWPQSHFDWVRPGIILYGVSPLEDRSTGADFGCQPVMSLTSSLIAVREHKAGEPVGYGGTWVSERDTRLGVVAMGFGDGYPRAAPSGTPVLVNGREVPIVGRVAMDMICVDLGPQAQDKAGDPVILW------GEGLPVERIAEMTKVSAYELITRLTSRVAMKYV</Hsp_hseq>
+      <Hsp_midline>M     +I+   LRHNL  +     A ++   VKA+AYGHG  + A+        +F VA ++EA +LRA G+  P+L L     A ++ ++     HT +     +A +  A   S D   T  V +K+DTGM R+G  P++A A    +     +     + +HF+ AD  +      TE Q A F   C     +  I       A S  +L  P++HFD VRPG++ YG +P E           PVM L + + A+++  AG  V Y   W +  +T +G++ +G+ DG  RA   G  V + G+  P+VG + MD   VDLG   +   GD V L+      G G   + +A       YEL+  +  RV   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|193885202|pdb|2RJG|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Biosynthetic Alaine Racemase From Escherichia Coli &gt;gi|193885203|pdb|2RJG|B Chain B, Crystal Structure Of Biosynthetic Alaine Racemase From Escherichia Coli &gt;gi|193885204|pdb|2RJG|C Chain C, Crystal Structure Of Biosynthetic Alaine Racemase From Escherichia Coli &gt;gi|193885205|pdb|2RJG|D Chain D, Crystal Structure Of Biosynthetic Alaine Racemase From Escherichia Coli &gt;gi|193885206|pdb|2RJH|A Chain A, Crystal Structure Of Biosynthetic Alaine Racemase In D- Cycloserine-Bound Form From Escherichia Coli &gt;gi|193885207|pdb|2RJH|B Chain B, Crystal Structure Of Biosynthetic Alaine Racemase In D- Cycloserine-Bound Form From Escherichia Coli &gt;gi|193885208|pdb|2RJH|C Chain C, Crystal Structure Of Biosynthetic Alaine Racemase In D- Cycloserine-Bound Form From Escherichia Coli &gt;gi|193885209|pdb|2RJH|D Chain D, Crystal Structure Of Biosynthetic Alaine Racemase In D- Cycloserine-Bound Form From Escherichia Coli</Hit_def>
+  <Hit_accession>2RJG_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>4.34946e-39</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRA-RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLE-GVCTHFSVADSVRAEDLQYTEMQRAHF-MHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAP-ESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MQAATVVINRRALRHNLQRLRELAPASKMVAVVKANAYGHGLLETARTLPDA--DAFGVARLEEALRLRAGGITKPVLLLEGFFDARDLPTISAQHFHTAVHNEEQLAALEEA---SLDEPVT--VWMXLDTGMHRLGVRPEQAEAFYHRLTQCKNVRQPVNIVSHFARADEPKC---GATEKQLAIFNTFCEGKPGQRSI-------AASGGILLWPQSHFDWVRPGIILYGVSPLEDRSTGADFGCQPVMSLTSSLIAVREHKAGEPVGYGGTWVSERDTRLGVVAMGYGDGYPRAAPSGTPVLVNGREVPIVGRVAMDMICVDLGPQAQDKAGDPVILW------GEGLPVERIAEMTKVSAYELITRLTSRVAMKYV</Hsp_hseq>
+      <Hsp_midline>M     +I+   LRHNL  +     A ++   VKA+AYGHG  + A+        +F VA ++EA +LRA G+  P+L L     A ++ ++     HT +     +A +  A   S D   T  V + +DTGM R+G  P++A A    +     +     + +HF+ AD  +      TE Q A F   C     +  I       A S  +L  P++HFD VRPG++ YG +P E           PVM L + + A+++  AG  V Y   W +  +T +G++ +GY DG  RA   G  V + G+  P+VG + MD   VDLG   +   GD V L+      G G   + +A       YEL+  +  RV   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|254221103|pdb|3HUR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alanine Racemase From Oenococcus Oeni</Hit_def>
+  <Hit_accession>3HUR_A</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>8.34509e-39</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>375</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>HNLGEIMSRTRARVCLPV-KADAYGHGACDVAQA-ALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAP-DEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCH---PRAHFDMVRPGLLAYGYA--------PESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVY</Hsp_qseq>
+      <Hsp_hseq>HNLQEIREWTKAKKVYAVLKADGYGLGAIPLAKAFQETASADALIVSNLDEALELRQADLTLPIWVLGAWDYSDLKLFIDHDIVITIPSLAW-------LQNLPDFEGTLKVSLAIDTGMTRIGFDKADEISAAKKIIDKNPQLDLFSVYTHFATADEAGEKSKAYFEEQLRRWQELTI---NQGFDPSLFSMANSATCIWHHDDPRISFAAIRPGQLISGVNVSNGELKMPPNLH--LERIF-SVCSEIADVRFVKKDQSLSYGASERM---PEDGYVATLPFGYNDGWLRRMQKS-SVIINGKRMPIIGRITMDQTMVKLDR--KYPIGTRVTLIGKD--GGEQITVEEVANYSHTIVDEIQTTLAPRIKRIY</Hsp_hseq>
+      <Hsp_midline>HNL EI   T+A+    V KAD YG GA  +A+A   +    +  V+ + EA +LR A +  PI  L      ++   I+H +   I   A        L+   D   T  V + IDTGM RIG    DE  A  +++   P L L  V THF+ AD    +   Y E Q   +          G    L   ANSA  + H   PR  F  +RPG L  G          P ++H  +  +F  V   +  VR +KK  + +Y + +R+     + +V  LP GY DG +R +     V I GK  P++G I MDQ +V L    +  +G RVTL G    GG     + +A+++ TI  E+   +  R++R+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|817598867|pdb|4QHR|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Alanine Racemase From Acinetobacter Baumannii &gt;gi|817598868|pdb|4QHR|B Chain B, The Structure Of Alanine Racemase From Acinetobacter Baumannii</Hit_def>
+  <Hit_accession>4QHR_A</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.43546e-38</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>LRHNLGEIMS-RTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAE-EISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLEG----VCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKR</Hsp_qseq>
+      <Hsp_hseq>LQYNLNRVKQLAANSKIVSMVXANAYGHGVKDCL-AALNAS-DAFGVACLQEGLEIRELGFEQPVTLIEGVFSEDEMPVAIEQKFECVIHHQQQFEWLIK--HKQAYIAQGLKVWVKLNSGMNRLGFKDPEIIEVIKT------LKSEGFTCVLAMHFANADV----DHPLNEQQKQQFLH----IKETCDPI-LASCCNSAAIFKWPELNFDYVRPGIMLYGASPFADKTVHDLDLKPVMTFTAEIIALNHIEAGEHVGYGSTFCAQQAMDIAIVSIGYGDGYPRAYVKQNFVAIDGKLCPVVGRVSMDMIAIDV-TNTQVKLGTQVELWGNH------RLVDDVAEANGTIGYELLCRLSSR</Hsp_hseq>
+      <Hsp_midline>L++NL  +      +++   V A+AYGHG  D   AAL+    +F VAC+QE  ++R  G   P+  +    +E E+   IE +   VI  +     + +   + A       V VK+++GM R+G    E   +++       L  EG    +  HF+ AD     D    E Q+  F+H    I+++   I L    NSAA+   P  +FD VRPG++ YG +P +          PVM    ++ A+  I AG +V Y   + A     + I+ IGY DG  RA      V I GK  PVVG + MD   +D+ T  +V +G +V L+G        +  D +A   GTI YELLC +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|193885281|pdb|3B8V|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221k &gt;gi|193885282|pdb|3B8V|B Chain B, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221k &gt;gi|193885283|pdb|3B8V|C Chain C, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221k &gt;gi|193885284|pdb|3B8V|D Chain D, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221k</Hit_def>
+  <Hit_accession>3B8V_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>1.61294e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRA-RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLE-GVCTHFSVADSVRAEDLQYTEMQRAHF-MHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAP-ESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MQAATVVINRRALRHNLQRLRELAPASKMVAVVKANAYGHGLLETARTLPDA--DAFGVARLEEALRLRAGGITKPVLLLEGFFDARDLPTISAQHFHTAVHNEEQLAALEEA---SLDEPVT--VWMXLDTGMHRLGVRPEQAEAFYHRLTQCKNVRQPVNIVSHFARADEPKC---GATEKQLAIFNTFCEGKPGQRSI-------AASGGILLWPQSHFDWVRPGIILYGVSPLKDRSTGADFGCQPVMSLTSSLIAVREHKAGEPVGYGGTWVSERDTRLGVVAMGYGDGYPRAAPSGTPVLVNGREVPIVGRVAMDMICVDLGPQAQDKAGDPVILW------GEGLPVERIAEMTKVSAYELITRLTSRVAMKYV</Hsp_hseq>
+      <Hsp_midline>M     +I+   LRHNL  +     A ++   VKA+AYGHG  + A+        +F VA ++EA +LRA G+  P+L L     A ++ ++     HT +     +A +  A   S D   T  V + +DTGM R+G  P++A A    +     +     + +HF+ AD  +      TE Q A F   C     +  I       A S  +L  P++HFD VRPG++ YG +P +           PVM L + + A+++  AG  V Y   W +  +T +G++ +GY DG  RA   G  V + G+  P+VG + MD   VDLG   +   GD V L+      G G   + +A       YEL+  +  RV   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|193885277|pdb|3B8U|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221a &gt;gi|193885278|pdb|3B8U|B Chain B, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221a &gt;gi|193885279|pdb|3B8U|C Chain C, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221a &gt;gi|193885280|pdb|3B8U|D Chain D, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221a</Hit_def>
+  <Hit_accession>3B8U_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>1.93063e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRA-RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLE-GVCTHFSVADSVRAEDLQYTEMQRAHF-MHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVF--LPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MQAATVVINRRALRHNLQRLRELAPASKMVAVVKANAYGHGLLETARTLPDA--DAFGVARLEEALRLRAGGITKPVLLLEGFFDARDLPTISAQHFHTAVHNEEQLAALEEA---SLDEPVT--VWMXLDTGMHRLGVRPEQAEAFYHRLTQCKNVRQPVNIVSHFARADEPKC---GATEKQLAIFNTFCEGKPGQRSI-------AASGGILLWPQSHFDWVRPGIILYGVSPLADR-STGADFGCQPVMSLTSSLIAVREHKAGEPVGYGGTWVSERDTRLGVVAMGYGDGYPRAAPSGTPVLVNGREVPIVGRVAMDMICVDLGPQAQDKAGDPVILW------GEGLPVERIAEMTKVSAYELITRLTSRVAMKYV</Hsp_hseq>
+      <Hsp_midline>M     +I+   LRHNL  +     A ++   VKA+AYGHG  + A+        +F VA ++EA +LRA G+  P+L L     A ++ ++     HT +     +A +  A   S D   T  V + +DTGM R+G  P++A A    +     +     + +HF+ AD  +      TE Q A F   C     +  I       A S  +L  P++HFD VRPG++ YG +P +   +  + F   PVM L + + A+++  AG  V Y   W +  +T +G++ +GY DG  RA   G  V + G+  P+VG + MD   VDLG   +   GD V L+      G G   + +A       YEL+  +  RV   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|193885285|pdb|3B8W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221p &gt;gi|193885286|pdb|3B8W|B Chain B, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221p &gt;gi|193885287|pdb|3B8W|C Chain C, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221p &gt;gi|193885288|pdb|3B8W|D Chain D, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant E221p</Hit_def>
+  <Hit_accession>3B8W_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>2.65724e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRA-RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLE-GVCTHFSVADSVRAEDLQYTEMQRAHF-MHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVF--LPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MQAATVVINRRALRHNLQRLRELAPASKMVAVVKANAYGHGLLETARTLPDA--DAFGVARLEEALRLRAGGITKPVLLLEGFFDARDLPTISAQHFHTAVHNEEQLAALEEA---SLDEPVT--VWMXLDTGMHRLGVRPEQAEAFYHRLTQCKNVRQPVNIVSHFARADEPKC---GATEKQLAIFNTFCEGKPGQRSI-------AASGGILLWPQSHFDWVRPGIILYGVSPLPDR-STGADFGCQPVMSLTSSLIAVREHKAGEPVGYGGTWVSERDTRLGVVAMGYGDGYPRAAPSGTPVLVNGREVPIVGRVAMDMICVDLGPQAQDKAGDPVILW------GEGLPVERIAEMTKVSAYELITRLTSRVAMKYV</Hsp_hseq>
+      <Hsp_midline>M     +I+   LRHNL  +     A ++   VKA+AYGHG  + A+        +F VA ++EA +LRA G+  P+L L     A ++ ++     HT +     +A +  A   S D   T  V + +DTGM R+G  P++A A    +     +     + +HF+ AD  +      TE Q A F   C     +  I       A S  +L  P++HFD VRPG++ YG +P     +  + F   PVM L + + A+++  AG  V Y   W +  +T +G++ +GY DG  RA   G  V + G+  P+VG + MD   VDLG   +   GD V L+      G G   + +A       YEL+  +  RV   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|193885273|pdb|3B8T|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant P219a &gt;gi|193885274|pdb|3B8T|B Chain B, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant P219a &gt;gi|193885275|pdb|3B8T|C Chain C, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant P219a &gt;gi|193885276|pdb|3B8T|D Chain D, Crystal Structure Of Escherichia Coli Alaine Racemase Mutant P219a</Hit_def>
+  <Hit_accession>3B8T_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>8.19442e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>381</Hsp_align-len>
+      <Hsp_qseq>MACNQALIHLANLRHNLGEIMSRTRA-RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLS-TPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEACALVQMVCATPGLHLE-GVCTHFSVADSVRAEDLQYTEMQRAHF-MHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGY-APESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>MQAATVVINRRALRHNLQRLRELAPASKMVAVVKANAYGHGLLETARTLPDA--DAFGVARLEEALRLRAGGITKPVLLLEGFFDARDLPTISAQHFHTAVHNEEQLAALEEA---SLDEPVT--VWMXLDTGMHRLGVRPEQAEAFYHRLTQCKNVRQPVNIVSHFARADEPKC---GATEKQLAIFNTFCEGKPGQRSI-------AASGGILLWPQSHFDWVRPGIILYGVSALEDRSTGADFGCQPVMSLTSSLIAVREHKAGEPVGYGGTWVSERDTRLGVVAMGYGDGYPRAAPSGTPVLVNGREVPIVGRVAMDMICVDLGPQAQDKAGDPVILW------GEGLPVERIAEMTKVSAYELITRLTSRVAMKYV</Hsp_hseq>
+      <Hsp_midline>M     +I+   LRHNL  +     A ++   VKA+AYGHG  + A+        +F VA ++EA +LRA G+  P+L L     A ++ ++     HT +     +A +  A   S D   T  V + +DTGM R+G  P++A A    +     +     + +HF+ AD  +      TE Q A F   C     +  I       A S  +L  P++HFD VRPG++ YG  A E           PVM L + + A+++  AG  V Y   W +  +T +G++ +GY DG  RA   G  V + G+  P+VG + MD   VDLG   +   GD V L+      G G   + +A       YEL+  +  RV   Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|574451053|pdb|4BF5|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Broad Spectrum Racemase From Aeromonas Hydrophila &gt;gi|574451054|pdb|4BF5|B Chain B, Structure Of Broad Spectrum Racemase From Aeromonas Hydrophila</Hit_def>
+  <Hit_accession>4BF5_A</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>8.98727e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>340</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>ACNQAL-IHLANLRHNLGEIMSR---TRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDT-GMGRIGC------APDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGI---SIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQ</Hsp_qseq>
+      <Hsp_hseq>ASNAWLEVDLGAFEHNIQTLKDRLGDKGPKICAIMKADAYGHGIDLLVPSVVKAGIPCIGIASNEEARVAREKGFTGRLMRVRAATPAEVEQALPYKMEELIGSLVSAQGIADIAQRHH---TNIPVHIALNSAGMSRNGIDLRLADSKEDALAMLKLKGITP----VGIMTHFPV------EEKEDVKMGLAQFKLDSQWLLEAGKLDRSKITIHAANSFATLEVPDAYFDMVRPGGLLYGDSIPSYTEYKR-----VMAFKTQVASVNHYPAGNTVGYDRTFTLKRDSWLANLPLGYSDGYRRALSNKAYVLIQGQKVPVVGKTSMNTIMVDVTDLKGVKPGDEVVLFGRQ</Hsp_hseq>
+      <Hsp_midline>A N  L + L    HN+  +  R      ++C  +KADAYGHG   +  + +  G+    +A  +EA   R  G    ++ +   T  E+   + +++  +I        IA   ++         VH+ +++ GM R G       + ++A A++++   TP     G+ THF V      E+ +  +M  A F    Q++ ++G    S   +HAANS A L  P A+FDMVRPG L YG +  S     R     VM   TQV ++   PAG  V Y R +    ++ +  LP+GY+DG  RALS    V I G+  PVVG   M+  +VD+     V  GD V LFG Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|574451052|pdb|4BEU|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Vibrio Cholerae Broad Spectrum Racemase</Hit_def>
+  <Hit_accession>4BEU_A</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>8.07277e-35</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>IHLANLRHNLGEIMSRTRA--RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKI-DTGMGRIGC-APDEACALVQMVCAT-PGLHLEGVCTHFSV--ADSVRAEDLQYTE-----MQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>ISLGQFQSNIEQFKSHMNANTKICAIMKADAYGNGIRGLMPTIIAQGIPCVGVASNAEARAVRESGFKGELIRVRSASLSEMSSALDLNIEELIGTHQQALDLAELAKQS---GKTLKVHIALNDGGMGRNGIDMTTEAGKKEAVSIATQPSLSVVGIMTHFPNYNADEVRAKLAQFKESSTWLMQQAN-------LKREEITL---HVANSYTALNVPEAQLDMVRPGGVLFGDLP--TNPEYPSI----VSFKTRVSSLHHLPKDSTVGYDSTFTTSRDSVLANLPVGYSDGYPRKMGNKAEVLINGQRAKVVGVTSMNTTVVDVTEIKGVLPGQEVVLFGQQQK--QSIAVSEMENNAELIFPELYTLWGTSNPRFYVK</Hsp_hseq>
+      <Hsp_midline>I L   + N+ +  S   A  ++C  +KADAYG+G   +    ++ G+    VA   EA  +R +G +  ++ + + +  E+SS ++  +  +I        +A   +QS   G T  VH+ + D GMGR G     EA     +  AT P L + G+ THF    AD VRA+  Q+ E     MQ+A+       +++  I++   H ANS   L  P A  DMVRPG + +G  P   +P   S+    +   T+V ++  +P  + V Y   +    ++ +  LP+GY+DG  R +    +V I G+   VVG   M+  VVD+     V  G  V LFG Q           + ++A  I  EL    G    R Y++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|574451051|pdb|4BEQ|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Vibrio Cholerae Broad Spectrum Racemase Double Mutant R173a, N174a</Hit_def>
+  <Hit_accession>4BEQ_A</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>4.74705e-34</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>377</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>IHLANLRHNLGEIMSRTRA--RVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKI-DTGMGRIGC-APDEACALVQMVCAT-PGLHLEGVCTHFSV--ADSVRAEDLQYTE-----MQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYIR</Hsp_qseq>
+      <Hsp_hseq>ISLGQFQSNIEQFKSHMNANTKICAIMKADAYGNGIRGLMPTIIAQGIPCVGVASNAEARAVRESGFKGELIRVRSASLSEMSSALDLNIEELIGTHQQALDLAELAKQS---GKTLKVHIALNDGGMGAAGIDMTTEAGKKEAVSIATQPSLSVVGIMTHFPNYNADEVRAKLAQFKESSTWLMQQAN-------LKREEITL---HVANSYTALNVPEAQLDMVRPGGVLFGDLP--TNPEYPSI----VSFKTRVSSLHHLPKDSTVGYDSTFTTSRDSVLANLPVGYSDGYPRKMGNKAEVLINGQRAKVVGVTSMNTTVVDVTEIKGVLPGQEVVLFGQQQK--QSIAVSEMENNAELIFPELYTLWGTSNPRFYVK</Hsp_hseq>
+      <Hsp_midline>I L   + N+ +  S   A  ++C  +KADAYG+G   +    ++ G+    VA   EA  +R +G +  ++ + + +  E+SS ++  +  +I        +A   +QS   G T  VH+ + D GMG  G     EA     +  AT P L + G+ THF    AD VRA+  Q+ E     MQ+A+       +++  I++   H ANS   L  P A  DMVRPG + +G  P   +P   S+    +   T+V ++  +P  + V Y   +    ++ +  LP+GY+DG  R +    +V I G+   VVG   M+  VVD+     V  G  V LFG Q           + ++A  I  EL    G    R Y++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|459358709|pdb|4FS9|A</Hit_id>
+  <Hit_def>Chain A, Complex Structure Of A Broad Specificity Amino Acid Racemase (bar) Within The Reactive Intermediate &gt;gi|459358710|pdb|4FS9|B Chain B, Complex Structure Of A Broad Specificity Amino Acid Racemase (bar) Within The Reactive Intermediate</Hit_def>
+  <Hit_accession>4FS9_A</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>3.13672e-30</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>LRHNLGEIMSRT--RARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDT-GMGRIGCAPDEACALVQMVCATPGLHLE--GVCTHFSV--ADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGG</Hsp_qseq>
+      <Hsp_hseq>LQHNIRTLQAELAGKSRLCAVLKADAYGHGIGLVMPSIIAQGVPCVAVASNEEARVVRASGFTGQLVRVRLASLSELEDALQYDMEELVGS-AEFARQVDAI--AARHGKTLRIHMALNSSGMSRNGVEMATWSGRGEALQITDQKHLKLVALMTHFAVEDKDDVRKGLAAFNEQTDWLIKHA--KLDRSKLTL---HAANSFATLEVPEARLDMVRTGGALFG----DTVPA-RTEYQRAMQFKSHVAAVHSYPAGNTVGYDRTFTLARDSRLANITVGYSDGYRRVFTNKGHVLINGHRIPVVGKVSMNTLMVDVTDFPDVKGGNEVVLFGKQ-AGG</Hsp_hseq>
+      <Hsp_midline>L+HN+  + +    ++R+C  +KADAYGHG   V  + ++ GV   AVA  +EA  +RA+G    ++ +   +  E+   +++ +  ++   A  A    A+  +A  G T  +H+ +++ GM R G          + +  T   HL+   + THF+V   D VR     + E       H    + +S +++   HAANS A L  P A  DMVR G   +G       PA R+ +   M+  + V A+   PAG  V Y R +    ++ +  + +GY+DG  R  +    V I G   PVVG + M+  +VD+     V  G+ V LFG Q AGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|178847612|pdb|3CO8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alanine Racemase From Oenococcus Oeni &gt;gi|178847613|pdb|3CO8|B Chain B, Crystal Structure Of Alanine Racemase From Oenococcus Oeni</Hit_def>
+  <Hit_accession>3CO8_A</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>3.79718e-30</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>VCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALR--QSADT---GATCGVHVKIDTGMGRIG--CAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIP-LVHAANSAALLCHPRAH---FDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVER</Hsp_qseq>
+      <Hsp_hseq>LWLAVKSNAYGHGLLQVSKIARECGVDGLAVSVLDEGIAIRQAGIDDFILILGPIDVK----------YAPIASKYHFLTTVSSLDWLKSADKILGKEKLSVNLAVDTGXNRIGVRSKKDLKDEIEFLQEHSDHFSYDGIFTHFASSDN---PDDHYFQRQKNRWYELID-----GLIXPRYVHVXNSGAAXYHSKELPGCNSIARVGTVVYGVEPSEGVLGPIDKLKPVFELKSALTFVKKIPAGEGISYGSKFVTSRDTWIGTLPIGYGDGWL-AEYQDFQLLIDGQKCRQVGQIAXDQXXVAL--PHEYPIGTEVTLIGK--SGKYENTLYDLHKHSGVPPWKITVAFSDRLKR</Hsp_hseq>
+      <Hsp_midline>+ L VK++AYGHG   V++ A  CGV   AV+ + E   +R AG+   IL L     +          +  I+ + H      +L   +SAD         V++ +DTG  RIG     D    +  +   +     +G+ THF+ +D+    D  Y + Q+  +   +      G+  P  VH  NS A   H +       + R G + YG  P            PV EL + +  +KKIPAG  +SY   +    +T +G LPIGY DG + A     Q+ I G+    VG I  DQ  V L  P    +G  VTL G   +G        L  H+G  P+++  A   R++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|281500991|pdb|3KW3|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Alanine Racemase From Bartonella Henselae With Covalently Bound Pyridoxal Phosphate &gt;gi|281500992|pdb|3KW3|B Chain B, Crystal Structure Of Alanine Racemase From Bartonella Henselae With Covalently Bound Pyridoxal Phosphate</Hit_def>
+  <Hit_accession>3KW3_A</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>6.25832e-30</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>VKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVH-------VKIDTGMGRIGCAPDEACALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYT--EMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPL--RVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>VXANAYGLGAHKIAPALYQAGCRTFFVAQIEEALQLKAVLPENVMIALLNG--------FPHKAEEFVAQSGIIPLL-NSWSTIEDWQTLCQKKNKKFPAIIQVDTNMSRLGLDKKELQKLIKNPTIFEKAEIKYILSHLA-----NGEDASHSSNNKQLAAFKRVLAQLPTCKVSF-----ANSGGIFLGSDFYFDLVRPGIALYGVDPHGKHPTPLKAVVKVEAQVLQSRFID---AGIPVGYRESFMTRRPSTLATISIGYADGWPRILSNKGTVYFNGHKLPIVGHISMDSIIVD-ATDLDKKPQRGDWVELIGPH------QPLEKVSTDTNTIPHEILTSLGKRYKRIYI</Hsp_hseq>
+      <Hsp_midline>V A+AYG GA  +A A    G  +F VA ++EA QL+A      ++ L             H+    +++   I L+  +     D    C          +++DT M R+G    E   L++         ++ + +H +       ED  ++    Q A F   +  +    +S      ANS  +      +FD+VRPG+  YG  P   HP      + V   V Q R I    AG  V Y+  +     + +  + IGYADG  R LS    V   G   P+VG I MD  +VD  T L  +   GD V L GP       Q  + +++   TIP+E+L ++GKR +R+YI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|459358580|pdb|4DYJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Broad Specificity Amino Acid Racemase (bar) Within Internal Aldimine Linkage &gt;gi|459358581|pdb|4DYJ|B Chain B, Crystal Structure Of A Broad Specificity Amino Acid Racemase (bar) Within Internal Aldimine Linkage</Hit_def>
+  <Hit_accession>4DYJ_A</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>2.35185e-29</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>LRHNLGEIMSRT--RARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDT-GMGRIGCAPDEACALVQMVCATPGLHLE--GVCTHFSV--ADSVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGG</Hsp_qseq>
+      <Hsp_hseq>LQHNIRTLQAELAGKSRLCAVLXADAYGHGIGLVMPSIIAQGVPCVAVASNEEARVVRASGFTGQLVRVRLASLSELEDALQYDMEELVGS-AEFARQVDAI--AARHGKTLRIHMALNSSGMSRNGVEMATWSGRGEALQITDQKHLKLVALMTHFAVEDKDDVRKGLAAFNEQTDWLIKHA--KLDRSKLTL---HAANSFATLEVPEARLDMVRTGGALFG----DTVPA-RTEYQRAMQFKSHVAAVHSYPAGNTVGYDRTFTLARDSRLANITVGYSDGYRRVFTNKGHVLINGHRIPVVGKVSMNTLMVDVTDFPDVKGGNEVVLFGKQ-AGG</Hsp_hseq>
+      <Hsp_midline>L+HN+  + +    ++R+C  + ADAYGHG   V  + ++ GV   AVA  +EA  +RA+G    ++ +   +  E+   +++ +  ++   A  A    A+  +A  G T  +H+ +++ GM R G          + +  T   HL+   + THF+V   D VR     + E       H    + +S +++   HAANS A L  P A  DMVR G   +G       PA R+ +   M+  + V A+   PAG  V Y R +    ++ +  + +GY+DG  R  +    V I G   PVVG + M+  +VD+     V  G+ V LFG Q AGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|459358593|pdb|4DZA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Lysine Racemase Within Internal Aldimine Linkage</Hit_def>
+  <Hit_accession>4DZA_A</Hit_accession>
+  <Hit_len>407</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>6.6141e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>CNQALIHLAN--LRHNLGEIMSR--TRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTG-MGRIGCAPDEACAL--VQMVCATPGLHLEGVCTHFSVADSVRA-EDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESVHPAVRSVFLPVMELVTQVRAIKKIPAGAYVSYQRLWRAHTETHVGILPIGYADGVMRALSPGLQVCIGGKWYPVVGAICMDQCVVDLGTPLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIGKRVERVYI</Hsp_qseq>
+      <Hsp_hseq>VNNSWIEISRSALDFNVKKVQSLLGKQSSLCAVLXGDAYGHDLSLVAPIMIENNVKCIGVTNNQELKEVRDLGFKGRLMRVRNATEQEMAQATNYNVEELIGD---LDMAKRLDAIAKQQNKVIPIHLALNSGGMSRNGLEVDNKSGLEKAKQISQLANLKVVGIMSHYPEEDANKVREDLARFKQQSQQVLE-VMGLERNNVTL---HMANTFATITVPESWLDMVRVGGIFYGDTIASTD------YKRVMTFKSNIASINYYPKGNTVGYDRTYTLKRDSVLANIPVGYADGYRRVFSNAGHALIAGQRVPVLGKTSMNTVIVDITSLNNIKPGDEVVFFGKQ--GNSEITAEEIEDISGALFTEMSILWGATNQRVLV</Hsp_hseq>
+      <Hsp_midline> N + I ++   L  N+ ++ S    ++ +C  +  DAYGH    VA   +   V    V   QE  ++R  G +  ++ +   T +E++    + V  +I +   + +  R    +        +H+ +++G M R G   D    L   + +     L + G+ +H+   D+ +  EDL   + Q    +  V  + ++ +++   H AN+ A +  P +  DMVR G + YG    S        +  VM   + + +I   P G  V Y R +    ++ +  +P+GYADG  R  S      I G+  PV+G   M+  +VD+ +   +  GD V  FG Q  G     A+ +   +G +  E+    G   +RV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|783283164|pdb|4V15|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of D-threonine Aldolase From Alcaligenes Xylosoxidans &gt;gi|783283165|pdb|4V15|B Chain B, Crystal Structure Of D-threonine Aldolase From Alcaligenes Xylosoxidans</Hit_def>
+  <Hit_accession>4V15_A</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.137523</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>AYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIE----HRVHTVISERAHIALIARALRQSADTGATCGVHVKIDTGMGRIGCAPDEAC-ALVQMVCATPGLHLEGVCTHFSVADSVRAEDLQYTEMQRAHFMHC--VQYIRKSGIS</Hsp_qseq>
+      <Hsp_hseq>AKAHKCPEIALRQLALGARGICCQKVSEALPFVAAGIRDIHISNEVVGPAKLALLGQLARAAKISVCVDNAENLAQLSAAMTRA---GAEIDVLVEVDVGQGRCGVSDDATVLALAQQARALPGLNFAGLQAYHGSVQHYRTREERAAVCRQAARIAASYAQLLRESGIA</Hsp_hseq>
+      <Hsp_midline>A  H   ++A   L+ G        V EA    AAG+R   +        +++ L +     ++   +    ++A ++ A+ ++   GA   V V++D G GR G + D    AL Q   A PGL+  G+  +       R  + +    ++A  +     Q +R+SGI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|224510880|pdb|3G1P|A</Hit_id>
+  <Hit_def>Chain A, Crystals Structure Of Phnp From E.Coli K-12 &gt;gi|224510881|pdb|3G1P|B Chain B, Crystals Structure Of Phnp From E.Coli K-12 &gt;gi|316983314|pdb|3P2U|A Chain A, Crystal Structure Of Phnp In Complex With Orthovanadate &gt;gi|316983315|pdb|3P2U|B Chain B, Crystal Structure Of Phnp In Complex With Orthovanadate</Hit_def>
+  <Hit_accession>3G1P_A</Hit_accession>
+  <Hit_len>258</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.22368</Hsp_evalue>
+      <Hsp_query-from>325</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>PLRVTVGDRVTLFGPQDAGGPGQGADVLASHAGTIPY</Hsp_qseq>
+      <Hsp_hseq>PLRWGVGDPIPVYGPPDE----QGCDDLFKHPGLLDF</Hsp_hseq>
+      <Hsp_midline>PLR  VGD + ++GP D     QG D L  H G + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|751361254|pdb|3WQC|A</Hit_id>
+  <Hit_def>Chain A, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 &gt;gi|751361255|pdb|3WQC|B Chain B, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 &gt;gi|751361256|pdb|3WQD|A Chain A, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 Complexed With D-erythro-3-hydroxyaspartate &gt;gi|751361257|pdb|3WQD|B Chain B, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 Complexed With D-erythro-3-hydroxyaspartate &gt;gi|751361258|pdb|3WQE|A Chain A, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 Complexed With D-allothreonine &gt;gi|751361259|pdb|3WQE|B Chain B, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 Complexed With D-allothreonine &gt;gi|751361260|pdb|3WQF|A Chain A, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 In The Metal-free Form &gt;gi|751361261|pdb|3WQF|B Chain B, D-threo-3-hydroxyaspartate Dehydratase From Delftia Sp. Ht23 In The Metal-free Form</Hit_def>
+  <Hit_accession>3WQC_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.63618</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAH---IALIARALRQSA-------DTGATCGVHVKIDTGMGRIGCAPDEACALVQM--VCATPGLHLEGVCTHFSVADSVRA-EDLQ-YTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPR</Hsp_qseq>
+      <Hsp_hseq>AVIDLDRMQRNIARMQQRMDAQ-GVRLRPHVKTSKSVPVAAAQRAAGASGITVSTLKEAEQFFAAGTTDILYAVS---------MAPHRLPQALQLRRRGCDLKLIVDSVAAAQAIAAFGREQGEAFEVWIEIDTDGHRSGVGADDTPLLLAIGRTLHDGGMRLGGVLTHAGSSYELDTPEALQALAERERAGCVQAAEALRAAGLPCPVVSVGSTPTALAASR</Hsp_hseq>
+      <Hsp_midline>A+I L  ++ N+  +  R  A+  + ++       +  VA A  + G     V+ ++EA Q  AAG    +  +S         +  HR+   +  R     + LI  ++  +        + G    V ++IDT   R G   D+   L+ +       G+ L GV TH   +  +   E LQ   E +RA  +   + +R +G+  P+V   ++   L   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|767181860|pdb|4PB3|A</Hit_id>
+  <Hit_def>Chain A, D-threo-3-hydroxyaspartate Dehydratase H351a Mutant &gt;gi|767181861|pdb|4PB3|B Chain B, D-threo-3-hydroxyaspartate Dehydratase H351a Mutant &gt;gi|767181862|pdb|4PB4|A Chain A, D-threo-3-hydroxyaspartate Dehydratase H351a Mutant Complexed With 2- Amino Maleic Acid &gt;gi|767181863|pdb|4PB4|B Chain B, D-threo-3-hydroxyaspartate Dehydratase H351a Mutant Complexed With 2- Amino Maleic Acid &gt;gi|767181864|pdb|4PB5|A Chain A, D-threo-3-hydroxyaspartate Dehydratase H351a Mutant Complexed With L- Erythro-3-hydroxyaspartate &gt;gi|767181865|pdb|4PB5|B Chain B, D-threo-3-hydroxyaspartate Dehydratase H351a Mutant Complexed With L- Erythro-3-hydroxyaspartate</Hit_def>
+  <Hit_accession>4PB3_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.76547</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAH---IALIARALRQSA-------DTGATCGVHVKIDTGMGRIGCAPDEACALVQM--VCATPGLHLEGVCTHFSVADSVRA-EDLQ-YTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPR</Hsp_qseq>
+      <Hsp_hseq>AVIDLDRMQRNIARMQQRMDAQ-GVRLRPHVKTSKSVPVAAAQRAAGASGITVSTLKEAEQFFAAGTTDILYAVS---------MAPHRLPQALQLRRRGCDLKLIVDSVAAAQAIAAFGREQGEAFEVWIEIDTDGHRSGVGADDTPLLLAIGRTLHDGGMRLGGVLTHAGSSYELDTPEALQALAERERAGCVQAAEALRAAGLPCPVVSVGSTPTALAASR</Hsp_hseq>
+      <Hsp_midline>A+I L  ++ N+  +  R  A+  + ++       +  VA A  + G     V+ ++EA Q  AAG    +  +S         +  HR+   +  R     + LI  ++  +        + G    V ++IDT   R G   D+   L+ +       G+ L GV TH   +  +   E LQ   E +RA  +   + +R +G+  P+V   ++   L   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|751361262|pdb|3WQG|A</Hit_id>
+  <Hit_def>Chain A, D-threo-3-hydroxyaspartate Dehydratase C353a Mutant In The Metal-free Form &gt;gi|751361263|pdb|3WQG|B Chain B, D-threo-3-hydroxyaspartate Dehydratase C353a Mutant In The Metal-free Form</Hit_def>
+  <Hit_accession>3WQG_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.03801</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>224</Hsp_align-len>
+      <Hsp_qseq>ALIHLANLRHNLGEIMSRTRARVCLPVKADAYGHGACDVAQAALSCGVHSFAVACVQEASQLRAAGVRAPILCLSTPTAEEISSLIEHRVHTVISERAH---IALIARALRQSA-------DTGATCGVHVKIDTGMGRIGCAPDEACALVQM--VCATPGLHLEGVCTHFSVADSVRA-EDLQ-YTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPR</Hsp_qseq>
+      <Hsp_hseq>AVIDLDRMQRNIARMQQRMDAQ-GVRLRPHVKTSKSVPVAAAQRAAGASGITVSTLKEAEQFFAAGTTDILYAVS---------MAPHRLPQALQLRRRGCDLKLIVDSVAAAQAIAAFGREQGEAFEVWIEIDTDGHRSGVGADDTPLLLAIGRTLHDGGMRLGGVLTHAGSSYELDTPEALQALAERERAGCVQAAEALRAAGLPCPVVSVGSTPTALAASR</Hsp_hseq>
+      <Hsp_midline>A+I L  ++ N+  +  R  A+  + ++       +  VA A  + G     V+ ++EA Q  AAG    +  +S         +  HR+   +  R     + LI  ++  +        + G    V ++IDT   R G   D+   L+ +       G+ L GV TH   +  +   E LQ   E +RA  +   + +R +G+  P+V   ++   L   R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|574451117|pdb|4HIZ|A</Hit_id>
+  <Hit_def>Chain A, Phage Phi92 Endosialidase &gt;gi|574451118|pdb|4HIZ|B Chain B, Phage Phi92 Endosialidase &gt;gi|574451119|pdb|4HIZ|C Chain C, Phage Phi92 Endosialidase</Hit_def>
+  <Hit_accession>4HIZ_A</Hit_accession>
+  <Hit_len>683</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.56913</Hsp_evalue>
+      <Hsp_query-from>330</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>404</Hsp_hit-from>
+      <Hsp_hit-to>442</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>VGDRVTLFGPQDAGGPGQGADVLASHAGTIPYELLCAIG</Hsp_qseq>
+      <Hsp_hseq>VGDYLYIFGTERSFGEWEGQELDNRYKGTYPRTFMCKIN</Hsp_hseq>
+      <Hsp_midline>VGD + +FG + + G  +G ++   + GT P   +C I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|645985585|pdb|4CT0|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Mouse Cryptochrome1 In Complex With Period2</Hit_def>
+  <Hit_accession>4CT0_B</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.59663</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>31</Hsp_align-len>
+      <Hsp_qseq>SRTRARVCLPVKADAYGHGACDVAQAALSCG</Hsp_qseq>
+      <Hsp_hseq>SEEKGNICLPYEEDSPSPGLCDTSEAKEEEG</Hsp_hseq>
+      <Hsp_midline>S  +  +CLP + D+   G CD ++A    G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|442570651|pdb|4DW2|H</Hit_id>
+  <Hit_def>Chain H, The Crystal Structure Of Upa In Complex With The Fab Fragment Of Mab- 112</Hit_def>
+  <Hit_accession>4DW2_H</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.6576</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>84</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>67</Hsp_align-len>
+      <Hsp_qseq>SVRAEDLQYTEMQRAHFMHCVQYIRKSGISIPLVHAANSAALLCHPRAHFDMVRPGLLAYGYAPESV</Hsp_qseq>
+      <Hsp_hseq>SLRSEDTAMYYCERGELTYAMDYWGQ-GTTV-TVSSAKTTPPSVYPLAPGSMVTLGCLVKGYFPEPV</Hsp_hseq>
+      <Hsp_midline>S+R+ED      +R    + + Y  + G ++  V +A +     +P A   MV  G L  GY PE V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

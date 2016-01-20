@@ -45,6 +45,8 @@ if __name__ == '__main__':
     #data.printRepRegion()
     #print CDS tofile
     #data.CDStoFile()
+    #make blast
+    data.makeBlast()
     
     
 
