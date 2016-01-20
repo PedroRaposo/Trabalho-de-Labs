@@ -17,6 +17,7 @@ import inspect
 import json
 import requests
 import re
+import Connector
 #import bioservices
 #import uniprot
 import pprint
@@ -111,12 +112,18 @@ class MyCDS:
         self.seq=seq
         self.ec = ec
         self.tc = tc
+        if(self.ec=="None"):
+            self.ec="NULL"
+        if(self.tc=="None"):
+            self.tc="NULL"
+        
         tag= re.findall("[0-9]+",db_xref)
         if(len(tag)>1):        
             self.gi = tag[0]
             self.geneID = tag[1]
         else:
             self.geneID = tag[0]
+            self.gi="NULL"
         tag= re.search("[^\['].+[^\]']",self.old_locus_tag)
         self.old_locus=tag.group()
         self.similarity=""
@@ -128,11 +135,24 @@ class MyCDS:
         self.subcelularLoc=""
         self.review=""
         self.goList=[]
+        self.prot_accessions=[]
         self.uniprotSearch(up)
+        self.goString=""
+        self.uniA=""
+        if(len(self.goList)==0):
+            self.goString="NULL"
+        for go in self.goList:
+            self.goString+= str(go).replace("'", " ") +";"
+        for a in self.prot_accessions:
+            self.uniA+= a+";"
         self.blastPInfo=None
         self.hits=[]
+        c = Connector.Conn()
+        c.insertCDS(self.sqlStringCDS(),self.sqlStringUni())
+        s=""
+        
         #self.blast()
-        self.parseALLBlast()
+        #self.parseALLBlast()
 #        self.hitsToFile()
         
         
@@ -152,7 +172,7 @@ class MyCDS:
              uniprotInfo+="\n Uniprot Accession: " + pA
          if(self.review !=""):
              uniprotInfo+="\n Grade of Revision: " + self.review
-         if(self.similarity !=""):
+         if(self.similarity !="NULL"):
              uniprotInfo+="\n Similarities: " + self.similarity
          if(self.subcelularLoc !=""):
              uniprotInfo+="\n  " + self.subcelularLoc
@@ -164,6 +184,79 @@ class MyCDS:
              
          res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location+ "\n Locus_Tag: "+ self.locus_tag+"\n Old_Locus_Tag: "+ self.old_locus_tag+ "\n Db_xref: "+ self.db_xref + "\n Name: "+ self.product+ "\n Notes: "+ self.notes+ "\n Seq: " + self.seq+ "\n Accession: "+ self.accession+ "\n Translation: " + self.translation + "\n EC_number: " + self.ec+ "\n TC_number: "+ self.tc+uniprotInfo
          return res
+         
+    def sqlStringCDS(self):
+        qcds="'"+self.geneID+"' , "
+        qcds+="'"+self.type.replace("'", " ")+"' ,'"+self.strand+"' , '"+ self.location.replace("'", " ")+ "' , '"+ self.locus_tag+"' , '"+ self.old_locus_tag[2:-2]+ "' , "
+        if(self.gi!="NULL"):
+            gi="'"+self.gi.replace("'", " ")+"'" 
+        else:
+            gi = self.gi
+            
+        if(self.tc!="NULL"):
+            tc="'"+self.tc.replace("'", " ")+"'" 
+        else:
+            tc = self.tc
+        if(self.ec!="NULL"):
+            ec="'"+self.ec.replace("'", " ")+"'" 
+        else:
+            ec = self.ec
+            
+        qcds+=gi+" ,  '"+ self.product.replace("'", " ")+ "' ,  '"+ self.accession.replace("'", " ")+ "' ,"
+            
+        qcds+=ec+" , "+tc+ ", NULL, NULL, NULL" 
+        return qcds
+        
+    def sqlStringUni(self):    
+        uniprotInfo="'"+self.geneID+"' ,"
+        
+        if(self.catalytic_Activity !=""):
+             uniprotInfo+="'" + self.catalytic_Activity.replace("'", " ")+ "' , "
+        else:
+             uniprotInfo+=" NULL ,"
+             
+        if(self.cofactor !=""):
+             uniprotInfo+="'" + self.cofactor.replace("'", " ")+ "' , "
+        else:
+             uniprotInfo+=" NULL ,"
+             
+        if(self.function !=""):
+             uniprotInfo+="'" + self.function.replace("'", " ")+ "' , "
+        else:
+             uniprotInfo+=" NULL ,"
+             
+        if(self.goString !="NULL"):
+             uniprotInfo+="'" + self.goString+ "' , "
+        else:
+            uniprotInfo+=" NULL ,"
+
+        uniprotInfo+="'" + str(self.molecular_weight)+ "' , "       
+        uniprotInfo+="'" + self.uniA.replace("'", " ")+ "' , "
+        uniprotInfo+="'" + self.review+ "' , "
+        if(self.similarity !=""):
+             uniprotInfo+="'" + self.similarity.replace("'", " ")+ "' , "
+        else:
+             uniprotInfo+=" NULL ,"
+        if(self.subcelularLoc !=""):
+             uniprotInfo+="'" + self.subcelularLoc.replace("'", " ")+ "' , "
+        else:
+             uniprotInfo+=" NULL ,"
+             
+        if(self.seqCaution !=""):
+             uniprotInfo+="'" + self.seqCaution.replace("'", " ")+ "' , "
+        else:
+             uniprotInfo+=" NULL ,"
+             
+        if(self.subunit !=""):
+             uniprotInfo+="'" + self.subunit.replace("'", " ")+ "'"
+        else:
+             uniprotInfo+=" NULL"
+        
+        return uniprotInfo
+        
+        
+        
+        
  
    
     #Method uniprotSearch, add relevant information to the MyCDS object from
