@@ -1,0 +1,61 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 951272749 
+ Accession: 5AWF_A 
+ Score: 337.806
+ E-value: 1.99401e-109
+ Identities: 171
+ Function: Transport ProteinPROTEIN BINDING
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/951272749
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 377656694 
+ Accession: 4DN7_A 
+ Score: 158.688
+ E-value: 1.59337e-42
+ Identities: 118
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/377656694
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 224983401 
+ Accession: 2ZU0_A 
+ Score: 60.4622
+ E-value: 1.31379e-09
+ Identities: 37
+ Function: Biosynthetic ProteinPROTEIN BINDING
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/224983401
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 40889898 
+ Accession: 1VH4_A 
+ Score: 60.4622
+ E-value: 1.43724e-09
+ Identities: 37
+ Function: Protein Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/40889898
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 661918701 
+ Accession: 4Q2G_A 
+ Score: 62.3882
+ E-value: 5.96067e-11
+ Identities: 56
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/661918701
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 661918699 
+ Accession: 4Q2E_A 
+ Score: 60.077
+ E-value: 3.45485e-10
+ Identities: 53
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/661918699
+------------------------------------------------------------------
+
+
+
+

@@ -1,0 +1,251 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 302148840 
+ Accession: 3NET_A 
+ Score: 191.045
+ E-value: 2.34375e-54
+ Identities: 140
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/302148840
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 406855821 
+ Accession: 4G84_A 
+ Score: 158.303
+ E-value: 1.49665e-42
+ Identities: 141
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/406855821
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 675082593 
+ Accession: 4PHC_A 
+ Score: 158.688
+ E-value: 2.3622e-42
+ Identities: 141
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/675082593
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 406855823 
+ Accession: 4G85_A 
+ Score: 158.688
+ E-value: 2.55201e-42
+ Identities: 141
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/406855823
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 83753553 
+ Accession: 1WU7_A 
+ Score: 147.517
+ E-value: 6.96831e-39
+ Identities: 126
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/83753553
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 270047663 
+ Accession: 3HRK_A 
+ Score: 132.109
+ E-value: 1.4998e-33
+ Identities: 98
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/270047663
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 270047656 
+ Accession: 3HRI_A 
+ Score: 127.872
+ E-value: 4.17105e-32
+ Identities: 94
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/270047656
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 304446078 
+ Accession: 3OD1_A 
+ Score: 111.309
+ E-value: 1.05146e-26
+ Identities: 89
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/304446078
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 783282965 
+ Accession: 4RDX_A 
+ Score: 100.523
+ E-value: 7.11698e-23
+ Identities: 103
+ Function: LigaseRNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/783282965
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 2392059 
+ Accession: 1ADJ_A 
+ Score: 98.9821
+ E-value: 2.62618e-22
+ Identities: 103
+ Function: Complex (Trna SynthetasePEPTIDE)
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2392059
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 9955267 
+ Accession: 1QE0_A 
+ Score: 98.5969
+ E-value: 2.9177e-22
+ Identities: 81
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/9955267
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 381353380 
+ Accession: 4E51_A 
+ Score: 97.4413
+ E-value: 1.26114e-21
+ Identities: 84
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/381353380
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 346651978 
+ Accession: 3RAC_A 
+ Score: 96.2857
+ E-value: 1.33652e-21
+ Identities: 94
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/346651978
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 2781066 
+ Accession: 1KMM_A 
+ Score: 92.4337
+ E-value: 4.76854e-20
+ Identities: 110
+ Function: Aminoacyl-Trna Synthase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2781066
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 1942448 
+ Accession: 1HTT_A 
+ Score: 92.4337
+ E-value: 5.1468e-20
+ Identities: 110
+ Function: Complex (Trna SynthetaseHIS-Adenylate)
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/1942448
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 170292177 
+ Accession: 2EL9_A 
+ Score: 92.4337
+ E-value: 5.25813e-20
+ Identities: 110
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/170292177
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 946927150 
+ Accession: 5E3I_A 
+ Score: 91.2781
+ E-value: 1.47574e-19
+ Identities: 90
+ Function: Ligase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/946927150
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 75765683 
+ Accession: 1Z7M_A 
+ Score: 62.7734
+ E-value: 1.49933e-10
+ Identities: 77
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/75765683
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

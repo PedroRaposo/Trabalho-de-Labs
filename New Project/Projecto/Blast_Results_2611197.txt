@@ -1,0 +1,230 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 122920737 
+ Accession: 2ISV_A 
+ Score: 271.937
+ E-value: 3.43079e-88
+ Identities: 147
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/122920737
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 226192705 
+ Accession: 3GAK_A 
+ Score: 271.166
+ E-value: 5.45511e-88
+ Identities: 147
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/226192705
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 226192709 
+ Accession: 3GB6_A 
+ Score: 268.085
+ E-value: 8.90534e-87
+ Identities: 146
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/226192709
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 42543612 
+ Accession: 1RV8_A 
+ Score: 228.024
+ E-value: 2.04777e-71
+ Identities: 138
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/42543612
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 726969037 
+ Accession: 4TO8_A 
+ Score: 219.935
+ E-value: 1.58168e-68
+ Identities: 129
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/726969037
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 114793829 
+ Accession: 2FJK_A 
+ Score: 219.55
+ E-value: 3.9278e-68
+ Identities: 135
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/114793829
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 197305039 
+ Accession: 3C4U_A 
+ Score: 218.394
+ E-value: 9.47428e-68
+ Identities: 131
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/197305039
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 320089957 
+ Accession: 3Q94_A 
+ Score: 204.912
+ E-value: 8.67214e-63
+ Identities: 123
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/320089957
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 21730242 
+ Accession: 1GVF_A 
+ Score: 177.178
+ E-value: 4.25847e-52
+ Identities: 117
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/21730242
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 315113776 
+ Accession: 3PM6_A 
+ Score: 93.2041
+ E-value: 2.05786e-21
+ Identities: 92
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/315113776
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 349587956 
+ Accession: 4A21_A 
+ Score: 87.8113
+ E-value: 2.27277e-19
+ Identities: 95
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/349587956
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 223365866 
+ Accession: 3EKL_A 
+ Score: 87.8113
+ E-value: 2.43464e-19
+ Identities: 95
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/223365866
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 323714681 
+ Accession: 3QM3_A 
+ Score: 71.2478
+ E-value: 1.65339e-13
+ Identities: 91
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323714681
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 2392284 
+ Accession: 1DOS_A 
+ Score: 68.5514
+ E-value: 1.27552e-12
+ Identities: 78
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2392284
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 6980737 
+ Accession: 1B57_A 
+ Score: 66.6254
+ E-value: 4.91973e-12
+ Identities: 79
+ Function: Lyase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/6980737
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

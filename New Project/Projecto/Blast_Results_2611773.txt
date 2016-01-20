@@ -1,0 +1,68 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 37927359 
+ Accession: 1OZ9_A 
+ Score: 71.633
+ E-value: 9.19523e-16
+ Identities: 39
+ Function: Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/37927359
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 220702590 
+ Accession: 1TVI_A 
+ Score: 58.9214
+ E-value: 3.15217e-11
+ Identities: 36
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/220702590
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 60593985 
+ Accession: 1XAX_A 
+ Score: 53.9138
+ E-value: 1.41149e-09
+ Identities: 38
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/60593985
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 56554600 
+ Accession: 1XM5_A 
+ Score: 49.2914
+ E-value: 7.55195e-08
+ Identities: 35
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/56554600
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 82407304 
+ Accession: 1T3O_A 
+ Score: 67.3958
+ E-value: 1.19066e-15
+ Identities: 32
+ Function: Rna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/82407304
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,772 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 414145478 
+ Accession: 4DCS_A 
+ Score: 256.529
+ E-value: 7.30102e-79
+ Identities: 146
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/414145478
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 114794390 
+ Accession: 2HJG_A 
+ Score: 248.825
+ E-value: 3.28827e-76
+ Identities: 146
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/114794390
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 28373695 
+ Accession: 1MKY_A 
+ Score: 209.149
+ E-value: 3.56206e-61
+ Identities: 142
+ Function: Ligand Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/28373695
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 28373695 
+ Accession: 1MKY_A 
+ Score: 71.2478
+ E-value: 4.70007e-13
+ Identities: 56
+ Function: Ligand Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/28373695
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 939186870 
+ Accession: 5DN8_A 
+ Score: 202.601
+ E-value: 1.27213e-58
+ Identities: 135
+ Function: Gtp-Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/939186870
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 726968679 
+ Accession: 3J8G_X 
+ Score: 196.823
+ E-value: 4.2205e-56
+ Identities: 133
+ Function: Ribosome
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/726968679
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 61679425 
+ Accession: 1XZP_A 
+ Score: 93.2041
+ E-value: 4.70881e-20
+ Identities: 56
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/61679425
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 61679425 
+ Accession: 1XZP_A 
+ Score: 87.4261
+ E-value: 3.23838e-18
+ Identities: 47
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/61679425
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 145579207 
+ Accession: 2DYK_A 
+ Score: 85.5001
+ E-value: 4.55221e-19
+ Identities: 60
+ Function: Ribosome
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579207
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 145579207 
+ Accession: 2DYK_A 
+ Score: 70.8626
+ E-value: 6.3219e-14
+ Identities: 47
+ Function: Ribosome
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579207
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 645985686 
+ Accession: 4KYU_A 
+ Score: 84.3445
+ E-value: 1.43195e-18
+ Identities: 56
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/645985686
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 645985686 
+ Accession: 4KYU_A 
+ Score: 73.9442
+ E-value: 5.00603e-15
+ Identities: 48
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/645985686
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 159162931 
+ Accession: 1RFL_A 
+ Score: 84.3445
+ E-value: 1.77406e-18
+ Identities: 53
+ Function: Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/159162931
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 159162931 
+ Accession: 1RFL_A 
+ Score: 69.3218
+ E-value: 2.4294e-13
+ Identities: 49
+ Function: Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/159162931
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 110590301 
+ Accession: 2GJ9_A 
+ Score: 83.9593
+ E-value: 2.35269e-18
+ Identities: 54
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/110590301
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 110590301 
+ Accession: 2GJ9_A 
+ Score: 69.707
+ E-value: 1.62672e-13
+ Identities: 54
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/110590301
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 110590297 
+ Accession: 2GJ8_A 
+ Score: 80.8777
+ E-value: 2.91491e-17
+ Identities: 53
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/110590297
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 110590297 
+ Accession: 2GJ8_A 
+ Score: 67.3958
+ E-value: 9.35416e-13
+ Identities: 54
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/110590297
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 262118592 
+ Accession: 3GEH_A 
+ Score: 83.5741
+ E-value: 6.75568e-17
+ Identities: 52
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/262118592
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 262118592 
+ Accession: 3GEH_A 
+ Score: 75.485
+ E-value: 2.0572e-14
+ Identities: 49
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/262118592
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 67464182 
+ Accession: 1X18_X 
+ Score: 79.337
+ E-value: 3.82195e-16
+ Identities: 56
+ Function: Structural ProteinRNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/67464182
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 67464182 
+ Accession: 1X18_X 
+ Score: 73.559
+ E-value: 2.95708e-14
+ Identities: 49
+ Function: Structural ProteinRNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/67464182
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 5822055 
+ Accession: 1EGA_A 
+ Score: 78.9518
+ E-value: 4.90033e-16
+ Identities: 56
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/5822055
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 5822055 
+ Accession: 1EGA_A 
+ Score: 73.559
+ E-value: 3.47731e-14
+ Identities: 49
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/5822055
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 345100867 
+ Accession: 3R9W_A 
+ Score: 73.9442
+ E-value: 2.87703e-14
+ Identities: 55
+ Function: HydrolaseRNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/345100867
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 345100867 
+ Accession: 3R9W_A 
+ Score: 68.5514
+ E-value: 1.47158e-12
+ Identities: 60
+ Function: HydrolaseRNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/345100867
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 256599907 
+ Accession: 3IEV_A 
+ Score: 73.9442
+ E-value: 2.96549e-14
+ Identities: 55
+ Function: Nucleotide Binding ProteinRNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/256599907
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 256599907 
+ Accession: 3IEV_A 
+ Score: 68.5514
+ E-value: 1.52946e-12
+ Identities: 60
+ Function: Nucleotide Binding ProteinRNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/256599907
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 262118591 
+ Accession: 3GEE_A 
+ Score: 66.2402
+ E-value: 1.90312e-11
+ Identities: 56
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/262118591
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 262118591 
+ Accession: 3GEE_A 
+ Score: 65.0846
+ E-value: 4.24296e-11
+ Identities: 53
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/262118591
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 508123630 
+ Accession: 4B47_A 
+ Score: 63.929
+ E-value: 7.69502e-11
+ Identities: 60
+ Function: Translation
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/508123630
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 508123629 
+ Accession: 4B3X_A 
+ Score: 63.5438
+ E-value: 1.05108e-10
+ Identities: 60
+ Function: Translation
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/508123629
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 541881671 
+ Accession: 4KJZ_A 
+ Score: 63.929
+ E-value: 1.15131e-10
+ Identities: 60
+ Function: Translation
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/541881671
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 545719621 
+ Accession: 3J4J_A 
+ Score: 63.1586
+ E-value: 2.52061e-10
+ Identities: 60
+ Function: Translation
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/545719621
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 544191773 
+ Accession: 4B43_A 
+ Score: 61.6178
+ E-value: 4.32419e-10
+ Identities: 59
+ Function: Translation
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/544191773
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 335892384 
+ Accession: 3PQC_A 
+ Score: 59.6918
+ E-value: 4.68649e-10
+ Identities: 48
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/335892384
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 335892384 
+ Accession: 3PQC_A 
+ Score: 46.595
+ E-value: 1.15968e-05
+ Identities: 46
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/335892384
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 296863478 
+ Accession: 3K53_A 
+ Score: 57.7658
+ E-value: 4.36235e-09
+ Identities: 52
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/296863478
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 296863478 
+ Accession: 3K53_A 
+ Score: 45.4394
+ E-value: 5.55727e-05
+ Identities: 35
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/296863478
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 56966801 
+ Accession: 1WF3_A 
+ Score: 55.4546
+ E-value: 3.36802e-08
+ Identities: 40
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/56966801
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 56966801 
+ Accession: 1WF3_A 
+ Score: 47.3654
+ E-value: 1.19714e-05
+ Identities: 38
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/56966801
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+Hsp num :1
+ Gi: 482676792 
+ Accession: 3W5I_A 
+ Score: 53.1434
+ E-value: 6.94955e-08
+ Identities: 46
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/482676792
+------------------------------------------------------------------
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 357380559 
+ Accession: 3QQ5_A 
+ Score: 54.6842
+ E-value: 8.54104e-08
+ Identities: 49
+ Function: Oxidoreductase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/357380559
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 357380559 
+ Accession: 3QQ5_A 
+ Score: 42.3578
+ E-value: 0.000759378
+ Identities: 43
+ Function: Oxidoreductase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/357380559
+------------------------------------------------------------------
+
+
+
+Hit num: 29
+
+Hsp num :1
+ Gi: 12084691 
+ Accession: 1FZQ_A 
+ Score: 45.8246
+ E-value: 1.52647e-05
+ Identities: 46
+ Function: Signaling Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/12084691
+------------------------------------------------------------------
+
+
+Hit num: 30
+
+Hsp num :1
+ Gi: 951272690 
+ Accession: 4ZI2_A 
+ Score: 46.2098
+ E-value: 1.59522e-05
+ Identities: 46
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/951272690
+------------------------------------------------------------------
+
+
+Hit num: 31
+
+Hsp num :1
+ Gi: 405945083 
+ Accession: 4GOJ_A 
+ Score: 45.8246
+ E-value: 1.68082e-05
+ Identities: 46
+ Function: Signaling Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/405945083
+------------------------------------------------------------------
+
+
+Hit num: 32
+
+Hsp num :1
+ Gi: 170785130 
+ Accession: 3BH6_A 
+ Score: 45.0542
+ E-value: 2.08718e-05
+ Identities: 43
+ Function: Signaling Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/170785130
+------------------------------------------------------------------
+
+
+Hit num: 33
+
+Hsp num :1
+ Gi: 259090130 
+ Accession: 3A1W_A 
+ Score: 38.891
+ E-value: 0.00289963
+ Identities: 44
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/259090130
+------------------------------------------------------------------
+
+
+
+Hit num: 35
+
+Hsp num :1
+ Gi: 254839190 
+ Accession: 2WJH_A 
+ Score: 44.669
+ E-value: 3.6154e-05
+ Identities: 47
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254839190
+------------------------------------------------------------------
+
+
+Hit num: 36
+
+Hsp num :1
+ Gi: 254839192 
+ Accession: 2WJI_A 
+ Score: 44.2838
+ E-value: 4.10767e-05
+ Identities: 47
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254839192
+------------------------------------------------------------------
+
+
+Hit num: 37
+
+Hsp num :1
+ Gi: 254839194 
+ Accession: 2WJJ_A 
+ Score: 44.2838
+ E-value: 4.41765e-05
+ Identities: 47
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254839194
+------------------------------------------------------------------
+
+
+Hit num: 38
+
+Hsp num :1
+ Gi: 254839187 
+ Accession: 2WJG_A 
+ Score: 44.669
+ E-value: 4.52974e-05
+ Identities: 48
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254839187
+------------------------------------------------------------------
+
+
+Hit num: 39
+
+Hsp num :1
+ Gi: 85544494 
+ Accession: 2CXX_A 
+ Score: 44.2838
+ E-value: 5.62601e-05
+ Identities: 54
+ Function: Cell Cycle
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/85544494
+------------------------------------------------------------------
+
+
+Hit num: 40
+
+Hsp num :1
+ Gi: 170785132 
+ Accession: 3BH7_A 
+ Score: 43.5134
+ E-value: 7.7958e-05
+ Identities: 43
+ Function: Signaling Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/170785132
+------------------------------------------------------------------
+
+
+Hit num: 41
+
+Hsp num :1
+ Gi: 259090125 
+ Accession: 3A1T_A 
+ Score: 41.9726
+ E-value: 0.000646982
+ Identities: 45
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/259090125
+------------------------------------------------------------------
+
+
+
+Hit num: 43
+
+Hsp num :1
+ Gi: 597959904 
+ Accession: 3J65_OO 
+ Score: 44.669
+ E-value: 0.000169615
+ Identities: 43
+ Function: Ribosome
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/597959904
+------------------------------------------------------------------
+
+
+Hit num: 44
+
+Hsp num :1
+ Gi: 401871400 
+ Accession: 4AC9_A 
+ Score: 42.743
+ E-value: 0.000591718
+ Identities: 39
+ Function: Translation
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/401871400
+------------------------------------------------------------------
+
+
+Hit num: 45
+
+Hsp num :1
+ Gi: 261278788 
+ Accession: 3IBY_A 
+ Score: 41.2022
+ E-value: 0.00119836
+ Identities: 46
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/261278788
+------------------------------------------------------------------
+
+
+Hit num: 46
+
+Hsp num :1
+ Gi: 157834845 
+ Accession: 2E87_A 
+ Score: 41.2022
+ E-value: 0.00144383
+ Identities: 56
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157834845
+------------------------------------------------------------------
+
+
+
+Hit num: 48
+
+Hsp num :1
+ Gi: 47169233 
+ Accession: 1UDX_A 
+ Score: 40.4318
+ E-value: 0.00286251
+ Identities: 47
+ Function: Protein Binding
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/47169233
+------------------------------------------------------------------
+
+
+Hit num: 49
+
+Hsp num :1
+ Gi: 290790349 
+ Accession: 3LXX_A 
+ Score: 39.6614
+ E-value: 0.00370559
+ Identities: 38
+ Function: Immune System
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/290790349
+------------------------------------------------------------------
+
+
+Hit num: 50
+
+Hsp num :1
+ Gi: 757819116 
+ Accession: 4Q00_A 
+ Score: 39.2762
+ E-value: 0.00405928
+ Identities: 39
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/757819116
+------------------------------------------------------------------
+
+

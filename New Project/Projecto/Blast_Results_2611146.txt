@@ -1,0 +1,23 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 134105247 
+ Accession: 2ONK_C 
+ Score: 37.7354
+ E-value: 0.00665549
+ Identities: 34
+ Function: Membrane Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/134105247
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+

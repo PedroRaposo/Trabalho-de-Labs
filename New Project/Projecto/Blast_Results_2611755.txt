@@ -1,0 +1,235 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 448262570 
+ Accession: 4HG0_A 
+ Score: 137.887
+ E-value: 4.98558e-38
+ Identities: 75
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/448262570
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 284794170 
+ Accession: 3LFR_A 
+ Score: 117.087
+ E-value: 1.03507e-31
+ Identities: 60
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/284794170
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 281500787 
+ Accession: 3JTF_A 
+ Score: 114.39
+ E-value: 8.10776e-31
+ Identities: 53
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/281500787
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 307568413 
+ Accession: 3OI8_A 
+ Score: 108.227
+ E-value: 3.37431e-28
+ Identities: 58
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/307568413
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 304446004 
+ Accession: 3NQR_A 
+ Score: 97.4413
+ E-value: 1.42147e-24
+ Identities: 51
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/304446004
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 290790309 
+ Accession: 3LV9_A 
+ Score: 97.4413
+ E-value: 2.3717e-24
+ Identities: 48
+ Function: Membrane Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/290790309
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 238538019 
+ Accession: 3HF7_A 
+ Score: 82.8037
+ E-value: 2.59784e-19
+ Identities: 41
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/238538019
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 308198642 
+ Accession: 3OCM_A 
+ Score: 81.2629
+ E-value: 2.34908e-18
+ Identities: 46
+ Function: Membrane Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/308198642
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 285803798 
+ Accession: 3LHH_A 
+ Score: 73.559
+ E-value: 9.90268e-16
+ Identities: 37
+ Function: Membrane Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/285803798
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 589910957 
+ Accession: 4IY0_A 
+ Score: 68.1662
+ E-value: 6.67363e-14
+ Identities: 51
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/589910957
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 589910964 
+ Accession: 4IYS_A 
+ Score: 68.1662
+ E-value: 7.08276e-14
+ Identities: 51
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/589910964
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 764090998 
+ Accession: 4P1G_A 
+ Score: 67.781
+ E-value: 8.80326e-14
+ Identities: 48
+ Function: Transport Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/764090998
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 594147067 
+ Accession: 4IY4_A 
+ Score: 67.781
+ E-value: 8.89877e-14
+ Identities: 51
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/594147067
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 589910960 
+ Accession: 4IY3_B 
+ Score: 65.0846
+ E-value: 8.89174e-13
+ Identities: 51
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/589910960
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 589910958 
+ Accession: 4IY2_A 
+ Score: 64.6994
+ E-value: 1.14649e-12
+ Identities: 50
+ Function: Metal Transport
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/589910958
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 308198644 
+ Accession: 3OCO_A 
+ Score: 62.7734
+ E-value: 4.95317e-12
+ Identities: 34
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/308198644
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 257097694 
+ Accession: 3I8N_A 
+ Score: 48.1358
+ E-value: 7.31412e-07
+ Identities: 35
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/257097694
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

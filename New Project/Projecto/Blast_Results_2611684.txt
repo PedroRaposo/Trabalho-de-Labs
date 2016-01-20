@@ -1,0 +1,650 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 93279242 
+ Accession: 2DH4_A 
+ Score: 116.316
+ E-value: 5.42279e-29
+ Identities: 69
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279242
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 150261574 
+ Accession: 2Q80_A 
+ Score: 104.76
+ E-value: 3.37456e-25
+ Identities: 70
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/150261574
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 308388198 
+ Accession: 3OYR_A 
+ Score: 103.219
+ E-value: 1.69252e-24
+ Identities: 78
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/308388198
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 90108478 
+ Accession: 1WY0_A 
+ Score: 100.523
+ E-value: 1.2438e-23
+ Identities: 74
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/90108478
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 657231853 
+ Accession: 3WJK_A 
+ Score: 94.7449
+ E-value: 1.25769e-21
+ Identities: 79
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/657231853
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 478247559 
+ Accession: 4JYX_A 
+ Score: 94.3597
+ E-value: 1.67638e-21
+ Identities: 69
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/478247559
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 374978011 
+ Accession: 4DHD_A 
+ Score: 93.9745
+ E-value: 2.5941e-21
+ Identities: 97
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/374978011
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 723587084 
+ Accession: 4WK5_A 
+ Score: 92.0485
+ E-value: 7.44459e-21
+ Identities: 77
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/723587084
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 529482250 
+ Accession: 4LOB_A 
+ Score: 91.6633
+ E-value: 1.71475e-20
+ Identities: 72
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/529482250
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 485602195 
+ Accession: 4JXN_A 
+ Score: 89.7373
+ E-value: 7.10785e-20
+ Identities: 75
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/485602195
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 288965865 
+ Accession: 3LMD_A 
+ Score: 88.5817
+ E-value: 2.2812e-19
+ Identities: 77
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/288965865
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 297787795 
+ Accession: 3MZV_A 
+ Score: 87.8113
+ E-value: 3.67059e-19
+ Identities: 76
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/297787795
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 90109651 
+ Accession: 2FTZ_A 
+ Score: 79.7221
+ E-value: 1.3207e-16
+ Identities: 73
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/90109651
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 302148849 
+ Accession: 3NF2_A 
+ Score: 79.337
+ E-value: 3.68138e-16
+ Identities: 68
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/302148849
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 357380778 
+ Accession: 3UCA_A 
+ Score: 76.6406
+ E-value: 2.17855e-15
+ Identities: 67
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/357380778
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 73535442 
+ Accession: 1WMW_A 
+ Score: 74.3294
+ E-value: 1.70095e-14
+ Identities: 58
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/73535442
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 951273066 
+ Accession: 5E8L_A 
+ Score: 72.4034
+ E-value: 6.11543e-14
+ Identities: 71
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/951273066
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 311772001 
+ Accession: 3AQB_B 
+ Score: 72.4034
+ E-value: 6.47518e-14
+ Identities: 69
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/311772001
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 951273062 
+ Accession: 5E8H_A 
+ Score: 72.4034
+ E-value: 7.97398e-14
+ Identities: 70
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/951273062
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 293652046 
+ Accession: 3M9U_A 
+ Score: 72.0182
+ E-value: 9.0135e-14
+ Identities: 66
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/293652046
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 499142277 
+ Accession: 4KKM_A 
+ Score: 71.633
+ E-value: 1.36963e-13
+ Identities: 80
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/499142277
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 390981228 
+ Accession: 4F62_A 
+ Score: 71.2478
+ E-value: 1.64902e-13
+ Identities: 66
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/390981228
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 49259556 
+ Accession: 1VG4_A 
+ Score: 70.4774
+ E-value: 2.50029e-13
+ Identities: 53
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49259556
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 317455530 
+ Accession: 3Q1O_A 
+ Score: 69.707
+ E-value: 4.68767e-13
+ Identities: 66
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/317455530
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 292659743 
+ Accession: 3LLW_A 
+ Score: 69.707
+ E-value: 5.40003e-13
+ Identities: 64
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/292659743
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+Hsp num :1
+ Gi: 49259559 
+ Accession: 1VG7_A 
+ Score: 68.9366
+ E-value: 7.04522e-13
+ Identities: 53
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49259559
+------------------------------------------------------------------
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 49259558 
+ Accession: 1VG6_A 
+ Score: 68.9366
+ E-value: 7.59518e-13
+ Identities: 53
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49259558
+------------------------------------------------------------------
+
+
+Hit num: 28
+
+Hsp num :1
+ Gi: 46015922 
+ Accession: 1V4I_A 
+ Score: 68.5514
+ E-value: 1.12654e-12
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/46015922
+------------------------------------------------------------------
+
+
+Hit num: 29
+
+Hsp num :1
+ Gi: 126030920 
+ Accession: 2J1P_A 
+ Score: 68.5514
+ E-value: 1.19042e-12
+ Identities: 66
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126030920
+------------------------------------------------------------------
+
+
+Hit num: 30
+
+Hsp num :1
+ Gi: 289526777 
+ Accession: 3KRA_A 
+ Score: 67.781
+ E-value: 1.77207e-12
+ Identities: 71
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/289526777
+------------------------------------------------------------------
+
+
+Hit num: 31
+
+Hsp num :1
+ Gi: 93278762 
+ Accession: 2AZL_A 
+ Score: 67.781
+ E-value: 1.99478e-12
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93278762
+------------------------------------------------------------------
+
+
+Hit num: 32
+
+Hsp num :1
+ Gi: 46015921 
+ Accession: 1V4H_A 
+ Score: 67.3958
+ E-value: 2.74123e-12
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/46015921
+------------------------------------------------------------------
+
+
+Hit num: 33
+
+Hsp num :1
+ Gi: 46015919 
+ Accession: 1V4E_A 
+ Score: 67.0106
+ E-value: 3.21292e-12
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/46015919
+------------------------------------------------------------------
+
+
+Hit num: 34
+
+Hsp num :1
+ Gi: 71041841 
+ Accession: 1WKZ_A 
+ Score: 67.0106
+ E-value: 3.52728e-12
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/71041841
+------------------------------------------------------------------
+
+
+Hit num: 35
+
+Hsp num :1
+ Gi: 71041843 
+ Accession: 1WL0_A 
+ Score: 67.0106
+ E-value: 3.94517e-12
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/71041843
+------------------------------------------------------------------
+
+
+Hit num: 36
+
+Hsp num :1
+ Gi: 310689999 
+ Accession: 3P8R_A 
+ Score: 65.4698
+ E-value: 1.16246e-11
+ Identities: 69
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/310689999
+------------------------------------------------------------------
+
+
+Hit num: 37
+
+Hsp num :1
+ Gi: 46015923 
+ Accession: 1V4J_A 
+ Score: 65.4698
+ E-value: 1.20518e-11
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/46015923
+------------------------------------------------------------------
+
+
+Hit num: 38
+
+Hsp num :1
+ Gi: 951273064 
+ Accession: 5E8K_A 
+ Score: 65.0846
+ E-value: 1.68922e-11
+ Identities: 70
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/951273064
+------------------------------------------------------------------
+
+
+Hit num: 39
+
+Hsp num :1
+ Gi: 49259554 
+ Accession: 1VG2_A 
+ Score: 65.0846
+ E-value: 1.71454e-11
+ Identities: 51
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49259554
+------------------------------------------------------------------
+
+
+Hit num: 40
+
+Hsp num :1
+ Gi: 529482237 
+ Accession: 4LLS_A 
+ Score: 65.0846
+ E-value: 1.9078e-11
+ Identities: 67
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/529482237
+------------------------------------------------------------------
+
+
+Hit num: 41
+
+Hsp num :1
+ Gi: 46015925 
+ Accession: 1V4K_A 
+ Score: 64.6994
+ E-value: 1.91622e-11
+ Identities: 51
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/46015925
+------------------------------------------------------------------
+
+
+Hit num: 42
+
+Hsp num :1
+ Gi: 257472035 
+ Accession: 3IPI_A 
+ Score: 64.3142
+ E-value: 2.98594e-11
+ Identities: 62
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/257472035
+------------------------------------------------------------------
+
+
+Hit num: 43
+
+Hsp num :1
+ Gi: 71041847 
+ Accession: 1WL2_A 
+ Score: 63.929
+ E-value: 4.32449e-11
+ Identities: 51
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/71041847
+------------------------------------------------------------------
+
+
+Hit num: 44
+
+Hsp num :1
+ Gi: 71041848 
+ Accession: 1WL3_A 
+ Score: 63.929
+ E-value: 4.32449e-11
+ Identities: 51
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/71041848
+------------------------------------------------------------------
+
+
+Hit num: 45
+
+Hsp num :1
+ Gi: 49259555 
+ Accession: 1VG3_A 
+ Score: 62.7734
+ E-value: 1.03795e-10
+ Identities: 50
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49259555
+------------------------------------------------------------------
+
+
+Hit num: 46
+
+Hsp num :1
+ Gi: 345110994 
+ Accession: 3TC1_A 
+ Score: 62.003
+ E-value: 1.67069e-10
+ Identities: 54
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/345110994
+------------------------------------------------------------------
+
+
+Hit num: 47
+
+Hsp num :1
+ Gi: 523309962 
+ Accession: 4LFE_A 
+ Score: 60.8474
+ E-value: 3.92731e-10
+ Identities: 59
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/523309962
+------------------------------------------------------------------
+
+
+Hit num: 48
+
+Hsp num :1
+ Gi: 290790316 
+ Accession: 3LVS_A 
+ Score: 60.4622
+ E-value: 6.32529e-10
+ Identities: 77
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/290790316
+------------------------------------------------------------------
+
+
+Hit num: 49
+
+Hsp num :1
+ Gi: 290790227 
+ Accession: 3LK5_A 
+ Score: 59.3066
+ E-value: 1.60683e-09
+ Identities: 77
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/290790227
+------------------------------------------------------------------
+
+
+Hit num: 50
+
+Hsp num :1
+ Gi: 319443460 
+ Accession: 3APZ_A 
+ Score: 58.9214
+ E-value: 2.19426e-09
+ Identities: 62
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/319443460
+------------------------------------------------------------------
+
+
