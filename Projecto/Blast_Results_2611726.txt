@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 1.45932e-08
  Identities: 32
  Function: De Novo Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2WQH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/293651727
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 4.93681e-08
  Identities: 34
  Function: De Novo Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FO7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279690
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -30,7 +30,7 @@ Hsp num :2
  E-value: 8.298e-08
  Identities: 36
  Function: De Novo Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FO7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279690
 ------------------------------------------------------------------
 
 Hsp num :3
@@ -40,7 +40,7 @@ Hsp num :3
  E-value: 1.22561e-06
  Identities: 33
  Function: De Novo Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FO7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279690
 ------------------------------------------------------------------
 
 Hsp num :4
@@ -50,7 +50,7 @@ Hsp num :4
  E-value: 0.000148311
  Identities: 32
  Function: De Novo Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FO7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279690
 ------------------------------------------------------------------
 
 Hsp num :5
@@ -60,7 +60,7 @@ Hsp num :5
  E-value: 0.00192692
  Identities: 30
  Function: De Novo Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FO7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279690
 ------------------------------------------------------------------
 
 
@@ -73,7 +73,7 @@ Hsp num :1
  E-value: 1.0582e-07
  Identities: 31
  Function: De Novo Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1NA0_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157879370
 ------------------------------------------------------------------
 
 
@@ -88,7 +88,7 @@ Hsp num :1
  E-value: 0.000226143
  Identities: 55
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1W3B_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/55670588
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -98,7 +98,7 @@ Hsp num :2
  E-value: 0.00103695
  Identities: 78
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1W3B_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/55670588
 ------------------------------------------------------------------
 
 
@@ -117,7 +117,7 @@ Hsp num :1
  E-value: 0.0219558
  Identities: 37
  Function: Protein Binding
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4RG6_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/808043253
 ------------------------------------------------------------------
 
 
@@ -130,7 +130,7 @@ Hsp num :1
  E-value: 0.0224004
  Identities: 36
  Function: Cell Cycle
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5A31_F
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/953267577
 ------------------------------------------------------------------
 
 
@@ -143,7 +143,7 @@ Hsp num :1
  E-value: 0.0231783
  Identities: 36
  Function: Cell Cycle
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4UI9_F
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/835018998
 ------------------------------------------------------------------
 
 

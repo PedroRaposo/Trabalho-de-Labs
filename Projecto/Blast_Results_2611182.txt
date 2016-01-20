@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 7.62942e-58
  Identities: 91
  Function: Phosphotransferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZIN_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157834399
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 4.4175e-57
  Identities: 92
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QBI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/659835563
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 2.48263e-56
  Identities: 94
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2OSB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/165760928
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 5.56703e-56
  Identities: 94
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ORI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/165760925
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 6.19984e-56
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3DL0_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/239781809
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 1.21757e-55
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1P3J_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/48425192
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 1.41559e-55
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4MKF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/597960173
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 1.6458e-55
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2QAJ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/186972751
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 2.06316e-55
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2P3S_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/166007058
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 2.11505e-55
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2EU8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/110591304
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 3.85125e-55
  Identities: 92
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1S3G_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/48425544
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 4.4774e-55
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2OO7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/167013243
 ------------------------------------------------------------------
 
 
@@ -163,7 +163,7 @@ Hsp num :1
  E-value: 1.87255e-54
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QBH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/659835561
 ------------------------------------------------------------------
 
 
@@ -176,7 +176,7 @@ Hsp num :1
  E-value: 8.11015e-54
  Identities: 93
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4MKH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/597960176
 ------------------------------------------------------------------
 
 
@@ -189,7 +189,7 @@ Hsp num :1
  E-value: 4.71271e-53
  Identities: 92
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3DKV_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/239781808
 ------------------------------------------------------------------
 
 
@@ -202,7 +202,7 @@ Hsp num :1
  E-value: 6.57591e-53
  Identities: 92
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QBF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/659835559
 ------------------------------------------------------------------
 
 
@@ -215,7 +215,7 @@ Hsp num :1
  E-value: 1.09375e-52
  Identities: 86
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FB4_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/260099898
 ------------------------------------------------------------------
 
 
@@ -228,7 +228,7 @@ Hsp num :1
  E-value: 4.05899e-51
  Identities: 84
  Function: Adenylate Kinase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3AKY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157836762
 ------------------------------------------------------------------
 
 
@@ -241,7 +241,7 @@ Hsp num :1
  E-value: 5.15435e-51
  Identities: 87
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4K46_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/665764323
 ------------------------------------------------------------------
 
 
@@ -254,7 +254,7 @@ Hsp num :1
  E-value: 4.63407e-50
  Identities: 83
  Function: Transferase (Phosphotransferase)
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1AKY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157829936
 ------------------------------------------------------------------
 
 
@@ -267,7 +267,7 @@ Hsp num :1
  E-value: 8.46639e-50
  Identities: 88
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4TYQ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/726969063
 ------------------------------------------------------------------
 
 
@@ -280,7 +280,7 @@ Hsp num :1
  E-value: 3.41972e-49
  Identities: 82
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HPR_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/262367965
 ------------------------------------------------------------------
 
 
@@ -293,7 +293,7 @@ Hsp num :1
  E-value: 3.68625e-49
  Identities: 82
  Function: Transferase(Phosphotransferase)
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1AKE_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/493809
 ------------------------------------------------------------------
 
 
@@ -306,7 +306,7 @@ Hsp num :1
  E-value: 6.70275e-49
  Identities: 86
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4TYP_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/726969059
 ------------------------------------------------------------------
 
 
@@ -319,7 +319,7 @@ Hsp num :1
  E-value: 1.1001e-48
  Identities: 81
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4X8M_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/887492594
 ------------------------------------------------------------------
 
 
@@ -332,7 +332,7 @@ Hsp num :1
  E-value: 1.60079e-48
  Identities: 82
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3X2S_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/799531778
 ------------------------------------------------------------------
 
 
@@ -345,7 +345,7 @@ Hsp num :1
  E-value: 4.5126e-48
  Identities: 86
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QBG_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/659835560
 ------------------------------------------------------------------
 
 
@@ -358,7 +358,7 @@ Hsp num :1
  E-value: 7.17337e-48
  Identities: 81
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4X8H_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/901695765
 ------------------------------------------------------------------
 
 
@@ -371,7 +371,7 @@ Hsp num :1
  E-value: 1.0548e-47
  Identities: 81
  Function: Transferase(Phosphotransferase)
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1E4V_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/10121071
 ------------------------------------------------------------------
 
 
@@ -384,7 +384,7 @@ Hsp num :1
  E-value: 1.77677e-47
  Identities: 84
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4NP6_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/567755670
 ------------------------------------------------------------------
 
 
@@ -397,7 +397,7 @@ Hsp num :1
  E-value: 4.63763e-47
  Identities: 81
  Function: Transferase (Phosphotransferase)
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1DVR_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/1421658
 ------------------------------------------------------------------
 
 
@@ -410,7 +410,7 @@ Hsp num :1
  E-value: 4.61157e-46
  Identities: 80
  Function: Transferase(Phosphotransferase)
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1E4Y_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/10121073
 ------------------------------------------------------------------
 
 
@@ -423,7 +423,7 @@ Hsp num :1
  E-value: 7.2799e-46
  Identities: 76
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4PZL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/618855305
 ------------------------------------------------------------------
 
 
@@ -436,7 +436,7 @@ Hsp num :1
  E-value: 1.41602e-45
  Identities: 85
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4JKY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/659835213
 ------------------------------------------------------------------
 
 
@@ -449,7 +449,7 @@ Hsp num :1
  E-value: 1.67493e-45
  Identities: 85
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2RGX_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/163310973
 ------------------------------------------------------------------
 
 
@@ -462,7 +462,7 @@ Hsp num :1
  E-value: 3.70884e-45
  Identities: 86
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4JLO_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/659835227
 ------------------------------------------------------------------
 
 
@@ -475,7 +475,7 @@ Hsp num :1
  E-value: 1.34106e-44
  Identities: 75
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TLX_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/354459761
 ------------------------------------------------------------------
 
 
@@ -488,7 +488,7 @@ Hsp num :1
  E-value: 3.76115e-44
  Identities: 77
  Function: Phosphotransferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1AK2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157829916
 ------------------------------------------------------------------
 
 
@@ -501,7 +501,7 @@ Hsp num :1
  E-value: 1.07646e-43
  Identities: 79
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GMT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/238828229
 ------------------------------------------------------------------
 
 
@@ -514,7 +514,7 @@ Hsp num :1
  E-value: 3.12613e-42
  Identities: 75
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2C9Y_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/88192646
 ------------------------------------------------------------------
 
 
@@ -527,7 +527,7 @@ Hsp num :1
  E-value: 3.42571e-37
  Identities: 74
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BE4_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/163311052
 ------------------------------------------------------------------
 
 
@@ -540,7 +540,7 @@ Hsp num :1
  E-value: 4.65561e-37
  Identities: 74
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4NTZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/667484883
 ------------------------------------------------------------------
 
 
@@ -553,7 +553,7 @@ Hsp num :1
  E-value: 1.01592e-36
  Identities: 68
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZD8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/67464380
 ------------------------------------------------------------------
 
 
@@ -566,7 +566,7 @@ Hsp num :1
  E-value: 1.02391e-36
  Identities: 66
  Function: Transferase (Phosphotransferase)
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2AK3_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/1065285
 ------------------------------------------------------------------
 
 
@@ -579,7 +579,7 @@ Hsp num :1
  E-value: 5.55816e-35
  Identities: 68
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2AR7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/83754030
 ------------------------------------------------------------------
 
 
@@ -592,7 +592,7 @@ Hsp num :1
  E-value: 3.28096e-34
  Identities: 67
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3NDP_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/299689349
 ------------------------------------------------------------------
 
 
@@ -605,7 +605,7 @@ Hsp num :1
  E-value: 8.33708e-30
  Identities: 64
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1P4S_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/42543246
 ------------------------------------------------------------------
 
 
@@ -618,7 +618,7 @@ Hsp num :1
  E-value: 2.02212e-29
  Identities: 64
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2CDN_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/109157291
 ------------------------------------------------------------------
 
 
@@ -631,7 +631,7 @@ Hsp num :1
  E-value: 3.26302e-29
  Identities: 64
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZAK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/3114421
 ------------------------------------------------------------------
 
 
@@ -644,7 +644,7 @@ Hsp num :1
  E-value: 7.85697e-24
  Identities: 59
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3L0P_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/315113385
 ------------------------------------------------------------------
 
 

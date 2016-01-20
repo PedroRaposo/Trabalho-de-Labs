@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.34388e-19
  Identities: 88
  Function: Motor Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4UT1_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/756142920
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -17,7 +17,7 @@ Hsp num :2
  E-value: 1.54295e-09
  Identities: 33
  Function: Motor Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4UT1_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/756142920
 ------------------------------------------------------------------
 
 
@@ -30,7 +30,7 @@ Hsp num :1
  E-value: 8.70442e-17
  Identities: 62
  Function: Structural Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2D4Y_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/119389100
 ------------------------------------------------------------------
 
 

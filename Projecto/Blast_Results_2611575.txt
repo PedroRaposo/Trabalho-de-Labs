@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 4.59172e-121
  Identities: 220
  Function: Protein Biosynthesis
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ATI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2392169
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 1.066e-118
  Identities: 212
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1GGM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/440923793
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 1.38365e-49
  Identities: 158
  Function: LigaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QEI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/822599365
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 1.96878e-48
  Identities: 157
  Function: LigaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KR2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/636666296
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 2.01227e-48
  Identities: 157
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2Q5H_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/150261552
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 2.12548e-48
  Identities: 157
  Function: LigaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KR3_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/636666298
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 2.47245e-48
  Identities: 157
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2PME_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/149243238
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 3.01458e-48
  Identities: 157
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KQE_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/636666293
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 3.07792e-48
  Identities: 157
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2Q5I_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/150261553
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 4.43868e-48
  Identities: 154
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2PMF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/149243239
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 2.92287e-22
  Identities: 103
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G5I_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/13787096
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 9.00932e-21
  Identities: 101
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G5H_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/13787092
 ------------------------------------------------------------------
 
 
@@ -163,7 +163,7 @@ Hsp num :1
  E-value: 5.93088e-20
  Identities: 105
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3IKM_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/262368016
 ------------------------------------------------------------------
 
 
@@ -176,7 +176,7 @@ Hsp num :1
  E-value: 9.3616e-20
  Identities: 105
  Function: Dna Binding ProteinDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4ZTU_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/929984938
 ------------------------------------------------------------------
 
 
@@ -189,7 +189,7 @@ Hsp num :1
  E-value: 1.84152e-19
  Identities: 105
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2G4C_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/99032389
 ------------------------------------------------------------------
 
 
@@ -202,7 +202,7 @@ Hsp num :1
  E-value: 1.1413e-18
  Identities: 106
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3IKL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/304445770
 ------------------------------------------------------------------
 
 
@@ -215,7 +215,7 @@ Hsp num :1
  E-value: 0.000664211
  Identities: 43
  Function: LigaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4RQE_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/946926009
 ------------------------------------------------------------------
 
 
@@ -228,7 +228,7 @@ Hsp num :1
  E-value: 0.000681725
  Identities: 43
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3VBB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/378792521
 ------------------------------------------------------------------
 
 
@@ -241,7 +241,7 @@ Hsp num :1
  E-value: 0.000690275
  Identities: 43
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4L87_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/550545083
 ------------------------------------------------------------------
 
 
@@ -254,7 +254,7 @@ Hsp num :1
  E-value: 0.00221733
  Identities: 42
  Function: LigaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4RQF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/946926016
 ------------------------------------------------------------------
 
 

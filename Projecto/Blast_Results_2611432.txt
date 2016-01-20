@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 6.72286e-138
  Identities: 257
  Function: Helicase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1GM5_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/16975404
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 1.9805e-67
  Identities: 152
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2EYQ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/90109237
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 4.65465e-08
  Identities: 44
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1WP9_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/60593908
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 5.50198e-08
  Identities: 67
  Function: Rna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1HV8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/13399860
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 2.48065e-07
  Identities: 76
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZJ2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/223365750
 ------------------------------------------------------------------
 
 
@@ -75,7 +75,7 @@ Hsp num :1
  E-value: 7.61763e-05
  Identities: 77
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4NHO_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/657232093
 ------------------------------------------------------------------
 
 
@@ -95,7 +95,7 @@ Hsp num :1
  E-value: 0.000763408
  Identities: 35
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4W7S_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/700588533
 ------------------------------------------------------------------
 
 
@@ -108,7 +108,7 @@ Hsp num :1
  E-value: 0.000835804
  Identities: 67
  Function: HydrolaseTRANSLATION
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2VSO_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/192988258
 ------------------------------------------------------------------
 
 
@@ -131,7 +131,7 @@ Hsp num :1
  E-value: 0.00280721
  Identities: 80
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4BGD_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/508123650
 ------------------------------------------------------------------
 
 
@@ -144,7 +144,7 @@ Hsp num :1
  E-value: 0.00296131
  Identities: 80
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5DCA_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/963119626
 ------------------------------------------------------------------
 
 
@@ -158,7 +158,7 @@ Hsp num :1
  E-value: 0.00370477
  Identities: 51
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4NL4_H
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/572153394
 ------------------------------------------------------------------
 
 
@@ -171,7 +171,7 @@ Hsp num :1
  E-value: 0.0037155
  Identities: 90
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4F92_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/409107229
 ------------------------------------------------------------------
 
 
@@ -184,7 +184,7 @@ Hsp num :1
  E-value: 0.00378219
  Identities: 90
  Function: Rna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KIT_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/510102276
 ------------------------------------------------------------------
 
 
@@ -197,7 +197,7 @@ Hsp num :1
  E-value: 0.00381136
  Identities: 90
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4F91_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/409107228
 ------------------------------------------------------------------
 
 
@@ -222,7 +222,7 @@ Hsp num :1
  E-value: 0.0293971
  Identities: 74
  Function: Dna Binding ProteinDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2P6R_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/149242937
 ------------------------------------------------------------------
 
 

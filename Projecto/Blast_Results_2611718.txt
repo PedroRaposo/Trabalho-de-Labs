@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 1.91855e-42
  Identities: 104
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2QGN_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/152149497
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 1.41518e-30
  Identities: 91
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3D3Q_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/194320048
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 2.54579e-27
  Identities: 89
  Function: TransferaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FOZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/221046906
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 1.22646e-26
  Identities: 95
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CRM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/186973101
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 3.75562e-26
  Identities: 91
  Function: TransferaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZM5_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/226887623
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 8.85394e-21
  Identities: 76
  Function: TransferaseRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3EPH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/211939415
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 5.28913e-14
  Identities: 40
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3A8T_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/282403612
 ------------------------------------------------------------------
 
 

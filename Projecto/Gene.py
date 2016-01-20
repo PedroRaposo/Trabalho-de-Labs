@@ -38,14 +38,15 @@ class MyHsp:
         self.function=""
         self.isPdb=isPdb
         if(isPdb==True):
-            self.pdbLink = "http://www.rcsb.org/pdb/explore/explore.do?structureId="+accession
+            self.ncbiLink = "http://www.ncbi.nlm.nih.gov/protein/"+gi
             Entrez.email = "emanuel_queiroga1@hotmail.com"    # Its necessary to tell NCBI who we are
             #Using the Entrez import we fetch the genbank file
-            handleGb = Entrez.efetch(db="protein", id=gi, rettype="gb")
-            save_fileGb = open("homologous_"+gi+".gb", "w")
-            save_fileGb.write(handleGb.read())
-            save_fileGb.close()
-            handleGb.close()
+            if(os.path.isfile("homologous_"+gi+".gb")!=True):
+                handleGb = Entrez.efetch(db="protein", id=gi, rettype="gb")
+                save_fileGb = open("homologous_"+gi+".gb", "w")
+                save_fileGb.write(handleGb.read())
+                save_fileGb.close()
+                handleGb.close()
             recordGb = SeqIO.read("homologous_"+gi+".gb", "genbank")
 #            self.function=recordGb.annotations            
             procura = re.search("class:",recordGb.annotations["db_source"])
@@ -63,7 +64,7 @@ class MyHsp:
     def __str__(self):
         res= " Gi: " + self.gi + " \n Accession: "+ self.accession + " \n Score: "+ str(self.bitScore) + "\n E-value: " + str(self.e_value) + "\n Identities: " + str(self.ident)
         if(self.isPdb == True):
-            res+= "\n Function: "+ self.function + "\n Link to PDB: "+ self.pdbLink 
+            res+= "\n Function: "+ self.function + "\n Link to PDB: "+ self.ncbiLink
         return res
     
 class MyRep:
@@ -131,7 +132,7 @@ class MyCDS:
         self.blastPInfo=None
         self.hits=[]
         #self.blast()
-        self.parseBlast("nt","nucl")
+        self.parseALLBlast()
 #        self.hitsToFile()
         
         
@@ -364,7 +365,7 @@ class MyCDS:
         hspIndice = 1
         if(len(self.hits)>0):
             if(len(self.hits[0])==0 ):
-                with open("failedBlastPwith_0.005_30.txt","a") as text_file:
+                with open("failedBlastPwith_0.05_30.txt","a") as text_file:
                     print(self.geneID,file=text_file )
                 text_file.close()
             else:            
@@ -387,7 +388,7 @@ class MyCDS:
                         print("",file=text_file)
                 text_file.close()
         else:
-            with open("failedBlastP.txt","a") as text_file:
+            with open("failedBlastP2.txt","a") as text_file:
                 print(self.geneID,file=text_file )
             text_file.close()
             
@@ -396,7 +397,7 @@ class MyCDS:
         hspIndice = 1
         if(len(self.hits)>0):
             if(len(self.hits[0])==0 ):
-                with open("failedBlastNTwith_0.005_30.txt","a") as text_file:
+                with open("failedBlastNTwith_0.05_30.txt","a") as text_file:
                     print(self.geneID,file=text_file )
                 text_file.close()
             else:            
@@ -419,9 +420,67 @@ class MyCDS:
                         print("",file=text_file)
                 text_file.close()
         else:
-            with open("failedBlastNT.txt","a") as text_file:
+            with open("failedBlastNT2.txt","a") as text_file:
                 print(self.geneID,file=text_file )
             text_file.close()
+            
+    def parseALLBlast(self, e_param=0.05, i_param=30):
+        databaseP="pdb"
+        moleculeP="prot" 
+        databaseN="nt"
+        moleculeN="nucl"
+        name1 = self.geneID+"_"+databaseP+".xml"
+        tam1 = len(self.translation)
+        
+        name2= self.old_locus_tag+"_"+databaseN+".xml"
+        tam2 = len(self.seq)
+        
+        if(os.path.isfile(name1)==True):
+            name=name1
+            tam=tam1
+            molecule=moleculeP
+            
+        
+        if(os.path.isfile(name2)==True):
+            name=name2
+            tam=tam2
+            molecule=moleculeN
+        
+        
+        if(os.path.isfile(name)==True):    
+            result_handle = open(name)
+            blast_record = NCBIXML.read(result_handle)
+    #        print("Global results: ")
+    #        print("Database:")
+    #        print(blast_record.database)
+    #        print("Substitution matrix: ")
+    #        print(blast_record.matrix)
+    #        print("Gap penalties: ")
+    #        print(blast_record.gap_penalties)
+    #        print("----------------------------------------------- ")
+    #        print(" ")
+            #print("------------------------------------------------- ")
+            for i in range(len(blast_record.alignments)) :
+                alignment = blast_record.alignments[i]
+                hitAccession = alignment.accession;
+                tag = re.search("[0-9]+",alignment.hit_id)
+                hitGi = tag.group() 
+                self.hits.append([])
+                for i2 in range(len(alignment.hsps)):               
+                    alignment_hsp = alignment.hsps[i2]
+                    rang = (alignment_hsp.align_length/tam)*100
+                    if(molecule=="prot"):
+                       if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
+                           hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,True)
+                           self.hits[i].append(hsp)
+                    else:
+                        if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
+                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities)
+                            self.hits[i].append(hsp)
+            if(molecule=="nucl"):
+                self.hitsToFileNT()
+            else:
+                self.hitsToFile()
         
                 
                 
