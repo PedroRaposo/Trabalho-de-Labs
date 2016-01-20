@@ -1,0 +1,155 @@
+LOCUS       1KMJ_A                   406 aa            linear   BCT 23-OCT-2013
+DEFINITION  Chain A, E. Coli Nifs/csdb Protein At 2.0a With The Cysteine
+            Persulfide Intermediate (residue Css).
+ACCESSION   1KMJ_A
+VERSION     1KMJ_A  GI:18158926
+DBSOURCE    pdb: molecule 1KMJ, chain 65, release Oct 23, 2013;
+            deposition: Dec 16, 2001;
+            class: Lyase;
+            source: Mmdb_id: 18328, Pdb_id 1: 1KMJ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 406)
+  AUTHORS   Lima,C.D.
+  TITLE     Analysis of the E. coli NifS CsdB protein at 2.0 A reveals the
+            structural basis for perselenide and persulfide intermediate
+            formation
+  JOURNAL   J. Mol. Biol. 315 (5), 1199-1208 (2002)
+   PUBMED   11827487
+REFERENCE   2  (residues 1 to 406)
+  AUTHORS   Lima,C.D., Burley,S.K., New York Sgx Research Center For Structu
+            and Genomics (Nysgxrc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-DEC-2001)
+COMMENT     1 Selenocysteine Lyase.
+FEATURES             Location/Qualifiers
+     source          1..406
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..33,320..406)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          17..20
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          21..28
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          25..394
+                     /region_name="Aminotran_5"
+                     /note="Aminotransferase class-V; pfam00266"
+                     /db_xref="CDD:249728"
+     Region          26..398
+                     /region_name="SufS_like"
+                     /note="Cysteine desulfurase (SufS)-like. This family
+                     belongs to the pyridoxal phosphate (PLP)-dependent
+                     aspartate aminotransferase superfamily (fold I). The major
+                     groups in this CD correspond to cysteine desulfurase
+                     (SufS) and selenocysteine lyase. SufS...; cd06453"
+                     /db_xref="CDD:99746"
+     Region          join(34..83,275..319)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          38..49
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          60..80
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          84..251
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          87..92
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(94..95,98,123,200,202..203,223,225..226)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99746"
+     SecStr          94..109
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..120
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          128..137
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          138..148
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          150..153
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          166..172
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          183..193
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          195..201
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          218..224
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            226
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99746"
+     Het             bond(226)
+                     /heterogen="(PLP,1000 )"
+     SecStr          233..238
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          239..246
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          257..261
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          263..267
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          281..297
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          298..317
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          322..326
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          333..340
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          344..354
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          355..362
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          365..373
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          376..382
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          388..405
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 mifsvdkvra dfpvlsrevn glplayldsa asaqkpsqvi daeaefyrhg yaavhrgiht
+       61 lsaqatekme nvrkraslfi narsaeelvf vrgtteginl vanswgnsnv ragdniiisq
+      121 mehhanivpw qmlcarvgae lrviplnpdg tlqletlptl fdektrllai thvsnvlgte
+      181 nplaemitla hqhgakvlvd gaqavmhhpv dvqaldcdfy vfsghklygp tgigilyvke
+      241 allqemppwe gggsmiatvs lsegttwtka pwrfeagtpn tggiiglgaa leyvsalgln
+      301 niaeyeqnlm hyalsqlesv pdltlygpqn rlgviafnlg khhaydvgsf ldnygiavrt
+      361 ghhxamplma yynvpamcra slamynthee vdrlvtglqr ihrllg
+//
+

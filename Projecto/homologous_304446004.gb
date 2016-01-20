@@ -1,0 +1,88 @@
+LOCUS       3NQR_A                   127 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, A Putative Cbs Domain-Containing Protein From Salmonella
+            Typhimurium Lt2.
+ACCESSION   3NQR_A
+VERSION     3NQR_A  GI:304446004
+DBSOURCE    pdb: molecule 3NQR, chain 65, release Sep 8, 2010;
+            deposition: Jun 29, 2010;
+            class: Transport Protein;
+            source: Mmdb_id: 84420, Pdb_id 1: 3NQR;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium (Salmonella
+            typhimurium)
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (residues 1 to 127)
+  AUTHORS   Filippova,E.V., Minasov,G., Kiryukhina,O., Shuvalova,L., H,H.,
+            Joachimiak,A. and Anderson,F.W.
+  TITLE     A Putative Cbs Domain-Containing Protein From Salmo Typhimurium Lt2
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 127)
+  AUTHORS   Filippova,E.V., Minasov,G., Kiryukhina,O., Shuvalova,L., Cui,H.,
+            Joa,A., Anderson,F.W. and Midwest Center For Structural Genomics
+            (Mcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JUN-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..127
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium"
+                     /db_xref="taxon:90371"
+     Region          join(1..14,68..127)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          9..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          10..121
+                     /region_name="CBS"
+                     /note="CBS domain [Signal transduction mechanisms];
+                     COG0517"
+                     /db_xref="CDD:223591"
+     Region          13..122
+                     /region_name="CBS_pair_CorC_HlyC_assoc"
+                     /note="This cd contains two tandem repeats of the
+                     cystathionine beta-synthase (CBS pair) domains associated
+                     with the CorC_HlyC domain. CorC_HlyC is a transporter
+                     associated domain. This small domain is found in Na+/H+
+                     antiporters, in proteins involved in...; cd04590"
+                     /db_xref="CDD:239963"
+     Region          15..67
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          16..20
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          24..34
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          37..43
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          48..55
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          79..83
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          87..97
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          100..107
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          109..116
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          117..124
+                     /sec_str_type="helix"
+                     /note="helix 3"
+ORIGIN      
+        1 adqrvrdixi prsqxitlkr nqtldecldv iiesahsrfp visedkdhie gilxakdllp
+       61 fxrsdaeafs xdkvlrtavv vpeskrvdrx lkefrsqryh xaividefgg vsglvtiedi
+      121 lelivge
+//
+

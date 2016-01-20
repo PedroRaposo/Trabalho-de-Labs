@@ -1,0 +1,234 @@
+LOCUS       4O2D_A                   620 aa            linear   BCT 22-APR-2015
+DEFINITION  Chain A, Crystal Structure Of Aspartyl-trna Synthetase From
+            Mycobacterium Smegmatis With Bound Aspartic Acid.
+ACCESSION   4O2D_A
+VERSION     4O2D_A  GI:575403576
+DBSOURCE    pdb: molecule 4O2D, chain 65, release Apr 22, 2015;
+            deposition: Dec 17, 2013;
+            class: Ligase;
+            source: Mmdb_id: 116906, Pdb_id 1: 4O2D;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium smegmatis str. MC2 155
+  ORGANISM  Mycobacterium smegmatis str. MC2 155
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium.
+REFERENCE   1  (residues 1 to 620)
+  AUTHORS   Baugh,L., Phan,I., Begley,D.W., Clifton,M.C., Armour,B.,
+            Dranow,D.M., Taylor,B.M., Muruthi,M.M., Abendroth,J., Fairman,J.W.,
+            Fox D,3r., Dieterich,S.H., Staker,B.L., Gardberg,A.S., Choi,R.,
+            Hewitt,S.N., Napuli,A.J., Myers,J., Barrett,L.K., Zhang,Y.,
+            Ferrell,M., Mundt,E., Thompkins,K., Tran,N., Lyons-Abbott,S.,
+            Abramov,A., Sekar,A., Serbzhinskiy,D., Lorimer,D., Buchko,G.W.,
+            Stacy,R., Stewart,L.J., Edwards,T.E., Van Voorhis,W.C. and
+            Myler,P.J.
+  TITLE     Increasing the structural coverage of tuberculosis drug targets
+  JOURNAL   Tuberculosis (Edinb) 95 (2), 142-148 (2015)
+   PUBMED   25613812
+REFERENCE   2  (residues 1 to 620)
+  AUTHORS   Seattle Structural Genomics Center For Infectious Disease (S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-DEC-2013)
+COMMENT     1 Aspartate--trna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..620
+                     /organism="Mycobacterium smegmatis str. MC2 155"
+                     /strain="MC2 155"
+                     /db_xref="taxon:246196"
+     Region          1..132
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          22..609
+                     /region_name="aspS"
+                     /note="aspartyl-tRNA synthetase; Validated; PRK00476"
+                     /db_xref="CDD:234775"
+     SecStr          24..27
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          25..153
+                     /region_name="EcAspRS_like_N"
+                     /note="EcAspRS_like_N: N-terminal, anticodon recognition
+                     domain of the type found in Escherichia coli aspartyl-tRNA
+                     synthetase (AspRS), the human mitochondrial (mt) AspRS-2,
+                     the discriminating (D) Thermus thermophilus AspRS-1, and
+                     the nondiscriminating (ND)...; cd04317"
+                     /db_xref="CDD:239812"
+     Site            order(25,28,46,64,124,126..127)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239812"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          45..49
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(49,51..53,58,69,85,99,105,114,130)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:239812"
+     SecStr          50..54
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          55..64
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          65..73
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          87..91
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          92..99
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          112..117
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          118..122
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          123..126
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          138..146
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          join(150..292,433..620)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          153..176
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          159..580
+                     /region_name="AspRS_core"
+                     /note="Asp tRNA synthetase (aspRS) class II core domain.
+                     Class II assignment is based upon its structure and the
+                     presence of three characteristic sequence motifs. AspRS is
+                     a homodimer, which attaches a specific amino acid to the
+                     3' OH group of ribose of the...; cd00777"
+                     /db_xref="CDD:238400"
+     Site            order(162..164,167,170..171,174,177..180,182..188,195,
+                     198..202,206..209,224..225,228..229,235,239,249,259,264,
+                     538,541..542,544..547,575..576,578)
+                     /site_type="other"
+                     /note="homodimer interface [polypeptide binding]"
+                     /db_xref="CDD:238400"
+     SecStr          178..181
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            184..188
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238400"
+     Site            order(192..194,214,216,219,238,240,245..247,250,252,
+                     470..471,504,507,511,553..554,556,559)
+                     /site_type="active"
+                     /db_xref="CDD:238400"
+     SecStr          197..201
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          207..211
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          216..225
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          228..238
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            237..240
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238400"
+     SecStr          248..259
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          263..278
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          289..292
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     Region          293..432
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          293..300
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          313..317
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Region          329..417
+                     /region_name="GAD"
+                     /note="GAD domain; pfam02938"
+                     /db_xref="CDD:251630"
+     SecStr          331..340
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          346..359
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          364..371
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          373..377
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          384..391
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          400..409
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          410..428
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          437..445
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          447..450
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          465..468
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          492..501
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          502..511
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          515..525
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          529..536
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          549..557
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     Site            556..559
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238400"
+     SecStr          558..565
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          594..601
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mahhhhhhmg tleaqtqgpg smvlrthaag slrpadagqt vtlagwvarr rdhggvifid
+       61 lrdasgvsqv vfregdvlaa ahrlraefcv avtgvvevrp egnenpeipt gqievnatel
+      121 tvlgesaplp fqldeqagee arlkyryldl rregpgnalr lrskvnaaar svlaehdfve
+      181 ietptltrst pegardflvp arlqpgsfya lpqspqlfkq llmvagmery yqiarcyrde
+      241 dfradrqpef tqldmemsfv eaddviaise qvlkavwati gydlplplpr isyeeamrrf
+      301 gsdkpdlrfg ielvecteyf kdttfrvfqa pyvgavvmpg gasqprrtld gwqefakqrg
+      361 hkglayvlvg edgtlggpva knlsdaerdg lvahvganpg dciffaagpa kgarallgat
+      421 rieiakrldl idpnawaftw vvdfpmfeaa deataagdva vgsgawtamh haftapkpds
+      481 vdtfdsdpgn alsdaydivc ngneigggsi rihrrdiqer vfammgidhd eaqekfgfll
+      541 dafsygapph ggiafgwdri tallagvdsi reviafpksg ggvdpltdap apitpqqrke
+      601 sgidakpred kpkedakska
+//
+

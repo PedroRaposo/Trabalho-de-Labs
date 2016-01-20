@@ -1,0 +1,141 @@
+LOCUS       1VPL_A                   256 aa            linear   BCT 01-FEB-2013
+DEFINITION  Chain A, Crystal Structure Of Abc Transporter Atp-binding Protein
+            (tm0544) From Thermotoga Maritima At 2.10 A Resolution.
+ACCESSION   1VPL_A
+VERSION     1VPL_A  GI:56966600
+DBSOURCE    pdb: molecule 1VPL, chain 65, release Jan 25, 2013;
+            deposition: Nov 10, 2004;
+            class: Lyase;
+            source: Mmdb_id: 30427, Pdb_id 1: 1VPL;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima MSB8
+  ORGANISM  Thermotoga maritima MSB8
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 256)
+  AUTHORS   Joint Center For Structural Genomics (Jcsg).
+  TITLE     Crystal Structure Of Abc Transporter Atp-Binding Pr (Tm0544) From
+            Thermotoga Maritima At 2.10 A Resolut
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 256)
+  AUTHORS   Joint Center For Structural Genomics (Jcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-NOV-2004)
+COMMENT     1 Abc Transporter, Atp-binding Protein.
+FEATURES             Location/Qualifiers
+     source          1..256
+                     /organism="Thermotoga maritima MSB8"
+                     /db_xref="taxon:243274"
+     Region          join(1..98,164..256)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          15..19
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          16..224
+                     /region_name="ABC_DR_subfamily_A"
+                     /note="ATP-binding cassette domain of the drug resistance
+                     transporter and related proteins, subfamily A; cd03230"
+                     /db_xref="CDD:213197"
+     Region          18..254
+                     /region_name="NatA"
+                     /note="ABC-type Na+ transport system, ATPase component
+                     NatA [Energy production and conversion, Inorganic ion
+                     transport and metabolism]; COG4555"
+                     /db_xref="CDD:226927"
+     SecStr          20..26
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          27..39
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          41..48
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            48..55
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213197"
+     Site            order(51..52,54..56,95,171..172,204)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213197"
+     SecStr          54..62
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          68..75
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          83..90
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          91..95
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            92..95
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213197"
+     Region          99..163
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          101..105
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          106..114
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          120..134
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          140..145
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            147..156
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213197"
+     SecStr          149..161
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          166..172
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            167..172
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213197"
+     Site            175..178
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213197"
+     SecStr          179..195
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          197..204
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            200..206
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213197"
+     SecStr          214..221
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          222..229
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          230..237
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          242..249
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 mgsdkihhhh hhmgavvvkd lrkrigkkei lkgisfeiee geifgligpn gagktttlri
+       61 istlikpssg ivtvfgknvv eephevrkli sylpeeagay rnmqgieylr fvagfyasss
+      121 seieemvera teiaglgeki kdrvstyskg mvrklliara lmvnprlail deptsgldvl
+      181 narevrkilk qasqegltil vsshnmleve flcdrialih ngtivetgtv eelkerykaq
+      241 nieevfeevv kcsenf
+//
+

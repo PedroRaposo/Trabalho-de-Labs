@@ -1,0 +1,215 @@
+LOCUS       3P0J_A                   690 aa            linear   INV 10-OCT-2012
+DEFINITION  Chain A, Leishmania Major Tyrosyl-Trna Synthetase In Complex With
+            Tyrosinol, Triclinic Crystal Form 1.
+ACCESSION   3P0J_A
+VERSION     3P0J_A  GI:326634434
+DBSOURCE    pdb: molecule 3P0J, chain 65, release Oct 9, 2011;
+            deposition: Sep 28, 2010;
+            class: Ligase;
+            source: Mmdb_id: 89395, Pdb_id 1: 3P0J;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Leishmania major
+  ORGANISM  Leishmania major
+            Eukaryota; Euglenozoa; Kinetoplastida; Trypanosomatidae;
+            Leishmaniinae; Leishmania.
+REFERENCE   1  (residues 1 to 690)
+  AUTHORS   Larson,E.T., Kim,J.E., Castaneda,L.J., Napuli,A.J., Zhang,Z.,
+            Fan,E., Zucker,F.H., Verlinde,C.L., Buckner,F.S., Van Voorhis,W.C.,
+            Hol,W.G. and Merritt,E.A.
+  TITLE     The double-length tyrosyl-tRNA synthetase from the eukaryote
+            Leishmania major forms an intrinsically asymmetric pseudo-dimer
+  JOURNAL   J. Mol. Biol. 409 (2), 159-176 (2011)
+   PUBMED   21420975
+REFERENCE   2  (residues 1 to 690)
+  AUTHORS   Larson,E.T., Merritt,E.A., Medical Structural Genomics Of Pathog
+            and Protozoa (Msgpp).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-SEP-2010)
+COMMENT     1 Tyrosyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..690
+                     /organism="Leishmania major"
+                     /db_xref="taxon:5664"
+     Region          join(1..232,341..371)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          9..690
+                     /region_name="PTZ00348"
+                     /note="tyrosyl-tRNA synthetase; Provisional"
+                     /db_xref="CDD:173541"
+     SecStr          11..19
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          12..362
+                     /region_name="nt_trans"
+                     /note="nucleotidyl transferase superfamily; cl00015"
+                     /db_xref="CDD:277375"
+     SecStr          23..27
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          28..37
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          41..48
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(54..57,232..235)
+                     /site_type="active"
+                     /db_xref="CDD:173912"
+     Site            order(54,57,233)
+                     /site_type="other"
+                     /note="nucleotide binding site [chemical binding]"
+                     /db_xref="CDD:173912"
+     Site            54..57
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173912"
+     SecStr          60..71
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          73..81
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          94..111
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Het             join(bond(115),bond(118))
+                     /heterogen="( NA,1001 )"
+     SecStr          117..123
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          124..131
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          132..144
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          147..154
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          171..181
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          185..190
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          195..207
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          213..218
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            232..235
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173912"
+     Region          233..340
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          246..255
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          282..289
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          298..302
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          303..307
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          309..318
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          323..340
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          341..348
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          349..361
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     Region          join(372..565,670..690)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          382..388
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          396..413
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          416..422
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          423..430
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     Region          <424..669
+                     /region_name="nt_trans"
+                     /note="nucleotidyl transferase superfamily; cl00015"
+                     /db_xref="CDD:277375"
+     SecStr          437..454
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          460..465
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          473..486
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          489..496
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          505..519
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          522..527
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          535..542
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          545..550
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Region          566..669
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          580..589
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          600..612
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          614..619
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          625..630
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          632..640
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          646..662
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          677..686
+                     /sec_str_type="helix"
+                     /note="helix 27"
+ORIGIN      
+        1 mahhhhhhmn tderykllrs vgeeciqese lrnliekkpl ircydgfeps grmhiaqgif
+       61 kavnvnkcta agcefvfwva dwfalmndkv ggelekiriv grylievwka agmdmdkvlf
+      121 lwsseeitsh adtywrmvld igrqntiari kkcctimgkt egtltaaqvl yplmqccdif
+      181 flkadicqlg ldqrkvnmla reycdligrk lkpvilshhm laglkqgqak msksdpdsai
+      241 fmedteedva rkirqaycpr vkqsasaitd dgapvatddr npvldyfqcv vyarpgaaat
+      301 idgttyatye dleqafvsde vsedalkscl idevnallep vrqhfasnee ahelleavks
+      361 yrkdgatlpl aetalpaapa kphacmwmpa llkvpldvae gmikvtkdfi aahpegtvtl
+      421 vlpdwsavas deitgvekdi saalqvncal lkayglpssv kivtenevil gncddfwvsv
+      481 igiarknlls hveelyggev rnagqviaal mrvatalmls vshvistsld ghinafarey
+      541 tkeridcvqt legripalhr pgaapavlga ddvlylddnd mdirrkikka ysapneeanp
+      601 visvaqhlla qhgalsierg eanggnvsyn tpealvadcg sgalhpadlk aavlqllldr
+      661 saqarallng elkknmtvlr naekkmakkr
+//
+

@@ -1,0 +1,162 @@
+LOCUS       2VSO_A                   395 aa            linear   PLN 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of A Translation Initiation Complex.
+ACCESSION   2VSO_A
+VERSION     2VSO_A  GI:192988258
+DBSOURCE    pdb: molecule 2VSO, chain 65, release Sep 4, 2012;
+            deposition: Apr 28, 2008;
+            class: HydrolaseTRANSLATION;
+            source: Mmdb_id: 65066, Pdb_id 1: 2VSO;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae (baker's yeast)
+  ORGANISM  Saccharomyces cerevisiae
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+            Saccharomyces.
+REFERENCE   1  (residues 1 to 395)
+  AUTHORS   Schutz,P., Bumann,M., Oberholzer,A.E., Bieniossek,C., Trachsel,H.,
+            Altmann,M. and Baumann,U.
+  TITLE     Crystal structure of the yeast eIF4A-eIF4G complex: an RNA-helicase
+            controlled by protein-protein interactions
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (28), 9564-9569 (2008)
+   PUBMED   18606994
+REFERENCE   2  (residues 1 to 395)
+  AUTHORS   Schutz,P., Bumann,M., Oberholzer,A.E., Bieniossek,C., Altmann,M.,
+            Trachsel,H. and Baumann,U.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-APR-2008)
+COMMENT     1 Atp-dependent Rna Helicase Eif4a.
+FEATURES             Location/Qualifiers
+     source          1..395
+                     /organism="Saccharomyces cerevisiae"
+                     /db_xref="taxon:4932"
+     Region          1..228
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          10..394
+                     /region_name="PTZ00424"
+                     /note="helicase 45; Provisional"
+                     /db_xref="CDD:185609"
+     SecStr          14..17
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          24..223
+                     /region_name="DEADc"
+                     /note="DEAD-box helicases. A diverse family of proteins
+                     involved in ATP-dependent RNA unwinding, needed in a
+                     variety of cellular processes including splicing, ribosome
+                     biogenesis and RNA degradation. The name derives from the
+                     sequence of the Walker B motif...; cd00268"
+                     /db_xref="CDD:238167"
+     SecStr          31..40
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          52..59
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          61..66
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            69..73
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238167"
+     SecStr          72..83
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          89..97
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          100..114
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          120..124
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          139..146
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          147..156
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          165..171
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            170..173
+                     /site_type="other"
+                     /note="Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238167"
+     SecStr          172..179
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          181..190
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          195..202
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            201..203
+                     /site_type="other"
+                     /note="motif III"
+                     /db_xref="CDD:238167"
+     SecStr          206..215
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          219..224
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          229..395
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          233..241
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Region          234..349
+                     /region_name="HELICc"
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast
+                     initiation factor 4A, Ski2p, and Hepatitis C virus NS3
+                     helicases; this domain is found in a wide variety of
+                     helicases and helicase related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+     SecStr          248..257
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          262..268
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            order(268..271,291..292,317..319)
+                     /site_type="other"
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          270..283
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          286..291
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          296..308
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          312..318
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          330..335
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          359..365
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          369..377
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 msegitdiee sqiqtnydkv vykfddmeld enllrgvfgy gfeepsaiqq raimpiiegh
+       61 dvlaqaqsgt gktgtfsiaa lqridtsvka pqalmlaptr elalqiqkvv malafhmdik
+      121 vhaciggtsf vedaeglrda qivvgtpgrv fdniqrrrfr tdkikmfild eademlssgf
+      181 keqiyqiftl lppttqvvll satmpndvle vttkfmrnpv rilvkkdelt legikqfyvn
+      241 veeeeykyec ltdlydsisv tqavifcntr rkveelttkl rndkftvsai ysdlpqqerd
+      301 timkefrsgs srilistdll argidvqqvs lvinydlpan kenyihrigr ggrfgrkgva
+      361 infvtnedvg amrelekfys tqieelpsdi atlln
+//
+

@@ -1,0 +1,650 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 58177016 
+ Accession: 1VCI_A 
+ Score: 258.455
+ E-value: 8.54908e-82
+ Identities: 133
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VCI_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 56966313 
+ Accession: 1V43_A 
+ Score: 258.455
+ E-value: 9.05019e-82
+ Identities: 133
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1V43_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 160286229 
+ Accession: 2YYZ_A 
+ Score: 256.914
+ E-value: 2.39775e-81
+ Identities: 145
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2YYZ_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 12084694 
+ Accession: 1G29_1 
+ Score: 251.136
+ E-value: 5.32901e-79
+ Identities: 144
+ Function: Sugar Binding Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G29_1
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 109157437 
+ Accession: 2D62_A 
+ Score: 242.662
+ E-value: 1.08117e-75
+ Identities: 136
+ Function: Sugar Binding Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2D62_A
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 71042159 
+ Accession: 1Z47_A 
+ Score: 241.506
+ E-value: 1.97704e-75
+ Identities: 127
+ Function: Ligand Binding Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z47_A
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 159794850 
+ Accession: 2IT1_A 
+ Score: 241.121
+ E-value: 3.07839e-75
+ Identities: 115
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2IT1_A
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 37927745 
+ Accession: 1Q1B_A 
+ Score: 238.81
+ E-value: 4.08021e-74
+ Identities: 124
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q1B_A
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 37927731 
+ Accession: 1Q12_A 
+ Score: 238.81
+ E-value: 4.44329e-74
+ Identities: 124
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q12_A
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 161172218 
+ Accession: 2R6G_A 
+ Score: 237.654
+ E-value: 1.37455e-73
+ Identities: 123
+ Function: HydrolaseTRANSPORT PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2R6G_A
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 901695615 
+ Accession: 4TQU_S 
+ Score: 222.631
+ E-value: 5.19644e-68
+ Identities: 118
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4TQU_S
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 33357796 
+ Accession: 1OXS_C 
+ Score: 218.394
+ E-value: 1.60026e-66
+ Identities: 117
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1OXS_C
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 37927347 
+ Accession: 1OXX_K 
+ Score: 216.083
+ E-value: 1.24083e-65
+ Identities: 116
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1OXX_K
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 190016395 
+ Accession: 3D31_A 
+ Score: 211.075
+ E-value: 8.1282e-64
+ Identities: 120
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3D31_A
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 256599663 
+ Accession: 3FVQ_A 
+ Score: 175.252
+ E-value: 3.50227e-50
+ Identities: 103
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FVQ_A
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 222447024 
+ Accession: 3C41_J 
+ Score: 159.458
+ E-value: 2.15496e-45
+ Identities: 86
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3C41_J
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 165760875 
+ Accession: 2OLJ_A 
+ Score: 159.073
+ E-value: 4.42965e-45
+ Identities: 86
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2OLJ_A
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 820957391 
+ Accession: 4U00_A 
+ Score: 158.303
+ E-value: 5.74601e-45
+ Identities: 92
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4U00_A
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 810516228 
+ Accession: 4YMS_J 
+ Score: 155.992
+ E-value: 3.59247e-44
+ Identities: 85
+ Function: Protein BindingTRANSPORT PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4YMS_J
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 134105243 
+ Accession: 2ONK_A 
+ Score: 144.05
+ E-value: 1.07994e-39
+ Identities: 87
+ Function: Membrane Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ONK_A
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 195927581 
+ Accession: 3DHW_C 
+ Score: 143.665
+ E-value: 1.59101e-38
+ Identities: 77
+ Function: Membrane ProteinHYDROLASE
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3DHW_C
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 358439881 
+ Accession: 3TUI_C 
+ Score: 141.739
+ E-value: 8.85092e-38
+ Identities: 76
+ Function: HydrolaseTRANSPORT PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TUI_C
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 358439889 
+ Accession: 3TUJ_C 
+ Score: 141.739
+ E-value: 1.09165e-37
+ Identities: 76
+ Function: HydrolaseTRANSPORT PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TUJ_C
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 22219193 
+ Accession: 1L2T_A 
+ Score: 136.732
+ E-value: 5.58683e-37
+ Identities: 81
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1L2T_A
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 380764195 
+ Accession: 3TIF_A 
+ Score: 136.346
+ E-value: 6.12361e-37
+ Identities: 82
+ Function: Rna Binding Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TIF_A
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+Hsp num :1
+ Gi: 15826057 
+ Accession: 1F3O_A 
+ Score: 130.954
+ E-value: 6.26206e-35
+ Identities: 82
+ Function: Structural Genomics
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1F3O_A
+------------------------------------------------------------------
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 554793812 
+ Accession: 4MKI_B 
+ Score: 129.028
+ E-value: 1.06899e-33
+ Identities: 78
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4MKI_B
+------------------------------------------------------------------
+
+
+Hit num: 28
+
+Hsp num :1
+ Gi: 6573453 
+ Accession: 1B0U_A 
+ Score: 118.242
+ E-value: 4.18093e-30
+ Identities: 90
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1B0U_A
+------------------------------------------------------------------
+
+
+Hit num: 29
+
+Hsp num :1
+ Gi: 225734254 
+ Accession: 3GFO_A 
+ Score: 114.005
+ E-value: 1.47268e-28
+ Identities: 77
+ Function: Atp Binding Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GFO_A
+------------------------------------------------------------------
+
+
+Hit num: 30
+
+Hsp num :1
+ Gi: 694270418 
+ Accession: 4WBS_A 
+ Score: 111.694
+ E-value: 9.85284e-28
+ Identities: 80
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4WBS_A
+------------------------------------------------------------------
+
+
+Hit num: 31
+
+Hsp num :1
+ Gi: 158429400 
+ Accession: 2PCJ_A 
+ Score: 107.842
+ E-value: 7.49436e-27
+ Identities: 72
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2PCJ_A
+------------------------------------------------------------------
+
+
+Hit num: 32
+
+Hsp num :1
+ Gi: 480312127 
+ Accession: 4HUQ_A 
+ Score: 107.071
+ E-value: 4.58633e-26
+ Identities: 62
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4HUQ_A
+------------------------------------------------------------------
+
+
+Hit num: 33
+
+Hsp num :1
+ Gi: 480312128 
+ Accession: 4HUQ_B 
+ Score: 104.375
+ E-value: 3.13196e-25
+ Identities: 67
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4HUQ_B
+------------------------------------------------------------------
+
+
+Hit num: 34
+
+Hsp num :1
+ Gi: 597960436 
+ Accession: 4P32_A 
+ Score: 102.064
+ E-value: 1.12447e-24
+ Identities: 75
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4P32_A
+------------------------------------------------------------------
+
+
+Hit num: 35
+
+Hsp num :1
+ Gi: 699027695 
+ Accession: 4QC2_A 
+ Score: 102.064
+ E-value: 1.23234e-24
+ Identities: 75
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QC2_A
+------------------------------------------------------------------
+
+
+Hit num: 36
+
+Hsp num :1
+ Gi: 767259860 
+ Accession: 4YER_A 
+ Score: 102.834
+ E-value: 1.76176e-24
+ Identities: 71
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4YER_A
+------------------------------------------------------------------
+
+
+Hit num: 37
+
+Hsp num :1
+ Gi: 597960438 
+ Accession: 4P33_A 
+ Score: 100.908
+ E-value: 3.38409e-24
+ Identities: 74
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4P33_A
+------------------------------------------------------------------
+
+
+Hit num: 38
+
+Hsp num :1
+ Gi: 597960434 
+ Accession: 4P31_A 
+ Score: 100.138
+ E-value: 5.54729e-24
+ Identities: 75
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4P31_A
+------------------------------------------------------------------
+
+
+Hit num: 39
+
+Hsp num :1
+ Gi: 160286231 
+ Accession: 2YZ2_A 
+ Score: 100.138
+ E-value: 7.88834e-24
+ Identities: 73
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2YZ2_A
+------------------------------------------------------------------
+
+
+Hit num: 40
+
+Hsp num :1
+ Gi: 829581800 
+ Accession: 4ZIR_A 
+ Score: 99.7525
+ E-value: 9.04429e-24
+ Identities: 73
+ Function: Transport Protein, HydrolaseINHIBITOR
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4ZIR_A
+------------------------------------------------------------------
+
+
+Hit num: 41
+
+Hsp num :1
+ Gi: 448262576 
+ Accession: 4HLU_A 
+ Score: 99.7525
+ E-value: 9.61251e-24
+ Identities: 73
+ Function: Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4HLU_A
+------------------------------------------------------------------
+
+
+Hit num: 42
+
+Hsp num :1
+ Gi: 927774915 
+ Accession: 5DGX_A 
+ Score: 97.0561
+ E-value: 8.19799e-23
+ Identities: 74
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5DGX_A
+------------------------------------------------------------------
+
+
+Hit num: 43
+
+Hsp num :1
+ Gi: 33357348 
+ Accession: 1MT0_A 
+ Score: 90.8929
+ E-value: 8.11348e-21
+ Identities: 67
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1MT0_A
+------------------------------------------------------------------
+
+
+Hit num: 44
+
+Hsp num :1
+ Gi: 114793814 
+ Accession: 2FF7_A 
+ Score: 90.8929
+ E-value: 8.82179e-21
+ Identities: 67
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FF7_A
+------------------------------------------------------------------
+
+
+Hit num: 45
+
+Hsp num :1
+ Gi: 167013269 
+ Accession: 2PMK_A 
+ Score: 90.8929
+ E-value: 9.20031e-21
+ Identities: 67
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2PMK_A
+------------------------------------------------------------------
+
+
+Hit num: 46
+
+Hsp num :1
+ Gi: 56966600 
+ Accession: 1VPL_A 
+ Score: 90.8929
+ E-value: 1.01538e-20
+ Identities: 64
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VPL_A
+------------------------------------------------------------------
+
+
+Hit num: 47
+
+Hsp num :1
+ Gi: 430800924 
+ Accession: 4G1U_C 
+ Score: 90.8929
+ E-value: 1.04857e-20
+ Identities: 67
+ Function: Transport ProteinHYDROLASE
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4G1U_C
+------------------------------------------------------------------
+
+
+Hit num: 48
+
+Hsp num :1
+ Gi: 15826207 
+ Accession: 1G6H_A 
+ Score: 90.5077
+ E-value: 1.31226e-20
+ Identities: 68
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G6H_A
+------------------------------------------------------------------
+
+
+Hit num: 49
+
+Hsp num :1
+ Gi: 165761305 
+ Accession: 3B5J_A 
+ Score: 89.7373
+ E-value: 2.42027e-20
+ Identities: 66
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3B5J_A
+------------------------------------------------------------------
+
+
+Hit num: 50
+
+Hsp num :1
+ Gi: 114793816 
+ Accession: 2FFB_A 
+ Score: 89.7373
+ E-value: 2.60675e-20
+ Identities: 66
+ Function: Transport Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FFB_A
+------------------------------------------------------------------
+
+

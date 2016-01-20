@@ -1,0 +1,110 @@
+LOCUS       4KYU_A                   163 aa            linear   BCT 04-JUN-2014
+DEFINITION  Chain A, Crystal Structure Of N-terminal G-domain Of Enga From
+            Bacillus Subtilis.
+ACCESSION   4KYU_A
+VERSION     4KYU_A  GI:645985686
+DBSOURCE    pdb: molecule 4KYU, chain 65, release Jun 4, 2014;
+            deposition: May 29, 2013;
+            class: Hydrolase;
+            source: Mmdb_id: 120441, Pdb_id 1: 4KYU;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis subsp. subtilis str. 168
+  ORGANISM  Bacillus subtilis subsp. subtilis str. 168
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 163)
+  AUTHORS   Singh,V. and Prakash,B.
+  TITLE     Crystal Structure Of N-Terminal G-Domain Of Enga Fr Bacillus
+            Subtilis
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 163)
+  AUTHORS   Singh,V. and Prakash,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAY-2013)
+COMMENT     1 Gtpase Der.
+FEATURES             Location/Qualifiers
+     source          1..163
+                     /organism="Bacillus subtilis subsp. subtilis str. 168"
+                     /strain="168"
+                     /db_xref="taxon:224308"
+     SecStr          4..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..163
+                     /region_name="EngA1"
+                     /note="EngA1 GTPase contains the first domain of EngA;
+                     cd01894"
+                     /db_xref="CDD:206681"
+     Site            10..17
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206681"
+     Site            order(13,15..18,119..120,122,145..147)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206681"
+     SecStr          16..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             bond(17)
+                     /heterogen="( MG,1003 )"
+     Site            order(28..34,38..41)
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206681"
+     Site            38
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206681"
+     SecStr          42..49
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          50..58
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(56..61,82..83)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206681"
+     Site            57..60
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206681"
+     SecStr          68..82
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          84..91
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          98..107
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..120
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            119..122
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206681"
+     Het             join(bond(124),bond(124),bond(124))
+                     /heterogen="(  K,1008 )"
+     SecStr          141..145
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            145..147
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206681"
+     SecStr          152..160
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Het             bond(153)
+                     /heterogen="(  K,1001 )"
+     Het             bond(163)
+                     /heterogen="(  K,1002 )"
+ORIGIN      
+        1 mgkpvvaivg rpnvgkstif nriagerisi vedtpgvtrd riyssaewln ydfnlidtgg
+       61 idigdepfla qirqqaeiam deadviifmv ngregvtaad eevakilyrt kkpvvlavnk
+      121 ldntemrani ydfyslgfge pypisgthgl glgdlldava ehf
+//
+

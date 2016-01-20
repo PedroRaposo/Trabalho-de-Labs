@@ -1,0 +1,81 @@
+LOCUS       2L90_A                   212 aa            linear   ROD 10-OCT-2012
+DEFINITION  Chain A, Solution Structure Of Murine Myristoylated Msra.
+ACCESSION   2L90_A
+VERSION     2L90_A  GI:371927257
+DBSOURCE    pdb: molecule 2L90, chain 65, release Aug 1, 2012;
+            deposition: Jan 27, 2011;
+            class: Oxidoreductase;
+            source: Mmdb_id: 96268, Pdb_id 1: 2L90;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (residues 1 to 212)
+  AUTHORS   Lim,J.C., Gruschus,J.M., Ghesquiere,B., Kim,G., Piszczek,G.,
+            Tjandra,N. and Levine,R.L.
+  TITLE     Characterization and solution structure of mouse myristoylated
+            methionine sulfoxide reductase a
+  JOURNAL   J. Biol. Chem. 287 (30), 25589-25595 (2012)
+   PUBMED   22661718
+REFERENCE   2  (residues 1 to 212)
+  AUTHORS   Lim,J.C., Gruschus,J.M., Kim,G., Berlett,B.S., Tjandra,N. and
+            Levine,R.L.
+  TITLE     A Low pKa Cysteine at the Active Site of Mouse Methionine Sulfoxide
+            Reductase A
+  JOURNAL   J. Biol. Chem. 287 (30), 25596-25601 (2012)
+   PUBMED   22661719
+REFERENCE   3  (residues 1 to 212)
+  AUTHORS   Gruschus,J.M., Lim,J., Piszczek,G., Levine,R.L. and Tjandra,N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2011)
+COMMENT     1 Peptide Methionine Sulfoxide Reductase.
+FEATURES             Location/Qualifiers
+     source          1..212
+                     /organism="Mus musculus"
+                     /db_xref="taxon:10090"
+     Het             bond(1)
+                     /heterogen="(MYR,1000 )"
+     Region          5..207
+                     /region_name="PRK00058"
+                     /note="methionine sulfoxide reductase A; Provisional"
+                     /db_xref="CDD:234604"
+     SecStr          42..50
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          66..74
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          92..101
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          108..117
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          124..127
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          128..131
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          134..140
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          146..163
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          169..173
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          178..181
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+ORIGIN      
+        1 gdsaskvisa eealpgrtep ipvtakhhvs gnrtvepfpe gtqmavfgmg cfwgaerkfw
+       61 vlkgvystqv gfagghtrnp tykevcsekt ghaevvrvvy rpehisfeel lkvfwenhdp
+      121 tqgmrqgndf gtqyrsavyp tsavqmeaal rskeeyqkvl skhnfgpitt diregqvfyy
+      181 aedyhqqyls knpdgycglg gtgvscpmai kk
+//
+

@@ -1,0 +1,188 @@
+LOCUS       2G4C_A                   474 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Human Dna Polymerase Gamma Accessory
+            Subunit.
+ACCESSION   2G4C_A
+VERSION     2G4C_A  GI:99032389
+DBSOURCE    pdb: molecule 2G4C, chain 65, release Jun 18, 2009;
+            deposition: Feb 22, 2006;
+            class: Transferase;
+            source: Mmdb_id: 38784, Pdb_id 1: 2G4C;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 474)
+  AUTHORS   Fan,L., Kim,S., Farr,C.L., Schaefer,K.T., Randolph,K.M.,
+            Tainer,J.A. and Kaguni,L.S.
+  TITLE     A novel processive mechanism for DNA synthesis revealed by
+            structure, modeling and mutagenesis of the accessory subunit of
+            human mitochondrial DNA polymerase
+  JOURNAL   J. Mol. Biol. 358 (5), 1229-1243 (2006)
+   PUBMED   16574152
+REFERENCE   2  (residues 1 to 474)
+  AUTHORS   Fan,L., Farr,C.L., Kaguni,L.S. and Tainer,J.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-FEB-2006)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..474
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..70,357..474)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          58..339
+                     /region_name="class_II_aaRS-like_core"
+                     /note="Class II tRNA amino-acyl synthetase-like catalytic
+                     core domain. Class II amino acyl-tRNA synthetases (aaRS)
+                     share a common fold and generally attach an amino acid to
+                     the 3' OH of ribose of the appropriate tRNA. PheRS is an
+                     exception in that it attaches...; cl00268"
+                     /db_xref="CDD:277392"
+     SecStr          58..65
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          71..356
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          76..83
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          88..468
+                     /region_name="PRK04173"
+                     /note="glycyl-tRNA synthetase; Provisional"
+                     /db_xref="CDD:235240"
+     SecStr          90..107
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..117
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            114..118
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238391"
+     Site            order(115..116,118,180..181,204,206,249)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238391"
+     SecStr          121..126
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          159..166
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          167..171
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(173,175,205,223,225,227..229,288..289,293,326..327,
+                     329..330,333)
+                     /site_type="active"
+                     /db_xref="CDD:238391"
+     SecStr          174..182
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          194..201
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          202..206
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            204..206
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238391"
+     SecStr          219..225
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          226..233
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          237..253
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          261..270
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          272..283
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          284..290
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          291..297
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          298..305
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          312..316
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          317..321
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          322..331
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            order(330,333)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238391"
+     SecStr          332..342
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          343..470
+                     /region_name="Pol_gamma_b_Cterm"
+                     /note="C-terminal domain of mitochondrial DNA polymerase
+                     gamma B subunit, which is required for processivity.
+                     Polymerase gamma replicates and repairs mitochondrial DNA.
+                     The c-terminal domain of its B subunit is strikingly
+                     similar to the anticodon-binding domain...; cd02426"
+                     /db_xref="CDD:239106"
+     Site            352..354
+                     /site_type="other"
+                     /note="putative DNA-binding site [nucleotide binding]"
+                     /db_xref="CDD:239106"
+     SecStr          371..378
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          386..398
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Site            order(389,392..393,396..397,399,403..404,406..409)
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:239106"
+     SecStr          401..405
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          414..424
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          427..434
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          441..447
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          451..456
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          460..473
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 mrgshhhhhh gstmdagqpe lltersspkg ghvkshaele gngehpeapg sgegsealle
+       61 icqrrhflsg skqqlsrdsl lsgchpgfgp lgvelrknla aewwtsvvvf reqvfpvdal
+      121 hhkpgpllpg dsafrlvsae tlreilqdke lskeqlvtfl envlktsgkl renllhgale
+      181 hyvncldlvn krlpyglaqi gvcfhpvfdt kqirngvksi gekteaslvw ftpprtsnqw
+      241 ldfwlrhrlq wwrkfamsps nfsssdcqde egrkgnklyy nfpwgkelie tlwnlgdhel
+      301 lhmypgnvsk lhgrdgrknv vpcvlsvngd ldrgmlayly dsfqltensf trkknlhrkv
+      361 lklhpclapi kvaldvgrgp tlelrqvcqg lfnellengi svwpgyletm qssleqlysk
+      421 ydemsilftv lvtettleng lihlrsrdtt mkemmhiskl kdflikyiss aknv
+//
+

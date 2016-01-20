@@ -1,0 +1,108 @@
+LOCUS       2DYK_A                   161 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of N-Terminal Gtp-Binding Domain Of Enga
+            From Thermus Thermophilus Hb8.
+ACCESSION   2DYK_A
+VERSION     2DYK_A  GI:145579207
+DBSOURCE    pdb: molecule 2DYK, chain 65, release Oct 3, 2011;
+            deposition: Sep 14, 2006;
+            class: Ribosome;
+            source: Mmdb_id: 44904, Pdb_id 1: 2DYK;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus HB8
+  ORGANISM  Thermus thermophilus HB8
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 161)
+  AUTHORS   Kawazoe,M., Takemoto,C., Fusatomi,E., Terada,T., Shirouzu,M. and
+            Yokoyama,S.
+  TITLE     Crystal Structure Of N-Terminal Gtp-Binding Domain From Thermus
+            Thermophilus Hb8
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 161)
+  AUTHORS   Kawazoe,M., Takemoto,C., Fusatomi,E., Terada,T., Shirouzu,M.,
+            Yokoya,S. and Structural GenomicsPROTEOMICS INITIATIVE (RSGI).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-SEP-2006)
+COMMENT     1 Gtp-binding Protein.
+FEATURES             Location/Qualifiers
+     source          1..161
+                     /organism="Thermus thermophilus HB8"
+                     /db_xref="taxon:300852"
+     SecStr          2..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          3..152
+                     /region_name="small_GTP"
+                     /note="small GTP-binding protein domain; TIGR00231"
+                     /db_xref="CDD:272973"
+     Region          5..160
+                     /region_name="EngA1"
+                     /note="EngA1 GTPase contains the first domain of EngA;
+                     cd01894"
+                     /db_xref="CDD:206681"
+     Site            8..15
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206681"
+     Site            order(11,13..16,116..117,119,142..144)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206681"
+     SecStr          14..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(26..32,36..39)
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206681"
+     Site            36
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206681"
+     SecStr          39..47
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          48..56
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(54..59,79..80)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206681"
+     Site            55..58
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206681"
+     SecStr          67..77
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          81..88
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          95..107
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          110..117
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            116..119
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206681"
+     SecStr          138..142
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            142..144
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206681"
+     SecStr          149..159
+                     /sec_str_type="helix"
+                     /note="helix 4"
+ORIGIN      
+        1 mhkvvivgrp nvgksslfnr llkkrsavva dvpgvtrdlk egvvetdrgr fllvdtgglw
+       61 sgdkwekkiq ekvdraleda evvlfavdgr aeltqadyev aeylrrkgkp vilvatkvdd
+      121 pkhelylgpl yglgfgdpip tssehargle elleaiwerl p
+//
+

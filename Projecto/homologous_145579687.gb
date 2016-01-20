@@ -1,0 +1,134 @@
+LOCUS       2IPM_A                   318 aa            linear   BCT 11-FEB-2013
+DEFINITION  Chain A, Crystal Structure Of A Disulfide Mutant Glucose Binding
+            Protein.
+ACCESSION   2IPM_A
+VERSION     2IPM_A  GI:145579687
+DBSOURCE    pdb: molecule 2IPM, chain 65, release Feb 7, 2013;
+            deposition: Oct 12, 2006;
+            class: Sugar Binding Protein;
+            source: Mmdb_id: 45069, Pdb_id 1: 2IPM;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 318)
+  AUTHORS   Cuneo,M.J. and Hellinga,H.W.
+  TITLE     The Free Energy Cost Of Domain Reorganization In E. Coli Glucose
+            Binding Protein
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 318)
+  AUTHORS   Cuneo,M.J. and Hellinga,H.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-OCT-2006)
+COMMENT     1 D-galactose-binding Periplasmic Protein.
+FEATURES             Location/Qualifiers
+     source          1..318
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..113,259..318)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          3..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..299
+                     /region_name="PBP1_GGBP"
+                     /note="Periplasmic glucose/galactose-binding protein
+                     (GGBP) involved in chemotaxis towards, and active
+                     transport of, glucose and galactose in various bacterial
+                     species; cd01539"
+                     /db_xref="CDD:107252"
+     Region          6..277
+                     /region_name="Peripla_BP_4"
+                     /note="Periplasmic binding protein domain; pfam13407"
+                     /db_xref="CDD:257732"
+     Bond            bond(16,239)
+                     /bond_type="disulfide"
+     SecStr          16..31
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(17..18,67,92..93,155,159,184,212,237,257)
+                     /site_type="other"
+                     /note="ligand binding site [chemical binding]"
+                     /db_xref="CDD:107252"
+     SecStr          34..43
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          46..59
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          62..68
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          74..82
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          86..92
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          105..111
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          114..258
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          115..131
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(135,137,139,141,143,206)
+                     /site_type="other"
+                     /note="calcium binding site [ion binding]"
+                     /db_xref="CDD:107252"
+     Het             join(bond(135),bond(137),bond(139),bond(141),bond(143),
+                     bond(206),bond(206),bond(206))
+                     /heterogen="( CA,1001 )"
+     SecStr          141..150
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          154..170
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          173..177
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          178..183
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          186..198
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          206..211
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          213..226
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          231..237
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          240..248
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          252..257
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          259..275
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          290..294
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          296..300
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 madtrigvti ykyddcfmsv vrkaieqdak aapdvqllmn dsqndqskqn dqidvllakg
+       61 vkalainlvd paaagtviek argqnvpvvf fnkepsrkal dsydkayyvg tdskesgiiq
+      121 gdliakhwaa nqgwdlnkdg qiqfvllkge pghpdaeart tyvikelndk gikteqlqld
+      181 tamwdtaqak dkmdawlsgp nankievvia nndamamgav ealkahnkss ipvfgvdacp
+      241 ealalvksga lagtvlndan nqakatfdla knladgkgaa dgtnwkidnk vvrvpyvgvd
+      301 kdnlaefskk gshhhhhh
+//
+

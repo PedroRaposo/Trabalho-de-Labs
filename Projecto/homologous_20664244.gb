@@ -1,0 +1,72 @@
+LOCUS       1L1D_A                   152 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The C-Terminal Methionine Sulfoxide
+            Reductase Domain (Msrb) Of N. Gonorrhoeae Pilb.
+ACCESSION   1L1D_A
+VERSION     1L1D_A  GI:20664244
+DBSOURCE    pdb: molecule 1L1D, chain 65, release May 9, 2012;
+            deposition: Feb 15, 2002;
+            class: Oxidoreductase;
+            source: Mmdb_id: 19312, Pdb_id 1: 1L1D;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae
+  ORGANISM  Neisseria gonorrhoeae
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 152)
+  AUTHORS   Lowther,W.T., Weissbach,H., Etienne,F., Brot,N. and Matthews,B.W.
+  TITLE     The mirrored methionine sulfoxide reductases of Neisseria
+            gonorrhoeae pilB
+  JOURNAL   Nat. Struct. Biol. 9 (5), 348-352 (2002)
+   PUBMED   11938352
+REFERENCE   2  (residues 1 to 152)
+  AUTHORS   Lowther,W.T., Weissbach,H., Etienne,F., Brot,N. and Matthews,B.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-FEB-2002)
+COMMENT     1 Peptide Methionine Sulfoxide Reductase.
+FEATURES             Location/Qualifiers
+     source          1..152
+                     /organism="Neisseria gonorrhoeae"
+                     /db_xref="taxon:485"
+     Region          8..143
+                     /region_name="MsrB"
+                     /note="Peptide methionine sulfoxide reductase MsrB
+                     [Posttranslational modification, protein turnover,
+                     chaperones]; COG0229"
+                     /db_xref="CDD:223307"
+     SecStr          12..20
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          21..29
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          47..52
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          57..62
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          72..76
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          83..92
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          93..103
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          104..117
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          120..127
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          131..136
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+ORIGIN      
+        1 gshmaatykk psdaelkrtl teeqyqvtqn sateyafshe ydhlfkpgiy vdvvsgeplf
+       61 ssadkydsgc gwpsftrpid aksvtehddf sfnxrrtevr sraadshlgh vfpdgprdkg
+      121 glrycingas lkfipleqxd aagygalkge vk
+//
+

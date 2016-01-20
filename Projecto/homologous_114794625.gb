@@ -1,0 +1,202 @@
+LOCUS       2HYD_A                   578 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Multidrug Abc Transporter Sav1866.
+ACCESSION   2HYD_A
+VERSION     2HYD_A  GI:114794625
+DBSOURCE    pdb: molecule 2HYD, chain 65, release Oct 11, 2011;
+            deposition: Aug 5, 2006;
+            class: Transport Protein;
+            source: Mmdb_id: 41167, Pdb_id 1: 2HYD;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Staphylococcus aureus
+  ORGANISM  Staphylococcus aureus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+            Staphylococcus.
+REFERENCE   1  (residues 1 to 578)
+  AUTHORS   Dawson,R.J. and Locher,K.P.
+  TITLE     Structure of a bacterial multidrug ABC transporter
+  JOURNAL   Nature 443 (7108), 180-185 (2006)
+   PUBMED   16943773
+REFERENCE   2  (residues 1 to 578)
+  AUTHORS   Dawson,R.J.P. and Locher,K.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-AUG-2006)
+COMMENT     1 Abc Transporter Homolog.
+FEATURES             Location/Qualifiers
+     source          1..578
+                     /organism="Staphylococcus aureus"
+                     /db_xref="taxon:1280"
+     Region          1..576
+                     /region_name="MdlB"
+                     /note="ABC-type multidrug transport system, ATPase and
+                     permease component [Defense mechanisms]; COG1132"
+                     /db_xref="CDD:224055"
+     Region          1..107
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          12..294
+                     /region_name="ABC_membrane"
+                     /note="ABC transporter transmembrane region; pfam00664"
+                     /db_xref="CDD:250039"
+     SecStr          13..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          32..41
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          52..71
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          75..106
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          108..328
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          108..115
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          117..131
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          142..159
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          160..168
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          171..184
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          185..210
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          219..257
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          258..272
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          276..284
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          288..302
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          303..319
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     Region          join(329..424,496..578)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          338..343
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          340..573
+                     /region_name="ABCC_MsbA"
+                     /note="ATP-binding cassette domain of the bacterial lipid
+                     flippase and related proteins, subfamily C; cd03251"
+                     /db_xref="CDD:213218"
+     SecStr          344..348
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          356..366
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Het             join(bond(367),bond(369),bond(524),bond(527))
+                     /heterogen="( NA,1000 )"
+     SecStr          367..374
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            374..381
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213218"
+     Site            order(377..378,380..382,422,502..503,534)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213218"
+     SecStr          379..386
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          394..401
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          409..416
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          417..422
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            419..422
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213218"
+     Region          425..495
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          427..431
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          444..454
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          456..463
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          469..473
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            478..487
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213218"
+     SecStr          480..494
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          497..503
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            498..503
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213218"
+     Site            506..509
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213218"
+     SecStr          510..524
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          527..533
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            530..536
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213218"
+     SecStr          543..550
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          551..558
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          559..566
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          567..575
+                     /sec_str_type="helix"
+                     /note="helix 23"
+ORIGIN      
+        1 mikrylqfvk pykyrifati ivgiikfgip mlipllikya idgvinnhal ttdekvhhlt
+       61 iaigialfif vivrppiefi rqylaqwtsn kilydirkkl ynhlqalsar fyannqvgqv
+      121 isrvindveq tkdfiltglm niwldcitii ialsimffld vkltlaalfi fpfyiltvyv
+      181 ffgrlrkltr ersqalaevq gflhervqgi svvksfaied neaknfdkkn tnfltralkh
+      241 trwnaysfaa intvtdigpi ivigvgayla isgsitvgtl aafvgylell fgplrrlvas
+      301 fttltqsfas mdrvfqlide dydikngvga qpieikqgri didhvsfqyn dneapilkdi
+      361 nlsiekgetv afvgmsgggk stlinliprf ydvtsgqili dghnikdflt gslrnqiglv
+      421 qqdnilfsdt vkenillgrp tatdeevvea akmanahdfi mnlpqgydte vgergvklsg
+      481 gqkqrlsiar iflnnppili ldeatsaldl esesiiqeal dvlskdrttl ivahrlstit
+      541 hadkivvien ghivetgthr eliakqgaye hlysiqnl
+//
+

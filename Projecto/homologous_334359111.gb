@@ -1,0 +1,107 @@
+LOCUS       3ASY_A                   211 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Ligand-Free Structure Of Uridine Kinase From Thermus
+            Thermophilus Hb8.
+ACCESSION   3ASY_A
+VERSION     3ASY_A  GI:334359111
+DBSOURCE    pdb: molecule 3ASY, chain 65, release Oct 9, 2011;
+            deposition: Dec 22, 2010;
+            class: Transferase;
+            source: Mmdb_id: 90924, Pdb_id 1: 3ASY;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus HB8
+  ORGANISM  Thermus thermophilus HB8
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 211)
+  AUTHORS   Tomoike,F., Nakagawa,N., Kuramitsu,S. and Masui,R.
+  TITLE     A single amino acid limits the substrate specificity of Thermus
+            thermophilus uridine-cytidine kinase to cytidine
+  JOURNAL   Biochemistry 50 (21), 4597-4607 (2011)
+   PUBMED   21539325
+REFERENCE   2  (residues 1 to 211)
+  AUTHORS   Tomoike,F., Nakagawa,N., Kuramitsu,S. and Masui,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-DEC-2010)
+COMMENT     1 Uridine Kinase.
+FEATURES             Location/Qualifiers
+     source          1..211
+                     /organism="Thermus thermophilus HB8"
+                     /db_xref="taxon:300852"
+     Region          1..196
+                     /region_name="Udk"
+                     /note="Uridine kinase [Nucleotide transport and
+                     metabolism]; COG0572"
+                     /db_xref="CDD:223645"
+     SecStr          6..13
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          8..196
+                     /region_name="UMPK"
+                     /note="Uridine monophosphate kinase (UMPK, EC 2.7.1.48),
+                     also known as uridine kinase or uridine-cytidine kinase
+                     (UCK), catalyzes the reversible phosphoryl transfer from
+                     ATP to uridine or cytidine to yield UMP or CMP. In the
+                     primidine nucleotide-salvage pathway; cd02023"
+                     /db_xref="CDD:238981"
+     SecStr          19..30
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(20,141,189)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238981"
+     SecStr          33..39
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(40,62,142)
+                     /site_type="other"
+                     /note="Sugar specificity"
+                     /db_xref="CDD:238981"
+     Site            order(43,59,88,90,93,150)
+                     /site_type="other"
+                     /note="Pyrimidine base specificity"
+                     /db_xref="CDD:238981"
+     SecStr          67..79
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          81..85
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          87..91
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          92..96
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          100..104
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          106..113
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          126..132
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          135..148
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          154..163
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          165..172
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          181..185
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          191..202
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 msapkpfvig iaggtasgkt tlaqalartl gervallpmd hyykdlghlp leerlrvnyd
+       61 hpdafdlaly lehaqallrg lpvempvydf raytrsprrt pvrpapvvil egilvlypke
+      121 lrdlmdlkvf vdadaderfi rrlkrdvler grslegvvaq yleqvkpmhl hfveptkrya
+      181 dvivprggqn pvalemlaak alarlarmga a
+//
+

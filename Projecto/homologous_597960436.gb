@@ -1,0 +1,150 @@
+LOCUS       4P32_A                   249 aa            linear   BCT 26-MAR-2014
+DEFINITION  Chain A, Crystal Structure Of E. Coli Lptb In Complex With
+            Adp-magnesium.
+ACCESSION   4P32_A
+VERSION     4P32_A  GI:597960436
+DBSOURCE    pdb: molecule 4P32, chain 65, release Mar 26, 2014;
+            deposition: Feb 10, 2014;
+            class: Hydrolase;
+            source: Mmdb_id: 118684, Pdb_id 1: 4P32;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 249)
+  AUTHORS   Sherman,D.J., Lazarus,M.B., Murphy,L., Liu,C., Walker,S., Ruiz,N.
+            and Kahne,D.
+  TITLE     Decoupling catalytic activity from biological function of the
+            ATPase that powers lipopolysaccharide transport
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. (2014) In press
+   PUBMED   24639492
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 249)
+  AUTHORS   Sherman,D.J., Lazarus,M.B., Murphy,L., Liu,C., Walker,S., Ruiz,N.
+            and Kah,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-FEB-2014)
+COMMENT     1 Lipopolysaccharide Export System Atp-binding Protein Lptb.
+FEATURES             Location/Qualifiers
+     source          1..249
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          join(1..87,154..249)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..240
+                     /region_name="PRK10895"
+                     /note="lipopolysaccharide ABC transporter ATP-binding
+                     protein; Provisional"
+                     /db_xref="CDD:182817"
+     SecStr          1..6
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          3..235
+                     /region_name="ABC_YhbG"
+                     /note="ATP-binding cassette component of YhbG transport
+                     system; cd03218"
+                     /db_xref="CDD:213185"
+     SecStr          7..12
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          15..27
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          28..35
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            35..42
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213185"
+     Site            order(38..39,41..43,84,161..162,194)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213185"
+     SecStr          41..49
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             join(bond(42),bond(84))
+                     /heterogen="( MG,1001 )"
+     SecStr          55..62
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          63..67
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          70..77
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          78..84
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            81..84
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213185"
+     Region          88..153
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          90..94
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          95..102
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          110..124
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          130..134
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            137..146
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213185"
+     SecStr          139..151
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          156..162
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            157..162
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213185"
+     Site            165..168
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213185"
+     SecStr          172..185
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          187..194
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            190..196
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213185"
+     SecStr          204..211
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          212..218
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          219..226
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          227..234
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 atltaknlak aykgrrvved vsltvnsgei vgllgpngag ktttfymvvg ivprdagnii
+       61 iddddisllp lhararrgig ylpqeasifr rlsvydnlma vlqirddlsa eqredranel
+      121 meefhiehlr dsmgqslsgg errrveiara laanpkfill depfagvdpi svidikriie
+      181 hlrdsglgvl itdhnvretl avcerayivs qghliahgtp teilqdehvk rvylgedfrl
+      241 ehhhhhhhh
+//
+

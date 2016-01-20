@@ -1,0 +1,142 @@
+LOCUS       1ULH_A                   390 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, A Short Peptide Insertion Crucial For Angiostatic Activity
+            Of Human Tryptophanyl-Trna Synthetase.
+ACCESSION   1ULH_A
+VERSION     1ULH_A  GI:42543730
+DBSOURCE    pdb: molecule 1ULH, chain 65, release Jun 18, 2009;
+            deposition: Sep 12, 2003;
+            class: Ligase;
+            source: Mmdb_id: 26262, Pdb_id 1: 1ULH;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 390)
+  AUTHORS   Kise,Y., Lee,S.W., Park,S.G., Fukai,S., Sengoku,T., Ishii,R.,
+            Yokoyama,S., Kim,S. and Nureki,O.
+  TITLE     A short peptide insertion crucial for angiostatic activity of human
+            tryptophanyl-tRNA synthetase
+  JOURNAL   Nat. Struct. Mol. Biol. 11 (2), 149-156 (2004)
+   PUBMED   14730354
+REFERENCE   2  (residues 1 to 390)
+  AUTHORS   Kise,Y., Sengoku,T., Ishii,R., Yokoyama,S., Park,S.G., Lee,S.W.,
+            Kim,S., Nureki,O., Riken Structural GenomicsPROTEOMICS INITIATIVE
+            and (Rsgi).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-SEP-2003)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..390
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..270,372..390)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          19..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          28..31
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          35..43
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          55..61
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          63..71
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          73..390
+                     /region_name="trpS"
+                     /note="tryptophanyl-tRNA synthetase; TIGR00233"
+                     /db_xref="CDD:272975"
+     SecStr          74..83
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          76..360
+                     /region_name="TrpRS_core"
+                     /note="catalytic core domain of tryptophanyl-tRNA
+                     synthetase; cd00806"
+                     /db_xref="CDD:173903"
+     Site            order(78..82,89,91..92,95,113,118,156,199,203,206,226,
+                     228..229,231..232,235,258,268..269,271)
+                     /site_type="active"
+                     /db_xref="CDD:173903"
+     Site            89..92
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173903"
+     SecStr          94..106
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          109..115
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          116..123
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(117,120..121,166..167,169..171,174..175,177..180,
+                     182..183,195,197..198,201..202)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173903"
+     SecStr          127..143
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          150..156
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          166..176
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          179..186
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          222..229
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          236..243
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          251..257
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            268..272
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173903"
+     Region          271..371
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          284..293
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          295..298
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          315..318
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          329..341
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          347..370
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          373..380
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 edfvdpwtvq tssakgidyd klivrfgssk idkelinrie ratgqrphhf lrrgiffshr
+       61 dmnqvldaye nkkpfylytg rgpsseamhv ghlipfiftk wlqdvfnvpl viqmtddeky
+      121 lwkdltldqa ysyavenakd iiacgfdink tfifsdldym gmssgfyknv vkiqkhvtfn
+      181 qvkgifgftd sdcigkisfp aiqaapsfsn sfpqifrdrt diqclipcai dqdpyfrmtr
+      241 dvaprigypk pallhstffp alqgaqtkms asdpnssifl tdtakqiktk vnkhafsggr
+      301 dtieehrqfg gncdvdvsfm yltffleddd kleqirkdyt sgamltgelk kalievlqpl
+      361 iaehqarrke vtdeivkefm tprklsfdfq
+//
+

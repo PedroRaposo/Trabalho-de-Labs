@@ -1,0 +1,17 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 83753998 
+ Accession: 2AJ7_A 
+ Score: 78.1814
+ E-value: 3.9444e-18
+ Identities: 40
+ Function: Contractile Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2AJ7_A
+------------------------------------------------------------------
+
+
+
+
+
+

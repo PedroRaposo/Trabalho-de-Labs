@@ -1,0 +1,140 @@
+LOCUS       4QC2_A                   247 aa            linear   BCT 22-OCT-2014
+DEFINITION  Chain A, Crystal Structure Of Lipopolysaccharide Transport Protein
+            Lptb In Complex With Atp And Magnesium Ions.
+ACCESSION   4QC2_A
+VERSION     4QC2_A  GI:699027695
+DBSOURCE    pdb: molecule 4QC2, chain 65, release Oct 22, 2014;
+            deposition: May 9, 2014;
+            class: Transport Protein;
+            source: Mmdb_id: 124080, Pdb_id 1: 4QC2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli DH1
+  ORGANISM  Escherichia coli DH1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 247)
+  AUTHORS   Wang,Z., Xiang,Q., Zhu,X., Dong,H., He,C., Wang,H., Zhang,Y.,
+            Wang,W. and Dong,C.
+  TITLE     Structural and functional studies of conserved nucleotide-binding
+            protein LptB in lipopolysaccharide transport
+  JOURNAL   Biochem. Biophys. Res. Commun. 452 (3), 443-449 (2014)
+   PUBMED   25172661
+REFERENCE   2  (residues 1 to 247)
+  AUTHORS   Wang,Z., Xiang,Q., Zhu,X., Dong,H., He,C., Wang,H., Zhang,Y.,
+            Wang,W. and Don,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAY-2014)
+COMMENT     1 Abc Transporter Related Protein.
+FEATURES             Location/Qualifiers
+     source          1..247
+                     /organism="Escherichia coli DH1"
+                     /db_xref="taxon:536056"
+     Region          1..241
+                     /region_name="PRK10895"
+                     /note="lipopolysaccharide ABC transporter ATP-binding
+                     protein; Provisional"
+                     /db_xref="CDD:182817"
+     Region          4..236
+                     /region_name="ABC_YhbG"
+                     /note="ATP-binding cassette component of YhbG transport
+                     system; cd03218"
+                     /db_xref="CDD:213185"
+     SecStr          4..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          9..14
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          15..18
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          22..28
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          29..37
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            36..43
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213185"
+     Site            order(39..40,42..44,85,162..163,195)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213185"
+     SecStr          42..50
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             join(bond(43),bond(85))
+                     /heterogen="( MG,1001 )"
+     SecStr          56..63
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          64..68
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          71..78
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          79..85
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            82..85
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213185"
+     SecStr          95..103
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          111..125
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            138..147
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213185"
+     SecStr          140..152
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          157..163
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            158..163
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213185"
+     Site            166..169
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213185"
+     SecStr          170..186
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          188..194
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            191..197
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213185"
+     SecStr          197..204
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          205..212
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          213..220
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          221..233
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 matltaknla kaykgrrvve dvsltvnsge ivgllgpnga gktttfymvv givprdagni
+       61 iiddddisll plhararrgi gylpqeasif rrlsvydnlm avlqirddls aeqredrane
+      121 lmeefhiehl rdsmgqslsg gerrrveiar alaanpkfil ldepfagvdp isvidikrii
+      181 ehlrdsglgv litdhnvret lavcerayiv sqghliahgt pteilqdehv krvylgedfr
+      241 lhhhhhh
+//
+

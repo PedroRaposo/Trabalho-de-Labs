@@ -76,108 +76,38 @@ Hsp num :1
 ------------------------------------------------------------------
 
 
-Hit num: 7
 
 
-Hit num: 8
 
 
-Hit num: 9
 
 
-Hit num: 10
 
 
-Hit num: 11
 
 
-Hit num: 12
 
 
-Hit num: 13
 
 
-Hit num: 14
 
 
-Hit num: 15
 
 
-Hit num: 16
 
 
-Hit num: 17
 
 
-Hit num: 18
 
 
-Hit num: 19
 
 
-Hit num: 20
 
 
-Hit num: 21
 
 
-Hit num: 22
 
 
-Hit num: 23
 
-
-Hit num: 24
-
-
-Hit num: 25
-
-
-Hit num: 26
-
-
-Hit num: 27
-
-
-Hit num: 28
-
-
-Hit num: 29
-
-
-Hit num: 30
-
-
-Hit num: 31
-
-
-Hit num: 32
-
-
-Hit num: 33
-
-
-Hit num: 34
-
-
-Hit num: 35
-
-
-Hit num: 36
-
-
-Hit num: 37
-
-
-Hit num: 38
-
-
-Hit num: 39
-
-
-Hit num: 40
-
-
-Hit num: 41
 
 

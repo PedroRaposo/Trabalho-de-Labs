@@ -1,0 +1,171 @@
+LOCUS       3IKM_B                   427 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain B, Crystal Structure Of Human Mitochondrial Dna Polymerase
+            Holoenzyme.
+ACCESSION   3IKM_B
+VERSION     3IKM_B  GI:262368016
+DBSOURCE    pdb: molecule 3IKM, chain 66, release Nov 4, 2009;
+            deposition: Aug 6, 2009;
+            class: Transferase;
+            source: Mmdb_id: 77842, Pdb_id 1: 3IKM;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 427)
+  AUTHORS   Lee,Y.S., Kennedy,W.D. and Yin,Y.W.
+  TITLE     Structural insight into processive human mitochondrial DNA
+            synthesis and disease-related polymerase mutations
+  JOURNAL   Cell 139 (2), 312-324 (2009)
+   PUBMED   19837034
+REFERENCE   2  (residues 1 to 427)
+  AUTHORS   Lee,Y.-S., Kennedy,W.D. and Yin,Y.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-AUG-2009)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..427
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          1..308
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     Region          11..292
+                     /region_name="class_II_aaRS-like_core"
+                     /note="Class II tRNA amino-acyl synthetase-like catalytic
+                     core domain. Class II amino acyl-tRNA synthetases (aaRS)
+                     share a common fold and generally attach an amino acid to
+                     the 3' OH of ribose of the appropriate tRNA. PheRS is an
+                     exception in that it attaches...; cl00268"
+                     /db_xref="CDD:277392"
+     SecStr          29..36
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     Region          41..421
+                     /region_name="PRK04173"
+                     /note="glycyl-tRNA synthetase; Provisional"
+                     /db_xref="CDD:235240"
+     SecStr          45..58
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          66..69
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            67..71
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238391"
+     Site            order(68..69,71,133..134,157,159,202)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238391"
+     SecStr          74..77
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          121..124
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Site            order(126,128,158,176,178,180..182,241..242,246,279..280,
+                     282..283,286)
+                     /site_type="active"
+                     /db_xref="CDD:238391"
+     SecStr          147..152
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          156..159
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     Site            157..159
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238391"
+     SecStr          174..177
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          180..186
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          189..197
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          214..219
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          226..236
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          237..248
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          266..269
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          270..273
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          275..281
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     Site            order(283,286)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238391"
+     SecStr          286..293
+                     /sec_str_type="helix"
+                     /note="helix 32"
+     Region          296..423
+                     /region_name="Pol_gamma_b_Cterm"
+                     /note="C-terminal domain of mitochondrial DNA polymerase
+                     gamma B subunit, which is required for processivity.
+                     Polymerase gamma replicates and repairs mitochondrial DNA.
+                     The c-terminal domain of its B subunit is strikingly
+                     similar to the anticodon-binding domain...; cd02426"
+                     /db_xref="CDD:239106"
+     Site            305..307
+                     /site_type="other"
+                     /note="putative DNA-binding site [nucleotide binding]"
+                     /db_xref="CDD:239106"
+     Region          309..413
+                     /region_name="Domain 8"
+                     /note="NCBI Domains"
+     SecStr          324..331
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          336..349
+                     /sec_str_type="helix"
+                     /note="helix 33"
+     Site            order(342,345..346,349..350,352,356..357,359..362)
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:239106"
+     SecStr          354..359
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          367..377
+                     /sec_str_type="helix"
+                     /note="helix 34"
+     SecStr          380..387
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          393..400
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          405..410
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          417..425
+                     /sec_str_type="helix"
+                     /note="helix 35"
+ORIGIN      
+        1 apgsgegsea lleicqrrhf lsgskqqlsr dsllsgchpg fgplgvelrk nlaaewwtsv
+       61 vvfreqvfpv dalhhkpgpl lpgdsafrlv saetlreilq dkelskeqlv aflenvlkts
+      121 gklrenllhg alehyvncld lvnkrlpygl aqigvcfhpv fdtkqirngv ksigekteas
+      181 lvwftpprts nqwldfwlrh rlqwwrkfam spsnfsssdc qdeegrkgnk lyynfpwgke
+      241 lietlwnlgd hellhmypgn vsklhgrdgr knvvpcvlsv ngdldrgmla ylydsfqlte
+      301 nsftrkknlh rkvlklhpcl apikvaldvg rgptlelrqv cqglfnelle ngisvwpgyl
+      361 etmqssleql yskydemsil ftvlvtettl englihlrsr dttmkemmhi sklkdfliky
+      421 issaknv
+//
+

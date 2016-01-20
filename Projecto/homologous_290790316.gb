@@ -1,0 +1,118 @@
+LOCUS       3LVS_A                   298 aa            linear   BCT 10-APR-2013
+DEFINITION  Chain A, Crystal Structure Of Farnesyl Diphosphate Synthase From
+            Rhodobacter Capsulatus Sb1003.
+ACCESSION   3LVS_A
+VERSION     3LVS_A  GI:290790316
+DBSOURCE    pdb: molecule 3LVS, chain 65, release Apr 10, 2013;
+            deposition: Feb 22, 2010;
+            class: Transferase;
+            source: Mmdb_id: 80728, Pdb_id 1: 3LVS;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Rhodobacter capsulatus
+  ORGANISM  Rhodobacter capsulatus
+            Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+            Rhodobacteraceae; Rhodobacter.
+REFERENCE   1  (residues 1 to 298)
+  AUTHORS   Wallrapp,F.H., Pan,J.J., Ramamoorthy,G., Almonacid,D.E.,
+            Hillerich,B.S., Seidel,R., Patskovsky,Y., Babbitt,P.C., Almo,S.C.,
+            Jacobson,M.P. and Poulter,C.D.
+  TITLE     Prediction of function for the polyprenyl transferase subgroup in
+            the isoprenoid synthase superfamily
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 110 (13), E1196-E1202 (2013)
+   PUBMED   23493556
+REFERENCE   2  (residues 1 to 298)
+  AUTHORS   Patskovsky,Y., Toro,R., Rutter,M., Sauder,J.M., Burley,S.K.,
+            Almo,S.C. and Sgx Research Center For Structural Genomics
+            (Nysgxrc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-FEB-2010)
+COMMENT     1 Farnesyl Diphosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..298
+                     /organism="Rhodobacter capsulatus"
+                     /db_xref="taxon:1061"
+     SecStr          3..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          29..288
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          30..39
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          45..57
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          65..82
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(74,77..79,81..83,87..88,93..94,154,157,179..180,183,
+                     217..218,221,231,236,241)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            order(77..84,87..88)
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(82..83,88,93..94,157,179,217..218,221,231,236,241)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(82..83,88,93..94,179,217..218)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(82..83,88,93..94,157,179)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(90..104,224..225,231..236,239..243)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          91..94
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          95..98
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          105..124
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          131..145
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          150..160
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          169..179
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          182..195
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          200..221
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(217..218,221,231,236,241)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          250..268
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          276..284
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mslfserlke iqdavetama aaigrlpagd lrdamayaaq ggkrlrafla iesaaihgis
+       61 maqampaala vealhayslv hddmpcmdnd dlrrglptvh kkwddatavl agdalqtlaf
+      121 elctdpvlgs aenrvalvaa laqasgaegm vygqaldiaa etaavpltld eiirlqagkt
+      181 galisfaaqa gailagadrg pltayatalg lafqiaddil dvegneeaag krlgkdaeah
+      241 katfvsllgl agaksraadl vaeaeaalap ygeaastlra caryvierdk eghhhhhh
+//
+

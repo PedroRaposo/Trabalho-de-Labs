@@ -1,0 +1,129 @@
+LOCUS       2IVN_A                   330 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Structure Of Up1 Protein.
+ACCESSION   2IVN_A
+VERSION     2IVN_A  GI:157835220
+DBSOURCE    pdb: molecule 2IVN, chain 65, release Jan 4, 2013;
+            deposition: Jun 14, 2006;
+            class: Hydrolase;
+            source: Mmdb_id: 53558, Pdb_id 1: 2IVN;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pyrococcus abyssi
+  ORGANISM  Pyrococcus abyssi
+            Archaea; Euryarchaeota; Thermococci; Thermococcales;
+            Thermococcaceae; Pyrococcus.
+REFERENCE   1  (residues 1 to 330)
+  AUTHORS   Hecker,A., Leulliot,N., Gadelle,D., Graille,M., Justome,A.,
+            Dorlet,P., Brochier,C., Quevillon-Cheruel,S., Le Cam,E., van
+            Tilbeurgh,H. and Forterre,P.
+  TITLE     An archaeal orthologue of the universal protein Kae1 is an iron
+            metalloprotein which exhibits atypical DNA-binding properties and
+            apurinic-endonuclease activity in vitro
+  JOURNAL   Nucleic Acids Res. 35 (18), 6042-6051 (2007)
+   PUBMED   17766251
+REFERENCE   2  (residues 1 to 330)
+  AUTHORS   Hecker,A., Leulliot,N., Graille,M., Dorlet,P.,
+            Quevillon-Cheruel,S., Ulryck,N., Van Tilbeurgh,H. and Forterre,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2006)
+COMMENT     1 O-sialoglycoprotein Endopeptidase.
+FEATURES             Location/Qualifiers
+     source          1..330
+                     /organism="Pyrococcus abyssi"
+                     /db_xref="taxon:29292"
+     Region          join(1..118,283..330)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          <1..280
+                     /region_name="NBD_sugar-kinase_HSP70_actin"
+                     /note="Nucleotide-Binding Domain of the sugar
+                     kinase/HSP70/actin superfamily; cl17037"
+                     /db_xref="CDD:277496"
+     SecStr          2..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          4..324
+                     /region_name="PRK14878"
+                     /note="UGMP family protein; Provisional"
+                     /db_xref="CDD:184878"
+     Region          4..>106
+                     /region_name="TsaB"
+                     /note="tRNA A37 threonylcarbamoyladenosine modification
+                     protein TsaB [Translation, ribosomal structure and
+                     biogenesis]; cl22532"
+                     /db_xref="CDD:276486"
+     SecStr          11..20
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          21..31
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          40..52
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          53..62
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          70..75
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          81..98
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          101..105
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          106..114
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          119..282
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          123..130
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          131..139
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          142..150
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          154..165
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          172..181
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          191..194
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          195..198
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          200..211
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          217..243
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          246..253
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          258..271
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          273..277
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          288..300
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mlalgiegta htlgigivse dkvlanvfdt lttekggihp keaaehharl mkpllrkals
+       61 eagvslddid viafsqgpgl gpalrvvata aralavkyrk pivgvnhcia hveitkmfgv
+      121 kdpvglyvsg gntqvlaleg gryrvfgetl digignaidv farelglgfp ggpkveklae
+      181 kgekyielpy avkgmdlsfs gllteairky rsgkyrvedl aysfqetafa alvevterav
+      241 ahtekdevvl vggvaannrl remlrimted rgikffvppy dlcrdngami aytglrmyka
+      301 gisfrleeti vkqkfrtdev eivwhhhhhh
+//
+

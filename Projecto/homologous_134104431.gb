@@ -1,0 +1,80 @@
+LOCUS       2GT3_A                   212 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Solution Structure And Dynamics Of The Reduced Form Of
+            Methionine Sulfoxide Reductase A From Escherichia Coli, A 23 Kda
+            Protein.
+ACCESSION   2GT3_A
+VERSION     2GT3_A  GI:134104431
+DBSOURCE    pdb: molecule 2GT3, chain 65, release Jun 18, 2009;
+            deposition: Apr 27, 2006;
+            class: Oxidoreductase;
+            source: Mmdb_id: 44466, Pdb_id 1: 2GT3;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 212)
+  AUTHORS   Coudevylle,N., Antoine,M., Bouguet-Bonnet,S., Mutzenhardt,P.,
+            Boschi-Muller,S., Branlant,G. and Cung,M.T.
+  TITLE     Solution structure and backbone dynamics of the reduced form and an
+            oxidized form of E. coli methionine sulfoxide reductase A (MsrA):
+            structural insight of the MsrA catalytic cycle
+  JOURNAL   J. Mol. Biol. 366 (1), 193-206 (2007)
+   PUBMED   17157315
+REFERENCE   2  (residues 1 to 212)
+  AUTHORS   Coudevylle,N. and Cung,M.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-APR-2006)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..212
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          1..212
+                     /region_name="PRK00058"
+                     /note="methionine sulfoxide reductase A; Provisional"
+                     /db_xref="CDD:234604"
+     SecStr          43..51
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          54..62
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          65..74
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          82..89
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          94..102
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          108..118
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          125..128
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          129..132
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          136..141
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          144..164
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          172..175
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          180..183
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+ORIGIN      
+        1 mslfdkkhlv spadalpgrn tpmpvatlha vnghsmtnvp dgmeiaifam gcfwgverlf
+       61 wqlpgvysta agytggytpn ptyrevcsgd tghaeavriv ydpsvisyeq llqvfwenhd
+      121 paqgmrqgnd hgtqyrsaiy pltpeqdaaa raslerfqaa mlaadddrhi tteianatpf
+      181 yyaeddhqqy lhknpygycg iggigvclpp ea
+//
+

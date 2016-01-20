@@ -1,0 +1,186 @@
+LOCUS       2VWB_A                   535 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of The Archaeal Kae1-Bud32 Fusion Protein
+            Mj1130: A Model For The Eukaryotic Ekc-Keops Subcomplex Involved In
+            Transcription And Telomere Homeostasis.
+ACCESSION   2VWB_A
+VERSION     2VWB_A  GI:197107196
+DBSOURCE    pdb: molecule 2VWB, chain 65, release Feb 16, 2011;
+            deposition: Jun 20, 2008;
+            class: Hydrolase;
+            source: Mmdb_id: 66140, Pdb_id 1: 2VWB;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanocaldococcus jannaschii DSM 2661
+  ORGANISM  Methanocaldococcus jannaschii DSM 2661
+            Archaea; Euryarchaeota; Methanococci; Methanococcales;
+            Methanocaldococcaceae; Methanocaldococcus.
+REFERENCE   1  (residues 1 to 535)
+  AUTHORS   Hecker,A., Lopreiato,R., Graille,M., Collinet,B., Forterre,P.,
+            Libri,D. and van Tilbeurgh,H.
+  TITLE     Structure of the archaeal Kae1/Bud32 fusion protein MJ1130: a model
+            for the eukaryotic EKC/KEOPS subcomplex
+  JOURNAL   EMBO J. (2008) In press
+   PUBMED   18685601
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 535)
+  AUTHORS   Hecker,A., Lopreiato,R., Graille,M., Collinet,B., Forterre,P.,
+            Libri,D. and Van Tilbeurgh,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..535
+                     /organism="Methanocaldococcus jannaschii DSM 2661"
+                     /db_xref="taxon:243232"
+     Region          1..534
+                     /region_name="PRK09605"
+                     /note="bifunctional UGMP family protein/serine/threonine
+                     protein kinase; Validated"
+                     /db_xref="CDD:236586"
+     Region          join(1..120,282..321)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          1..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          4..163
+                     /region_name="NBD_sugar-kinase_HSP70_actin"
+                     /note="Nucleotide-Binding Domain of the sugar
+                     kinase/HSP70/actin superfamily; cd00012"
+                     /db_xref="CDD:212657"
+     Site            order(7..10,12,14,106,128..131)
+                     /site_type="other"
+                     /note="nucleotide binding site [chemical binding]"
+                     /db_xref="CDD:212657"
+     SecStr          12..20
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          22..30
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          45..62
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          69..74
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          82..97
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          99..104
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          106..118
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          121..281
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          123..130
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          131..140
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          141..150
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          154..165
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          172..179
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          191..194
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          195..198
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          200..212
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          216..241
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          245..252
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          257..270
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          272..276
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          287..299
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          322..416
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          338..534
+                     /region_name="arch_bud32"
+                     /note="Kae1-associated kinase Bud32; TIGR03724"
+                     /db_xref="CDD:274749"
+     Site            order(339..342,345,347,358,360,397,413..416,451,455..456,
+                     458,466..467)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:270870"
+     SecStr          344..353
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          354..363
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          370..390
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          400..406
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          409..415
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Region          417..535
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          418..421
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          431..445
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          446..450
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          456..460
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          462..466
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          470..474
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          477..494
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          499..513
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          517..527
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 miclglegta ektgvgivts dgevlfnkti mykppkqgin preaadhhae tfpklikeaf
+       61 evvdkneidl iafsqgpglg pslrvtatva rtlsltlkkp iigvnhciah ieigklttea
+      121 edpltlyvsg gntqviayvs kkyrvfgetl diavgncldq faryvnlphp ggpyieelar
+      181 kgkklvdlpy tvkgmdiafs glltaamray dagerledic yslqeyafsm lteiterala
+      241 htnkgevmlv ggvaannrlr emlkamcegq nvdfyvppke fcgdngamia wlgllmhkng
+      301 rwmsldetki ipnyrtdmve vnwikeikgk krkipehlig kgaeadikrd syldfdviik
+      361 ervkkgyrde rldenirksr tarearylal vkdfgipapy ifdvdldnkr immsyingkl
+      421 akdviednld iaykigeivg klhkndvihn dlttsnfifd kdlyiidfgl gkisnldedk
+      481 avdlivfkka vlsthhekfd eiwerflegy ksvydrweii lelmkdverr aryve
+//
+

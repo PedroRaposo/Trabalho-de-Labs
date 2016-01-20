@@ -1,0 +1,115 @@
+LOCUS       4GX9_A                   324 aa            linear       26-JUN-2013
+DEFINITION  Chain A, Crystal Structure Of A Dna Polymerase Iii Alpha-epsilon
+            Chimera.
+ACCESSION   4GX9_A
+VERSION     4GX9_A  GI:474453246
+DBSOURCE    pdb: molecule 4GX9, chain 65, release Jun 26, 2013;
+            deposition: Sep 4, 2012;
+            class: Transferase;
+            source: Mmdb_id: 108850, Pdb_id 1: 4GX9;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Unknown.
+  ORGANISM  Unknown.
+            Unclassified.
+REFERENCE   1  (residues 1 to 324)
+  AUTHORS   Ozawa,K., Horan,N.P., Robinson,A., Yagi,H., Hill,F.R., Jergic,S.,
+            Xu,Z.Q., Loscha,K.V., Li,N., Tehei,M., Oakley,A.J., Otting,G.,
+            Huber,T. and Dixon,N.E.
+  TITLE     Proofreading exonuclease on a tether: the complex between the E.
+            coli DNA polymerase III subunits alpha, {varepsilon}, theta and
+            beta reveals a highly flexible arrangement of the proofreading
+            domain
+  JOURNAL   Nucleic Acids Res. 41 (10), 5354-5367 (2013)
+   PUBMED   23580545
+REFERENCE   2  (residues 1 to 324)
+  AUTHORS   Li,N., Horan,N., Xu,Z.-Q., Jacques,D., Dixon,N.E. and Oakley,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2012)
+COMMENT     1 Dna Polymerase Iii Subunit Epsilon, Dna Polymerase Iii Subunit
+            Alpha.
+FEATURES             Location/Qualifiers
+     source          1..324
+                     /organism="unknown"
+     Region          <1..48
+                     /region_name="DnaQ_like_exo"
+                     /note="DnaQ-like (or DEDD) 3'-5' exonuclease domain
+                     superfamily; cl10012"
+                     /db_xref="CDD:271686"
+     SecStr          21..37
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          59..324
+                     /region_name="PHP_PolIIIA_DnaE1"
+                     /note="Polymerase and Histidinol Phosphatase domain of
+                     alpha-subunit of bacterial polymerase III DnaE1; cd07433"
+                     /db_xref="CDD:213988"
+     Region          61..237
+                     /region_name="PHP"
+                     /note="PHP domain; pfam02811"
+                     /db_xref="CDD:251545"
+     Site            order(64,66,73,98,123,255,257)
+                     /site_type="active"
+                     /note="putative active site [active]"
+                     /db_xref="CDD:213988"
+     SecStr          79..88
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          91..99
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          104..114
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(112,116..118,322)
+                     /site_type="other"
+                     /note="putative PHP Thumb interface [polypeptide binding]"
+                     /db_xref="CDD:213988"
+     SecStr          116..128
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          135..143
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          145..160
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          169..172
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          181..187
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          192..199
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          202..214
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          219..225
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          232..246
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          249..253
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          264..275
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          297..304
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          309..320
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 matiqrivrq asklrvvfat deeiaahear ldlvqkkggs clwratresg sigsmseprf
+       61 vhlrvhsdys midgpaktap lvkkaaalgm palaitdftn lcglvkfyga ghgagikpiv
+      121 gadfnvqcdl lgdelthltv laanntgyqn ltlliskayq rgygaagpii drdwlielne
+      181 glillsggrm gdvgrsllrg nsalvdecva fyeehfpdry flelirtgrp deesylhaav
+      241 elaearglpv vatndvrfid ssdfdaheir vaihdgftld dpkrprnysp qqymrseeem
+      301 celfadipea lantveiakr cnvt
+//
+

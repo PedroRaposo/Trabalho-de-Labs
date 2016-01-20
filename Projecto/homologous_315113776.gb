@@ -1,0 +1,129 @@
+LOCUS       3PM6_A                   306 aa            linear   PLN 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of A Putative Fructose-1,6-Biphosphate
+            Aldolase From Coccidioides Immitis Solved By Combined Sad Mr.
+ACCESSION   3PM6_A
+VERSION     3PM6_A  GI:315113776
+DBSOURCE    pdb: molecule 3PM6, chain 65, release Jul 13, 2011;
+            deposition: Nov 16, 2010;
+            class: Lyase;
+            source: Mmdb_id: 87384, Pdb_id 1: 3PM6;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Coccidioides immitis
+  ORGANISM  Coccidioides immitis
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Onygenales; mitosporic
+            Onygenales; Coccidioides.
+REFERENCE   1  (residues 1 to 306)
+  AUTHORS   Abendroth,J., Gardberg,A.S., Robinson,J.I., Christensen,J.S.,
+            Staker,B.L., Myler,P.J., Stewart,L.J. and Edwards,T.E.
+  TITLE     SAD phasing using iodide ions in a high-throughput structural
+            genomics environment
+  JOURNAL   J. Struct. Funct. Genomics 12 (2), 83-95 (2011)
+   PUBMED   21359836
+REFERENCE   2  (residues 1 to 306)
+  AUTHORS   Seattle Structural Genomics Center For Infectious Disease (S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-NOV-2010)
+COMMENT     1 Putative Fructose-bisphosphate Aldolase.
+FEATURES             Location/Qualifiers
+     source          1..306
+                     /organism="Coccidioides immitis"
+                     /db_xref="taxon:5501"
+     SecStr          17..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          18..297
+                     /region_name="TBP_aldolase_IIB"
+                     /note="Tagatose-1,6-bisphosphate (TBP) aldolase and
+                     related Type B Class II aldolases. TBP aldolase is a
+                     tetrameric class II aldolase that catalyzes the reversible
+                     condensation of dihydroxyacetone phosphate with
+                     glyceraldehyde 3-phsophate to produce tagatose 1; cd00947"
+                     /db_xref="CDD:238477"
+     SecStr          28..34
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(36..38,41,61,64..66,69,73,76..77,158,252..253,
+                     255..256,259,263,266)
+                     /site_type="other"
+                     /note="intersubunit interface [polypeptide binding]"
+                     /db_xref="CDD:238477"
+     SecStr          37..50
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          53..59
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          69..80
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          84..90
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(90..91,195..197,199,227..228,230,249,251..252)
+                     /site_type="active"
+                     /db_xref="CDD:238477"
+     Site            order(91,196,227)
+                     /site_type="other"
+                     /note="zinc binding site [ion binding]"
+                     /db_xref="CDD:238477"
+     Het             join(bond(91),bond(196),bond(227))
+                     /heterogen="( ZN,1016 )"
+     SecStr          95..103
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Het             bond(99)
+                     /heterogen="(IOD,1003 )"
+     SecStr          115..120
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          126..143
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          145..152
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          155..159
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          160..164
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          174..182
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          186..191
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            order(195,197,199,228,230)
+                     /site_type="other"
+                     /note="Na+ binding site [ion binding]"
+                     /db_xref="CDD:238477"
+     SecStr          208..217
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          222..227
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          234..243
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          246..251
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          256..264
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          271..293
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 gpgsmphpsl ksnralpllt farthsfaip aicvynlegi laiiraaehk rspamillfp
+       61 waiqyadsll vrtaasacra asvpitlhld haqdpeiikr aadlsrseth epgfdsimvd
+      121 mshfskeenl rltrelvayc nargiateae pgrieggedg vqdtvdlegv lttpeeseef
+      181 vatginwlap afgnvhgnyg prgvqldyer lqrineavge rvglvlhgad pftkeifekc
+      241 iergvakvnv nravnneyvk vmrekagslp itrlheevtn amqaavekim dmidstgkae
+      301 fmmdek
+//
+

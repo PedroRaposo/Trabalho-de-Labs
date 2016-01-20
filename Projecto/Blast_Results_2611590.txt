@@ -388,63 +388,23 @@ Hsp num :1
 ------------------------------------------------------------------
 
 
-Hit num: 31
 
 
-Hit num: 32
 
 
-Hit num: 33
 
 
-Hit num: 34
 
 
-Hit num: 35
 
 
-Hit num: 36
 
 
-Hit num: 37
 
 
-Hit num: 38
 
 
-Hit num: 39
 
 
-Hit num: 40
-
-
-Hit num: 41
-
-
-Hit num: 42
-
-
-Hit num: 43
-
-
-Hit num: 44
-
-
-Hit num: 45
-
-
-Hit num: 46
-
-
-Hit num: 47
-
-
-Hit num: 48
-
-
-Hit num: 49
-
-
-Hit num: 50
 
 

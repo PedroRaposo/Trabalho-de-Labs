@@ -1,0 +1,118 @@
+LOCUS       1KS2_A                   219 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Analysis Of The Rpia, Structural
+            Genomics, Protein Ec1268.
+ACCESSION   1KS2_A
+VERSION     1KS2_A  GI:23200281
+DBSOURCE    pdb: molecule 1KS2, chain 65, release Jun 18, 2009;
+            deposition: Jan 10, 2002;
+            class: Structural Genomics, Isomerase;
+            source: Mmdb_id: 71304, Pdb_id 1: 1KS2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 219)
+  AUTHORS   Zhang,R., Andersson,C.E., Savchenko,A., Skarina,T., Evdokimova,E.,
+            Beasley,S., Arrowsmith,C.H., Edwards,A.M., Joachimiak,A. and
+            Mowbray,S.L.
+  TITLE     Structure of Escherichia coli ribose-5-phosphate isomerase: a
+            ubiquitous enzyme of the pentose phosphate pathway and the Calvin
+            cycle
+  JOURNAL   Structure 11 (1), 31-42 (2003)
+   PUBMED   12517338
+REFERENCE   2  (residues 1 to 219)
+  AUTHORS   Zhang,R., Joachimiak,A., Edwards,A.M., Skarina,T., Savchenko,A. and
+            Midwest Center For Structural Genomics (Mcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JAN-2002)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..219
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     SecStr          4..14
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          6..210
+                     /region_name="RPI_A"
+                     /note="RPI_A: Ribose 5-phosphate isomerase type A (RPI_A)
+                     subfamily; RPI catalyzes the reversible conversion of
+                     ribose-5-phosphate to ribulose 5-phosphate, the first step
+                     of the non-oxidative branch of the pentose phosphate
+                     pathway. This reaction leads to the...; cd01398"
+                     /db_xref="CDD:238692"
+     SecStr          20..28
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(28,54,57..58,67,69,96..97,157..158,161,163,167)
+                     /site_type="other"
+                     /note="tetramer (dimer of dimers) interface [polypeptide
+                     binding]"
+                     /db_xref="CDD:238692"
+     Site            order(28,30..31,81..82,84,94..97,103,121)
+                     /site_type="active"
+                     /db_xref="CDD:238692"
+     SecStr          30..39
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          45..53
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          54..63
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(70,74,102,109,137..138,140..142,145,187..188,193)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238692"
+     SecStr          77..83
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          84..88
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          90..94
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          100..109
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          111..117
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          121..124
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          131..136
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          140..150
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          152..157
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          166..173
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          179..188
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          191..199
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          204..211
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          212..219
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 mtqdelkkav gwaalqyvqp gtivgvgtgs taahfidalg txkgqiegav sssdastekl
+       61 kslgihvfdl nevdslgiyv dgadeinghx qxikgggaal trekiiasva ekficiadas
+      121 kqvdilgkfp lpvevipxar savarqlvkl ggrpeyrqgv vtdngnvild vhgxeildpi
+      181 axenainaip gvvtvglfan rgadvaligt pdgvktivk
+//
+

@@ -1,0 +1,102 @@
+LOCUS       2F96_A                   224 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, 2.1 A Crystal Structure Of Pseudomonas Aeruginosa Rnase T
+            (Ribonuclease T).
+ACCESSION   2F96_A
+VERSION     2F96_A  GI:90109308
+DBSOURCE    pdb: molecule 2F96, chain 65, release Oct 5, 2011;
+            deposition: Dec 5, 2005;
+            class: Structural Genomics, Hydrolase;
+            source: Mmdb_id: 37720, Pdb_id 1: 2F96;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pseudomonas aeruginosa PAO1
+  ORGANISM  Pseudomonas aeruginosa PAO1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (residues 1 to 224)
+  AUTHORS   Zuo,Y., Zheng,H., Wang,Y., Chruszcz,M., Cymborowski,M., Skarina,T.,
+            Savchenko,A., Malhotra,A. and Minor,W.
+  TITLE     Crystal structure of RNase T, an exoribonuclease involved in tRNA
+            maturation and end turnover
+  JOURNAL   Structure 15 (4), 417-428 (2007)
+   PUBMED   17437714
+REFERENCE   2  (residues 1 to 224)
+  AUTHORS   Zheng,H., Chruszcz,M., Cymborowski,M., Wang,Y.,
+            Gorodichtchenskaia,E., Skarina,T., Guthrie,J., Savchenko,A.,
+            Edwards,A., Joachimiak,A., Mi,W. and Midwest Center For Structural
+            Genomics (Mcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2005)
+COMMENT     1 Ribonuclease T.
+FEATURES             Location/Qualifiers
+     source          1..224
+                     /organism="Pseudomonas aeruginosa PAO1"
+                     /db_xref="taxon:208964"
+     Region          20..219
+                     /region_name="DnaQ"
+                     /note="DNA polymerase III, epsilon subunit or related
+                     3'-5' exonuclease [Replication, recombination and repair];
+                     COG0847"
+                     /db_xref="CDD:223916"
+     Region          25..213
+                     /region_name="RNaseT"
+                     /note="DEDDh 3'-5' exonuclease domain of RNase T; cd06134"
+                     /db_xref="CDD:99837"
+     Site            order(25,27,135,158..162,165,168..169,172..173,213)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:99837"
+     SecStr          28..33
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          34..40
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(35..38,40,132..133,135..137,193,198)
+                     /site_type="active"
+                     /note="putative active site [active]"
+                     /db_xref="CDD:99837"
+     Site            order(35..38,40,132..133,135..136,193,198)
+                     /site_type="other"
+                     /note="putative substrate binding site [chemical binding]"
+                     /db_xref="CDD:99837"
+     Site            order(35,37,137,193,198)
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:99837"
+     Het             bond(35)
+                     /heterogen="( MG,1000 )"
+     SecStr          46..60
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          62..74
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          83..91
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          104..122
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          125..133
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          135..148
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          160..164
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          176..183
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          195..216
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 xsednfddef dgslpsgprh pxarrfrgyl pvvvdvetgg fnsatdalle iaattvgxde
+       61 kgflfpehty ffriepfega niepaaleft gikldhplrx avqeeaalte ifrgirkalk
+      121 angckrailv ghnssfdlgf lnaavartgi krnpfhpfss fdtatlagla ygqtvlakac
+      181 qaagxefdnr eahsarydte ktaelfcgiv nrwkexggwx dddd
+//
+

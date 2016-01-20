@@ -1,0 +1,190 @@
+LOCUS       3ERR_A                   536 aa            linear       10-OCT-2012
+DEFINITION  Chain A, Microtubule Binding Domain From Mouse Cytoplasmic Dynein
+            As A Fusion With Seryl-Trna Synthetase.
+ACCESSION   3ERR_A
+VERSION     3ERR_A  GI:215261312
+DBSOURCE    pdb: molecule 3ERR, chain 65, release Jun 10, 2009;
+            deposition: Oct 3, 2008;
+            class: Ligase;
+            source: Mmdb_id: 68163, Pdb_id 1: 3ERR;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Unknown.
+  ORGANISM  Unknown.
+            Unclassified.
+REFERENCE   1  (residues 1 to 536)
+  AUTHORS   Carter,A.P., Garbarino,J.E., Wilson-Kubalek,E.M., Shipley,W.E.,
+            Cho,C., Milligan,R.A., Vale,R.D. and Gibbons,I.R.
+  TITLE     Structure and functional role of dynein's microtubule-binding
+            domain
+  JOURNAL   Science 322 (5908), 1691-1695 (2008)
+   PUBMED   19074350
+REFERENCE   2  (residues 1 to 536)
+  AUTHORS   Carter,A.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-OCT-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..536
+                     /organism="unknown"
+     Region          1..528
+                     /region_name="PRK05431"
+                     /note="seryl-tRNA synthetase; Provisional"
+                     /db_xref="CDD:235461"
+     Region          join(1..57,183..216)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          8..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          19..>206
+                     /region_name="MT"
+                     /note="Microtubule-binding stalk of dynein motor;
+                     pfam12777"
+                     /db_xref="CDD:193253"
+     SecStr          27..56
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          58..182
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          59..71
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          74..82
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          88..101
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          119..127
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          134..143
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          151..158
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          160..182
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          183..207
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          217..536
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          225..521
+                     /region_name="SerRS_core"
+                     /note="Seryl-tRNA synthetase (SerRS) class II core
+                     catalytic domain. SerRS is responsible for the attachment
+                     of serine to the 3' OH group of ribose of the appropriate
+                     tRNA. This domain It is primarily responsible for
+                     ATP-dependent formation of the enzyme bound...; cd00770"
+                     /db_xref="CDD:238393"
+     SecStr          225..233
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          245..252
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Site            order(258..263,266..272,276,278,280,283,295..298,300..302,
+                     304,322..323,325,329,338,342,346,362,383,520..521)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238393"
+     Site            order(265,334,336,365,367,373,376,379,381,384,386,388,
+                     454..457,487,489,495)
+                     /site_type="active"
+                     /db_xref="CDD:238393"
+     SecStr          274..292
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          294..299
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            295..302
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238393"
+     SecStr          301..304
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          305..312
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          329..332
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          335..342
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          347..350
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          354..361
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          362..365
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            364..367
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238393"
+     SecStr          382..388
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          389..394
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          397..418
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          421..428
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          437..448
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          449..456
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          457..462
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          463..470
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          471..476
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          478..493
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            order(490..492,495)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238393"
+     SecStr          494..503
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          504..507
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          509..512
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+ORIGIN      
+        1 mvdlkrlrqe pevfhraire kgvaldleal lavdeqlhkq qeviadkqms vkedldkvep
+       61 avieaqnavk sikkqhlvev rsmanppaav klalesiall lgesttdwkq irsiimrenf
+      121 iptivnfsae eisdairekm kknymsnpsy nyeivnrasl aagpmvkwai aqlnyadmlk
+      181 rveplrnelq kleddakdnq qklealllqv plppwpgapv ggeeanreik rvggppefsf
+      241 ppldhvalme kngwwepris qvsgsrsyal kgdlalyela llrfamdfma rrgflpmtlp
+      301 syarekaflg tghfpayrdq vwaiaetdly ltgtaevvln alhsgeilpy ealplryagy
+      361 apafrseags fgkdvrglmr vhqfhkveqy vlteasleas drafqellen aeeilrllel
+      421 pyrlvevatg dmgpgkwrqv dievylpseg ryrethscsa lldwqarran lryrdpegrv
+      481 ryaytlnnta latprilaml lenhqlqdgr vrvpqalipy mgkevlepga hhhhhh
+//
+

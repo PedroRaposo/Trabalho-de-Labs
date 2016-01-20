@@ -1,0 +1,88 @@
+LOCUS       3SFT_A                   193 aa            linear   BCT 19-JUN-2013
+DEFINITION  Chain A, Crystal Structure Of Thermotoga Maritima Cheb
+            Methylesterase Catalytic Domain.
+ACCESSION   3SFT_A
+VERSION     3SFT_A  GI:340780641
+DBSOURCE    pdb: molecule 3SFT, chain 65, release Jun 19, 2013;
+            deposition: Jun 14, 2011;
+            class: Hydrolase;
+            source: Mmdb_id: 92213, Pdb_id 1: 3SFT;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 193)
+  AUTHORS   Cho,K.H., Crane,B.R. and Park,S.
+  TITLE     An insight into the interaction mode between CheB and chemoreceptor
+            from two crystal structures of CheB methylesterase catalytic domain
+  JOURNAL   Biochem. Biophys. Res. Commun. 411 (1), 69-75 (2011)
+   PUBMED   21722627
+REFERENCE   2  (residues 1 to 193)
+  AUTHORS   Park,S.Y. and Crane,B.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUN-2011)
+COMMENT     1 Chemotaxis Response Regulator Protein-glutamate Methylesterase.
+FEATURES             Location/Qualifiers
+     source          1..193
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     SecStr          8..16
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          9..192
+                     /region_name="CheB_methylest"
+                     /note="CheB methylesterase; pfam01339"
+                     /db_xref="CDD:250544"
+     SecStr          18..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          35..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          48..58
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          61..65
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          69..72
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          75..80
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          84..92
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          93..101
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          113..122
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          126..134
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          140..149
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          151..156
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          166..173
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          177..180
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          185..192
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 gshmvsgkiv vigsstggpr sldmiipnlp knfpapivvv qhmppgftks lamrldstse
+       61 ltvkeaedge evkpgfvyia pgdfhlglka qngkvfffld ksdkinnvrp avdftldkaa
+      121 eiyksktiav iltgmgkdgt kgafkvkfyg gtviaedket cvvfgmpksv ieegyadyvl
+      181 paykipekli elv
+//
+

@@ -1,0 +1,100 @@
+LOCUS       5FKU_D                   243 aa            linear   BCT 25-NOV-2015
+DEFINITION  Chain D, Cryo-em Structure Of The E. Coli Replicative Dna
+            Polymerase Complex In Dna Free State (dna Polymerase Iii Alpha,
+            Beta, Epsilon, Tau Complex).
+ACCESSION   5FKU_D
+VERSION     5FKU_D  GI:955265177
+DBSOURCE    pdb: molecule 5FKU, chain 68, release Nov 25, 2015;
+            deposition: Oct 20, 2015;
+            class: Transferase;
+            source: Mmdb_id: 134492, Pdb_id 1: 5FKU;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 243)
+  AUTHORS   Fernandez-Leiro,R., Conrad,J., Scheres,S.H. and Lamers,M.H.
+  TITLE     cryo-EM structures of the E. coli replicative DNA polymerase reveal
+            dynamic interactions with clamp, exonuclease and tau
+  JOURNAL   Elife 4 (2015) In press
+   PUBMED   26499492
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 243)
+  AUTHORS   Fernandez-Leiro,R., Conrad,J., Scheres,S.H.W. and Lamers,M.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-OCT-2015)
+COMMENT     3 Dna Polymerase Iii Subunit Epsilon.
+FEATURES             Location/Qualifiers
+     source          1..243
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..199
+                     /region_name="Domain 17"
+                     /note="NCBI Domains"
+     Region          7..236
+                     /region_name="dnaQ_proteo"
+                     /note="DNA polymerase III, epsilon subunit,
+                     Proteobacterial; TIGR01406"
+                     /db_xref="CDD:130473"
+     SecStr          7..11
+                     /sec_str_type="sheet"
+                     /note="strand 80"
+     Region          8..179
+                     /region_name="DNA_pol_III_epsilon_Ecoli_like"
+                     /note="DEDDh 3'-5' exonuclease domain of the epsilon
+                     subunit of Escherichia coli DNA polymerase III and similar
+                     proteins; cd06131"
+                     /db_xref="CDD:99835"
+     Site            order(12..15,17..18,61..62,65..66,98..99,101..103,
+                     144..145,159,162,167)
+                     /site_type="active"
+                     /db_xref="CDD:99835"
+     Site            order(12..15,17..18,61..62,65..66,98..99,101..102,
+                     144..145,159,162,167)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:99835"
+     Site            order(12,14,103,162,167)
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:99835"
+     SecStr          31..39
+                     /sec_str_type="sheet"
+                     /note="strand 81"
+     SecStr          46..52
+                     /sec_str_type="sheet"
+                     /note="strand 82"
+     SecStr          83..90
+                     /sec_str_type="helix"
+                     /note="helix 53"
+     SecStr          93..98
+                     /sec_str_type="sheet"
+                     /note="strand 83"
+     SecStr          101..114
+                     /sec_str_type="helix"
+                     /note="helix 54"
+     SecStr          125..130
+                     /sec_str_type="sheet"
+                     /note="strand 84"
+     SecStr          131..138
+                     /sec_str_type="helix"
+                     /note="helix 55"
+     SecStr          145..152
+                     /sec_str_type="helix"
+                     /note="helix 56"
+     SecStr          165..180
+                     /sec_str_type="helix"
+                     /note="helix 57"
+     SecStr          219..235
+                     /sec_str_type="helix"
+                     /note="helix 58"
+ORIGIN      
+        1 mstaitrqiv ldtettgmnq igahyeghki ieigavevvn rrltgnnfhv ylkpdrlvdp
+       61 eafgvhgiad eflldkptfa evadefmdyi rgaelvihna afdigfmdye fsllkrdipk
+      121 tntfckvtds lavarkmfpg krnsldalca ryeidnskrt lhgalldaqi laevylamtg
+      181 gqlslplame getqqqqgea tiqrivrqas klrvvfatde eiaahearld lvqkkggscl
+      241 wra
+//
+

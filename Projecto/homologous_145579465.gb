@@ -1,0 +1,93 @@
+LOCUS       2GUI_A                   194 aa            linear       10-OCT-2012
+DEFINITION  Chain A, Structure And Function Of Cyclized Versions Of The
+            Proofread Exonuclease Subunit Of E. Coli Dna Polymerase Iii.
+ACCESSION   2GUI_A
+VERSION     2GUI_A  GI:145579465
+DBSOURCE    pdb: molecule 2GUI, chain 65, release Jun 2, 2010;
+            deposition: Apr 30, 2006;
+            class: Transferase;
+            source: Mmdb_id: 44993, Pdb_id 1: 2GUI;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Unknown.
+  ORGANISM  Unknown.
+            Unclassified.
+REFERENCE   1  (residues 1 to 194)
+  AUTHORS   Park,A.Y., Carr,P.D., Oliis,D.L. and Dixon,N.E.
+  TITLE     Structure And Function Of Cyclized Versions Of The Proofreading
+            Exonuclease Subunit E. Coli Dna Polyme
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 194)
+  AUTHORS   Park,A.Y., Carr,P.D., Ollis,D.L. and Dixon,N.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-APR-2006)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..194
+                     /organism="unknown"
+     SecStr          10..19
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          11..182
+                     /region_name="DNA_pol_III_epsilon_Ecoli_like"
+                     /note="DEDDh 3'-5' exonuclease domain of the epsilon
+                     subunit of Escherichia coli DNA polymerase III and similar
+                     proteins; cd06131"
+                     /db_xref="CDD:99835"
+     Site            order(15..18,20..21,64..65,68..69,101..102,104..106,
+                     147..148,162,165,170)
+                     /site_type="active"
+                     /db_xref="CDD:99835"
+     Site            order(15..18,20..21,64..65,68..69,101..102,104..105,
+                     147..148,162,165,170)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:99835"
+     Site            order(15,17,106,165,170)
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:99835"
+     Het             join(bond(15),bond(17),bond(170))
+                     /heterogen="( MN,1001 )"
+     Het             bond(15)
+                     /heterogen="( MN,1000 )"
+     SecStr          32..43
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          44..47
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          49..55
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          62..69
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          86..93
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          95..102
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          104..116
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          127..132
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          133..140
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          148..155
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          167..181
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 siefstaitr qivldtettg mnqigahyeg hkiieigave vvnrrltgnn fhvylkpdrl
+       61 vdpeafgvhg iadeflldkp tfaevadefm dyirgaelvi hnaafdigfm dyefsllkrd
+      121 ipktntfckv tdslavarkm fpgkrnslda lcaryeidns krtlhgalld aqilaevyla
+      181 mtggqtsmat resg
+//
+

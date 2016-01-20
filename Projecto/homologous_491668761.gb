@@ -1,0 +1,136 @@
+LOCUS       4K25_A                   383 aa            linear   PLN 07-AUG-2013
+DEFINITION  Chain A, Crystal Structure Of Yeast Qri7 Homodimer.
+ACCESSION   4K25_A
+VERSION     4K25_A  GI:491668761
+DBSOURCE    pdb: molecule 4K25, chain 65, release Aug 7, 2013;
+            deposition: Apr 8, 2013;
+            class: Biosynthetic Protein;
+            source: Mmdb_id: 109962, Pdb_id 1: 4K25;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae S288c
+  ORGANISM  Saccharomyces cerevisiae S288c
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+            Saccharomyces.
+REFERENCE   1  (residues 1 to 383)
+  AUTHORS   Wan,L.C., Mao,D.Y., Neculai,D., Strecker,J., Chiovitti,D.,
+            Kurinov,I., Poda,G., Thevakumaran,N., Yuan,F., Szilard,R.K.,
+            Lissina,E., Nislow,C., Caudy,A.A., Durocher,D. and Sicheri,F.
+  TITLE     Reconstitution and characterization of eukaryotic
+            N6-threonylcarbamoylation of tRNA using a minimal enzyme system
+  JOURNAL   Nucleic Acids Res. 41 (12), 6332-6346 (2013)
+   PUBMED   23620299
+REFERENCE   2  (residues 1 to 383)
+  AUTHORS   Neculai,D., Wan,L., Mao,D.Y. and Sicheri,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2013)
+COMMENT     1 Probable Trna Threonylcarbamoyladenosine Biosynthesis Protein
+            Qri7, Mitochondrial.
+FEATURES             Location/Qualifiers
+     source          1..383
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /db_xref="taxon:559292"
+     Region          join(1..134,336..383)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          11..>119
+                     /region_name="TsaB"
+                     /note="tRNA A37 threonylcarbamoyladenosine modification
+                     protein TsaB [Translation, ribosomal structure and
+                     biogenesis]; cl22532"
+                     /db_xref="CDD:276486"
+     SecStr          11..16
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          12..343
+                     /region_name="gcp_kae1"
+                     /note="metallohydrolase, glycoprotease/Kae1 family;
+                     TIGR00329"
+                     /db_xref="CDD:129429"
+     SecStr          19..30
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          32..36
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          37..44
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          58..76
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          84..89
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          99..112
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          114..119
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          120..128
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Het             join(bond(121),bond(337),bond(337))
+                     /heterogen="( ZN,1000 )"
+     Region          135..335
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          140..149
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          150..156
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          161..165
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          166..170
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          174..185
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          193..201
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          229..232
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          236..246
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          258..286
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          294..301
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          306..317
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          325..330
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          340..351
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          354..358
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Het             bond(360)
+                     /heterogen="( CA,1001 )"
+     SecStr          377..381
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+ORIGIN      
+        1 gaxdprkgyk vlaietscdd tcvsvldrfs ksaapnvlan lkdtldside ggiiptkahi
+       61 hhqarigplt eraliesnar egidlicvtr gpgxpgslsg gldfakglav awnkpligvh
+      121 hxlghllipr xgtngkvpqf pfvsllvsgg httfvlsrai ddheilcdti diavgdsldk
+      181 cgrelgfkgt xiarexekfi nqdindqdfa lklexpsplk nsaskrnxls fsfsafital
+      241 rtnltklgkt eiqelperei rsiayqvqes vfdhiinklk hvlksqpekf knvrefvcsg
+      301 gvssnqrlrt kletelgtln stsffnfyyp pxdlcsdnsi xigwagieiw eslrlvsdld
+      361 icpirqwpln dllsvdgwrt dql
+//
+

@@ -1,0 +1,187 @@
+LOCUS       1ADJ_A                   421 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Histidyl-Trna Synthetase In Complex With Histidine.
+ACCESSION   1ADJ_A
+VERSION     1ADJ_A  GI:2392059
+DBSOURCE    pdb: molecule 1ADJ, chain 65, release Aug 27, 2007;
+            deposition: Feb 18, 1997;
+            class: Complex (Trna SynthetasePEPTIDE);
+            source: Mmdb_id: 47837, Pdb_id 1: 1ADJ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus
+  ORGANISM  Thermus thermophilus
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 421)
+  AUTHORS   Aberg,A., Yaremchuk,A., Tukalo,M., Rasmussen,B. and Cusack,S.
+  TITLE     Crystal structure analysis of the activation of histidine by
+            Thermus thermophilus histidyl-tRNA synthetase
+  JOURNAL   Biochemistry 36 (11), 3084-3094 (1997)
+   PUBMED   9115984
+REFERENCE   2  (residues 1 to 421)
+  AUTHORS   Cusack,S. and Aberg,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-FEB-1997)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..421
+                     /organism="Thermus thermophilus"
+                     /db_xref="taxon:274"
+     Region          1..421
+                     /region_name="hisS"
+                     /note="histidyl-tRNA synthetase; Reviewed; PRK00037"
+                     /db_xref="CDD:234586"
+     Region          join(1..41,98..324)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          15..34
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          16..317
+                     /region_name="HisRS-like_core"
+                     /note="Class II Histidinyl-tRNA synthetase (HisRS)-like
+                     catalytic core domain. HisRS is a homodimer. It is
+                     responsible for the attachment of histidine to the 3' OH
+                     group of ribose of the appropriate tRNA. This domain is
+                     primarily responsible for ATP-dependent...; cd00773"
+                     /db_xref="CDD:238396"
+     Site            order(21,33,38..44,68..69,81,83,88..89,92..93,122..123,
+                     130,138,142,145,286,304..305)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238396"
+     Site            36..44
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238396"
+     SecStr          36..39
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          42..97
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          43..46
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          47..55
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          66..71
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          73..79
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(81,83,112,114,121,124,126,130,259,261,263..264,281,
+                     286,305,308,311)
+                     /site_type="active"
+                     /db_xref="CDD:238396"
+     SecStr          83..93
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          101..107
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          108..112
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            111..115
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238396"
+     SecStr          122..127
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          128..133
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          138..154
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          159..167
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          169..183
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          191..198
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          212..220
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          231..247
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          251..254
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          265..273
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          282..289
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          301..309
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Site            order(304..308,311)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238396"
+     SecStr          310..319
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          325..421
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          328..417
+                     /region_name="HGTP_anticodon"
+                     /note="HGTP anticodon binding domain, as found at the
+                     C-terminus of histidyl, glycyl, threonyl and prolyl tRNA
+                     synthetases, which are classified as a group of class II
+                     aminoacyl-tRNA synthetases (aaRS). In aaRSs, the anticodon
+                     binding domain is responsible for...; cl00266"
+                     /db_xref="CDD:271451"
+     SecStr          330..336
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            order(336..337,371,377,385,395,397)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:238379"
+     SecStr          341..351
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          356..360
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          366..376
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          379..384
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          385..392
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          393..399
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          402..409
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          412..420
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 mtaravrgtk dlfgkelrmh qrivatarkv leaagalelv tpifeetqvf ekgvgaatdi
+       61 vrkemftfqd rggrsltlrp egtaamvray lehgmkvwpq pvrlwmagpm fraerpqkgr
+      121 yrqfhqvnye algsenpild aeavvllyec lkelglrrlk vklssvgdpe drarynaylr
+      181 evlsphreal sedskerlee npmrildsks erdqallkel gvrpmldflg eearahlkev
+      241 erhlerlsvp yelepalvrg ldyyvrtafe vhheeigaqs alggggrydg lsellggprv
+      301 pgvgfafgve rvalaleaeg fglpeekgpd lyliplteea vaeafylaea lrprlraeya
+      361 laprkpakgl eealkrgaaf agflgedelr agevtlkrla tgeqvrlsre evpgyllqal
+      421 g
+//
+

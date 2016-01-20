@@ -1,0 +1,138 @@
+LOCUS       2CYB_A                   323 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Tyrosyl-Trna Synthetase Complexed
+            With L-Tyrosine From Archaeoglobus Fulgidus.
+ACCESSION   2CYB_A
+VERSION     2CYB_A  GI:83754904
+DBSOURCE    pdb: molecule 2CYB, chain 65, release Aug 27, 2007;
+            deposition: Jul 6, 2005;
+            class: Ligase;
+            source: Mmdb_id: 36458, Pdb_id 1: 2CYB;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Archaeoglobus fulgidus
+  ORGANISM  Archaeoglobus fulgidus
+            Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales;
+            Archaeoglobaceae; Archaeoglobus.
+REFERENCE   1  (residues 1 to 323)
+  AUTHORS   Kuratani,M., Sakai,H., Takahashi,M., Yanagisawa,T., Kobayashi,T.,
+            Murayama,K., Chen,L., Liu,Z.J., Wang,B.C., Kuroishi,C.,
+            Kuramitsu,S., Terada,T., Bessho,Y., Shirouzu,M., Sekine,S. and
+            Yokoyama,S.
+  TITLE     Crystal structures of tyrosyl-tRNA synthetases from Archaea
+  JOURNAL   J. Mol. Biol. 355 (3), 395-408 (2006)
+   PUBMED   16325203
+REFERENCE   2  (residues 1 to 323)
+  AUTHORS   Kuratani,M., Sakai,H., Takahashi,M., Yanagisawa,T., Kobayashi,T.,
+            Terada,T., Shirouzu,M., Yokoyama,S., Riken Structural and
+            GenomicsPROTEOMICS INITIATIVE (RSGI).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2005)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..323
+                     /organism="Archaeoglobus fulgidus"
+                     /db_xref="taxon:2234"
+     Region          1..216
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          3..321
+                     /region_name="tyrS"
+                     /note="tyrosyl-tRNA synthetase; TIGR00234"
+                     /db_xref="CDD:272976"
+     SecStr          3..11
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          15..18
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          20..28
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          33..311
+                     /region_name="TyrRS_core"
+                     /note="catalytic core domain of tyrosinyl-tRNA synthetase;
+                     cd00805"
+                     /db_xref="CDD:173902"
+     SecStr          33..41
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(36,38..40,46,48..49,158,162,165,174,176..177,180,
+                     206..207,214..217)
+                     /site_type="active"
+                     /db_xref="CDD:173902"
+     Site            46..49
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173902"
+     SecStr          48..62
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          64..71
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          72..79
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(73,76..77,122..123,125..127,129..130,132..135,
+                     137..138,154,156..157,160..161)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173902"
+     SecStr          83..100
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          107..112
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          119..131
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          134..141
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          158..168
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          172..177
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          181..190
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          199..204
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            214..218
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173902"
+     Region          217..323
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          229..238
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          250..257
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          265..272
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          275..281
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          283..292
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          297..318
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 mditeklrli trnaeevvte eelrqlietk ekprayvgye psgeihlghm mtvqklmdlq
+       61 eagfeiivll adihaylnek gtfeeiaeva dynkkvfial gldesrakfv lgseyqlsrd
+      121 yvldvlkmar ittlnrarrs mdevsrrked pmvsqmiypl mqaldiahlg vdlavggidq
+      181 rkihmlaren lprlgysspv clhtpilvgl dgqkmssskg nyisvrdppe everkirkay
+      241 cpagvveenp ildiakyhil prfgkivver dakfggdvey asfeelaedf ksgqlhpldl
+      301 kiavakylnm lledarkrlg vsv
+//
+

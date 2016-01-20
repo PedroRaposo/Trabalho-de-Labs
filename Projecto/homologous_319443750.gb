@@ -1,0 +1,118 @@
+LOCUS       3PRH_A                   388 aa            linear   BCT 13-NOV-2014
+DEFINITION  Chain A, Tryptophanyl-trna Synthetase Val144pro Mutant From B.
+            Subtilis.
+ACCESSION   3PRH_A
+VERSION     3PRH_A  GI:319443750
+DBSOURCE    pdb: molecule 3PRH, chain 65, release Nov 12, 2014;
+            deposition: Nov 29, 2010;
+            class: Ligase;
+            source: Mmdb_id: 88109, Pdb_id 1: 3PRH;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 388)
+  AUTHORS   Antonczak,A.K., Simova,Z., Yonemoto,I.T., Bochtler,M., Piasecka,A.,
+            Czapinska,H., Brancale,A. and Tippmann,E.M.
+  TITLE     Importance of single molecular determinants in the fidelity of
+            expanded genetic codes
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 108 (4), 1320-1325 (2011)
+   PUBMED   21224416
+REFERENCE   2  (residues 1 to 388)
+  AUTHORS   Antonczak,A.K., Simova,Z., Yonemoto,I., Bochtler,M., Piasecka,A.,
+            Cz,H., Brancale,A. and Tippmann,E.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-NOV-2010)
+COMMENT     1 Tryptophanyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..388
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     Region          join(1..226,327..388)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          35..361
+                     /region_name="PRK00927"
+                     /note="tryptophanyl-tRNA synthetase; Reviewed"
+                     /db_xref="CDD:234866"
+     SecStr          36..43
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          37..312
+                     /region_name="TrpRS_core"
+                     /note="catalytic core domain of tryptophanyl-tRNA
+                     synthetase; cd00806"
+                     /db_xref="CDD:173903"
+     Site            order(39..43,49,51..52,55,72,77,114,159,163,166,175,
+                     177..178,180..181,184,216,226..227,229)
+                     /site_type="active"
+                     /db_xref="CDD:173903"
+     Site            49..52
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173903"
+     SecStr          50..63
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          67..74
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(76,79..80,120..121,123..125,128..129,131..134,
+                     136..137,155,157..158,161..162)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173903"
+     SecStr          85..101
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          109..114
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          119..130
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          160..168
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          173..176
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          182..198
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          206..209
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            226..230
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173903"
+     Region          227..326
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          244..253
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          270..283
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          287..294
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          300..324
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          329..356
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mhhhhhhgkp ipnpllglds tenlyfqgid pftmkqtifs giqpsgsvtl gnyigamkqf
+       61 velqhdynsy fcivdqhait vpqdrlelrk nirnlaalyl avgldpekat lfiqsevpah
+      121 aqagwmmqcv ayigelermt qfkdkskgne avvsglltyp plmaadilly gtdlvppged
+      181 qkqhleltrn laerfnkkyn diftipevki pkvgarimsl ndplkkmsks dpnqkayitl
+      241 ldepkqlekk iksavtdseg ivkfdkenkp gvsnlltiys ilgnttieel eakyegkgyg
+      301 efkgdlaevv vnalkpiqdr yyelieseel drildegaer anrtankmlk kmenamglgr
+      361 krqgraqirl ltkperklsw llpplsnn
+//
+

@@ -1,0 +1,207 @@
+LOCUS       4RG6_A                   560 aa            linear   PRI 17-APR-2015
+DEFINITION  Chain A, Crystal Structure Of Apc3-apc16 Complex.
+ACCESSION   4RG6_A
+VERSION     4RG6_A  GI:808043253
+DBSOURCE    pdb: molecule 4RG6, chain 65, release Apr 15, 2015;
+            deposition: Sep 29, 2014;
+            class: Protein Binding;
+            source: Mmdb_id: 126190, Pdb_id 1: 4RG6;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 560)
+  AUTHORS   Yamaguchi,M., Yu,S., Qiao,R., Weissmann,F., Miller,D.J.,
+            VanderLinden,R., Brown,N.G., Frye,J.J., Peters,J.M. and
+            Schulman,B.A.
+  TITLE     Structure of an APC3-APC16 Complex: Insights into Assembly of the
+            Anaphase-Promoting Complex/Cyclosome
+  JOURNAL   J. Mol. Biol. 427 (8), 1748-1764 (2015)
+   PUBMED   25490258
+REFERENCE   2  (residues 1 to 560)
+  AUTHORS   Yamaguchi,M., Yu,S., Miller,D.J. and Schulman,B.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-SEP-2014)
+COMMENT     1 Cell Division Cycle Protein 27 Homolog.
+FEATURES             Location/Qualifiers
+     source          1..560
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          1..99
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          8..20
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          19..94
+                     /region_name="Apc3"
+                     /note="Anaphase-promoting complex, cyclosome, subunit 3;
+                     pfam12895"
+                     /db_xref="CDD:257383"
+     SecStr          23..37
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          40..53
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          56..66
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          71..84
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          87..94
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          100..178
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          105..112
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          116..130
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          133..146
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          152..160
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          179..268
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          193..264
+                     /region_name="TPR_12"
+                     /note="Tetratricopeptide repeat; pfam13424"
+                     /db_xref="CDD:257749"
+     SecStr          196..214
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          217..226
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          236..248
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          237..498
+                     /region_name="TPR"
+                     /note="Tetratricopeptide (TPR) repeat [General function
+                     prediction only]; COG0457"
+                     /db_xref="CDD:223533"
+     Region          237..263
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     SecStr          252..264
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     Region          269..335
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          273..282
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          285..298
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     Region          303..336
+                     /region_name="TPR_1"
+                     /note="Tetratricopeptide repeat; pfam00515"
+                     /db_xref="CDD:249923"
+     Region          303..331
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     SecStr          303..316
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     Site            order(304,307..308,311..312,314,338,341..342,345..346,
+                     348..349,372,375..376,379..380,383)
+                     /site_type="other"
+                     /note="putative protein binding surface [polypeptide
+                     binding]"
+                     /db_xref="CDD:276809"
+     SecStr          320..332
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     Region          336..403
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     Region          336..366
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     Region          337..370
+                     /region_name="TPR_1"
+                     /note="Tetratricopeptide repeat; pfam00515"
+                     /db_xref="CDD:249923"
+     SecStr          338..350
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          353..366
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     Region          371..403
+                     /region_name="TPR_1"
+                     /note="Tetratricopeptide repeat; pfam00515"
+                     /db_xref="CDD:249923"
+     Region          371..399
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     SecStr          372..384
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          388..400
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     Region          404..471
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     Region          405..432
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     SecStr          406..416
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          429..436
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     Region          439..467
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     SecStr          440..451
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          456..468
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     Region          473..501
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     SecStr          474..486
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          489..502
+                     /sec_str_type="helix"
+                     /note="helix 28"
+ORIGIN      
+        1 gsmtvlqepv qaaiwqalnh yayrdavfla erlyaevhse ealfllatcy yrsgkaykay
+       61 rllkghsctt pqckyllakc cvdlsklaeg eqilsggvfn kqkshddivt efgdsacftl
+      121 sllghvyckt drlakgsecy qkslslnpfl wspfeslcei gekpdpdqtf kftslqnfsn
+      181 clpqiqafnl qkaaaeglms llremgkgyl alcsynckea inilshlpsh hyntgwvlcq
+      241 igrayfelse ymqaerifse vrrienyrve gmeiysttlw hlqkdvalsv lskdltdmdk
+      301 nspeawcaag ncfslqrehd iaikffqrai qvdpnyayay tllghefvlt eeldkalacf
+      361 rnairvnprh ynawyglgmi yykqekfsla emhfqkaldi npqssvllch igvvqhalkk
+      421 sekaldtlnk aividpknpl ckfhrasvlf anekyksalq eleelkqivp keslvyflig
+      481 kvykklgqth lalmnfswam dldpkgannq ikeaidkryl pddeepitqe eqimgtdesq
+      541 essmtdaddt qlhaaesdef
+//
+

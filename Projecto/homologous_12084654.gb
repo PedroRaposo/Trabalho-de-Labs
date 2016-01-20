@@ -1,0 +1,82 @@
+LOCUS       1FF3_A                   211 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of The Peptide Methionine Sulfoxide Reductase
+            From Escherichia Coli.
+ACCESSION   1FF3_A
+VERSION     1FF3_A  GI:12084654
+DBSOURCE    pdb: molecule 1FF3, chain 65, release Aug 27, 2007;
+            deposition: Jul 25, 2000;
+            class: Oxidoreductase;
+            source: Mmdb_id: 15169, Pdb_id 1: 1FF3;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 211)
+  AUTHORS   Tete-Favier,F., Cobessi,D., Boschi-Muller,S., Azza,S., Branlant,G.
+            and Aubry,A.
+  TITLE     Crystal structure of the Escherichia coli peptide methionine
+            sulphoxide reductase at 1.9 A resolution
+  JOURNAL   Structure 8 (11), 1167-1178 (2000)
+   PUBMED   11080639
+REFERENCE   2  (residues 1 to 211)
+  AUTHORS   Tete-Favier,F., Cobessi,D., Boschi-Muller,S., Azza,S., Branlant,G.
+            and Aubry,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUL-2000)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..211
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          1..211
+                     /region_name="PRK00058"
+                     /note="methionine sulfoxide reductase A; Provisional"
+                     /db_xref="CDD:234604"
+     SecStr          42..50
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          53..60
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          64..70
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          71..74
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          81..88
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          90..101
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          107..116
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          124..127
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          128..131
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          135..140
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          143..163
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          171..175
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          179..182
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+ORIGIN      
+        1 slfdkkhlvs padalpgrnt pmpvatlhav nghsmtnvpd gmeiaifamg xfwgverlfw
+       61 qlpgvystaa gytggytpnp tyrevcsgdt ghaeavrivy dpsvisyeql lqvfwenhdp
+      121 aqgmrqgndh gtqyrsaiyp ltpeqdaaar aslerfqaam laadddrhit teianatpfy
+      181 yaeddhqqyl hknpygycgi ggigvclppe a
+//
+

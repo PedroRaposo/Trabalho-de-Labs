@@ -193,42 +193,16 @@ Hsp num :1
 ------------------------------------------------------------------
 
 
-Hit num: 16
 
 
-Hit num: 17
 
 
-Hit num: 18
 
 
-Hit num: 19
 
 
-Hit num: 20
 
 
-Hit num: 21
 
-
-Hit num: 22
-
-
-Hit num: 23
-
-
-Hit num: 24
-
-
-Hit num: 25
-
-
-Hit num: 26
-
-
-Hit num: 27
-
-
-Hit num: 28
 
 

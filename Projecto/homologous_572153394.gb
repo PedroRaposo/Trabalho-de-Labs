@@ -1,0 +1,248 @@
+LOCUS       4NL4_H                   747 aa            linear   BCT 27-MAY-2015
+DEFINITION  Chain H, Pria Helicase Bound To Adp.
+ACCESSION   4NL4_H
+VERSION     4NL4_H  GI:572153394
+DBSOURCE    pdb: molecule 4NL4, chain 72, release May 27, 2015;
+            deposition: Nov 13, 2013;
+            class: Dna Binding Protein;
+            source: Mmdb_id: 116531, Pdb_id 1: 4NL4;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+  ORGANISM  Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Klebsiella.
+REFERENCE   1  (residues 1 to 747)
+  AUTHORS   Bhattacharyya,B., George,N.P., Thurmes,T.M., Zhou,R., Jani,N.,
+            Wessel,S.R., Sandler,S.J., Ha,T. and Keck,J.L.
+  TITLE     Structural mechanisms of PriA-mediated DNA replication restart
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 111 (4), 1373-1378 (2014)
+   PUBMED   24379377
+REFERENCE   2  (residues 1 to 747)
+  AUTHORS   Bhattacharyya,B., George,N.P. and Keck,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2013)
+COMMENT     1 Primosome Assembly Protein Pria.
+FEATURES             Location/Qualifiers
+     source          1..747
+                     /organism="Klebsiella pneumoniae subsp. pneumoniae MGH
+                     78578"
+                     /db_xref="taxon:272620"
+     Region          1..122
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          17..746
+                     /region_name="PRK05580"
+                     /note="primosome assembly protein PriA; Validated"
+                     /db_xref="CDD:235514"
+     SecStr          20..24
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          31..36
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          46..53
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          54..59
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          60..66
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          79..83
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          90..103
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          107..114
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          123..204
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          131..136
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          153..160
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          164..167
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          177..186
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          188..193
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Region          205..397
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          216..228
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          231..239
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Region          236..374
+                     /region_name="DEXDc"
+                     /note="DEAD-like helicases superfamily. A diverse family
+                     of proteins involved in ATP-dependent RNA or DNA
+                     unwinding. This domain contains the ATP-binding region;
+                     cd00046"
+                     /db_xref="CDD:238005"
+     Site            242..246
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+     SecStr          245..259
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          262..267
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          274..283
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          287..291
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          297..309
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          313..318
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          330..336
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            335..338
+                     /site_type="other"
+                     /note="putative Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238005"
+     SecStr          352..363
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          364..372
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          376..383
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          387..392
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Region          join(398..443,512..646)
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          402..409
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          420..432
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          433..440
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Region          444..511
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          447..453
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Het             join(bond(451),bond(454),bond(491),bond(494))
+                     /heterogen="( ZN,1002 )"
+     SecStr          454..458
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     Het             join(bond(460),bond(463),bond(478),bond(481))
+                     /heterogen="( ZN,1001 )"
+     SecStr          467..471
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          474..480
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          481..486
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          490..493
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          494..497
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          498..503
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     Region          507..604
+                     /region_name="HELICc"
+                     /note="helicase superfamily c-terminal domain; smart00490"
+                     /db_xref="CDD:197757"
+     SecStr          520..525
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          547..554
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     Site            order(562,591,599,602)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          567..572
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          585..598
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          607..614
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          619..626
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          629..643
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     Region          647..747
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          649..657
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          664..675
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          684..689
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          690..693
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          703..711
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          713..724
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          738..743
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+ORIGIN      
+        1 hhhhhhssgl vprgshmsva hvalpvplpr tfdyllpegm avkagcrvrv pfgkqerigi
+       61 vaavsersel pldelkpvae alddepvfst tvwrllmwaa eyyhhpigdv lfhalpvmlr
+      121 qgkpasatpl wywfateqgq vvdlnglkrs rkqqqalaal rqgkiwrhqv gelefneaal
+      181 qalrgkglae laceapaltd wrsaysvage rlrlnteqat avgaihsaad rfsawllagi
+      241 tgsgktevyl svlenvlaqg rqalvmvpei gltpqtiarf rqrfnapvev lhsglndser
+      301 lsawlkakng eaaivigtrs slftpfkdlg vivideehds sykqqegwry hardlavwra
+      361 hseqipiilg satpaletlh nvrqgkyrql tlskragnar paqqhvldlk gqplqaglsp
+      421 alisrmrqhl qadnqvilfl nrrgfapall chdcgwiaec prcdsyytlh qaqhhlrchh
+      481 cdsqrpiprq cpscgsthlv pvgigteqle qalaplfpev pisridrdtt srkgaleehl
+      541 aavhrggari ligtqmlakg hhfpdvtlvs lldvdgalfs adfrsaerfa qlytqvsgra
+      601 gragkqgevi lqthhpehpl lqtllykgyd afaeqalaer qtmqlppwts hvliraedhn
+      661 nqqaplflqq lrnllqaspl adeklwvlgp vpalapkrgg rwrwqillqh psrvrlqhiv
+      721 sgtlalintl pearkvkwvl dvdpieg
+//
+

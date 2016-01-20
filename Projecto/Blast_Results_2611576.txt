@@ -1,0 +1,280 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 403072305 
+ Accession: 4GRI_A 
+ Score: 510.76
+ E-value: 9.23346e-176
+ Identities: 243
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4GRI_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 28948411 
+ Accession: 1J09_A 
+ Score: 339.347
+ E-value: 1.10246e-109
+ Identities: 197
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1J09_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 15826583 
+ Accession: 1G59_A 
+ Score: 335.495
+ E-value: 3.61605e-108
+ Identities: 197
+ Function: LigaseRNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G59_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 122921441 
+ Accession: 2O5R_A 
+ Score: 332.798
+ E-value: 6.62824e-107
+ Identities: 196
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2O5R_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 307776347 
+ Accession: 3AKZ_B 
+ Score: 310.071
+ E-value: 3.88247e-98
+ Identities: 187
+ Function: LigaseRNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3AKZ_B
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 299856675 
+ Accession: 3AFH_A 
+ Score: 310.071
+ E-value: 4.07919e-98
+ Identities: 187
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3AFH_A
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 307776357 
+ Accession: 3AL0_C 
+ Score: 310.842
+ E-value: 3.48687e-97
+ Identities: 187
+ Function: LigaseRNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3AL0_C
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 114793606 
+ Accession: 2CFO_A 
+ Score: 290.426
+ E-value: 1.37847e-90
+ Identities: 185
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2CFO_A
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 399125226 
+ Accession: 4G6Z_A 
+ Score: 278.1
+ E-value: 7.99166e-86
+ Identities: 177
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4G6Z_A
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 359545720 
+ Accession: 3PNY_A 
+ Score: 249.595
+ E-value: 6.64597e-75
+ Identities: 183
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PNY_A
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 210060724 
+ Accession: 2JA2_A 
+ Score: 249.21
+ E-value: 7.14511e-75
+ Identities: 183
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JA2_A
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 359545717 
+ Accession: 3PNV_A 
+ Score: 249.21
+ E-value: 9.77943e-75
+ Identities: 183
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PNV_A
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 48425079 
+ Accession: 1NZJ_A 
+ Score: 120.553
+ E-value: 4.36917e-30
+ Identities: 87
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1NZJ_A
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 302148693 
+ Accession: 3AII_A 
+ Score: 103.219
+ E-value: 6.00245e-23
+ Identities: 82
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3AII_A
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 146386870 
+ Accession: 2HZ7_A 
+ Score: 69.3218
+ E-value: 5.2177e-12
+ Identities: 68
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2HZ7_A
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 695722043 
+ Accession: 4R3Z_C 
+ Score: 66.6254
+ E-value: 3.15228e-11
+ Identities: 77
+ Function: Protein BindingLIGASE
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4R3Z_C
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 482677154 
+ Accession: 4H3S_A 
+ Score: 57.3806
+ E-value: 2.11604e-08
+ Identities: 38
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4H3S_A
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 827343422 
+ Accession: 5BNZ_A 
+ Score: 53.5286
+ E-value: 3.33025e-07
+ Identities: 74
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5BNZ_A
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 165761087 
+ Accession: 2RD2_A 
+ Score: 49.2914
+ E-value: 5.92272e-06
+ Identities: 59
+ Function: LigaseRNA
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2RD2_A
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 770386276 
+ Accession: 4P2B_A 
+ Score: 46.9802
+ E-value: 3.73516e-05
+ Identities: 62
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4P2B_A
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

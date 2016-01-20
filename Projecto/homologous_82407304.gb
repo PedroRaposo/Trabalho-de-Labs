@@ -1,0 +1,54 @@
+LOCUS       1T3O_A                    95 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Solution Structure Of Csra, A Bacterial Carbon Storage
+            Regulatory Protein.
+ACCESSION   1T3O_A
+VERSION     1T3O_A  GI:82407304
+DBSOURCE    pdb: molecule 1T3O, chain 65, release Jun 18, 2009;
+            deposition: Apr 27, 2004;
+            class: Rna Binding Protein;
+            source: Mmdb_id: 35427, Pdb_id 1: 1T3O;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 95)
+  AUTHORS   Koharudin,L.M.I., Georgiou,T., Kleanthous,C., Geoffrey,R.,
+            Kaptein,R. and Boelens,R.
+  TITLE     A Model For Rna Binding By The Bacterial Carbon Storage Regulatory
+            Protein, Csra
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 95)
+  AUTHORS   Koharudin,L.M.I., Georgiou,T., Kleanthous,C., Geoffrey,R.,
+            Kaptein,R. and Boelens,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-APR-2004)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..95
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     SecStr          20..28
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          22..85
+                     /region_name="PRK01712"
+                     /note="carbon storage regulator; Provisional"
+                     /db_xref="CDD:234973"
+     SecStr          32..36
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          38..42
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          43..48
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          49..58
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+ORIGIN      
+        1 mghhhhhhhh hhssghiegr hmlvlsrkin eaiqigadie vkviavegdq vklgidapkh
+       61 idihrkeiyl tiqeennraa alssdvisal ssqkk
+//
+

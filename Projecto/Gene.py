@@ -131,8 +131,8 @@ class MyCDS:
         self.blastPInfo=None
         self.hits=[]
         #self.blast()
-        #self.parseBlast()
-        #self.hitsToFile()
+        self.parseBlast()
+        self.hitsToFile()
         
         
     def __str__(self):
@@ -263,65 +263,65 @@ class MyCDS:
 #                print(self.translation,file=text_file)
         
         #blast-----------------------------------------
-        
-#        record=SeqIO.read(open(name), format="fasta")
-#
-#        result_handle=NCBIWWW.qblast("blastn", database, record.format("fasta"))
-#        
-#        save_file = open(self.old_locus_tag+"_"+database+".xml", "w")
-#        save_file.write(result_handle.read())
-#        save_file.close()
-#        result_handle.close()
+        if(os.path.isfile(prot+"_"+databaseP+".xml")!=True):
+            record=SeqIO.read(open(name), format="fasta")
+    
+            result_handle=NCBIWWW.qblast("blastn", database, record.format("fasta"))
+            
+            save_file = open(self.old_locus_tag+"_"+database+".xml", "w")
+            save_file.write(result_handle.read())
+            save_file.close()
+            result_handle.close()
         
 #        #blast protif(os.path.isfile(prot+"_"+databaseP+".xml")!=True):
-        if(os.path.isfile(prot+"_"+databaseP+".xml")!=True):   
-            if(self.translation!="None"):
-                record=SeqIO.read(open(nameProt), format="fasta")
-        
-                result_handle=NCBIWWW.qblast("blastp", databaseP, record.format("fasta"))
-                time.sleep(3)
-                if(result_handle.readable()):
-                    save_file = open(prot+"_"+databaseP+".xml", "w")
-                    save_file.write(result_handle.read())
-                    save_file.close()
-                    result_handle.close()
-                else:
-                    print("Error in ", nameProt)
+#        if(os.path.isfile(prot+"_"+databaseP+".xml")!=True):   
+#            if(self.translation!="None"):
+#                record=SeqIO.read(open(nameProt), format="fasta")
+#        
+#                result_handle=NCBIWWW.qblast("blastp", databaseP, record.format("fasta"))
+#                time.sleep(3)
+#                if(result_handle.readable()):
+#                    save_file = open(prot+"_"+databaseP+".xml", "w")
+#                    save_file.write(result_handle.read())
+#                    save_file.close()
+#                    result_handle.close()
+#                else:
+#                    print("Error in ", nameProt)
         
         #open XML-------------------------------------------------
     def parseBlast(self,database="pdb", molecule="prot", e_param=0.05, i_param=30):
         if(molecule=="prot"):
             name = self.geneID+"_"+database+".xml"
-            
-        result_handle = open(name)
-        blast_record = NCBIXML.read(result_handle)
-#        print("Global results: ")
-#        print("Database:")
-#        print(blast_record.database)
-#        print("Substitution matrix: ")
-#        print(blast_record.matrix)
-#        print("Gap penalties: ")
-#        print(blast_record.gap_penalties)
-#        print("----------------------------------------------- ")
-#        print(" ")
-        #print("------------------------------------------------- ")
-        for i in range(len(blast_record.alignments)) :
-            alignment = blast_record.alignments[i]
-            hitAccession = alignment.accession;
-            tag = re.search("[0-9]+",alignment.hit_id)
-            hitGi = tag.group() 
-            self.hits.append([])
-            for i2 in range(len(alignment.hsps)):               
-                alignment_hsp = alignment.hsps[i2]
-                rang = (alignment_hsp.align_length/len(self.translation))*100
-                if(molecule=="prot"):
-                   if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
-                       hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,True)
-                       self.hits[i].append(hsp)
-                else:
-                    if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
-                        hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities)
-                        self.hits[i].append(hsp)
+        if(os.path.isfile(name)==True):    
+            result_handle = open(name)
+            blast_record = NCBIXML.read(result_handle)
+    #        print("Global results: ")
+    #        print("Database:")
+    #        print(blast_record.database)
+    #        print("Substitution matrix: ")
+    #        print(blast_record.matrix)
+    #        print("Gap penalties: ")
+    #        print(blast_record.gap_penalties)
+    #        print("----------------------------------------------- ")
+    #        print(" ")
+            #print("------------------------------------------------- ")
+            for i in range(len(blast_record.alignments)) :
+                alignment = blast_record.alignments[i]
+                hitAccession = alignment.accession;
+                tag = re.search("[0-9]+",alignment.hit_id)
+                hitGi = tag.group() 
+                self.hits.append([])
+                for i2 in range(len(alignment.hsps)):               
+                    alignment_hsp = alignment.hsps[i2]
+                    rang = (alignment_hsp.align_length/len(self.translation))*100
+                    if(molecule=="prot"):
+                       if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
+                           hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,True)
+                           self.hits[i].append(hsp)
+                    else:
+                        if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
+                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities)
+                            self.hits[i].append(hsp)
             
 
             
@@ -356,28 +356,33 @@ class MyCDS:
     def hitsToFile(self):
         hitIndice = 1
         hspIndice = 1
-        if(len(self.hits[0])==0):
-            with open("failedBlast.txt","a") as text_file:
-                print(self.geneID,file=text_file )
-            text_file.close()
-        else:
-            
-            name = "Blast_Results_"+ self.geneID+ ".txt"
-            with open(name, "w") as text_file:
-                for hit in self.hits:
-                    hspIndice = 1
-                    ni= "Hit num: "+str(hitIndice)
-                    print(ni, file=text_file)
-                    print("",file=text_file)
-                    for hsp in hit:
-                        n="Hsp num :"+str(hspIndice)
-                        print(n, file=text_file)
-                        print(hsp, file=text_file)
-                        print("------------------------------------------------------------------",file=text_file)
+        if(len(self.hits)>0):
+            if(len(self.hits[0])==0 ):
+                with open("failedBlastPwith_0.005_30.txt","a") as text_file:
+                    print(self.geneID,file=text_file )
+                text_file.close()
+            else:            
+                name = "Blast_Results_"+ self.geneID+ ".txt"
+                with open(name, "w") as text_file:
+                    for hit in self.hits:
+                        hspIndice = 1
+                        if(len(hit)>0):
+                            ni= "Hit num: "+str(hitIndice)
+                            print(ni, file=text_file)
+                            print("",file=text_file)
+                            for hsp in hit:
+                                n="Hsp num :"+str(hspIndice)
+                                print(n, file=text_file)
+                                print(hsp, file=text_file)
+                                print("------------------------------------------------------------------",file=text_file)
+                                print("",file=text_file)
+                                hspIndice+= 1    
+                        hitIndice+=1
                         print("",file=text_file)
-                        hspIndice+= 1    
-                    hitIndice+=1
-                    print("",file=text_file)
+                text_file.close()
+        else:
+            with open("failedBlastP.txt","a") as text_file:
+                print(self.geneID,file=text_file )
             text_file.close()
         
                 

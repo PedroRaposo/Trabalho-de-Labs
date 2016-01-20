@@ -1,0 +1,124 @@
+LOCUS       3U7J_A                   239 aa            linear   BCT 30-OCT-2013
+DEFINITION  Chain A, Crystal Structure Of Ribose-5-phosphate Isomerase A From
+            Burkholderia Thailandensis.
+ACCESSION   3U7J_A
+VERSION     3U7J_A  GI:357380759
+DBSOURCE    pdb: molecule 3U7J, chain 65, release Oct 30, 2013;
+            deposition: Oct 13, 2011;
+            class: Isomerase;
+            source: Mmdb_id: 95105, Pdb_id 1: 3U7J;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Burkholderia thailandensis E264
+  ORGANISM  Burkholderia thailandensis E264
+            Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+            Burkholderiaceae; Burkholderia; pseudomallei group.
+REFERENCE   1  (residues 1 to 239)
+  AUTHORS   Baugh,L., Gallagher,L.A., Patrapuvich,R., Clifton,M.C.,
+            Gardberg,A.S., Edwards,T.E., Armour,B., Begley,D.W.,
+            Dieterich,S.H., Dranow,D.M., Abendroth,J., Fairman,J.W., Fox D,3r.,
+            Staker,B.L., Phan,I., Gillespie,A., Choi,R., Nakazawa-Hewitt,S.,
+            Nguyen,M.T., Napuli,A., Barrett,L., Buchko,G.W., Stacy,R.,
+            Myler,P.J., Stewart,L.J., Manoil,C. and Van Voorhis,W.C.
+  TITLE     Combining functional and structural genomics to sample the
+            essential Burkholderia structome
+  JOURNAL   PLoS ONE 8 (1), E53851 (2013)
+   PUBMED   23382856
+REFERENCE   2  (residues 1 to 239)
+  AUTHORS   Seattle Structural Genomics Center For Infectious Disease (S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-OCT-2011)
+COMMENT     1 Ribose-5-phosphate Isomerase A.
+FEATURES             Location/Qualifiers
+     source          1..239
+                     /organism="Burkholderia thailandensis E264"
+                     /db_xref="taxon:271848"
+     SecStr          11..29
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          14..227
+                     /region_name="RPI_A"
+                     /note="RPI_A: Ribose 5-phosphate isomerase type A (RPI_A)
+                     subfamily; RPI catalyzes the reversible conversion of
+                     ribose-5-phosphate to ribulose 5-phosphate, the first step
+                     of the non-oxidative branch of the pentose phosphate
+                     pathway. This reaction leads to the...; cd01398"
+                     /db_xref="CDD:238692"
+     SecStr          32..40
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(40,66,69..70,79,81,108..109,169..170,178,180,184)
+                     /site_type="other"
+                     /note="tetramer (dimer of dimers) interface [polypeptide
+                     binding]"
+                     /db_xref="CDD:238692"
+     Site            order(40,42..43,93..94,96,106..109,115,133)
+                     /site_type="active"
+                     /db_xref="CDD:238692"
+     SecStr          42..51
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          57..65
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          66..75
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(82,86,114,121,149..150,152..154,157,204..205,210)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238692"
+     SecStr          89..94
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          96..100
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          102..106
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Het             join(bond(115),bond(107),bond(109),bond(115))
+                     /heterogen="(  K,1002 )"
+     SecStr          113..121
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          123..131
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          137..140
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          143..148
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          152..162
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          164..169
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          183..189
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          190..193
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          196..205
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          208..216
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          221..228
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          229..236
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+ORIGIN      
+        1 gpgsmtllmt qdelkrlvge aaaryvtdnv pqgavigvgt gstancfida laavkdryrg
+       61 avsssvatte rlkshgirvf dlneieslqv yvdgadeide sgamikgggg altrekivas
+      121 vaetfvciad askrvamlgq fplpvevvpm artaigrrla alggvpvlrv kqdgtpyvtd
+      181 ngneildvkg lriddprale aaingwpgvv tvglfaqrga dlcllgtehg vetlryaar
+//
+

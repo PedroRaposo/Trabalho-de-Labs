@@ -1,0 +1,200 @@
+LOCUS       4G85_A                   517 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Human Hisrs.
+ACCESSION   4G85_A
+VERSION     4G85_A  GI:406855823
+DBSOURCE    pdb: molecule 4G85, chain 65, release Sep 26, 2012;
+            deposition: Jul 21, 2012;
+            class: Ligase;
+            source: Mmdb_id: 103372, Pdb_id 1: 4G85;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 517)
+  AUTHORS   Xu,Z., Wei,Z., Zhou,J.J., Ye,F., Lo,W.S., Wang,F., Lau,C.F., Wu,J.,
+            Nangle,L.A., Chiang,K.P., Yang,X.L., Zhang,M. and Schimmel,P.
+  TITLE     Internally Deleted Human tRNA Synthetase Suggests Evolutionary
+            Pressure for Repurposing
+  JOURNAL   Structure 20 (9), 1470-1477 (2012)
+   PUBMED   22958643
+REFERENCE   2  (residues 1 to 517)
+  AUTHORS   Wei,Z., Wu,J., Zhou,J.J., Yang,X.-L., Zhang,M. and Schimmel,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2012)
+COMMENT     1 Histidine-trna Ligase, Cytoplasmic.
+FEATURES             Location/Qualifiers
+     source          1..517
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..225,326..416)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          16..60
+                     /region_name="HisRS_RNA"
+                     /note="HisRS_RNA binding domain. This short RNA-binding
+                     domain is found at the N-terminus of HisRS in several
+                     higher eukaryote aminoacyl-tRNA synthetases (aaRSs). This
+                     domain consists of a helix- turn- helix structure, which
+                     is similar to other RNA-binding...; cd00938"
+                     /db_xref="CDD:238474"
+     Site            order(25,27,30,35,40,44,52,60)
+                     /site_type="other"
+                     /note="tRNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238474"
+     Region          67..512
+                     /region_name="HisS"
+                     /note="Histidyl-tRNA synthetase [Translation, ribosomal
+                     structure and biogenesis]; COG0124"
+                     /db_xref="CDD:223202"
+     SecStr          78..98
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          80..405
+                     /region_name="HisRS-like_core"
+                     /note="Class II Histidinyl-tRNA synthetase (HisRS)-like
+                     catalytic core domain. HisRS is a homodimer. It is
+                     responsible for the attachment of histidine to the 3' OH
+                     group of ribose of the appropriate tRNA. This domain is
+                     primarily responsible for ATP-dependent...; cd00773"
+                     /db_xref="CDD:238396"
+     Site            order(85,97,102..108,128..129,141,143,148..149,152..153,
+                     180..181,188,197,201,204,372,392..393)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238396"
+     Site            100..108
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238396"
+     SecStr          100..103
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          107..110
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          136..139
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(141,143,168,170,179,182,184,188,337,339,341..342,
+                     367,372,393,396,399)
+                     /site_type="active"
+                     /db_xref="CDD:238396"
+     SecStr          143..153
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          157..161
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          162..168
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            167..171
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238396"
+     SecStr          180..191
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          197..213
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          217..225
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          226..325
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          226..235
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          242..251
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          257..267
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          272..282
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          289..296
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          304..323
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          328..332
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          344..351
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          368..375
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          389..396
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            order(392..396,399)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238396"
+     SecStr          398..411
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          417..517
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          419..510
+                     /region_name="HisRS_anticodon"
+                     /note="HisRS Histidyl-anticodon binding domain. HisRS
+                     belongs to class II aminoacyl-tRNA synthetases (aaRS).
+                     This alignment contains the anticodon binding domain,
+                     which is responsible for specificity in tRNA-binding, so
+                     that the activated amino acid is...; cd00859"
+                     /db_xref="CDD:238436"
+     SecStr          421..426
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            order(427..428,464,470,478,488,490)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:238436"
+     SecStr          432..445
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          448..451
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          459..469
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          472..477
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          478..485
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          486..493
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          494..502
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          505..512
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 gpgsefelrr qmaeraalee lvklqgervr glkqqkasae lieeevakll klkaqlgpde
+       61 skqkfvlktp kgtrdysprq mavrekvfdv iircfkrhga evidtpvfel ketlmgkyge
+      121 dskliydlkd qggellslry dltvpfaryl amnkltnikr yhiakvyrrd npamtrgryr
+      181 efyqcdfdia gnfdpmipda eclkimceil sslqigdflv kvndrrildg mfaicgvsds
+      241 kfrticssvd kldkvsweev knemvgekgl apevadrigd yvqqhggvsl veqllqdpkl
+      301 sqnkqalegl gdlkllfeyl tlfgiddkis fdlslargld yytgviyeav llqtpaqage
+      361 eplgvgsvaa ggrydglvgm fdpkgrkvpc vglsigveri fsiveqrlea leekirttet
+      421 qvlvasaqkk lleerlklvs elwdagikae llykknpkll nqlqyceeag iplvaiigeq
+      481 elkdgviklr svtsreevdv rredlveeik rrtgqpl
+//
+

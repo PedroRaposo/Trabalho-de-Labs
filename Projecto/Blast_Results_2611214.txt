@@ -1,0 +1,118 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 597959910 
+ Accession: 3W8R_A 
+ Score: 59.3066
+ E-value: 8.46218e-10
+ Identities: 56
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3W8R_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 334359111 
+ Accession: 3ASY_A 
+ Score: 58.9214
+ E-value: 1.3512e-09
+ Identities: 56
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ASY_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 62738505 
+ Accession: 1XRJ_A 
+ Score: 52.373
+ E-value: 3.79082e-07
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1XRJ_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 48425784 
+ Accession: 1UDW_A 
+ Score: 51.9878
+ E-value: 4.44023e-07
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1UDW_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 126031143 
+ Accession: 2JEO_A 
+ Score: 50.8322
+ E-value: 9.60056e-07
+ Identities: 52
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JEO_A
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 48425494 
+ Accession: 1RZ3_A 
+ Score: 42.743
+ E-value: 0.000292433
+ Identities: 40
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1RZ3_A
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

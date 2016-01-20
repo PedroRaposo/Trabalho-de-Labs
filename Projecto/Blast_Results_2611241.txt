@@ -1,0 +1,434 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 9955228 
+ Accession: 1C0N_A 
+ Score: 288.5
+ E-value: 1.50132e-92
+ Identities: 147
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1C0N_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 33357044 
+ Accession: 1I29_A 
+ Score: 286.96
+ E-value: 5.92668e-92
+ Identities: 146
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1I29_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 14719479 
+ Accession: 1JF9_A 
+ Score: 286.96
+ E-value: 6.62883e-92
+ Identities: 146
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1JF9_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 18158926 
+ Accession: 1KMJ_A 
+ Score: 283.493
+ E-value: 1.46292e-90
+ Identities: 145
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KMJ_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 55669832 
+ Accession: 1T3I_A 
+ Score: 281.567
+ E-value: 9.50018e-90
+ Identities: 144
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1T3I_A
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 695722412 
+ Accession: 4W91_A 
+ Score: 279.641
+ E-value: 6.83415e-89
+ Identities: 145
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4W91_A
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 683437492 
+ Accession: 4Q76_A 
+ Score: 257.684
+ E-value: 2.13725e-80
+ Identities: 142
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4Q76_A
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 683437490 
+ Accession: 4Q75_A 
+ Score: 257.299
+ E-value: 2.61647e-80
+ Identities: 142
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4Q75_A
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 529281334 
+ Accession: 4LW2_A 
+ Score: 249.21
+ E-value: 1.75696e-77
+ Identities: 138
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LW2_A
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 7546479 
+ Accession: 1ECX_A 
+ Score: 92.4337
+ E-value: 2.11914e-20
+ Identities: 91
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ECX_A
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 436408763 
+ Accession: 3VAX_A 
+ Score: 91.6633
+ E-value: 3.94869e-20
+ Identities: 74
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3VAX_A
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 7546280 
+ Accession: 1EG5_A 
+ Score: 89.3521
+ E-value: 2.57578e-19
+ Identities: 93
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1EG5_A
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 169791885 
+ Accession: 3CAI_A 
+ Score: 85.1149
+ E-value: 9.29907e-18
+ Identities: 84
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CAI_A
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 34811268 
+ Accession: 1P3W_B 
+ Score: 83.5741
+ E-value: 2.62819e-17
+ Identities: 62
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1P3W_B
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 294979803 
+ Accession: 3LVJ_A 
+ Score: 83.5741
+ E-value: 3.60388e-17
+ Identities: 62
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3LVJ_A
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 734458790 
+ Accession: 4R5F_A 
+ Score: 72.0182
+ E-value: 1.50968e-13
+ Identities: 65
+ Function: Metal Binding Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4R5F_A
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 385867836 
+ Accession: 4EB5_A 
+ Score: 70.0922
+ E-value: 7.49694e-13
+ Identities: 64
+ Function: TransferaseMETAL BINDING PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4EB5_A
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 291191083 
+ Accession: 3A9X_A 
+ Score: 67.3958
+ E-value: 6.19841e-12
+ Identities: 79
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3A9X_A
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 228312391 
+ Accession: 3GZD_A 
+ Score: 64.3142
+ E-value: 6.35427e-11
+ Identities: 81
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GZD_A
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 228312388 
+ Accession: 3GZC_A 
+ Score: 63.929
+ E-value: 7.45104e-11
+ Identities: 81
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GZC_A
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 588292872 
+ Accession: 4ISY_A 
+ Score: 49.2914
+ E-value: 3.38264e-06
+ Identities: 64
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4ISY_A
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 7767009 
+ Accession: 1ELQ_A 
+ Score: 43.8986
+ E-value: 0.000163976
+ Identities: 81
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ELQ_A
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 453056242 
+ Accession: 4IXO_A 
+ Score: 43.5134
+ E-value: 0.000248255
+ Identities: 87
+ Function: Protein Binding
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4IXO_A
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 28373845 
+ Accession: 1N2T_A 
+ Score: 41.5874
+ E-value: 0.000859408
+ Identities: 80
+ Function: Lyase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1N2T_A
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 222143013 
+ Accession: 2W8W_A 
+ Score: 39.6614
+ E-value: 0.00391894
+ Identities: 47
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2W8W_A
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+Hsp num :1
+ Gi: 146386573 
+ Accession: 2JGT_A 
+ Score: 39.6614
+ E-value: 0.00393181
+ Identities: 47
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JGT_A
+------------------------------------------------------------------
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 953267794 
+ Accession: 2W8T_A 
+ Score: 39.6614
+ E-value: 0.00413017
+ Identities: 47
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2W8T_A
+------------------------------------------------------------------
+
+
+Hit num: 28
+
+Hsp num :1
+ Gi: 951273145 
+ Accession: 2JG2_A 
+ Score: 39.6614
+ E-value: 0.00414381
+ Identities: 47
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JG2_A
+------------------------------------------------------------------
+
+
+Hit num: 29
+
+Hsp num :1
+ Gi: 222143003 
+ Accession: 2W8J_A 
+ Score: 39.6614
+ E-value: 0.00420308
+ Identities: 47
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2W8J_A
+------------------------------------------------------------------
+
+
+Hit num: 30
+
+Hsp num :1
+ Gi: 538261028 
+ Accession: 4BMK_A 
+ Score: 39.6614
+ E-value: 0.00423137
+ Identities: 47
+ Function: TransferaseANTIBIOTIC
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4BMK_A
+------------------------------------------------------------------
+
+
+Hit num: 31
+
+Hsp num :1
+ Gi: 953267796 
+ Accession: 2W8V_A 
+ Score: 39.2762
+ E-value: 0.00487709
+ Identities: 47
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2W8V_A
+------------------------------------------------------------------
+
+
+Hit num: 32
+
+Hsp num :1
+ Gi: 951273149 
+ Accession: 2X8U_A 
+ Score: 38.1206
+ E-value: 0.0115106
+ Identities: 46
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2X8U_A
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

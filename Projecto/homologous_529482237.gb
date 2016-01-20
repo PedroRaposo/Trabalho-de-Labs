@@ -1,0 +1,129 @@
+LOCUS       4LLS_A                   311 aa            linear   BCT 08-AUG-2013
+DEFINITION  Chain A, Crystal Structure Of A Farnesyl Diphosphate Synthase From
+            Roseobacter Denitrificans Och 114, Target Efi-509393, With Ipp,
+            Gspp, And Calcium Bound In Active Site.
+ACCESSION   4LLS_A
+VERSION     4LLS_A  GI:529482237
+DBSOURCE    pdb: molecule 4LLS, chain 65, release Jul 24, 2013;
+            deposition: Jul 9, 2013;
+            class: Transferase;
+            source: Mmdb_id: 112143, Pdb_id 1: 4LLS;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Roseobacter denitrificans OCh 114
+  ORGANISM  Roseobacter denitrificans OCh 114
+            Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+            Rhodobacteraceae; Roseobacter.
+REFERENCE   1  (residues 1 to 311)
+  AUTHORS   Kim,J., Toro,R., Bhosle,R., Al Obaidi,N.F., Morisco,L.L.,
+            Wasserman,S.R., Sojitra,S., Washington,E., Scott Glenn,A.,
+            Chowdhury,S., Evans,B., Hammonds,J., Hillerich,B., Love,J.,
+            Seidel,R.D., Imker,H.J., Stead,M., Gerlt,J.A. and Almo,S.C.
+  TITLE     Crystal Structure Of A Farnesyl Diphosphate Synthas Roseobacter
+            Denitrificans Och 114, Target Efi-50939 Ipp, Gspp And Calcium Bound
+            In Active Site
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 311)
+  AUTHORS   Kim,J., Toro,R., Bhosle,R., Al Obaidi,N.F., Morisco,L.L.,
+            Wasserma,S.R., Sojitra,S., Washington,E., Scott Glenn,A.,
+            Chowdhury,S., Evans,B., J,J., Hillerich,B., Love,J., Seidel,R.D.,
+            Imker,H.J., Stead,M., Gerlt,J.A., S and Enzyme Function Initiative.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUL-2013)
+COMMENT     1 Geranyltranstransferase.
+FEATURES             Location/Qualifiers
+     source          1..311
+                     /organism="Roseobacter denitrificans OCh 114"
+                     /db_xref="taxon:375451"
+     SecStr          22..43
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          46..309
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          50..59
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          65..77
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          85..103
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(94,97..99,101..103,107..108,113..114,175,178,
+                     200..201,204,238..239,242,252,257,262)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            order(97..104,107..108)
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(102..103,108,113..114,178,200,238..239,242,252,257,
+                     262)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(102..103,108,113..114,200,238..239)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(102..103,108,113..114,178,200)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Het             join(bond(102),bond(108))
+                     /heterogen="( CA,1003 )"
+     Het             join(bond(108),bond(108),bond(178),bond(182),bond(108))
+                     /heterogen="( CA,1004 )"
+     Site            order(110..124,245..246,252..257,260..264)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          111..114
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          115..118
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          125..144
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          152..166
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          171..184
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          190..200
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          203..216
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          221..243
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(238..239,242,252,257,262)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     Het             bond(238)
+                     /heterogen="( CA,1002 )"
+     SecStr          271..289
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          297..308
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mhhhhhhssg vdlgtenlyf qsmftqrlda aaaavqahfd kvlaafeplp iveamahats
+       61 ggkrlrgflv letarlhdia ageaiwsata iealhayslv hddlpcmdnd dmrrgqptvh
+      121 kkwddatavl agdalqtlaf elvthpgasa saevradlal slarasgaqg mvlgqaldia
+      181 aetaraplsl deitrlqqgk tgaligwsaq agarlaqadt aalkryaqal glafqiaddi
+      241 ldvtgdsaqv gkavgkdasa gkatfvsllg ldaararams lideacdsla tygakadtlr
+      301 etarfvvrrt h
+//
+

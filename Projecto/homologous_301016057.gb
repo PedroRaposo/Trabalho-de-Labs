@@ -1,0 +1,121 @@
+LOCUS       3N9I_A                   346 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From
+            Yersinia Pestis Co92.
+ACCESSION   3N9I_A
+VERSION     3N9I_A  GI:301016057
+DBSOURCE    pdb: molecule 3N9I, chain 65, release Jul 21, 2010;
+            deposition: May 30, 2010;
+            class: Ligase;
+            source: Mmdb_id: 83534, Pdb_id 1: 3N9I;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Yersinia pestis CO92
+  ORGANISM  Yersinia pestis CO92
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Yersinia.
+REFERENCE   1  (residues 1 to 346)
+  AUTHORS   Nocek,B., Maltseva,N., Papazisi,L., Anderson,W. and Joachimi,A.
+  TITLE     Crystal Structure Of Tryptophanyl-Trna Synthetase F Yersinia Pestis
+            Co92
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 346)
+  AUTHORS   B Nocek, Maltseva,N., Papazisi,L., Anderson,W. and Joachimiak,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAY-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..346
+                     /organism="Yersinia pestis CO92"
+                     /db_xref="taxon:214092"
+     Region          join(1..202,302..346)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          15..343
+                     /region_name="PRK00927"
+                     /note="tryptophanyl-tRNA synthetase; Reviewed"
+                     /db_xref="CDD:234866"
+     SecStr          15..24
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          17..296
+                     /region_name="TrpRS_core"
+                     /note="catalytic core domain of tryptophanyl-tRNA
+                     synthetase; cd00806"
+                     /db_xref="CDD:173903"
+     Site            order(19..23,29,31..32,35,52,57,94,140,144,147,156,
+                     158..159,161..162,165,197,207..208,210)
+                     /site_type="active"
+                     /db_xref="CDD:173903"
+     Site            29..32
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173903"
+     SecStr          30..42
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          46..55
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(56,59..60,100..101,103..105,108..109,111..114,
+                     116..117,136,138..139,142..143)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173903"
+     SecStr          65..82
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          89..95
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          99..109
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          120..129
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          141..149
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          154..157
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          163..179
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          203..301
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Site            207..211
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173903"
+     SecStr          225..234
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          253..266
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          270..277
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          282..301
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          302..310
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          311..329
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          330..340
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 msepmvlskp tvsskpivfs gaqpsgelti gnymgalrqw vqmqddydci ycivdlhait
+       61 arqdpallrk rtldtlalyl acgidpkkst ifvqshvpeh sqlswalncy tyfgelsrmt
+      121 qfkdksarya eninaglfdy pvlmaadill yqtnqvpvge dqkqhlelsr diasrfnnly
+      181 gdifkipepf ipkagarvms lqdptkkmsk sddnrnnvie lledpksvvk kikramtdsd
+      241 epalirydve kkagvsnlld ilsgvtgqsi peleaqftgq myghlkgava davsgmlsel
+      301 qeryrtyred eallqdvmre gaakararaq vtlakvyeai gfvaqp
+//
+

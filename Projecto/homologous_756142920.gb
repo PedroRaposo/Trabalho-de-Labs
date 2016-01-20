@@ -1,0 +1,177 @@
+LOCUS       4UT1_A                   673 aa            linear   BCT 22-APR-2015
+DEFINITION  Chain A, The Structure Of The Flagellar Hook Junction Protein Flgk
+            From Burkholderia Pseudomallei.
+ACCESSION   4UT1_A
+VERSION     4UT1_A  GI:756142920
+DBSOURCE    pdb: molecule 4UT1, chain 65, release Apr 22, 2015;
+            deposition: Jul 17, 2014;
+            class: Motor Protein;
+            source: Mmdb_id: 126923, Pdb_id 1: 4UT1;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Burkholderia pseudomallei K96243
+  ORGANISM  Burkholderia pseudomallei K96243
+            Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+            Burkholderiaceae; Burkholderia; pseudomallei group.
+REFERENCE   1  (residues 1 to 673)
+  AUTHORS   Gourlay,L.J., Thomas,R.J., Peri,C., Conchillo-Sole,O.,
+            Ferrer-Navarro,M., Nithichanon,A., Vila,J., Daura,X.,
+            Lertmemongkolchai,G., Titball,R., Colombo,G. and Bolognesi,M.
+  TITLE     From crystal structure to in silico epitope discovery in the
+            Burkholderia pseudomallei flagellar hook-associated protein FlgK
+  JOURNAL   FEBS J. 282 (7), 1319-1333 (2015)
+   PUBMED   25645451
+REFERENCE   2  (residues 1 to 673)
+  AUTHORS   Gourlay,L.J., Lassaux,P. and Bolognesi,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUL-2014)
+COMMENT     1 Flagellar Hook-associated Protein.
+FEATURES             Location/Qualifiers
+     source          1..673
+                     /organism="Burkholderia pseudomallei K96243"
+                     /db_xref="taxon:272560"
+     Region          join(1..341,430..443,569..673)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          37..672
+                     /region_name="flgK"
+                     /note="flagellar hook-associated protein FlgK; Validated;
+                     PRK06945"
+                     /db_xref="CDD:235895"
+     SecStr          82..106
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          112..129
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          134..190
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          203..215
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          218..226
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          227..234
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          236..242
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          243..252
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          260..266
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          276..279
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          285..288
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          289..324
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          336..340
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          342..429
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          342..347
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          354..361
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          370..377
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          378..386
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          387..395
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          400..406
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          407..414
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          419..426
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          433..437
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     Region          444..568
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          450..455
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          461..465
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          467..470
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          473..476
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          479..487
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          488..493
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          497..504
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          506..513
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          518..521
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          526..533
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          542..545
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          546..553
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          557..564
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          572..579
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          593..631
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          <623..671
+                     /region_name="Flg_bbr_C"
+                     /note="Flagellar basal body rod FlgEFG protein C-terminal;
+                     pfam06429"
+                     /db_xref="CDD:253725"
+ORIGIN      
+        1 mrgshhhhhh gmasmtggqq mgrdlydddd kdhpftatpg ysverpvyae asgqytssgy
+       61 lpqgvstvtv erqynqylsn qlnaaqtqgs slstyytlva qlnnyvgspt agiataitny
+      121 ftglqtvann aadpsarqta msnaqtlasq lvaagqqysq lrqsvnsqlt dtvtqinsyt
+      181 sqiaqlneqi asassqgqpp nqlldqrdla vsklsqlagv qvvqsngnys vflsggqplv
+      241 vgnasyqlat vaspsdpsel tivskgvags aqpgptqylp dvsltggalg gllafrsqtl
+      301 dpaqaqlgal avsfasqvna qnalgvdmsg npggslfavg apavyanqnn tgsatlsvsf
+      361 vdgtqpttsd yalsydgaky tltdratgsv vgtatpsstp ptmtigglkl slsstpnagd
+      421 sftvlptrga ldgfslatan gsaiaaaspv laagvatnsg tgvisqgsvs agyqlpsgtt
+      481 tlaynaaskt lsgfpvgttv tiagtpptsi nitsattpvp ydpskgasmt issttqpaps
+      541 gvmngvsvsl sgtpadgdqf tigankgtnd grnalalsql vnsktmnngt ttltgayagy
+      601 vnaignaasq lkassaaqta lvgqitqaqq svsgvnqnee aanlmqyqql yqanakviqt
+      661 ansvfqtvlg lfn
+//
+

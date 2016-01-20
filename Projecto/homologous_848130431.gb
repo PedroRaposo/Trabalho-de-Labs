@@ -1,0 +1,204 @@
+LOCUS       4YCV_A                   516 aa            linear   INV 01-JUL-2015
+DEFINITION  Chain A, Crystal Structure Of Cladosporin In Complex With
+            Plasmodium Lysyl-trna Synthetase.
+ACCESSION   4YCV_A
+VERSION     4YCV_A  GI:848130431
+DBSOURCE    pdb: molecule 4YCV, chain 65, release Jul 1, 2015;
+            deposition: Feb 20, 2015;
+            class: LigaseLIGASE INHIBITOR;
+            source: Mmdb_id: 130345, Pdb_id 1: 4YCV;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Plasmodium falciparum NF54
+  ORGANISM  Plasmodium falciparum NF54
+            Eukaryota; Alveolata; Apicomplexa; Aconoidasida; Haemosporida;
+            Plasmodiidae; Plasmodium; Plasmodium (Laverania).
+REFERENCE   1  (residues 1 to 516)
+  AUTHORS   Fang,P., Han,H., Wang,J., Chen,K., Chen,X. and Guo,M.
+  TITLE     Structural Basis for Specific Inhibition of tRNA Synthetase by an
+            ATP Competitive Inhibitor
+  JOURNAL   Chem. Biol. 22 (6), 734-744 (2015)
+   PUBMED   26074468
+REFERENCE   2  (residues 1 to 516)
+  AUTHORS   Fang,P., Wang,J. and Guo,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-FEB-2015)
+COMMENT     1 Lysine--trna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..516
+                     /organism="Plasmodium falciparum NF54"
+                     /db_xref="taxon:5843"
+     SecStr          5..22
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          20..506
+                     /region_name="lysS"
+                     /note="lysyl-tRNA synthetase; Reviewed; PRK00484"
+                     /db_xref="CDD:234778"
+     Region          30..152
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          36..44
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          50..54
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          57..166
+                     /region_name="LysRS_N"
+                     /note="LysRS_N: N-terminal, anticodon recognition domain
+                     of lysyl-tRNA synthetases (LysRS). These enzymes are
+                     homodimeric class 2b aminoacyl-tRNA synthetases (aaRSs).
+                     This domain is a beta-barrel domain (OB fold) involved in
+                     binding the tRNA anticodon stem-loop; cd04322"
+                     /db_xref="CDD:239817"
+     SecStr          57..63
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(62..63,81..82,114,140,143..145)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239817"
+     SecStr          64..68
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(66,68..69,76,87,89,110,124,130)
+                     /site_type="other"
+                     /note="putative anticodon binding site"
+                     /db_xref="CDD:239817"
+     SecStr          73..82
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          83..92
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          101..108
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          112..116
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          117..124
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          128..133
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          134..138
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          139..142
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Region          153..516
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          162..169
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          169..506
+                     /region_name="LysRS_core"
+                     /note="Lys_tRNA synthetase (LysRS) class II core domain.
+                     Class II LysRS is a dimer which attaches a lysine to the
+                     3' OH group of ribose of the appropriate tRNA. Its
+                     assignment to class II aaRS is based upon its structure
+                     and the presence of three...; cd00775"
+                     /db_xref="CDD:238398"
+     SecStr          171..193
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          195..198
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            201..205
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238398"
+     SecStr          202..205
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          215..221
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          222..229
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            order(233,255,257,263,267,418,425,428,432,484)
+                     /site_type="active"
+                     /db_xref="CDD:238398"
+     SecStr          234..242
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          245..250
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          251..255
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            254..257
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238398"
+     SecStr          265..270
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          271..276
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          279..297
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          301..306
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          314..319
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          323..327
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          328..336
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          347..360
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          370..381
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          390..397
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          413..422
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          423..432
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     Bond            bond(442,465)
+                     /bond_type="disulfide"
+     SecStr          463..470
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          474..482
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     Site            481..484
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238398"
+     SecStr          483..490
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mevdprlyfe nrskfiqdqk dkginpyphk fertisipef iekykdlgng ehledtilni
+       61 tgrimrvsas gqklrffdlv gdgekiqvla nysfhnhekg nfaecydkir rgdivgivgf
+      121 pgkskkgels ifpketills aclhmlpmky glkdteiryr qryldlline ssrhtfvtrt
+      181 kiinflrnfl nergffevet pmmnliagga narpfithhn dldldlylri atelplkmli
+      241 vggidkvyei gkvfrnegid nthnpeftsc efywayadyn dlikwsedff sqlvyhlfgt
+      301 ykisynkdgp enqpieidft ppypkvsive eiekvtntil eqpfdsneti ekminiikeh
+      361 kielpnppta aklldqlash fienkyndkp ffivehpqim splakyhrtk pglterlemf
+      421 icgkevlnay telndpfkqk ecfklqqkdr ekgdteaaql dsafctsley glpptgglgl
+      481 gidritmflt nknsikdvil fptmrpangg hhhhhh
+//
+

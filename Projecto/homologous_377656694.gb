@@ -1,0 +1,151 @@
+LOCUS       4DN7_A                   429 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Putative Abc Transporter, Atp-Binding
+            Protein From Methanosarcina Mazei Go1.
+ACCESSION   4DN7_A
+VERSION     4DN7_A  GI:377656694
+DBSOURCE    pdb: molecule 4DN7, chain 65, release Feb 22, 2012;
+            deposition: Feb 8, 2012;
+            class: Transport Protein;
+            source: Mmdb_id: 97523, Pdb_id 1: 4DN7;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanosarcina mazei Go1
+  ORGANISM  Methanosarcina mazei Go1
+            Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales;
+            Methanosarcinaceae; Methanosarcina.
+REFERENCE   1  (residues 1 to 429)
+  AUTHORS   Malashkevich,V.N., Bhosle,R., Toro,R., Seidel,R. and Almo,S.C.
+  TITLE     Crystal Structure Of Putative Abc Transporter, Atp- Protein From
+            Methanosarcina Mazei Go1
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 429)
+  AUTHORS   Malashkevich,V.N., Bhosle,R., Toro,R., Seidel,R., Almo,S.C., New
+            York and Structural Genomics Research Consortium (Nysgrc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-FEB-2012)
+COMMENT     1 Abc Transporter, Atp-binding Protein.
+FEATURES             Location/Qualifiers
+     source          1..429
+                     /organism="Methanosarcina mazei Go1"
+                     /db_xref="taxon:192952"
+     Region          1..376
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          27..37
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          46..423
+                     /region_name="SufB"
+                     /note="Fe-S cluster assembly scaffold protein SufB
+                     [Posttranslational modification, protein turnover,
+                     chaperones]; COG0719"
+                     /db_xref="CDD:223791"
+     SecStr          71..80
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          90..97
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          98..106
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          110..114
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          115..122
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          139..147
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          150..158
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          159..162
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          165..173
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          174..402
+                     /region_name="UPF0051"
+                     /note="Uncharacterized protein family (UPF0051);
+                     pfam01458"
+                     /db_xref="CDD:250635"
+     SecStr          176..182
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          183..189
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          190..202
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          206..211
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          212..220
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          221..232
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          234..239
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          240..248
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          249..259
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          263..274
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          275..278
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          279..290
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          292..302
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          306..316
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          320..330
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          334..347
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          350..362
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          364..375
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     Region          377..429
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          378..387
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          391..403
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          416..427
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 xhhhhhhssg vdlgtenlyf qsxqteqvsl kkraesaaek kaafgedfel ekyeegskvs
+       61 kpiedlqsld eeskktllqv gvipseegrs gsflvldnav shstlkdknv elxsthkaxe
+      121 kyewlkdysw klvqvdadky taktyledad gyfirvpagk ktsxpvqtcl xlgskkaaqt
+      181 vhniiiveeg atldiitgct tkkgveeglh lgisexyikk ggtlnftxih nwaeqigvrp
+      241 rtvvsveegg tyvsnyiclk pvrsvqtypt vrlegegavt rlntiaiahp gseldlgska
+      301 ifnapgtrae lisrtitigg rliargexig nakgakghle ckglvltdkg sqlaipilea
+      361 nvddielthe aavgkiakdq veylxarglt edeavgxiir gfldvgirgi peelkeeien
+      421 tiaqtalgx
+//
+

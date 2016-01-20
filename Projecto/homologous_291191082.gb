@@ -1,0 +1,180 @@
+LOCUS       3A5X_A                   494 aa            linear   BCT 19-OCT-2013
+DEFINITION  Chain A, L-type Straight Flagellar Filament Made Of Full-length
+            Flagellin.
+ACCESSION   3A5X_A
+VERSION     3A5X_A  GI:291191082
+DBSOURCE    pdb: molecule 3A5X, chain 65, release Oct 17, 2013;
+            deposition: Aug 13, 2009;
+            class: Structural Protein, Motor Protein;
+            source: Mmdb_id: 80781, Pdb_id 1: 3A5X;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium (Salmonella
+            typhimurium)
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (residues 1 to 494)
+  AUTHORS   Samatey,F.A., Imada,K., Nagashima,S., Vonderviszt,F., Kumasaka,T.,
+            Yamamoto,M. and Namba,K.
+  TITLE     Structure of the bacterial flagellar protofilament and implications
+            for a switch for supercoiling
+  JOURNAL   Nature 410 (6826), 331-337 (2001)
+   PUBMED   11268201
+REFERENCE   2  (residues 1 to 494)
+  AUTHORS   Yonekura,K., Maki-Yonekura,S. and Namba,K.
+  TITLE     Complete atomic model of the bacterial flagellar filament by
+            electron cryomicroscopy
+  JOURNAL   Nature 424 (6949), 643-650 (2003)
+   PUBMED   12904785
+REFERENCE   3  (residues 1 to 494)
+  AUTHORS   Maki-Yonekura,S., Yonekura,K. and Namba,K.
+  TITLE     Conformational change of flagellin for polymorphic supercoiling of
+            the flagellar filament
+  JOURNAL   Nat. Struct. Mol. Biol. 17 (4), 417-422 (2010)
+   PUBMED   20228803
+REFERENCE   4  (residues 1 to 494)
+  AUTHORS   Maki-Yonekura,S., Yonekura,K. and Namba,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-AUG-2009)
+COMMENT     1 Flagellin.
+FEATURES             Location/Qualifiers
+     source          1..494
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium"
+                     /db_xref="taxon:90371"
+     Region          1..494
+                     /region_name="PRK08026"
+                     /note="flagellin; Validated"
+                     /db_xref="CDD:236140"
+     Region          join(1..38,459..494)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          4..142
+                     /region_name="Flagellin_N"
+                     /note="Bacterial flagellin N-terminal helical region;
+                     pfam00669"
+                     /db_xref="CDD:250043"
+     SecStr          4..13
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          14..32
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          join(39..169,400..458)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          44..85
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          86..97
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          105..128
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          129..132
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          133..136
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          139..146
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          154..161
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          join(170..187,288..399)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          178..185
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          188..287
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          189..194
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          191..280
+                     /region_name="Flagellin_D3"
+                     /note="Flagellin D3 domain; pfam08884"
+                     /db_xref="CDD:255089"
+     SecStr          212..217
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          220..224
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          227..237
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          241..252
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          253..258
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          275..278
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          280..285
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          289..298
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          304..314
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          316..321
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          322..328
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          329..338
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          340..348
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          349..352
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          358..364
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          370..376
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          377..382
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          388..391
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          407..453
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          408..493
+                     /region_name="Flagellin_C"
+                     /note="Bacterial flagellin C-terminal helical region;
+                     pfam00700"
+                     /db_xref="CDD:144340"
+     SecStr          463..484
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 aqvintnsls lltqnnlnks qsalgtaier lssglrinsa kddaagqaia nrftanikgl
+       61 tqasrnandg isiaqttega lneinnnlqr vrelavqsan stnsqsdlds iqaeitqrln
+      121 eidrvsgqtq fngvkvlaqd ntltiqvgan dgetididlk qinsqtlgld tlnvqqkykv
+      181 sdtaatvtgy adttialdns tfkasatglg gtdqkidgdl kfddttgkyy akvtvtggtg
+      241 kdgyyevsvd ktngevtlag gatspltggl patatedvkn vqvanadlte akaaltaagv
+      301 tgtasvvkms ytdnngktid gglavkvgdd yysatqnkdg sisinttkyt addgtsktal
+      361 nklggadgkt evvsiggkty aaskaeghnf kaqpdlaeaa atttenplqk idaalaqvdt
+      421 lrsdlaavqn rfnsaitnlg ntvnnltsar sriedsdyat evsnmsraqi lqqagtsvla
+      481 qanqvpqnvl sllr
+//
+

@@ -191,6 +191,10 @@ class Data:
         for i in range(t-f):
             self.cdsList[i2].blast()
             i2+=1
+            
+    def makeBlastAll(self):
+        for cds in self.cdsList:
+            cds.blast()
 
         
         

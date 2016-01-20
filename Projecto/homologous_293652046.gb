@@ -1,0 +1,115 @@
+LOCUS       3M9U_A                   309 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Geranylgeranyl Pyrophosphate Synthase
+            From Lactobacillus Brevis Atcc 367.
+ACCESSION   3M9U_A
+VERSION     3M9U_A  GI:293652046
+DBSOURCE    pdb: molecule 3M9U, chain 65, release Apr 7, 2010;
+            deposition: Mar 22, 2010;
+            class: Transferase;
+            source: Mmdb_id: 81302, Pdb_id 1: 3M9U;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Lactobacillus brevis ATCC 367
+  ORGANISM  Lactobacillus brevis ATCC 367
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+            Lactobacillus.
+REFERENCE   1  (residues 1 to 309)
+  AUTHORS   Patskovsky,Y., Toro,R., Rutter,M., Sauder,J.M., Burley,S.K. and
+            Almo,S.C.
+  TITLE     Crystal Structure Of Geranylgeranyl Pyrophosphate Synthase From
+            Lactobacillus Brevis Atcc 367
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 309)
+  AUTHORS   Patskovsky,Y., Toro,R., Rutter,M., Sauder,J.M., Burley,S.K.,
+            Almo,S.C., New York Structural Genomix Research Consortium
+            (Nysgxrc), New York Sgx Research Center For Structural Genomics and
+            (Nysgxrc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAR-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..309
+                     /organism="Lactobacillus brevis ATCC 367"
+                     /db_xref="taxon:387344"
+     SecStr          6..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          23..30
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          31..294
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          34..45
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          51..63
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          78..91
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(82,85..87,89..91,95..96,101..102,161,164,184..185,
+                     188,225..226,229,239,244,249)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            order(85..92,95..96)
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(90..91,96,101..102,164,184,225..226,229,239,244,249)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(90..91,96,101..102,184,225..226)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(90..91,96,101..102,164,184)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(98..112,232..233,239..244,247..251)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          113..132
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          138..152
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          157..167
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          174..184
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          187..200
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          207..231
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Site            order(225..226,229,239,244,249)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          258..277
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          282..290
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 mslinarlia fedqwvpaln aplkqailad sqdaqlaaam tysvlaggkr lrplltvatm
+       61 qslgvtfvpe rhwrpvmale llhtyslihd dlpamdndal rrgeptnhvk fgagmatlag
+      121 dglltlafqw ltatdlpatm qaalvqalat aagpsgmvag qakdiqsehv nlplsqlrvl
+      181 hkektgallh yavqaglilg qapeaqwpay lqfadafgla fqiyddildv vsspaemgka
+      241 tqkdadeakn typgklglig anqalidtih sgqaalqglp tstqrddlaa ffsyfdterv
+      301 neghhhhhh
+//
+

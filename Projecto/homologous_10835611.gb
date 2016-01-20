@@ -1,0 +1,221 @@
+LOCUS       1EOV_A                   487 aa            linear   PLN 09-OCT-2012
+DEFINITION  Chain A, Free Aspartyl-Trna Synthetase (Asprs) (E.C. 6.1.1.12) From
+            Yeast.
+ACCESSION   1EOV_A
+VERSION     1EOV_A  GI:10835611
+DBSOURCE    pdb: molecule 1EOV, chain 65, release Oct 6, 2012;
+            deposition: Mar 24, 2000;
+            class: Ligase;
+            source: Mmdb_id: 14327, Pdb_id 1: 1EOV;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae (baker's yeast)
+  ORGANISM  Saccharomyces cerevisiae
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+            Saccharomyces.
+REFERENCE   1  (residues 1 to 487)
+  AUTHORS   Ruff,M., Krishnaswamy,S., Boeglin,M., Poterszman,A., Mitschler,A.,
+            Podjarny,A., Rees,B., Thierry,J.C. and Moras,D.
+  TITLE     Class II aminoacyl transfer RNA synthetases: crystal structure of
+            yeast aspartyl-tRNA synthetase complexed with tRNA(Asp)
+  JOURNAL   Science 252 (5013), 1682-1689 (1991)
+   PUBMED   2047877
+REFERENCE   2  (residues 1 to 487)
+  AUTHORS   Cavarelli,J., Rees,B., Ruff,M., Thierry,J.C. and Moras,D.
+  TITLE     Yeast tRNA(Asp) recognition by its cognate class II aminoacyl-tRNA
+            synthetase
+  JOURNAL   Nature 362 (6416), 181-184 (1993)
+   PUBMED   8450889
+REFERENCE   3  (residues 1 to 487)
+  AUTHORS   Cavarelli,J., Eriani,G., Rees,B., Ruff,M., Boeglin,M.,
+            Mitschler,A., Martin,F., Gangloff,J., Thierry,J.C. and Moras,D.
+  TITLE     The active site of yeast aspartyl-tRNA synthetase: structural and
+            functional aspects of the aminoacylation reaction
+  JOURNAL   EMBO J. 13 (2), 327-337 (1994)
+   PUBMED   8313877
+REFERENCE   4  (residues 1 to 487)
+  AUTHORS   Sauter,C., Lorber,B., Kern,D., Cavarelli,J., Moras,D. and Giege,R.
+  TITLE     Crystallogenesis studies on yeast aspartyl-tRNA synthetase: use of
+            phase diagram to improve crystal quality
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 55 (PT 1), 149-156 (1999)
+   PUBMED   10089405
+REFERENCE   5  (residues 1 to 487)
+  AUTHORS   Sauter,C., Lorber,B., Cavarelli,J., Moras,D. and Giege,R.
+  TITLE     The free yeast aspartyl-tRNA synthetase differs from the
+            tRNA(Asp)-complexed enzyme by structural changes in the catalytic
+            site, hinge region, and anticodon-binding domain
+  JOURNAL   J. Mol. Biol. 299 (5), 1313-1324 (2000)
+   PUBMED   10873455
+REFERENCE   6  (residues 1 to 487)
+  AUTHORS   Sauter,C., Lorber,B., Cavarelli,J., Moras,D. and Giege,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2000)
+COMMENT     1 Aspartyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..487
+                     /organism="Saccharomyces cerevisiae"
+                     /db_xref="taxon:4932"
+     Region          1..136
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..487
+                     /region_name="PLN02850"
+                     /note="aspartate-tRNA ligase"
+                     /db_xref="CDD:215456"
+     SecStr          4..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          36..40
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          38..140
+                     /region_name="AspRS_cyto_N"
+                     /note="AspRS_cyto_N: N-terminal, anticodon recognition
+                     domain of the type found in Saccharomyces cerevisiae and
+                     human cytoplasmic aspartyl-tRNA synthetase (AspRS). This
+                     domain is a beta-barrel domain (OB fold) involved in
+                     binding the tRNA anticodon stem-loop; cd04320"
+                     /db_xref="CDD:239815"
+     SecStr          41..46
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(42,44,63,95,128,130..131)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239815"
+     SecStr          47..52
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(49..51,55,57,68,70,107..108,118,135)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:239815"
+     SecStr          54..63
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          64..73
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          81..89
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          94..99
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          100..105
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          116..121
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          122..128
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          144..152
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          156..483
+                     /region_name="AsxRS_core"
+                     /note="Asx tRNA synthetase (AspRS/AsnRS) class II core
+                     domain. Assignment to class II aminoacyl-tRNA synthetases
+                     (aaRS) based upon its structure and the presence of three
+                     characteristic sequence motifs in the core domain. This
+                     family includes AsnRS as well as...; cd00776"
+                     /db_xref="CDD:238399"
+     SecStr          158..165
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(164,166,170,175,181..182,185,189,196,199,201,
+                     203..205,207,218..219,221..223,235,238,241..242,244..245,
+                     266..267,276..277,283,443,446..449,480..482)
+                     /site_type="other"
+                     /note="homodimer interface [polypeptide binding]"
+                     /db_xref="CDD:238399"
+     Region          169..487
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          172..195
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          197..200
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            203..207
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238399"
+     SecStr          204..207
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          217..222
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          223..229
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          233..242
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          245..255
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            254..257
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238399"
+     Site            order(255,257,263..264,408,411,458,461)
+                     /site_type="active"
+                     /db_xref="CDD:238399"
+     SecStr          266..277
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          282..301
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          304..311
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          328..332
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          333..342
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          354..367
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          371..379
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          396..405
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          407..415
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          419..429
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          451..459
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     Site            458..461
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238399"
+     SecStr          460..467
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 akdnygklpl iqsrdsdrtg qkrvkfvdld eakdsdkevl frarvhntrq qgatlafltl
+       61 rqqasliqgl vkankegtis knmvkwagsl nlesivlvrg ivkkvdepik satvqnleih
+      121 itkiytiset pealpilled asrseaeaea aglpvvnldt rldyrvidlr tvtnqaifri
+      181 qagvcelfre ylatkkftev htpkllgaps eggssvfevt yfkgkaylaq spqfnkqqli
+      241 vadfervyei gpvfraensn thrhmteftg ldmemafeeh yhevldtlse lfvfifselp
+      301 krfaheielv rkqypveefk lpkdgkmvrl tykegiemlr aagkeigdfe dlstenekfl
+      361 gklvrdkydt dfyildkfpl eirpfytmpd panpkysnsy dffmrgeeil sgaqrihdha
+      421 llqermkahg lspedpglkd ycdgfsygcp phagggigle rvvmfyldlk nirraslfpr
+      481 dpkrlrp
+//
+

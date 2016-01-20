@@ -1,0 +1,128 @@
+LOCUS       3L7O_A                   225 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Ribose-5-Phosphate Isomerase A From
+            Streptococcus Mutans Ua159.
+ACCESSION   3L7O_A
+VERSION     3L7O_A  GI:316983217
+DBSOURCE    pdb: molecule 3L7O, chain 65, release Jan 26, 2011;
+            deposition: Dec 29, 2009;
+            class: Isomerase;
+            source: Mmdb_id: 87684, Pdb_id 1: 3L7O;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptococcus mutans UA159
+  ORGANISM  Streptococcus mutans UA159
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+            Streptococcus.
+REFERENCE   1  (residues 1 to 225)
+  AUTHORS   Fan,X.X., Wang,K.T. and Su,X.D.
+  TITLE     Crystal Structure Of Ribose-5-Phosphate Isomerase A Streptococcus
+            Mutans Ua159
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 225)
+  AUTHORS   Fan,X.X., Wang,K.T. and Su,X.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-DEC-2009)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..225
+                     /organism="Streptococcus mutans UA159"
+                     /db_xref="taxon:210007"
+     Region          join(1..125,207..225)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          4..214
+                     /region_name="RPI_A"
+                     /note="RPI_A: Ribose 5-phosphate isomerase type A (RPI_A)
+                     subfamily; RPI catalyzes the reversible conversion of
+                     ribose-5-phosphate to ribulose 5-phosphate, the first step
+                     of the non-oxidative branch of the pentose phosphate
+                     pathway. This reaction leads to the...; cd01398"
+                     /db_xref="CDD:238692"
+     SecStr          5..13
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          19..26
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(26,55,58..59,68,70,97..98,158..159,166,168,172)
+                     /site_type="other"
+                     /note="tetramer (dimer of dimers) interface [polypeptide
+                     binding]"
+                     /db_xref="CDD:238692"
+     Site            order(26,28..29,82..83,85,95..98,104,122)
+                     /site_type="active"
+                     /db_xref="CDD:238692"
+     SecStr          31..42
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          47..53
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          55..64
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(71,75,103,110,138..139,141..143,146,192..193,198)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238692"
+     SecStr          76..83
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          85..89
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          91..95
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          101..109
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          110..119
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          122..125
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          126..206
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          126..129
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          131..137
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          141..151
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          153..161
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          162..165
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          171..178
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          179..182
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          184..193
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          196..204
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          208..212
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          218..223
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+ORIGIN      
+        1 meelkkiagv raaqyvedgm ivglgtgsta yyfveevgrr vqeeglqvig vttssrttaq
+       61 aqalgiplks idevdsvdvt vdgadevdpn fngikgggga llmekivgtl tkdyiwvvde
+      121 skmvdtlgaf rlpvevvqyg aerlfrefek kgykpsfrey dgvrfvtdmk nfiidldlgs
+      181 ipdpiafgnm ldhqvgvveh glfngmvnrv ivagkdgvri leank
+//
+

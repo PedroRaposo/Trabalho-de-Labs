@@ -1,0 +1,127 @@
+LOCUS       1B04_A                   318 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of The Adenylation Domain Of An Nad+ Dependent
+            Ligase.
+ACCESSION   1B04_A
+VERSION     1B04_A  GI:6573451
+DBSOURCE    pdb: molecule 1B04, chain 65, release Jun 18, 2009;
+            deposition: Nov 16, 1998;
+            class: Ligase;
+            source: Mmdb_id: 11515, Pdb_id 1: 1B04;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus stearothermophilus
+  ORGANISM  Geobacillus stearothermophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 318)
+  AUTHORS   Singleton,M.R., Hakansson,K., Timson,D.J. and Wigley,D.B.
+  TITLE     Structure of the adenylation domain of an NAD+-dependent DNA ligase
+  JOURNAL   Structure 7 (1), 35-42 (1999)
+   PUBMED   10368271
+REFERENCE   2  (residues 1 to 318)
+  AUTHORS   Singleton,M.R., Hakansson,K., Timson,D.J. and Wigley,D.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-NOV-1998)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..318
+                     /organism="Geobacillus stearothermophilus"
+                     /db_xref="taxon:1422"
+     SecStr          5..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          8..312
+                     /region_name="LIGANc"
+                     /note="NAD+ dependent DNA ligase adenylation domain. DNA
+                     ligases catalyze the crucial step of joining the breaks in
+                     duplex DNA during DNA replication, repair and
+                     recombination, utilizing either ATP or NAD(+) as a
+                     cofactor, but using the same basic reaction...; cd00114"
+                     /db_xref="CDD:238062"
+     SecStr          35..50
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          73..76
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          join(81..116,249..318)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Site            order(84,112,114,135,169,221,283,285)
+                     /site_type="other"
+                     /note="nucleotide binding pocket [chemical binding]"
+                     /db_xref="CDD:238062"
+     SecStr          85..88
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          90..103
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          108..115
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(114,116..117)
+                     /site_type="other"
+                     /note="K-X-D-G motif"
+                     /db_xref="CDD:238062"
+     Site            114
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:238062"
+     Region          117..248
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          117..126
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          127..137
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          139..145
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          162..169
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          174..185
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          195..204
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          216..224
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          234..244
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          252..256
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          258..271
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          280..287
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          288..295
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          296..299
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          300..303
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          304..310
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 mdrqqaerra aelrellnry gyeyyvldrp svpdaeydrl mqeliaieeq ypelktsdsp
+       61 tqriggpple afrkvahrvp mmslanafge gdlrdfdrrv rqevgeaayv celaidglav
+      121 svryedgyfv qgatrgdgtt geditenlkt irslplrlke pvsleargea fmpkasflrl
+      181 neerkargee lfanprnaaa gslrqldpkv aasrqldlfv ygladaealg iashsealdy
+      241 lqalgfkvnp errrcanide viafvsewhd krpqlpyeid givikvdsfa qqralgatak
+      301 sprwaiaykf paeevvtt
+//
+

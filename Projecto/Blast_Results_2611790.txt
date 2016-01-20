@@ -1,0 +1,35 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 20663866 
+ Accession: 1IRX_A 
+ Score: 397.127
+ E-value: 2.15594e-131
+ Identities: 209
+ Function: Ligase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1IRX_A
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

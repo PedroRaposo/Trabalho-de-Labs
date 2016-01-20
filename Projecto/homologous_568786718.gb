@@ -1,0 +1,143 @@
+LOCUS       4LH6_A                   323 aa            linear   BCT 08-JAN-2014
+DEFINITION  Chain A, Crystal Structure Of A Liga Inhibitor.
+ACCESSION   4LH6_A
+VERSION     4LH6_A  GI:568786718
+DBSOURCE    pdb: molecule 4LH6, chain 65, release Jan 8, 2014;
+            deposition: Jun 30, 2013;
+            class: LigaseLIGASE INHIBITOR;
+            source: Mmdb_id: 116265, Pdb_id 1: 4LH6;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Enterococcus faecalis V583
+  ORGANISM  Enterococcus faecalis V583
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae;
+            Enterococcus.
+REFERENCE   1  (residues 1 to 323)
+  AUTHORS   Murphy-Benenato,K., Wang,H., McGuire,H.M., Davis,H.E., Gao,N.,
+            Prince,D.B., Jahic,H., Stokes,S.S. and Boriack-Sjodin,P.A.
+  TITLE     Identification through structure-based methods of a bacterial
+            NAD(+)-dependent DNA ligase inhibitor that avoids known resistance
+            mutations
+  JOURNAL   Bioorg. Med. Chem. Lett. 24 (1), 360-366 (2014)
+   PUBMED   24287382
+REFERENCE   2  (residues 1 to 323)
+  AUTHORS   Benenato,K., Wang,H., Mcguire,H.M., Davis,H., Gao,N., Prince,D.B.,
+            Jah,H., Stokes,S.S. and Boriack-Sjodin,P.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2013)
+COMMENT     1 Dna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..323
+                     /organism="Enterococcus faecalis V583"
+                     /db_xref="taxon:226185"
+     SecStr          8..30
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          13..318
+                     /region_name="LIGANc"
+                     /note="NAD+ dependent DNA ligase adenylation domain. DNA
+                     ligases catalyze the crucial step of joining the breaks in
+                     duplex DNA during DNA replication, repair and
+                     recombination, utilizing either ATP or NAD(+) as a
+                     cofactor, but using the same basic reaction...; cd00114"
+                     /db_xref="CDD:238062"
+     SecStr          40..56
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          join(64..76,123..233)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          71..74
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          79..82
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          join(87..122,234..323)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Site            order(89,118,120,141,175,227,289,291)
+                     /site_type="other"
+                     /note="nucleotide binding pocket [chemical binding]"
+                     /db_xref="CDD:238062"
+     SecStr          90..93
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          95..109
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          114..121
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(120,122..123)
+                     /site_type="other"
+                     /note="K-X-D-G motif"
+                     /db_xref="CDD:238062"
+     Site            120
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:238062"
+     SecStr          123..132
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          134..141
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          145..149
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          150..157
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          168..178
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          180..193
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          201..210
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          212..215
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Het             join(bond(218),bond(220))
+                     /heterogen="( NA,1003 )"
+     SecStr          222..227
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          240..250
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          258..262
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          264..277
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Het             join(bond(276),bond(279))
+                     /heterogen="( NA,1004 )"
+     SecStr          286..292
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          294..301
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          302..305
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          306..309
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          310..316
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+ORIGIN      
+        1 meqqpltlta attraqelrk qlnqysheyy vkdqpsvedy vydrlykelv dietefpdli
+       61 tpdsptqrvg gkvlsgfeka phdipmysln dgfskedifa fdervrkaig kpvayccelk
+      121 idglaislry engvfvrgat rgdgtvgeni tenlrtvrsv pmrltepisv evrgecympk
+      181 qsfvalneer eengqdifan prnaaagslr qldtkivakr nlntflytva dfgpmkaktq
+      241 fealeelsai gfrtnperql cqsidevway ieeyhekrst lpyeidgivi kvnefalqde
+      301 lgftvkaprw aiaykfppee aet
+//
+

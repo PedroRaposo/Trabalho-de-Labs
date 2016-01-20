@@ -1,0 +1,150 @@
+LOCUS       3EQ2_A                   394 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of Hexagonal Crystal Form Of Pseudomonas
+            Aeruginosa Rssb.
+ACCESSION   3EQ2_A
+VERSION     3EQ2_A  GI:261824796
+DBSOURCE    pdb: molecule 3EQ2, chain 65, release Oct 21, 2009;
+            deposition: Sep 30, 2008;
+            class: Signaling Protein;
+            source: Mmdb_id: 77454, Pdb_id 1: 3EQ2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pseudomonas aeruginosa
+  ORGANISM  Pseudomonas aeruginosa
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (residues 1 to 394)
+  AUTHORS   Levchenko,I., Grant,R.A., Sauer,R.T. and Baker,T.A.
+  TITLE     The Structure Of Rssb, A Clpx Adaptor Protein That Regulates Sigma
+            S
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 394)
+  AUTHORS   Levchenko,I., Grant,R.A., Sauer,R.T. and Baker,T.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-SEP-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..394
+                     /organism="Pseudomonas aeruginosa"
+                     /db_xref="taxon:287"
+     Region          1..167
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          5..13
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          9..122
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(12..13,56,64,84,103,106..107)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          15..28
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          29..37
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          39..47
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          51..56
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            56
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(59..60,62..64)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          64..73
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          78..82
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          89..98
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          93..393
+                     /region_name="RsbU"
+                     /note="Serine phosphatase RsbU, regulator of sigma subunit
+                     [Signal transduction mechanisms, Transcription]; COG2208"
+                     /db_xref="CDD:225118"
+     SecStr          101..104
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            106..108
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          113..163
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          168..394
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          171..175
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          176..183
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          191..200
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          200..392
+                     /region_name="SpoIIE"
+                     /note="Stage II sporulation protein E (SpoIIE); pfam07228"
+                     /db_xref="CDD:254114"
+     SecStr          202..212
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          216..234
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          247..260
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          266..277
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          278..287
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          292..297
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          298..303
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          320..325
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          329..336
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          365..373
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          384..390
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+ORIGIN      
+        1 xhkvsatlli idddevvres laayledsnf kvlqalnglq glqifeseqp dlvicdlrxp
+       61 qidglelirr irqtasetpi ivlsgagvxs davealrlga adylikpled lavlehsvrr
+      121 aldraylrve nqryrdklea anrelqasln llqedqnagr qvqxnxlpvt pwsieglefs
+      181 hriipslyls gdfvdyfrvd errvafylad vsghgassaf vtvllkfxtt rllyesrrng
+      241 tlpefkpsev lahinrglin tklgkhvtxl ggvidlekns ltysigghlp lpvlfvegqa
+      301 gylegrglpv glfddatydd rvxelppsfs lslfsdgild vlpgatlkek easlpeqvaa
+      361 aggtldglrq vfglanlaex pddiallvls rnla
+//
+

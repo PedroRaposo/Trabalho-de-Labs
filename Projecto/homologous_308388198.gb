@@ -1,0 +1,123 @@
+LOCUS       3OYR_A                   345 aa            linear   BCT 08-MAY-2013
+DEFINITION  Chain A, Crystal Structure Of Polyprenyl Synthase From Caulobacter
+            Crescentus Cb15 Complexed With Calcium And Isoprenyl Diphosphate.
+ACCESSION   3OYR_A
+VERSION     3OYR_A  GI:308388198
+DBSOURCE    pdb: molecule 3OYR, chain 65, release May 8, 2013;
+            deposition: Sep 23, 2010;
+            class: Transferase;
+            source: Mmdb_id: 85537, Pdb_id 1: 3OYR;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Caulobacter vibrioides (Caulobacter crescentus)
+  ORGANISM  Caulobacter vibrioides
+            Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales;
+            Caulobacteraceae; Caulobacter.
+REFERENCE   1  (residues 1 to 345)
+  AUTHORS   Wallrapp,F.H., Pan,J.J., Ramamoorthy,G., Almonacid,D.E.,
+            Hillerich,B.S., Seidel,R., Patskovsky,Y., Babbitt,P.C., Almo,S.C.,
+            Jacobson,M.P. and Poulter,C.D.
+  TITLE     Prediction of function for the polyprenyl transferase subgroup in
+            the isoprenoid synthase superfamily
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 110 (13), E1196-E1202 (2013)
+   PUBMED   23493556
+REFERENCE   2  (residues 1 to 345)
+  AUTHORS   Patskovsky,Y., Toro,R., Rutter,M., Sauder,J.M., Burley,S.K.,
+            Poult,C.D., Gerlt,J.A., Almo,S.C., New York Sgx Research Center For
+            Structu and Genomics (Nysgxrc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-SEP-2010)
+COMMENT     1 Trans-isoprenyl Diphosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..345
+                     /organism="Caulobacter vibrioides"
+                     /db_xref="taxon:155892"
+     SecStr          26..33
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          34..46
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          48..343
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          53..63
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          69..80
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          87..104
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(97,100..102,104..106,108..109,114..115,167,170,
+                     191..192,195,232..233,236,246,251,256)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            100..109
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(105..106,109,114..115,170,191,232..233,236,246,251,
+                     256)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(105..106,109,114..115,191,232..233)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(105..106,109,114..115,170,191)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(111..125,239..240,246..251,254..258)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          126..146
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          150..173
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          181..191
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          194..207
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          211..235
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(232..233,236,246,251,256)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          259..267
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          273..281
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          292..300
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          301..319
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          328..341
+                     /sec_str_type="helix"
+                     /note="helix 15"
+ORIGIN      
+        1 mahhhhhhsl daaaatlprk sgsvdrlvrl aeadmagvnr litdrmqsdv aiipalaehl
+       61 iaaggkrlrp lmtvaaarla gadndhfqkl aaavefihta tllhddvvdg sqlrrgkvaa
+      121 hliwggaqsv lvgdflfara felmvetnsm kaleilaras rviaegevlq lmrshdlnls
+      181 qavyleiiqa ktaelfaaas eagavsagvd vaksealrdy glnlglafql addaldygga
+      241 tetlgknagd dfregkatlp lllaiarsgp reaefwerai grreqteadf rrareliigs
+      301 galdatldla adyadkakaa lamfpandwr ealeeladfa vsrra
+//
+

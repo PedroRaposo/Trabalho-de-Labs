@@ -1,0 +1,136 @@
+LOCUS       2ONK_A                   240 aa            linear   BCT 26-NOV-2012
+DEFINITION  Chain A, Abc Transporter Modbc In Complex With Its Binding Protein
+            Moda.
+ACCESSION   2ONK_A
+VERSION     2ONK_A  GI:134105243
+DBSOURCE    pdb: molecule 2ONK, chain 65, release Nov 16, 2012;
+            deposition: Jan 24, 2007;
+            class: Membrane Protein;
+            source: Mmdb_id: 44742, Pdb_id 1: 2ONK;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Archaeoglobus fulgidus
+  ORGANISM  Archaeoglobus fulgidus
+            Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales;
+            Archaeoglobaceae; Archaeoglobus.
+REFERENCE   1  (residues 1 to 240)
+  AUTHORS   Hollenstein,K., Frei,D.C. and Locher,K.P.
+  TITLE     Structure of an ABC transporter in complex with its binding protein
+  JOURNAL   Nature 446 (7132), 213-216 (2007)
+   PUBMED   17322901
+REFERENCE   2  (residues 1 to 240)
+  AUTHORS   Hollenstein,K., Frei,D.C. and Locher,K.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JAN-2007)
+COMMENT     1 Molybdate/tungstate Abc Transporter, Atp-binding Protein.
+FEATURES             Location/Qualifiers
+     source          1..240
+                     /organism="Archaeoglobus fulgidus"
+                     /db_xref="taxon:2234"
+     Region          1..228
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          2..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          3..231
+                     /region_name="ABC_ModC_like"
+                     /note="ATP-binding cassette domain similar to the
+                     molybdate transporter; cd03299"
+                     /db_xref="CDD:213266"
+     Region          7..232
+                     /region_name="3a0106s01"
+                     /note="sulfate ABC transporter, ATP-binding protein;
+                     TIGR00968"
+                     /db_xref="CDD:130041"
+     SecStr          13..23
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          25..31
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            31..38
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213266"
+     Site            order(34..35,37..39,77,151..152,185)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213266"
+     SecStr          37..45
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             bond(38)
+                     /heterogen="( MG,1006 )"
+     SecStr          51..58
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          59..63
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          71..77
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            74..77
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213266"
+     SecStr          86..93
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          100..114
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            127..136
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213266"
+     SecStr          129..141
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          146..152
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            147..152
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213266"
+     Site            155..158
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213266"
+     SecStr          160..176
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          179..185
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            181..187
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213266"
+     SecStr          186..194
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          195..202
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          203..210
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          211..218
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          220..227
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          229..238
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 mflkvraekr lgnfrlnvdf emgrdycvll gptgagksvf leliagivkp drgevrlnga
+       61 ditplpperr gigfvpqdya lfphlsvyrn iayglrnver verdrrvrem aeklgiahll
+      121 drkparlsgg erqrvalara lviqprllll deplsavdlk tkgvlmeelr fvqrefdvpi
+      181 lhvthdliea amladevavm lngrivekgk lkelfsakng evaeflsarn lllkvskild
+//
+

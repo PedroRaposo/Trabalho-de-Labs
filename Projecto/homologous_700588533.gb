@@ -1,0 +1,187 @@
+LOCUS       4W7S_A                   463 aa            linear   PLN 26-NOV-2014
+DEFINITION  Chain A, Crystal Structure Of The Yeast Dead-box Splicing Factor
+            Prp28 At 2.54 Angstroms Resolution.
+ACCESSION   4W7S_A
+VERSION     4W7S_A  GI:700588533
+DBSOURCE    pdb: molecule 4W7S, chain 65, release Nov 26, 2014;
+            deposition: Aug 22, 2014;
+            class: Hydrolase;
+            source: Mmdb_id: 124409, Pdb_id 1: 4W7S;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae S288c
+  ORGANISM  Saccharomyces cerevisiae S288c
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+            Saccharomyces.
+REFERENCE   1  (residues 1 to 463)
+  AUTHORS   Jacewicz,A., Schwer,B., Smith,P. and Shuman,S.
+  TITLE     Crystal structure, mutational analysis and RNA-dependent ATPase
+            activity of the yeast DEAD-box pre-mRNA splicing factor Prp28
+  JOURNAL   Nucleic Acids Res. 42 (20), 12885-12898 (2014)
+   PUBMED   25303995
+REFERENCE   2  (residues 1 to 463)
+  AUTHORS   Jacewicz,A., Smith,P., Schwer,B. and Shuman,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2014)
+COMMENT     1 Pre-mrna-splicing Atp-dependent Rna Helicase Prp28.
+FEATURES             Location/Qualifiers
+     source          1..463
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /db_xref="taxon:559292"
+     Region          1..281
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          23..33
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          34..39
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          49..273
+                     /region_name="DEADc"
+                     /note="DEAD-box helicases. A diverse family of proteins
+                     involved in ATP-dependent RNA unwinding, needed in a
+                     variety of cellular processes including splicing, ribosome
+                     biogenesis and RNA degradation. The name derives from the
+                     sequence of the Walker B motif...; cd00268"
+                     /db_xref="CDD:238167"
+     SecStr          57..64
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          64..289
+                     /region_name="DEXDc"
+                     /note="DEAD-like helicases superfamily; smart00487"
+                     /db_xref="CDD:214692"
+     SecStr          73..80
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          90..96
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            99..103
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238167"
+     SecStr          107..115
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          121..129
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          131..136
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          139..159
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          165..170
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          175..182
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          187..192
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          194..202
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          211..217
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            216..219
+                     /site_type="other"
+                     /note="Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238167"
+     SecStr          218..225
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          227..240
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          247..254
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            253..255
+                     /site_type="other"
+                     /note="motif III"
+                     /db_xref="CDD:238167"
+     SecStr          258..267
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          271..277
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          282..463
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Region          284..415
+                     /region_name="HELICc"
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast
+                     initiation factor 4A, Ski2p, and Hepatitis C virus NS3
+                     helicases; this domain is found in a wide variety of
+                     helicases and helicase related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+     SecStr          285..293
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          296..309
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          313..319
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            order(319..322,343..344,369..371)
+                     /site_type="other"
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          321..334
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          338..343
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          348..360
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          364..370
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            order(377,398,402,405)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          382..387
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          393..400
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          403..406
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          407..417
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          422..434
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          440..444
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          445..452
+                     /sec_str_type="helix"
+                     /note="helix 17"
+ORIGIN      
+        1 snaaessyxg khwtekslhe xnerdwrilk edyaivtkgg tvenplrnwe elniiprdll
+       61 rviiqelrfp sptpiqriti pnvcnxkqyr dflgvastgs gktlafvipi likxsrsppr
+      121 ppslkiidgp kalilaptre lvqqiqketq kvtkiwskes nydckvisiv gghsleeisf
+      181 slsegcdilv atpgrlidsl enhllvxkqv etlvldeadk xidlgfedqv tniltkvdin
+      241 adsavnrqtl xftatxtpvi ekiaagyxqk pvyatigvet gsepliqqvv eyadndedkf
+      301 kklkpivaky dppiiifiny kqtadwlaek fqketnxkvt ilhgsksqeq rehslqlfrt
+      361 nkvqixiatn vaargldipn vslvvnfqis kkxddyihri grtgraaneg tavsfvsaae
+      421 deslirelyk yvrkhdplns nifseavknk ynvgkqlsne iiy
+//
+

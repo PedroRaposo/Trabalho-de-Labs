@@ -1,0 +1,92 @@
+LOCUS       2FTK_E                   124 aa            linear   BCT 09-OCT-2012
+DEFINITION  Chain E, Berylloflouride Spo0f Complex With Spo0b.
+ACCESSION   2FTK_E
+VERSION     2FTK_E  GI:112490624
+DBSOURCE    pdb: molecule 2FTK, chain 69, release Oct 6, 2012;
+            deposition: Jan 24, 2006;
+            class: Transferase;
+            source: Mmdb_id: 40409, Pdb_id 1: 2FTK;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 124)
+  AUTHORS   Varughese,K.I., Tsigelny,I. and Zhao,H.
+  TITLE     The crystal structure of beryllofluoride Spo0F in complex with the
+            phosphotransferase Spo0B represents a phosphotransfer pretransition
+            state
+  JOURNAL   J. Bacteriol. 188 (13), 4970-4977 (2006)
+   PUBMED   16788205
+  REMARK    Erratum:[J Bacteriol. 2007 Apr;189(8):3328]
+REFERENCE   2  (residues 1 to 124)
+  AUTHORS   Varughese,K.I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JAN-2006)
+COMMENT     2 Sporulation Initiation Phosphotransferase F.
+FEATURES             Location/Qualifiers
+     source          1..124
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     SecStr          4..11
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     Region          7..119
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(10..11,54,62,82,101,104..105)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     Het             join(bond(11),bond(11),bond(54),bond(54),bond(56))
+                     /heterogen="( MG,1000 )"
+     SecStr          13..26
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          28..35
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          36..45
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          49..55
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     Site            54
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(57..58,60..62)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          62..72
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          77..83
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          87..96
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          99..104
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     Site            104..106
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          108..118
+                     /sec_str_type="helix"
+                     /note="helix 23"
+ORIGIN      
+        1 mmnekilivd dqsgirilln evfnkegyqt fqaanglqal divtkerpdl vllxmkipgm
+       61 dgieilkrmk videnirvii mtaygeldmi qeskelgalt hfakpfdide irdavkkylp
+      121 lksn
+//
+

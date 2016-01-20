@@ -1,0 +1,132 @@
+LOCUS       1MT0_A                   241 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Atp-Binding Domain Of Haemolysin B From Escherichia Coli.
+ACCESSION   1MT0_A
+VERSION     1MT0_A  GI:33357348
+DBSOURCE    pdb: molecule 1MT0, chain 65, release Sep 4, 2012;
+            deposition: Sep 20, 2002;
+            class: Transport Protein;
+            source: Mmdb_id: 23402, Pdb_id 1: 1MT0;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 241)
+  AUTHORS   Schmitt,L., Benabdelhak,H., Blight,M.A., Holland,I.B. and
+            Stubbs,M.T.
+  TITLE     Crystal structure of the nucleotide-binding domain of the
+            ABC-transporter haemolysin B: identification of a variable region
+            within ABC helical domains
+  JOURNAL   J. Mol. Biol. 330 (2), 333-342 (2003)
+   PUBMED   12823972
+REFERENCE   2  (residues 1 to 241)
+  AUTHORS   Schmitt,L., Benabdelhak,H., Blight,M.A., Holland,I.B. and
+            Stubbs,M.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-SEP-2002)
+COMMENT     1 Haemolysin Secretion Atp-binding Protein.
+FEATURES             Location/Qualifiers
+     source          1..241
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     SecStr          1..6
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..239
+                     /region_name="ABCC_Hemolysin"
+                     /note="ATP-binding cassette domain of hemolysin B,
+                     subfamily C; cd03252"
+                     /db_xref="CDD:213219"
+     Region          2..230
+                     /region_name="GlnQ"
+                     /note="ABC-type polar amino acid transport system, ATPase
+                     component [Amino acid transport and metabolism]; COG1126"
+                     /db_xref="CDD:224051"
+     SecStr          7..10
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          18..27
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          29..37
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            36..43
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213219"
+     Site            order(39..40,42..44,84,164..165,196)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213219"
+     SecStr          44..51
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          56..63
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          64..67
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          71..78
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          79..84
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            81..84
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213219"
+     SecStr          92..99
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          106..116
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            140..149
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213219"
+     SecStr          142..154
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          159..165
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            160..165
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213219"
+     Site            168..171
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213219"
+     SecStr          172..179
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          189..195
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            192..198
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213219"
+     SecStr          205..212
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          213..220
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          231..240
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 ditfrnirfr ykpdspvild ninlsikqge vigivgrsgs gkstltkliq rfyipengqv
+       61 lidghdlala dpnwlrrqvg vvlqdnvlln rsiidnisla npgmsvekvi yaaklagahd
+      121 fiselregyn tivgeqgagl sggqrqriai aralvnnpki lifdeatsal dyesehvimr
+      181 nmhkickgrt viiiahrlst vknadriivm ekgkiveqgk hkellsepes lysylyqlqs
+      241 d
+//
+

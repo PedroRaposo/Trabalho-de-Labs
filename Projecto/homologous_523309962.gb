@@ -1,0 +1,125 @@
+LOCUS       4LFE_A                   290 aa            linear   BCT 10-JUL-2013
+DEFINITION  Chain A, Crystal Structure Of Geranylgeranyl Diphosphate Synthase
+            Sub1274 (target Efi-509455) From Streptococcus Uberis 0140j With
+            Bound Magnesium And Isopentyl Diphosphate, Partially Liganded
+            Complex.
+ACCESSION   4LFE_A
+VERSION     4LFE_A  GI:523309962
+DBSOURCE    pdb: molecule 4LFE, chain 65, release Jul 10, 2013;
+            deposition: Jun 26, 2013;
+            class: Transferase;
+            source: Mmdb_id: 111716, Pdb_id 1: 4LFE;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptococcus uberis 0140J
+  ORGANISM  Streptococcus uberis 0140J
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+            Streptococcus.
+REFERENCE   1  (residues 1 to 290)
+  AUTHORS   Patskovsky,Y., Toro,R., Bhosle,R., Hillerich,B., Seidel,R.D.,
+            Washington,E., Scott Glenn,A., Chowdhury,S., Evans,B., Ha,J.,
+            Imker,H.J., Al Obaidi,N., Stead,M., Love,J., Poulter,C.D., J,J. and
+            Almo,S.C.
+  TITLE     Crystal Structure Of Geranylgeranyl Diphosphate Syn From
+            Streptococcus Uberis 0140j
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 290)
+  AUTHORS   Patskovsky,Y., Toro,R., Bhosle,R., Hillerich,B., Seidel,R.D.,
+            Washin,E., Scott Glenn,A., Chowdhury,S., Evans,B., Hammonds,J.,
+            Imker,H.J., Al,N., Stead,M., Love,J., Poulter,C.D., Gerlt,J.A.,
+            Almo,S.C., Enzyme Functi and Initiative (Efi).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUN-2013)
+COMMENT     1 Geranylgeranyl Diphosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..290
+                     /organism="Streptococcus uberis 0140J"
+                     /db_xref="taxon:218495"
+     Region          1..124
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          4..17
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          24..273
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          24..35
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          41..53
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          59..80
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(71,74..76,78..80,84..85,90..91,150,153,173..174,177,
+                     214..215,218,228,233,238)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            order(74..81,84..85)
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(79..80,85,90..91,153,173,214..215,218,228,233,238)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(79..80,85,90..91,173,214..215)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(79..80,85,90..91,153,173)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Het             join(bond(79),bond(85))
+                     /heterogen="( MG,1001 )"
+     Het             join(bond(79),bond(85))
+                     /heterogen="( MG,1002 )"
+     Site            order(87..101,221..222,228..233,236..240)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          102..121
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          125..290
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          127..141
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          146..156
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          163..173
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          180..189
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          193..220
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(214..215,218,228,233,238)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          247..271
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          277..286
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 smdklkkidq tihafyceka viseklneav lysinaggkr irpilflevi ealqipltes
+       61 hfkaaaalem ihtgslihdd lpamdnddyr rgqltnhkkf deatailagd slfldafgml
+      121 aetdfptdvt vdlvrslssa sgtfgmvggq mldmaaegkk lnlknlqlih rhktgqllay
+      181 pfwaaarvaq ldenllatfl eigmiiglaf qvrddildit anfeeigktp kkdvmaekmt
+      241 yphllglnes yqildesldq aeailrklsd eiafapqkil slierlrlda
+//
+

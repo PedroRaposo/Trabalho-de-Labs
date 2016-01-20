@@ -1,0 +1,116 @@
+LOCUS       5F9M_A                   344 aa            linear   BCT 30-DEC-2015
+DEFINITION  Chain A, Crystal Structure Of Native B3275, Member Of Mccf Family
+            Of Enzymes.
+ACCESSION   5F9M_A
+VERSION     5F9M_A  GI:970842259
+DBSOURCE    pdb: molecule 5F9M, chain 65, release Dec 30, 2015;
+            deposition: Dec 9, 2015;
+            class: Hydrolase;
+            source: Mmdb_id: 135228, Pdb_id 1: 5F9M;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus cereus ATCC 10987
+  ORGANISM  Bacillus cereus ATCC 10987
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+            Bacillus cereus group.
+REFERENCE   1  (residues 1 to 344)
+  AUTHORS   Nocek,B., Severinov,K. and Joachimiak,A.
+  TITLE     Crystal Structure Of Native B3275, Member Of Mccf F Enzymes
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 344)
+  AUTHORS   Nocek,B., Severinov,K., Joachimiak,A., Center For Structural Genom
+            and Infectious Diseases (Csgid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2015)
+COMMENT     1 Mccc Family Protein.
+FEATURES             Location/Qualifiers
+     source          1..344
+                     /organism="Bacillus cereus ATCC 10987"
+                     /db_xref="taxon:222523"
+     Region          1..143
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          12..19
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          31..43
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          46..52
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          66..78
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          83..88
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          103..110
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          111..116
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          120..129
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          133..136
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          144..198
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          151..160
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          174..177
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          194..197
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          199..344
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          200..204
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          207..212
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          213..217
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          237..244
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          252..265
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          270..277
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          285..299
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          305..309
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          320..323
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          325..332
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          333..339
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+ORIGIN      
+        1 amlikpkrlq pgdivatvsp swggagdsei rwryeqgvkr leevfgltvv pmpnslkgse
+       61 fiynnpqara edlmtafqdt rvkaiianig gqdsirllpy idfnairenp kifmgyadvt
+      121 ishlfchkag lssfygpail tdfaenvemd pytvemvnrt lfsnemigei qpapewtser
+      181 lewieinkdt rrtmqqnngy ellqgsttvq grliggciev lefakgtelw pekkhwedsi
+      241 lffetsedhp epsyikywlr nyaaqgilqk akgiifgkpk demyyeeykh eilqvmkehn
+      301 ledlpilynl nfghtepkfi lpygsmaeid cengsfsile sgve
+//
+

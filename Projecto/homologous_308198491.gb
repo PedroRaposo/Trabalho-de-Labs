@@ -1,0 +1,116 @@
+LOCUS       3K8W_A                   326 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crysatl Structure Of A Bacterial Cell-Surface Flagellin
+            N20c45.
+ACCESSION   3K8W_A
+VERSION     3K8W_A  GI:308198491
+DBSOURCE    pdb: molecule 3K8W, chain 65, release Oct 6, 2010;
+            deposition: Oct 15, 2009;
+            class: Structural Protein;
+            source: Mmdb_id: 85315, Pdb_id 1: 3K8W;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Sphingomonas sp. A1
+  ORGANISM  Sphingomonas sp. A1
+            Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales;
+            Sphingomonadaceae; Sphingomonas.
+REFERENCE   1  (residues 1 to 326)
+  AUTHORS   Maruyama,Y., Momma,M., Mikami,B., Hashimoto,W. and Murata,K.
+  TITLE     Crystal Structure Of N- And C-Terminal Regions Of F
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 326)
+  AUTHORS   Maruyama,Y., Momma,M., Hashimoto,W. and Murata,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-OCT-2009)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..326
+                     /organism="Sphingomonas sp. A1"
+                     /db_xref="taxon:90322"
+     Region          join(1..147,266..326)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..122
+                     /region_name="Flagellin_N"
+                     /note="Bacterial flagellin N-terminal helical region;
+                     pfam00669"
+                     /db_xref="CDD:250043"
+     SecStr          27..71
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          72..79
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          86..109
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          110..113
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          114..117
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          122..129
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          135..142
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          148..265
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          152..157
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          158..163
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          170..175
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          177..181
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          182..185
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          186..191
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          194..206
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          214..221
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          222..230
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          233..238
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          240..243
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          246..252
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          254..261
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          270..318
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          277..>319
+                     /region_name="Flagellin_C"
+                     /note="Bacterial flagellin C-terminal helical region;
+                     pfam00700"
+                     /db_xref="CDD:144340"
+ORIGIN      
+        1 tqnslstslq rlssglrins akddaaglai sdrmtaqikg ltqaqrnand gislaqtaeg
+       61 algeisnnlq rirelavqas ngtntqtdrd alqaevtqlq seiqrvaeqt sfngqklldg
+      121 sfngvqfqig anagetigvs kimnaqtasl ggsltrttst idatdltkyd tamaagdlti
+      181 ngvdvgkida astaqeraaq lteainrvss qtnvgasydk ttgqvtltsn aaiavagaan
+      241 datvagwann attgtatttt ginsltvssf tnaqqtitqi dnalkdinta radlgavqnr
+      301 ftstvanlqs mtenlssale hhhhhh
+//
+

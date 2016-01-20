@@ -1,0 +1,123 @@
+LOCUS       1NZJ_A                   298 aa            linear   BCT 31-OCT-2012
+DEFINITION  Chain A, Crystal Structure And Activity Studies Of Escherichia Coli
+            Yadb Orf.
+ACCESSION   1NZJ_A
+VERSION     1NZJ_A  GI:48425079
+DBSOURCE    pdb: molecule 1NZJ, chain 65, release Oct 25, 2012;
+            deposition: Feb 18, 2003;
+            class: Structural Genomics, Unknown Function;
+            source: Mmdb_id: 27212, Pdb_id 1: 1NZJ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 298)
+  AUTHORS   Campanacci,V., Dubois,D.Y., Becker,H.D., Kern,D., Spinelli,S.,
+            Valencia,C., Pagot,F., Salomoni,A., Grisel,S., Vincentelli,R.,
+            Bignon,C., Lapointe,J., Giege,R. and Cambillau,C.
+  TITLE     The Escherichia coli YadB gene product reveals a novel
+            aminoacyl-tRNA synthetase like activity
+  JOURNAL   J. Mol. Biol. 337 (2), 273-283 (2004)
+   PUBMED   15003446
+REFERENCE   2  (residues 1 to 298)
+  AUTHORS   Campanacci,V., Kern,D.Y., Becker,H.D., Spinelli,S., Valencia,C.,
+            Vincentelli,R., Pagot,F., Bignon,C., Giege,R. and Cambillau,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-FEB-2003)
+COMMENT     1 Hypothetical Protein Yadb.
+FEATURES             Location/Qualifiers
+     source          1..298
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..80,232..298)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..293
+                     /region_name="PRK05710"
+                     /note="glutamyl-Q tRNA(Asp) synthetase; Reviewed"
+                     /db_xref="CDD:235573"
+     SecStr          6..14
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          9..273
+                     /region_name="tRNA-synt_1c"
+                     /note="tRNA synthetases class I (E and Q), catalytic
+                     domain; pfam00749"
+                     /db_xref="CDD:250104"
+     Site            order(19,22,231)
+                     /site_type="other"
+                     /note="nucleotide binding site [chemical binding]"
+                     /db_xref="CDD:173912"
+     Site            19..22
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173912"
+     SecStr          20..36
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          38..46
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          56..67
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          75..79
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          81..231
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          82..95
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          97..102
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Het             join(bond(101),bond(103),bond(115),bond(119))
+                     /heterogen="( ZN,1000 )"
+     SecStr          105..112
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          129..134
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          140..145
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          147..152
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          161..166
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          168..171
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          172..183
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          186..191
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          198..208
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          213..218
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          244..254
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          267..277
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 mtdtqyigrf apspsgelhf gsliaalgsy lqararqgrw lvriedidpp revpgaaeti
+       61 lrqlehyglh wdgdvlwqsq rhdayreala wlheqglsyy ctctrariqs iggiydghcr
+      121 vlhhgpdnaa vrirqqhpvt qftdqlrgii hadeklared fiihrrdglf aynlavvvdd
+      181 hfqgvteivr gadlieptvr qislyqlfgw kvpdyihlpl alnpqgakls kqnhapalpk
+      241 gdprpvliaa lqflgqqaea hwqdfsveqi lqsavknwrl tavpesaivn stfsnasc
+//
+

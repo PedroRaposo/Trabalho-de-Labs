@@ -1,0 +1,191 @@
+LOCUS       1WYD_A                   429 aa            linear   BCT 27-DEC-2012
+DEFINITION  Chain A, Crystal Structure Of Aspartyl-Trna Synthetase From
+            Sulfolobus Tokodaii.
+ACCESSION   1WYD_A
+VERSION     1WYD_A  GI:110590680
+DBSOURCE    pdb: molecule 1WYD, chain 65, release Dec 7, 2012;
+            deposition: Feb 12, 2005;
+            class: Ligase;
+            source: Mmdb_id: 39512, Pdb_id 1: 1WYD;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Sulfolobus tokodaii str. 7
+  ORGANISM  Sulfolobus tokodaii str. 7
+            Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+            Sulfolobus.
+REFERENCE   1  (residues 1 to 429)
+  AUTHORS   Sato,Y., Maeda,Y., Shimizu,S., Hossain,M.T., Ubukata,S., Suzuki,K.,
+            Sekiguchi,T. and Takenaka,A.
+  TITLE     Structure of the nondiscriminating aspartyl-tRNA synthetase from
+            the crenarchaeon Sulfolobus tokodaii strain 7 reveals the
+            recognition mechanism for two different tRNA anticodons
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 63 (PT 10), 1042-1047 (2007)
+   PUBMED   17881821
+REFERENCE   2  (residues 1 to 429)
+  AUTHORS   Maeda,Y., Hossain,M.T., Ubukata,S., Suzuki,K., Sekiguchi,T. and
+            Takenak,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-FEB-2005)
+COMMENT     1 Hypothetical Aspartyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..429
+                     /organism="Sulfolobus tokodaii str. 7"
+                     /strain="7"
+                     /db_xref="taxon:273063"
+     Region          1..429
+                     /region_name="aspC"
+                     /note="aspartyl-tRNA synthetase; Provisional; PRK05159"
+                     /db_xref="CDD:235354"
+     Region          1..104
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          5..109
+                     /region_name="ND_PkAspRS_like_N"
+                     /note="ND_PkAspRS_like_N: N-terminal, anticodon
+                     recognition domain of the type found in the homodimeric
+                     non-discriminating (ND) Pyrococcus kodakaraensis
+                     aspartyl-tRNA synthetase (AspRS). This domain is a
+                     beta-barrel domain (OB fold) involved in binding the...;
+                     cd04316"
+                     /db_xref="CDD:239811"
+     Site            order(6,24,42,66,68,96,98..99,101,103)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239811"
+     SecStr          17..22
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          23..27
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(27,29..30,36,47,49,64,78,86)
+                     /site_type="other"
+                     /note="putative anticodon binding site"
+                     /db_xref="CDD:239811"
+     SecStr          28..32
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          33..42
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          43..51
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          66..70
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          71..75
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          84..89
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          90..95
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Region          111..425
+                     /region_name="AsxRS_core"
+                     /note="Asx tRNA synthetase (AspRS/AsnRS) class II core
+                     domain. Assignment to class II aminoacyl-tRNA synthetases
+                     (aaRS) based upon its structure and the presence of three
+                     characteristic sequence motifs in the core domain. This
+                     family includes AsnRS as well as...; cd00776"
+                     /db_xref="CDD:238399"
+     SecStr          113..121
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(120,122,126,131,137..138,141,145,152,155,157,
+                     159..161,163,174..175,177..179,191,194,197..200,221..222,
+                     231..232,237,385,388..391,422..424)
+                     /site_type="other"
+                     /note="homodimer interface [polypeptide binding]"
+                     /db_xref="CDD:238399"
+     Region          125..429
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          128..151
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          153..156
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            159..163
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238399"
+     SecStr          160..163
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          173..178
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          179..185
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          189..198
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          200..210
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            209..212
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238399"
+     Site            order(210,212,218..219,352,355,400,403)
+                     /site_type="active"
+                     /db_xref="CDD:238399"
+     SecStr          221..232
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          235..255
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          257..265
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          276..280
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          281..290
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          302..312
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          315..323
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          340..344
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          345..349
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          350..359
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          363..373
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          393..400
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     Site            400..403
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238399"
+     SecStr          401..408
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 myrshfiadv tpeydgkevi wagwvhllrd lggkkfiilr dktglgqvvv dknssafgis
+       61 qeltqesviq vrgivkadkr aprgielhae eitllskaka plpldvsgkv kadidtrlre
+      121 rvldlrrqem qavikiqsla lkafretlyk egfieiftpk iiasategga qlfpviyfgk
+      181 eaflaqspql ykelmagvve rvfevapawr aeesdtpfhl aefismdvem afadyndvmq
+      241 llekilhniv ktikeegkee lkilnyeppe vkipikrlky teaieilrsk gynikfgddi
+      301 gtpelrilne elkedlyfiv dwpsdarpfy tksksenpel sesfdliykf leivsgstrn
+      361 hkrevleeal kkkglkpesf efflkwfdyg mpphagfgmg larlmvmltg iqsvkeivpf
+      421 prdkkrltp
+//
+

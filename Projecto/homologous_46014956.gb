@@ -1,0 +1,95 @@
+LOCUS       1NXT_A                   120 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Micarec Ph 4.0.
+ACCESSION   1NXT_A
+VERSION     1NXT_A  GI:46014956
+DBSOURCE    pdb: molecule 1NXT, chain 65, release Jan 4, 2013;
+            deposition: Feb 11, 2003;
+            class: Signaling Protein;
+            source: Mmdb_id: 26347, Pdb_id 1: 1NXT;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptococcus pneumoniae TIGR4
+  ORGANISM  Streptococcus pneumoniae TIGR4
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+            Streptococcus.
+REFERENCE   1  (residues 1 to 120)
+  AUTHORS   Bent,C.J., Isaacs,N.W., Mitchell,T.J. and Riboldi-Tunnicliffe,A.
+  TITLE     Crystal structure of the response regulator 02 receiver domain, the
+            essential YycF two-component system of Streptococcus pneumoniae in
+            both complexed and native states
+  JOURNAL   J. Bacteriol. 186 (9), 2872-2879 (2004)
+   PUBMED   15090529
+REFERENCE   2  (residues 1 to 120)
+  AUTHORS   Bent,C.J., Isaacs,N.W., Mitchell,T.J. and Riboldi-Tunnicliffe,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-FEB-2003)
+COMMENT     1 Dna-binding Response Regulator.
+FEATURES             Location/Qualifiers
+     source          1..120
+                     /organism="Streptococcus pneumoniae TIGR4"
+                     /db_xref="taxon:170187"
+     Region          2..>120
+                     /region_name="OmpR"
+                     /note="DNA-binding response regulator, OmpR family,
+                     contains REC and winged-helix (wHTH) domain [Signal
+                     transduction mechanisms, Transcription]; COG0745"
+                     /db_xref="CDD:223816"
+     SecStr          2..9
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..116
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(8..9,52,60,79,98,101..102)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          11..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..33
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          34..44
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          47..53
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            52
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(55..56,58..60)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          60..68
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          73..80
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          84..93
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          96..101
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            101..103
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          105..117
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 mkkilivdde kpisdiikfn mtkegyevvt afngrealeq feaeqpdiii lxlmlpeidg
+       61 levaktirkt ssvpilmlsa kdsefdkvig lelgaddyvt kpfsnrelqa rvkallrrsq
+//
+

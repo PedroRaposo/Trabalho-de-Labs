@@ -1,0 +1,115 @@
+LOCUS       5F5X_A                   346 aa            linear   BCT 20-JAN-2016
+DEFINITION  Chain A, Crystal Structure Of S116a Ba3275 With Amp Bound.
+ACCESSION   5F5X_A
+VERSION     5F5X_A  GI:970842250
+DBSOURCE    pdb: molecule 5F5X, chain 65, release Jan 20, 2016;
+            deposition: Dec 4, 2015;
+            class: Hydrolase;
+            source: Mmdb_id: 135224, Pdb_id 1: 5F5X;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus cereus ATCC 10987
+  ORGANISM  Bacillus cereus ATCC 10987
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+            Bacillus cereus group.
+REFERENCE   1  (residues 1 to 346)
+  AUTHORS   Nocek,B., Severinov,K. and Joachimiak,A.
+  TITLE     Crystal Structure Of Ba3275-Amp Complex From Bacill Atcc 10987
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 346)
+  AUTHORS   Nocek,B., Severinov,K., Joachimiak,A., Center For Structural Genom
+            and Infectious Diseases (Csgid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-DEC-2015)
+COMMENT     1 Mccc Family Protein Ba3275.
+FEATURES             Location/Qualifiers
+     source          1..346
+                     /organism="Bacillus cereus ATCC 10987"
+                     /db_xref="taxon:222523"
+     Region          1..145
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          14..21
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          33..45
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          48..54
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          68..80
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          85..90
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          105..112
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..118
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          122..131
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          135..138
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          146..200
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          153..162
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          176..179
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          196..199
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          201..346
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          202..206
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          209..214
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          215..219
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          239..246
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          255..267
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          272..279
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          287..301
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          307..311
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          322..326
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          327..334
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          335..341
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+ORIGIN      
+        1 snaxlikpkr lqagdivatv spswggagds eirwryeqgv krleevfglt vvpxpnslkg
+       61 sefiynnpqa raedlxtafq dtrvkaiian iggqdsirll pyidfnaire npkifxgyad
+      121 vtishlfchk aglssfygpa iltdfaenve xdpytvexvn rtlfsnexig eiqpapewts
+      181 erlewieink dtrrtxqqnn gyellqgstt vqgrliggci evlefakgte lwpekkhwed
+      241 silffetsed hpepsyikyw lrnyaaqgil qkakgiifgk pkdexyyeey kheilqvxke
+      301 hnledlpily nlnfghtepk filpygsxae idcengsfsi lesgve
+//
+

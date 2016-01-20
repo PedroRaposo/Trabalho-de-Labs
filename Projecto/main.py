@@ -46,7 +46,7 @@ if __name__ == '__main__':
     #print CDS tofile
     #data.CDStoFile()
     #make blast
-    data.makeBlast()
+    #data.makeBlastAll()
     
     
 

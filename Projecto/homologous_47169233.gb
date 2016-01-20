@@ -1,0 +1,191 @@
+LOCUS       1UDX_A                   416 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The Conserved Protein Tt1381 From
+            Thermus Thermophilus Hb8.
+ACCESSION   1UDX_A
+VERSION     1UDX_A  GI:47169233
+DBSOURCE    pdb: molecule 1UDX, chain 65, release Sep 22, 2012;
+            deposition: May 7, 2003;
+            class: Protein Binding;
+            source: Mmdb_id: 27085, Pdb_id 1: 1UDX;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus HB8
+  ORGANISM  Thermus thermophilus HB8
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 416)
+  AUTHORS   Kukimoto-Niino,M., Murayama,K., Inoue,M., Terada,T., Tame,J.R.,
+            Kuramitsu,S., Shirouzu,M. and Yokoyama,S.
+  TITLE     Crystal structure of the GTP-binding protein Obg from Thermus
+            thermophilus HB8
+  JOURNAL   J. Mol. Biol. 337 (3), 761-770 (2004)
+   PUBMED   15019792
+REFERENCE   2  (residues 1 to 416)
+  AUTHORS   Kukimoto-Niino,M., Shirouzu,M., Murayama,K., Inoue,M.,
+            Kuramitsu,S., Yokoyama,S. and Riken Structural GenomicsPROTEOMICS
+            INITIATIVE.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAY-2003)
+COMMENT     1 The Gtp-binding Protein Obg.
+FEATURES             Location/Qualifiers
+     source          1..416
+                     /organism="Thermus thermophilus HB8"
+                     /db_xref="taxon:300852"
+     Region          1..414
+                     /region_name="obgE"
+                     /note="GTPase CgtA; Reviewed; PRK12297"
+                     /db_xref="CDD:237046"
+     Region          1..157
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..156
+                     /region_name="GTP1_OBG"
+                     /note="GTP1/OBG; pfam01018"
+                     /db_xref="CDD:110047"
+     SecStr          4..20
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          32..49
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          62..74
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          75..89
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          90..96
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          101..108
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          110..115
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          116..125
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          137..150
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          151..155
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Region          158..334
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Region          158..323
+                     /region_name="Obg"
+                     /note="Obg GTPase; cd01898"
+                     /db_xref="CDD:206685"
+     SecStr          159..164
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            164..171
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206685"
+     Site            order(167..172,277..278,280,305..306)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206685"
+     SecStr          170..177
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            179..194
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206685"
+     SecStr          182..186
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            191
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206685"
+     SecStr          193..202
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          204..212
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            211..214
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206685"
+     Site            order(214..221,224..236)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206685"
+     SecStr          226..234
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          237..245
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          249..263
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          271..278
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            277..280
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206685"
+     SecStr          284..295
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          300..305
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     Site            305..307
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206685"
+     SecStr          312..325
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          335..416
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          344..412
+                     /region_name="Obg_CgtA_exten"
+                     /note="Obg family GTPase CgtA, C-terminal extension;
+                     TIGR03595"
+                     /db_xref="CDD:274668"
+     SecStr          344..349
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          352..358
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          359..366
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          367..371
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          376..386
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          387..395
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          400..406
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          407..413
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+ORIGIN      
+        1 mfqdvlvitv aagrggdgav sfrrekfvpk ggpdggdggr ggsvylrarg svdslsrlsk
+       61 rtykaedgeh grgsqqhgrg gedlvievpr gtrvfdadtg elladlteeg qtvlvargga
+      121 ggrgnmhfvs ptrqaprfae ageegekrrl rlelmliadv glvgypnagk ssllaamtra
+      181 hpkiapypft tlspnlgvve vseeerftla dipgiiegas egkglglefl rhiartrvll
+      241 yvldaadepl ktletlrkev gaydpallrr pslvalnkvd lleeeavkal adalaregla
+      301 vlpvsaltga glpalkealh alvrstpppe mpkpvprkev qagvevvpva egvyevrape
+      361 verylarikg dlmeaagylq evfrrqgvea alrakgvrag dlvrigglef eyipev
+//
+

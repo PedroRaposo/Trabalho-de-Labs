@@ -1,0 +1,383 @@
+LOCUS       1JDB_B                  1073 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Carbamoyl Phosphate Synthetase From Escherichia Coli.
+ACCESSION   1JDB_B
+VERSION     1JDB_B  GI:3318817
+DBSOURCE    pdb: molecule 1JDB, chain 66, release Sep 4, 2012;
+            deposition: Mar 25, 1997;
+            class: Ligase;
+            source: Mmdb_id: 49770, Pdb_id 1: 1JDB;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 1073)
+  AUTHORS   Thoden,J.B., Holden,H.M., Wesenberg,G., Raushel,F.M. and Rayment,I.
+  TITLE     Structure of carbamoyl phosphate synthetase: a journey of 96 A from
+            substrate to product
+  JOURNAL   Biochemistry 36 (21), 6305-6316 (1997)
+   PUBMED   9174345
+REFERENCE   2  (residues 1 to 1073)
+  AUTHORS   Thoden,J.B., Raushel,F.M., Benning,M.M., Rayment,I. and Holden,H.M.
+  TITLE     The structure of carbamoyl phosphate synthetase determined to 2.1 A
+            resolution
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 55 (PT 1), 8-24 (1999)
+   PUBMED   10089390
+REFERENCE   3  (residues 1 to 1073)
+  AUTHORS   Thoden,J.B., Holden,H.M., Wesenberg,G., Raushel,F.M. and Rayment,I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-1997)
+COMMENT     1 Carbamoyl Phosphate Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..1073
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..118,1059..1073)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..1069
+                     /region_name="carB"
+                     /note="carbamoyl phosphate synthase large subunit;
+                     Reviewed; PRK05294"
+                     /db_xref="CDD:235393"
+     Region          7..122
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:249744"
+     SecStr          8..14
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          25..40
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          42..49
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          62..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          71..81
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Het             join(bond(84),bond(112),bond(114))
+                     /heterogen="(  K,1011 )"
+     SecStr          84..88
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          93..105
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..116
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          join(119..142,212..410)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          120..128
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Het             join(bond(126),bond(127),bond(299),bond(300),bond(301))
+                     /heterogen="(  K,1003 )"
+     Region          128..335
+                     /region_name="CPSase_L_D2"
+                     /note="Carbamoyl-phosphate synthase L chain, ATP binding
+                     domain; pfam02786"
+                     /db_xref="CDD:190425"
+     SecStr          129..139
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          143..211
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Het             join(bond(143),bond(143),bond(144),bond(143),bond(144))
+                     /heterogen="(  K,1010 )"
+     SecStr          145..150
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          152..162
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          165..171
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          178..183
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          185..198
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          203..209
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          213..224
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Het             join(bond(215),bond(236),bond(238),bond(239),bond(242),
+                     bond(247),bond(215),bond(236),bond(238),bond(239))
+                     /heterogen="(  K,1002 )"
+     Het             join(bond(217),bond(244),bond(283),bond(285),bond(285))
+                     /heterogen="(  K,1004 )"
+     SecStr          226..232
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          233..238
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          247..251
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          258..275
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          279..291
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Het             join(bond(285),bond(299))
+                     /heterogen="( MN,1001 )"
+     SecStr          292..303
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Het             join(bond(299),bond(299),bond(299),bond(301))
+                     /heterogen="( MN,1000 )"
+     SecStr          306..315
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          319..328
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          354..362
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          381..389
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          391..401
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Region          411..522
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          420..430
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          424..547
+                     /region_name="CPSase_L_D3"
+                     /note="Carbamoyl-phosphate synthetase large chain,
+                     oligomerisation domain; smart01096"
+                     /db_xref="CDD:198164"
+     SecStr          436..445
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          449..456
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          461..479
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          486..495
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          499..506
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          510..520
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     Region          523..662
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          524..529
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          541..547
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Region          560..668
+                     /region_name="CPSase_L_chain"
+                     /note="Carbamoyl-phosphate synthase L chain, N-terminal
+                     domain; pfam00289"
+                     /db_xref="CDD:249744"
+     SecStr          560..566
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          577..592
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          594..601
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          614..619
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          623..633
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          636..640
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          650..658
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     Region          join(663..688,757..938)
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          666..674
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     Region          674..876
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; cl17255"
+                     /db_xref="CDD:276202"
+     SecStr          675..685
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     Region          689..756
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     SecStr          691..695
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          698..708
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          711..714
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          725..729
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          731..739
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          750..754
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          759..765
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     Het             join(bond(761),bond(781),bond(783),bond(784),bond(787),
+                     bond(792),bond(761),bond(761),bond(783),bond(784))
+                     /heterogen="(  K,1008 )"
+     SecStr          766..770
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          771..783
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          792..796
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          803..820
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          823..834
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     Het             join(bond(829),bond(841))
+                     /heterogen="( MN,1006 )"
+     SecStr          835..845
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     Het             bond(841)
+                     /heterogen="( MN,1007 )"
+     SecStr          850..857
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          861..870
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          887..895
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          914..922
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          924..935
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     Region          939..1058
+                     /region_name="Domain 8"
+                     /note="NCBI Domains"
+     SecStr          942..950
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     Region          943..1052
+                     /region_name="MGS_CPS_II"
+                     /note="Methylglyoxal synthase-like domain from type II
+                     glutamine-dependent carbamoyl phosphate synthetase (CSP).
+                     CSP, a CarA and CarB heterodimer, catalyzes the production
+                     of carbamoyl phosphate which is subsequently employed in
+                     the metabolic pathways...; cd01424"
+                     /db_xref="CDD:238712"
+     Site            order(948,954,974,976..977,993,1015..1017)
+                     /site_type="other"
+                     /note="IMP binding site"
+                     /db_xref="CDD:238712"
+     SecStr          958..967
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          968..974
+                     /sec_str_type="sheet"
+                     /note="strand 37"
+     Site            order(975,979,987,989..990,992,1004)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238712"
+     SecStr          975..984
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          988..991
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+     SecStr          1000..1008
+                     /sec_str_type="helix"
+                     /note="helix 32"
+     SecStr          1011..1017
+                     /sec_str_type="sheet"
+                     /note="strand 39"
+     SecStr          1020..1027
+                     /sec_str_type="helix"
+                     /note="helix 33"
+     SecStr          1028..1036
+                     /sec_str_type="helix"
+                     /note="helix 34"
+     SecStr          1038..1043
+                     /sec_str_type="sheet"
+                     /note="strand 40"
+     Site            order(1040,1045,1049)
+                     /site_type="other"
+                     /note="interdomain contacts"
+                     /db_xref="CDD:238712"
+     Site            1040..1042
+                     /site_type="other"
+                     /note="partial ornithine binding site"
+                     /db_xref="CDD:238712"
+     SecStr          1044..1053
+                     /sec_str_type="helix"
+                     /note="helix 35"
+     SecStr          1064..1072
+                     /sec_str_type="helix"
+                     /note="helix 36"
+ORIGIN      
+        1 mpkrtdiksi lilgagpivi gqacefdysg aqackalree gyrvilvnsn patimtdpem
+       61 adatyiepih wevvrkiiek erpdavlptm ggqtalncal elerqgvlee fgvtmigata
+      121 daidkaedrr rfdvamkkig letarsgiah tmeealavaa dvgfpciirp sftmggsggg
+      181 iaynreefee icargldlsp tkellidesl igwkeyemev vrdkndncii vcsienfdam
+      241 gihtgdsitv apaqtltdke yqimrnasma vlreigvetg gsnvqfavnp kngrliviem
+      301 nprvsrssal askatgfpia kvaaklavgy tldelmndit ggrtpasfep sidyvvtkip
+      361 rfnfekfaga ndrlttqmks vgevmaigrt qqeslqkalr glevgatgfd pkvslddpea
+      421 ltkirrelkd agadriwyia dafraglsvd gvfnltnidr wflvqieelv rleekvaevg
+      481 itglnadflr qlkrkgfada rlaklagvre aeirklrdqy dlhpvykrvd tcaaefatdt
+      541 aymystyeee ceanpstdre kimvlgggpn rigqgiefdy ccvhaslalr edgyetimvn
+      601 cnpetvstdy dtsdrlyfep vtledvleiv riekpkgviv qyggqtplkl araleaagvp
+      661 vigtspdaid raedrerfqh averlklkqp anatvtaiem avekakeigy plvvrpsyvl
+      721 ggrameivyd eadlrryfqt avsvsndapv lldhflddav evdvdaicdg emvliggime
+      781 hieqagvhsg dsacslpayt lsqeiqdvmr qqvqklafel qvrglmnvqf avknnevyli
+      841 evnpraartv pfvskatgvp lakvaarvma gkslaeqgvt kevippyysv kevvlpfnkf
+      901 pgvdpllgpe mrstgevmgv grtfaeafak aqlgsnstmk khgrallsvr egdkervvdl
+      961 aakllkqgfe ldathgtaiv lgeaginprl vnkvhegrph iqdrikngey tyiinttsgr
+     1021 raiedsrvir rsalqykvhy dttlnggfat amalnadate kvisvqemha qik
+//
+

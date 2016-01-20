@@ -1,0 +1,89 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 119389099 
+ Accession: 2D4X_A 
+ Score: 51.6026
+ E-value: 3.39206e-07
+ Identities: 31
+ Function: Structural Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2D4X_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 378792496 
+ Accession: 3V47_C 
+ Score: 48.9062
+ E-value: 4.64148e-06
+ Identities: 31
+ Function: Immune System
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3V47_C
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 308198491 
+ Accession: 3K8W_A 
+ Score: 48.521
+ E-value: 5.12592e-06
+ Identities: 33
+ Function: Structural Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3K8W_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 308198489 
+ Accession: 3K8V_A 
+ Score: 48.521
+ E-value: 6.37412e-06
+ Identities: 33
+ Function: Structural Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3K8V_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 34810684 
+ Accession: 1UCU_A 
+ Score: 48.521
+ E-value: 7.61617e-06
+ Identities: 37
+ Function: Structural Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1UCU_A
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 291191082 
+ Accession: 3A5X_A 
+ Score: 48.521
+ E-value: 8.02699e-06
+ Identities: 37
+ Function: Structural Protein, Motor Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3A5X_A
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

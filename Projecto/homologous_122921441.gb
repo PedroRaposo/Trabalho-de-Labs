@@ -1,0 +1,162 @@
+LOCUS       2O5R_A                   481 aa            linear   BCT 09-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Glutamyl-Trna Synthetase 1 (Ec
+            6.1.1.17) (Glutamate-Trna Ligase 1) (Glurs 1) (Tm1351) From
+            Thermotoga Maritima At 2.5 A Resolution.
+ACCESSION   2O5R_A
+VERSION     2O5R_A  GI:122921441
+DBSOURCE    pdb: molecule 2O5R, chain 65, release Oct 6, 2012;
+            deposition: Dec 6, 2006;
+            class: Ligase;
+            source: Mmdb_id: 43619, Pdb_id 1: 2O5R;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 481)
+  AUTHORS   Joint Center For Structural Genomics (Jcsg).
+  TITLE     Crystal Structure Of Glutamyl-Trna Synthetase 1 (Ec 6.1.1.17)
+            (Glutamate-Trna Ligase 1) (Glurs 1) (Tm13 Thermotoga Maritima At
+            2.5 A Resolution
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 481)
+  AUTHORS   Joint Center For Structural Genomics (Jcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-DEC-2006)
+COMMENT     1 Glutamyl-trna Synthetase 1.
+FEATURES             Location/Qualifiers
+     source          1..481
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     Region          join(1..96,253..341)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          14..479
+                     /region_name="gltX"
+                     /note="glutamyl-tRNA synthetase; Reviewed; PRK01406"
+                     /db_xref="CDD:234953"
+     Region          14..339
+                     /region_name="GluRS_core"
+                     /note="catalytic core domain of discriminating
+                     glutamyl-tRNA synthetase; cd00808"
+                     /db_xref="CDD:173905"
+     SecStr          14..21
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(17,19..21,29..30,32..33,53,206,210,224..225,
+                     227..228,253..254,262..263)
+                     /site_type="active"
+                     /db_xref="CDD:173905"
+     Site            27..30
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173905"
+     SecStr          28..44
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          46..54
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          63..75
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          92..95
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          97..252
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          98..111
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..118
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          124..134
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          151..160
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          164..170
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          172..180
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          181..190
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          193..200
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          202..205
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          206..217
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          220..225
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          232..242
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          247..252
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          253..258
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            262..266
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173905"
+     SecStr          271..279
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          282..291
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          304..312
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          320..325
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          326..339
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          343..356
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          363..373
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          389..481
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          403..410
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          422..435
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          440..450
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          468..477
+                     /sec_str_type="helix"
+                     /note="helix 17"
+ORIGIN      
+        1 xgsdkihhhh hhxvrvrfap sptgflhvgg artalfnflf arkekgkfil riedtdlers
+       61 ereyeeklxe slrwlgllwd egpdvggdhg pyrqservei yrehaerlvk egkayyvyay
+      121 peeieexrek llsegkaphy sqexfekfdt perrreyeek glrpavffkx prkdyvlndv
+      181 vkgevvfktg aigdfvixrs nglptynfac vvddxlxeit hvirgddhls ntlrqlalye
+      241 afekappvfa hvstilgpdg kklskrhgat sveafrdxgy lpealvnyla llgwshpegk
+      301 elltleelis sfsldrlspn paifdpqklk wxngyylrnx pieklaelak pffekagiki
+      361 ideeyfkkvl eitkervevl sefpeesrff fedpapveip eexkevfsql keelqnvrwt
+      421 xeeitpvfkk vlkqhgvkpk efyxtlrrvl tgreegpelv niipllgkei flrrierslg
+      481 g
+//
+

@@ -1,0 +1,88 @@
+LOCUS       1U0S_Y                   118 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain Y, Chemotaxis Kinase Chea P2 Domain In Complex With Response
+            Regulator Chey From The Thermophile Thermotoga Maritima.
+ACCESSION   1U0S_Y
+VERSION     1U0S_Y  GI:52695964
+DBSOURCE    pdb: molecule 1U0S, chain 89, release Jun 18, 2009;
+            deposition: Jul 14, 2004;
+            class: Signaling Protein;
+            source: Mmdb_id: 29097, Pdb_id 1: 1U0S;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 118)
+  AUTHORS   Park,S.Y., Beel,B.D., Simon,M.I., Bilwes,A.M. and Crane,B.R.
+  TITLE     In different organisms, the mode of interaction between two
+            signaling proteins is not necessarily conserved
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (32), 11646-11651 (2004)
+   PUBMED   15289606
+REFERENCE   2  (residues 1 to 118)
+  AUTHORS   Park,S.Y., Beel,B.D., Simon,M.I., Bilwes,A.M. and Crane,B.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-JUL-2004)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..118
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     SecStr          3..9
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..117
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(8..9,53,61,81,100,103..104)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          11..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          29..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          35..45
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          48..54
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            53
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(56..57,59..61)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          61..71
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          76..82
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..95
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          98..103
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            103..105
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          107..117
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 gkrvlivdda afmrmmlkdi itkagyevag eatngreave kykelkpdiv tmditmpemn
+       61 gidaikeimk idpnakiivc samgqqamvi eaikagakdf ivkpfqpsrv vealnkvs
+//
+

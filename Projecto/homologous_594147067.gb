@@ -1,0 +1,96 @@
+LOCUS       4IY4_A                   156 aa            linear   PRI 12-MAR-2014
+DEFINITION  Chain A, Structural And Ligand Binding Properties Of The Bateman
+            Domain Of Human Magnesium Transporters Cnnm2 And Cnnm4.
+ACCESSION   4IY4_A
+VERSION     4IY4_A  GI:594147067
+DBSOURCE    pdb: molecule 4IY4, chain 65, release Mar 12, 2014;
+            deposition: Jan 28, 2013;
+            class: Metal Transport;
+            source: Mmdb_id: 118210, Pdb_id 1: 4IY4;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 156)
+  AUTHORS   Corral-Rodriguez,M.A., Stuiver,M., Encinar,J.A., Spiwok,V.,
+            Gomez-Garcia,I., Oyenarte,I., Ereno-Orbea,J., Terashima,H.,
+            Accardi,A., Diercks,T., Muller,D. and Martinez-Cruz,L.A.
+  TITLE     Structural And Ligand Binding Properties Of The Bat Domain Of Human
+            Magnesium Transporters Cnnm2 And Cn
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 156)
+  AUTHORS   Corral-Rodriguez,M.A., Stuiver,M., Encinar,J.A., Spiwok,V.,
+            Gomez-,I., Oyenarte,I., Ereno-Orbea,J., Terashima,H., Accardi,A.,
+            Diercks,T., D,D. and Martinez-Cruz,L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JAN-2013)
+COMMENT     1 Metal Transporter Cnnm2.
+FEATURES             Location/Qualifiers
+     source          1..156
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..27,94..156)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          2..12
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          22..25
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          28..93
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          30..33
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          35..38
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          39..47
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          42..147
+                     /region_name="CBS_pair_CorC_HlyC_assoc"
+                     /note="This cd contains two tandem repeats of the
+                     cystathionine beta-synthase (CBS pair) domains associated
+                     with the CorC_HlyC domain. CorC_HlyC is a transporter
+                     associated domain. This small domain is found in Na+/H+
+                     antiporters, in proteins involved in...; cd04590"
+                     /db_xref="CDD:239963"
+     SecStr          51..57
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          62..69
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          80..83
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          84..91
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          95..99
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          103..112
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          116..125
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          131..141
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          142..149
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 keelniiqga lelrtktved vmtplrdcfm itgeaildfn tmseimesgy tripvfeger
+       61 snivdllfvk dlafvdpddc tplktitkfy nhplhfvfnd tkldamleef kkgkshlaiv
+      121 qrvnnegegd pfyevlgivi ledvieeiik seilde
+//
+

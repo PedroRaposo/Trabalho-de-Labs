@@ -1,0 +1,36 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 756142920 
+ Accession: 4UT1_A 
+ Score: 92.4337
+ E-value: 3.34388e-19
+ Identities: 88
+ Function: Motor Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4UT1_A
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 756142920 
+ Accession: 4UT1_A 
+ Score: 61.6178
+ E-value: 1.54295e-09
+ Identities: 33
+ Function: Motor Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4UT1_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 119389100 
+ Accession: 2D4Y_A 
+ Score: 83.9593
+ E-value: 8.70442e-17
+ Identities: 62
+ Function: Structural Protein
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2D4Y_A
+------------------------------------------------------------------
+
+

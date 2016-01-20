@@ -1,0 +1,153 @@
+LOCUS       4W91_A                   422 aa            linear   BCT 09-OCT-2014
+DEFINITION  Chain A, Crystal Structure Of A Cysteine Desulfurase Sufs From
+            Brucella Suis Bound To Plp.
+ACCESSION   4W91_A
+VERSION     4W91_A  GI:695722412
+DBSOURCE    pdb: molecule 4W91, chain 65, release Oct 8, 2014;
+            deposition: Aug 26, 2014;
+            class: Transferase;
+            source: Mmdb_id: 123727, Pdb_id 1: 4W91;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Brucella suis bv. 4 str. 40
+  ORGANISM  Brucella suis bv. 4 str. 40
+            Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+            Brucellaceae; Brucella.
+REFERENCE   1  (residues 1 to 422)
+  AUTHORS   Seattle Structural Genomics Center For Infectious D.
+  TITLE     Crystal Structure Of A Cysteine Desulfurase Sufs Fr Brucella Suis
+            Bound To Plp
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 422)
+  AUTHORS   Seattle Structural Genomics Center For Infectious Disease.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-AUG-2014)
+COMMENT     1 Aminotransferase.
+FEATURES             Location/Qualifiers
+     source          1..422
+                     /organism="Brucella suis bv. 4 str. 40"
+                     /strain="bv. 4 40"
+                     /db_xref="taxon:520488"
+     Region          join(1..48,335..422)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          17..420
+                     /region_name="CsdA"
+                     /note="Selenocysteine lyase/Cysteine desulfurase [Amino
+                     acid transport and metabolism]; COG0520"
+                     /db_xref="CDD:223594"
+     SecStr          40..43
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          41..414
+                     /region_name="SufS_like"
+                     /note="Cysteine desulfurase (SufS)-like. This family
+                     belongs to the pyridoxal phosphate (PLP)-dependent
+                     aspartate aminotransferase superfamily (fold I). The major
+                     groups in this CD correspond to cysteine desulfurase
+                     (SufS) and selenocysteine lyase. SufS...; cd06453"
+                     /db_xref="CDD:99746"
+     Region          join(49..99,290..334)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          53..64
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          76..96
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          100..267
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          103..108
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(110..111,114,139,216,218..219,239,241..242)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99746"
+     SecStr          110..120
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          129..135
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          145..152
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          154..160
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          170..177
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          182..188
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          199..209
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          211..216
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          217..224
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          234..240
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            242
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99746"
+     SecStr          249..254
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          255..262
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          273..277
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          278..282
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          296..312
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          313..332
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          337..341
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          349..356
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          360..370
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          371..378
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          381..389
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          392..398
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          404..421
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 mahhhhhhmd qknpltmayd veairrdfpi lsrqvhgktl vyldngasaq kpqsvidavt
+       61 hayaneyanv hrglhflsna atdayeksre tvrrflnags vdeivftkna teaintvayg
+      121 ygmpfigegd eillsimehh snivpwhfir erqgaklvft pvddngvfhi eefekrlser
+      181 tklvaithms ntlgtvvpik kivelaharg ipvlvdgsqg avhlpvdvqd lgcdwyvftg
+      241 hxvygpsgig vlygraqmle kmrpfqggge mieevteenv tynhpphrfe agtppivqai
+      301 glgaaleyme kigrhailah eadlrdyahe rlgrinslri fgnapdkgai isfalegiha
+      361 hdvsmvidra gvavragthc aqpllkrfgv tstcrasfal yntraevdal aealekarkf
+      421 fg
+//
+

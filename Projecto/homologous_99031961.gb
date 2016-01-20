@@ -1,0 +1,93 @@
+LOCUS       2CH7_B                   309 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Crystal Structure Of The Cytoplasmic Domain Of A Bacterial
+            Chemoreceptor From Thermotoga Maritima.
+ACCESSION   2CH7_B
+VERSION     2CH7_B  GI:99031961
+DBSOURCE    pdb: molecule 2CH7, chain 66, release Aug 27, 2007;
+            deposition: Mar 13, 2006;
+            class: Chemotaxis;
+            source: Mmdb_id: 38615, Pdb_id 1: 2CH7;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 309)
+  AUTHORS   Park,S.Y., Borbat,P.P., Gonzalez-Bonet,G., Bhatnagar,J.,
+            Pollard,A.M., Freed,J.H., Bilwes,A.M. and Crane,B.R.
+  TITLE     Reconstruction of the chemotaxis receptor-kinase assembly
+  JOURNAL   Nat. Struct. Mol. Biol. 13 (5), 400-407 (2006)
+   PUBMED   16622408
+REFERENCE   2  (residues 1 to 309)
+  AUTHORS   Park,S.Y., Bilwes,A.M. and Crane,B.R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAR-2006)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..309
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     Region          join(1..55,234..309)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          5..55
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Het             bond(27)
+                     /heterogen="( PB,1531 )"
+     Region          35..295
+                     /region_name="MA"
+                     /note="Methyl-accepting chemotaxis-like domains
+                     (chemotaxis sensory transducer); smart00283"
+                     /db_xref="CDD:214599"
+     Region          56..233
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          56..105
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          61..260
+                     /region_name="MCP_signal"
+                     /note="Methyl-accepting chemotaxis protein (MCP),
+                     signaling domain; cd11386"
+                     /db_xref="CDD:206779"
+     Het             join(bond(62),bond(62))
+                     /heterogen="( PB,1530 )"
+     Site            order(69..70,73..74,77,80..81,83..84,87,90..91,94,97..98,
+                     101..102,105,108..109,111..112,116,118..119,122,125..126,
+                     129..130,133,136,139..140,143,147,150,157,161,164,
+                     167..168,171,174..175,178..179,181..182,185..186,199..200,
+                     203,206..207,210,213..214,216..217,220..221,224,227..228,
+                     231,234..235,237..238,241..242,244..245,248,251..252,255,
+                     258..259)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:206779"
+     SecStr          106..150
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Site            139..172
+                     /site_type="other"
+                     /note="putative CheW interface [polypeptide binding]"
+                     /db_xref="CDD:206779"
+     SecStr          159..192
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          197..233
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          234..280
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          281..306
+                     /sec_str_type="helix"
+                     /note="helix 15"
+ORIGIN      
+        1 gshmkdvqte tfsvaesiee iskaneeitn qllgiskemd nistriesis asvqettags
+       61 eeissatkni adsaqqaasf adqstqlake agdalkkvie vtrmisnsak dvervvesfq
+      121 kgaeeitsfv etinaiaeqt nllalnaaie aarageagrg favvadeirk laeesqqase
+      181 nvrrvvneir siaedagkvs seitarveeg tkladeadek lnsivgaver inemlqniaa
+      241 aieeqnaavd eittamtena knaeeitnsv kevnarlqei sasteevtsr vqtirenvqm
+      301 lkeivaryk
+//
+

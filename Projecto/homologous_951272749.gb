@@ -1,0 +1,143 @@
+LOCUS       5AWF_A                   495 aa            linear   BCT 11-NOV-2015
+DEFINITION  Chain A, Crystal Structure Of Sufb-sufc-sufd Complex From
+            Escherichia Coli.
+ACCESSION   5AWF_A
+VERSION     5AWF_A  GI:951272749
+DBSOURCE    pdb: molecule 5AWF, chain 65, release Nov 11, 2015;
+            deposition: Jul 3, 2015;
+            class: Transport ProteinPROTEIN BINDING;
+            source: Mmdb_id: 134081, Pdb_id 1: 5AWF;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 495)
+  AUTHORS   Hirabayashi,K., Yuda,E., Tanaka,N., Katayama,S., Iwasaki,K.,
+            Matsumoto,T., Kurisu,G., Outten,F.W., Fukuyama,K., Takahashi,Y. and
+            Wada,K.
+  TITLE     Functional Dynamics Revealed by the Structure of the SufBCD
+            Complex, a Novel ATP-binding Cassette (ABC) Protein That Serves as
+            a Scaffold for Iron-Sulfur Cluster Biogenesis
+  JOURNAL   J. Biol. Chem. (2015) In press
+   PUBMED   26472926
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 495)
+  AUTHORS   Hirabayashi,K. and Wada,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUL-2015)
+COMMENT     1 Fes Cluster Assembly Protein Sufb.
+FEATURES             Location/Qualifiers
+     source          1..495
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..495
+                     /region_name="PRK11814"
+                     /note="cysteine desulfurase activator complex subunit
+                     SufB; Provisional"
+                     /db_xref="CDD:236990"
+     SecStr          40..48
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          54..69
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          163..168
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          169..176
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          177..184
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          194..202
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          205..213
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          214..217
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          220..227
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          229..466
+                     /region_name="UPF0051"
+                     /note="Uncharacterized protein family (UPF0051);
+                     pfam01458"
+                     /db_xref="CDD:250635"
+     SecStr          234..244
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          245..258
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          263..273
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          274..278
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          279..289
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          297..308
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          310..322
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          324..335
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          339..351
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          352..364
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          368..378
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          379..383
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          384..394
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          395..398
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          399..410
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          413..426
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          428..440
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          442..451
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          455..467
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          476..493
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 msrnteatdd vktwtggpln ykegfftqla tdelakgine evvraisakr nepewmlefr
+       61 lnayrawlem eephwlkahy dklnyqdysy ysapscgncd dtcasepgav qqtganafls
+      121 keveaafeql gvpvregkev avdaifdsvs vattyrekla eqgiifcsfg eaihdhpelv
+      181 rkylgtvvpg ndnffaalna avasdgtfiy vpkgvrcpme lstyfrinae ktgqfertil
+      241 vadedsyvsy iegcsapvrd syqlhaavve viihknaevk ystvqnwfpg dnntggilnf
+      301 vtkralcege nskmswtqse tgsaitwkyp scilrgdnsi gefysvalts ghqqadtgtk
+      361 mihigkntks tiiskgisag hsqnsyrglv kimptatnar nftqcdsmli gancgahtfp
+      421 yvecrnnsaq leheattsri gedqlfyclq rgiseedais mivngfckdv fselplefav
+      481 eaqkllaisl ehsvg
+//
+

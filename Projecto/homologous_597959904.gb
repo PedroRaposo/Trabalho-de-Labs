@@ -1,0 +1,153 @@
+LOCUS       3J65_o                   647 aa            linear   PLN 10-APR-2014
+DEFINITION  Chain o, Arx1 Pre-60s Particle. This Entry Contains The R-proteins
+            And Biogenesis Factors.
+ACCESSION   3J65_o
+VERSION     3J65_o  GI:597959904
+DBSOURCE    pdb: molecule 3J65, chain 111, release Apr 10, 2014;
+            deposition: Dec 10, 2013;
+            class: Ribosome;
+            source: Mmdb_id: 118516, Pdb_id 1: 3J65;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae (baker's yeast)
+  ORGANISM  Saccharomyces cerevisiae
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+            Saccharomyces.
+REFERENCE   1  (residues 1 to 647)
+  AUTHORS   Leidig,C., Thoms,M., Holdermann,I., Bradatsch,B., Berninghausen,O.,
+            Bange,G., Sinning,I., Hurt,E. and Beckmann,R.
+  TITLE     60S ribosome biogenesis requires rotation of the 5S
+            ribonucleoprotein particle
+  JOURNAL   Nat Commun 5, 3491 (2014)
+   PUBMED   24662372
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 647)
+  AUTHORS   Leidig,C., Thoms,M., Holdermann,I., Bradatsch,B., Berninghausen,O.,
+            G,G., Sinning,I., Hurt,E. and Beckmann,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-2013)
+COMMENT     41 Nucleolar Gtp-binding Protein 1.
+FEATURES             Location/Qualifiers
+     source          1..647
+                     /organism="Saccharomyces cerevisiae"
+                     /db_xref="taxon:4932"
+     Region          1..346
+                     /region_name="Nog1"
+                     /note="GTP-binding protein, GTP1/Obg family [General
+                     function prediction only]; COG1084"
+                     /db_xref="CDD:224009"
+     Region          1..163
+                     /region_name="Domain 39"
+                     /note="NCBI Domains"
+     SecStr          14..31
+                     /sec_str_type="helix"
+                     /note="helix 151"
+     SecStr          38..65
+                     /sec_str_type="helix"
+                     /note="helix 152"
+     SecStr          76..83
+                     /sec_str_type="helix"
+                     /note="helix 153"
+     SecStr          89..118
+                     /sec_str_type="helix"
+                     /note="helix 154"
+     SecStr          122..143
+                     /sec_str_type="helix"
+                     /note="helix 155"
+     SecStr          144..159
+                     /sec_str_type="helix"
+                     /note="helix 156"
+     Region          164..647
+                     /region_name="Domain 40"
+                     /note="NCBI Domains"
+     Region          168..340
+                     /region_name="NOG"
+                     /note="Nucleolar GTP-binding protein (NOG); cd01897"
+                     /db_xref="CDD:206684"
+     SecStr          168..174
+                     /sec_str_type="sheet"
+                     /note="strand 274"
+     Site            174..181
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206684"
+     Site            order(177,179..182,288..289,291,321..323)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206684"
+     SecStr          180..187
+                     /sec_str_type="helix"
+                     /note="helix 157"
+     Site            190..204
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206684"
+     SecStr          192..196
+                     /sec_str_type="sheet"
+                     /note="strand 275"
+     Site            201
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206684"
+     SecStr          203..212
+                     /sec_str_type="sheet"
+                     /note="strand 276"
+     SecStr          213..221
+                     /sec_str_type="sheet"
+                     /note="strand 277"
+     Site            220..223
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206684"
+     Site            223..246
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206684"
+     SecStr          234..242
+                     /sec_str_type="helix"
+                     /note="helix 158"
+     SecStr          248..254
+                     /sec_str_type="sheet"
+                     /note="strand 278"
+     SecStr          264..274
+                     /sec_str_type="helix"
+                     /note="helix 159"
+     SecStr          281..289
+                     /sec_str_type="sheet"
+                     /note="strand 279"
+     Site            288..291
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206684"
+     SecStr          298..306
+                     /sec_str_type="helix"
+                     /note="helix 160"
+     SecStr          317..321
+                     /sec_str_type="sheet"
+                     /note="strand 280"
+     Site            321..323
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206684"
+     SecStr          328..345
+                     /sec_str_type="helix"
+                     /note="helix 161"
+     Region          395..449
+                     /region_name="NOGCT"
+                     /note="NOGCT (NUC087) domain; pfam08155"
+                     /db_xref="CDD:191952"
+ORIGIN      
+        1 mqlswkdipt vapandlldi vlnrtqrktp tvirpgfkit rirafymrkv kytgegfvek
+       61 fedilkgfpn indvhpfhrd lmdtlyeknh ykislaaisr akslveqvar dyvrllkfgq
+      121 slfqckqlkr aalgrmativ kklrdplayl eqvrqhigrl psidpntrtl licgypnvgk
+      181 ssflrcitks dvdvqpyaft tkslyvghfd ykylrfqaid tpgildrpte emnniemqsi
+      241 yaiahlrscv lyfmdlseqc gftieaqvkl fhsikplfan ksvmvvinkt diirpedlde
+      301 eraqllesvk evpgveimts scqleenvme vrnkacekll asrienklks qsrinnvlnk
+      361 ihvaqpqard dvkrtpfipe svknlkkydp edpnrrklar dieaenggag vfnvnlkdky
+      421 lleddewknd impeildgkn vydfldpeia aklqaleeee eklenegfyn sddeeeiydg
+      481 feasevddik ekaawirnrq ktmiaearnr kslknkaimp rskltksfgk meehmstlgh
+      541 dmsalqdkqn raarknryve rgsdvvfgdq daltasteng vklrqtdrll dgvadgsmrs
+      601 kadrmakmer rernrhakqg esdrhnavsl skhlfsgkrg vgktdfr
+//
+

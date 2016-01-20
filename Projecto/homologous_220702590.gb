@@ -1,0 +1,78 @@
+LOCUS       1TVI_A                   172 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Solution Structure Of Tm1509 From Thermotoga Maritima:
+            Vt1, A Nesgc Target Protein.
+ACCESSION   1TVI_A
+VERSION     1TVI_A  GI:220702590
+DBSOURCE    pdb: molecule 1TVI, chain 65, release Jun 10, 2009;
+            deposition: Jun 29, 2004;
+            class: Structural Genomics, Unknown Function;
+            source: Mmdb_id: 30917, Pdb_id 1: 1TVI;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 172)
+  AUTHORS   Penhoat,C.H., Li,Z., Atreya,H.S., Kim,S., Yee,A., Xiao,R.,
+            Murray,D., Arrowsmith,C.H. and Szyperski,T.
+  TITLE     NMR solution structure of Thermotoga maritima protein TM1509
+            reveals a Zn-metalloprotease-like tertiary structure
+  JOURNAL   J. Struct. Funct. Genomics 6 (1), 51-62 (2005)
+   PUBMED   15965736
+REFERENCE   2  (residues 1 to 172)
+  AUTHORS   Penhoat,C.H., Atreya,H.S., Kim,S., Li,Z., Yee,A., Xiao,R.,
+            Murray,D., Arrowsmith,C.H., Szyperski,T., Northeast Structural
+            Genomics and Consortium (Nesg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JUN-2004)
+COMMENT     On Jan 14, 2009 this sequence version replaced gi:157880250.
+            SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..172
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     SecStr          24..30
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          29..164
+                     /region_name="YbeY"
+                     /note="ssRNA-specific RNase YbeY, 16S rRNA maturation
+                     enzyme [Translation, ribosomal structure and biogenesis];
+                     COG0319"
+                     /db_xref="CDD:223396"
+     SecStr          33..40
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          41..50
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          55..61
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          63..72
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          81..85
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          93..99
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          101..109
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          114..122
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          124..131
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          142..156
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 mgtshhhhhh ssgrenlyfq ghmirilgeg kgskllenlk ekleeivkke igdvhvnvil
+       61 vsedeikeln qqfrgqdrpt dvltfplmee dvygeiyvcp liveenaref nntfekelle
+      121 vvihgilhla gydhefedkn skemfekqkk yveevwgewr snpsedsdpg kr
+//
+

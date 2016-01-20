@@ -1,0 +1,80 @@
+LOCUS       4LWM_A                   217 aa            linear   BCT 11-JUN-2014
+DEFINITION  Chain A, Crystal Structure Of Methionine Sulfoxide Reductase
+            U16c/e55d From Clostridium Oremlandii With Methionie Sulfoxide.
+ACCESSION   4LWM_A
+VERSION     4LWM_A  GI:651207650
+DBSOURCE    pdb: molecule 4LWM, chain 65, release Jun 11, 2014;
+            deposition: Jul 27, 2013;
+            class: Oxidoreductase;
+            source: Mmdb_id: 120615, Pdb_id 1: 4LWM;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Alkaliphilus oremlandii OhILAs
+  ORGANISM  Alkaliphilus oremlandii OhILAs
+            Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+            Alkaliphilus.
+REFERENCE   1  (residues 1 to 217)
+  AUTHORS   Lee,E.H., Kwak,G.H., Kim,M.J., Kim,H.Y. and Hwang,K.Y.
+  TITLE     Structural analysis of 1-Cys type selenoprotein methionine
+            sulfoxide reductase A
+  JOURNAL   Arch. Biochem. Biophys. 545, 1-8 (2014)
+   PUBMED   24412203
+REFERENCE   2  (residues 1 to 217)
+  AUTHORS   Hwang,K.Y. and Lee,E.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUL-2013)
+COMMENT     1 Peptide Methionine Sulfoxide Reductase Msra.
+FEATURES             Location/Qualifiers
+     source          1..217
+                     /organism="Alkaliphilus oremlandii OhILAs"
+                     /db_xref="taxon:350688"
+     SecStr          7..15
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          8..144
+                     /region_name="PMSR"
+                     /note="Peptide methionine sulfoxide reductase; pfam01625"
+                     /db_xref="CDD:250755"
+     SecStr          18..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          29..40
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          52..62
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          68..78
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          90..96
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          99..116
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          122..126
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          130..133
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          147..156
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          166..176
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          181..191
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          195..209
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 mdtnqklsia vfalgcfwgp daqfgsikgv vstrvgyagg ttnnpsyynl gdhsdsieiq
+       61 ydanvityge llnifwnlhn pvyettnrqy msrifylddg qksealemkr qieaangeki
+      121 yteivplenf ylaegyhqky ylqnttklyq tlkaiyggfg nlvrstlaar mngyiagnls
+      181 iaslkeemdl velpedqyek vlsiveeikl ehhhhhh
+//
+

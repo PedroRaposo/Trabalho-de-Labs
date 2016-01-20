@@ -1,0 +1,199 @@
+LOCUS       4B47_A                   363 aa            linear   BCT 11-FEB-2015
+DEFINITION  Chain A, Bacterial Translation Initiation Factor If2 (1-363),
+            Complex With Gdp At Ph6.5.
+ACCESSION   4B47_A
+VERSION     4B47_A  GI:508123630
+DBSOURCE    pdb: molecule 4B47, chain 65, release Feb 11, 2015;
+            deposition: Jul 27, 2012;
+            class: Translation;
+            source: Mmdb_id: 110473, Pdb_id 1: 4B47;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus HB8
+  ORGANISM  Thermus thermophilus HB8
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 363)
+  AUTHORS   Simonetti,A., Marzi,S., Fabbretti,A., Hazemann,I., Jenner,L.,
+            Urzhumtsev,A., Gualerzi,C.O. and Klaholz,B.P.
+  TITLE     Structure of the protein core of translation initiation factor 2 in
+            apo, GTP-bound and GDP-bound forms
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 69 (PT 6), 925-933 (2013)
+   PUBMED   23695237
+REFERENCE   2  (residues 1 to 363)
+  AUTHORS   Simonetti,A., Urzhumtsev,A. and Klaholz,B.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUL-2012)
+COMMENT     1 Translation Initiation Factor If-2.
+FEATURES             Location/Qualifiers
+     source          1..363
+                     /organism="Thermus thermophilus HB8"
+                     /db_xref="taxon:300852"
+     Region          1..67
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..48
+                     /region_name="IF2_N"
+                     /note="Translation initiation factor IF-2, N-terminal
+                     region; pfam04760"
+                     /db_xref="CDD:252785"
+     SecStr          2..5
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          6..13
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          17..27
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          36..40
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          41..66
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          join(68..72,239..363)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          69..72
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          73..238
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          73..231
+                     /region_name="small_GTP"
+                     /note="small GTP-binding protein domain; TIGR00231"
+                     /db_xref="CDD:272973"
+     SecStr          73..80
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          74..237
+                     /region_name="IF2_eIF5B"
+                     /note="Initiation Factor 2 (IF2)/ eukaryotic Initiation
+                     Factor 5B (eIF5B) family; cd01887"
+                     /db_xref="CDD:206674"
+     Site            80..87
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206674"
+     Site            order(81,83,87..88,91,94..95,111..112,130..131,154..155,
+                     190,194)
+                     /site_type="other"
+                     /note="putative GEF interaction site [polypeptide
+                     binding]"
+                     /db_xref="CDD:206674"
+     Site            order(82..88,131,180..181,183..184,216..218)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206674"
+     SecStr          86..95
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Het             bond(87)
+                     /heterogen="( MG,1001 )"
+     Site            105..111
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206674"
+     Site            107
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206674"
+     SecStr          111..118
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          119..126
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            126..129
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206674"
+     Site            128..146
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206674"
+     SecStr          145..153
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          159..171
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          173..181
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            180..183
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206674"
+     SecStr          189..199
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          211..216
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            216..218
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206674"
+     SecStr          223..237
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          239..242
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          246..252
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          247..335
+                     /region_name="IF2_mtIF2_II"
+                     /note="This family represents the domain II of bacterial
+                     Initiation Factor 2 (IF2) and its eukaryotic mitochondrial
+                     homologue mtIF2. IF2, the largest initiation factor is an
+                     essential GTP binding protein. In E. coli three natural
+                     forms of IF2 exist in the cell; cd03702"
+                     /db_xref="CDD:239673"
+     SecStr          253..257
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          261..267
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          268..272
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          277..282
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          283..288
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          289..294
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          296..299
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          300..304
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          305..315
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          321..326
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          329..352
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 makvriyqla kelgmetqel lelldqmgva ykshastlee kdaeavrelv keqrglqekl
+       61 aeeerrkslp rrppvvvimg hvdhgkttll dylrksriae keaggitqhv gafevktpqg
+      121 tvvfidtpgh eafttirqrg akvadiaviv iaaddgimpq teeaiahaka agaklifain
+      181 kidlpqadpe kvkrqlmerg fvpeeyggda ivipisaktg qgvqdllemi lllaeledyr
+      241 adpnaeprgv ileskldkqa giianmlvqe gtfrvgdyvv ageaygrira mmdadgnqrk
+      301 eagpgsavqv lgfqelphag dvvewvpdle aakeiaeerk eerkareeee karrprtmae
+      361 llr
+//
+

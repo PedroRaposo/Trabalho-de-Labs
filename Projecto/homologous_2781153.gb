@@ -1,0 +1,104 @@
+LOCUS       3TMY_A                   120 aa            linear   BCT 31-OCT-2012
+DEFINITION  Chain A, Chey From Thermotoga Maritima (Mn-Iii).
+ACCESSION   3TMY_A
+VERSION     3TMY_A  GI:2781153
+DBSOURCE    pdb: molecule 3TMY, chain 65, release Oct 25, 2012;
+            deposition: Jun 4, 1997;
+            class: Chemotaxis;
+            source: Mmdb_id: 6885, Pdb_id 1: 3TMY;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 120)
+  AUTHORS   Volz,K. and Matsumura,P.
+  TITLE     Crystal structure of Escherichia coli CheY refined at 1.7-A
+            resolution
+  JOURNAL   J. Biol. Chem. 266 (23), 15511-15519 (1991)
+   PUBMED   1869568
+REFERENCE   2  (residues 1 to 120)
+  AUTHORS   Bellsolell,L., Prieto,J., Serrano,L. and Coll,M.
+  TITLE     Magnesium binding to the bacterial chemotaxis protein CheY results
+            in large conformational changes involving its functional surface
+  JOURNAL   J. Mol. Biol. 238 (4), 489-495 (1994)
+   PUBMED   8176739
+  REMARK    Erratum:[J Mol Biol 1994 Sep 9;242(1):103]
+REFERENCE   3  (residues 1 to 120)
+  AUTHORS   Usher,K.C., de la,Cr., Dahlquist,F.W., Swanson,R.V., Simon,M.I. and
+            Remington,S.J.
+  TITLE     Crystal structures of CheY from Thermotoga maritima do not support
+            conventional explanations for the structural basis of enhanced
+            thermostability
+  JOURNAL   Protein Sci. 7 (2), 403-412 (1998)
+   PUBMED   9521117
+REFERENCE   4  (residues 1 to 120)
+  AUTHORS   Usher,K.C., De La Cruz,A., Dahlquist,F.W. and Remington,S.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUN-1997)
+COMMENT     1 Chey Protein.
+FEATURES             Location/Qualifiers
+     source          1..120
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     SecStr          4..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          6..118
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(9..10,54,62,82,101,104..105)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     Het             join(bond(10),bond(54),bond(56))
+                     /heterogen="( MN,1000 )"
+     SecStr          12..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          30..35
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          36..46
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          49..55
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            54
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(57..58,60..62)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          62..72
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          77..83
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          87..96
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          99..104
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            104..106
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          108..117
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 mgkrvlivdd aafmrmmlkd iitkagyeva geatngreav ekykelkpdi vtmditmpem
+       61 ngidaikeim kidpnakiiv csamgqqamv ieaikagakd fivkpfqpsr vvealnkvsk
+//
+

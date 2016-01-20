@@ -1,0 +1,92 @@
+LOCUS       3OCM_A                   173 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, The Crystal Structure Of A Domain From A Possible Membrane
+            Protein Of Bordetella Parapertussis.
+ACCESSION   3OCM_A
+VERSION     3OCM_A  GI:308198642
+DBSOURCE    pdb: molecule 3OCM, chain 65, release Oct 6, 2010;
+            deposition: Aug 10, 2010;
+            class: Membrane Protein;
+            source: Mmdb_id: 85381, Pdb_id 1: 3OCM;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bordetella parapertussis
+  ORGANISM  Bordetella parapertussis
+            Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+            Alcaligenaceae; Bordetella.
+REFERENCE   1  (residues 1 to 173)
+  AUTHORS   Tan,K., Tesar,C., Cobb,G. and Joachimiak,A.
+  TITLE     The Crystal Structure Of A Domain From A Possible M Protein Of
+            Bordetella Parapertussis
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 173)
+  AUTHORS   Tan,K., Tesar,C., Cobb,G., Joachimiak,A., Midwest Center For
+            Structu and Genomics (Mcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..173
+                     /organism="Bordetella parapertussis"
+                     /db_xref="taxon:519"
+     Region          join(1..47,104..173)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          21..32
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          42..45
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          46..154
+                     /region_name="CBS_pair_CorC_HlyC_assoc"
+                     /note="This cd contains two tandem repeats of the
+                     cystathionine beta-synthase (CBS pair) domains associated
+                     with the CorC_HlyC domain. CorC_HlyC is a transporter
+                     associated domain. This small domain is found in Na+/H+
+                     antiporters, in proteins involved in...; cd04590"
+                     /db_xref="CDD:239963"
+     Region          48..103
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          49..53
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          57..66
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Het             bond(69)
+                     /heterogen="( MG,1001 )"
+     SecStr          70..76
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          81..88
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          89..97
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          110..113
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          119..127
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          132..138
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          140..147
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          148..156
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Het             bond(153)
+                     /heterogen="( MG,1003 )"
+     Het             bond(164)
+                     /heterogen="( MG,1000 )"
+ORIGIN      
+        1 snasdesdlp saxpavpafg veernxvsgv ltlaersirs ixtprtdvsw vnidddaati
+       61 rqqltaaphs ffpvcrgsld evvgigrakd lvadlitegr vrrnrlrdpi ivhesigilr
+      121 lxdtlkrsrg qlvlvadefg aieglvtpid vfeaiagefp dedelpdiva ese
+//
+

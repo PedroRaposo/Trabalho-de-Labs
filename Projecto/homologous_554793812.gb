@@ -1,0 +1,150 @@
+LOCUS       4MKI_B                   298 aa            linear   BCT 11-JUN-2014
+DEFINITION  Chain B, Cobalt Transporter Atp-binding Subunit.
+ACCESSION   4MKI_B
+VERSION     4MKI_B  GI:554793812
+DBSOURCE    pdb: molecule 4MKI, chain 66, release Jun 11, 2014;
+            deposition: Sep 5, 2013;
+            class: Hydrolase;
+            source: Mmdb_id: 114783, Pdb_id 1: 4MKI;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Caldanaerobacter subterraneus subsp. tengcongensis MB4
+            (Thermoanaerobacter tengcongensis MB4)
+  ORGANISM  Caldanaerobacter subterraneus subsp. tengcongensis MB4
+            Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+            Thermoanaerobacteraceae; Caldanaerobacter.
+REFERENCE   1  (residues 1 to 298)
+  AUTHORS   Chai,C., Yu,Y., Zhuo,W., Zhao,H., Li,X., Wang,N., Chai,J. and
+            Yang,M.
+  TITLE     Structural basis for a homodimeric ATPase subunit of an ECF
+            transporter
+  JOURNAL   Protein Cell 4 (10), 793-801 (2013)
+   PUBMED   24104393
+REFERENCE   2  (residues 1 to 298)
+  AUTHORS   Yu,Y., Zhang,L., Chai,C.L. and Heymann,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-SEP-2013)
+COMMENT     1 Energy-coupling Factor Transporter Atp-binding Protein Ecfa2.
+FEATURES             Location/Qualifiers
+     source          1..298
+                     /organism="Caldanaerobacter subterraneus subsp.
+                     tengcongensis MB4"
+                     /db_xref="taxon:273068"
+     Region          join(1..98,165..248)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          5..290
+                     /region_name="cbiO"
+                     /note="cobalt transporter ATP-binding subunit;
+                     Provisional; PRK13637"
+                     /db_xref="CDD:237455"
+     SecStr          6..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          8..225
+                     /region_name="ABC_cobalt_CbiO_domain1"
+                     /note="First domain of the ATP-binding cassette component
+                     of cobalt transport system; cd03225"
+                     /db_xref="CDD:213192"
+     SecStr          11..17
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          23..35
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          37..44
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            44..51
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213192"
+     Site            order(47..48,50..52,94,172..173,206)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213192"
+     SecStr          49..57
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          64..71
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          73..76
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          88..94
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            91..94
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213192"
+     Region          99..164
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          103..106
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          107..116
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          120..134
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          141..144
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            148..157
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213192"
+     SecStr          150..162
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          167..173
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            168..173
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213192"
+     Site            176..179
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213192"
+     SecStr          180..197
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          199..205
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            202..208
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213192"
+     SecStr          207..215
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          216..223
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          224..231
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          238..246
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          251..262
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          273..285
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 mgrpmpikve nvsfiynegt pyatvalkdi nfsiddeefv giightgsgk stliqqlngl
+       61 lkpskgkiyi ngiditdkkv slkdirkqvg lvfqypeyql feetvfkdia fgpsnlglse
+      121 eevkervyea meivgiskel adkspfelsg gqkrrvaiag ilamrpkili ldeptagldp
+      181 kgkqeilnki keihdkykmi tilvshnmed iariadkiiv mnrgkielig tprevfreae
+      241 rlekiglsvp qitslarelr krgvpippdv ltieeakehi lrylrgtknv lehhhhhh
+//
+

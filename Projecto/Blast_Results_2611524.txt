@@ -297,39 +297,15 @@ Hsp num :1
 ------------------------------------------------------------------
 
 
-Hit num: 24
 
 
-Hit num: 25
 
 
-Hit num: 26
 
 
-Hit num: 27
 
 
-Hit num: 28
 
 
-Hit num: 29
-
-
-Hit num: 30
-
-
-Hit num: 31
-
-
-Hit num: 32
-
-
-Hit num: 33
-
-
-Hit num: 34
-
-
-Hit num: 35
 
 

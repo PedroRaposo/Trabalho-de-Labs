@@ -1,0 +1,174 @@
+LOCUS       3TUI_C                   366 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain C, Inward Facing Conformations Of The Metni Methionine Abc
+            Transporter: Cy5 Native Crystal Form.
+ACCESSION   3TUI_C
+VERSION     3TUI_C  GI:358439881
+DBSOURCE    pdb: molecule 3TUI, chain 67, release Dec 28, 2011;
+            deposition: Sep 16, 2011;
+            class: HydrolaseTRANSPORT PROTEIN;
+            source: Mmdb_id: 95395, Pdb_id 1: 3TUI;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 366)
+  AUTHORS   Johnson,E., Nguyen,P.T., Yeates,T.O. and Rees,D.C.
+  TITLE     Inward facing conformations of the MetNI methionine ABC
+            transporter: Implications for the mechanism of transinhibition
+  JOURNAL   Protein Sci. 21 (1), 84-96 (2012)
+   PUBMED   22095702
+REFERENCE   2  (residues 1 to 366)
+  AUTHORS   Johnson,E., Nguyen,P.T. and Rees,D.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2011)
+COMMENT     2 Methionine Import Atp-binding Protein Metn.
+FEATURES             Location/Qualifiers
+     source          1..366
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..246
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          24..366
+                     /region_name="metN"
+                     /note="DL-methionine transporter ATP-binding subunit;
+                     Provisional; PRK11153"
+                     /db_xref="CDD:236863"
+     Region          24..256
+                     /region_name="ABC_MetN_methionine_transporter"
+                     /note="ATP-binding cassette domain of methionine
+                     transporter; cd03258"
+                     /db_xref="CDD:213225"
+     SecStr          24..29
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          30..35
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          40..52
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          54..61
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            61..68
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213225"
+     Site            order(64..65,67..69,112,188..189,222)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213225"
+     SecStr          66..73
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          81..88
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          89..92
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          97..104
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          106..112
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            109..112
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213225"
+     SecStr          121..128
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          138..151
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     Site            164..173
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213225"
+     SecStr          166..178
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          183..189
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            184..189
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213225"
+     Site            192..195
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213225"
+     SecStr          196..212
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          215..222
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            218..224
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213225"
+     SecStr          232..239
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          240..246
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          247..366
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          247..254
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          258..268
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          273..280
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          289..298
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Region          290..363
+                     /region_name="NIL"
+                     /note="This domain is found at the C-terminus of ABC
+                     transporter proteins involved in D-methionine transport as
+                     well as a number of ferredoxin-like proteins; smart00930"
+                     /db_xref="CDD:197998"
+     SecStr          305..312
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          315..319
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          320..328
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          329..336
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          337..341
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          343..356
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          358..366
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+ORIGIN      
+        1 mghhhhhhhh hhssghiddd dkhmiklsni tkvfhqgtrt iqalnnvslh vpagqiygvi
+       61 gasgagkstl ircvnllerp tegsvlvdgq elttlsesel tkarrqigmi fqhfnllssr
+      121 tvfgnvalpl eldntpkdev krrvtellsl vglgdkhdsy psnlsggqkq rvaiaralas
+      181 npkvllcdqa tsaldpattr silellkdin rrlgltilli themdvvkri cdcvavisng
+      241 elieqdtvse vfshpktpla qkfiqstlhl dipedyqerl qaepftdcvp mlrleftgqs
+      301 vdapllseta rrfnvnnnii saqmdyaggv kfgimltemh gtqqdtqaai awlqehhvkv
+      361 evlgyv
+//
+

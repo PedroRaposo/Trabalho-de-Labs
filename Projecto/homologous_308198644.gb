@@ -1,0 +1,86 @@
+LOCUS       3OCO_A                   153 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, The Crystal Structure Of A Hemolysin-Like Protein
+            Containing Cbs Domain Of Oenococcus Oeni Psu.
+ACCESSION   3OCO_A
+VERSION     3OCO_A  GI:308198644
+DBSOURCE    pdb: molecule 3OCO, chain 65, release Oct 6, 2010;
+            deposition: Aug 10, 2010;
+            class: Structural Genomics, Unknown Function;
+            source: Mmdb_id: 85382, Pdb_id 1: 3OCO;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Oenococcus oeni PSU-1
+  ORGANISM  Oenococcus oeni PSU-1
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae;
+            Oenococcus.
+REFERENCE   1  (residues 1 to 153)
+  AUTHORS   Tan,K., Hatzos,C., Cobb,G. and Joachimiak,A.
+  TITLE     The Crystal Structure Of A Hemolysin-Like Protein C Cbs Domain Of
+            Oenococcus Oeni Psu
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 153)
+  AUTHORS   Tan,K., Hatzos,C., Cobb,G., Joachimiak,A., Midwest Center For
+            Struct and Genomics (Mcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..153
+                     /organism="Oenococcus oeni PSU-1"
+                     /db_xref="taxon:203123"
+     Region          join(1..31,89..153)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          10..19
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..29
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          32..88
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          34..37
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          35..140
+                     /region_name="CBS_pair_CorC_HlyC_assoc"
+                     /note="This cd contains two tandem repeats of the
+                     cystathionine beta-synthase (CBS pair) domains associated
+                     with the CorC_HlyC domain. CorC_HlyC is a transporter
+                     associated domain. This small domain is found in Na+/H+
+                     antiporters, in proteins involved in...; cd04590"
+                     /db_xref="CDD:239963"
+     SecStr          41..50
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          54..60
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          66..73
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          74..82
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          95..100
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          104..114
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          118..123
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          127..133
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          134..142
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 snadeedanf xqrafexndk vasdvxvdrt sxsvvdvdet iadalllyle eqysrfpvta
+       61 dndkdkiigy aynydivrqa riddkakist ixrdivsvpe nxkvpdvxee xsahrvpxai
+      121 videyggtsg iitdkdvyee lfgnlrdeqd ded
+//
+

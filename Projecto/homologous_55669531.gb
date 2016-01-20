@@ -1,0 +1,113 @@
+LOCUS       1OKJ_A                   251 aa            linear   BCT 23-JUL-2014
+DEFINITION  Chain A, Crystal Structure Of The Essential E. Coli Yeaz Protein By
+            Mad Method Using The Gadolinium Complex 'dotma'.
+ACCESSION   1OKJ_A
+VERSION     1OKJ_A  GI:55669531
+DBSOURCE    pdb: molecule 1OKJ, chain 65, release Jul 23, 2014;
+            deposition: Jul 26, 2003;
+            class: Hydrolase;
+            source: Mmdb_id: 29262, Pdb_id 1: 1OKJ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 251)
+  AUTHORS   Jeudy,S., Stelter,M., Coutard,B., Kahn,R. and Abergel,C.
+  TITLE     Preliminary crystallographic analysis of the Escherichia coli YeaZ
+            protein using the anomalous signal of a gadolinium derivative
+  JOURNAL   Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun. 61 (PT 9),
+            848-851 (2005)
+   PUBMED   16511176
+REFERENCE   2  (residues 1 to 251)
+  AUTHORS   Stelter,M., Molina,R., Jeudy,S., Kahn,R., Abergel,C. and
+            Hermoso,J.A.
+  TITLE     A complement to the modern crystallographer's toolbox: caged
+            gadolinium complexes with versatile binding modes
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 70 (PT 6), 1506-1516 (2014)
+   PUBMED   24914962
+REFERENCE   3  (residues 1 to 251)
+  AUTHORS   Abergel,C., Jeudy,S. and Claverie,J.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2003)
+COMMENT     1 Trna Threonylcarbamoyladenosine Biosynthesis Protein Tsab.
+FEATURES             Location/Qualifiers
+     source          1..251
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          join(1..113,210..251)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          21..28
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          23..239
+                     /region_name="T6A_YeaZ"
+                     /note="tRNA threonylcarbamoyl adenosine modification
+                     protein YeaZ; TIGR03725"
+                     /db_xref="CDD:274750"
+     SecStr          32..40
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Bond            bond(33,50)
+                     /bond_type="disulfide"
+     SecStr          41..49
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          46..>146
+                     /region_name="Peptidase_M22"
+                     /note="Glycoprotease family; pfam00814"
+                     /db_xref="CDD:250152"
+     Het             join(bond(52),bond(52),bond(52))
+                     /heterogen="(GD3,1005 )"
+     SecStr          58..69
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          77..82
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          88..105
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          107..112
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          114..209
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          114..125
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          129..138
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          140..150
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          154..157
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          160..165
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          166..175
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          179..185
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          200..203
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          215..224
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 syyhhhhhhl estslykkag lrilaidtat eacsvalwnd gtvnahfelc prehtqrilp
+       61 mvqdilttsg tsltdinala ygrgpgsftg vrigigiaqg lalgaelpmi gvstlmtmaq
+      121 gawrkngatr vlaaidarmg evywaeyqrd engiwhgeet eavlkpeivh ermqqlsgew
+      181 vtvgtgwqaw pdlgkesglv lrdgevllpa aedmlpiacq mfaegktvav ehaepvylrn
+      241 nvawkklpgk e
+//
+

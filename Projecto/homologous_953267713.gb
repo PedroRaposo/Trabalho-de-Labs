@@ -1,0 +1,126 @@
+LOCUS       5DK4_A                   329 aa            linear   BCT 13-JAN-2016
+DEFINITION  Chain A, Crystal Structure Analysis Of Tryptophanyl-trna Synthetase
+            From Bacillus Stearothermophilus In Complex With Indolmycin And
+            Mg*atp.
+ACCESSION   5DK4_A
+VERSION     5DK4_A  GI:953267713
+DBSOURCE    pdb: molecule 5DK4, chain 65, release Jan 13, 2016;
+            deposition: Sep 2, 2015;
+            class: LigaseLIGASE INHIBITOR;
+            source: Mmdb_id: 134302, Pdb_id 1: 5DK4;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus stearothermophilus
+  ORGANISM  Geobacillus stearothermophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 329)
+  AUTHORS   Williams,T.L., Yin,Y.W. and Carter CW,Jr.
+  TITLE     Selective Inhibition of Bacterial Tryptophanyl-tRNA Synthetases by
+            Indolmycin Is Mechanism-based
+  JOURNAL   J. Biol. Chem. 291 (1), 255-265 (2016)
+   PUBMED   26555258
+REFERENCE   2  (residues 1 to 329)
+  AUTHORS   Williams,T., Yin,W.Y. and Carter,C.W. Jr.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-SEP-2015)
+COMMENT     1 Tryptophan--trna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..329
+                     /organism="Geobacillus stearothermophilus"
+                     /db_xref="taxon:1422"
+     Region          join(1..194,284..329)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          3..328
+                     /region_name="PRK00927"
+                     /note="tryptophanyl-tRNA synthetase; Reviewed"
+                     /db_xref="CDD:234866"
+     SecStr          3..11
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          4..279
+                     /region_name="TrpRS_core"
+                     /note="catalytic core domain of tryptophanyl-tRNA
+                     synthetase; cd00806"
+                     /db_xref="CDD:173903"
+     Site            order(6..10,16,18..19,22,39,44,81,126,130,133,142,
+                     144..145,147..148,151,183,193..194,196)
+                     /site_type="active"
+                     /db_xref="CDD:173903"
+     SecStr          16..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            16..19
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173903"
+     SecStr          24..31
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          34..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(43,46..47,87..88,90..92,95..96,98..101,103..104,122,
+                     124..125,128..129)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173903"
+     SecStr          52..69
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          76..81
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          86..97
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          106..114
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          127..135
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          140..144
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          149..165
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          173..177
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            193..197
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173903"
+     Region          195..283
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          211..220
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          237..250
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          254..261
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          267..283
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          284..293
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          296..323
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 gxktifsgiq psgvitigny igalrqfvel qheyncyfci vdqhaitvwq dphelrqnir
+       61 rlaalylavg idptqatlfi qsevpahaqa awxlqcivyi gelerxtqfk eksagkeavs
+      121 aglltypplx aadillyntd ivpvgedqkq hieltrdlae rfnkrygelf tipearipkv
+      181 garixslvdp tkkxsksdpn pkayitlldd aktiekkiks avtdsegtir ydkeakpgis
+      241 nllniystls gqsieelerq yegkgygvfk adlaqvviet lrpiqeryhh wxeseeldrv
+      301 ldegaekanr vasexvrkxe qaxglgrrr
+//
+

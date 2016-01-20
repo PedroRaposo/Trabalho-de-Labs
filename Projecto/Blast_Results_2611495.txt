@@ -1,0 +1,470 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 168177254 
+ Accession: 3BQH_A 
+ Score: 172.94
+ E-value: 3.58188e-52
+ Identities: 80
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQH_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 168177251 
+ Accession: 3BQE_A 
+ Score: 172.94
+ E-value: 3.68834e-52
+ Identities: 80
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQE_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 168177252 
+ Accession: 3BQF_A 
+ Score: 169.474
+ E-value: 9.17716e-51
+ Identities: 79
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQF_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 168177253 
+ Accession: 3BQG_A 
+ Score: 165.622
+ E-value: 2.69719e-49
+ Identities: 78
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQG_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 20664244 
+ Accession: 1L1D_A 
+ Score: 154.836
+ E-value: 1.23786e-45
+ Identities: 72
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1L1D_A
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 261278714 
+ Accession: 3HCG_A 
+ Score: 153.68
+ E-value: 2.46013e-45
+ Identities: 71
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCG_A
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 240104356 
+ Accession: 3E0O_A 
+ Score: 152.525
+ E-value: 6.65518e-45
+ Identities: 72
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3E0O_A
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 300193109 
+ Accession: 2KZN_A 
+ Score: 152.525
+ E-value: 7.26106e-45
+ Identities: 72
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2KZN_A
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 405945116 
+ Accession: 4GWB_A 
+ Score: 150.214
+ E-value: 1.18808e-43
+ Identities: 71
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4GWB_A
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 261278718 
+ Accession: 3HCH_A 
+ Score: 149.443
+ E-value: 1.25844e-43
+ Identities: 70
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCH_A
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 134104431 
+ Accession: 2GT3_A 
+ Score: 148.288
+ E-value: 2.08656e-42
+ Identities: 77
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2GT3_A
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 240104348 
+ Accession: 3E0M_A 
+ Score: 150.599
+ E-value: 2.63737e-42
+ Identities: 68
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3E0M_A
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 240104348 
+ Accession: 3E0M_A 
+ Score: 132.494
+ E-value: 1.51483e-35
+ Identities: 65
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3E0M_A
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 371927257 
+ Accession: 2L90_A 
+ Score: 145.976
+ E-value: 1.48361e-41
+ Identities: 75
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2L90_A
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 134104507 
+ Accession: 2IEM_A 
+ Score: 144.821
+ E-value: 3.97301e-41
+ Identities: 76
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2IEM_A
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 12084654 
+ Accession: 1FF3_A 
+ Score: 144.05
+ E-value: 7.39487e-41
+ Identities: 76
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FF3_A
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 33357515 
+ Accession: 1NWA_A 
+ Score: 142.51
+ E-value: 2.72701e-40
+ Identities: 73
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1NWA_A
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 11513717 
+ Accession: 1FVG_A 
+ Score: 141.354
+ E-value: 5.23319e-40
+ Identities: 75
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FVG_A
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 11513883 
+ Accession: 1FVA_A 
+ Score: 141.739
+ E-value: 7.07871e-40
+ Identities: 78
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FVA_A
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 119390444 
+ Accession: 2J89_A 
+ Score: 140.198
+ E-value: 7.67523e-39
+ Identities: 69
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2J89_A
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 170292525 
+ Accession: 3CEZ_A 
+ Score: 129.028
+ E-value: 1.14516e-35
+ Identities: 62
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CEZ_A
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 770386242 
+ Accession: 4D7L_A 
+ Score: 126.716
+ E-value: 6.10149e-34
+ Identities: 68
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4D7L_A
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 323714534 
+ Accession: 3PIM_A 
+ Score: 120.939
+ E-value: 2.23018e-32
+ Identities: 62
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PIM_A
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 323714532 
+ Accession: 3PIL_A 
+ Score: 120.939
+ E-value: 2.24916e-32
+ Identities: 62
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PIL_A
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 323714538 
+ Accession: 3PIN_B 
+ Score: 113.62
+ E-value: 9.70215e-30
+ Identities: 60
+ Function: Electron TransportOXIDOREDUCTASE
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PIN_B
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 887492536 
+ Accession: 4W8C_A 
+ Score: 103.605
+ E-value: 1.77351e-26
+ Identities: 58
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4W8C_A
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+Hsp num :1
+ Gi: 218156826 
+ Accession: 2K8D_A 
+ Score: 102.449
+ E-value: 6.56823e-26
+ Identities: 50
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2K8D_A
+------------------------------------------------------------------
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 887492462 
+ Accession: 4U66_A 
+ Score: 103.605
+ E-value: 7.20367e-26
+ Identities: 58
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4U66_A
+------------------------------------------------------------------
+
+
+Hit num: 28
+
+Hsp num :1
+ Gi: 651207650 
+ Accession: 4LWM_A 
+ Score: 102.449
+ E-value: 2.42692e-25
+ Identities: 57
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWM_A
+------------------------------------------------------------------
+
+
+Hit num: 29
+
+Hsp num :1
+ Gi: 651207647 
+ Accession: 4LWK_A 
+ Score: 99.7525
+ E-value: 1.91942e-24
+ Identities: 57
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWK_A
+------------------------------------------------------------------
+
+
+Hit num: 30
+
+Hsp num :1
+ Gi: 651207646 
+ Accession: 4LWJ_A 
+ Score: 99.7525
+ E-value: 2.42868e-24
+ Identities: 57
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWJ_A
+------------------------------------------------------------------
+
+
+Hit num: 31
+
+Hsp num :1
+ Gi: 261278722 
+ Accession: 3HCJ_A 
+ Score: 98.2117
+ E-value: 2.5075e-24
+ Identities: 57
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCJ_A
+------------------------------------------------------------------
+
+
+Hit num: 32
+
+Hsp num :1
+ Gi: 651207649 
+ Accession: 4LWL_A 
+ Score: 97.0561
+ E-value: 1.72836e-23
+ Identities: 56
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWL_A
+------------------------------------------------------------------
+
+
+Hit num: 33
+
+Hsp num :1
+ Gi: 261278720 
+ Accession: 3HCI_A 
+ Score: 93.2041
+ E-value: 1.20788e-22
+ Identities: 56
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCI_A
+------------------------------------------------------------------
+
+
+Hit num: 34
+
+Hsp num :1
+ Gi: 303324721 
+ Accession: 2L1U_A 
+ Score: 88.5817
+ E-value: 3.87017e-21
+ Identities: 51
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2L1U_A
+------------------------------------------------------------------
+
+
+
+Hit num: 36
+
+Hsp num :1
+ Gi: 293652063 
+ Accession: 3MAO_A 
+ Score: 50.0618
+ E-value: 1.13518e-07
+ Identities: 31
+ Function: Oxidoreductase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3MAO_A
+------------------------------------------------------------------
+
+
+
+
+
+

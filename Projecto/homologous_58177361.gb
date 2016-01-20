@@ -1,0 +1,78 @@
+LOCUS       1XJS_A                   147 aa            linear   BCT 09-OCT-2012
+DEFINITION  Chain A, Solution Structure Of Iron-Sulfur Cluster Assembly Protein
+            Iscu From Bacillus Subtilis, With Zinc Bound At The Active Site.
+            Northeast Structural Genomics Consortium Target Sr17.
+ACCESSION   1XJS_A
+VERSION     1XJS_A  GI:58177361
+DBSOURCE    pdb: molecule 1XJS, chain 65, release Oct 6, 2012;
+            deposition: Sep 24, 2004;
+            class: Structural Genomics, Unknown Function;
+            source: Mmdb_id: 31108, Pdb_id 1: 1XJS;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 147)
+  AUTHORS   Kornhaber,G.J., Swapna,G.V.T., Ramelot,T.A., Cort,J.R.,
+            Kennedy,M.A. and Montelione,G.T.
+  TITLE     Solution Structure Of Iron-Sulfur Cluster Assembly Protein Iscu
+            From Bacillus Subtilis, With Zinc Bound At The Active Site.
+            Northeast Structural Genomics Consortium Target Sr17
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 147)
+  AUTHORS   Kornhaber,G.J., Swapna,G.V.T., Ramelot,T.A., Cort,J.R.,
+            Kennedy,M.A., Montelione,G.T., Northeast Structural Genomics
+            Consortium and (Nesg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-SEP-2004)
+COMMENT     1 Nifu-like Protein.
+FEATURES             Location/Qualifiers
+     source          1..147
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     SecStr          8..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          10..138
+                     /region_name="IscU_like"
+                     /note="Iron-sulfur cluster scaffold-like proteins;
+                     cd06664"
+                     /db_xref="CDD:143480"
+     Site            order(10..13,16..17,41..42,66,68,124..125,127..128)
+                     /site_type="other"
+                     /note="trimerization site [polypeptide binding]"
+                     /db_xref="CDD:143480"
+     SecStr          31..39
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Het             join(bond(41),bond(43),bond(43),bond(66),bond(128),
+                     bond(43))
+                     /heterogen="( ZN,1000 )"
+     Site            order(41,66,128)
+                     /site_type="active"
+                     /db_xref="CDD:143480"
+     SecStr          42..53
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          54..65
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          69..82
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          85..97
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          111..119
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          126..138
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 msfnanldtl yrqvimdhyk nprnkgvlnd sivvdmnnpt cgdrirltmk ldgdivedak
+       61 fegegcsism asasmmtqai kgkdietals mskifsdmmq gkeyddsidl gdiealqgvs
+      121 kfparikcat lswkalekgv akeeggn
+//
+

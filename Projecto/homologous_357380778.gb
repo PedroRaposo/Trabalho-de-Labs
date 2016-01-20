@@ -1,0 +1,121 @@
+LOCUS       3UCA_A                   324 aa            linear   BCT 10-APR-2013
+DEFINITION  Chain A, Crystal Structure Of Isoprenoid Synthase (target
+            Efi-501974) From Clostridium Perfringens.
+ACCESSION   3UCA_A
+VERSION     3UCA_A  GI:357380778
+DBSOURCE    pdb: molecule 3UCA, chain 65, release Apr 10, 2013;
+            deposition: Oct 26, 2011;
+            class: Transferase;
+            source: Mmdb_id: 95112, Pdb_id 1: 3UCA;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Clostridium perfringens
+  ORGANISM  Clostridium perfringens
+            Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae;
+            Clostridium.
+REFERENCE   1  (residues 1 to 324)
+  AUTHORS   Wallrapp,F.H., Pan,J.J., Ramamoorthy,G., Almonacid,D.E.,
+            Hillerich,B.S., Seidel,R., Patskovsky,Y., Babbitt,P.C., Almo,S.C.,
+            Jacobson,M.P. and Poulter,C.D.
+  TITLE     Prediction of function for the polyprenyl transferase subgroup in
+            the isoprenoid synthase superfamily
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 110 (13), E1196-E1202 (2013)
+   PUBMED   23493556
+REFERENCE   2  (residues 1 to 324)
+  AUTHORS   Patskovsky,Y., Toro,R., Bhosle,R., Hillerich,B., Seidel,R.D.,
+            Washin,E., Scott Glenn,A., Chowdhury,S., Evans,B., Hammonds,J.,
+            Zencheck,W.D., H, Poulter,C.D., Gerlt,J.A., Almo,S.C. and Enzyme
+            Function Initiative (.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-OCT-2011)
+COMMENT     1 Geranyltranstransferase.
+FEATURES             Location/Qualifiers
+     source          1..324
+                     /organism="Clostridium perfringens"
+                     /db_xref="taxon:1502"
+     SecStr          37..52
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          59..322
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          60..71
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          77..87
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          97..114
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(106,109..111,113..115,119..120,125..126,186,189,
+                     210..211,214,251..252,255,265,270,275)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            order(109..116,119..120)
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(114..115,120,125..126,189,210,251..252,255,265,270,
+                     275)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(114..115,120,125..126,210,251..252)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(114..115,120,125..126,189,210)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(122..136,258..259,265..270,273..277)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          123..126
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          127..130
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          138..162
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          163..177
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          182..192
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          200..211
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          212..224
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          230..256
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(251..252,255,265,270,275)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          284..304
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          310..321
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mhhhhhhssg vdlgtenlyf qsmmkkrktl edtamninsl keevdqslka yfnkdreynk
+       61 vlydsmaysi nvggkrirpi lmllsyyiyk sdykkiltpa maiemihtys lihddlpcmd
+      121 nddlrrgkpt nhkvfgeaia vlagdallne amkilvdysl eegksalkat kiiadaagsd
+      181 gmiggqivdi inedkeeisl keldymhlkk tgelikasim sgavlaease gdikklegfg
+      241 yklglafqik ddildvvgna kdlgknvhkd qesnknnyit ifgleeckkk cvniteecie
+      301 ilssikgnte plkvltmkll erkf
+//
+

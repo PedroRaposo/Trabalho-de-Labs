@@ -1,0 +1,230 @@
+LOCUS       1NJ1_A                   501 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Prolyl-Trna Synthetase From
+            Methanothermobacter Thermautotrophicus Bound To Cysteine Sulfamoyl
+            Adenylate.
+ACCESSION   1NJ1_A
+VERSION     1NJ1_A  GI:28948883
+DBSOURCE    pdb: molecule 1NJ1, chain 65, release Sep 22, 2012;
+            deposition: Dec 30, 2002;
+            class: Ligase;
+            source: Mmdb_id: 22133, Pdb_id 1: 1NJ1;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanothermobacter thermautotrophicus
+  ORGANISM  Methanothermobacter thermautotrophicus
+            Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales;
+            Methanobacteriaceae; Methanothermobacter.
+REFERENCE   1  (residues 1 to 501)
+  AUTHORS   Kamtekar,S., Kennedy,W.D., Wang,J., Stathopoulos,C., Soll,D. and
+            Steitz,T.A.
+  TITLE     The structural basis of cysteine aminoacylation of tRNAPro by
+            prolyl-tRNA synthetases
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 100 (4), 1673-1678 (2003)
+   PUBMED   12578991
+REFERENCE   2  (residues 1 to 501)
+  AUTHORS   Kamtekar,S., Kennedy,W.D., Wang,J., Stathopoulos,C., Soll,D. and
+            Stei,T.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-DEC-2002)
+COMMENT     1 Proline-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..501
+                     /organism="Methanothermobacter thermautotrophicus"
+                     /db_xref="taxon:145262"
+     Region          1..87
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          33..501
+                     /region_name="proS_fam_I"
+                     /note="prolyl-tRNA synthetase, family I; TIGR00408"
+                     /db_xref="CDD:273062"
+     Region          39..299
+                     /region_name="ProRS_core_arch_euk"
+                     /note="Prolyl-tRNA synthetase (ProRS) class II core
+                     catalytic domain. ProRS is a homodimer. It is responsible
+                     for the attachment of proline to the 3' OH group of ribose
+                     of the appropriate tRNA. This domain is primarily
+                     responsible for ATP-dependent formation of...; cd00778"
+                     /db_xref="CDD:238401"
+     SecStr          42..51
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          53..56
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(55,57,65..68,75,91..93,95..96,117,119..123,145,165,
+                     182)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238401"
+     SecStr          64..67
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          68..85
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          join(88..94,140..299)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Site            89..96
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238401"
+     SecStr          89..92
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          95..139
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          96..100
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          118..124
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          125..128
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          131..135
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            order(137,139,168,170,178..180,183,186,188,252,254..255,
+                     257,285..287,289,291)
+                     /site_type="active"
+                     /db_xref="CDD:238401"
+     SecStr          143..150
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          157..163
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          164..168
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            167..170
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238401"
+     SecStr          181..185
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          186..194
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          196..217
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          221..226
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          236..246
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          248..260
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          261..268
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          269..274
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          275..290
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            287..291
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238401"
+     SecStr          291..299
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          300..430
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          300..303
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          304..307
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Region          305..501
+                     /region_name="ProRS_anticodon_zinc"
+                     /note="ProRS Prolyl-anticodon binding domain, long version
+                     found predominantly in eukaryotes and archaea. ProRS
+                     belongs to class II aminoacyl-tRNA synthetases (aaRS).
+                     This alignment contains the anticodon binding domain,
+                     which is responsible for specificity in...; cd00862"
+                     /db_xref="CDD:238439"
+     SecStr          316..322
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Site            order(322..323,363,369,377,387,389)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:238439"
+     SecStr          328..345
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          348..352
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          358..368
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          371..376
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          377..384
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          385..392
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          393..401
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          405..430
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          431..501
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          431..434
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          437..446
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          449..456
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     Site            order(456,461,484,487)
+                     /site_type="other"
+                     /note="zinc-binding site [ion binding]"
+                     /db_xref="CDD:238439"
+     Het             join(bond(456),bond(461),bond(484),bond(487))
+                     /heterogen="( ZN,1000 )"
+     SecStr          459..469
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Het             join(bond(466),bond(472))
+                     /heterogen="( MG,1001 )"
+     SecStr          471..478
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          492..499
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+ORIGIN      
+        1 mgsshhhhhh ssglvprgsh mqkpikkdpn ryhgekmtef sewfhnilee aeiidqrypv
+       61 kgmhvwmphg fmirkntlki lrrildrdhe evlfpllvpe delakeaihv kgfedevywv
+      121 thgglsklqr klalrptset vmypmfalwv rshtdlpmrf yqvvntfrye tkhtrplirv
+      181 reittfkeah tihataseae eqveraveiy keffnslgip ylitrrppwd kfpgseytva
+      241 fdtlmpdgkt lqigtvhnlg qtfartfeik fetpegdhey vhqtcyglsd rviasviaih
+      301 gdesglclpp dvaahqvviv piifkkaaee vmeacrelrs rleaagfrvh lddrdiragr
+      361 kyyewemrgv plrveigprd lekgaavisr rdtgekvtad lqgieetlre lmkdilenlr
+      421 trawermese ireaetleea srivdekrgi isfmwcgeee cgmdveekvr vdilgiqeeg
+      481 sgtcincgre apyraylart y
+//
+

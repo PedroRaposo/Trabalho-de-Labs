@@ -1,0 +1,222 @@
+LOCUS       1V9P_A                   584 aa            linear   BCT 27-DEC-2012
+DEFINITION  Chain A, Crystal Structure Of Nad+-Dependent Dna Ligase.
+ACCESSION   1V9P_A
+VERSION     1V9P_A  GI:47169437
+DBSOURCE    pdb: molecule 1V9P, chain 65, release Dec 7, 2012;
+            deposition: Jan 27, 2004;
+            class: Ligase;
+            source: Mmdb_id: 27170, Pdb_id 1: 1V9P;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus filiformis
+  ORGANISM  Thermus filiformis
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 584)
+  AUTHORS   Lee,J.Y., Chang,C., Song,H.K., Moon,J., Yang,J.K., Kim,H.K.,
+            Kwon,S.T. and Suh,S.W.
+  TITLE     Crystal structure of NAD(+)-dependent DNA ligase: modular
+            architecture and functional implications
+  JOURNAL   EMBO J. 19 (5), 1119-1129 (2000)
+   PUBMED   10698952
+REFERENCE   2  (residues 1 to 584)
+  AUTHORS   Lee,J.Y., Chang,C., Song,H.K., Moon,J., Yang,J.K., Kim,H.K.,
+            Kwon,S.K. and Suh,S.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JAN-2004)
+COMMENT     1 Dna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..584
+                     /organism="Thermus filiformis"
+                     /db_xref="taxon:276"
+     SecStr          3..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          6..446
+                     /region_name="LIGANc"
+                     /note="Ligase N family; smart00532"
+                     /db_xref="CDD:214709"
+     Region          8..318
+                     /region_name="LIGANc"
+                     /note="NAD+ dependent DNA ligase adenylation domain. DNA
+                     ligases catalyze the crucial step of joining the breaks in
+                     duplex DNA during DNA replication, repair and
+                     recombination, utilizing either ATP or NAD(+) as a
+                     cofactor, but using the same basic reaction...; cd00114"
+                     /db_xref="CDD:238062"
+     SecStr          34..51
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          74..78
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          join(83..119,236..318)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Site            order(85,116,118,139,174,226,289,291)
+                     /site_type="other"
+                     /note="nucleotide binding pocket [chemical binding]"
+                     /db_xref="CDD:238062"
+     SecStr          86..89
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          92..102
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          111..118
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(118,120..121)
+                     /site_type="other"
+                     /note="K-X-D-G motif"
+                     /db_xref="CDD:238062"
+     Site            118
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:238062"
+     Region          120..235
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          121..130
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          132..141
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          143..149
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          167..177
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          179..192
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          200..208
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          221..230
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          240..250
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          257..263
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          264..276
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          286..293
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          301..305
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          306..310
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          311..316
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Region          319..429
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          320..325
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Region          321..402
+                     /region_name="DNA_ligase_OB"
+                     /note="NAD-dependent DNA ligase OB-fold domain; pfam03120"
+                     /db_xref="CDD:145978"
+     SecStr          326..334
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          336..345
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          346..350
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          351..359
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          362..369
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          373..381
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          385..392
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     Region          408..432
+                     /region_name="DNA_ligase_ZBD"
+                     /note="NAD-dependent DNA ligase C4 zinc finger domain;
+                     pfam03119"
+                     /db_xref="CDD:251739"
+     Het             join(bond(409),bond(412),bond(425),bond(430))
+                     /heterogen="( ZN,1000 )"
+     SecStr          416..420
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          421..425
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     Region          430..502
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          434..442
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          440..500
+                     /region_name="HHH_5"
+                     /note="Helix-hairpin-helix domain; pfam14520"
+                     /db_xref="CDD:258660"
+     SecStr          454..463
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          488..500
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          505..513
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          508..571
+                     /region_name="ENDO3c"
+                     /note="endonuclease III; includes endonuclease III
+                     (DNA-(apurinic or apyrimidinic site) lyase), alkylbase DNA
+                     glycosidases (Alka-family) and other DNA glycosidases;
+                     cl22429"
+                     /db_xref="CDD:277562"
+     SecStr          520..530
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          532..584
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          532..539
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          540..547
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          552..564
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          565..577
+                     /sec_str_type="helix"
+                     /note="helix 17"
+ORIGIN      
+        1 mtreearrri nelrdliryh nyryyvladp eisdaeydrl lrelkeleer fpefkspdsp
+       61 teqvgarple ptfrpvrhpt rmysldnaft yeevlafeer leralgrkrp flytvehkvd
+      121 glsvnlyyee gvlvfgatrg dgevgeevtq nlltiptipr rlkgvpdrle vrgevympie
+      181 aflrlneele ergekvfknp rnaaagslrq kdprvtakrg lratfyalgl gleesglksq
+      241 yelllwlkek gfpvehgyek algaegveev yrrflaqrha lpfeadgvvv klddlalwre
+      301 lgytaraprf alaykfpaee ketrlldvvf qvgrtgrvtp vgvlepvfie gsevsrvtlh
+      361 nesyieeldi rigdwvlvhk aggvipevlr vlkerrtgee rpirwpetcp ecghrlvkeg
+      421 kvhrcpnplc pakrfeairh yasrkamdie glgeklierl lekglvrdva dlyhlrkedl
+      481 lglermgeks aqnllrqiee skhrglerll yalglpgvge vlarnlarrf gtmdrlleas
+      541 leelleveev geltaraile tlkdpafrdl vrrlkeagvs mesk
+//
+

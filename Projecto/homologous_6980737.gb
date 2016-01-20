@@ -1,0 +1,163 @@
+LOCUS       1B57_A                   358 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Class Ii Fructose-1,6-Bisphosphate Aldolase In Complex
+            With Phosphoglycolohydroxamate.
+ACCESSION   1B57_A
+VERSION     1B57_A  GI:6980737
+DBSOURCE    pdb: molecule 1B57, chain 65, release Aug 27, 2007;
+            deposition: Jan 12, 1999;
+            class: Lyase;
+            source: Mmdb_id: 12484, Pdb_id 1: 1B57;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 358)
+  AUTHORS   Blom,N.S., Tetreault,S., Coulombe,R. and Sygusch,J.
+  TITLE     Novel active site in Escherichia coli fructose 1,6-bisphosphate
+            aldolase
+  JOURNAL   Nat. Struct. Biol. 3 (10), 856-862 (1996)
+   PUBMED   8836102
+REFERENCE   2  (residues 1 to 358)
+  AUTHORS   Cooper,S.J., Leonard,G.A., McSweeney,S.M., Thompson,A.W.,
+            Naismith,J.H., Qamar,S., Plater,A., Berry,A. and Hunter,W.N.
+  TITLE     The crystal structure of a class II fructose-1,6-bisphosphate
+            aldolase shows a novel binuclear metal-binding active site embedded
+            in a familiar fold
+  JOURNAL   Structure 4 (11), 1303-1315 (1996)
+   PUBMED   8939754
+REFERENCE   3  (residues 1 to 358)
+  AUTHORS   Plater,A.R., Zgiby,S.M., Thomson,G.J., Qamar,S., Wharton,C.W. and
+            Berry,A.
+  TITLE     Conserved residues in the mechanism of the E. coli Class II
+            FBP-aldolase
+  JOURNAL   J. Mol. Biol. 285 (2), 843-855 (1999)
+   PUBMED   9878448
+REFERENCE   4  (residues 1 to 358)
+  AUTHORS   Hall,D.R., Leonard,G.A., Reed,C.D., Watt,C.I., Berry,A. and
+            Hunter,W.N.
+  TITLE     The crystal structure of Escherichia coli class II fructose-1,
+            6-bisphosphate aldolase in complex with phosphoglycolohydroxamate
+            reveals details of mechanism and specificity
+  JOURNAL   J. Mol. Biol. 287 (2), 383-394 (1999)
+   PUBMED   10080900
+REFERENCE   5  (residues 1 to 358)
+  AUTHORS   Hall,D.R. and Hunter,W.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JAN-1999)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..358
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Het             bond(1)
+                     /heterogen="( ZN, 363 )"
+     SecStr          9..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          14..358
+                     /region_name="FBP_aldolase_IIA"
+                     /note="Class II Type A, Fructose-1,6-bisphosphate (FBP)
+                     aldolases. The enzyme catalyses the zinc-dependent,
+                     reversible aldol condensation of dihydroxyacetone
+                     phosphate with glyceraldehyde-3-phosphate to form
+                     fructose-1,6-bisphosphate. FBP aldolase is...; cd00946"
+                     /db_xref="CDD:238476"
+     SecStr          16..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          30..36
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(35,109..110,144,174,176,179..182,225..227,229,
+                     264..265,267,286,288..289)
+                     /site_type="active"
+                     /db_xref="CDD:238476"
+     Site            order(38..40,43,64,67..69,88,92,95..96,182,289..290,
+                     292..293,296,300,303)
+                     /site_type="other"
+                     /note="intersubunit interface [polypeptide binding]"
+                     /db_xref="CDD:238476"
+     SecStr          39..52
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          55..61
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          62..69
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          80..96
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Het             join(bond(91),bond(129))
+                     /heterogen="( ZN, 362 )"
+     SecStr          102..113
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(110,144,174,181,226,264)
+                     /site_type="other"
+                     /note="zinc binding site [ion binding]"
+                     /db_xref="CDD:238476"
+     Het             join(bond(110),bond(226),bond(264))
+                     /heterogen="( ZN, 360 )"
+     SecStr          117..132
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          139..145
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Het             join(bond(144),bond(174),bond(181))
+                     /heterogen="( ZN, 361 )"
+     SecStr          150..164
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          169..176
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          199..209
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          215..221
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            order(225,227,229,265,267)
+                     /site_type="other"
+                     /note="Na+ binding site [ion binding]"
+                     /db_xref="CDD:238476"
+     Het             join(bond(225),bond(227),bond(265),bond(267))
+                     /heterogen="( NA, 364 )"
+     SecStr          239..252
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          260..265
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          271..280
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          281..288
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          289..306
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          314..317
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          318..321
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          331..352
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 skifdfvkpg vitgddvqkv fqvakennfa lpavncvgtd sinavletaa kvkapvivqf
+       61 snggasfiag kgvksdvpqg aailgaisga hhvhqmaehy gvpvilhtdh cakkllpwid
+      121 glldagekhf aatgkplfss hmidlseesl qenieicsky lermskigmt leielgctgg
+      181 eedgvdnshm dasalytqpe dvdyaytels kisprftiaa sfgnvhgvyk pgnvvltpti
+      241 lrdsqeyvsk khnlphnsln fvfhggsgst aqeikdsvsy gvvkmnidtd tqwatwegvl
+      301 nyykaneayl qgqlgnpkge dqpnkkyydp rvwlragqts miarlekafq elnaidvl
+//
+

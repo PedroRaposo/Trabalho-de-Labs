@@ -1,0 +1,121 @@
+LOCUS       2ONK_C                   284 aa            linear   BCT 26-NOV-2012
+DEFINITION  Chain C, Abc Transporter Modbc In Complex With Its Binding Protein
+            Moda.
+ACCESSION   2ONK_C
+VERSION     2ONK_C  GI:134105247
+DBSOURCE    pdb: molecule 2ONK, chain 67, release Nov 16, 2012;
+            deposition: Jan 24, 2007;
+            class: Membrane Protein;
+            source: Mmdb_id: 44742, Pdb_id 1: 2ONK;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Archaeoglobus fulgidus
+  ORGANISM  Archaeoglobus fulgidus
+            Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales;
+            Archaeoglobaceae; Archaeoglobus.
+REFERENCE   1  (residues 1 to 284)
+  AUTHORS   Hollenstein,K., Frei,D.C. and Locher,K.P.
+  TITLE     Structure of an ABC transporter in complex with its binding protein
+  JOURNAL   Nature 446 (7132), 213-216 (2007)
+   PUBMED   17322901
+REFERENCE   2  (residues 1 to 284)
+  AUTHORS   Hollenstein,K., Frei,D.C. and Locher,K.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-JAN-2007)
+COMMENT     2 Molybdate/tungstate Abc Transporter, Permease Protein.
+FEATURES             Location/Qualifiers
+     source          1..284
+                     /organism="Archaeoglobus fulgidus"
+                     /db_xref="taxon:2234"
+     Region          join(1..68,250..284)
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          26..42
+                     /sec_str_type="helix"
+                     /note="helix 37"
+     Region          42..282
+                     /region_name="CysU"
+                     /note="ABC-type sulfate transport system, permease
+                     component [Inorganic ion transport and metabolism];
+                     COG0555"
+                     /db_xref="CDD:223629"
+     SecStr          43..52
+                     /sec_str_type="helix"
+                     /note="helix 38"
+     SecStr          58..68
+                     /sec_str_type="helix"
+                     /note="helix 39"
+     Region          69..249
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          69..90
+                     /sec_str_type="helix"
+                     /note="helix 40"
+     Region          75..268
+                     /region_name="TM_PBP2"
+                     /note="Transmembrane subunit (TM) found in Periplasmic
+                     Binding Protein (PBP)-dependent ATP-Binding Cassette (ABC)
+                     transporters which generally bind type 2 PBPs. These types
+                     of transporters consist of a PBP, two TMs, and two
+                     cytoplasmic ABC ATPase subunits, and...; cd06261"
+                     /db_xref="CDD:119394"
+     Site            order(90..91,94..95,100,110..113,115..124,127..128,130,
+                     159..160,162,164,167..168,170,175..176,179,196,210..211,
+                     214,221..224,227..228,241..242,252..253,256..257,259..260,
+                     263..264,267..268)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:119394"
+     SecStr          93..100
+                     /sec_str_type="helix"
+                     /note="helix 41"
+     SecStr          107..115
+                     /sec_str_type="helix"
+                     /note="helix 42"
+     Site            order(116..130,221..226)
+                     /site_type="other"
+                     /note="conserved gate region"
+                     /db_xref="CDD:119394"
+     SecStr          122..133
+                     /sec_str_type="helix"
+                     /note="helix 43"
+     Site            order(130,154,227,239,242,252)
+                     /site_type="other"
+                     /note="putative PBP binding loops"
+                     /db_xref="CDD:119394"
+     SecStr          151..162
+                     /sec_str_type="helix"
+                     /note="helix 44"
+     SecStr          163..175
+                     /sec_str_type="helix"
+                     /note="helix 45"
+     Site            order(180..192,198..199,203)
+                     /site_type="other"
+                     /note="ABC-ATPase subunit interface"
+                     /db_xref="CDD:119394"
+     SecStr          180..188
+                     /sec_str_type="helix"
+                     /note="helix 46"
+     SecStr          191..199
+                     /sec_str_type="helix"
+                     /note="helix 47"
+     SecStr          205..221
+                     /sec_str_type="helix"
+                     /note="helix 48"
+     SecStr          223..230
+                     /sec_str_type="helix"
+                     /note="helix 49"
+     SecStr          236..246
+                     /sec_str_type="helix"
+                     /note="helix 50"
+     SecStr          253..273
+                     /sec_str_type="helix"
+                     /note="helix 51"
+ORIGIN      
+        1 mghhhhhhhh hhssgenlyf qghmrllfsa llallssiil lfvllpvaat vtlqlfnfde
+       61 flkaasdpav wkvvlttyya alistliavi fgtplayila rksfpgksvv egivdlpvvi
+      121 phtvagiall vvfgssglig sfsplkfvda lpgivvamlf vsvpiyinqa kegfasvdvr
+      181 lehvartlgs splrvfftvs lplsvrhiva gaimswargi sefgavvvia yypmiaptli
+      241 yerylsegls aampvaaili llslavfval riivgredvs egqg
+//
+
