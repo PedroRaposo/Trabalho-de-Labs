@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 2.15594e-131
  Identities: 209
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1IRX_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/20663866
 ------------------------------------------------------------------
 
 

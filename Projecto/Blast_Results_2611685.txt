@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 8.54672e-29
  Identities: 78
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FVY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126030485
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 9.49045e-29
  Identities: 78
  Function: Sugar Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2IPM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579687
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 1.0056e-28
  Identities: 78
  Function: Sugar Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2HPH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579532
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 2.47436e-28
  Identities: 78
  Function: Sugar Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2IPN_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579688
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 5.11818e-28
  Identities: 77
  Function: Periplasmic Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GBP_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157836810
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 5.56436e-28
  Identities: 77
  Function: Galactose-Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1GCA_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157831160
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 1.3743e-27
  Identities: 77
  Function: Sugar Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2IPL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579686
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 2.29932e-23
  Identities: 79
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4Z0N_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/808043242
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 1.59272e-08
  Identities: 32
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4RSM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/731188042
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 5.56471e-07
  Identities: 33
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4RS3_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/723586979
 ------------------------------------------------------------------
 
 
@@ -138,7 +138,7 @@ Hsp num :1
  E-value: 0.031735
  Identities: 52
  Function: Solute Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4YO7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/783283399
 ------------------------------------------------------------------
 
 

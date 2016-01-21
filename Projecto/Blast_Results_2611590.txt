@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.30933e-79
  Identities: 109
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VS5_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/116666568
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 2.06133e-78
  Identities: 109
  Function: Ribosomal Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4TOI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/742261432
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 2.84573e-78
  Identities: 108
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1P87_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/33357956
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 6.84568e-77
  Identities: 106
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2GY9_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/116667411
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 4.22271e-76
  Identities: 106
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FIH_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/224510723
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 4.49911e-76
  Identities: 106
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J4V_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/557804006
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 6.70337e-75
  Identities: 105
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FJG_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/10835586
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 7.0099e-75
  Identities: 105
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1I94_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/14278531
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 8.6389e-75
  Identities: 105
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4YHH_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/806394373
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 9.10933e-75
  Identities: 105
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2E5L_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/149241276
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 2.00546e-74
  Identities: 105
  Function: RibosomeANTIBIOTIC
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4X62_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/953267431
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 1.54569e-73
  Identities: 104
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1PNS_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34811530
 ------------------------------------------------------------------
 
 
@@ -163,7 +163,7 @@ Hsp num :1
  E-value: 1.64702e-73
  Identities: 104
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FIC_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/224510685
 ------------------------------------------------------------------
 
 
@@ -176,7 +176,7 @@ Hsp num :1
  E-value: 2.23553e-69
  Identities: 103
  Function: Structural ProteinRNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1X18_E
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/73536330
 ------------------------------------------------------------------
 
 
@@ -189,7 +189,7 @@ Hsp num :1
  E-value: 8.66142e-60
  Identities: 91
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BBN_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188036203
 ------------------------------------------------------------------
 
 
@@ -202,7 +202,7 @@ Hsp num :1
  E-value: 6.33047e-27
  Identities: 67
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J6V_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/657231756
 ------------------------------------------------------------------
 
 
@@ -215,7 +215,7 @@ Hsp num :1
  E-value: 3.83206e-23
  Identities: 63
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5AJ3_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/810516681
 ------------------------------------------------------------------
 
 
@@ -228,7 +228,7 @@ Hsp num :1
  E-value: 9.84044e-16
  Identities: 61
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VI6_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/40889982
 ------------------------------------------------------------------
 
 
@@ -241,7 +241,7 @@ Hsp num :1
  E-value: 4.75173e-15
  Identities: 60
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VI5_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/40889978
 ------------------------------------------------------------------
 
 
@@ -254,7 +254,7 @@ Hsp num :1
  E-value: 9.312e-13
  Identities: 55
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J20_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/428697927
 ------------------------------------------------------------------
 
 
@@ -267,7 +267,7 @@ Hsp num :1
  E-value: 6.44996e-12
  Identities: 50
  Function: RibosomeINHIBITOR
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J7A_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/665764124
 ------------------------------------------------------------------
 
 
@@ -280,7 +280,7 @@ Hsp num :1
  E-value: 4.11642e-09
  Identities: 55
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2XZM_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/319443357
 ------------------------------------------------------------------
 
 
@@ -293,7 +293,7 @@ Hsp num :1
  E-value: 1.75904e-08
  Identities: 49
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3JYV_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/281500808
 ------------------------------------------------------------------
 
 
@@ -306,7 +306,7 @@ Hsp num :1
  E-value: 2.1816e-08
  Identities: 49
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1S1H_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49258822
 ------------------------------------------------------------------
 
 
@@ -319,7 +319,7 @@ Hsp num :1
  E-value: 2.18212e-08
  Identities: 49
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3IZB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/313103664
 ------------------------------------------------------------------
 
 
@@ -332,7 +332,7 @@ Hsp num :1
  E-value: 2.20344e-08
  Identities: 49
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4UJF_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/699027831
 ------------------------------------------------------------------
 
 
@@ -345,7 +345,7 @@ Hsp num :1
  E-value: 2.21075e-08
  Identities: 49
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4CUY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/635575167
 ------------------------------------------------------------------
 
 
@@ -358,7 +358,7 @@ Hsp num :1
  E-value: 3.27079e-08
  Identities: 53
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ZEY_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/449802196
 ------------------------------------------------------------------
 
 
@@ -371,7 +371,7 @@ Hsp num :1
  E-value: 1.52654e-07
  Identities: 49
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J80_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/704360238
 ------------------------------------------------------------------
 
 
@@ -384,7 +384,7 @@ Hsp num :1
  E-value: 5.61126e-06
  Identities: 46
  Function: Ribosome
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3J60_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/582044882
 ------------------------------------------------------------------
 
 

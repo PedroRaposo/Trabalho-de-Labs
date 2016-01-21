@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 5.48936e-147
  Identities: 207
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4OQF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/770386257
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 1.02332e-146
  Identities: 207
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4PO1_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/770386296
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 3.50255e-145
  Identities: 205
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1UBC_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34811308
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 4.80928e-145
  Identities: 206
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G18_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/12084113
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 1.32001e-144
  Identities: 204
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZR0_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/217035313
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 2.06162e-144
  Identities: 204
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZRC_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/217035318
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 2.73524e-144
  Identities: 204
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZRH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/217035323
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 1.29177e-137
  Identities: 203
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HR8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/297787594
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 1.86939e-136
  Identities: 194
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1U94_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/55670286
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 2.44066e-136
  Identities: 194
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1N03_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/28948687
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 2.52463e-136
  Identities: 194
  Function: Helicase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2REC_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2098390
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 2.96736e-126
  Identities: 195
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMV_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -160,7 +160,7 @@ Hsp num :2
  E-value: 3.02874e-126
  Identities: 194
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMV_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
 ------------------------------------------------------------------
 
 Hsp num :3
@@ -170,7 +170,7 @@ Hsp num :3
  E-value: 3.02874e-126
  Identities: 194
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMV_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
 ------------------------------------------------------------------
 
 Hsp num :4
@@ -180,7 +180,7 @@ Hsp num :4
  E-value: 1.15411e-114
  Identities: 175
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMV_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
 ------------------------------------------------------------------
 
 
@@ -193,7 +193,7 @@ Hsp num :1
  E-value: 3.47452e-125
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -203,7 +203,7 @@ Hsp num :2
  E-value: 3.47452e-125
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
 ------------------------------------------------------------------
 
 Hsp num :3
@@ -213,7 +213,7 @@ Hsp num :3
  E-value: 3.47452e-125
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
 ------------------------------------------------------------------
 
 Hsp num :4
@@ -223,7 +223,7 @@ Hsp num :4
  E-value: 3.47452e-125
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
 ------------------------------------------------------------------
 
 Hsp num :5
@@ -233,7 +233,7 @@ Hsp num :5
  E-value: 5.04253e-114
  Identities: 175
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
 ------------------------------------------------------------------
 
 
@@ -246,7 +246,7 @@ Hsp num :1
  E-value: 1.03121e-124
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -256,7 +256,7 @@ Hsp num :2
  E-value: 1.03121e-124
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
 ------------------------------------------------------------------
 
 Hsp num :3
@@ -266,7 +266,7 @@ Hsp num :3
  E-value: 1.03121e-124
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
 ------------------------------------------------------------------
 
 Hsp num :4
@@ -276,7 +276,7 @@ Hsp num :4
  E-value: 1.03121e-124
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
 ------------------------------------------------------------------
 
 Hsp num :5
@@ -286,7 +286,7 @@ Hsp num :5
  E-value: 1.03121e-124
  Identities: 194
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
 ------------------------------------------------------------------
 
 Hsp num :6
@@ -296,7 +296,7 @@ Hsp num :6
  E-value: 1.31626e-113
  Identities: 176
  Function: RecombinationDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CMU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
 ------------------------------------------------------------------
 
 
@@ -309,7 +309,7 @@ Hsp num :1
  E-value: 5.24807e-122
  Identities: 189
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1XP8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/58177549
 ------------------------------------------------------------------
 
 
@@ -323,7 +323,7 @@ Hsp num :1
  E-value: 1.51946e-07
  Identities: 58
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2DFL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126030236
 ------------------------------------------------------------------
 
 
@@ -336,7 +336,7 @@ Hsp num :1
  E-value: 6.90738e-07
  Identities: 53
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2CVF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/75766445
 ------------------------------------------------------------------
 
 
@@ -349,7 +349,7 @@ Hsp num :1
  E-value: 7.21045e-07
  Identities: 58
  Function: Dna-Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2BKE_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/62738997
 ------------------------------------------------------------------
 
 
@@ -362,7 +362,7 @@ Hsp num :1
  E-value: 1.67717e-06
  Identities: 62
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3IO5_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/304445772
 ------------------------------------------------------------------
 
 
@@ -375,7 +375,7 @@ Hsp num :1
  E-value: 1.72999e-05
  Identities: 52
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1V5W_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49259489
 ------------------------------------------------------------------
 
 
@@ -388,7 +388,7 @@ Hsp num :1
  E-value: 1.73988e-05
  Identities: 52
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4HYY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/478247368
 ------------------------------------------------------------------
 
 
@@ -401,7 +401,7 @@ Hsp num :1
  E-value: 1.80292e-05
  Identities: 53
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1PZN_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34809805
 ------------------------------------------------------------------
 
 
@@ -414,7 +414,7 @@ Hsp num :1
  E-value: 2.5101e-05
  Identities: 52
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZJB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/196049702
 ------------------------------------------------------------------
 
 
@@ -427,7 +427,7 @@ Hsp num :1
  E-value: 0.0202409
  Identities: 57
  Function: Dna Binding Protein, Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ETL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/229597842
 ------------------------------------------------------------------
 
 
@@ -440,7 +440,7 @@ Hsp num :1
  E-value: 0.0207908
  Identities: 52
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2GDJ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/109157830
 ------------------------------------------------------------------
 
 
@@ -453,7 +453,7 @@ Hsp num :1
  E-value: 0.0218668
  Identities: 52
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4DC9_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/385867758
 ------------------------------------------------------------------
 
 
@@ -466,7 +466,7 @@ Hsp num :1
  E-value: 0.0396977
  Identities: 51
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3NTU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/345100717
 ------------------------------------------------------------------
 
 
@@ -479,7 +479,7 @@ Hsp num :1
  E-value: 0.0451651
  Identities: 51
  Function: Recombination
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1T4G_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/52695616
 ------------------------------------------------------------------
 
 

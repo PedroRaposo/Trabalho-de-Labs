@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 2.34428e-21
  Identities: 48
  Function: Cell Cycle
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3W6J_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/482676796
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 4.98694e-16
  Identities: 39
  Function: Cell Cycle
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ZGX_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/444302108
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 1.13697e-15
  Identities: 54
  Function: Cell Cycle
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4I98_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/444302293
 ------------------------------------------------------------------
 
 

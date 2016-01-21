@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 2.80737e-52
  Identities: 86
  Function: Carboxyl Methylesterase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1CHD_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157830607
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 6.92465e-51
  Identities: 86
  Function: Bacterial Chemotaxis
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1A2O_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/3212266
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -30,7 +30,7 @@ Hsp num :2
  E-value: 5.93331e-23
  Identities: 50
  Function: Bacterial Chemotaxis
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1A2O_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/3212266
 ------------------------------------------------------------------
 
 
@@ -43,7 +43,7 @@ Hsp num :1
  E-value: 6.92212e-39
  Identities: 64
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3SFT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/340780641
 ------------------------------------------------------------------
 
 
@@ -56,7 +56,7 @@ Hsp num :1
  E-value: 3.65602e-22
  Identities: 49
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3T8Y_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/346652059
 ------------------------------------------------------------------
 
 
@@ -69,7 +69,7 @@ Hsp num :1
  E-value: 1.97831e-17
  Identities: 48
  Function: Response Regulator
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1DZ3_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/7767177
 ------------------------------------------------------------------
 
 
@@ -82,7 +82,7 @@ Hsp num :1
  E-value: 4.30837e-17
  Identities: 49
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3KYJ_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/288965812
 ------------------------------------------------------------------
 
 
@@ -95,7 +95,7 @@ Hsp num :1
  E-value: 1.35564e-16
  Identities: 36
  Function: Signaling ProteinMOTOR PROTEIN
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4IGA_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/482677226
 ------------------------------------------------------------------
 
 
@@ -108,7 +108,7 @@ Hsp num :1
  E-value: 1.89513e-16
  Identities: 36
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1U0S_Y
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/52695964
 ------------------------------------------------------------------
 
 
@@ -121,7 +121,7 @@ Hsp num :1
  E-value: 1.91728e-16
  Identities: 36
  Function: Chemotaxis
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TMY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2781153
 ------------------------------------------------------------------
 
 
@@ -134,7 +134,7 @@ Hsp num :1
  E-value: 2.4915e-16
  Identities: 47
  Function: Replication
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1QMP_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/6573581
 ------------------------------------------------------------------
 
 
@@ -147,7 +147,7 @@ Hsp num :1
  E-value: 4.91566e-16
  Identities: 47
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3KYI_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/288965810
 ------------------------------------------------------------------
 
 
@@ -160,7 +160,7 @@ Hsp num :1
  E-value: 2.54624e-15
  Identities: 35
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QYW_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/918453172
 ------------------------------------------------------------------
 
 
@@ -173,7 +173,7 @@ Hsp num :1
  E-value: 8.64402e-13
  Identities: 42
  Function: Transcription Activator
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZES_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/78101053
 ------------------------------------------------------------------
 
 
@@ -186,7 +186,7 @@ Hsp num :1
  E-value: 9.92542e-13
  Identities: 42
  Function: Gene Regulation
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1B00_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/6573458
 ------------------------------------------------------------------
 
 
@@ -199,7 +199,7 @@ Hsp num :1
  E-value: 3.12203e-12
  Identities: 42
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1NXO_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/46014953
 ------------------------------------------------------------------
 
 
@@ -212,7 +212,7 @@ Hsp num :1
  E-value: 1.05726e-11
  Identities: 43
  Function: TransferaseSIGNALING PROTEIN
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3DGE_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/251836870
 ------------------------------------------------------------------
 
 
@@ -225,7 +225,7 @@ Hsp num :1
  E-value: 2.82305e-11
  Identities: 41
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1NXT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/46014956
 ------------------------------------------------------------------
 
 
@@ -238,7 +238,7 @@ Hsp num :1
  E-value: 4.96651e-11
  Identities: 40
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JB9_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126031093
 ------------------------------------------------------------------
 
 
@@ -251,7 +251,7 @@ Hsp num :1
  E-value: 8.34183e-11
  Identities: 44
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1DC7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/6730308
 ------------------------------------------------------------------
 
 
@@ -264,7 +264,7 @@ Hsp num :1
  E-value: 9.63325e-11
  Identities: 41
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JBA_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126031096
 ------------------------------------------------------------------
 
 
@@ -277,7 +277,7 @@ Hsp num :1
  E-value: 9.89283e-11
  Identities: 44
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1J56_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34810436
 ------------------------------------------------------------------
 
 
@@ -290,7 +290,7 @@ Hsp num :1
  E-value: 1.01923e-10
  Identities: 42
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GL9_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/262118598
 ------------------------------------------------------------------
 
 
@@ -303,7 +303,7 @@ Hsp num :1
  E-value: 1.05708e-10
  Identities: 44
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KRW_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/227968203
 ------------------------------------------------------------------
 
 
@@ -316,7 +316,7 @@ Hsp num :1
  E-value: 1.26752e-10
  Identities: 43
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4JA2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/538261172
 ------------------------------------------------------------------
 
 
@@ -329,7 +329,7 @@ Hsp num :1
  E-value: 1.30571e-10
  Identities: 39
  Function: Transcription Regulator
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3F6P_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/290560102
 ------------------------------------------------------------------
 
 
@@ -342,7 +342,7 @@ Hsp num :1
  E-value: 1.51555e-10
  Identities: 39
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZWM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254220896
 ------------------------------------------------------------------
 
 
@@ -355,7 +355,7 @@ Hsp num :1
  E-value: 2.04981e-10
  Identities: 40
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JBA_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126031095
 ------------------------------------------------------------------
 
 
@@ -368,7 +368,7 @@ Hsp num :1
  E-value: 8.98934e-10
  Identities: 43
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1DC8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/6730309
 ------------------------------------------------------------------
 
 
@@ -381,7 +381,7 @@ Hsp num :1
  E-value: 9.1764e-10
  Identities: 39
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZH2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/85544025
 ------------------------------------------------------------------
 
 
@@ -394,7 +394,7 @@ Hsp num :1
  E-value: 1.11553e-09
  Identities: 36
  Function: Regulatory Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1SRR_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2098284
 ------------------------------------------------------------------
 
 
@@ -407,7 +407,7 @@ Hsp num :1
  E-value: 1.14388e-09
  Identities: 36
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1F51_E
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/10120794
 ------------------------------------------------------------------
 
 
@@ -420,7 +420,7 @@ Hsp num :1
  E-value: 1.67533e-09
  Identities: 40
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3EQ2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/261824796
 ------------------------------------------------------------------
 
 
@@ -433,7 +433,7 @@ Hsp num :1
  E-value: 1.86322e-09
  Identities: 40
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3F7A_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/269914400
 ------------------------------------------------------------------
 
 
@@ -446,7 +446,7 @@ Hsp num :1
  E-value: 2.08982e-09
  Identities: 36
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1PUX_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34810566
 ------------------------------------------------------------------
 
 
@@ -459,7 +459,7 @@ Hsp num :1
  E-value: 2.19683e-09
  Identities: 36
  Function: HydrolaseKINASE
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3Q15_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323714618
 ------------------------------------------------------------------
 
 
@@ -473,7 +473,7 @@ Hsp num :1
  E-value: 2.31681e-09
  Identities: 36
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JVJ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/167013230
 ------------------------------------------------------------------
 
 
@@ -486,7 +486,7 @@ Hsp num :1
  E-value: 2.34346e-09
  Identities: 34
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1MVO_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/24987831
 ------------------------------------------------------------------
 
 
@@ -499,7 +499,7 @@ Hsp num :1
  E-value: 2.93895e-09
  Identities: 35
  Function: Transcriptional Regulator
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2PKX_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/149243202
 ------------------------------------------------------------------
 
 
@@ -512,7 +512,7 @@ Hsp num :1
  E-value: 3.4507e-09
  Identities: 39
  Function: Transcription RegulatorDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KFC_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/586500224
 ------------------------------------------------------------------
 
 
@@ -525,7 +525,7 @@ Hsp num :1
  E-value: 3.51617e-09
  Identities: 39
  Function: Transcription RegulatorDNA
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4KNY_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/586500231
 ------------------------------------------------------------------
 
 
@@ -538,7 +538,7 @@ Hsp num :1
  E-value: 4.12101e-09
  Identities: 36
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JVI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/167013229
 ------------------------------------------------------------------
 
 
@@ -551,7 +551,7 @@ Hsp num :1
  E-value: 8.17937e-09
  Identities: 35
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1W25_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/56966618
 ------------------------------------------------------------------
 
 
@@ -564,7 +564,7 @@ Hsp num :1
  E-value: 8.54854e-09
  Identities: 35
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2WB4_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/294979306
 ------------------------------------------------------------------
 
 
@@ -577,7 +577,7 @@ Hsp num :1
  E-value: 9.46935e-09
  Identities: 35
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FTK_E
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/112490624
 ------------------------------------------------------------------
 
 
@@ -590,7 +590,7 @@ Hsp num :1
  E-value: 1.17196e-08
  Identities: 38
  Function: Transcription
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4L85_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/586500262
 ------------------------------------------------------------------
 
 
@@ -603,7 +603,7 @@ Hsp num :1
  E-value: 1.2651e-08
  Identities: 40
  Function: Dna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3R0J_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/339961330
 ------------------------------------------------------------------
 
 
@@ -616,7 +616,7 @@ Hsp num :1
  E-value: 1.51917e-08
  Identities: 35
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JVK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/167013231
 ------------------------------------------------------------------
 
 
@@ -629,7 +629,7 @@ Hsp num :1
  E-value: 4.37607e-08
  Identities: 33
  Function: Transferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2AYZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/116666741
 ------------------------------------------------------------------
 
 

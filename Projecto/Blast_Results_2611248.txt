@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 1.62344e-08
  Identities: 50
  Function: Transport ProteinPROTEIN BINDING
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5AWF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/951272749
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 4.61213e-06
  Identities: 54
  Function: Biosynthetic ProteinPROTEIN BINDING
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ZU0_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/224983401
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 4.99654e-06
  Identities: 54
  Function: Protein Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VH4_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/40889898
 ------------------------------------------------------------------
 
 

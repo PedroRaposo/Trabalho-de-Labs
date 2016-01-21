@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.89722e-11
  Identities: 42
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3WKL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/567755171
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 5.02473e-06
  Identities: 32
  Function: Protein Binding
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2P3W_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/160285756
 ------------------------------------------------------------------
 
 
@@ -48,7 +48,7 @@ Hsp num :1
  E-value: 0.0418313
  Identities: 32
  Function: Cell Adhesion
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1OBZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34811655
 ------------------------------------------------------------------
 
 

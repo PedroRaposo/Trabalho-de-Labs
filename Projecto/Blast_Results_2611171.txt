@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.9444e-18
  Identities: 40
  Function: Contractile Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2AJ7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/83753998
 ------------------------------------------------------------------
 
 
