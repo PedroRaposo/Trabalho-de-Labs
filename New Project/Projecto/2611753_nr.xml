@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_44735</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611753</BlastOutput_query-def>
+  <BlastOutput_query-len>88</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_44735</Iteration_query-ID>
+  <Iteration_query-def>2611753</Iteration_query-def>
+  <Iteration_query-len>88</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499184495|ref|WP_010882035.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphocarrier protein HPr [Treponema] &gt;gi|6093854|sp|O83598.1|PTHP_TREPA RecName: Full=Phosphocarrier protein HPr; AltName: Full=Histidine-containing protein &gt;gi|3322884|gb|AAC65564.1| phosphocarrier protein HPr (ptsH) [Treponema pallidum subsp. pallidum str. Nichols] &gt;gi|189018391|gb|ACD71009.1| phosphocarrier protein HPr [Treponema pallidum subsp. pallidum SS14] &gt;gi|291059963|gb|ADD72698.1| phosphocarrier protein HPr [Treponema pallidum subsp. pallidum str. Chicago] &gt;gi|335344612|gb|AEH40528.1| HPr family phosphotransferase system protein [Treponema paraluiscuniculi Cuniculi A] &gt;gi|374677421|gb|AEZ57714.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. pertenue str. SamoaD] &gt;gi|374678491|gb|AEZ58783.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. pertenue str. CDC2] &gt;gi|374679560|gb|AEZ59851.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. pertenue str. Gauthier] &gt;gi|374680622|gb|AEZ60912.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. pallidum DAL-1] &gt;gi|408475818|gb|AFU66583.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. pallidum str. Mexico A] &gt;gi|485593896|gb|AGK84235.1| HPr family phosphotransferase system protein [Treponema pallidum str. Fribourg-Blanc] &gt;gi|511519206|gb|AGN75773.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. pallidum str. Nichols] &gt;gi|511533671|gb|AGN76749.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. pallidum SS14] &gt;gi|601116935|gb|AHN67259.1| phosphocarrier protein HPr [Treponema pallidum subsp. pallidum str. Sea 81-4] &gt;gi|742687319|gb|AJB40611.1| HPr family phosphotransferase system protein [Treponema pallidum subsp. endemicum str. Bosnia A]</Hit_def>
+  <Hit_accession>WP_010882035</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>1.87125e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_hseq>
+      <Hsp_midline>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|639085279|ref|WP_024466615.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema pedis]</Hit_def>
+  <Hit_accession>WP_024466615</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.087</Hsp_bit-score>
+      <Hsp_score>292</Hsp_score>
+      <Hsp_evalue>1.92338e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MISKTVKVQNRAGIHARPASLIAQKSNAFASDIFLCRDTSKINAKSVIGIITMAATYGTELTLTCEGPDEQAACDAIENIFNNKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ KTV+V NRAG+HARPA+LI Q ++ F S I L RDT ++NAKS++G++ MAA  G+EL L  EGPDE AA  AIE +F NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|530895106|ref|WP_020964207.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema pedis] &gt;gi|530723954|gb|AGT42907.1| phosphocarrier protein HPr [Treponema pedis str. T A4]</Hit_def>
+  <Hit_accession>WP_020964207</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>2.57597e-31</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MISKTVKVQNRAGIHARPASLIAQKSNAFASDIFLCRDTSKINAKSVIGIITMAATYGTELTLTCEGPDEQAACDAIESIFNNKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ KTV+V NRAG+HARPA+LI Q ++ F S I L RDT ++NAKS++G++ MAA  G+EL L  EGPDE AA  AIE +F NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|769217101|ref|WP_044979296.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema putidum] &gt;gi|685200453|gb|AIN94556.1| phosphocarrier protein HPr [Treponema putidum]</Hit_def>
+  <Hit_accession>WP_044979296</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>2.84335e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MISKTVKVQNRAGIHARPAALIAQKSNNFSSEIFLCKEDAKINAKSVIGIITMAAAYGTELTLTCDGPDESEACEAIETIFNNKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ KTV+V NRAG+HARPAALI Q ++ F S+I L ++  ++NAKS++G++ MAA  G+EL L  +GPDE  A  AIE +F NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|488754575|ref|WP_002677845.1|</Hit_id>
+  <Hit_def>HPr family phosphocarrier [Treponema denticola] &gt;gi|448940399|gb|EMB21305.1| HPr family phosphocarrier [Treponema denticola SP37] &gt;gi|448947691|gb|EMB28535.1| HPr family phosphocarrier [Treponema denticola MYR-T] &gt;gi|448948440|gb|EMB29277.1| HPr family phosphocarrier [Treponema denticola H1-T] &gt;gi|448955133|gb|EMB35900.1| HPr family phosphocarrier [Treponema denticola H-22] &gt;gi|448958860|gb|EMB39588.1| HPr family phosphocarrier [Treponema denticola ATCC 33520] &gt;gi|448962961|gb|EMB43646.1| HPr family phosphocarrier [Treponema denticola ASLM] &gt;gi|451702309|gb|EMD56731.1| HPr family phosphocarrier [Treponema denticola US-Trep] &gt;gi|513487668|gb|EPF32829.1| HPr family phosphocarrier [Treponema denticola SP44] &gt;gi|513495584|gb|EPF40306.1| HPr family phosphocarrier [Treponema denticola SP23]</Hit_def>
+  <Hit_accession>WP_002677845</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>6.12401e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MISKTIKVQNRAGIHARPAALIAQKSNNFSSEIFLCKEDAKINAKSVIGIITMAAAYGTELTLTCDGPDEKEACEAIETIFNNKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ KT++V NRAG+HARPAALI Q ++ F S+I L ++  ++NAKS++G++ MAA  G+EL L  +GPDE  A  AIE +F NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|488748226|ref|WP_002671542.1|</Hit_id>
+  <Hit_def>HPr family phosphocarrier [Treponema denticola] &gt;gi|448965642|gb|EMB46303.1| HPr family phosphocarrier [Treponema denticola AL-2]</Hit_def>
+  <Hit_accession>WP_002671542</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>6.25779e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MISKTIKVQNRAGIHARPAALIAQKSNNFSSEIFLCKENAKINAKSVIGIITMAAAYGTELTLTCDGPDEKEASEAIETIFNNKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ KT++V NRAG+HARPAALI Q ++ F S+I L ++  ++NAKS++G++ MAA  G+EL L  +GPDE  A  AIE +F NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|488745267|ref|WP_002668605.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema denticola] &gt;gi|42526803|ref|NP_971901.1| phosphocarrier protein HPr [Treponema denticola ATCC 35405] &gt;gi|41817118|gb|AAS11812.1| phosphocarrier protein HPr [Treponema denticola ATCC 35405] &gt;gi|325473860|gb|EGC77048.1| phosphocarrier protein HPr [Treponema denticola F0402] &gt;gi|448938752|gb|EMB19679.1| HPr family phosphocarrier [Treponema denticola OTK] &gt;gi|448956414|gb|EMB37175.1| HPr family phosphocarrier [Treponema denticola ATCC 33521] &gt;gi|448960643|gb|EMB41352.1| HPr family phosphocarrier [Treponema denticola ATCC 35404]</Hit_def>
+  <Hit_accession>WP_002668605</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>1.17102e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MISKTIKVQNRAGIHARPAALIAQKSNNFSSEIFLCKEDAKINAKSVIGIITMAAAYGTELTLTCDGPDEKEASEAIETIFNNKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ KT++V NRAG+HARPAALI Q ++ F S+I L ++  ++NAKS++G++ MAA  G+EL L  +GPDE  A  AIE +F NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|513866028|ref|WP_016522347.1|</Hit_id>
+  <Hit_def>HPr family phosphocarrier [Treponema medium] &gt;gi|513484274|gb|EPF29648.1| HPr family phosphocarrier [Treponema medium ATCC 700293]</Hit_def>
+  <Hit_accession>WP_016522347</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>6.66415e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVTKKIIVQNRAGIHARPSSLIVQTASKFQSNIMFEKENVTVNAKSIMGVMTMAAGYQTELTVSADGADEAEAVAALEQLFAAKFEEE</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARP++LIVQ AS+F S IM  ++ + VNAKSIMGVM MAAG  +EL +  +G DE  A++A+E+LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|498382805|ref|WP_010696961.1|</Hit_id>
+  <Hit_def>HPr family phosphocarrier [Treponema denticola] &gt;gi|448940790|gb|EMB21694.1| HPr family phosphocarrier [Treponema denticola SP33] &gt;gi|513490691|gb|EPF35705.1| HPr family phosphocarrier [Treponema denticola SP32]</Hit_def>
+  <Hit_accession>WP_010696961</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>7.18737e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MISKIIKVQNRAGIHARPAALIAQKSNNFSSEIFLCREDAKINAKSVIGIITMAAAYGTEITLTCDGPDEKEACEAIETIFNNKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ K ++V NRAG+HARPAALI Q ++ F S+I L R+  ++NAKS++G++ MAA  G+E+ L  +GPDE  A  AIE +F NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|488784225|ref|WP_002696632.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema phagedenis] &gt;gi|320147104|gb|EFW38662.1| phosphocarrier, HPr family [Treponema phagedenis F0421] &gt;gi|748762061|emb|CEM60465.1| Phosphocarrier protein HPr [Treponema phagedenis]</Hit_def>
+  <Hit_accession>WP_002696632</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>1.32995e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MITKKLKVLNRAGIHARPAALIAQTANKFSSNLMFKKDNAEINAKSIMGIITMSAGYDTELILTAEGDDAAEAVAAIELLFTGKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ K ++VLNRAG+HARPAALI Q A++F S +M  +D   +NAKSIMG++ M+AG  +EL L  EG D   A++AIE LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|654170715|ref|WP_027729041.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema sp. C6A8]</Hit_def>
+  <Hit_accession>WP_027729041</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>1.79931e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVEKILTVQNRAGIHARPAAIIAQTANKFESEVTLIRDDAEVNAKSIMGVIAMGAGYNTQLTLRVEGSDETEAAEVIEELFNSKFEED</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARPAA+I Q A++F+S++ L+RD   VNAKSIMGV+AM AG  ++L L VEG DE  A   IE LF +KFEE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|763134172|ref|WP_044013855.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema sp. OMZ 838] &gt;gi|719625647|gb|AIW88960.1| phosphocarrier protein HPr [Treponema sp. OMZ 838]</Hit_def>
+  <Hit_accession>WP_044013855</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>1.98288e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVTKKIVVQNRAGIHARPSSLIVQTANKFQSNIMFERGSLTVNAKSIMGVMTMAAGYKTELTVSADGADEAEAVAALEQLFAAKFEEE</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARP++LIVQ A++F S IM  R ++ VNAKSIMGVM MAAG  +EL +  +G DE  A++A+E+LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|496394952|ref|WP_009103942.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema sp. JC4] &gt;gi|383870847|gb|EID86448.1| Phosphotransferase System HPr (HPr) Family [Treponema sp. JC4]</Hit_def>
+  <Hit_accession>WP_009103942</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>106.686</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>2.35668e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVEKILTVQNRAGIHARPAAIIAQTANKFESEVTLIRDDAEVNAKSIMGVIAMGAGYNTQLTLRVEGSDETEAAEVIEELFTSKFEED</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARPAA+I Q A++F+S++ L+RD   VNAKSIMGV+AM AG  ++L L VEG DE  A   IE LF +KFEE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|503021613|ref|WP_013256589.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Spirochaeta smaragdinae] &gt;gi|301637706|gb|ADK83133.1| Phosphotransferase system, phosphocarrier protein HPr [Spirochaeta smaragdinae DSM 11293]</Hit_def>
+  <Hit_accession>WP_013256589</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>3.47572e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MIEKSVTIMNRAGIHARPAALIVQTANNFTSDIFFEKEDVRINGKSIMGIITLGAGYKSTLQVIAEGDDEQEAVDAIVRLFENRFEEE</Hsp_hseq>
+      <Hsp_midline>M+ K+V ++NRAG+HARPAALIVQ A+ F S I   ++ +R+N KSIMG++ + AG  S L+++ EG DE  A+ AI RLF+N+FEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|503525036|ref|WP_013759248.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema brennaborense] &gt;gi|332181858|gb|AEE17546.1| Phosphotransferase system, phosphocarrier protein HPr [Treponema brennaborense DSM 12168]</Hit_def>
+  <Hit_accession>WP_013759248</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>7.31836e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEKIVTVRNRAGIHARPAALIAQTANKFASEVLLERDDTTVNAKSIMGVITMAAGYNTTLTVRASGSDEAAAVQAIYSLFENKFEEE</Hsp_hseq>
+      <Hsp_midline>M  K V V NRAG+HARPAALI Q A++F S+++L RD   VNAKSIMGV+ MAAG  + L +   G DE AA+ AI  LF+NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|654160643|ref|WP_027726998.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema bryantii]</Hit_def>
+  <Hit_accession>WP_027726998</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.145</Hsp_bit-score>
+      <Hsp_score>261</Hsp_score>
+      <Hsp_evalue>7.72402e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MIEKILTVQNRAGIHARPAAIIAQTSNKFESEITLSRDGAAVNAKSIMGVIAMGAGYNTQLTMQVIGPDESEAASVIEELFNSKFEEE</Hsp_hseq>
+      <Hsp_midline>M+ K + V NRAG+HARPAA+I Q +++F+S+I L RD   VNAKSIMGV+AM AG  ++L + V GPDE  A S IE LF +KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|522101362|ref|WP_020612571.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Spirochaeta bajacaliforniensis]</Hit_def>
+  <Hit_accession>WP_020612571</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>9.7933e-27</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MIEKSVTIMNRAGIHARPAALIVQTANNFTSDIFFEKEDVRINGKSIMGIITLGAGYKSTLQVIADGDDEQEAVDAIVRLFENRFEEE</Hsp_hseq>
+      <Hsp_midline>M+ K+V ++NRAG+HARPAALIVQ A+ F S I   ++ +R+N KSIMG++ + AG  S L+++ +G DE  A+ AI RLF+N+FEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|655901579|ref|WP_028973040.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Spirochaeta cellobiosiphila]</Hit_def>
+  <Hit_accession>WP_028973040</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.56514e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVDKEVVIKNRAGIHARPAAMIVQTASQFECNVFIEKDSEQINAKSIMGIITLGAGYKTALKLVCEGSDEASALEAMVKIFENRFEEE</Hsp_hseq>
+      <Hsp_midline>MV K V + NRAG+HARPAA+IVQ AS+F+  + + +D+ ++NAKSIMG++ + AG  + L+LV EG DE +AL A+ ++F+N+FEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|503467728|ref|WP_013702389.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema succinifaciens] &gt;gi|328449421|gb|AEB15137.1| Phosphotransferase system, phosphocarrier protein HPr [Treponema succinifaciens DSM 2489]</Hit_def>
+  <Hit_accession>WP_013702389</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.30708e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEKILTVRNRAGIHARPAALIAQTANKFSSEIILEKDSTTVNAKSIMGVITMAAGYNTNITLKAEGSDEKEAAEAIFKLFEAKFEEE</Hsp_hseq>
+      <Hsp_midline>M  K + V NRAG+HARPAALI Q A++F S+I+L +D+  VNAKSIMGV+ MAAG  + + L  EG DE  A  AI +LF+ KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|766664155|ref|WP_044824050.1|</Hit_id>
+  <Hit_def>hypothetical protein [Clostridium aceticum] &gt;gi|765683064|gb|KJF27772.1| hypothetical protein TZ02_03990 [Clostridium aceticum] &gt;gi|831186644|gb|AKL94838.1| phosphotransferase system, phosphocarrier protein HPr [Clostridium aceticum]</Hit_def>
+  <Hit_accession>WP_044824050</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.293</Hsp_bit-score>
+      <Hsp_score>251</Hsp_score>
+      <Hsp_evalue>2.54206e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MIIKNITVKNASGIHARPATLIVKEVSKFQSDITFIKGEHEVNAKSIMGLMAMAAKQGEEIEIKVEGPDEKEALTAIINLFESNFSEE</Hsp_hseq>
+      <Hsp_midline>M++K + V N +G+HARPA LIV+  S+F S I  ++    VNAKSIMG+MAMAA  G E+E+ VEGPDE  AL+AI  LF++ F EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|513873549|ref|WP_016526100.1|</Hit_id>
+  <Hit_def>HPr family phosphocarrier [Treponema maltophilum] &gt;gi|513486177|gb|EPF31491.1| HPr family phosphocarrier [Treponema maltophilum ATCC 51939]</Hit_def>
+  <Hit_accession>WP_016526100</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>5.64259e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVEKLLTVRNRAGIHARPAALIAQTANKFASEVLMEKDGTVVNAKSIMGVITMAAGYNTTLTVKANGPDEKEAVEALNTLFENKFEED</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARPAALI Q A++F S++++ +D   VNAKSIMGV+ MAAG  + L +   GPDE  A+ A+  LF+NKFEE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|503735881|ref|WP_013969957.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema caldarium] &gt;gi|338835501|gb|AEJ20679.1| Phosphotransferase system, phosphocarrier protein HPr [Treponema caldarium DSM 7334]</Hit_def>
+  <Hit_accession>WP_013969957</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>8.77605e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVEQMVTIKNRAGIHARPAALLVQTASKFKSKIYIEKESDRINGKSIMGIITLGAGYDTNLKLIADGEDEQDALQALVHLFDSKFEED</Hsp_hseq>
+      <Hsp_midline>MV + V + NRAG+HARPAAL+VQ AS+F SKI + +++ R+N KSIMG++ + AG  + L+L+ +G DE  AL A+  LF +KFEE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|938262298|gb|KPP97552.1|</Hit_id>
+  <Hit_def>PTS sugar uptake system phosphocarrier component Hpr [Bacteroidetes bacterium HLUCCA01]</Hit_def>
+  <Hit_accession>KPP97552</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>9.26167e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEE</Hsp_qseq>
+      <Hsp_hseq>MIKRTVKVKNAAGLHTRPAAVLVQCASEFESEFFIHMYGYRINGKSILGVMTLAADQGSEMELELDGPDEKEALQAIVRLFENEFDE</Hsp_hseq>
+      <Hsp_midline>M+ +TV+V N AG+H RPAA++VQ AS F+S+  +     R+N KSI+GVM +AA  GSE+EL ++GPDE  AL AI RLF+N+F+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|545449682|ref|WP_021686695.1|</Hit_id>
+  <Hit_def>phosphocarrier, HPr family [Treponema lecithinolyticum] &gt;gi|543991281|gb|ERJ94322.1| phosphocarrier, HPr family [Treponema lecithinolyticum ATCC 700332]</Hit_def>
+  <Hit_accession>WP_021686695</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>6.43312e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MAEKLLTVRNRAGIHARPAALIAQTANKFAAEVLMEKDGTVINAKSIMGVITMAAGYNTTLKVKADGPDAAQAIEALSALFENKFEEE</Hsp_hseq>
+      <Hsp_midline>M  K + V NRAG+HARPAALI Q A++F +++++ +D   +NAKSIMGV+ MAAG  + L++  +GPD   A+ A+  LF+NKFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|609247975|ref|WP_024269524.1|</Hit_id>
+  <Hit_def>phosphotransferase system, phosphocarrier protein HPr [Salinispira pacifica] &gt;gi|565682603|gb|AHC16634.1| Phosphotransferase system, phosphocarrier protein HPr [Salinispira pacifica]</Hit_def>
+  <Hit_accession>WP_024269524</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>7.0116e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEKVIVVKNRAGIHARPAAMIVQTAGRYDSRIFFKKDHEEINAKSIMGVITLGAAYNTEITISADGEDEEDAVNAIARLFETRFEEE</Hsp_hseq>
+      <Hsp_midline>M  K + V NRAG+HARPAA+IVQ A R+DS+I   +D   +NAKSIMGV+ + A   +E+ +  +G DE  A++AI RLF+ +FEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|505823958|ref|WP_015709344.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema primitia] &gt;gi|333740605|gb|AEF86095.1| phosphocarrier protein HPr [Treponema primitia ZAS-2]</Hit_def>
+  <Hit_accession>WP_015709344</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>7.24169e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVEQMVTIQNRAGIHARPSAMLVQTAKDFKSNIYLEKGNDRINGKSIMGILTLGASYGTEIKVITEGEDEQAALEAMVKLFDQKFEEE</Hsp_hseq>
+      <Hsp_midline>MV + V + NRAG+HARP+A++VQ A  F S I L +   R+N KSIMG++ + A  G+E++++ EG DE AAL A+ +LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|504269574|ref|WP_014456676.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Spirochaeta africana] &gt;gi|383108361|gb|AFG38694.1| phosphotransferase system HPr (HPr) family protein [Spirochaeta africana DSM 8902]</Hit_def>
+  <Hit_accession>WP_014456676</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>2.52295e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEKDVTIQNRAGIHARPAAMIVQTASKFQSSIHLSREDEKINAKSIMGIITLGAGYQTVLTVSAEGDDESEAVDAIVGLFEKKFEEE</Hsp_hseq>
+      <Hsp_midline>M  K V + NRAG+HARPAA+IVQ AS+F S I L R+  ++NAKSIMG++ + AG  + L +  EG DE  A+ AI  LF+ KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|497940420|ref|WP_010254576.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema primitia]</Hit_def>
+  <Hit_accession>WP_010254576</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>3.83788e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVEQIVTIQNRAGIHARPSAMLVQTAKDFKSNIYLEKGNDRINGKSIMGILTLGASYGTEIKVIVEGEDEQLALEAMVNLFNKKFEEE</Hsp_hseq>
+      <Hsp_midline>MV + V + NRAG+HARP+A++VQ A  F S I L +   R+N KSIMG++ + A  G+E++++VEG DE  AL A+  LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|931358445|gb|KPJ50707.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [candidate division Zixibacteria bacterium DG_27]</Hit_def>
+  <Hit_accession>KPJ50707</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>4.41378e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MIRKEVKVINHLGVHARPSAMLVQTATKFNSEVQLHKGDLRVNAKSIMGVMMLAAEMGSTIVIIASGEDEAEAVKALAQLFTDKFNEE</Hsp_hseq>
+      <Hsp_midline>M+ K V+V+N  GVHARP+A++VQ A++F+S++ L +  +RVNAKSIMGVM +AA  GS + ++  G DE  A+ A+ +LF +KF EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|503080060|ref|WP_013314963.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Spirochaeta thermophila] &gt;gi|306533591|gb|ADN03125.1| phosphocarrier protein HPr [Spirochaeta thermophila DSM 6192] &gt;gi|339412933|gb|AEJ62498.1| Phosphotransferase system, phosphocarrier protein HPr [Spirochaeta thermophila DSM 6578]</Hit_def>
+  <Hit_accession>WP_013314963</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>8.14702e-23</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEREVVIKNRAGIHARPATLLVNTANKFSSQIFLEKDSERVNAKSIMGIITLGAGYNTKLRIIADGEDEEEAVKALAELFDKKFEEE</Hsp_hseq>
+      <Hsp_midline>M  + V + NRAG+HARPA L+V  A++F S+I L +D+ RVNAKSIMG++ + AG  ++L ++ +G DE  A+ A+  LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|739693279|ref|WP_037547712.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Spirochaeta sp. JC230] &gt;gi|689724539|gb|KGE71875.1| phosphocarrier protein HPr [Spirochaeta sp. JC230]</Hit_def>
+  <Hit_accession>WP_037547712</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.1742e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTERVVTVRNRAGIHARPAALIVQTAGRFESKILFKKENEEINAKSIMGIITLGASYNTEITIEADGADEQDAVEALATLFENRFEEQ</Hsp_hseq>
+      <Hsp_midline>M  + V V NRAG+HARPAALIVQ A RF+SKI+  ++   +NAKSIMG++ + A   +E+ +  +G DE  A+ A+  LF+N+FEE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|918700329|ref|WP_052569588.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Endomicrobium proavitum] &gt;gi|831251121|gb|AKL97473.1| Phosphocarrier protein HPr [Endomicrobium proavitum]</Hit_def>
+  <Hit_accession>WP_052569588</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>1.24815e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEE</Hsp_qseq>
+      <Hsp_hseq>MKEKIITVSNKLGLHARPAALLVQTTSKYSATVKIYKDDYEVDAKSIMGVMTLAAALGSSLKFIADGPDETEALDDIEKLFNAGFHE</Hsp_hseq>
+      <Hsp_midline>M  K + V N+ G+HARPAAL+VQ  S++ + + + +D   V+AKSIMGVM +AA  GS L+ + +GPDE  AL  IE+LF   F E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|504035903|ref|WP_014269897.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Sphaerochaeta pleomorpha] &gt;gi|359351274|gb|AEV29048.1| phosphotransferase system HPr (HPr) family protein [Sphaerochaeta pleomorpha str. Grapes]</Hit_def>
+  <Hit_accession>WP_014269897</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.72315e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEE</Hsp_qseq>
+      <Hsp_hseq>MVNRELTVCNRAGIHARPAANIVKLANKFKSELFLEKETMKINGKSIMGIITLGATYQSKINMICEGPDEQEMADAIQNLFKNRFEE</Hsp_hseq>
+      <Hsp_midline>MV + + V NRAG+HARPAA IV+ A++F S++ L ++T+++N KSIMG++ + A   S++ ++ EGPDE     AI+ LF+N+FEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|513863268|ref|WP_016521165.1|</Hit_id>
+  <Hit_def>HPr family phosphocarrier [Treponema socranskii] &gt;gi|513480129|gb|EPF26039.1| HPr family phosphocarrier [Treponema socranskii subsp. paredis ATCC 35535]</Hit_def>
+  <Hit_accession>WP_016521165</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.84416e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MLEKTLIVKNRAGIHARPAALIAQTANKFNCELTLIVGDTEVNAKSIMGVITMAAGYNTSITLKADGSDEREAVQAIEALFDSKFAEE</Hsp_hseq>
+      <Hsp_midline>M+ KT+ V NRAG+HARPAALI Q A++F+ ++ L+     VNAKSIMGV+ MAAG  + + L  +G DE  A+ AIE LF +KF EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|544922152|ref|WP_021331558.1|</Hit_id>
+  <Hit_def>phosphocarrier, HPr family [Treponema socranskii] &gt;gi|538291304|gb|ERF59480.1| phosphocarrier, HPr family [Treponema socranskii subsp. socranskii VPI DR56BR1116 = ATCC 35536] &gt;gi|544005611|gb|ERK04880.1| phosphocarrier, HPr family [Treponema socranskii subsp. socranskii VPI DR56BR1116 = ATCC 35536]</Hit_def>
+  <Hit_accession>WP_021331558</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>1.98825e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MIEKTLIVKNRAGIHARPAALIAQTANKFNCELTLILGDTEVNAKSIMGVITMAAGYNTGITLKADGSDEKEAAQAIEALFDSKFAEE</Hsp_hseq>
+      <Hsp_midline>M+ KT+ V NRAG+HARPAALI Q A++F+ ++ L+     VNAKSIMGV+ MAAG  + + L  +G DE  A  AIE LF +KF EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|931543263|gb|KPL18767.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [candidate division Zixibacteria bacterium SM23_81]</Hit_def>
+  <Hit_accession>KPL18767</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>2.00973e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MIKKTIIVQNKLGLHARPAAMVVGEASRFGSEIHLNKDGLEVNAKSIMGVMMLAAEMGSQIIITANGEDEKLAIQALEILFASKFDEE</Hsp_hseq>
+      <Hsp_midline>M+ KT+ V N+ G+HARPAA++V  ASRF S+I L +D + VNAKSIMGVM +AA  GS++ +   G DE  A+ A+E LF +KF+EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|653160969|ref|WP_027409928.1|</Hit_id>
+  <Hit_def>phosphocarrier protein Chr [Anoxybacillus tepidamans]</Hit_def>
+  <Hit_accession>WP_027409928</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>5.40606e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>84</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNK</Hsp_qseq>
+      <Hsp_hseq>MVEKQVKVLLKTGLQARPAALFVQEANRFSSDIYLEKDGKKVNAKSIMGLMSLAVSSGSDITLIADGPDEKEALEALAKYIQNE</Hsp_hseq>
+      <Hsp_midline>MV K V+VL + G+ ARPAAL VQ A+RF S I L +D  +VNAKSIMG+M++A   GS++ L+ +GPDE  AL A+ +  QN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|503505524|ref|WP_013740185.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Sphaerochaeta coccoides] &gt;gi|329749435|gb|AEC02791.1| Phosphotransferase system, phosphocarrier protein HPr [Sphaerochaeta coccoides DSM 17374]</Hit_def>
+  <Hit_accession>WP_013740185</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>7.92431e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEE</Hsp_qseq>
+      <Hsp_hseq>MIERTLTITNRAGIHARPAALIAKVANRYVSDVFFLKDAMKINGKSIMGVITLGATYKSKLTMQCDGPDEAEMADAIEHVFANHFEE</Hsp_hseq>
+      <Hsp_midline>M+ +T+ + NRAG+HARPAALI + A+R+ S +  ++D +++N KSIMGV+ + A   S+L +  +GPDE     AIE +F N FEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|505825281|ref|WP_015710657.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema azotonutricium] &gt;gi|333734917|gb|AEF80866.1| phosphocarrier protein HPr [Treponema azotonutricium ZAS-9]</Hit_def>
+  <Hit_accession>WP_015710657</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>9.44019e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MMQQRVTISNRAGIHARPAALLVEIAKDIKSSIYIEKGSDRINGKSIMGILTLGAAYGTELNIITEGEDEKEALEAIVRLFESKFSEE</Hsp_hseq>
+      <Hsp_midline>M+ + V + NRAG+HARPAAL+V+ A    S I + + + R+N KSIMG++ + A  G+EL ++ EG DE  AL AI RLF++KF EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|493199109|ref|WP_006188963.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema vincentii] &gt;gi|257445094|gb|EEV20169.1| phosphocarrier, HPr family [Treponema vincentii ATCC 35580]</Hit_def>
+  <Hit_accession>WP_006188963</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.06238e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVTKKIIVQNRAGIHARPSSLIVQTANKFQSNIMFEKENITVNAKSIMGVMTMAAGYQTELTLSADGADEAEALAALEQLFAAKFEEE</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARP++LIVQ A++F S IM  ++ I VNAKSIMGVM MAAG  +EL L  +G DE  AL+A+E+LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|488789798|ref|WP_002702204.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema saccharophilum] &gt;gi|380768927|gb|EIC02907.1| Phosphotransferase system, phosphocarrier protein HPr [Treponema saccharophilum DSM 2985]</Hit_def>
+  <Hit_accession>WP_002702204</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>1.07385e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEKTLTVKNRAGIHARPAALIAQTANKFSAEIQIQKDSMTVNAKSIMGVITMAASYNTVLVVKADGIDEKQAVETLYDLFESKFEED</Hsp_hseq>
+      <Hsp_midline>M  KT+ V NRAG+HARPAALI Q A++F ++I + +D++ VNAKSIMGV+ MAA   + L +  +G DE  A+  +  LF++KFEE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|505236345|ref|WP_015423447.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [uncultured Termite group 1 bacterium] &gt;gi|189485441|ref|YP_001956382.1| phosphocarrier protein HPr [uncultured Termite group 1 bacterium phylotype Rs-D17] &gt;gi|170287400|dbj|BAG13921.1| phosphocarrier protein HPr [uncultured Termite group 1 bacterium phylotype Rs-D17]</Hit_def>
+  <Hit_accession>WP_015423447</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>1.12949e-21</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>KTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEE</Hsp_qseq>
+      <Hsp_hseq>KIIVVLNKMGLHARPAAMLVQIINEYQASVKILKDGFEVDAKSIMGVMTLAAGQGSKLNFVADGLDENEVLSAIENLFKSKFGE</Hsp_hseq>
+      <Hsp_midline>K + VLN+ G+HARPAA++VQ  + + + + +++D   V+AKSIMGVM +AAG GS+L  V +G DE   LSAIE LF++KF E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|740236137|ref|WP_038077298.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Treponema vincentii]</Hit_def>
+  <Hit_accession>WP_038077298</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>2.02322e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVTKKIIVQNRAGIHARPSSLIVQTANKFQSNIMFEKENVTVNAKSIMGVMTMAAGYQTELTLSADGADEAEALAALEQLFAAKFEEE</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARP++LIVQ A++F S IM  ++ + VNAKSIMGVM MAAG  +EL L  +G DE  AL+A+E+LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|503062319|ref|WP_013297295.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphate ABC transporter permease [Thermoanaerobacterium] &gt;gi|302777761|gb|ADL68320.1| Phosphotransferase system, phosphocarrier protein HPr [Thermoanaerobacterium thermosaccharolyticum DSM 571] &gt;gi|333111744|gb|AEF16681.1| Phosphotransferase system, phosphocarrier protein HPr [Thermoanaerobacterium xylanolyticum LX-11] &gt;gi|433292609|gb|AGB18431.1| phosphotransferase system HPr (HPr) family protein [Thermoanaerobacterium thermosaccharolyticum M0795]</Hit_def>
+  <Hit_accession>WP_013297295</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.58976e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEKTVEIKNKTGLHARPAALFVQAASKFSSQIWVEKENKKVNAKSIMGIMSLGVAQGNTVKLIADGSDEQEAIKALVDLIDSKFGEE</Hsp_hseq>
+      <Hsp_midline>M  KTV + N+ G+HARPAAL VQAAS+F S+I + ++  +VNAKSIMG+M++    G+ ++L+ +G DE  A+ A+  L  +KF EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|513541845|gb|EPF45788.1|</Hit_id>
+  <Hit_def>HPr family phosphocarrier [Treponema vincentii F0403]</Hit_def>
+  <Hit_accession>EPF45788</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.95565e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>96</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MVTKKIIVQNRAGIHARPSSLIVQTANKFQSNIMFEKENVTVNAKSIMGVMTMAAGYQTELTLSADGADEAEALAALEQLFAAKFEEE</Hsp_hseq>
+      <Hsp_midline>MV K + V NRAG+HARP++LIVQ A++F S IM  ++ + VNAKSIMGVM MAAG  +EL L  +G DE  AL+A+E+LF  KFEEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|504029184|ref|WP_014263178.1|</Hit_id>
+  <Hit_def>phosphate ABC transporter permease [Filifactor alocis] &gt;gi|291165965|gb|EFE28012.1| phosphocarrier, HPr family [Filifactor alocis ATCC 35896]</Hit_def>
+  <Hit_accession>WP_014263178</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>3.38675e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MLTRQFQIKLDVGLHARPAALFVQTCNRFDSEIILKRDCATVNAKSIIGVMGLGVADGDEIELMIDGSDEAEALETIEQFFEEKMKEK</Hsp_hseq>
+      <Hsp_midline>M+ +  ++    G+HARPAAL VQ  +RFDS+I+L RD   VNAKSI+GVM +    G E+EL+++G DE  AL  IE+ F+ K +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|495558841|ref|WP_008283420.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [gamma proteobacterium HTCC5015] &gt;gi|198263236|gb|EDY87514.1| phosphocarrier HPr protein [gamma proteobacterium HTCC5015]</Hit_def>
+  <Hit_accession>WP_008283420</Hit_accession>
+  <Hit_len>89</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>4.21023e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEE</Hsp_qseq>
+      <Hsp_hseq>MIERDIDVINKLGLHARAAAKLVSTASRFNAKIELAKEHRRINAKSIMGVMMLAASQGTTLKLFIEGDDEVEAEREIEALFQDYFGE</Hsp_hseq>
+      <Hsp_midline>M+ + + V+N+ G+HAR AA +V  ASRF++KI L ++  R+NAKSIMGVM +AA  G+ L+L +EG DEV A   IE LFQ+ F E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|503371798|ref|WP_013606459.1|</Hit_id>
+  <Hit_def>phosphocarrier protein HPr [Sphaerochaeta globosa] &gt;gi|324025847|gb|ADY12606.1| Phosphotransferase system, phosphocarrier protein HPr [Sphaerochaeta globosa str. Buddy]</Hit_def>
+  <Hit_accession>WP_013606459</Hit_accession>
+  <Hit_len>87</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>4.91572e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEE</Hsp_qseq>
+      <Hsp_hseq>MVTRELKVFNRAGIHARPAASIVKLANKYASELYLEKENMKINGKSIMGIITLGATHQSTIVMTCEGPDEQQMADAIQTLFENRFEE</Hsp_hseq>
+      <Hsp_midline>MV + ++V NRAG+HARPAA IV+ A+++ S++ L ++ +++N KSIMG++ + A   S + +  EGPDE     AI+ LF+N+FEE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|517793482|ref|WP_018963690.1|</Hit_id>
+  <Hit_def>hypothetical protein [Coprothermobacter platensis]</Hit_def>
+  <Hit_accession>WP_018963690</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.1225</Hsp_bit-score>
+      <Hsp_score>222</Hsp_score>
+      <Hsp_evalue>5.14667e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MLTKKFVVENEVGLHARPASLFVETANKFKSSVFVKKDGTVVNAKSILGILSLGAEKGAELEVAVDGEDEEAALKAIQQLMQTKFGEE</Hsp_hseq>
+      <Hsp_midline>M+ K   V N  G+HARPA+L V+ A++F S + + +D   VNAKSI+G++++ A  G+ELE+ V+G DE AAL AI++L Q KF EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|504571138|ref|WP_014758240.1|</Hit_id>
+  <Hit_def>MULTISPECIES: phosphate ABC transporter permease [Thermoanaerobacterium] &gt;gi|389569960|gb|AFK86365.1| Phosphotransferase system, phosphocarrier protein HPr [Thermoanaerobacterium saccharolyticum JW/SL-YS485] &gt;gi|569525349|gb|ETO37143.1| phosphotransferase system, phosphocarrier protein HPr [Thermoanaerobacterium aotearoense SCUT27] &gt;gi|942542092|gb|ALL27381.1| phosphocarrier protein [Thermoanaerobacterium aotearoense]</Hit_def>
+  <Hit_accession>WP_014758240</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>8.0761e-21</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>MVVKTVRVLNRAGVHARPAALIVQAASRFDSKIMLVRDTIRVNAKSIMGVMAMAAGCGSELELVVEGPDEVAALSAIERLFQNKFEEE</Hsp_qseq>
+      <Hsp_hseq>MTEKTVEIKNKTGLHARPAALFVQAASKFSSQIWVEKENKKVNAKSIMGIMSLGVAQGNTVKLIADGSDEQEAIKTLVDLIDSKFGEE</Hsp_hseq>
+      <Hsp_midline>M  KTV + N+ G+HARPAAL VQAAS+F S+I + ++  +VNAKSIMG+M++    G+ ++L+ +G DE  A+  +  L  +KF EE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>79581714</Statistics_db-num>
+      <Statistics_db-len>29080698065</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

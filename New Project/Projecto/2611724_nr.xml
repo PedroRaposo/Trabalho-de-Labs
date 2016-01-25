@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_27509</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611724</BlastOutput_query-def>
+  <BlastOutput_query-len>254</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_27509</Iteration_query-ID>
+  <Iteration_query-def>2611724</Iteration_query-def>
+  <Iteration_query-len>254</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|499184494|ref|WP_010882034.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pallidum] &gt;gi|3322883|gb|AAC65563.1| conserved hypothetical protein [Treponema pallidum subsp. pallidum str. Nichols] &gt;gi|189018390|gb|ACD71008.1| hypothetical protein TPASS_0588 [Treponema pallidum subsp. pallidum SS14]</Hit_def>
+  <Hit_accession>WP_010882034</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>520.005</Hsp_bit-score>
+      <Hsp_score>1338</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>254</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGLLTRSVALRIGTIYRRTKRTLQR</Hsp_qseq>
+      <Hsp_hseq>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGLLTRSVALRIGTIYRRTKRTLQR</Hsp_hseq>
+      <Hsp_midline>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGLLTRSVALRIGTIYRRTKRTLQR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|504108513|ref|WP_014342499.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pallidum] &gt;gi|374677420|gb|AEZ57713.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. pertenue str. SamoaD] &gt;gi|374678490|gb|AEZ58782.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. pertenue str. CDC2] &gt;gi|374679559|gb|AEZ59850.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. pertenue str. Gauthier] &gt;gi|374680621|gb|AEZ60911.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. pallidum DAL-1] &gt;gi|408475817|gb|AFU66582.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. pallidum str. Mexico A] &gt;gi|485593895|gb|AGK84234.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum str. Fribourg-Blanc] &gt;gi|511519205|gb|AGN75772.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. pallidum str. Nichols] &gt;gi|511533670|gb|AGN76748.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. pallidum SS14] &gt;gi|601116934|gb|AHN67258.1| DNA polymerase III subunit delta [Treponema pallidum subsp. pallidum str. Sea 81-4] &gt;gi|742687318|gb|AJB40610.1| DNA-directed DNA polymerase III delta subunit [Treponema pallidum subsp. endemicum str. Bosnia A]</Hit_def>
+  <Hit_accession>WP_014342499</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>475.707</Hsp_bit-score>
+      <Hsp_score>1223</Hsp_score>
+      <Hsp_evalue>5.14852e-166</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_hseq>
+      <Hsp_midline>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|503711147|ref|WP_013945223.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema paraluiscuniculi] &gt;gi|335344611|gb|AEH40527.1| DNA-directed DNA polymerase III delta subunit [Treponema paraluiscuniculi Cuniculi A]</Hit_def>
+  <Hit_accession>WP_013945223</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.929</Hsp_bit-score>
+      <Hsp_score>1208</Hsp_score>
+      <Hsp_evalue>1.0405e-163</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKHGGSRADVFLVLISDSVSIHKRIEQNISPAHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIQSLLELVENNTRALKTVCTQISLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_hseq>
+      <Hsp_midline>MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIK GGSRADVFLVLISDSVSIHKRIEQNISP HKRVFWELFENKKHAWVQRFFFQHEMRIEQEAI+SLLELVENNTRALKTVCTQ+SLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|639872526|ref|WP_024753611.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema phagedenis]</Hit_def>
+  <Hit_accession>WP_024753611</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>9.45956e-79</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGSEIGEKNTAIEKIKERAATLGVIDVQTFYAIDTRIHDVVSLLQNGSLFSDVRFIIFRSAELIKKKEEIEILTTWIKSAENTTDSFLILLSDETSIDKKIEAAIPPTQKKIFWELFENKKQEWIKNFFSKESFTIENEAVATLLELVENNTDALKATCTHLVLFFKKGARISAADIEELLSHNKEESPFTLFDALTKKKLELALDINRKLLLSKDSSPIQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF G EIGE+++A++++  RA   G +DV   YA +T + D+V LL+  +LF+D   ++  +AE+IKK +E+ +LT WIK   +  D FL+L+SD  SI K+IE  I P  K++FWELFENKK  W++ FF +    IE EA+ +LLELVENNT ALK  CT L LFF+KG RI+A DI  LL H KEE+ FTLFDAL+K+ LE +L I   LL SKD +P+QI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|748762063|emb|CEM60467.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema phagedenis]</Hit_def>
+  <Hit_accession>CEM60467</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>1.41089e-78</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGSEIGEKNTAIEKIKERAATLGVIDVQTFYAIDTRIHDVVSLLQNGSLFSDVRFIIFRSAELIKKKEEIEILTTWIKSAENTTDSFLILLSDETSIDKKIEAAIPPTQKKIFWELFENKKQEWIKNFFSKESFTIENEAVATLLELVENNTDALKATCTHLVLFFKKGARISAADIEELLSHNKEESPFTLFDALTKKKLELALDINRKLLLSKDSSPIQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF G EIGE+++A++++  RA   G +DV   YA +T + D+V LL+  +LF+D   ++  +AE+IKK +E+ +LT WIK   +  D FL+L+SD  SI K+IE  I P  K++FWELFENKK  W++ FF +    IE EA+ +LLELVENNT ALK  CT L LFF+KG RI+A DI  LL H KEE+ FTLFDAL+K+ LE +L I   LL SKD +P+QI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|748656261|ref|WP_039914404.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema phagedenis]</Hit_def>
+  <Hit_accession>WP_039914404</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>1.52079e-78</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGSEIGEKNTAIEKIKERAATLGVIDVQTFYAIDTRIHDVVSLLQNGSLFSDVRFIIFRSAELIKKKEEIEILTTWIKSAENTTDSFLILLSDETSIDKKIEAAIPPTQKKIFWELFENKKQEWIKNFFSKEGFTIENEAVATLLELVENNTDALKATCTHLVLFFKKGARISAADIEELLSHNKEESPFTLFDALTKKKLELALDINRKLLLSKDSSPIQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF G EIGE+++A++++  RA   G +DV   YA +T + D+V LL+  +LF+D   ++  +AE+IKK +E+ +LT WIK   +  D FL+L+SD  SI K+IE  I P  K++FWELFENKK  W++ FF +    IE EA+ +LLELVENNT ALK  CT L LFF+KG RI+A DI  LL H KEE+ FTLFDAL+K+ LE +L I   LL SKD +P+QI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|320147106|gb|EFW38664.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema phagedenis F0421]</Hit_def>
+  <Hit_accession>EFW38664</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>252.677</Hsp_bit-score>
+      <Hsp_score>644</Hsp_score>
+      <Hsp_evalue>2.55208e-78</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGSEIGEKNTAIEKIKERAATLGVIDVQTFYAIDTRIHDVVSLLQNGSLFSDVRFIIFRSAELIKKKEEIEILTTWIKSAENTTDSFLILLSDETSIDKKIEAAIPPTQKKIFWELFENKKQEWIKNFFSKEGFTIENEAVATLLELVENNTDALKATCTHLVLFFKKGARISAADIEELLSHNKEESPFTLFDALTKKKLELALDINRKLLLSKDSSPIQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF G EIGE+++A++++  RA   G +DV   YA +T + D+V LL+  +LF+D   ++  +AE+IKK +E+ +LT WIK   +  D FL+L+SD  SI K+IE  I P  K++FWELFENKK  W++ FF +    IE EA+ +LLELVENNT ALK  CT L LFF+KG RI+A DI  LL H KEE+ FTLFDAL+K+ LE +L I   LL SKD +P+QI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|513859902|ref|WP_016519594.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema vincentii] &gt;gi|513541844|gb|EPF45787.1| DNA polymerase III, delta subunit [Treponema vincentii F0403]</Hit_def>
+  <Hit_accession>WP_016519594</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.899</Hsp_bit-score>
+      <Hsp_score>629</Hsp_score>
+      <Hsp_evalue>1.97726e-76</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>LWLFTGPELGERNDALEALRKNAEKKYGQLDNHLFYAADTPISVILDAVQNGSLFAEARFAVVRNAEAIKKKEDIHALTQWVEQTPAEDGAFIVLISDEIGIDKKIEALVPKDHKKIFWELFENKKQEWLRRFFAQSKINIEQEAIEVLLELVENNTEALKTACAHISLFFEPGTTLTAETVERLLAHNKEETPFTLFDALSNANLEYALNIRQKLTLSKESSPVQLIAGL</Hsp_hseq>
+      <Hsp_midline>+WLFTGPE+GER+ A++ +   A+ + G +D H  YA +TP++ ++D ++  +LFA+A   V+ NAE IKK +++H LT+W++   +    F+VLISD + I K+IE  +   HK++FWELFENKK  W++RFF Q ++ IEQEAIE LLELVENNT ALKT C  +SLFFE G  +TA  +  LL H KEET FTLFDALS  +LE++L I   L  SK+ +PVQ++AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|763134170|ref|WP_044013853.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema sp. OMZ 838] &gt;gi|719625646|gb|AIW88959.1| DNA polymerase III subunit delta [Treponema sp. OMZ 838]</Hit_def>
+  <Hit_accession>WP_044013853</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>9.76404e-75</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MSV--WLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>MSVPLWLFTGPELGERNDALEALRKSAEKKYGQLDNHLFYAADTSIAVVLDAVQNGSLFAEARFAVVRNAEAIKKKEDIQALTQWAEQTPTEAGAFLVLISDEIGIDKKIEALVPKDHKKIFWELFENKKQEWIRRFFAQSKIGIEQDAIEVLLELVENNTEALKTTCAHISLFFEPGTTLTAETVERLLAHNKEETPFTLFDALSNANLEYALNIRQKLTLSKESSPVQLIAGL</Hsp_hseq>
+      <Hsp_midline>MSV  WLFTGPE+GER+ A++ +   A+ + G +D H  YA +T +A ++D ++  +LFA+A   V+ NAE IKK +++  LT+W +   + A  FLVLISD + I K+IE  +   HK++FWELFENKK  W++RFF Q ++ IEQ+AIE LLELVENNT ALKT C  +SLFFE G  +TA  +  LL H KEET FTLFDALS  +LE++L I   L  SK+ +PVQ++AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|513866027|ref|WP_016522346.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema medium] &gt;gi|513484273|gb|EPF29647.1| DNA polymerase III, delta subunit [Treponema medium ATCC 700293]</Hit_def>
+  <Hit_accession>WP_016522346</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.506</Hsp_bit-score>
+      <Hsp_score>615</Hsp_score>
+      <Hsp_evalue>3.12524e-74</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>LWLFTGPELGERNDALEALKKSAEKKYGQLDNHLFYAADTSLSVVLDAVQNGSLFAEARFAVVRNAEAIKKKEDIQALTQWVEQTPTEDGAFLVLISDEIGIDKKIEELVPKDHKKIFWELFENKKQDWIRRFFAQSKIGIEQDAIEVLLELVENNTEALKTSCTHISLFFEPGTTLTAETVERLLAHNKEETPFTLFDALSNANLEYALNIRQKLTLSKESSPVQLIAGL</Hsp_hseq>
+      <Hsp_midline>+WLFTGPE+GER+ A++ +   A+ + G +D H  YA +T ++ ++D ++  +LFA+A   V+ NAE IKK +++  LT+W++   +    FLVLISD + I K+IE+ +   HK++FWELFENKK  W++RFF Q ++ IEQ+AIE LLELVENNT ALKT CT +SLFFE G  +TA  +  LL H KEET FTLFDALS  +LE++L I   L  SK+ +PVQ++AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|657352707|ref|WP_029409134.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pedis]</Hit_def>
+  <Hit_accession>WP_029409134</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>1.25147e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARA-QAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGS---RADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGPEIGERNTAVETISKTLLKKYGDVETHTMYAGETDMGSVISLLQNASLFSPAKLVILKSAELIKKKEDIELLTNWIDSVSADNVQNDSFLILISDEISVLKKISDTVPKAQQKIFWEMFENKKQEWIRNFFFKEGIKIESSAVDSLLELVENNTDALKTACSHLALFLQKGSVITQGDIEKFFAHNKEETPFTLFNALTLADLEAALSITQKLMLSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV+ +     +  G V+ H +YA ET +  ++ LL+  +LF+ A  V+L +AE+IKK +++ +LT WI    +   + D FL+LISD +S+ K+I   +    +++FWE+FENKK  W++ FFF+  ++IE  A++SLLELVENNT ALKT C+ L+LF +KG  IT  DI     H KEET FTLF+AL+  DLE +L I   L+ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|639096036|ref|WP_024469554.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pedis]</Hit_def>
+  <Hit_accession>WP_024469554</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.94504e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARA-QAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGS---RADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGPEIGERNTAVETISKTLLKKYGDMETHTMYAGETDMGSVISLLQNASLFSPAKLVILKSAELIKKKEDIELLTNWIDSVSADNVQNDSFLILISDEISVLKKISDTVPKAQQKIFWEMFENKKQEWIRNFFFKEGIKIENSAVDSLLELVENNTDALKTACSHLALFLQKGSVITQEDIEKFFAHNKEETPFTLFNALTLADLEAALSITQKLMLSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV+ +     +  G ++ H +YA ET +  ++ LL+  +LF+ A  V+L +AE+IKK +++ +LT WI    +   + D FL+LISD +S+ K+I   +    +++FWE+FENKK  W++ FFF+  ++IE  A++SLLELVENNT ALKT C+ L+LF +KG  IT  DI     H KEET FTLF+AL+  DLE +L I   L+ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|639082101|ref|WP_024466094.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pedis]</Hit_def>
+  <Hit_accession>WP_024466094</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.26109e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARA-QAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGS---RADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGPEIGERNTAVETISKTLLKKYGDMETHTMYAGETDMGSVISLLQNASLFSPAKLVILKSAELIKKKEDIELLTNWIDSVSADNVQNDSFLILISDEISVLKKISDTVPKAQQKIFWEMFENKKQEWIRNFFFKEGIKIESSAVDSLLELVENNTDALKTACSHLALFLQKGSVITQEDIEKFFAHNKEETPFTLFNALTLADLEAALSITQKLMLSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV+ +     +  G ++ H +YA ET +  ++ LL+  +LF+ A  V+L +AE+IKK +++ +LT WI    +   + D FL+LISD +S+ K+I   +    +++FWE+FENKK  W++ FFF+  ++IE  A++SLLELVENNT ALKT C+ L+LF +KG  IT  DI     H KEET FTLF+AL+  DLE +L I   L+ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|657354221|ref|WP_029410027.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pedis]</Hit_def>
+  <Hit_accession>WP_029410027</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.31025e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARA-QAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGS---RADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGPEIGERNTAVETISKTLLKKYGDMETHTMYAGETDMGSVISLLQNASLFSPAKLVILKSAELIKKKEDIELLTNWIDSVSADNIQNDSFLILISDEISVLKKISDTVPKAQQKIFWEMFENKKQEWIRNFFFKEGIKIESSAVDSLLELVENNTDALKTACSHLALFLQKGSVITQEDIEKFFAHNKEETPFTLFNALTLADLEAALSITQKLMLSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV+ +     +  G ++ H +YA ET +  ++ LL+  +LF+ A  V+L +AE+IKK +++ +LT WI    +   + D FL+LISD +S+ K+I   +    +++FWE+FENKK  W++ FFF+  ++IE  A++SLLELVENNT ALKT C+ L+LF +KG  IT  DI     H KEET FTLF+AL+  DLE +L I   L+ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|639085158|ref|WP_024466575.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pedis]</Hit_def>
+  <Hit_accession>WP_024466575</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>3.514e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARA-QAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGS---RADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGPEIGERNTAVETISKTLLKKYGDMETHTMYAGETDMGSVISLLQNASLFSPAKLVILKSAELIKKKEDIELLTNWIDSVSADNIQNDSFLILISDEISVLKKISDTVPKAQQKIFWEMFENKKQEWIRNFFFKEGIKIESSAVDSLLELVENNTDALKTACSHLALFLQKGSVITQGDIEKFFAHNKEETPFTLFNALTLADLEAALSITQKLMLSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV+ +     +  G ++ H +YA ET +  ++ LL+  +LF+ A  V+L +AE+IKK +++ +LT WI    +   + D FL+LISD +S+ K+I   +    +++FWE+FENKK  W++ FFF+  ++IE  A++SLLELVENNT ALKT C+ L+LF +KG  IT  DI     H KEET FTLF+AL+  DLE +L I   L+ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|530724507|gb|AGT43460.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema pedis str. T A4]</Hit_def>
+  <Hit_accession>AGT43460</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.106</Hsp_bit-score>
+      <Hsp_score>588</Hsp_score>
+      <Hsp_evalue>6.00368e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARA-QAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGS---RADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFLGPEIGERNTAVETISKTLLKKYGDMETHTMYAGETDMGSVISLLQNASLFSPAKLVILKSAELIKKKEDIELLTNWIDSVSADNVQNDSFLILISDEISVLKKISDTVPKAQQKIFWEMFENKKQEWIRNFFFKEGIKIESSAVDSLLELVENNTDALKTACSHLALFLQKGSVITQEDIEKFFAHNKEETPFTLFNALTLADLEAALSITQKLMLSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV+ +     +  G ++ H +YA ET +  ++ LL+  +LF+ A  V+L +AE+IKK +++ +LT WI    +   + D FL+LISD +S+ K+I   +    +++FWE+FENKK  W++ FFF+  ++IE  A++SLLELVENNT ALKT C+ L+LF +KG  IT  DI     H KEET FTLF+AL+  DLE +L I   L+ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|257445095|gb|EEV20170.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema vincentii ATCC 35580]</Hit_def>
+  <Hit_accession>EEV20170</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.18</Hsp_bit-score>
+      <Hsp_score>583</Hsp_score>
+      <Hsp_evalue>1.49304e-69</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>FTGPEIGERDSAVQEVCARAQAQ------GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>FYRPRIGR-----AERCARSAAEECGKKYGQLDNHLFYAADTPISVILDAVQNGSLFAEARFAVVRNAEAIKKKEDIHALTQWVEQTPAEDGAFIVLISDEIGIDKKIEALVPKDHKKIFWELFENKKQEWLRRFFAQSKINIEQEAIEVLLELVENNTEALKTACTHISLFFEPGTTLTAETVERLLAHNKEETPFTLFDALSNANLEYALNIRQKLTLSKESSPVQLIAGL</Hsp_hseq>
+      <Hsp_midline>F  P IG       E CAR+ A+      G +D H  YA +TP++ ++D ++  +LFA+A   V+ NAE IKK +++H LT+W++   +    F+VLISD + I K+IE  +   HK++FWELFENKK  W++RFF Q ++ IEQEAIE LLELVENNT ALKT CT +SLFFE G  +TA  +  LL H KEET FTLFDALS  +LE++L I   L  SK+ +PVQ++AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|488780421|ref|WP_002692828.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema denticola] &gt;gi|448939487|gb|EMB20404.1| DNA polymerase III, delta subunit [Treponema denticola OTK]</Hit_def>
+  <Hit_accession>WP_002692828</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.483</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.38588e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSR---ADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNTAVDTVLKTLSKQYGDIETHTVYAGDTGMGDIISLLQNASLFSSAKLLILKSAELIKKKEDIDLLTDWIQSVSKKENTSDSFLILISDETSIAKKISDTIPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAVDELLELVENNTDALKTACSHLVLYFQKGSHIGQENIEKLFAHNKEETPFSLFNALTMGSLETALSISQKIILSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV  V      Q G ++ H +YA +T + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT+WI+    +   +D FL+LISD  SI K+I   I    +++FWELFENKK  WV+ F F+  + IE EA++ LLELVENNT ALKT C+ L L+F+KG  I   +I  L  H KEET F+LF+AL+   LE +L I   ++ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|488748941|ref|WP_002672251.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema denticola] &gt;gi|448965161|gb|EMB45826.1| DNA polymerase III, delta subunit [Treponema denticola AL-2]</Hit_def>
+  <Hit_accession>WP_002672251</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.483</Hsp_bit-score>
+      <Hsp_score>576</Hsp_score>
+      <Hsp_evalue>2.57219e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSR---ADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNTAVDTVLKTLSKQYGDIETHTVYAGDTGMGDIISLLQNASLFSSAKLLILKSAELIKKKEDIDLLTDWIQSVSKKENTSDSFLILISDETSIAKKISDTVPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAVDELLELVENNTDALKTACSHLVLYFQKGSHIDQENIEKLFAHNKEETPFSLFNALTMGNLETALSISQKIILSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV  V      Q G ++ H +YA +T + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT+WI+    +   +D FL+LISD  SI K+I   +    +++FWELFENKK  WV+ F F+  + IE EA++ LLELVENNT ALKT C+ L L+F+KG  I   +I  L  H KEET F+LF+AL+  +LE +L I   ++ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|498384602|ref|WP_010698758.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema denticola] &gt;gi|448942253|gb|EMB23148.1| DNA polymerase III, delta subunit [Treponema denticola SP37] &gt;gi|513489712|gb|EPF34820.1| DNA polymerase III, delta subunit [Treponema denticola SP44] &gt;gi|513493487|gb|EPF38287.1| DNA polymerase III, delta subunit [Treponema denticola SP23]</Hit_def>
+  <Hit_accession>WP_010698758</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>2.86385e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSR---ADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNAAVDTVLKTLSKQYGDIETHTVYAGDTGMGDIISLLQNASLFSSAKLIILKSAELIKKKEDIDLLTDWIQSVSKKENTSDSFLILISDETSIAKKISDTVPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAVDELLELVENNTDALKTACSHLVLYFQKGSHIGQENIEKLFAHNKEETPFSLFNALTMGSLETALSISQKIILSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV  V      Q G ++ H +YA +T + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT+WI+    +   +D FL+LISD  SI K+I   +    +++FWELFENKK  WV+ F F+  + IE EA++ LLELVENNT ALKT C+ L L+F+KG  I   +I  L  H KEET F+LF+AL+   LE +L I   ++ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|498378246|ref|WP_010692402.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema denticola] &gt;gi|448947438|gb|EMB28283.1| DNA polymerase III, delta subunit [Treponema denticola SP33] &gt;gi|513491465|gb|EPF36403.1| DNA polymerase III, delta subunit [Treponema denticola SP32]</Hit_def>
+  <Hit_accession>WP_010692402</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>3.7864e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSR---ADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNAAVDTVLKTLSKQYGDIETHTVYAGDTGMGDVISLLQNASLFSSAKLIILKSAELIKKKEDIDLLTDWIQSVSKKENTSDSFLILISDETSITKKISDTVPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAVDELLELVENNTDALKTACSHLVLYFQKGSHIDQENIEKLFAHNKEETPFSLFNALTMGSLETALSISQKIILSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV  V      Q G ++ H +YA +T + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT+WI+    +   +D FL+LISD  SI K+I   +    +++FWELFENKK  WV+ F F+  + IE EA++ LLELVENNT ALKT C+ L L+F+KG  I   +I  L  H KEET F+LF+AL+   LE +L I   ++ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|488753837|ref|WP_002677113.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema denticola] &gt;gi|448949626|gb|EMB30450.1| DNA polymerase III, delta subunit [Treponema denticola H-22] &gt;gi|448964023|gb|EMB44696.1| DNA polymerase III, delta subunit [Treponema denticola ASLM] &gt;gi|451702893|gb|EMD57288.1| DNA polymerase III, delta subunit [Treponema denticola US-Trep]</Hit_def>
+  <Hit_accession>WP_002677113</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>5.06011e-68</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSR---ADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNTAVDTVLKTLSKQYGDIETHTVYAGDTGMGDIISLLQNASLFSSAKLLILKSAELIKKKEDIDLLTDWIQSVSKKENTSDSFLILISDETSIAKKISDTVPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAVDELLELVENNTDALKTACSHLVLYFQKGSHIDQENIEKLFAHNKEETPFSLFNALTMGSLETALSISQKIILSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV  V      Q G ++ H +YA +T + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT+WI+    +   +D FL+LISD  SI K+I   +    +++FWELFENKK  WV+ F F+  + IE EA++ LLELVENNT ALKT C+ L L+F+KG  I   +I  L  H KEET F+LF+AL+   LE +L I   ++ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|488763494|ref|WP_002686694.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema denticola] &gt;gi|448946299|gb|EMB27162.1| DNA polymerase III, delta subunit [Treponema denticola MYR-T] &gt;gi|448953694|gb|EMB34483.1| DNA polymerase III, delta subunit [Treponema denticola H1-T] &gt;gi|448957391|gb|EMB38137.1| DNA polymerase III, delta subunit [Treponema denticola ATCC 33520]</Hit_def>
+  <Hit_accession>WP_002686694</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>1.79656e-67</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSR---ADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNTAVDTVLKTLSKQYGDIETHTVYAGDTGMGDIISLLQNASLFSSAKLLILKSAELIKKKEDIDLLTDWIQSVSKKENTSDSFLILISDETSIAKKISDTVPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAADELLELVENNTDALKTACSHLVLYFQKGSHIGQENIEKLFAHNKEETPFSLFNALTMGSLETALSISQKIILSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV  V      Q G ++ H +YA +T + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT+WI+    +   +D FL+LISD  SI K+I   +    +++FWELFENKK  WV+ F F+  + IE EA + LLELVENNT ALKT C+ L L+F+KG  I   +I  L  H KEET F+LF+AL+   LE +L I   ++ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|488758737|ref|WP_002681969.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema denticola] &gt;gi|42526243|ref|NP_971341.1| hypothetical protein TDE0729 [Treponema denticola ATCC 35405] &gt;gi|41816355|gb|AAS11222.1| conserved hypothetical protein [Treponema denticola ATCC 35405] &gt;gi|448953506|gb|EMB34296.1| DNA polymerase III, delta subunit [Treponema denticola ATCC 35404] &gt;gi|448956087|gb|EMB36851.1| DNA polymerase III, delta subunit [Treponema denticola ATCC 33521]</Hit_def>
+  <Hit_accession>WP_002681969</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>1.60474e-66</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSR---ADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNTAVDTVLKTLSKQYGDIETHTVYAGDAGMGDVISLLQNASLFSSAKLIILKSAELIKKKEDIDLLTDWIQSVSKKENTSDSFLILISDETSIAKKISDTVPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAVDELLELVENNTDALKMACSHLVLYFQKGSHIDQENIEKLFAHNKEETPFSLFNALTMGSLETALSISQKIILSKNSSPVQIIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER++AV  V      Q G ++ H +YA +  + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT+WI+    +   +D FL+LISD  SI K+I   +    +++FWELFENKK  WV+ F F+  + IE EA++ LLELVENNT ALK  C+ L L+F+KG  I   +I  L  H KEET F+LF+AL+   LE +L I   ++ SK+ +PVQI+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|769215987|ref|WP_044978529.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema putidum] &gt;gi|685199645|gb|AIN93748.1| DNA polymerase III subunit delta [Treponema putidum]</Hit_def>
+  <Hit_accession>WP_044978529</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>3.30852e-66</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKD--GGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VWLFMGPEIGERNSAIDTVVKTLSKQYGDIETHTVYAGDTGMGDIISLLQNASLFSSAKLLILKSAELIKKKEDIDLLTGWIQSVSKNNAGSSFLILISDETSVAKKISDTVPKTQQKIFWELFENKKQEWVRSFLFREGIEIEDEAVDELLELVENNTEALKTACSHLVLYFQKGSHIGQENIEKLFAHNKEETPFTLFNALTLGGLETALSINQKIILSKNSSPVQTIAGL</Hsp_hseq>
+      <Hsp_midline>VWLF GPEIGER+SA+  V      Q G ++ H +YA +T + D++ LL+  +LF+ A  ++L +AE+IKK +++ +LT WI+     +    FL+LISD  S+ K+I   +    +++FWELFENKK  WV+ F F+  + IE EA++ LLELVENNT ALKT C+ L L+F+KG  I   +I  L  H KEET FTLF+AL+   LE +L I   ++ SK+ +PVQ +AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|544922147|ref|WP_021331553.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema socranskii] &gt;gi|538291299|gb|ERF59475.1| DNA polymerase III, delta subunit [Treponema socranskii subsp. socranskii VPI DR56BR1116 = ATCC 35536] &gt;gi|544005590|gb|ERK04859.1| DNA polymerase III, delta subunit [Treponema socranskii subsp. socranskii VPI DR56BR1116 = ATCC 35536]</Hit_def>
+  <Hit_accession>WP_021331553</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>1.02704e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVC-ARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLF-----DALSKRDLEHSLMILNTLLCSKDVAPVQILAGLLT</Hsp_qseq>
+      <Hsp_hseq>IYLYTGPEFGERNDAVFAVKEAMRKAHGALDEYLFYANETPVSEIVTILQSGSLFTNATCVVVRSAESIKKKEDVGAISAWVKTAGEGTSA-LVLVSDEIAVDAKLEKVVPAVHKKIFWEMFEDRKVPWLINFFGKNGYRIGEEAAEDILDMIENNTQALRSECARFFLLFPKSHEITSADVEAVLSHNRAESAFTLFAAMASSESASRRLELSLDVLQKIRLSKDSSPVMILAGLAS</Hsp_hseq>
+      <Hsp_midline>++L+TGPE GER+ AV  V  A  +A G +D +  YA+ETPV+++V +L++ +LF +A CVV+ +AE IKK ++V  ++ W+K  G      LVL+SD +++  ++E+ +  VHK++FWE+FE++K  W+  FF ++  RI +EA E +L+++ENNT+AL++ C +  L F K   IT+ D+ ++L H + E++FTLF        + R LE SL +L  +  SKD +PV ILAGL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|513863266|ref|WP_016521163.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema socranskii] &gt;gi|513480127|gb|EPF26037.1| DNA polymerase III, delta subunit [Treponema socranskii subsp. paredis ATCC 35535]</Hit_def>
+  <Hit_accession>WP_016521163</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>2.80261e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVC-ARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLF-----DALSKRDLEHSLMILNTLLCSKDVAPVQILAGLLT</Hsp_qseq>
+      <Hsp_hseq>IYLYTGPEFGERNDAVSAVKEAMRKAHGELDEYLFYANETPVSEILTILQSGSLFTNASCVVVRSAESIKKKEDVGAISAWAKTAGEGTSA-LILVSDEIAVDAKLEKLVPSAHKKIFWEMFEDRKVPWLINFFRKNGYRIGEEAAEDILDMIENNTQALRSECSRFFLLFPKSHEITPQDVEAVLSHNRAESAFTLFAAMASSESASRRLELSLDVLQKIRLSKDSSPVMILAGLAS</Hsp_hseq>
+      <Hsp_midline>++L+TGPE GER+ AV  V  A  +A G +D +  YA+ETPV++++ +L++ +LF +A CVV+ +AE IKK ++V  ++ W K  G      L+L+SD +++  ++E+ +   HK++FWE+FE++K  W+  FF ++  RI +EA E +L+++ENNT+AL++ C++  L F K   IT  D+ ++L H + E++FTLF        + R LE SL +L  +  SKD +PV ILAGL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|551311939|ref|WP_022931825.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema bryantii]</Hit_def>
+  <Hit_accession>WP_022931825</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>2.31436e-54</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRD------LEHSLMILNTLLCSKDVAPVQILAGLLTRSVALRIGTIYRRTKRTLQR</Hsp_qseq>
+      <Hsp_hseq>IYLYTGPEFGKRNDAVEAVKASHKKQFGVIDEHSFYLLETPLSEVMTILQSGTLFSDGVCVVCRNAELIKKKDEIQMIADWLENPEPSA--VLILVSDEISVDSKLEKLVPTPNRKKFWEMFENEKLPWVTSYFSKNGYRIEQGAAKLILELIENNTQSLAAECSRFFVLFPKDHEITEDDVESVLTHNREENAFSLFKELANSSDPAPVRLEKGLQILQKIRLSKENSSVMIIAGLA--SCFRRLQDWHRRGEQAIPQ</Hsp_hseq>
+      <Hsp_midline>++L+TGPE G+R+ AV+ V A  + Q G +D H  Y  ETP+++++ +L++  LF+D VCVV  NAE+IKK DE+ ++ +W+++    A   L+L+SD +S+  ++E+ +   +++ FWE+FEN+K  WV  +F ++  RIEQ A + +LEL+ENNT++L   C++  + F K   IT  D+ S+L H +EE +F+LF  L+         LE  L IL  +  SK+ + V I+AGL   S   R+   +RR ++ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|497940413|ref|WP_010254569.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema primitia]</Hit_def>
+  <Hit_accession>WP_010254569</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.22659e-52</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LFTGPEIGERDSAVQEV--CARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILA</Hsp_qseq>
+      <Hsp_hseq>LFLGPEFGEKQDAIEEIRRNIKKQFGAPAEETSFYAGETPVNEMVSILRNGSLFADTRLFFIKNAELLKKKDELELLASYM--AAPQDDTTMILISDNTSLDKTLEKAADKAGKRVFWELFENKKTEWVANFFRREGFKINEEGIEAILELVENNTDSLKRECSRLTLFLDKNSVVGEAEVEKWLSHTREESAFTLFSRIAEGDLTRSVEILHTLLAAKET-PVAILG</Hsp_hseq>
+      <Hsp_midline>LF GPE GE+  A++E+    + Q     +    YA ETPV ++V +LR  +LFAD     + NAE++KK DE+ +L  ++     + D  ++LISD+ S+ K +E+      KRVFWELFENKK  WV  FF +   +I +E IE++LELVENNT +LK  C++L+LF +K   +   ++   L HT+EE++FTLF  +++ DL  S+ IL+TLL +K+  PV IL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|503735885|ref|WP_013969961.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema caldarium] &gt;gi|338835505|gb|AEJ20683.1| DNA polymerase III, delta subunit [Treponema caldarium DSM 7334]</Hit_def>
+  <Hit_accession>WP_013969961</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.37247e-52</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>WLFTGPEIGERDSAVQEVCAR--AQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>YLFTGPEVGEQQDTIQYIRQELTKKYGSTPEEQSFYASETTVSDIVSILRNGSLFSDARLILVKNAEYIKKKEDVELLSGYMTQ--PQEDTTLILISEEIGIDKKLEATIPKEHKKIFWELFDNRKTEWVVTFFKRSGYNIQPDAVEAILELVENNTAALRQECSRLTLFLDKNKPVSADQIEQYLAHTRQESAFSLFSQIALGEREKSLEILHTLLDAKE-SPQAIIAGL</Hsp_hseq>
+      <Hsp_midline>+LFTGPE+GE+   +Q +      +   T +    YA ET V+D+V +LR  +LF+DA  +++ NAE IKK ++V +L+ ++     + D  L+LIS+ + I K++E  I   HK++FWELF+N+K  WV  FF +    I+ +A+E++LELVENNT AL+  C++L+LF +K + ++A  I   L HT++E++F+LF  ++  + E SL IL+TLL +K+ +P  I+AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|654170723|ref|WP_027729043.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema sp. C6A8]</Hit_def>
+  <Hit_accession>WP_027729043</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>2.66298e-52</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEV-CARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALS------KRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>IYLYTGPEFGERNEAVEAVKSALKKKFGDIDEHLFYLQETPFGQIMTILQSGTLFSNGVCVVCKGAELLKKKDDLAMISDWL-DGNPDDSSVLILVSDEVSVDSKLDKLVPAQNKKKFWEMFDNQKVPWLTKFFSKNGYRINQDAAELILDMIENNTQALKNECSRFFIVFPKDHTVTVEDVEKVLTHNREESAFTLFNQISQSGDSVQKRFENGISILQKIRLSKENSSVMLIAGL</Hsp_hseq>
+      <Hsp_midline>++L+TGPE GER+ AV+ V  A  +  G +D H  Y  ETP   ++ +L++  LF++ VCVV   AE++KK D++ ++++W+ DG       L+L+SD VS+  ++++ +   +K+ FWE+F+N+K  W+ +FF ++  RI Q+A E +L+++ENNT+ALK  C++  + F K   +T  D+  +L H +EE++FTLF+ +S      ++  E+ + IL  +  SK+ + V ++AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|496394954|ref|WP_009103944.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema sp. JC4] &gt;gi|383870849|gb|EID86450.1| DNA polymerase III, delta subunit [Treponema sp. JC4]</Hit_def>
+  <Hit_accession>WP_009103944</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>5.03688e-52</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALS------KRDLEHSLMILNTLLCSKDVAPVQILAGLLT</Hsp_qseq>
+      <Hsp_hseq>IYLYTGPEFGERNEAVDAVKAGLKKKFGDIDEHLFYLQETPFGQIMTILQSGTLFSNGVCVVCKGAELLKKKDDLAMISDWL-DGNPDDSSVLILVSDEVSVDSKLDKLVPAQNKKKFWEMFDNQKVPWLTKFFQKNGYRINQDAAELILDMIENNTQALKNECSRFFIVFPKDHTVTVDDVEKVLTHNREESAFTLFNQISQSGEPVQKRFENGISILQKIRLSKENSSVMLIAGLAS</Hsp_hseq>
+      <Hsp_midline>++L+TGPE GER+ AV  V A  + + G +D H  Y  ETP   ++ +L++  LF++ VCVV   AE++KK D++ ++++W+ DG       L+L+SD VS+  ++++ +   +K+ FWE+F+N+K  W+ +FF ++  RI Q+A E +L+++ENNT+ALK  C++  + F K   +T  D+  +L H +EE++FTLF+ +S      ++  E+ + IL  +  SK+ + V ++AGL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|513873551|ref|WP_016526102.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema maltophilum] &gt;gi|513486179|gb|EPF31493.1| DNA polymerase III, delta subunit [Treponema maltophilum ATCC 51939]</Hit_def>
+  <Hit_accession>WP_016526102</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>5.35815e-52</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>244</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKD---GGSRADVFLVLISDSVSIHKRIEQNISPVHKRV-FWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDAL------SKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>LWLFTGPELGQKNDAIEEYRRKARSLGQIDEYTFYANDARVADIISLLQNGSLFAASRFIVLHCAEQIKLKADIDLIAQWAQEEAKQGSGGSSLLILESDETSVDKKLE-NIVPKQNRVIFWELFESQKSKWLENWFAKAGFSIDKDAVDTILDLVENNTEALRTECSRFLSCFEKNHRITADDVDAVLSRNRQESVFTLFAALCDASQSDERRLEDALTILQYLRSSKESSSVQLLAGL</Hsp_hseq>
+      <Hsp_midline>+WLFTGPE+G+++ A++E   +A++ G +D +  YA++  VAD++ LL+  +LFA +  +VL+ AE IK   ++ ++ +W ++    GS     L+L SD  S+ K++E NI P   RV FWELFE++K  W++ +F +    I+++A++++L+LVENNT AL+T C++    FEK  RITA D+ ++L   ++E+ FTLF AL       +R LE +L IL  L  SK+ + VQ+LAGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|503525034|ref|WP_013759246.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema brennaborense] &gt;gi|332181856|gb|AEE17544.1| DNA polymerase III, delta subunit [Treponema brennaborense DSM 12168]</Hit_def>
+  <Hit_accession>WP_013759246</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>1.4939e-51</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKD---GGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSK--RD----LEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VYLFTGPEFGERNDAVLNLRIQMRKRLGDLDEYTFYTADTRVADVVSLLMNESLFAAARFIVLNGAEQIKKKEDLELLDGWIRSAASGKNAAGSALILVSEENSCDKKLEALIPKENKRIFWEMFDDRKEEWIRNFFKKAGYGVENDAVTTILDLVENNTEALRTECSRFFLCFDKGHTVGASDVEQILAHNREESPFTLFDAFTDLARNPAARLEASLEILQKLRMSKDSSGVQLIAGL</Hsp_hseq>
+      <Hsp_midline>V+LFTGPE GER+ AV  +  + + + G +D +  Y  +T VAD+V LL   +LFA A  +VL  AE IKK +++ +L  WI+    G + A   L+L+S+  S  K++E  I   +KR+FWE+F+++K  W++ FF +    +E +A+ ++L+LVENNT AL+T C++  L F+KG  + A D+  +L H +EE+ FTLFDA +   R+    LE SL IL  L  SKD + VQ++AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|503467730|ref|WP_013702391.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema succinifaciens] &gt;gi|328449423|gb|AEB15139.1| DNA polymerase III, delta subunit [Treponema succinifaciens DSM 2489]</Hit_def>
+  <Hit_accession>WP_013702391</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>2.12526e-51</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEV-CARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALS------KRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>VYLFTGPEAGEKNEAIENLRDAASKKNNGIEQYKYYAADVRIEDIVAQLQNASLFSPALFISLRNAEQIKQKSDIESLVSWIKASKNSPNT-LVLISEENSIDKKIESAVPSSHKKIFWEMFENRKPQWVENFFRKNGFSISPDAVEQILEMVENNTESLKSECSRFFFCFEKGTTITSDDVEKILSHNREENAFTLFDSMADISKNPQQRFESSLEILQKIRATKESNGIALIAGL</Hsp_hseq>
+      <Hsp_midline>V+LFTGPE GE++ A++ +  A ++    ++ ++ YA +  + D+V  L+  +LF+ A+ + L NAE IK+  ++  L  WIK   +  +  LVLIS+  SI K+IE  +   HK++FWE+FEN+K  WV+ FF ++   I  +A+E +LE+VENNT +LK+ C++    FEKG  IT+ D+  +L H +EE +FTLFD+++      ++  E SL IL  +  +K+   + ++AGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|488789802|ref|WP_002702208.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema saccharophilum] &gt;gi|380768929|gb|EIC02909.1| DNA polymerase III, delta subunit [Treponema saccharophilum DSM 2985]</Hit_def>
+  <Hit_accession>WP_002702208</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>5.61388e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDAL------SKRDLEHSLMILNTLLCSKDVAPVQILAGLLT</Hsp_qseq>
+      <Hsp_hseq>AYLFTGPEFGAKGDKIDSIKADLKKRLGDVEFSTCYVSENPVSEVVSTLQSGSLFSASSCVVYREAELIKKKDDVGALSEWLASASDSQNV-LILVSDEISVDKKLEEIVPKQNRQIFWEISEDRKNAWIRDFFSKNGFGIEDDAVSLILDMVEGDTLSLRTECSRFLYCFRPGATITAGDVENILSHNREENAFTLFDAMVETGLSAEKRLENSLSIVQKIMMTKNSSPVPLIAGLAS</Hsp_hseq>
+      <Hsp_midline> +LFTGPE G +   +  + A  + + G V+    Y  E PV+++V  L++ +LF+ + CVV   AE+IKK D+V  L+EW+       +V L+L+SD +S+ K++E+ +   ++++FWE+ E++K+AW++ FF ++   IE +A+  +L++VE +T +L+T C++    F  G  ITA D+ ++L H +EE +FTLFDA+      +++ LE+SL I+  ++ +K+ +PV ++AGL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|545449680|ref|WP_021686693.1|</Hit_id>
+  <Hit_def>DNA polymerase III, delta subunit [Treponema lecithinolyticum] &gt;gi|543991279|gb|ERJ94320.1| putative DNA polymerase III, delta subunit [Treponema lecithinolyticum ATCC 700332]</Hit_def>
+  <Hit_accession>WP_021686693</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>1.08866e-49</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ-GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDG---GSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGR-----RITAHDISSLLVHTKEETSFTLFDAL------SKRDLEHSLMILNTLLCSKDVAPVQILAGLLTRSVALRIGTIYRR</Hsp_qseq>
+      <Hsp_hseq>LWLFTGPELGQRRDSIEQLRQKAKKLFGQTDEYRFYANDSRIADIVSLLQNESLFASARFIVLHNSEDIKLKADIDMLADWAAQAAKQGEQGGAWLILDSDEISVDKKLENIVAKANRRIFWELFENQKNAWLQNWFSKEGFTIDSDACDAILDLVENNTETLKSECSRFLLCFDKNRLETKPHISVADVDAVLTRDRQESPFTLFAALCNTAKNAAQRLTDALSILQHIRRSKESSAVQLIAGL---TYCFRKLRIYQR</Hsp_hseq>
+      <Hsp_midline>+WLFTGPE+G+R  +++++  +A+   G  D +R YA+++ +AD+V LL+  +LFA A  +VL+N+E IK   ++ +L +W       G +   +L+L SD +S+ K++E  ++  ++R+FWELFEN+K+AW+Q +F +    I+ +A +++L+LVENNT  LK+ C++  L F+K R      I+  D+ ++L   ++E+ FTLF AL      + + L  +L IL  +  SK+ + VQ++AGL   +   R   IY+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|505823962|ref|WP_015709348.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema primitia] &gt;gi|333740991|gb|AEF86481.1| DNA polymerase III, delta subunit [Treponema primitia ZAS-2]</Hit_def>
+  <Hit_accession>WP_015709348</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.014</Hsp_bit-score>
+      <Hsp_score>432</Hsp_score>
+      <Hsp_evalue>3.40646e-47</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>LFTGPEIGERDSAVQEVCARAQAQ--GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILA</Hsp_qseq>
+      <Hsp_hseq>LFLGPEFGEKQDAIELIRKNLQKQYGAPPEEGSFYVGETAVNEMVSVLRNGSLFFDAQLFFIKNAELLKKKDDLELLGSYM--AAPQEDTTLILISDNTSLDKALEKVVSKEGKRIFWELFENKKTEWVANFFRREGYRINSEGIEAILELVENNTDSLRRECSRLMLFLGKDEVVGETEVEKWLSHTREESAFTLFSRIAEGDLSRSAEILHTLLAAKET-PTAILG</Hsp_hseq>
+      <Hsp_midline>LF GPE GE+  A++ +    Q Q     +    Y  ET V ++V +LR  +LF DA    + NAE++KK D++ +L  ++     + D  L+LISD+ S+ K +E+ +S   KR+FWELFENKK  WV  FF +   RI  E IE++LELVENNT +L+  C++L LF  K   +   ++   L HT+EE++FTLF  +++ DL  S  IL+TLL +K+  P  IL </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|505825277|ref|WP_015710653.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Treponema azotonutricium] &gt;gi|333734993|gb|AEF80942.1| DNA polymerase III, delta subunit [Treponema azotonutricium ZAS-9]</Hit_def>
+  <Hit_accession>WP_015710653</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.244</Hsp_bit-score>
+      <Hsp_score>430</Hsp_score>
+      <Hsp_evalue>7.77025e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MSVWLFTGPEIGERDSAVQEVCARAQAQG---TVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>MNSRIFLGTETGEKQAAIDEIKRQLSADGGGSPLEQSVYYAGETPVSDMVSAMRNGSLFAESRLFLIKNADAIKKKDEVDLLASYM--ASPQDNTTLILISEETKLAKGLEDAVPRDAKKVFWELSESRKVDWVANFFRAKGFRINNDGIGTILELVENNTHALDQECTRLTLFLEKGKEIGSEEAEKWLSHTREESAFTLFARIASGDLSRSVESLHTMLLAK-VEPQTILAGL</Hsp_hseq>
+      <Hsp_midline>M+  +F G E GE+ +A+ E+  +  A G    ++    YA ETPV+D+V  +R  +LFA++   ++ NA+ IKK DEV +L  ++     + +  L+LIS+   + K +E  +    K+VFWEL E++K  WV  FF     RI  + I ++LELVENNT AL   CT+L+LF EKG+ I + +    L HT+EE++FTLF  ++  DL  S+  L+T+L +K V P  ILAGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|522101365|ref|WP_020612574.1|</Hit_id>
+  <Hit_def>hypothetical protein [Spirochaeta bajacaliforniensis]</Hit_def>
+  <Hit_accession>WP_020612574</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.548</Hsp_bit-score>
+      <Hsp_score>423</Hsp_score>
+      <Hsp_evalue>1.29865e-45</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SVWLFTGPEIGERDSAVQEVCARAQAQGT-VDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSV--SIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGLL</Hsp_qseq>
+      <Hsp_hseq>PAFLLLGPEEGEKASFIAEIKKRIAAEDPGYESTRFYPYETEISSIVGVLRNGSLFSSKKVVILQNVEAVKR-DDAALLGEYLKN--PSADATLIMVSNGMERDIAKAIASAVPKEHKKMFWELFENQKRSWLANYFGRQQIEVSPEALDLILELVENNTREMKIACDQLALHFGPGSCIDEEDVDAFIFHSKEENVFTLFAKIGECDFSGAIETLRKLLLSGEGNPIQLFAGLL</Hsp_hseq>
+      <Hsp_midline>  +L  GPE GE+ S + E+  R  A+    +  R Y +ET ++ +V +LR  +LF+    V+L N E +K+ D+  +L E++K+    AD  L+++S+ +   I K I   +   HK++FWELFEN+K +W+  +F + ++ +  EA++ +LELVENNTR +K  C QL+L F  G  I   D+ + + H+KEE  FTLF  + + D   ++  L  LL S +  P+Q+ AGLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|503021618|ref|WP_013256594.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Spirochaeta smaragdinae] &gt;gi|301637711|gb|ADK83138.1| DNA polymerase III, delta subunit [Spirochaeta smaragdinae DSM 11293]</Hit_def>
+  <Hit_accession>WP_013256594</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>4.01102e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>SVWLFTGPEIGERDSAVQEVCARAQAQGT-VDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSV--SIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGLL</Hsp_qseq>
+      <Hsp_hseq>PVFLLLGPEEGEKAAFIAEIKKRIAAEDPGYESTRFYPYETEISSIVGVLRNGSLFSSRKLVIIQNVEAIKR-DDAALLGEYLKNPST--DATLIMVSNGMERDIAKAIASAVPKEHKKMFWELFENQKRSWLANYFGRQHIEVSPEALDLILELVENNTREMKIACDQLALHFGPGSCIDEEDVDAFIFHSKEENVFTLFAKIGACDFSGAIEALRKLLLSGEGNPIQLFAGLL</Hsp_hseq>
+      <Hsp_midline> V+L  GPE GE+ + + E+  R  A+    +  R Y +ET ++ +V +LR  +LF+    V++ N E IK+ D+  +L E++K+  +  D  L+++S+ +   I K I   +   HK++FWELFEN+K +W+  +F +  + +  EA++ +LELVENNTR +K  C QL+L F  G  I   D+ + + H+KEE  FTLF  +   D   ++  L  LL S +  P+Q+ AGLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|739717421|ref|WP_037571110.1|</Hit_id>
+  <Hit_def>hypothetical protein [Spirochaeta cellobiosiphila]</Hit_def>
+  <Hit_accession>WP_037571110</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>5.70906e-41</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>MSVWLFTGPEIGERDSAVQEVCARAQAQ--GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>MANWLLLGPEEGEKHEFINTIVLSLETEHGGSLERYKFYPSETDFNEVISLLKNGSLFSPHKLVIIDQAHDIKGKKNTDPIIEYMKNPSPEGS--LILTSNQPGIDKKIEKVFK--NKKIFWEMFENQKLGWVQNFFKKNNYTITNEAAELILDLVENNTEALKRECQSLILFLPVSTEINVSTIEKYIYHSKEENVFTLFEKIASSDLEGALEIYKKIRLSGDSNPVQILSGL</Hsp_hseq>
+      <Hsp_midline>M+ WL  GPE GE+   +  +    + +  G+++ ++ Y  ET   +++ LL+  +LF+    V++  A  IK       + E++K+        L+L S+   I K+IE+     +K++FWE+FEN+K  WVQ FF ++   I  EA E +L+LVENNT ALK  C  L LF      I    I   + H+KEE  FTLF+ ++  DLE +L I   +  S D  PVQIL+GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|504269569|ref|WP_014456671.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Spirochaeta africana] &gt;gi|383108356|gb|AFG38689.1| DNA polymerase III, delta subunit [Spirochaeta africana DSM 8902]</Hit_def>
+  <Hit_accession>WP_014456671</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>2.91739e-40</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>LFTGPEIGERDSAVQEVCAR-----AQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>LLLGPEDGKKQEYLQALQAGLTKRLGQAPDRVT---MYAGEQSIGDAVTLLRNGSLFNPHQLLLFYGAESIKSQDDLALLARYAKSPSPEGT--LVLLSAETKVSRKVEGAVPKSQVKIFWELFENQKEQFIQRYLRDHGRRIEQDALLLLLETIENTTDQMRSACDLLLSLFPRDSVITEEGVDAFLFHSKQESVFTLFRAIGQRDREHSLEILHTLLELQDMKPFQIVAGV</Hsp_hseq>
+      <Hsp_midline>L  GPE G++   +Q + A       QA   V    +YA E  + D V LLR  +LF     ++ Y AE IK  D++ +L  + K         LVL+S    + +++E  +     ++FWELFEN+K  ++QR+   H  RIEQ+A+  LLE +EN T  +++ C  L   F +   IT   + + L H+K+E+ FTLF A+ +RD EHSL IL+TLL  +D+ P QI+AG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|504035905|ref|WP_014269899.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Sphaerochaeta pleomorpha] &gt;gi|359351276|gb|AEV29050.1| DNA polymerase III, delta subunit [Sphaerochaeta pleomorpha str. Grapes]</Hit_def>
+  <Hit_accession>WP_014269899</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>2.20853e-33</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>WLFTGPEIGERDSAVQEVCA--RAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRR---ITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDV-APVQILAGLL</Hsp_qseq>
+      <Hsp_hseq>YLLLGPETGEKEQRLKEIRNELRKQIGSDPELHRFYPFETENGEIFAALDNNSLFAEYRLVLLSQAESMSASLTTSI-AQYLAHPSTSAT--LVILSSDTSVSAKIMKAVPKENTKVFYELFDNQKTDWVRNFFRRFGLTITSDAIDLLLDLIENNTQELRTVCTQLAMFWQTGEKKVAIGEDDVEAYIHHSRQEDAFTLFPEIAAGSFKQSIDTLHSILGSGDSGAPILLVSGLL</Hsp_hseq>
+      <Hsp_midline>+L  GPE GE++  ++E+    R Q     ++HR Y  ET   ++   L   +LFA+   V+L  AE +       +  +++    + A   LV++S   S+  +I + +   + +VF+ELF+N+K  WV+ FF +  + I  +AI+ LL+L+ENNT+ L+TVCTQL++F++ G +   I   D+ + + H+++E +FTLF  ++    + S+  L+++L S D  AP+ +++GLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|689724535|gb|KGE71871.1|</Hit_id>
+  <Hit_def>hypothetical protein DC28_08595 [Spirochaeta sp. JC230]</Hit_def>
+  <Hit_accession>KGE71871</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>3.26957e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MSVWLFTGPEIGERDSAVQEVCA--RAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHK-----RIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFF-------EKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGLL</Hsp_qseq>
+      <Hsp_hseq>FPVYLFLGPESGEKGAAVNRLLEQYRSAAGGEIDTYTLYGFEDSLSRLVELARNGSLFSAGVFIRFRNAEQIKGTGDLSLLAEYLKKPAEQ--TLVVFESDETSSQKTASLKRIAAKTPKSAQKVFWEMFENQRQSWLINYIRSKGSTISTEAAELFLDLVQNNTEQMAHEADKLILLHGISSGDGQQIGEIVAEDIEQYIYHSKEENPFTIFKYVVERDFSLSLEGLQKVFAAGDSMGIGIMAGLL</Hsp_hseq>
+      <Hsp_midline>  V+LF GPE GE+ +AV  +    R+ A G +D + LY  E  ++ LV+L R  +LF+  V +   NAE IK   ++ +L E++K    +    +V  SD  S  K     RI        ++VFWE+FEN++ +W+  +       I  EA E  L+LV+NNT  +     +L L         ++   I A DI   + H+KEE  FT+F  + +RD   SL  L  +  + D   + I+AGLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|739693272|ref|WP_037547705.1|</Hit_id>
+  <Hit_def>hypothetical protein [Spirochaeta sp. JC230]</Hit_def>
+  <Hit_accession>WP_037547705</Hit_accession>
+  <Hit_len>353</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>3.39382e-32</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>MSVWLFTGPEIGERDSAVQEVCA--RAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHK-----RIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFF-------EKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGLL</Hsp_qseq>
+      <Hsp_hseq>FPVYLFLGPESGEKGAAVNRLLEQYRSAAGGEIDTYTLYGFEDSLSRLVELARNGSLFSAGVFIRFRNAEQIKGTGDLSLLAEYLKKPAEQ--TLVVFESDETSSQKTASLKRIAAKTPKSAQKVFWEMFENQRQSWLINYIRSKGSTISTEAAELFLDLVQNNTEQMAHEADKLILLHGISSGDGQQIGEIVAEDIEQYIYHSKEENPFTIFKYVVERDFSLSLEGLQKVFAAGDSMGIGIMAGLL</Hsp_hseq>
+      <Hsp_midline>  V+LF GPE GE+ +AV  +    R+ A G +D + LY  E  ++ LV+L R  +LF+  V +   NAE IK   ++ +L E++K    +    +V  SD  S  K     RI        ++VFWE+FEN++ +W+  +       I  EA E  L+LV+NNT  +     +L L         ++   I A DI   + H+KEE  FT+F  + +RD   SL  L  +  + D   + I+AGLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|517352206|ref|WP_018527698.1|</Hit_id>
+  <Hit_def>hypothetical protein [Spirochaeta alkalica]</Hit_def>
+  <Hit_accession>WP_018527698</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>2.35993e-31</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>LFTGPEIGERDSAVQEV--CARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQILAGL</Hsp_qseq>
+      <Hsp_hseq>LHLGPEEGEKQAAFLEIRGALRNTFGEDLEEHSFYAFETPPDQVVDLLQXGSLFGSASLVRYRAVEQLKRKEDLLPLVRYARSPSEQS--VLLLESSEVSLHKDLKDAVGSRHTKIFWEMFESQKKGWLSGYFRRHDARIDPEALELLLELVENNTLDLRQEADRLMAFF--GRQITLEHVDRYIYHAKEENIFTLFDAVLAGDLEHSLDIAVKLLVTMEA--VQVLMGL</Hsp_hseq>
+      <Hsp_midline>L  GPE GE+ +A  E+    R      ++ H  YA ETP   +VDLL+  +LF  A  V     E +K+ +++  L  + +    ++   L+L S  VS+HK ++  +   H ++FWE+FE++K  W+  +F +H+ RI+ EA+E LLELVENNT  L+    +L  FF  GR+IT   +   + H KEE  FTLFDA+   DLEHSL I   LL + +   VQ+L GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|503371796|ref|WP_013606457.1|</Hit_id>
+  <Hit_def>DNA polymerase III subunit delta [Sphaerochaeta globosa] &gt;gi|324025845|gb|ADY12604.1| DNA polymerase III, delta subunit [Sphaerochaeta globosa str. Buddy]</Hit_def>
+  <Hit_accession>WP_013606457</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>1.28841e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>VWLFTGPEIGERDSAVQEVCARAQAQ--GTVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFF---EKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDV-APVQILAGLL</Hsp_qseq>
+      <Hsp_hseq>AYLLLGPEAGAKEQELKDIRTRLRTEYGNEIELSRFYPFETENGEIFTVLNNNSLFSDYRLVMLSQADSMSSS-LVQALADYLAHPVDTAT--LVILSSELSVSQKIMKLVPKQNTKIFYDLLETQKADWIRNHFRRMGLSITADAVDLLMDMTEDNTQELRTICNQLGLFWQIGEKGRPISDEDVQTYIHHSRQEDAFTLFPLIARCDLKQSLKSLSAMLGSGDSQTPILLVSGLL</Hsp_hseq>
+      <Hsp_midline> +L  GPE G ++  ++++  R + +    +++ R Y  ET   ++  +L   +LF+D   V+L  A+ +     V  L +++      A   LV++S  +S+ ++I + +   + ++F++L E +K  W++  F +  + I  +A++ L+++ E+NT+ L+T+C QL LF+   EKGR I+  D+ + + H+++E +FTLF  +++ DL+ SL  L+ +L S D   P+ +++GLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|565682598|gb|AHC16629.1|</Hit_id>
+  <Hit_def>DNA polymerase III delta subunit [Salinispira pacifica]</Hit_def>
+  <Hit_accession>AHC16629</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>115.546</Hsp_bit-score>
+      <Hsp_score>288</Hsp_score>
+      <Hsp_evalue>2.667e-26</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>WLFTGPEIGERDSAVQEV-CARAQAQG-TVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRR--ITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQIL</Hsp_qseq>
+      <Hsp_hseq>YMYYGPEHGKRQGLVNNLKSALVKNYGDALDVHKYYAGEDTPEQIISDLDNGALFASHTLALIHNAESLSRKSDIQHFEKFLK--SQNPDVTLVFVSEQSRLDSKLVKLAAAEAREICWELFDNQKEGWVIQYLRKQNAGIEDDALELFLSLVGTNTQEMQQELDKILLLFDSGEKPVISADVVESYIFHAKEESVYTLFDAYAARDFSRALEILSKLRGAKSHEETSIL</Hsp_hseq>
+      <Hsp_midline>+++ GPE G+R   V  +  A  +  G  +DVH+ YA E     ++  L   ALFA     +++NAE + +  ++    +++K      DV LV +S+   +  ++ +  +   + + WELF+N+K  WV ++  +    IE +A+E  L LV  NT+ ++    ++ L F+ G +  I+A  + S + H KEE+ +TLFDA + RD   +L IL+ L  +K      IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|752754610|ref|WP_041401728.1|</Hit_id>
+  <Hit_def>hypothetical protein [Salinispira pacifica]</Hit_def>
+  <Hit_accession>WP_041401728</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>6.99769e-26</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>LFTGPEIGERDSAVQEV-CARAQAQG-TVDVHRLYAHETPVADLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSLFFEKGRR--ITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLLCSKDVAPVQIL</Hsp_qseq>
+      <Hsp_hseq>MYYGPEHGKRQGLVNNLKSALVKNYGDALDVHKYYAGEDTPEQIISDLDNGALFASHTLALIHNAESLSRKSDIQHFEKFLK--SQNPDVTLVFVSEQSRLDSKLVKLAAAEAREICWELFDNQKEGWVIQYLRKQNAGIEDDALELFLSLVGTNTQEMQQELDKILLLFDSGEKPVISADVVESYIFHAKEESVYTLFDAYAARDFSRALEILSKLRGAKSHEETSIL</Hsp_hseq>
+      <Hsp_midline>++ GPE G+R   V  +  A  +  G  +DVH+ YA E     ++  L   ALFA     +++NAE + +  ++    +++K      DV LV +S+   +  ++ +  +   + + WELF+N+K  WV ++  +    IE +A+E  L LV  NT+ ++    ++ L F+ G +  I+A  + S + H KEE+ +TLFDA + RD   +L IL+ L  +K      IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>79581714</Statistics_db-num>
+      <Statistics_db-len>29080698065</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

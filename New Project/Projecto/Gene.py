@@ -6,6 +6,7 @@ Created on Fri Jan  8 10:45:06 2016
 """
 import os
 from Bio.Blast.Applications import NcbiblastpCommandline
+from Bio.Align.Applications import ClustalwCommandline
 from Bio.Blast import NCBIWWW
 from Bio.Blast import NCBIXML
 from Bio import SeqIO
@@ -27,8 +28,9 @@ import sys
 #import httplib
 #from bioservices import UniProt
 
+#Note the geneID in MyHsp is the geneID of the query!
 class MyHsp:
-    def __init__(self,gi,accession,bitScore,cover,e_value,ident,isPdb=False):
+    def __init__(self,gi,accession,bitScore,cover,e_value,ident,query,matchq,subj,geneID,subjS ,subjE ,isPdb=False):
         self.gi=gi
         self.accession=accession
         self.bitScore=bitScore
@@ -38,6 +40,22 @@ class MyHsp:
         self.pdbLink=""
         self.function=""
         self.isPdb=isPdb
+        self.query=query
+        self.matchq = matchq.replace(" ","_")
+        if(isPdb!=True):
+            self.matchq=self.matchq.replace("|","M")
+        self.subj = subj
+        self.geneID = geneID
+        self.subjS = subjS
+        self.subjE = subjE
+        #Connection to database code
+#        c = Connector.Conn()
+        s=""
+        if(isPdb==True):
+            s+="'Blastp' ,"
+        else:
+            s+="'Blastn' , "
+        s+="'"+self.gi+"' , '"+self.accession+"' , '"+str(self.bitScore)+"' , '"+str(self.cover)+"' , '"+str(self.e_value)+"' , '"+str(self.ident)+"' , '"+self.query+"' , '"+self.matchq+"' , '"+self.subj+"' , '"+str(self.subjS)+"' , '"+str(self.subjE)+"' , "
         if(isPdb==True):
             self.ncbiLink = "http://www.ncbi.nlm.nih.gov/protein/"+gi
             Entrez.email = "emanuel_queiroga1@hotmail.com"    # Its necessary to tell NCBI who we are
@@ -61,6 +79,11 @@ class MyHsp:
                 if sent == True:
                     res += i
             self.function=res
+            s+="'"+self.function+"' , '"+self.ncbiLink+"' , '"+self.geneID+"'"
+        else:
+            s+="NULL , NULL , '"+self.geneID+"'"
+        
+#        c.insertBlast(s)
     
     def __str__(self):
         res= " Gi: " + self.gi + " \n Accession: "+ self.accession + " \n Score: "+ str(self.bitScore) + "\n E-value: " + str(self.e_value) + "\n Identities: " + str(self.ident)
@@ -74,10 +97,11 @@ class MyRep:
         self.strand = strand
         self.location=location
         self.seq=seq
+        #connect to db and insert values of reps
 #        c = Connector.Conn()
 #        s="'"+self.type+"','"+self.strand+"','"+self.location+"'"
 #        c.insertRep(s)
-#        
+        
         
     def __str__(self):
         res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location + "\n Seq: " + self.seq
@@ -103,8 +127,9 @@ class MyTRNA:
          self.seq=seq
          self.anticodon=anticodon
          s="'"+self.geneID+"', '"+self.type +"', '"+self.strand+"' ,'"+self.location+"' , '"+self.locus_tag.replace("'", " ")+"' , '" + self.old_locus_tag.replace("'", " ")+"' , '"+self.product+"' , NULL , '"+self.anticodon+"'"
-         c = Connector.Conn()
-         c.insertRNA(s)
+         #connect to db and insert values of RNA         
+#         c = Connector.Conn()
+#         c.insertRNA(s)
          
      def __str__(self):
          res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location+ "\n Locus_Tag: "+ self.locus_tag+ "\n Old_Locus_Tag: "+ self.old_locus_tag+ "\n geneID: "+ self.geneID + "\n Name: "+ self.product+ "\n Notes: "+ self.notes+ "\n Seq: " + self.seq+ "\n Anticodon: "+ self.anticodon 
@@ -125,6 +150,7 @@ class MyCDS:
         self.seq=seq
         self.ec = ec
         self.tc = tc
+        self.pInterest={}
         if(self.ec=="None"):
             self.ec="NULL"
         if(self.tc=="None"):
@@ -159,13 +185,28 @@ class MyCDS:
         for a in self.prot_accessions:
             self.uniA+= a+";"
         self.blastPInfo=None
+        
         self.hits=[]
-        #c = Connector.Conn()
-        #c.insertCDS(self.sqlStringCDS(),self.sqlStringUni())
-        #s=""
+        #connect to db and insert values of CDS
+#        c = Connector.Conn()
+#        c.insertCDS(self.sqlStringCDS(),self.sqlStringUni())
+#        s=""
         
         #self.blast()
-        #self.parseALLBlast()
+        self.parseALLBlast()
+#        if(self.translation!="None"):
+#            nameProt= self.geneID+"_prot.fasta"
+#            headerProt = ">"+self.geneID
+#            #translation= re.search("[^\['].+[^\]']" , self.translation).group()
+#            with open(nameProt, "w") as text_file:
+#                print(headerProt, file=text_file)
+#                print(self.translation,file=text_file)
+#        if(len(self.hits)>0):
+#            if(len(self.hits[0])>0):
+#                self.prof_funToFile("functions.txt", self.product,self.function,self.hits[0][0].function)
+#        else:
+#            self.prof_funToFile("functions.txt", self.product,self.function,"Doesnt have")
+
 #        self.hitsToFile()
         
         
@@ -207,11 +248,11 @@ class MyCDS:
             gi = self.gi
             
         if(self.tc!="NULL"):
-            tc="'"+self.tc.replace("'", " ")+"'" 
+            tc="'"+self.tc.replace("'", " ").replace("[","")+"'" 
         else:
             tc = self.tc
         if(self.ec!="NULL"):
-            ec="'"+self.ec.replace("'", " ")+"'" 
+            ec="'"+self.ec.replace("'", " ").replace("[","")+"'" 
         else:
             ec = self.ec
             
@@ -224,17 +265,17 @@ class MyCDS:
         uniprotInfo="'"+self.geneID+"' ,"
         
         if(self.catalytic_Activity !=""):
-             uniprotInfo+="'" + self.catalytic_Activity.replace("'", " ")+ "' , "
+             uniprotInfo+="'" + self.catalytic_Activity.replace("'", " ").replace("CATALYTIC ACTIVITY:","")+ "' , "
         else:
              uniprotInfo+=" NULL ,"
              
         if(self.cofactor !=""):
-             uniprotInfo+="'" + self.cofactor.replace("'", " ")+ "' , "
+             uniprotInfo+="'" + self.cofactor.replace("'", " ").replace("COFACTOR:","")+ "' , "
         else:
              uniprotInfo+=" NULL ,"
              
         if(self.function !=""):
-             uniprotInfo+="'" + self.function.replace("'", " ")+ "' , "
+             uniprotInfo+="'" + self.function.replace("'", " ").replace("FUNCTION:","")+ "' , "
         else:
              uniprotInfo+=" NULL ,"
              
@@ -247,21 +288,21 @@ class MyCDS:
         uniprotInfo+="'" + self.uniA.replace("'", " ")+ "' , "
         uniprotInfo+="'" + self.review+ "' , "
         if(self.similarity !=""):
-             uniprotInfo+="'" + self.similarity.replace("'", " ")+ "' , "
+             uniprotInfo+="'" + self.similarity.replace("'", " ").replace("SIMILARITY:","")+ "' , "
         else:
              uniprotInfo+=" NULL ,"
         if(self.subcelularLoc !=""):
-             uniprotInfo+="'" + self.subcelularLoc.replace("'", " ")+ "' , "
+             uniprotInfo+="'" + self.subcelularLoc.replace("'", " ").replace("SUBCELLULAR LOCATION:","")+ "' , "
         else:
              uniprotInfo+=" NULL ,"
              
         if(self.seqCaution !=""):
-             uniprotInfo+="'" + self.seqCaution.replace("'", " ")+ "' , "
+             uniprotInfo+="'" + self.seqCaution.replace("'", " ").replace("SEQUENCE CAUTION:","")+ "' , "
         else:
              uniprotInfo+=" NULL ,"
              
         if(self.subunit !=""):
-             uniprotInfo+="'" + self.subunit.replace("'", " ")+ "'"
+             uniprotInfo+="'" + self.subunit.replace("'", " ").replace("SUBUNIT:","")+ "'"
         else:
              uniprotInfo+=" NULL"
         
@@ -350,7 +391,7 @@ class MyCDS:
                 
                 
         
-    def blast(self,update=0,databaseP="pdb",database="nt"):
+    def blast(self,databaseP="pdb",database="nt"):
         header = ">"+self.old_locus_tag
         name= self.old_locus_tag+".fasta"
         prot= self.geneID
@@ -370,30 +411,31 @@ class MyCDS:
 #                print(self.translation,file=text_file)
         
         #blast-----------------------------------------
-        if(os.path.isfile(prot+"_"+databaseP+".xml")!=True):
-            record=SeqIO.read(open(name), format="fasta")
-    
-            result_handle=NCBIWWW.qblast("blastn", database, record.format("fasta"))
-            
-            save_file = open(self.old_locus_tag+"_"+database+".xml", "w")
-            save_file.write(result_handle.read())
-            save_file.close()
-            result_handle.close()
+#        if(os.path.isfile(prot+"_"+databaseP+".xml")!=True):
+#            record=SeqIO.read(open(name), format="fasta")
+#    
+#            result_handle=NCBIWWW.qblast("blastn", database, record.format("fasta"))
+#            
+#            save_file = open(self.old_locus_tag+"_"+database+".xml", "w")
+#            save_file.write(result_handle.read())
+#            save_file.close()
+#            result_handle.close()
         
 #        #blast protif(os.path.isfile(prot+"_"+databaseP+".xml")!=True):
-#        if(os.path.isfile(prot+"_"+databaseP+".xml")!=True):   
-#            if(self.translation!="None"):
-#                record=SeqIO.read(open(nameProt), format="fasta")
-#        
-#                result_handle=NCBIWWW.qblast("blastp", databaseP, record.format("fasta"))
-#                time.sleep(3)
-#                if(result_handle.readable()):
-#                    save_file = open(prot+"_"+databaseP+".xml", "w")
-#                    save_file.write(result_handle.read())
-#                    save_file.close()
-#                    result_handle.close()
-#                else:
-#                    print("Error in ", nameProt)
+        if(os.path.isfile(prot+"_"+databaseP+".xml")!=True):   
+            if(self.translation!="None"):
+                if(os.path.isfile(nameProt)==True):
+                    record=SeqIO.read(open(nameProt), format="fasta")
+            
+                    result_handle=NCBIWWW.qblast("blastp", databaseP, record.format("fasta"))
+                    #time.sleep(3)
+                    if(result_handle.readable()):
+                        save_file = open(prot+"_"+databaseP+".xml", "w")
+                        save_file.write(result_handle.read())
+                        save_file.close()
+                        result_handle.close()
+                    else:
+                        print("Error in ", nameProt)
         
         #open XML-------------------------------------------------
     def parseBlast(self,database="pdb", molecule="prot", e_param=0.05, i_param=30):
@@ -416,6 +458,7 @@ class MyCDS:
     #        print("----------------------------------------------- ")
     #        print(" ")
             #print("------------------------------------------------- ")
+            stop=0
             for i in range(len(blast_record.alignments)) :
                 alignment = blast_record.alignments[i]
                 hitAccession = alignment.accession;
@@ -427,14 +470,22 @@ class MyCDS:
                     rang = (alignment_hsp.align_length/tam)*100
                     if(molecule=="prot"):
                        if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
-                           hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,True)
+                           hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,True)
                            self.hits[i].append(hsp)
+                           #If its neccessary send to file the start and end of the subject query to verify function
+                           if(stop==0):
+                               self.fromToFile("fromToSubj.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end, "p")
+                               stop=1
                     else:
                         if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
-                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities)
+                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end)
                             self.hits[i].append(hsp)
-            
-            self.hitsToFileNT()
+                            #If its neccessary send to file the start and end of the subject query to verify function 
+                            if(stop==1):                            
+                                self.fromToFile("fromToSubj.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end, "n")
+                                stop=1
+                            
+            #self.hitsToFileNT()
             
 
             
@@ -530,6 +581,26 @@ class MyCDS:
                 print(self.geneID,file=text_file )
             text_file.close()
             
+            
+    def fromToFile(self,filename,gene,f,t,n):
+        s = gene+"  "+str(f)+" "+str(t) +"  "+n 
+        with open(filename, "a") as text_file:
+            print(s,file=text_file)
+        text_file.close()
+    
+    def subjToFile(self,filename,gene,f,t,n, subj):
+        s = gene+"  "+str(f)+" "+str(t) +"  "+n+" "+subj 
+        with open(filename, "a") as text_file:
+            print(s,file=text_file)
+        text_file.close()
+        
+    def prof_funToFile(self,filename,prod,fun,b1):
+        s = prod+" / "+fun+" / "+b1
+        with open(filename, "a") as text_file:
+            print(s,file=text_file)
+            print("------------------------------------------------------------------..........................",file=text_file)
+        text_file.close()
+        
     def parseALLBlast(self, e_param=0.05, i_param=30):
         databaseP="pdb"
         moleculeP="prot" 
@@ -566,6 +637,7 @@ class MyCDS:
     #        print("----------------------------------------------- ")
     #        print(" ")
             #print("------------------------------------------------- ")
+            stop=0
             for i in range(len(blast_record.alignments)) :
                 alignment = blast_record.alignments[i]
                 hitAccession = alignment.accession;
@@ -574,22 +646,56 @@ class MyCDS:
                 self.hits.append([])
                 for i2 in range(len(alignment.hsps)):               
                     alignment_hsp = alignment.hsps[i2]
-                    rang = (alignment_hsp.align_length/tam)*100
+                    if(tam > alignment_hsp.align_length):
+                        rang = (alignment_hsp.align_length/tam)*100
+                    else:
+                        rang = (tam/alignment_hsp.align_length)*100
                     if(molecule=="prot"):
                        if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
-                           hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,True)
+                           hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,alignment_hsp.query,alignment_hsp.match,alignment_hsp.sbjct, self.geneID ,alignment_hsp.sbjct_start , alignment_hsp.sbjct_end,True)
                            self.hits[i].append(hsp)
+                           if(stop==0):
+#                               self.fromToFile("fromToSubj.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"p", alignment_hsp.sbjct)
+#                               self.subjToFile("SubjTo.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"p", alignment_hsp.sbjct)
+                               
+                               stop=1
                     else:
                         if(alignment_hsp.expect<=e_param and alignment_hsp.identities>=i_param):
-                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities)
+                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,alignment_hsp.query,alignment_hsp.match,alignment_hsp.sbjct ,self.geneID,alignment_hsp.sbjct_start , alignment_hsp.sbjct_end)
                             self.hits[i].append(hsp)
-            if(molecule=="nucl"):
-                self.hitsToFileNT()
+                            if(stop==0):
+#                               self.fromToFile("fromToSubj.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"n")
+#                               self.fromToFile("SubjTo.txt",hitGi,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"n")
+                               stop=1
+#            if(molecule=="nucl"):
+#                self.hitsToFileNT()
+#            else:
+#                self.hitsToFile()
+            if(molecule=="nucl" and self.translation!="None"):
+                print(self.geneID)
+                name = self.geneID+"_"+"nr"+".xml"
+                if(os.path.isfile(name)!=True): 
+                    self.blast("nr")
             else:
-                self.hitsToFile()
+                if(len(self.hits[0])==0 and self.translation!=" None"):
+                    name = self.geneID+"_"+"nr"+".xml"
+                    if(os.path.isfile(name)!=True): 
+                        self.blast("nr")
+                    
+                                 
         
-                
-                
+    
+    def hitsToFasta(self):
+        queryH = "> gi:"+ self.gi
+        with open(filename, "a") as text_file:
+            print(self.translation,file=text_file)
+            print("",file=text_file)
+            for hit in hits:
+                for hps in hit:
+                    header="> gi:" + hsp.gi
+            
+    #def clust(self):
+        
                  
                  
                  
