@@ -74,6 +74,7 @@ class MyRep:
         self.strand = strand
         self.location=location
         self.seq=seq
+        
 #        c = Connector.Conn()
 #        s="'"+self.type+"','"+self.strand+"','"+self.location+"'"
 #        c.insertRep(s)
@@ -103,8 +104,8 @@ class MyTRNA:
          self.seq=seq
          self.anticodon=anticodon
          s="'"+self.geneID+"', '"+self.type +"', '"+self.strand+"' ,'"+self.location+"' , '"+self.locus_tag.replace("'", " ")+"' , '" + self.old_locus_tag.replace("'", " ")+"' , '"+self.product+"' , NULL , '"+self.anticodon+"'"
-         c = Connector.Conn()
-         c.insertRNA(s)
+#         c = Connector.Conn()
+#         c.insertRNA(s)
          
      def __str__(self):
          res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location+ "\n Locus_Tag: "+ self.locus_tag+ "\n Old_Locus_Tag: "+ self.old_locus_tag+ "\n geneID: "+ self.geneID + "\n Name: "+ self.product+ "\n Notes: "+ self.notes+ "\n Seq: " + self.seq+ "\n Anticodon: "+ self.anticodon 
@@ -457,15 +458,7 @@ class MyCDS:
 #        
         
         
-        #==============================================================================
-#        print ("Alinhamento com menor E-value:",hsp.expect, "\n")
-#        print ("Accession:", blast1.accession, "\n")
-#        print ("Hit ID:", blast1.hit_id, "\n")
-#        print ("Definição:", blast1.hit_def, "\n")
-#        print ("Comprimento do alinhamento:", blast1.length, "\n")
-#        print ("Numero de HSPs:", len(blast1.hsps), "\n")
-        #==============================================================================
-        
+# function to help analyze blast
     def hitsToFile(self):
         hitIndice = 1
         hspIndice = 1
@@ -538,6 +531,8 @@ class MyCDS:
         name1 = self.geneID+"_"+databaseP+".xml"
         tam1 = len(self.translation)
         
+        name3 = self.geneID+"_"+databaseN+".xml"
+        
         name2= self.old_locus_tag+"_"+databaseN+".xml"
         tam2 = len(self.seq)
         
@@ -545,12 +540,16 @@ class MyCDS:
             name=name1
             tam=tam1
             molecule=moleculeP
-            
-        
-        if(os.path.isfile(name2)==True):
-            name=name2
-            tam=tam2
-            molecule=moleculeN
+        else:
+            if(os.path.isfile(name3)==True):    
+                name=name3
+                tam=tam1
+                molecule=moleculeP
+            else:    
+                if(os.path.isfile(name2)==True):
+                    name=name2
+                    tam=tam2
+                    molecule=moleculeN
         
         
         if(os.path.isfile(name)==True):    
@@ -588,7 +587,11 @@ class MyCDS:
             else:
                 self.hitsToFile()
         
-                
+        
+        
+    
+         
+          
                 
                  
                  
