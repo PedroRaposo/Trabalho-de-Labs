@@ -1,0 +1,325 @@
+'''
+Created on 20/01/2016
+
+@author: Pedro
+'''
+
+import re
+from Bio import SeqIO
+from Bio import Entrez
+import cds
+
+# ProteinTable e o ficheiro da lista de proteinas para confirmacao, vindo de uma lista do NCBI
+file = open("ProteinTable.txt","r")
+
+prots = []
+for prot in file:
+    prots.append(prot)
+
+prots.pop(0)
+
+prots6 = [] # vai buscar as nossas proteinas
+for prot in prots:
+    chave = re.search("TP_RS[0-9]+",prot)
+    locus_tag = chave.group()
+    locus_tag = locus_tag[5:10]
+    if int(locus_tag) >= 2955 and int(locus_tag) <= 3540:
+        prots6.append(prot)
+
+funcs = [] #vai buscar as funcoes das nossas proteinas
+for prot in prots6:
+    proc = re.finditer("\\t",prot)
+    i = 0
+    for num in proc:
+        i += 1
+        if i == 10:
+            func = prot[int(num.span()[1]):len(prot) - 1]
+            if "MULTISPECIES: " in func:
+                func = func[14:len(func)]
+            funcs.append(func)
+
+
+#----------------------------------------------------------------------------------------
+
+Entrez.email = "mafaldasap@gmail.com"     # Always tell NCBI who you are
+handle4 = Entrez.efetch(db="nucleotide", id="15638995", rettype="gb", strand=1, seq_start=639851, 
+                       seq_stop=765100)
+record4 = SeqIO.read(handle4, "genbank")
+handle5 = Entrez.efetch(db="nucleotide", id="15638995", rettype="fasta", strand=1, seq_start=639851, 
+                       seq_stop=765100)
+recordF = SeqIO.read(handle5, "fasta")
+
+#---------------------------------------------------------------------------
+
+
+#Save information in variables
+fastaSeq= str(recordF.seq)
+filename2 = "g6.gb"
+save_file2 = open(filename2, "w")
+save_file2.write(handle5.read())
+save_file2.close()
+handle4.close()
+
+#Qualifiers expressions
+locus_tag="locus_tag"
+old_locus_tag="old_locus_tag"
+db_xref="db_xref"
+product="product"
+accession="protein_id"
+translation="translation"
+
+cdsList = [] #captura todas as informacoes dos nossos CDS
+features = record4.features
+for feature in features:
+    f= str(feature.location) 
+    if(str(feature.type)!="gene" and str(feature.type)!="source"):        
+        locations=re.findall("[0-9]+",f)
+        l1=int(locations[0])+639851
+        l2=int(locations[1])+639850
+        loc="["+str(l1)+":"+str(l2)+"]"
+        qualifiers= feature.qualifiers
+        if(str(feature.type)=="CDS"):
+            cDS= cds.MyCDS(str(feature.type),str(feature.strand),loc,str(qualifiers.get(locus_tag)),str(qualifiers.get(old_locus_tag)), str(qualifiers.get(db_xref)),str(qualifiers.get(product)),str(qualifiers.get(accession)),str(qualifiers.get(translation)),fastaSeq[int(locations[0]):int(locations[1])] )
+            cdsList.append(cDS)
+
+ls = []
+for cds in cdsList:
+    if cds.translation != "None":
+        transl = cds.translation
+        ls.append(cds.translation)
+    else:
+        ls.append("['None']")
+
+seqs = []
+for seq in ls:
+    seqs.append(seq[2:len(seq)-2])
+
+#faz uma lista com True e Falses ao comparar as funcoes das proteinas que retiramos a partir do CDS e da lista do NCBI
+
+funcs2 = []
+for cds in cdsList: 
+        #if cds.product != "None":
+    func = cds.product
+    func = func[2:len(func)-2]
+    func2 = funcs2.append(func)
+verif = []
+for funcao in range(len(funcs)): 
+    if funcs[funcao] == funcs2[funcao]:
+        verif.append(True)
+    else:
+        verif.append(False)
+ 
+for i in range(105):
+    #print(funcs[i],i, "LIST")
+    #print(funcs2[i],i, "NBCI")
+    pass
+
+#print()
+ 
+conclusao = 0 #verifica se apenas 1 é diferente, se sim, entao conclui que as funcoes dos CDS e da lista do NCBI sao diferentes
+for confir in range(len(verif)):
+    if verif[confir] == False:
+        conclusao += 1
+if conclusao > 0:
+    #print("Nao se confirma que as funcoes sao iguais.")
+    pass
+else:
+    #print("Confirma-se que as funcoes sao iguais.")
+    pass
+
+for i in range(105):
+    #print(funcs[i],i, "LIST")
+    #print(funcs2[i],i, "NBCI")
+    pass
+
+# ao imprimir as 2 listas concluimos que:
+# Existem dois genes desactualizados neste site, mas todos os restantes estão correctos:
+
+#TP_RS03080 (locus_tag) - asparagine--tRNA ligase (diferente na lista de proteínas: asparaginyl- tRNA synthetase)
+
+#TP_RS03125 (locus_tag) - hypothetical protein (inexistente na lista de proteínas)
+
+
+#-----------------------------------------------------------------------
+
+# BATCH-CD
+
+hipprot = [] # criamos a lista de numeros proteinas hipoteticas
+for prot in range(len(funcs)):
+    if funcs[prot] == 'hypothetical protein':
+        hipprot.append(prot)
+
+hipnome = [] # criamos a lista das nossas proteinas hipoteticas
+for num in hipprot:
+    hipnome.append(prots6[num])
+
+locus_tag_CDD = [] # retira os locus_tag das respectivas proteinas
+for prot in hipnome:
+    chave = re.search("TP_RS[0-9]+",prot)
+    locus_tag = chave.group()
+    locus_tag = locus_tag[5:10]
+    locus_tag_CDD.append(locus_tag)
+
+#print(locus_tag_CDD)
+
+# for cds in cdsList:
+#     print(cds.translation)
+
+ls = [] # lista de sequencias da proteinas hipoteticas
+for cds in cdsList:
+    lt = cds.locus_tag[7:-2]
+    for i in locus_tag_CDD:
+        #print(i,lt)
+        if i == lt:
+            transl = cds.translation
+            #print(transl)
+            ls.append(transl[2:-2])
+        else:
+            pass
+
+
+
+CDD = open("CDD_hip.txt",'w')
+
+for i in ls: # cria um ficheiro com as sequencias dos nossos proteinas hipoteticas
+    CDD.write('> \n')
+    CDD.write(i + '\n')
+CDD.close()
+
+#-------------------------------------------------------------------
+# ao fazer o upload do ficheiro CDD_hip.txt ao Batch-CD, fazemos o download do ficheiro hitdata.txt contendo as informacoes essenciais para o estudo dos dominios e superfamilias
+file = open("hitdata.txt","r")
+
+domin = [] # le o ficheiro e retira os paragrafos
+for line in file:
+    if line != "\n":
+        domin.append(line)
+
+novo_domin = domin[7:]
+#print(novo_domin)
+dominio = []
+frase2 = ""
+for D in range(len(novo_domin)): # faz o tratamento do ficheiro hitdata atraves de procura de espacos (\t)
+    mos = re.finditer("\t",novo_domin[D])
+    i = 0
+    for espaco in mos:
+        i += 1
+        if i == 8:
+            frase = novo_domin[D][espaco.span()[1]:-1]
+            #print(frase)
+            enc = re.search("\t",frase)
+            if "superfamily" not in frase:
+                exp = " Dominio"
+            else:
+                exp = ""
+            dominio.append("TP_RS" + str(locus_tag_CDD[int(novo_domin[D][2:3])]) + " -" + exp + " " + frase[:enc.span()[0]])
+
+dom_sup = open("dom_sup.txt","w") # escreve em dom_sup.txt os dominios e superfamilias organizados pelo locus_tag
+for i in dominio:
+    dom_sup.write(i + "\n")
+dom_sup.close()
+
+#------------------------------------------------
+
+#file = open("Blast_Results_2611146.txt")
+file = open("SubjTo.txt","r") #SubjTo e um ficheiro criado em outro script com as sequencias dos primeiros hits do blast
+ls = []
+for coord in file:
+    c =[]
+    coord = coord.rstrip('\n')
+    c = [coord]
+    ls.append(c)
+
+#print(ls)
+file = open("CDD_int.txt","w") # vai retirar informacoes ao NCBI das proteinas subject (hit do alinhamento) e corta a sequencia de aminoacidos que fez alinhamento com a query (proteina de interesse)
+for coord in ls:
+    geneid = re.findall("[^\s]+",coord[0])
+    if geneid[3] == "n":
+        handle = Entrez.efetch(db="protein", id=str(geneid[0]), rettype="gb", strand=1, seq_start=int(geneid[1]), seq_stop=int(geneid[2]))
+        filename = str(geneid[0]) + ".gb"
+        save_file = open(filename, "w")
+        save_file.write(handle.read())
+        save_file.close()
+        handle.close()
+        record = SeqIO.read(filename, "genbank")
+        for feature in record.features:
+            if(str(feature.type)!="gene" and str(feature.type)!="source"):
+                qualifiers = feature.qualifiers
+                traducao = qualifiers.get(translation)
+                file.write("> " + geneid[0] + "\n")
+                if traducao != None:
+                    file.write(traducao[0] + 2*"\n")
+        save_file.close()
+    else:
+        geneid[4] = geneid[4].replace("-","")
+        file.write("> " + geneid[0] + "\n")
+        file.write(geneid[4] + 2*"\n")
+file.close()
+ 
+file = open("hitdata2.txt","r") # analogamento as proteinas hipoteticas, um ficheiro vai ser tratado no Batch-cd para fazermos o download das informacoes em bruto dos dominions
+
+domin = []
+for line in file:
+    if line != "\n":
+        domin.append(line)
+
+novo_domin = domin[7:]
+#print(novo_domin)
+dominio = []
+frase2 = ""
+for D in range(len(novo_domin)): # e esse ficheiro com as informacoes vai ser tratado da mesma maneira
+    mos = re.finditer("\t",novo_domin[D])
+    i = 0
+    for espaco in mos:
+        i += 1
+        ls = []
+        if i == 3:
+            frase = novo_domin[D][espaco.span()[1]:-1]
+            enc = re.search("[0-9]+",frase)
+            ls.append(enc.group())
+        elif i == 4:
+            frase = novo_domin[D][espaco.span()[1]:-1]
+            enc2 = re.search("[0-9]+",frase)
+            ls.append(enc2.group())
+        dominio.append(ls)
+
+domin = []
+for line in file:
+    if line != "\n":
+        domin.append(line)
+
+dom_sup = open("dom_sup2-intervalos.txt","w") #guardando os intervalos do subject para analises futuras
+for i in dominio:
+    if len(i) != 0:
+        dom_sup.write(str(i[0]) + "\n")
+dom_sup.close()
+
+file = open("hitdata2.txt","r")
+
+domin = []
+for line in file:
+    if line != "\n":
+        domin.append(line)
+
+novo_domin = domin[7:]
+dominio = []
+frase2 = ""
+for D in range(len(novo_domin)):
+    mos = re.finditer("\t",novo_domin[D])
+    i = 0
+    for espaco in mos:
+        i += 1
+        if i == 8:
+            frase = novo_domin[D][espaco.span()[1]:-1]
+            enc = re.search("\t",frase)
+            if "superfamily" not in frase:
+                exp = " Dominio"
+            else:
+                exp = ""
+            dominio.append("TP_RS" + str(locus_tag_CDD[int(novo_domin[D][2:3])]) + " -" + exp + " " + frase[:enc.span()[0]])
+
+dom_sup = open("dom_sup2-funcoes.txt","w") # guardando as funcoes para poderem ser comparadas. Este processo esta explicado no site
+for i in dominio:
+    dom_sup.write(i + "\n")
+dom_sup.close()
+
