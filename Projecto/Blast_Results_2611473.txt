@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 1.08912e-36
  Identities: 96
  Function: Methyltransferase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1AF7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157829850
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 1.26736e-36
  Identities: 96
  Function: Complex (MethyltransferasePEPTIDE)
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1BC5_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/4139941
 ------------------------------------------------------------------
 
 

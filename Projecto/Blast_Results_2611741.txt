@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.0543e-10
  Identities: 46
  Function: Signaling
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ZX6_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/378792586
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 3.74515e-10
  Identities: 46
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1QU7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/9955271
 ------------------------------------------------------------------
 
 

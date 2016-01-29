@@ -1,0 +1,6 @@
+Ficheiro hitdata são os dominios e superfamilias (se existirem) de todas as proteinas hipoteticas, através do Batch-CDD. Isto dá-nos uma ideia de qual a sua actividade consuante os resultados encontrados com proteinas com sequencia semelhante. Dados tratados em ficheiro dom_sup.
+
+Ficheiro info_verificaçao é a verificação se todos os genes retirados pelo nosso algoritmo se encontram correctos. No fim, houve uma pesquisa manual e concluimos que a lista do site http://www.ncbi.nlm.nih.gov/genome/proteins/741?genome_assembly_id=168411 tem 2 genes desactualizados, mas todos os restantes estão correctos. Dados em bruto foram retirados na internet num ficheiro chamado TableProtein.
+
+Ficheiro analise_de_dados, é o algoritmo para o qual as funçoes acima apresentadas foram executadas. Funções nomeadamente como a validade da informação retirada no NCBI, e análise dos domínios através do CDD.
+

@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 8.54908e-82
  Identities: 133
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VCI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/58177016
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 9.05019e-82
  Identities: 133
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1V43_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/56966313
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 2.39775e-81
  Identities: 145
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2YYZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/160286229
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 5.32901e-79
  Identities: 144
  Function: Sugar Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G29_1
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/12084694
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 1.08117e-75
  Identities: 136
  Function: Sugar Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2D62_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/109157437
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 1.97704e-75
  Identities: 127
  Function: Ligand Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z47_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/71042159
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 3.07839e-75
  Identities: 115
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2IT1_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/159794850
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 4.08021e-74
  Identities: 124
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q1B_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/37927745
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 4.44329e-74
  Identities: 124
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1Q12_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/37927731
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 1.37455e-73
  Identities: 123
  Function: HydrolaseTRANSPORT PROTEIN
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2R6G_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/161172218
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 5.19644e-68
  Identities: 118
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4TQU_S
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/901695615
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 1.60026e-66
  Identities: 117
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1OXS_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/33357796
 ------------------------------------------------------------------
 
 
@@ -163,7 +163,7 @@ Hsp num :1
  E-value: 1.24083e-65
  Identities: 116
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1OXX_K
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/37927347
 ------------------------------------------------------------------
 
 
@@ -176,7 +176,7 @@ Hsp num :1
  E-value: 8.1282e-64
  Identities: 120
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3D31_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/190016395
 ------------------------------------------------------------------
 
 
@@ -189,7 +189,7 @@ Hsp num :1
  E-value: 3.50227e-50
  Identities: 103
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3FVQ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/256599663
 ------------------------------------------------------------------
 
 
@@ -202,7 +202,7 @@ Hsp num :1
  E-value: 2.15496e-45
  Identities: 86
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3C41_J
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/222447024
 ------------------------------------------------------------------
 
 
@@ -215,7 +215,7 @@ Hsp num :1
  E-value: 4.42965e-45
  Identities: 86
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2OLJ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/165760875
 ------------------------------------------------------------------
 
 
@@ -228,7 +228,7 @@ Hsp num :1
  E-value: 5.74601e-45
  Identities: 92
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4U00_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/820957391
 ------------------------------------------------------------------
 
 
@@ -241,7 +241,7 @@ Hsp num :1
  E-value: 3.59247e-44
  Identities: 85
  Function: Protein BindingTRANSPORT PROTEIN
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4YMS_J
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/810516228
 ------------------------------------------------------------------
 
 
@@ -254,7 +254,7 @@ Hsp num :1
  E-value: 1.07994e-39
  Identities: 87
  Function: Membrane Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ONK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/134105243
 ------------------------------------------------------------------
 
 
@@ -267,7 +267,7 @@ Hsp num :1
  E-value: 1.59101e-38
  Identities: 77
  Function: Membrane ProteinHYDROLASE
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3DHW_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/195927581
 ------------------------------------------------------------------
 
 
@@ -280,7 +280,7 @@ Hsp num :1
  E-value: 8.85092e-38
  Identities: 76
  Function: HydrolaseTRANSPORT PROTEIN
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TUI_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/358439881
 ------------------------------------------------------------------
 
 
@@ -293,7 +293,7 @@ Hsp num :1
  E-value: 1.09165e-37
  Identities: 76
  Function: HydrolaseTRANSPORT PROTEIN
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TUJ_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/358439889
 ------------------------------------------------------------------
 
 
@@ -306,7 +306,7 @@ Hsp num :1
  E-value: 5.58683e-37
  Identities: 81
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1L2T_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/22219193
 ------------------------------------------------------------------
 
 
@@ -319,7 +319,7 @@ Hsp num :1
  E-value: 6.12361e-37
  Identities: 82
  Function: Rna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TIF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/380764195
 ------------------------------------------------------------------
 
 
@@ -332,7 +332,7 @@ Hsp num :1
  E-value: 6.26206e-35
  Identities: 82
  Function: Structural Genomics
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1F3O_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/15826057
 ------------------------------------------------------------------
 
 
@@ -345,7 +345,7 @@ Hsp num :1
  E-value: 1.06899e-33
  Identities: 78
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4MKI_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/554793812
 ------------------------------------------------------------------
 
 
@@ -358,7 +358,7 @@ Hsp num :1
  E-value: 4.18093e-30
  Identities: 90
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1B0U_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/6573453
 ------------------------------------------------------------------
 
 
@@ -371,7 +371,7 @@ Hsp num :1
  E-value: 1.47268e-28
  Identities: 77
  Function: Atp Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GFO_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/225734254
 ------------------------------------------------------------------
 
 
@@ -384,7 +384,7 @@ Hsp num :1
  E-value: 9.85284e-28
  Identities: 80
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4WBS_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/694270418
 ------------------------------------------------------------------
 
 
@@ -397,7 +397,7 @@ Hsp num :1
  E-value: 7.49436e-27
  Identities: 72
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2PCJ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/158429400
 ------------------------------------------------------------------
 
 
@@ -410,7 +410,7 @@ Hsp num :1
  E-value: 4.58633e-26
  Identities: 62
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4HUQ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/480312127
 ------------------------------------------------------------------
 
 
@@ -423,7 +423,7 @@ Hsp num :1
  E-value: 3.13196e-25
  Identities: 67
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4HUQ_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/480312128
 ------------------------------------------------------------------
 
 
@@ -436,7 +436,7 @@ Hsp num :1
  E-value: 1.12447e-24
  Identities: 75
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4P32_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/597960436
 ------------------------------------------------------------------
 
 
@@ -449,7 +449,7 @@ Hsp num :1
  E-value: 1.23234e-24
  Identities: 75
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4QC2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/699027695
 ------------------------------------------------------------------
 
 
@@ -462,7 +462,7 @@ Hsp num :1
  E-value: 1.76176e-24
  Identities: 71
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4YER_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/767259860
 ------------------------------------------------------------------
 
 
@@ -475,7 +475,7 @@ Hsp num :1
  E-value: 3.38409e-24
  Identities: 74
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4P33_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/597960438
 ------------------------------------------------------------------
 
 
@@ -488,7 +488,7 @@ Hsp num :1
  E-value: 5.54729e-24
  Identities: 75
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4P31_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/597960434
 ------------------------------------------------------------------
 
 
@@ -501,7 +501,7 @@ Hsp num :1
  E-value: 7.88834e-24
  Identities: 73
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2YZ2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/160286231
 ------------------------------------------------------------------
 
 
@@ -514,7 +514,7 @@ Hsp num :1
  E-value: 9.04429e-24
  Identities: 73
  Function: Transport Protein, HydrolaseINHIBITOR
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4ZIR_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/829581800
 ------------------------------------------------------------------
 
 
@@ -527,7 +527,7 @@ Hsp num :1
  E-value: 9.61251e-24
  Identities: 73
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4HLU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/448262576
 ------------------------------------------------------------------
 
 
@@ -540,7 +540,7 @@ Hsp num :1
  E-value: 8.19799e-23
  Identities: 74
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=5DGX_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/927774915
 ------------------------------------------------------------------
 
 
@@ -553,7 +553,7 @@ Hsp num :1
  E-value: 8.11348e-21
  Identities: 67
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1MT0_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/33357348
 ------------------------------------------------------------------
 
 
@@ -566,7 +566,7 @@ Hsp num :1
  E-value: 8.82179e-21
  Identities: 67
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FF7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/114793814
 ------------------------------------------------------------------
 
 
@@ -579,7 +579,7 @@ Hsp num :1
  E-value: 9.20031e-21
  Identities: 67
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2PMK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/167013269
 ------------------------------------------------------------------
 
 
@@ -592,7 +592,7 @@ Hsp num :1
  E-value: 1.01538e-20
  Identities: 64
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1VPL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/56966600
 ------------------------------------------------------------------
 
 
@@ -605,7 +605,7 @@ Hsp num :1
  E-value: 1.04857e-20
  Identities: 67
  Function: Transport ProteinHYDROLASE
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4G1U_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/430800924
 ------------------------------------------------------------------
 
 
@@ -618,7 +618,7 @@ Hsp num :1
  E-value: 1.31226e-20
  Identities: 68
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1G6H_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/15826207
 ------------------------------------------------------------------
 
 
@@ -631,7 +631,7 @@ Hsp num :1
  E-value: 2.42027e-20
  Identities: 66
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3B5J_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/165761305
 ------------------------------------------------------------------
 
 
@@ -644,7 +644,7 @@ Hsp num :1
  E-value: 2.60675e-20
  Identities: 66
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FFB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/114793816
 ------------------------------------------------------------------
 
 

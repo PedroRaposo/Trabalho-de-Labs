@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 4.55869e-08
  Identities: 52
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2H0R_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579476
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 9.31829e-07
  Identities: 51
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3V8E_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/374074558
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 0.000129693
  Identities: 41
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PL1_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/317455466
 ------------------------------------------------------------------
 
 
@@ -47,7 +47,7 @@ Hsp num :1
  E-value: 0.00529062
  Identities: 36
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3R2J_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/344189677
 ------------------------------------------------------------------
 
 
@@ -60,7 +60,7 @@ Hsp num :1
  E-value: 0.0232076
  Identities: 58
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2WT9_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/266618499
 ------------------------------------------------------------------
 
 

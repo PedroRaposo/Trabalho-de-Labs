@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 1.60389e-57
  Identities: 93
  Function: Hydrolase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4S1B_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/756142644
 ------------------------------------------------------------------
 
 

@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.58188e-52
  Identities: 80
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/168177254
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 3.68834e-52
  Identities: 80
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQE_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/168177251
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 9.17716e-51
  Identities: 79
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/168177252
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 2.69719e-49
  Identities: 78
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3BQG_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/168177253
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 1.23786e-45
  Identities: 72
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1L1D_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/20664244
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 2.46013e-45
  Identities: 71
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCG_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/261278714
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 6.65518e-45
  Identities: 72
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3E0O_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/240104356
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 7.26106e-45
  Identities: 72
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2KZN_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/300193109
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 1.18808e-43
  Identities: 71
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4GWB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/405945116
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 1.25844e-43
  Identities: 70
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCH_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/261278718
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 2.08656e-42
  Identities: 77
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2GT3_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/134104431
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 2.63737e-42
  Identities: 68
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3E0M_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/240104348
 ------------------------------------------------------------------
 
 Hsp num :2
@@ -160,7 +160,7 @@ Hsp num :2
  E-value: 1.51483e-35
  Identities: 65
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3E0M_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/240104348
 ------------------------------------------------------------------
 
 
@@ -173,7 +173,7 @@ Hsp num :1
  E-value: 1.48361e-41
  Identities: 75
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2L90_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/371927257
 ------------------------------------------------------------------
 
 
@@ -186,7 +186,7 @@ Hsp num :1
  E-value: 3.97301e-41
  Identities: 76
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2IEM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/134104507
 ------------------------------------------------------------------
 
 
@@ -199,7 +199,7 @@ Hsp num :1
  E-value: 7.39487e-41
  Identities: 76
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FF3_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/12084654
 ------------------------------------------------------------------
 
 
@@ -212,7 +212,7 @@ Hsp num :1
  E-value: 2.72701e-40
  Identities: 73
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1NWA_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/33357515
 ------------------------------------------------------------------
 
 
@@ -225,7 +225,7 @@ Hsp num :1
  E-value: 5.23319e-40
  Identities: 75
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FVG_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/11513717
 ------------------------------------------------------------------
 
 
@@ -238,7 +238,7 @@ Hsp num :1
  E-value: 7.07871e-40
  Identities: 78
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1FVA_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/11513883
 ------------------------------------------------------------------
 
 
@@ -251,7 +251,7 @@ Hsp num :1
  E-value: 7.67523e-39
  Identities: 69
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2J89_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/119390444
 ------------------------------------------------------------------
 
 
@@ -264,7 +264,7 @@ Hsp num :1
  E-value: 1.14516e-35
  Identities: 62
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3CEZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/170292525
 ------------------------------------------------------------------
 
 
@@ -277,7 +277,7 @@ Hsp num :1
  E-value: 6.10149e-34
  Identities: 68
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4D7L_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/770386242
 ------------------------------------------------------------------
 
 
@@ -290,7 +290,7 @@ Hsp num :1
  E-value: 2.23018e-32
  Identities: 62
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PIM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323714534
 ------------------------------------------------------------------
 
 
@@ -303,7 +303,7 @@ Hsp num :1
  E-value: 2.24916e-32
  Identities: 62
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PIL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323714532
 ------------------------------------------------------------------
 
 
@@ -316,7 +316,7 @@ Hsp num :1
  E-value: 9.70215e-30
  Identities: 60
  Function: Electron TransportOXIDOREDUCTASE
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PIN_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323714538
 ------------------------------------------------------------------
 
 
@@ -329,7 +329,7 @@ Hsp num :1
  E-value: 1.77351e-26
  Identities: 58
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4W8C_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/887492536
 ------------------------------------------------------------------
 
 
@@ -342,7 +342,7 @@ Hsp num :1
  E-value: 6.56823e-26
  Identities: 50
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2K8D_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/218156826
 ------------------------------------------------------------------
 
 
@@ -355,7 +355,7 @@ Hsp num :1
  E-value: 7.20367e-26
  Identities: 58
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4U66_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/887492462
 ------------------------------------------------------------------
 
 
@@ -368,7 +368,7 @@ Hsp num :1
  E-value: 2.42692e-25
  Identities: 57
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/651207650
 ------------------------------------------------------------------
 
 
@@ -381,7 +381,7 @@ Hsp num :1
  E-value: 1.91942e-24
  Identities: 57
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/651207647
 ------------------------------------------------------------------
 
 
@@ -394,7 +394,7 @@ Hsp num :1
  E-value: 2.42868e-24
  Identities: 57
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWJ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/651207646
 ------------------------------------------------------------------
 
 
@@ -407,7 +407,7 @@ Hsp num :1
  E-value: 2.5075e-24
  Identities: 57
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCJ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/261278722
 ------------------------------------------------------------------
 
 
@@ -420,7 +420,7 @@ Hsp num :1
  E-value: 1.72836e-23
  Identities: 56
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4LWL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/651207649
 ------------------------------------------------------------------
 
 
@@ -433,7 +433,7 @@ Hsp num :1
  E-value: 1.20788e-22
  Identities: 56
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HCI_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/261278720
 ------------------------------------------------------------------
 
 
@@ -446,7 +446,7 @@ Hsp num :1
  E-value: 3.87017e-21
  Identities: 51
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2L1U_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/303324721
 ------------------------------------------------------------------
 
 
@@ -460,7 +460,7 @@ Hsp num :1
  E-value: 1.13518e-07
  Identities: 31
  Function: Oxidoreductase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3MAO_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/293652063
 ------------------------------------------------------------------
 
 
