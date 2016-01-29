@@ -1,0 +1,67 @@
+LOCUS       CP004011                 391 bp    DNA     linear   BCT 11-DEC-2013
+DEFINITION  Treponema pallidum subsp. pallidum SS14, complete genome.
+ACCESSION   CP004011 REGION: 671285..671675
+VERSION     CP004011.1  GI:511533127
+DBLINK      BioProject: PRJNA20067
+            BioSample: SAMN00000318
+KEYWORDS    .
+SOURCE      Treponema pallidum subsp. pallidum SS14
+  ORGANISM  Treponema pallidum subsp. pallidum SS14
+            Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+REFERENCE   1  (bases 1 to 391)
+  AUTHORS   Petrosova,H., Pospisilova,P., Strouhal,M., Cejkova,D.,
+            Zobanikova,M., Mikalova,L., Sodergren,E., Weinstock,G.M. and
+            Smajs,D.
+  TITLE     Resequencing of Treponema pallidum ssp. pallidum Strains Nichols
+            and SS14: Correction of Sequencing Errors Resulted in Increased
+            Separation of Syphilis Treponeme Subclusters
+  JOURNAL   PLoS ONE 8 (9), E74319 (2013)
+   PUBMED   24058545
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 391)
+  AUTHORS   Petrosova,H., Pospisilova,P., Strouhal,M., Cejkova,D.,
+            Zobanikova,M., Mikalova,L., Sodergren,E., Weinstock,G.M. and
+            Smajs,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-DEC-2012) Department of Biology, Faculty of Medicine,
+            Masaryk University, Building A6, Kamenice 5, Brno 62500, Czech
+            Republic
+COMMENT     tprK gene contains hypervariable regions which are presented as N's
+            because a consensus sequence cannot be obtained.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date         :: 2012
+            Assembly Method       :: CLC Bio Workbench v.
+            Genome Coverage       :: 37X; 68X
+            Sequencing Technology :: 454 GS20; Illumina GA
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..391
+                     /organism="Treponema pallidum subsp. pallidum SS14"
+                     /mol_type="genomic DNA"
+                     /strain="SS14"
+                     /sub_species="pallidum"
+                     /db_xref="taxon:455434"
+     gene            complement(32..391)
+                     /locus_tag="TPASS_20618"
+     CDS             complement(32..391)
+                     /locus_tag="TPASS_20618"
+                     /note="probable lipoprotein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AGN76775.1"
+                     /db_xref="GI:511533697"
+                     /translation="MWRKCLGKVVLLGCALPCVAARISVSPKLGAYGDARGGPDLWGL
+                     CIKATDAEEVSGDPDDTEMEYLPPRYAPETPLVGLDVAFRAENGFLLQLTVDAALTRL
+                     MFRGQCLAGYSFRPGGG"
+ORIGIN      
+        1 tcaaaacccg ccgctaccga cagatacgta tttacccccc ccccggcctg aacgaataac
+       61 cggccaaaca ctgaccacgg aacatcaggc gggtgagcgc cgcgtccacc gtcagctgga
+      121 gcagaaaacc attctccgca cggaacgcca catcgagtcc caccagcggc gtctccggcg
+      181 cataacgggg aggtaaatac tccatctccg tgtcatcggg atccccactt acctcctctg
+      241 catcggtcgc cttaatacac aagccccaca ggtcaggacc gccacgtgcg tccccatacg
+      301 cccccagctt gggagagaca gaaatacgcg cggccacgca cggcaacgca cacccgagta
+      361 gcaccacttt acccagacat tttctccaca t
+//
+

@@ -1,0 +1,109 @@
+LOCUS       AE000520                 990 bp    DNA     linear   BCT 31-JAN-2014
+DEFINITION  Treponema pallidum subsp. pallidum str. Nichols complete genome.
+ACCESSION   AE000520 REGION: 641016..642005
+VERSION     AE000520.1  GI:6626258
+DBLINK      BioProject: PRJNA5
+            BioSample: SAMN02604348
+KEYWORDS    .
+SOURCE      Treponema pallidum subsp. pallidum str. Nichols
+  ORGANISM  Treponema pallidum subsp. pallidum str. Nichols
+            Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+REFERENCE   1  (bases 1 to 990)
+  AUTHORS   Fraser,C.M., Norris,S.J., Weinstock,G.M., White,O., Sutton,G.G.,
+            Dodson,R., Gwinn,M., Hickey,E.K., Clayton,R., Ketchum,K.A.,
+            Sodergren,E., Hardham,J.M., McLeod,M.P., Salzberg,S., Peterson,J.,
+            Khalak,H., Richardson,D., Howell,J.K., Chidambaram,M.,
+            Utterback,T., McDonald,L., Artiach,P., Bowman,C., Cotton,M.D.,
+            Fujii,C., Garland,S., Hatch,B., Horst,K., Roberts,K., Watthey,L.,
+            Weidman,J., Smith,H.O. and Venter,J.C.
+  TITLE     Complete genome sequence of Treponema pallidum, the syphilis
+            spirochete
+  JOURNAL   Science 281 (5375), 375-388 (1998)
+   PUBMED   9665876
+REFERENCE   2  (bases 1 to 990)
+  AUTHORS   Fraser,C.M., Norris,S.J., Weinstock,G.M., White,O., Sutton,G.G.,
+            Dodson,R., Gwinn,M., Hickey,E.K., Clayton,R., Ketchum,K.A.,
+            Sodergren,E., Hardham,J.M., McLeod,M.P., Salzberg,S., Peterson,J.,
+            Khalak,H., Richardson,D., Howell,J.K., Chidambaram,M.,
+            Utterback,T., McDonald,L., Artiach,P., Bowman,C., Cotton,M.D.,
+            Fujii,C., Garland,S., Hatch,B., Horst,K., Roberts,K., Watthey,L.,
+            Weidman,J., Smith,H.O. and Venter,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAR-1998) The Institute for Genomic Research, 9712
+            Medical Center Dr, Rockville, MD 20850, USA
+COMMENT     On or before Dec 27, 2005 this sequence version replaced
+            gi:3322254, gi:3322263, gi:3322273, gi:3322282, gi:3322293,
+            gi:3322303, gi:3322316, gi:3322331, gi:3322343, gi:3322355,
+            gi:3322366, gi:3322372, gi:3322382, gi:3322390, gi:3322402,
+            gi:3322419, gi:3322431, gi:3322446, gi:3322476, gi:3322492,
+            gi:3322501, gi:3322514, gi:3322526, gi:3322538, gi:3322547,
+            gi:3322571, gi:3322582, gi:3322597, gi:3322606, gi:3322620,
+            gi:3322631, gi:3322647, gi:3322656, gi:3322678, gi:3322693,
+            gi:3322705, gi:3322720, gi:3322736, gi:3322745, gi:3322761,
+            gi:3322775, gi:3322785, gi:3322797, gi:3322816, gi:3322827,
+            gi:3322838, gi:3322846, gi:3322856, gi:3322870, gi:3322881,
+            gi:3322893, gi:3322906, gi:3322916, gi:3322928, gi:3322937,
+            gi:3322952, gi:3322969, gi:3322976, gi:3322990, gi:3323005,
+            gi:3323033, gi:3323046, gi:3323059, gi:3323074, gi:3323083,
+            gi:3323096, gi:3323111, gi:3323119, gi:3323133, gi:3323148,
+            gi:3323156, gi:3323171, gi:3323182, gi:3323198, gi:3323209,
+            gi:3323232, gi:3323243, gi:3323254, gi:3323266, gi:3323278,
+            gi:3323295, gi:3323309, gi:3323319, gi:3323326, gi:3323336,
+            gi:3323350, gi:3323363.
+FEATURES             Location/Qualifiers
+     source          1..990
+                     /organism="Treponema pallidum subsp. pallidum str.
+                     Nichols"
+                     /mol_type="genomic DNA"
+                     /strain="Nichols"
+                     /sub_species="pallidum"
+                     /db_xref="taxon:243276"
+     gene            complement(<1..44)
+                     /locus_tag="TP_0590"
+     CDS             complement(<1..44)
+                     /locus_tag="TP_0590"
+                     /note="similar to SP:P24355 percent identity: 47.83;
+                     identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L36 (rpmJ-2)"
+                     /protein_id="AAC65565.1"
+                     /db_xref="GI:3322885"
+                     /translation="MQHMHRIIGQMIRTRGLKNVRCMAVEGKHNGRKNGARA"
+     gene            complement(1..960)
+                     /locus_tag="TP_0591"
+     CDS             complement(1..960)
+                     /locus_tag="TP_0591"
+                     /note="similar to GB:AL009126 percent identity: 43.79;
+                     identified by sequence similarity; putative"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HPr kinase (ptsK)"
+                     /protein_id="AAC65566.1"
+                     /db_xref="GI:3322886"
+                     /translation="MLKLDLKERDSLDLRCIAGHHGLANPITISDLNRPGLVLSGFFD
+                     FVAYRRIQLFGRGEHAYLLALLEQGRYGAIEKMFTFDLPCCIFSHGITPPEKFLHLAE
+                     PSSCPILVTRLTSSELSLRLMRVLSNIFAPTIALHGVLVEVYGVGILISGDSGVGKSE
+                     TALELIERGHRLVADDLVEISCVNGNSLIGRGVHKSIGHHMEIRGLGIINITQLYGVG
+                     SIRERKEIQMVVQLEEWNSSKAYDRLGTQELNTTILDVSVPLIEIPVRPGRNIPIILE
+                     TAAMNERLKRMGYFSAKEFNQSVLKLMEQNAAHAPYYRPDDTY"
+ORIGIN      
+        1 ctagtacgta tcatctggcc gataatacgg tgcatgtgct gcattctgct ccatcaattt
+       61 gagtacgctc tgattgaatt cctttgcaga aaaatagccc atacgcttta aacgctcgtt
+      121 catagcagct gtctccagga tgatggggat gttccttccg ggccttaccg gtatttctat
+      181 aaggggaaca ctgacgtcca aaatagtagt gttcagctcc tgcgtaccga gacgatcata
+      241 ggcctttgaa gaattccact cttcaagttg aaccaccatt tgtatttctt tccgctccct
+      301 gatagaaccg accccgtaca gctgtgtaat attgatgatt cctaaaccgc gaatttccat
+      361 atggtgaccg atacttttgt gcaccccccg cccaatgagg ctatttccat tgacgcaaga
+      421 aatttctact aagtcatctg caacaagtcg atgaccgcgc tcaattaact ccagagcagt
+      481 ctcacttttt cctactcctg aatctcctga aataagaatc ccgacgccat acacctccac
+      541 caatactcca tgaagcgcta tcgtcggtgc gaagatattg gagagaacac gcatgagacg
+      601 taaagaaagc tcgctcgacg taagacgagt gaccaagata gggcaagaag aaggctcagc
+      661 aagatgcaaa aacttctccg gcggggtaat tccatgggaa aagatacaac aaggcaagtc
+      721 aaaggtgaac atcttttcga tagcaccgta tcgtccctgc tctaaaaggg cgagcagata
+      781 cgcatgttct ccgcggccaa aaagctggat ccgccggtag gcaacgaagt caaaaaagcc
+      841 tgacaggaca agacctggtc ggttcagatc cgagatagtg atgggatttg ccagtccatg
+      901 gtgacctgcg atacaacgca gatcaagcga atcgcgctct ttcagatcga gcttgagcac
+      961 atcgagaacg gtaaaaagag gagcacccac
+//
+

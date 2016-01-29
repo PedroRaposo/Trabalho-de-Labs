@@ -1,0 +1,180 @@
+LOCUS       CP004010                3144 bp    DNA     linear   BCT 30-JAN-2014
+DEFINITION  Treponema pallidum subsp. pallidum str. Nichols, complete genome.
+ACCESSION   CP004010 REGION: 683770..686913
+VERSION     CP004010.2  GI:520750339
+DBLINK      BioProject: PRJNA30655
+            BioSample: SAMN02603005
+KEYWORDS    .
+SOURCE      Treponema pallidum subsp. pallidum str. Nichols
+  ORGANISM  Treponema pallidum subsp. pallidum str. Nichols
+            Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+REFERENCE   1  (bases 1 to 3144)
+  AUTHORS   Petrosova,H., Pospisilova,P., Strouhal,M., Cejkova,D.,
+            Zobanikova,M., Mikalova,L., Sodergren,E., Weinstock,G.M. and
+            Smajs,D.
+  TITLE     Resequencing of Treponema pallidum ssp. pallidum Strains Nichols
+            and SS14: Correction of Sequencing Errors Resulted in Increased
+            Separation of Syphilis Treponeme Subclusters
+  JOURNAL   PLoS ONE 8 (9), E74319 (2013)
+   PUBMED   24058545
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 3144)
+  AUTHORS   Petrosova,H., Pospisilova,P., Strouhal,M., Cejkova,D.,
+            Zobanikova,M., Mikalova,L., Sodergren,E., Weinstock,G.M. and
+            Smajs,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-DEC-2012) Department of Biology, Faculty of Medicine,
+            Masaryk University, Building A6, Kamenice 5, Brno 62500, Czech
+            Republic
+REFERENCE   3  (bases 1 to 3144)
+  AUTHORS   Petrosova,H., Pospisilova,P., Strouhal,M., Cejkova,D.,
+            Zobanikova,M., Mikalova,L., Sodergren,E., Weinstock,G.M. and
+            Smajs,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JUL-2013) Department of Biology, Faculty of Medicine,
+            Masaryk University, Building A6, Kamenice 5, Brno 62500, Czech
+            Republic
+  REMARK    Sequence update by submitter
+COMMENT     On Jul 3, 2013 this sequence version replaced gi:511518660.
+            tprK gene contains hypervariable regions which are presented as N's
+            because a consensus sequence cannot be obtained.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date         :: 2012
+            Assembly Method       :: CLC Bio Workbench
+            Genome Coverage       :: 44X; 55X
+            Sequencing Technology :: 454 GS20; Illumina GA
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3144
+                     /organism="Treponema pallidum subsp. pallidum str.
+                     Nichols"
+                     /mol_type="genomic DNA"
+                     /strain="Nichols"
+                     /sub_species="pallidum"
+                     /db_xref="taxon:243276"
+     gene            <1..4
+                     /gene="sbcD"
+                     /locus_tag="TPANIC_0626"
+     CDS             <1..4
+                     /gene="sbcD"
+                     /locus_tag="TPANIC_0626"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="exonuclease SbcD"
+                     /protein_id="AGN75807.1"
+                     /db_xref="GI:511519240"
+                     /translation="MKILHTADLHLGKTLHEVSLFASQKKMLGDLCTLLAQDNYAALI
+                     IAGDIYDRCVPSAESVSLFSSFLQNIKRSMPRLPIYLIPGNHDSAQRLSFAQELLKQQ
+                     GVFIAQDPEESTRPHLLCHEGETVQLFLLPFLHAGAFSYLDEENTTCLIHTQSELLQE
+                     ASRRLQRAVSLDTPSILVAHLFTQKGISCESERPFVGNAVYADPHWFDFFTYVALGHL
+                     HKCQKITERMYYSGSPLPYSFDEANTQKVALSVEIHCNTKGFPIHVTPLPLEPLIPLR
+                     TIRDSFHALYTGDRYLLYQRDFLEITLTDPALVHNPIGLLKPRYPGLLSIKQENAFAF
+                     DIPPPYSSNEGIAPCTHHSLRTHFDVFMHEVSPTPDDREKGALFQELFDEMQQEFSS"
+     gene            1..3144
+                     /gene="sbcC"
+                     /locus_tag="TPANIC_0627"
+     CDS             1..3144
+                     /gene="sbcC"
+                     /locus_tag="TPANIC_0627"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="exonuclease SbcC"
+                     /protein_id="AGN75808.1"
+                     /db_xref="GI:511519241"
+                     /translation="MKPMRLTLHNIGPFVGTHTVDFTALGPIFLVCGKTGSGKTTLFD
+                     AIAYALYGKPLGTRAEVIRSLRSHYAAPSEAAFATLEFSLGTKIYRVHRTLTCTLSHR
+                     KTEQPEQLYLEQKKGHGWERIACAHKSETECVIHDLLKLNSKEFERVVMLPQGECAQF
+                     LKANSKEKKETLMNLFPVDQYTALMERAKKKSLHAKAVLETLRSQLETLCAECMPDTY
+                     HERKQTLEAELQHARDALQQTRISHAYYTQKREALEAQLKKQQLCKELRARIETYRAQ
+                     EPVHAETQKRIDRARKAAPLAAHIKHVTQCEQDAQRIHAEIQEKMRSREQLLMKRAAH
+                     VAQQSSIEEQRRLLQTLHSACIHIEDAHDVATSIRDISCQAHTLTQHIHTLAQQKTTL
+                     TQQEQSLCKELDILQREAGTIDTRTSAFNDLQIQLAHAKKTQELSQRYAELCAAHATC
+                     TAQCEKLEKIHAQKSAYSTRAREQLLQTKEQIHLQETRTHAVVLARLLEHQEPCPVCG
+                     SCIHPNPARQDIDNLEPLTRRMQRIEQTYAQLETSEKDVYHILTSERERRASYSAQMQ
+                     EIQHSFSILTSCDTRSSCDIPNVQKITVRVLDLTEKLSRAKDMLACAQHALLRKKQPE
+                     QDLQDVRAHLQQCSQELAKKETALHALQETLTQQRVRIHALSIRLPKELLASNLLAPQ
+                     KMQHEKESVAYWKEMLAHCQTLMRELHTHIEEYDREFNEIENASSALGADIAAREDAL
+                     NHVQKEYMHLARTVCCARTEAHFNNNEEVTAALMTDAELSHAAAEIQFFNELRAADTH
+                     LLKTLEAEIGTEIPSDLDELNAQCHTLVKDEENFLSRIEILSATLHTLTHQYLKYEEC
+                     SKQLAQKTQESAKLITLSDELNGINQKKIQFDAWALISFLHEITAYANIRLQKMSEGR
+                     YHLRVADSHVNARGYQGLALLVADAYTGSVRPSATLSGGETFMASISLALGLADSIQT
+                     RSGGIVLDSLFIDEGFGSLDEASLDKAIGILDEIREGSRMIGIISHVHELRTRIPHKI
+                     LIKKTNAGSHVMQGDAE"
+     gene            3141..>3144
+                     /gene="pncB"
+                     /locus_tag="TPANIC_0628"
+     CDS             3141..>3144
+                     /gene="pncB"
+                     /locus_tag="TPANIC_0628"
+                     /EC_number="6.3.4.21"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="nicotinate phosphoribosyltransferase"
+                     /protein_id="AGN75809.1"
+                     /db_xref="GI:511519242"
+                     /translation="MKTSALFLDFYELTMAQGYFFHKPHECAVFEVFFRKHPFAGGYS
+                     IFAGLDPLLTAIEQFRFSGEDIDYLRTLHLFHDDFLSYLASFRFSGDIHALEEGSVIF
+                     PHEPIIRVHARLVEALLLEGLILNTINFQSLIATKTARMWRASGEGVLMEFGLRRAQG
+                     YDGALSATRAAAIGGATGTSNTLAAKLYGIRPMGTMAHAWVMSFDSEEEAFERYAALY
+                     GSASVFLIDTYHTLESGIQNAIAIGTRLKAAGKSFGVRLDSGDMQYLSVQVRAALDAA
+                     GLPEARIAVSNELDETIIESLVLSGAPIDAWGVGTHLVTGGADSAFTGVYKMSARATT
+                     QPAHTQHGHAASQRLPHWDDAHWLPVMKVSDNPAKTTTPGIKQVWRLYDAAGQYKADV
+                     IGLADEVIEPQVAQRYIHPFYNLQSFTFAAHQVEPLLRTVMQAGNRLRAGESVQEIHA
+                     RMRAQLQRLDKSYVRLLNPHVYKVSLTERLAQLKNTLITALRR"
+ORIGIN      
+        1 gtgaagccga tgcgtcttac gctccacaac atcggtcctt tcgttggcac ccatacagtt
+       61 gacttcaccg cgctcggtcc tatttttcta gtgtgtggga aaacaggttc aggaaaaacc
+      121 actctattcg atgcgatcgc ctatgccctg tatgggaaac cccttggaac ccgtgcagaa
+      181 gttatccgca gtctgcgcag tcattacgcc gcaccatcag aagctgcatt tgctacgctg
+      241 gaattttcac tcggcactaa aatctaccgg gtacaccgga cgctgacttg cacactttcc
+      301 cacagaaaaa cagagcaacc cgagcagctg tatcttgagc aaaaaaaagg tcatggatgg
+      361 gagcgtattg cttgtgcgca taaaagtgaa actgaatgtg ttattcacga tcttctcaaa
+      421 ctcaatagca aagaatttga gcgcgtggtt atgctcccac agggagaatg tgcgcaattt
+      481 ttaaaagcaa attcaaaaga aaaaaaagaa acgctgatga atctatttcc tgttgatcaa
+      541 tatactgctc ttatggagcg agcaaaaaaa aaatcgctcc atgccaaagc agtgcttgaa
+      601 acgctgcgtt cgcaacttga aactctatgt gcggagtgca tgcccgacac ataccacgaa
+      661 aggaaacaaa cgctagaagc tgagttacag cacgcacgtg acgcactgca gcaaacccgc
+      721 atctcccatg cgtactatac acaaaaacgt gaagcgctcg aagcacagct aaaaaaacaa
+      781 caactttgta aagagctgcg tgcgcgtata gaaacatacc gcgcgcaaga accagtccac
+      841 gcggaaactc aaaagcgtat tgatcgcgcg cgaaaagcgg caccacttgc tgcgcacata
+      901 aaacacgtca cccagtgcga acaagatgca cagcgcattc atgcagaaat acaggaaaag
+      961 atgcgttcac gcgaacaatt gctcatgaaa cgagctgcgc atgtcgcgca gcagtcatcc
+     1021 attgaagaac aacgccgtct actacaaaca cttcatagtg cgtgcattca cattgaagac
+     1081 gcgcatgacg ttgccacgtc gatacgcgac atatcttgtc aggcgcacac actcacgcag
+     1141 catatccaca cgcttgcaca acaaaaaaca acacttaccc agcaagaaca atcgttgtgt
+     1201 aaagaactgg atatactgca aagagaagcg ggtactatcg atactcgtac atctgccttt
+     1261 aatgatttac aaattcaact cgcgcatgca aagaagacac aagaattgtc tcagcgatat
+     1321 gccgagctct gtgcggctca cgcaacatgc actgcacaat gtgaaaaact tgagaaaata
+     1381 cacgcacaaa aaagcgcgta tagcacacgg gcacgtgagc agctccttca gacaaaagaa
+     1441 caaattcatc tccaagaaac ccggacacac gcggtagtac tcgcgcgtct cttagagcat
+     1501 caagaaccgt gtcctgtctg cggctcttgc attcatccga atcccgcacg tcaagacata
+     1561 gataatcttg aaccgttaac ccggcgcatg caacgcatag aacaaacata cgcgcagctg
+     1621 gaaaccagcg agaaagatgt gtaccacatc ctcacctctg agcgtgagcg acgtgcatcc
+     1681 tacagtgcac aaatgcagga aatacagcat tcattttcca ttcttacatc gtgtgatacg
+     1741 cgatcatcct gcgatattcc aaacgtgcaa aaaattaccg tacgtgtttt ggatctcacg
+     1801 gaaaaattat ctcgtgcaaa agatatgctc gcatgcgcgc aacacgcttt actgagaaaa
+     1861 aaacagcctg agcaggattt acaggatgta cgcgcacacc tgcagcaatg ctcacaagag
+     1921 ctcgcaaaaa aagaaacagc actccacgca ttgcaagaaa cgcttacaca gcagcgcgta
+     1981 cgcattcacg cactgtccat acgtttaccc aaggaattgc ttgcatcgaa cctacttgct
+     2041 ccgcaaaaga tgcagcatga gaaggagagt gtcgcctatt ggaaagagat gctcgcacac
+     2101 tgtcaaaccc ttatgcgaga attgcacacc catattgaag aatacgaccg agagttcaat
+     2161 gagatagaaa acgcttctag tgcgcttggc gccgacattg cagcgcgaga agatgcactg
+     2221 aaccatgttc aaaaagaata catgcacctt gcacgtaccg tgtgttgcgc acgaacagaa
+     2281 gcgcatttca ataacaacga agaagtaacc gccgctctta tgactgatgc tgaactttct
+     2341 catgctgcag cagaaattca atttttcaat gaattgcgtg cggctgacac ccatctactg
+     2401 aaaacactcg aggcagaaat aggaacagaa attccatccg atcttgatga actgaatgcg
+     2461 caatgtcata cgttggtaaa agatgaggaa aactttctct ctcgtattga aatactgtct
+     2521 gccacgctac acacactcac acatcagtat cttaaatacg aagagtgttc aaaacagctt
+     2581 gcacaaaaga cgcaagaaag cgcaaagctt ataactcttt cagatgaact gaatgggata
+     2641 aaccaaaaaa aaatacaatt tgacgcatgg gcactcattt cttttctgca cgaaattact
+     2701 gcctacgcaa acatacgttt gcaaaaaatg agtgaaggac gttaccatct gagggtagct
+     2761 gactcgcacg tcaatgcacg aggatatcaa ggacttgcgc tgctcgttgc agatgcgtac
+     2821 actgggagcg tgcgcccttc ggcaacactt tcaggaggcg aaacctttat ggcctctatc
+     2881 agtcttgcac ttggtcttgc agattctatc caaacccgat cgggaggtat tgtgcttgac
+     2941 tcgctgttca tagatgaagg atttggaagt ttggatgagg caagtttaga taaggcaatt
+     3001 ggcatcttag atgaaatcag agagggaagt cgcatgatag gcatcatttc tcatgttcat
+     3061 gaattgcgca cgcgcatccc tcacaaaatt ctgataaaaa aaacaaacgc aggatcacac
+     3121 gtaatgcagg gggatgcaga atga
+//
+

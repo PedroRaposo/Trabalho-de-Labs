@@ -1,0 +1,73 @@
+LOCUS       CP003679                 324 bp    DNA     linear   BCT 01-OCT-2014
+DEFINITION  Treponema pallidum subsp. pallidum str. Sea 81-4, complete genome.
+ACCESSION   CP003679 REGION: 736034..736357
+VERSION     CP003679.1  GI:601116384
+DBLINK      BioProject: PRJNA74337
+            BioSample: SAMN03081438
+KEYWORDS    .
+SOURCE      Treponema pallidum subsp. pallidum str. Sea 81-4
+  ORGANISM  Treponema pallidum subsp. pallidum str. Sea 81-4
+            Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+REFERENCE   1  (bases 1 to 324)
+  AUTHORS   Giacani,L., Iverson-Cabral,S.L., King,J.C., Molini,B.J.,
+            Lukehart,S.A. and Centurion-Lara,A.
+  TITLE     Complete Genome Sequence of the Treponema pallidum subsp. pallidum
+            Sea81-4 Strain
+  JOURNAL   Genome Announc 2 (2), e00333-14 (2014)
+   PUBMED   24744342
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 324)
+  AUTHORS   Giacani,L., Molini,B.J., Lukehart,S.A. and Centurion-Lara,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-2012) Medicine-Allergy and Infectious Diseases,
+            University of Washington, Harborview Medical Center, 325 9th Ave.,
+            Seattle, WA 98104, USA
+COMMENT     Annotation was added by the NCBI Prokaryotic Genomes Automatic
+            Annotation Pipeline Group. Information about the Pipeline can be
+            found here:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be
+            aware that the annotation is done automatically with little or no
+            manual curation.
+            DNA and bacteria are available from Sheila Lukehart
+            (Lukehart@u.washington.edu).
+FEATURES             Location/Qualifiers
+     source          1..324
+                     /organism="Treponema pallidum subsp. pallidum str. Sea
+                     81-4"
+                     /mol_type="genomic DNA"
+                     /strain="Sea 81-4"
+                     /sub_species="pallidum"
+                     /db_xref="taxon:1095955"
+     gene            complement(<1..>324)
+                     /gene="ddl"
+                     /locus_tag="TPSea814_000670"
+                     /old_locus_tag="TPSea814_03405"
+     CDS             complement(<1..>324)
+                     /gene="ddl"
+                     /locus_tag="TPSea814_000670"
+                     /old_locus_tag="TPSea814_03405"
+                     /EC_number="6.3.2.4"
+                     /note="COG1181 D-alanine-D-alanine ligase and related
+                     ATP-grasp enzymes"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="D-alanyl-alanine synthetase A"
+                     /protein_id="AHN67333.1"
+                     /db_xref="GI:601117009"
+                     /translation="MVHVTLLYGGRSAEHDVSVRSARFVARTLCLQHTVMLIGITRRG
+                     VWYAQPACALEQLCTGTVALSIQEDEKRRVCLVPGGGTAGAFVIAGMPCVTDVVFPVL
+                     HGSYGEDGTVQGLLEMLQVPYVGCGVCASALAMDKVKAKMLWQAAGLPVLPFVFFRKD
+                     AWRMHMQEFVAQLETRLGYPLFVKPAQAGSSVGASAVQTRAPLIPAIEAAFQWDEVVL
+                     VERYVRAREIECALSGNGPYTVHGAGEVIAQGAFYDYEEKYADASVARVLVTAPLETA
+                     QYEQITTLALRAYEALGLTGLARVDFFLLETGEVYVNEVNTMPGFTSISLFPQICQAA
+                     GVAPQDLMAQLLSCARERFAARAALSTDLHAHVCAPSVTAAHDPDAQGDDWDQRDSNP
+                     LPTA"
+ORIGIN      
+        1 gtgcacgcgt ctgcactgca ctggctccta cggaactgcc tgcttgagct ggctttacaa
+       61 aaagaggata gccaaggcgt gtttcaagct gcgcaacaaa ttcttgcata tgcatacgcc
+      121 atgcatcttt acggaaaaag acaaacggta aaacgggaag tcccgccgcc tgccatagca
+      181 tctttgcctt taccttatcc atcgcaagag cacttgcaca cactccacac cccacgtacg
+      241 gcacctgcag catctcaagc aaaccctgca ccgtaccatc ttccccataa ctgccatgca
+      301 atacggggaa taccacatcc gtga
+//
+

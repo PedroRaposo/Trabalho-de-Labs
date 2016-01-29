@@ -1,0 +1,66 @@
+LOCUS       CP000805                 765 bp    DNA     linear   BCT 11-DEC-2013
+DEFINITION  Treponema pallidum subsp. pallidum SS14, complete genome.
+ACCESSION   CP000805 REGION: 641303..642067
+VERSION     CP000805.1  GI:189017811
+DBLINK      BioProject: PRJNA20067
+            BioSample: SAMN00000318
+KEYWORDS    .
+SOURCE      Treponema pallidum subsp. pallidum SS14
+  ORGANISM  Treponema pallidum subsp. pallidum SS14
+            Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+REFERENCE   1  (bases 1 to 765)
+  AUTHORS   Matejkova,P., Strouhal,M., Smajs,D., Norris,S.J., Palzkill,T.,
+            Petrosino,J.F., Sodergren,E., Norton,J.E., Singh,J., Richmond,T.A.,
+            Molla,M.N., Albert,T.J. and Weinstock,G.M.
+  TITLE     Complete genome sequence of Treponema pallidum ssp. pallidum strain
+            SS14 determined with oligonucleotide arrays
+  JOURNAL   BMC Microbiol. 8, 76 (2008)
+   PUBMED   18482458
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 765)
+  AUTHORS   Matejkova,P., Strouhal,M., Smajs,D., Norris,S.J., Palzkill,T.,
+            Petrosino,J.F., Sodergren,E., Norton,J.E., Singh,J., Richmond,T.A.,
+            Molla,M.N., Albert,T.J. and Weinstock,G.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-AUG-2007) Human Genome Sequencing Center, Baylor
+            College of Medicine, 1 Baylor Plaza, Houston, TX 77030, USA
+COMMENT     Source DNA available from Steven J. Norris, Department of Pathology
+            and Laboratory Medicine, University of Texas-Houston Medical
+            School, 6431 Fannin Street, Houston,  TX 77030, USA.
+FEATURES             Location/Qualifiers
+     source          1..765
+                     /organism="Treponema pallidum subsp. pallidum SS14"
+                     /mol_type="genomic DNA"
+                     /strain="SS14"
+                     /sub_species="pallidum"
+                     /db_xref="taxon:455434"
+     gene            complement(1..765)
+                     /locus_tag="TPASS_0588"
+     CDS             complement(1..765)
+                     /locus_tag="TPASS_0588"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ACD71008.1"
+                     /db_xref="GI:189018390"
+                     /translation="MSVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVA
+                     DLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVS
+                     IHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRA
+                     LKTVCTQLSLFFEKGRRITAHDISSLLVHTKEETSFTLFDALSKRDLEHSLMILNTLL
+                     CSKDVAPVQILAGLLTRSVALRIGTIYRRTKRTLQR"
+ORIGIN      
+        1 ttagcgttgc agggtgcgtt ttgtcctccg gtatatggtg ccaatgcgca aggcgacgga
+       61 acgcgtaagc agtcctgcaa ggatttgtac aggggcaacg tctttcgaac aaagcagcgt
+      121 gttgagaatc ataagtgaat gctcaagatc tcgtttggac agcgcatcga ataaggtaaa
+      181 cgatgtctct tcttttgtgt gcaccagcaa cgaactaatg tcgtgcgcag tgatgcggcg
+      241 tcctttttca aaaaaaagag aaagctgcgt acaaacagtt ttgagcgcac gagtgttgtt
+      301 ctccaccaac tcaagaagag attcgatagc ctcctgttca atgcgcattt catgctgaaa
+      361 aaaaaatcgc tgcacccacg cgtgtttttt attttcaaac aactcccaaa aaacacgctt
+      421 atgcacggga gaaatattct gttctatacg cttatgtata ctgacactat cggaaatcag
+      481 taccaaaaac acgtcagcgc gcgagccgcc atcctttatc cattctgtaa gcacgtgcac
+      541 ttcgtcacac ttcttaataa cctctgcgtt gtacagtacc acgcagactg catctgcaaa
+      601 cagcgcacga gttctcagga gatctacaag atctgccaca ggcgtttcgt gtgcatagag
+      661 ccgatgtacg tccaccgtcc cttgcgcttg tgcacgcgcg cacacctcct gaactgcact
+      721 atctcgctcc cctatttcag gtccggtaaa aagccagacg gacat
+//
+
