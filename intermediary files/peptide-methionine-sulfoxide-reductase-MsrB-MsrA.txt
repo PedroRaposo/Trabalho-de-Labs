@@ -1,0 +1,60 @@
+CLUSTAL O(1.2.1) multiple sequence alignment
+
+
+Thermodesulfovibrio_aggregans      ------------------------------------------------------------
+Prevotella_intermedia              MMKKHLNTTTAFSPFISSLMAHRKITGTFRLLLPLLALLFTAVGASCSNNTKSATQESGD
+Prevotella_intermedia_ZT           MMKKHLNTTTAFSPFISSLMAHRNITGTFRLLLPLLALLFTAVGASCSNNTKSATQESGD
+Geothrix_fermentans                ------------------------------------------------------------
+Treponema_pallidum                 ------------------------------------------------------------
+Treponema_paraluiscuniculi         ------------------------------------------------------------
+                                                                                               
+
+Thermodesulfovibrio_aggregans      -------------------MKDEKLTPEQYYVFRQGGTEKPFQNAYWNNKEHGLYVDIVN
+Prevotella_intermedia              SIINKSNMTTRTFTRPDDATLRRQLTAEQYAVTQQAATERPFTNQYDNEFRPGIYVDITT
+Prevotella_intermedia_ZT           SIINKSNMTTRTFTRPDDATLRRQLTAEQYAVTQQAATERPFTNQYDNEFRPGIYVDITT
+Geothrix_fermentans                -------------------MLRKKLTPMQYHVTQESGTEPPFQNAFWNDHREGIYVDVVS
+Treponema_pallidum                 -----------------MLANLQHLSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVS
+Treponema_paraluiscuniculi         -----------------MLANLQHLSDIQYRVTQQSATEAPFKNEFWNSYQPGFYLDVVS
+                                                         .:*:  ** * ::..** ** * : *. . *:*:*:..
+
+Thermodesulfovibrio_aggregans      GDVLFSSLDKFDSGTGWPSFTKPVHEELIVEKIDRSHGMIRTEVRTKNTNGHLGHVFDDG
+Prevotella_intermedia              GEPLFSSTDKYDSGCGWPAFSKPIDKRLVVEKADNSHGMQRTEVKSRTGNAHLGHVFNDG
+Prevotella_intermedia_ZT           GEPLFSSTDKYDSGCGWPAFSKPIDKRLVVEKADNSHGMQRTEVKSRTGNAHLGHVFNDG
+Geothrix_fermentans                GKPLFSSKDKFDSECGWPSFTKPLAADEVVENRDTSHGMIRTEVRSKGADSHLGHVFDDG
+Treponema_pallidum                 GELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDG
+Treponema_paraluiscuniculi         GELLFLSEDKFNSGCGWPSFSAPADARAVVEKEDRTHNMLRTEVRSRNANSHLGHVFKDG
+                                   *. ** * **::*  ***:*: *     ::*: * :* * ****:::  :.******.**
+
+Thermodesulfovibrio_aggregans      PPP-TGLRYCINSAALRFVPLDKLVEEGYIDYLSMFNDVNK---------NFEQIILGGG
+Prevotella_intermedia              PSDKGGLRYCINSASLRFVPLAEMEKEGYGEYTKLVRRE-------------KEIYVAGG
+Prevotella_intermedia_ZT           PADKGGLRYCINSASLRFVPLAEMEKEGYGEYTKLVRRE-------------KEIYVAGG
+Geothrix_fermentans                PRDKGGLRYCINSASLRFVPVDDLEQEGLGRFLPLFGRTTKAGPAPKPNPAEEVATLAGG
+Treponema_pallidum                 PPERGGLRYCINSAALRFVAREE-----------------------------GTALFAAG
+Treponema_paraluiscuniculi         PPERGGLRYCINSAALRFVAREE-----------------------------GTALFAAG
+                                   *    *********:****   .                                 ...*
+
+Thermodesulfovibrio_aggregans      CFWGIQAYFKRVKGIKNTVVGYSGGWKEKPTYEEVCTGKTGHAEVVLVTFDPQIINLERI
+Prevotella_intermedia              CFWGTEHYIKQVKGVLSTEVGYANGNTKNPTYKEVCTDATGFAEAVHIKYDPDVVSLDFL
+Prevotella_intermedia_ZT           CFWGTEHYIKQVKGVLSTEVGYANGNTKNPTYKEVCTDATGFAEAVHIKYDPDVVSLDFL
+Geothrix_fermentans                CFWGMEDLLRQQPGVIAIEVGYTGGKVPNATYEH----HEGHAEAVQIRFDPSKTSFEAL
+Treponema_pallidum                 CFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDL
+Treponema_paraluiscuniculi         CFWGTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDL
+                                   ***. :  :::  *:    ***: *   . **..      *.**.* : :**.  . : :
+
+Thermodesulfovibrio_aggregans      LRHFFKIHDPSQKDRQGNDIGTQYRSAIYYFDENQKVVIDRVLEELKNQG---IGVTTEV
+Prevotella_intermedia              VKLYFVSIDPTSHNQQGNDRGSQYRTGVYYTDPADRAVIKKVFD--AEERKHSVPLEVEL
+Prevotella_intermedia_ZT           VKLYFVSIDPTSHNQQGNDRGSQYRTGVYYTDPADRAVIKKVFD--AEERKHSVPLEVEL
+Geothrix_fermentans                LRFFFRMHDPTTLNRQGNDVGTSYRSAIFYHSEAQRQTAERVKAEVDASGKWKRPIVTEI
+Treponema_pallidum                 LKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTL
+Treponema_paraluiscuniculi         LKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQRQQAETLMGRYAGAGKFTRPLVTTL
+                                   :: :*   **:  ::** * *:.**:.::* .  ::   . :             : . :
+
+Thermodesulfovibrio_aggregans      EKAKNFYKAEDYHQDYLEKNPGGYCHVNINKIWDF------
+Prevotella_intermedia              LPLKNFYPAEEYHQDYLEKNPTGYCHLPSSLFEYARKAKQR
+Prevotella_intermedia_ZT           LPLKNFYPAEEYHQDYLEKNPTGYCHLPSSLFEYARKAKQR
+Geothrix_fermentans                TPAGPWWKAEEYHQDYLIKHPGGYTCHYVRD----------
+Treponema_pallidum                 EEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPLE----
+Treponema_paraluiscuniculi         EEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPLE----
+                                        :: **:****** *.* **             
+										
+clustalo-I20160127-232128-0979-6685500-es										

@@ -1,0 +1,60 @@
+CLUSTAL O(1.2.1) multiple sequence alignment
+
+
+Treponema_pallidum              MSKALKGDVPVSSSFEEKMKALEAARLQIEKQFGQGSLMKLGKDDAVQGVEVIPTGNILL
+Treponema_paraluiscuniculi      MSKALKGDVPVSSSFEEKMKALEAARLQIEKQFGQGSLMKLGKDDAVQGVEVIPTGNILL
+Treponema_phagedenis            MAKAVKMEIPVNANPEEKLKALEAARLQIEKQFGQGSLMKLGKDNAATGVDVIPSGNILL
+Treponema_denticola             -MAKAKNEVPAVANRDDKLKALEAARLQIEKQFGQGSLMKLGNNSAIGNIEIIPSGSILL
+Treponema_putidum               -MAKAKNEVPAVANPDDKLKALEAARLQIEKQFGQGSLMKLGNNSAIGNIEIIPSGSILL
+                                     * ::*. :. ::*:***********************::.*   :::**:*.***
+
+Treponema_pallidum              DEALGIGGYPRGRIIEIFGPESSGKTTLALHAVAEAQKRGGIAAFIDAEHALDPQYAKDL
+Treponema_paraluiscuniculi      DEALGIGGYPRGRIIEIFGPESSGKTTLALHAVAEAQKRGGIAAFIDAEHALDPQYAKDL
+Treponema_phagedenis            DEALGIGGYPRGRIIEIYGPESSGKTTLALHAVAEAQKRGGIAAFIDAEHALDPQYAQAL
+Treponema_denticola             DEALGIGGYPRGRIIEIFGPESSGKTTIALHAVAEAQKQGGIAAFIDAEHALDPQYAKAL
+Treponema_putidum               DEALGIGGYPRGRIIEIFGPESSGKTTIALHAVAEAQKQGGIAAFIDAEHALDPQYAKAL
+                                *****************:*********:**********:******************: *
+
+Treponema_pallidum              GVSVGDLWISQPDTGEQALEIAESLVRSGAVDIIVVDSVAALTPQAEIQGDMGDAHVGLI
+Treponema_paraluiscuniculi      GVSVGDLWISQPDTGEQALEIAESLVRSGAVDIIVVDSVAALTPQAEIQGDMGDAHVGLI
+Treponema_phagedenis            GVNIDELWVSQPDTGEQALEIAESLVRSGAVDIIVVDSVAALTPQAEIEGEMGDSHMGLQ
+Treponema_denticola             GVNIDELWVSQPDTGEQALEIAESLVRSGAVDIIVIDSVAALTPQAEIAGEMGDSHMGLQ
+Treponema_putidum               GVNIDELWVSQPDTGEQALEIAESLVRSGAVDIIVIDSVAALTPQAEIAGEMGDSHMGLQ
+                                **.: :**:**************************:************ *:***:*:** 
+
+Treponema_pallidum              ARLMSQALRKLTSIINKSKCTLIFINQLRMKIGIMFGNPETTTGGIALKFYSSVRIEVRK
+Treponema_paraluiscuniculi      ARLMSQALRKLTSIINKSKCTLIFINQLRMKIGIMFGNPETTTGGIALKFYSSVRIEVRK
+Treponema_phagedenis            ARLMSQALRKLTAIINKSKCMIIFINQLRMKIGVMFGNPETTTGGNALKFYASIRIEVRK
+Treponema_denticola             ARLMSQALRKLTAIIGKSNCMIIFINQIRMKIGVMFGSPETTTGGNALKFYASVRLDVRK
+Treponema_putidum               ARLMSQALRKLTAIIGKSNCMIIFINQIRMKIGVMFGSPETTTGGNALKFYASVRLDVRK
+                                ************:** **:* :*****:*****:***.******* *****:*:*::***
+
+Treponema_pallidum              VETLSRGDEEAWGNKVRIRIVKNKMAPPFRKVETEILFGKGFSAFSCLLDAAVKQEIIEK
+Treponema_paraluiscuniculi      VETLSRGDEEAWGNKVRIRIVKNKMAPPFRKVETEILFGKGFSAFSCLLDAAVKQEIIEK
+Treponema_phagedenis            TDTLGKGEEEAWGNMVRIRVVKNKLAPPFRKLETEILFGKGFSIFGSILDAAVKQEIIDK
+Treponema_denticola             IETLGKGEDEAWGNKIRVKVVKNKVAPPFRKVEMEILFGKGVCPYGSLLDSAVKQEIIGK
+Treponema_putidum               IETLGKDEDEAWGNKIRVKVVKNKVAPPFRKVEMEILFGKGVCPYGSLLDSAVKQEIIGK
+                                 :**.: ::***** :*:::****:******:* *******.. :..:**:******* *
+
+Treponema_pallidum              KGAWYAYREEKIGQGRDNAVGFLQQNMDITLEIERAVRTKLFPKQAFISSFQEHRPALSL
+Treponema_paraluiscuniculi      KGAWYAYREEKIGQGRDNAVGFLQQNMDITLEIERAVRAKLFPKQAFISSFQEQRPALSL
+Treponema_phagedenis            KGAWYSYGEEKIGQGKENATKFLQENLDLTMQIEKQIREKLFPGQKFVSSFAAKPQTAPA
+Treponema_denticola             SGSWYSYGDDKIGQGRPNAVKFLEENIDIAQKIEKELREKLFPDRPFVSSFVEKTKEQKE
+Treponema_putidum               SGSWYSYGDDKIGQGRPNAVKFLEENIDIAQKIEKELREKLFPGRPFVSSFVEKTKEQKE
+                                .*:**:* ::*****: **. **::*:*:: :**: :* **** : *:***  :      
+
+Treponema_pallidum              EASPEESDAKTLRRXASRGAGA-SSSRVQEGSAANDHFQDESTTAK--------------
+Treponema_paraluiscuniculi      EASPAESDAKALRRSASRGAGA-SSSRVQEGSAANDHFQDESTTAK--------------
+Treponema_phagedenis            TEE---KKTAAVAEKPVKDTDKTDKTGKKEENEPAEKKQEEPAAKNAKPAAQQIFDDKDG
+Treponema_denticola             AQE---KAVEALKKEEGSKEDA--LTDN--KDETDDSAQENSAASKAKTAEVVGLPADDS
+Treponema_putidum               AQE---KAVEALKKEEVSKDAA--SKAK--KEEADDAAEEKSAASKTKKTETVGLPADDS
+                                  .   . . :: .           .     .   :  ::: :: :              
+
+Treponema_pallidum              LL
+Treponema_paraluiscuniculi      LL
+Treponema_phagedenis            LF
+Treponema_denticola             LF
+Treponema_putidum               LF
+                                *:
+								
+clustalo-I20160127-234027-0865-84209889-pg								

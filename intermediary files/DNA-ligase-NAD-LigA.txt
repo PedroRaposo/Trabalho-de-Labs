@@ -1,0 +1,116 @@
+CLUSTAL O(1.2.1) multiple sequence alignment
+
+
+Treponema_pallidum              MSTAQRRVQELEKLILHHQDRYYNAESDISDDAFDALWEELARLDPGNPLLKAIGSDSQR
+Treponema_paraluiscuniculi      MSTAQRRVQELEKLILHHQDRYYNAEPDISDDAFDALWEELARLDPGNPLLKAIGSDSQR
+Treponema_pedis                 -MENKKRIKELEKLIKKHQDLYYNSEPEISDAEFDELWDELKILDPKNKIFTVIPKESAD
+Treponema_phagedenis            -MKRNPRAVELEKLIRYHQDLYYNKEAEIPDSEFDALWDELRALEPENELFFTVPKESSD
+Treponema_vincentii             -MAKNTRIQELEALIKKHQNLYYNAEPEISDADFDMLWDELRSLDPQNELFATVPKDSAD
+Treponema_medium                -MEKNARIQELEALIKKHQDLYYNAEPEISDADFDLLWDELRSLDPRNTLFATVPKDSAD
+                                    : *  *** **  **: *** * :* *  ** **:**  *:* * :: .: .:*  
+
+Treponema_pallidum              DAVKKRHIVPMGSQHKAADEESFSAWAKKNALQAFLVQHKLDGVSLELQYERGHFCCALT
+Treponema_paraluiscuniculi      DAVKKRHIVPMGSQHKAADEESFSAWAKKNALQAFLVQHKLDGVSLELQYERGHFCCALT
+Treponema_pedis                 GFPKAEHIVPMGSQEKAANPEAFSAWALKMPFNEFIVQYKLDGASIELQYEKGKFVRAVT
+Treponema_phagedenis            GFPKASHIIPMGSQEKAANPEAFTAWALKMPFTQFLVQYKLDGASLELQYERGRFVRAVT
+Treponema_vincentii             GFPKAEHIIPMGSQEKAADPESFQKWAEKMPFTEFLVQYKLDGASMELQYEKGRLIRAVT
+Treponema_medium                GFPKAEHIIPMGSQDKAADPESFQKWAEKMPFSDFLVQYKLDGASMELQYEKGRLVRAVT
+                                   *  **:*****.***: *:*  ** *  :  *:**:****.*:*****:*::  *:*
+
+Treponema_pallidum              RGNGIVGDDVTANVRGMRGFVPTLTAEWGPCGNLPFTGGVRGEVIMHKDIHRSHYPTHAN
+Treponema_paraluiscuniculi      RGNGIVGDDVTANVRGMRGFVPTLTAEWGPCGNLPFTGGVRGEVIMHKDIHRSHYPTHAN
+Treponema_pedis                 RGDGKIGDDITENAHKMKGVVKILSGLSSPSGENPFTGGIRGEVIMTRSAHKSFFSDKAN
+Treponema_phagedenis            RGDGKIGDDITANVRKMQGVVSELQGESAPAGAQPFSGGIRGEVLMTKEIHKKFYADKAN
+Treponema_vincentii             RGDGKIGDDITANVKKMQGVVLELKGDSAPTGAAPFSGGVRGEVLMTKEVLHRFYPDKKN
+Treponema_medium                RGDGKIGDDITANVKKMQGVVLELKGDSAPTGTAPFSGGIRGEVLMTKEVLRRFYPDKKN
+                                **:* :***:* *.: *:*.*  * .  .* *  **:**:****:* :.  : .:  : *
+
+Treponema_pallidum              CRNTVNGILKRKDGRGRTHLHIVCYDAVPGTPGKPFTGSLPFADETEKLAWLARQGFVTV
+Treponema_paraluiscuniculi      CRNTVNGILKRKDGRGRTHLHIVCYDAVPGTPGKPFTGSLPFADETEKLAWLARQGFVTV
+Treponema_pedis                 CRNAANGLMKKKNGEGNEHLTVICYDAVQGTQGKPFSGYAPFKTETEKLAWLKDSGFLTV
+Treponema_phagedenis            CRNAANGLMKRKDGSGSEHLLVICYDAVQGSPEKPFTGTAPFSTELEKLAWLKRNGFSTV
+Treponema_vincentii             CRNAANGLMKRKDGSGSEHLEIICYDAAAGTIGHPFTEPAPFTTETEKLNWLKTQGFLQV
+Treponema_medium                CRNAANGLMKRKDGSGSEHLEIICYDAAAGTVGKPFTETAPFTTETEKLNWLEAQGFLQV
+                                ***:.**::*:*:* *  ** ::****. *:  :**:   **  * *** **  .**  *
+
+Treponema_pallidum              HSHRCANAQEVVALRSEIMRTRELLPYSIDGLVVKSTDLDFQDAQLPRPKKQIAFKFSTQ
+Treponema_paraluiscuniculi      HSHRCANAQEVVALRSEIMRTRELLPYSIDGLVVKSTDLDFQDAQLPRPKKQIAFKFSTQ
+Treponema_pedis                 ELKLCKSIDEVIKYRAEVMEKRPLLDFDIDGLVVKNDEIDSSDVSRARPEKQIAFKFSLE
+Treponema_phagedenis            EIQVCNSIQEVIDWRAHVMDIRESLPYDIDGLVIKNNLIDPDDVSRPRPEKQIAFKFSLE
+Treponema_vincentii             PVTRCGSVREVIDYRAHIMDIRSTIPYDIDGLVIKNDLIDIADLSRARPEKQIAFKFSLE
+Treponema_medium                PVTRCVGVREVIDYRAHVMDIRSTIPYDIDGLVVKNDHIDTADLSRARPEKQIAFKFSLE
+                                    *    **:  *:.:*  *  : :.*****:*.  :*  * .  **:******** :
+
+Treponema_pallidum              EAITTLRDVQWQTSGVTYTPIGITDPVRLAGTTVKRANLCNPNMLTKLCLKIGSHVLISK
+Treponema_paraluiscuniculi      EAITTLRDVQWQTSGVTYTPIGITDPVRLAGTTVKRANLCNPNMLTKLCLKIGSHVLISK
+Treponema_pedis                 EAVTVLRGIEWSESGATYTPIALIEPIRLAGTTVKRASLANPNIIEALNLKIGSRVAVTK
+Treponema_phagedenis            EAITTLREVEWSESGATYTPIAITDPVRLAGTTVKRANLANPNMITDMNLKIGSKVVITK
+Treponema_vincentii             EAITALRSVEWSESGVTYTPIALIDPVQLAGTTVKRANLCNPNMIAELNLKIGSRVLVTK
+Treponema_medium                EAVTVLRSVEWSESGVTYTPIALIDPVQLAGTTVKRANLCNPNMIAELNLKIGSRVLVTK
+                                **:*.** ::*. **.*****.: :*::*********.*.***::  : *****:* ::*
+
+Treponema_pallidum              RGEIIPKIEALVSTPAHAQEIHIPTQCTSCNTVLENSGSRLFCPNVNCPLLSHHRITRWI
+Treponema_paraluiscuniculi      RGEIIPKIEALVSTPAHAQEIHIPTQCTSCNTVLENSGSRLFCPNVNCPLLSHHRITRWI
+Treponema_pedis                 RGEIIPKIEALIENPSGVKPIEYPDKCSACGSRLVNEGTRLYCPNISCKKLILHRIEKWI
+Treponema_phagedenis            RGEIIPKIETLVENTDECTEIPMPTVCGTCGSSLLNEGTRLFCPNAACPKLIHHRIEKWI
+Treponema_vincentii             RGEIIPKIEALIENPASAKPIEQPSRCTSCGTVLRDEGTRLYCPNPACPKLIHHRIEKWI
+Treponema_medium                RGEIIPKIEALIENPASSVSIEQPCRCTSCGAALLDEGTRLYCPNPACPKLIHHRIEKWI
+                                *********:*:..      *  *  * :* : * :.*:**:***  *  *  *** :**
+
+Treponema_pallidum              ECLEIKHVGTELIQRLFEEKKVRRIPDLYTLTCEDLIEIEHVGNATAKKILEAIHHKKEI
+Treponema_paraluiscuniculi      ECLEIKHVGTELIQRLFEEKKVRRIPDLYTLTCEDLIEIEHVGNATAKKILEAIHHKKEI
+Treponema_pedis                 SVLDIRDFGITLIRRLFDMERINSIYDLYTLTVEELSAIDRMGKVSAAKVYNALHSKKEI
+Treponema_phagedenis            ATLDIRDFGINLIQRLFDSNKVNSIVDLYTLTVEDLASIERMGEISAKKVHSALHAKKEI
+Treponema_vincentii             DTLDIQDFGTTLIKRLFDTQRIRSVSDLYTLTVEELAAFERMGQKSAEKVYRALHAKREI
+Treponema_medium                NTLDIQDFGTVLLKQLFDAQRLRSISDLYTLTVEELAALERMGKKSAEKVYRALHAKREI
+                                  *:*:..*  *:::**: :::. : ****** *:*  ::::*: :* *:  *:* *:**
+
+Treponema_pallidum              ALQTFIAGFGIEGIGETMGEKLICAGFDTLEKVLHATTETLESIYQFGTELAKSVVTGIA
+Treponema_paraluiscuniculi      ALQTFIAGFGIEGIGETMGEKLISAGFDTLEKVLHATTETLESIYQFGTELAKSVVTGIA
+Treponema_pedis                 SLKQFIAGFDIEGIGEVMVEKLEEAGFDTPEKLFKANENDFAKVYQFGEVLSNILVTSLK
+Treponema_phagedenis            SLETFIAGFDIDGIGVTMVEKLTQAGFNTLDKLFEADEQKFSTVYQFGEVLAQNLVRGLQ
+Treponema_vincentii             PLPVFVAGFDIEGIGRTMMEKLVDAGFDTLEKLLAASEEDFAAVYQFGSVLAHTLTAGLR
+Treponema_medium                SLPTFIAGFDIEGIGRTMVEKLVEAGFDTLEKLLAATEEDFAAVYQFGSILAHTLTLGLR
+                                 *  *:*** *:*** .* ***  ***:* :*:: *  : :  :****  *:. :. .: 
+
+Treponema_pallidum              RVKDDMCELLDRGFVRILAK--QQAESPLRGKSFCFSGSLRNGDRATI-HRIRALGGVVR
+Treponema_paraluiscuniculi      RVKDDMCELLDRGFVRILAK--QQAESPLRGKSFCFSGSLRNGDRATI-HRIRALGGVVR
+Treponema_pedis                 LLKEEMQILIDSGNIKIKEPLSEKDGAVLKGFSFCFTGELNSMKRAEAEIKVKEKGGSVK
+Treponema_phagedenis            TLKAEMTALIEKGFITIKPPAAPDENAPLHGMSFCFTGELTAMKRSEAEQLVKEKGGSVK
+Treponema_vincentii             EVKDEMLRLTGSGIIVIQPPVSAQENLPLAGKSFCFTGELNSLKRKEAEAMVQQKGGTVK
+Treponema_medium                DAKEEMLHLTGSGTIVIQAPAAAQGKLPLAGKSFCFTGELNTLKRKEAEAMVQAKGGTVK
+                                  * :*  *   * : *      .    * * ****:*.*   .*      ::  ** *:
+
+Treponema_pallidum              TSVTRDLSYLIFESLSQPYRTAQKLKKEQGVALEIISEDEFCRLLDQASASCTHTGETVH
+Treponema_paraluiscuniculi      TSVTRDLSYLIFESLSQPYRTAQKLKKEQGVALEIISEDEFCRLLDQASASCTHTGETVH
+Treponema_pedis                 SSVIKGLSYLVTNT---PDSGSSKNKKAQELGTAIITEKEFLKMLEV-------------
+Treponema_phagedenis            SSVTKGLSYLVTNT---PESGSAKNKKAQQLGTAIITEEAFFALLQKEHKTE--------
+Treponema_vincentii             SSVTKGLTYLVTNT---PDSGSSKNKKAQELGTVIITEEEFLKLL---------------
+Treponema_medium                SSVTKGLTYLVTNT---PDSGSSKNKKAQELGTEIITEEEFLKLF---------------
+                                :** : *:**: ::   *   : * ** * :.  **:*. *  ::               
+
+Treponema_pallidum              PLQGKSFYFSGASRSMNHKHAQEKVRALGGDVASSVTAQLDYLVFYSQSTRYRTACALGI
+Treponema_paraluiscuniculi      PLQGKSFYFSGASRSMNHKHAQEKVRALGGDVASSVTAQLDYLVFYSQSTRYRTACALGI
+Treponema_pedis                 ------------------------------------------------------------
+Treponema_phagedenis            ------------------------------------------------------------
+Treponema_vincentii             ------------------------------------------------------------
+Treponema_medium                ------------------------------------------------------------
+                                                                                            
+
+Treponema_pallidum              QIISEETLHKLIATAQSPLHTDAHVHAPLHGMSFCFSGDLDGMTRAQAIALVQRLGGTVK
+Treponema_paraluiscuniculi      QIISEETLHKLIATAQSPLHTDAHVHAPLHGMSFCFSGDLDGMTRAQAIALVQRLGGTVK
+Treponema_pedis                 ------------------------------------------------------------
+Treponema_phagedenis            ------------------------------------------------------------
+Treponema_vincentii             ------------------------------------------------------------
+Treponema_medium                ------------------------------------------------------------
+                                                                                            
+
+Treponema_pallidum              TAVSTQLTYLVSNDPHGQSRKCQNAVRCGVRIISEHVFLALCTPGT
+Treponema_paraluiscuniculi      TAVSTQLTYLVSNDPHGQSRKCRNAVRCGVRIISEHVFLALCTPGT
+Treponema_pedis                 ----------------------------------------------
+Treponema_phagedenis            ----------------------------------------------
+Treponema_vincentii             ----------------------------------------------
+Treponema_medium                ----------------------------------------------
+                                                                              
+clustalo-I20160127-232610-0619-69499164-es																			  
+																			  

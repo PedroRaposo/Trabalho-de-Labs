@@ -1,0 +1,284 @@
+#Batch CD-search tool	NIH/NLM/NCBI
+#cdsid	QM3-qcdsearch-194AE75FF3EE2664-30FD1143830A51F
+#datatype	hitsConcise Results
+#status	0
+#Start time	2016-01-24T18:31:38	Run time	0:00:02:06
+#status	success
+
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#1 - > 189017811	superfamily	268265	5	162	1.51818e-09	54.2201	cl19912	DNA_pol3_delta superfamily	 - 	 - 
+Q#1 - > 189017811	multi-dom	224383	1	250	1.99036e-53	174.475	COG1466	HolA	C	 - 
+Q#2 - > 742686725	specific	238217	5	81	1.51292e-28	96.4232	cd00367	PTS-HPr_like	 - 	cl00206
+Q#2 - > 742686725	superfamily	275484	5	81	1.51292e-28	96.4232	cl00206	PTS-HPr_like superfamily	 - 	 - 
+Q#4 - > 6626258	specific	238899	132	282	6.11053e-70	212.865	cd01918	HprK_C	 - 	cl22860
+Q#4 - > 6626258	superfamily	277575	132	282	6.11053e-70	212.865	cl22860	PEPCK_HprK superfamily	 - 	 - 
+Q#4 - > 6626258	specific	190362	3	127	6.4312e-46	150.69	pfam02603	Hpr_kinase_N	 - 	cl21627
+Q#4 - > 6626258	superfamily	272047	3	127	6.4312e-46	150.69	cl21627	DRTGG superfamily	 - 	 - 
+Q#4 - > 6626258	multi-dom	235459	10	306	1.52674e-149	420.73	PRK05428	PRK05428	 - 	 - 
+Q#5 - > 2611182	specific	238713	2	204	1.53534e-103	295.685	cd01428	ADK	 - 	cl17190
+Q#5 - > 2611182	superfamily	277502	2	204	1.53534e-103	295.685	cl17190	NK superfamily	 - 	 - 
+Q#5 - > 2611182	multi-dom	234711	1	210	2.32067e-145	401.065	PRK00279	adk	 - 	 - 
+Q#6 - > 2611200	specific	143388	11	155	2.1545e-44	145.043	cd05398	NT_ClassII-CCAase	 - 	cl11966
+Q#6 - > 2611200	superfamily	277479	11	155	2.1545e-44	145.043	cl11966	NT_Pol-beta-like superfamily	 - 	 - 
+Q#6 - > 2611200	specific	257174	186	249	1.005e-22	86.7247	pfam12627	PolyA_pol_RNAbd	 - 	cl14990
+Q#6 - > 2611200	superfamily	257174	186	249	1.005e-22	86.7247	cl14990	PolyA_pol_RNAbd superfamily	 - 	 - 
+Q#7 - > 2611206	specific	238121	1	190	4.07621e-60	187.927	cd00200	WD40	N	cl02567
+Q#7 - > 2611206	superfamily	271593	1	190	4.07621e-60	187.927	cl02567	WD40 superfamily	N	 - 
+Q#7 - > 2611206	multi-dom	225201	1	189	2.75484e-25	100.163	COG2319	WD40	NC	 - 
+Q#8 - > 2611523	specific	238489	84	145	5.50325e-21	79.5851	cd00989	PDZ_metalloprotease	 - 	cl00117
+Q#8 - > 2611523	superfamily	271422	84	145	5.50325e-21	79.5851	cl00117	PDZ superfamily	 - 	 - 
+Q#8 - > 2611523	specific	238489	2	71	1.51393e-17	70.7255	cd00989	PDZ_metalloprotease	 - 	cl00117
+Q#8 - > 2611523	superfamily	271422	2	71	1.51393e-17	70.7255	cl00117	PDZ superfamily	 - 	 - 
+Q#9 - > 2611524	specific	257629	258	375	1.27214e-64	199.961	pfam13288	DXPR_C	 - 	cl16212
+Q#9 - > 2611524	superfamily	257629	258	375	1.27214e-64	199.961	cl16212	DXPR_C superfamily	 - 	 - 
+Q#9 - > 2611524	specific	254800	142	225	6.57936e-59	184.224	pfam08436	DXP_redisom_C	 - 	cl07165
+Q#9 - > 2611524	superfamily	254800	142	225	6.57936e-59	184.224	cl07165	DXP_redisom_C superfamily	 - 	 - 
+Q#9 - > 2611524	specific	251461	3	128	1.5951e-54	174.613	pfam02670	DXP_reductoisom	 - 	cl21454
+Q#9 - > 2611524	superfamily	277520	3	128	1.5951e-54	174.613	cl21454	NADB_Rossmann superfamily	 - 	 - 
+Q#9 - > 2611524	multi-dom	235472	1	375	0	643.285	PRK05447	PRK05447	 - 	 - 
+Q#10 - > 2611528	specific	250399	1	178	3.72589e-41	137.883	pfam01148	CTP_transf_1	N	cl21502
+Q#10 - > 2611528	superfamily	271922	1	178	3.72589e-41	137.883	cl21502	CTP_transf_1 superfamily	N	 - 
+Q#11 - > 2611532	specific	259850	3	218	3.11044e-117	332.03	cd00475	Cis_IPPS	 - 	cl00230
+Q#11 - > 2611532	superfamily	260282	3	218	3.11044e-117	332.03	cl00230	Cis_IPPS superfamily	 - 	 - 
+Q#12 - > 2611533	specific	238288	1	173	3.74338e-80	234.076	cd00520	RRF	 - 	cl00240
+Q#12 - > 2611533	superfamily	260292	1	173	3.74338e-80	234.076	cl00240	RRF superfamily	 - 	 - 
+Q#13 - > 2611557	specific	270461	5	41	1.09722e-16	70.1138	cd14275	UBA_EF-Ts	 - 	cl21463
+Q#13 - > 2611557	superfamily	277528	5	41	1.09722e-16	70.1138	cl21463	UBA_like_SF superfamily	 - 	 - 
+Q#13 - > 2611557	superfamily	277470	103	144	0.00813998	35.2093	cl11479	SMP_2 superfamily	NC	 - 
+Q#13 - > 2611557	multi-dom	236491	1	257	1.73717e-142	399.878	PRK09377	tsf	 - 	 - 
+Q#14 - > 2611590	specific	100106	9	223	2.40677e-105	300.653	cd01425	RPS2	 - 	cl00315
+Q#14 - > 2611590	superfamily	275526	9	223	2.40677e-105	300.653	cl00315	RPS2 superfamily	 - 	 - 
+Q#15 - > 601116384	specific	254223	143	347	3.31432e-104	304.95	pfam07478	Dala_Dala_lig_C	 - 	cl17255
+Q#15 - > 601116384	superfamily	276202	143	347	3.31432e-104	304.95	cl17255	ATP-grasp_4 superfamily	 - 	 - 
+Q#15 - > 601116384	specific	250892	2	126	1.85538e-38	132.763	pfam01820	Dala_Dala_lig_N	 - 	cl03367
+Q#15 - > 601116384	superfamily	250892	2	126	1.85538e-38	132.763	cl03367	Dala_Dala_lig_N superfamily	 - 	 - 
+Q#15 - > 601116384	multi-dom	234993	1	345	1.09839e-153	435.319	PRK01966	ddl	 - 	 - 
+Q#16 - > 2611624	specific	238399	99	415	0	477.829	cd00776	AsxRS_core	 - 	cl00268
+Q#16 - > 2611624	superfamily	277392	99	415	0	477.829	cl00268	class_II_aaRS-like_core superfamily	 - 	 - 
+Q#16 - > 2611624	specific	239814	4	110	9.97963e-54	172.709	cd04319	PhAsnRS_like_N	 - 	cl09930
+Q#16 - > 2611624	superfamily	277456	4	110	9.97963e-54	172.709	cl09930	RPA_2b-aaRSs_OBF_like superfamily	 - 	 - 
+Q#16 - > 2611624	multi-dom	235176	2	415	0	627.135	PRK03932	asnC	 - 	 - 
+Q#17 - > 2611250	specific	213184	1	236	4.13833e-121	341.429	cd03217	ABC_FeS_Assembly	 - 	cl21455
+Q#17 - > 2611250	superfamily	277521	1	236	4.13833e-121	341.429	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#17 - > 2611250	multi-dom	223473	1	236	1.21681e-143	400.416	COG0396	SufC	 - 	 - 
+Q#18 - > 2611247	specific	250635	195	432	2.45982e-72	226.694	pfam01458	UPF0051	 - 	cl19515
+Q#18 - > 2611247	superfamily	276264	195	432	2.45982e-72	226.694	cl19515	UPF0051 superfamily	 - 	 - 
+Q#18 - > 2611247	multi-dom	236990	1	461	0	1019.4	PRK11814	PRK11814	 - 	 - 
+Q#19 - > 2611248	specific	250635	1	211	9.38414e-66	201.271	pfam01458	UPF0051	 - 	cl19515
+Q#19 - > 2611248	superfamily	276264	1	211	9.38414e-66	201.271	cl19515	UPF0051 superfamily	 - 	 - 
+Q#20 - > 2611241	specific	99746	18	390	0	586.355	cd06453	SufS_like	 - 	cl18945
+Q#20 - > 2611241	superfamily	277505	18	390	0	586.355	cl18945	AAT_I superfamily	 - 	 - 
+Q#20 - > 2611241	multi-dom	249728	17	386	0	560.719	pfam00266	Aminotran_5	 - 	 - 
+Q#21 - > 2611224	specific	143480	1	125	2.61103e-54	164.73	cd06664	IscU_like	 - 	cl00528
+Q#21 - > 2611224	superfamily	275619	1	125	2.61103e-54	164.73	cl00528	IscU_like superfamily	 - 	 - 
+Q#22 - > 2611225	specific	238692	1	203	2.20684e-104	298.232	cd01398	RPI_A	 - 	cl00339
+Q#22 - > 2611225	superfamily	275540	1	203	2.20684e-104	298.232	cl00339	SugarP_isomerase superfamily	 - 	 - 
+Q#23 - > 511533127	specific	256193	14	119	6.00706e-30	104.609	pfam10895	DUF2715	C	cl12477
+Q#23 - > 511533127	superfamily	256193	14	119	6.00706e-30	104.609	cl12477	DUF2715 superfamily	C	 - 
+Q#24 - > 601116384	specific	256193	43	265	1.40948e-49	160.078	pfam10895	DUF2715	 - 	cl12477
+Q#24 - > 601116384	superfamily	256193	43	265	1.40948e-49	160.078	cl12477	DUF2715 superfamily	 - 	 - 
+Q#25 - > 601116384	specific	251495	411	609	2.15164e-112	333.324	pfam02722	MOSP_C	 - 	cl03676
+Q#25 - > 601116384	superfamily	251495	411	609	2.15164e-112	333.324	cl03676	MOSP_C superfamily	 - 	 - 
+Q#25 - > 601116384	specific	251488	84	278	6.18564e-107	319.446	pfam02707	MOSP_N	 - 	cl03668
+Q#25 - > 601116384	superfamily	251488	84	278	6.18564e-107	319.446	cl03668	MOSP_N superfamily	 - 	 - 
+Q#26 - > 601116384	specific	251495	411	609	2.15164e-112	333.324	pfam02722	MOSP_C	 - 	cl03676
+Q#26 - > 601116384	superfamily	251495	411	609	2.15164e-112	333.324	cl03676	MOSP_C superfamily	 - 	 - 
+Q#26 - > 601116384	specific	251488	84	278	6.18564e-107	319.446	pfam02707	MOSP_N	 - 	cl03668
+Q#26 - > 601116384	superfamily	251488	84	278	6.18564e-107	319.446	cl03668	MOSP_N superfamily	 - 	 - 
+Q#27 - > 520750339	specific	251495	555	758	2.68409e-101	309.056	pfam02722	MOSP_C	 - 	cl03676
+Q#27 - > 520750339	superfamily	251495	555	758	2.68409e-101	309.056	cl03676	MOSP_C superfamily	 - 	 - 
+Q#27 - > 520750339	specific	251488	96	288	2.29778e-97	299.03	pfam02707	MOSP_N	 - 	cl03668
+Q#27 - > 520750339	superfamily	251488	96	288	2.29778e-97	299.03	cl03668	MOSP_N superfamily	 - 	 - 
+Q#28 - > 742686725	superfamily	276309	157	221	0.000223064	38.7209	cl21467	Cytochrom_C superfamily	 - 	 - 
+Q#28 - > 742686725	multi-dom	258697	281	345	0.000816945	36.8382	pfam14559	TPR_19	 - 	 - 
+Q#28 - > 742686725	multi-dom	258697	213	278	0.00509665	34.527	pfam14559	TPR_19	 - 	 - 
+Q#28 - > 742686725	multi-dom	273126	319	590	2.47517e-05	45.3569	TIGR00540	TPR_hemY_coli	N	 - 
+Q#29 - > 742686725	specific	238157	208	331	8.65036e-20	83.6102	cd00254	LT_GEWL	 - 	cl00222
+Q#29 - > 742686725	superfamily	275490	208	331	8.65036e-20	83.6102	cl00222	lysozyme_like superfamily	 - 	 - 
+Q#29 - > 742686725	specific	212030	551	592	1.80798e-13	63.2733	cd00118	LysM	 - 	cl00107
+Q#29 - > 742686725	superfamily	275472	551	592	1.80798e-13	63.2733	cl00107	LysM superfamily	 - 	 - 
+Q#29 - > 742686725	specific	212030	424	466	2.70545e-12	60.1917	cd00118	LysM	 - 	cl00107
+Q#29 - > 742686725	superfamily	275472	424	466	2.70545e-12	60.1917	cl00107	LysM superfamily	 - 	 - 
+Q#29 - > 742686725	multi-dom	224306	547	594	9.40583e-07	46.8341	COG1388	LysM	N	 - 
+Q#30 - > 601116384	specific	254223	143	347	3.31432e-104	304.95	pfam07478	Dala_Dala_lig_C	 - 	cl17255
+Q#30 - > 601116384	superfamily	276202	143	347	3.31432e-104	304.95	cl17255	ATP-grasp_4 superfamily	 - 	 - 
+Q#30 - > 601116384	specific	250892	2	126	1.85538e-38	132.763	pfam01820	Dala_Dala_lig_N	 - 	cl03367
+Q#30 - > 601116384	superfamily	250892	2	126	1.85538e-38	132.763	cl03367	Dala_Dala_lig_N superfamily	 - 	 - 
+Q#30 - > 601116384	multi-dom	234993	1	345	1.09839e-153	435.319	PRK01966	ddl	 - 	 - 
+Q#31 - > 742686725	specific	143586	367	473	1.75823e-26	101.861	cd07185	OmpA_C-like	 - 	cl02931
+Q#31 - > 742686725	superfamily	277439	367	473	1.75823e-26	101.861	cl02931	OmpA_C-like superfamily	 - 	 - 
+Q#31 - > 742686725	multi-dom	274533	343	473	7.89598e-16	72.7197	TIGR03350	type_VI_ompA	 - 	 - 
+Q#32 - > 742686725	multi-dom	274513	44	128	1.48059e-05	43.3099	TIGR03302	OM_YfiO	C	 - 
+Q#32 - > 742686725	multi-dom	236545	183	247	0.000693177	39.0191	PRK09510	tolA	NC	 - 
+Q#33 - > 742686725	multi-dom	274513	44	128	1.48059e-05	43.3099	TIGR03302	OM_YfiO	C	 - 
+Q#33 - > 742686725	multi-dom	236545	183	247	0.000693177	39.0191	PRK09510	tolA	NC	 - 
+Q#34 - > 742686725	specific	277319	2	240	2.88778e-34	124.303	cd00840	MPP_Mre11_N	 - 	cl13995
+Q#34 - > 742686725	superfamily	277482	2	240	2.88778e-34	124.303	cl13995	MPP_superfamily superfamily	 - 	 - 
+Q#34 - > 742686725	multi-dom	223497	1	384	5.59587e-75	236.65	COG0420	SbcD	 - 	 - 
+Q#35 - > 742686725	multi-dom	274513	44	128	1.48059e-05	43.3099	TIGR03302	OM_YfiO	C	 - 
+Q#35 - > 742686725	multi-dom	236545	183	247	0.000693177	39.0191	PRK09510	tolA	NC	 - 
+Q#36 - > 742686725	specific	277319	2	240	2.88778e-34	124.303	cd00840	MPP_Mre11_N	 - 	cl13995
+Q#36 - > 742686725	superfamily	277482	2	240	2.88778e-34	124.303	cl13995	MPP_superfamily superfamily	 - 	 - 
+Q#36 - > 742686725	multi-dom	223497	1	384	5.59587e-75	236.65	COG0420	SbcD	 - 	 - 
+Q#37 - > 742686725	specific	213246	945	1039	1.49703e-40	147.415	cd03279	ABC_sbcCD	N	cl21455
+Q#37 - > 742686725	superfamily	277521	945	1039	1.49703e-40	147.415	cl21455	P-loop_NTPase superfamily	N	 - 
+Q#37 - > 742686725	superfamily	277521	1	162	3.91895e-33	126.229	cl21455	P-loop_NTPase superfamily	C	 - 
+Q#37 - > 742686725	multi-dom	129705	1	1042	0	1242.93	TIGR00618	sbcc	 - 	 - 
+Q#38 - > 520750339	specific	277319	2	240	2.88778e-34	124.303	cd00840	MPP_Mre11_N	 - 	cl13995
+Q#38 - > 520750339	superfamily	277482	2	240	2.88778e-34	124.303	cl13995	MPP_superfamily superfamily	 - 	 - 
+Q#38 - > 520750339	multi-dom	223497	1	384	5.59587e-75	236.65	COG0420	SbcD	 - 	 - 
+Q#39 - > 520750339	specific	213246	945	1039	1.49703e-40	147.415	cd03279	ABC_sbcCD	N	cl21455
+Q#39 - > 520750339	superfamily	277521	945	1039	1.49703e-40	147.415	cl21455	P-loop_NTPase superfamily	N	 - 
+Q#39 - > 520750339	superfamily	277521	1	162	3.91895e-33	126.229	cl21455	P-loop_NTPase superfamily	C	 - 
+Q#39 - > 520750339	multi-dom	129705	1	1042	0	1243.7	TIGR00618	sbcc	 - 	 - 
+Q#40 - > 520750339	specific	238804	5	328	3.98198e-172	488.236	cd01570	NAPRTase_A	 - 	cl21457
+Q#40 - > 520750339	superfamily	277523	5	328	3.98198e-172	488.236	cl21457	TIM_phosphate_binding superfamily	 - 	 - 
+Q#40 - > 520750339	multi-dom	273666	5	480	0	704.89	TIGR01513	NAPRTase_put	 - 	 - 
+Q#42 - > 601116384	specific	238804	5	328	3.98198e-172	488.236	cd01570	NAPRTase_A	 - 	cl21457
+Q#42 - > 601116384	superfamily	277523	5	328	3.98198e-172	488.236	cl21457	TIM_phosphate_binding superfamily	 - 	 - 
+Q#42 - > 601116384	multi-dom	273666	5	480	0	704.89	TIGR01513	NAPRTase_put	 - 	 - 
+Q#43 - > 2611473	specific	100107	97	238	1.37341e-06	44.7283	cd02440	AdoMet_MTases	 - 	cl17173
+Q#43 - > 2611473	superfamily	277501	97	238	1.37341e-06	44.7283	cl17173	AdoMet_MTases superfamily	 - 	 - 
+Q#43 - > 2611473	specific	202731	2	56	5.84105e-18	74.0786	pfam03705	CheR_N	 - 	cl04218
+Q#43 - > 2611473	superfamily	202731	2	56	5.84105e-18	74.0786	cl04218	CheR_N superfamily	 - 	 - 
+Q#43 - > 2611473	multi-dom	214534	3	254	4.36225e-122	346.966	smart00138	MeTrc	 - 	 - 
+Q#44 - > 2611478	specific	250544	2	177	2.04718e-85	247.783	pfam01339	CheB_methylest	 - 	cl03170
+Q#44 - > 2611478	superfamily	250544	2	177	2.04718e-85	247.783	cl03170	CheB_methylest superfamily	 - 	 - 
+Q#45 - > 2611479	specific	173903	1	277	1.14254e-122	351.886	cd00806	TrpRS_core	 - 	cl00015
+Q#45 - > 2611479	superfamily	277375	1	277	1.14254e-122	351.886	cl00015	nt_trans superfamily	 - 	 - 
+Q#45 - > 2611479	multi-dom	183400	1	325	0	616.867	PRK12282	PRK12282	 - 	 - 
+Q#46 - > 2611495	specific	223303	1	160	1.37358e-93	267.553	COG0225	MsrA	 - 	cl00366
+Q#46 - > 2611495	superfamily	260385	1	160	1.37358e-93	267.553	cl00366	PMSR superfamily	 - 	 - 
+Q#47 - > 2611515	specific	238062	6	317	0	522.537	cd00114	LIGANc	 - 	cl03295
+Q#47 - > 2611515	superfamily	261674	6	317	0	522.537	cl03295	LIGANc superfamily	 - 	 - 
+Q#47 - > 2611515	specific	237994	600	669	1.98028e-14	67.3466	cd00027	BRCT	 - 	cl00038
+Q#47 - > 2611515	superfamily	260149	600	669	1.98028e-14	67.3466	cl00038	BRCT superfamily	 - 	 - 
+Q#47 - > 2611515	specific	145978	320	401	1.15145e-41	144.28	pfam03120	DNA_ligase_OB	 - 	cl03901
+Q#47 - > 2611515	superfamily	145978	320	401	1.15145e-41	144.28	cl03901	DNA_ligase_OB superfamily	 - 	 - 
+Q#47 - > 2611515	specific	257328	510	573	5.09309e-24	94.071	pfam12826	HHH_2	 - 	cl22429
+Q#47 - > 2611515	superfamily	277562	510	573	5.09309e-24	94.071	cl22429	ENDO3c superfamily	 - 	 - 
+Q#47 - > 2611515	specific	251739	407	434	1.26019e-09	52.1224	pfam03119	DNA_ligase_ZBD	 - 	cl03900
+Q#47 - > 2611515	superfamily	251739	407	434	1.26019e-09	52.1224	cl03900	DNA_ligase_ZBD superfamily	 - 	 - 
+Q#47 - > 2611515	specific	258660	442	502	4.43191e-07	46.0356	pfam14520	HHH_5	 - 	cl22429
+Q#47 - > 2611515	superfamily	277562	442	502	4.43191e-07	46.0356	cl22429	ENDO3c superfamily	 - 	 - 
+Q#47 - > 2611515	multi-dom	236137	1	669	0	1254.64	PRK07956	ligA	 - 	 - 
+Q#48 - > 2611718	specific	234626	1	286	0	440.721	PRK00091	miaA	 - 	cl21455
+Q#48 - > 2611718	superfamily	277521	1	286	0	440.721	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#49 - > 2611740	superfamily	206779	43	211	6.67686e-42	139.294	cl21547	MCP_signal superfamily	 - 	 - 
+Q#50 - > 2611741	superfamily	206779	1	136	8.29801e-41	133.516	cl21547	MCP_signal superfamily	N	 - 
+Q#51 - > 2611765	specific	238396	9	342	1.02622e-81	251.753	cd00773	HisRS-like_core	 - 	cl00268
+Q#51 - > 2611765	superfamily	277392	9	342	1.02622e-81	251.753	cl00268	class_II_aaRS-like_core superfamily	 - 	 - 
+Q#51 - > 2611765	specific	238436	355	445	3.3459e-29	108.396	cd00859	HisRS_anticodon	 - 	cl00266
+Q#51 - > 2611765	superfamily	271451	355	445	3.3459e-29	108.396	cl00266	HGTP_anticodon superfamily	 - 	 - 
+Q#51 - > 2611765	multi-dom	223202	1	449	1.73723e-151	435.887	COG0124	HisS	 - 	 - 
+Q#52 - > 2611775	specific	100089	1	446	0	656.951	cd03087	PGM_like1	 - 	cl03757
+Q#52 - > 2611775	superfamily	271616	1	446	0	656.951	cl03757	phosphohexomutase superfamily	 - 	 - 
+Q#52 - > 2611775	multi-dom	274906	1	446	0	674.998	TIGR03990	Arch_GlmM	 - 	 - 
+Q#53 - > 2611776	specific	176648	3	158	1.46657e-60	183.656	cd06127	DEDDh	 - 	cl10012
+Q#53 - > 2611776	superfamily	271686	3	158	1.46657e-60	183.656	cl10012	DnaQ_like_exo superfamily	 - 	 - 
+Q#54 - > 2611790	specific	173900	1	356	0	547.308	cd00674	LysRS_core_class_I	 - 	cl00015
+Q#54 - > 2611790	superfamily	277375	1	356	0	547.308	cl00015	nt_trans superfamily	 - 	 - 
+Q#54 - > 2611790	multi-dom	224302	1	506	0	724.503	COG1384	LysS	 - 	 - 
+Q#55 - > 2611725	specific	238393	122	438	0	556.788	cd00770	SerRS_core	 - 	cl00268
+Q#55 - > 2611725	superfamily	277392	122	438	0	556.788	cl00268	class_II_aaRS-like_core superfamily	 - 	 - 
+Q#55 - > 2611725	specific	251274	1	110	2.94727e-34	122.322	pfam02403	Seryl_tRNA_N	 - 	cl12057
+Q#55 - > 2611725	superfamily	271741	1	110	2.94727e-34	122.322	cl12057	Seryl_tRNA_N superfamily	 - 	 - 
+Q#55 - > 2611725	multi-dom	235461	1	445	0	703.75	PRK05431	PRK05431	 - 	 - 
+Q#56 - > 2611726	specific	249923	65	98	4.08133e-10	49.3387	pfam00515	TPR_1	 - 	cl22897
+Q#56 - > 2611726	superfamily	277612	65	98	4.08133e-10	49.3387	cl22897	TPR_1 superfamily	 - 	 - 
+Q#56 - > 2611726	specific	249923	31	64	4.08133e-10	49.3387	pfam00515	TPR_1	 - 	cl22897
+Q#56 - > 2611726	superfamily	277612	31	64	4.08133e-10	49.3387	cl22897	TPR_1 superfamily	 - 	 - 
+Q#56 - > 2611726	specific	249923	1	30	5.08222e-08	43.9459	pfam00515	TPR_1	 - 	cl22897
+Q#56 - > 2611726	superfamily	277612	1	30	5.08222e-08	43.9459	cl22897	TPR_1 superfamily	 - 	 - 
+Q#56 - > 2611726	multi-dom	188247	1	103	1.32686e-18	73.4687	TIGR02795	tol_pal_ybgF	 - 	 - 
+Q#57 - > 2611755	specific	239963	28	137	1.73552e-39	130.688	cd04590	CBS_pair_CorC_HlyC_assoc	 - 	cl15354
+Q#57 - > 2611755	superfamily	271773	28	137	1.73552e-39	130.688	cl15354	CBS_pair superfamily	 - 	 - 
+Q#57 - > 2611755	specific	215020	156	225	2.22334e-23	88.2663	smart01091	CorC_HlyC	 - 	cl08393
+Q#57 - > 2611755	superfamily	263626	156	225	2.22334e-23	88.2663	cl08393	CorC_HlyC superfamily	 - 	 - 
+Q#57 - > 2611755	multi-dom	223591	25	136	0.000216649	38.2213	COG0517	CBS	 - 	 - 
+Q#58 - > 2611773	specific	223396	2	127	1.70537e-53	163.607	COG0319	YbeY	 - 	cl00402
+Q#58 - > 2611773	superfamily	275566	2	127	1.70537e-53	163.607	cl00402	UPF0054 superfamily	 - 	 - 
+Q#59 - > 2611774	specific	238032	13	177	7.35259e-14	65.0533	cd00077	HDc	 - 	cl21469
+Q#59 - > 2611774	superfamily	276310	13	177	7.35259e-14	65.0533	cl21469	HDc superfamily	 - 	 - 
+Q#60 - > 2611807	specific	213268	6	218	2.35604e-153	427.827	cd03301	ABC_MalK_N	 - 	cl21455
+Q#60 - > 2611807	superfamily	277521	6	218	2.35604e-153	427.827	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#60 - > 2611807	multi-dom	130041	6	244	9.7699e-107	308.652	TIGR00968	3a0106s01	 - 	 - 
+Q#61 - > 2611146	specific	119394	6	154	7.33442e-16	69.6148	cd06261	TM_PBP2	C	cl00427
+Q#61 - > 2611146	superfamily	277408	6	154	7.33442e-16	69.6148	cl00427	TM_PBP2 superfamily	C	 - 
+Q#61 - > 2611146	multi-dom	223629	1	154	2.65342e-52	165.894	COG0555	CysU	C	 - 
+Q#62 - > 2611153	specific	270380	7	318	0	533.634	cd13662	PBP2_TpPotD_like	 - 	cl21456
+Q#62 - > 2611153	superfamily	277522	7	318	0	533.634	cl21456	Periplasmic_Binding_Protein_Type_2 superfamily	 - 	 - 
+Q#63 - > 2611156	specific	234973	1	59	1.70812e-29	97.2862	PRK01712	PRK01712	 - 	cl00670
+Q#63 - > 2611156	superfamily	275646	1	59	1.70812e-29	97.2862	cl00670	CsrA superfamily	 - 	 - 
+Q#64 - > 2611171	specific	237334	1	134	4.02925e-59	178.121	PRK13285	PRK13285	 - 	cl00740
+Q#64 - > 2611171	superfamily	260599	1	134	4.02925e-59	178.121	cl00740	FliW superfamily	 - 	 - 
+Q#65 - > 2611172	superfamily	250043	2	103	1.25458e-21	82.344	cl02922	Flagellin_N superfamily	N	 - 
+Q#66 - > 2611174	multi-dom	274162	3	297	2.53251e-53	175.612	TIGR02492	flgK_ends	 - 	 - 
+Q#67 - > 2611197	specific	238477	4	303	4.65772e-144	405.371	cd00947	TBP_aldolase_IIB	 - 	cl21457
+Q#67 - > 2611197	superfamily	277523	4	303	4.65772e-144	405.371	cl21457	TIM_phosphate_binding superfamily	 - 	 - 
+Q#68 - > 2611214	specific	238981	1	176	9.56246e-105	297.159	cd02023	UMPK	 - 	cl17190
+Q#68 - > 2611214	superfamily	277502	1	176	9.56246e-105	297.159	cl17190	NK superfamily	 - 	 - 
+Q#68 - > 2611214	multi-dom	223645	1	176	6.07969e-88	255.67	COG0572	Udk	 - 	 - 
+Q#69 - > 2611537	specific	213997	5	287	3.60188e-164	484.251	cd12113	PHP_PolIIIA_DnaE3	 - 	cl00281
+Q#69 - > 2611537	superfamily	277395	5	287	3.60188e-164	484.251	cl00281	metallo-dependent_hydrolases superfamily	 - 	 - 
+Q#69 - > 2611537	specific	239931	1044	1085	4.75681e-11	58.6755	cd04485	DnaE_OBF	C	cl09930
+Q#69 - > 2611537	superfamily	277456	1044	1085	4.75681e-11	58.6755	cl09930	RPA_2b-aaRSs_OBF_like superfamily	C	 - 
+Q#69 - > 2611537	specific	254393	356	790	0	579.821	pfam07733	DNA_pol3_alpha	 - 	cl22328
+Q#69 - > 2611537	superfamily	254393	356	790	0	579.821	cl22328	DNA_pol3_alpha superfamily	 - 	 - 
+Q#69 - > 2611537	specific	258717	863	951	8.84605e-34	123.372	pfam14579	HHH_6	 - 	cl22429
+Q#69 - > 2611537	superfamily	277562	863	951	8.84605e-34	123.372	cl22429	ENDO3c superfamily	 - 	 - 
+Q#69 - > 2611537	multi-dom	273161	5	1080	0	1297.73	TIGR00594	polc	 - 	 - 
+Q#70 - > 601116384	specific	254223	143	347	3.31432e-104	304.95	pfam07478	Dala_Dala_lig_C	 - 	cl17255
+Q#70 - > 601116384	superfamily	276202	143	347	3.31432e-104	304.95	cl17255	ATP-grasp_4 superfamily	 - 	 - 
+Q#70 - > 601116384	specific	250892	2	126	1.85538e-38	132.763	pfam01820	Dala_Dala_lig_N	 - 	cl03367
+Q#70 - > 601116384	superfamily	250892	2	126	1.85538e-38	132.763	cl03367	Dala_Dala_lig_N superfamily	 - 	 - 
+Q#70 - > 601116384	multi-dom	234993	1	345	1.09839e-153	435.319	PRK01966	ddl	 - 	 - 
+Q#71 - > 2611575	specific	238397	5	369	2.64774e-120	351.893	cd00774	GlyRS-like_core	 - 	cl00268
+Q#71 - > 2611575	superfamily	277392	5	369	2.64774e-120	351.893	cl00268	class_II_aaRS-like_core superfamily	 - 	 - 
+Q#71 - > 2611575	specific	238435	368	501	1.16091e-52	172.742	cd00858	GlyRS_anticodon	 - 	cl00266
+Q#71 - > 2611575	superfamily	271451	368	501	1.16091e-52	172.742	cl00266	HGTP_anticodon superfamily	 - 	 - 
+Q#71 - > 2611575	multi-dom	235240	1	500	0	714.597	PRK04173	PRK04173	 - 	 - 
+Q#72 - > 2611576	specific	173905	4	328	1.78571e-140	401.58	cd00808	GluRS_core	 - 	cl00015
+Q#72 - > 2611576	superfamily	277375	4	328	1.78571e-140	401.58	cl00015	nt_trans superfamily	 - 	 - 
+Q#72 - > 2611576	multi-dom	273092	2	480	0	714.513	TIGR00464	gltX_bact	 - 	 - 
+Q#73 - > 2611265	specific	212657	4	152	0.00494548	36.0276	cd00012	NBD_sugar-kinase_HSP70_actin	C	cl17037
+Q#73 - > 2611265	superfamily	277496	4	152	0.00494548	36.0276	cl17037	NBD_sugar-kinase_HSP70_actin superfamily	C	 - 
+Q#73 - > 2611265	multi-dom	236585	1	328	0	589.732	PRK09604	PRK09604	 - 	 - 
+Q#74 - > 2611266	specific	143481	3	363	0	545.169	cd00430	PLPDE_III_AR	 - 	cl00261
+Q#74 - > 2611266	superfamily	260308	3	363	0	545.169	cl00261	PLPDE_III superfamily	 - 	 - 
+Q#74 - > 2611266	multi-dom	234600	1	362	2.08791e-143	409.566	PRK00053	alr	 - 	 - 
+Q#75 - > 2611272	specific	250820	2	196	6.74712e-58	178.58	pfam01728	FtsJ	 - 	cl17173
+Q#75 - > 2611272	superfamily	277501	2	196	6.74712e-58	178.58	cl17173	AdoMet_MTases superfamily	 - 	 - 
+Q#76 - > 2611684	specific	173833	4	180	6.66709e-60	185.833	cd00685	Trans_IPPS_HT	 - 	cl00210
+Q#76 - > 2611684	superfamily	277386	4	180	6.66709e-60	185.833	cl00210	Isoprenoid_Biosyn_C1 superfamily	 - 	 - 
+Q#77 - > 2611685	superfamily	277459	1	195	3.93445e-146	407.192	cl10011	Periplasmic_Binding_Protein_Type_1 superfamily	N	 - 
+Q#77 - > 2611685	multi-dom	257732	1	191	3.72391e-37	128.188	pfam13407	Peripla_BP_4	N	 - 
+Q#78 - > 2611702	specific	213186	3	238	1.98212e-108	310.908	cd03219	ABC_Mj1267_LivG_branched	 - 	cl21455
+Q#78 - > 2611702	superfamily	277521	3	238	1.98212e-108	310.908	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#78 - > 2611702	multi-dom	223488	2	234	1.70598e-110	316.436	COG0411	LivG	 - 	 - 
+Q#79 - > 2611432	specific	238034	443	577	3.13479e-33	122.732	cd00079	HELICc	 - 	cl21455
+Q#79 - > 2611432	superfamily	277521	443	577	3.13479e-33	122.732	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#79 - > 2611432	specific	238005	274	410	1.42881e-28	109.734	cd00046	DEXDc	 - 	cl21455
+Q#79 - > 2611432	superfamily	277521	274	410	1.42881e-28	109.734	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#79 - > 2611432	specific	239934	53	124	1.54196e-10	56.0488	cd04488	RecG_wedge_OBF	 - 	cl09930
+Q#79 - > 2611432	superfamily	277456	53	124	1.54196e-10	56.0488	cl09930	RPA_2b-aaRSs_OBF_like superfamily	 - 	 - 
+Q#79 - > 2611432	multi-dom	236794	1	647	0	970.005	PRK10917	PRK10917	 - 	 - 
+Q#80 - > 2611771	specific	132883	5	309	2.26439e-120	347.25	cd07062	Peptidase_S66_mccF_like	 - 	cl00700
+Q#80 - > 2611771	superfamily	260579	5	309	2.26439e-120	347.25	cl00700	Peptidase_S66 superfamily	 - 	 - 
+Q#81 - > 2611772	specific	206682	171	343	5.69324e-106	309.748	cd01895	EngA2	 - 	cl21455
+Q#81 - > 2611772	superfamily	277521	171	343	5.69324e-106	309.748	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#81 - > 2611772	specific	206681	4	160	3.28764e-97	286.639	cd01894	EngA1	 - 	cl21455
+Q#81 - > 2611772	superfamily	277521	4	160	3.28764e-97	286.639	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#81 - > 2611772	specific	258851	350	430	8.93087e-48	156.822	pfam14714	KH_dom-like	 - 	cl20649
+Q#81 - > 2611772	superfamily	258851	350	430	8.93087e-48	156.822	cl20649	KH_dom-like superfamily	 - 	 - 
+Q#81 - > 2611772	multi-dom	234628	1	430	0	792.328	PRK00093	PRK00093	 - 	 - 
+Q#82 - > 2611769	superfamily	260520	1	107	1.33465e-56	173.847	cl00598	ScpA_ScpB superfamily	C	 - 
+Q#83 - > 2611770	specific	238483	1	323	0	616.556	cd00983	recA	 - 	cl21455
+Q#83 - > 2611770	superfamily	277521	1	323	0	616.556	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#83 - > 2611770	multi-dom	236476	1	323	0	675.356	PRK09354	recA	 - 	 - 
+Q#84 - > 2611782	superfamily	275550	1	62	5.83766e-32	107.362	cl00360	5-FTHF_cyc-lig superfamily	N	 - 
+Q#85 - > 2611562	specific	257854	102	259	2.27997e-20	83.8515	pfam13535	ATP-grasp_4	 - 	cl17255
+Q#85 - > 2611562	superfamily	276202	102	259	2.27997e-20	83.8515	cl17255	ATP-grasp_4 superfamily	 - 	 - 
+Q#85 - > 2611562	superfamily	277520	2	62	0.00905888	35.295	cl21454	NADB_Rossmann superfamily	C	 - 
+Q#86 - > 2611565	specific	238493	1	207	3.05789e-86	251.799	cd01011	nicotinamidase	 - 	cl00220
+Q#86 - > 2611565	superfamily	260273	1	207	3.05789e-86	251.799	cl00220	cysteine_hydrolases superfamily	 - 	 - 
