@@ -49,7 +49,7 @@ class MyHsp:
         self.subjS = subjS
         self.subjE = subjE
         #Connection to database code
-#        c = Connector.Conn()
+        c = Connector.Conn()
         s=""
         if(isPdb==True):
             s+="'Blastp' ,"
@@ -83,7 +83,7 @@ class MyHsp:
         else:
             s+="NULL , NULL , '"+self.geneID+"'"
         
-#        c.insertBlast(s)
+        c.insertBlast(s)
     
     def __str__(self):
         res= " Gi: " + self.gi + " \n Accession: "+ self.accession + " \n Score: "+ str(self.bitScore) + "\n E-value: " + str(self.e_value) + "\n Identities: " + str(self.ident)
@@ -609,6 +609,8 @@ class MyCDS:
         name1 = self.geneID+"_"+databaseP+".xml"
         tam1 = len(self.translation)
         
+        name3 = self.geneID+"_"+databaseN+".xml"
+        
         name2= self.old_locus_tag+"_"+databaseN+".xml"
         tam2 = len(self.seq)
         
@@ -616,12 +618,16 @@ class MyCDS:
             name=name1
             tam=tam1
             molecule=moleculeP
-            
-        
-        if(os.path.isfile(name2)==True):
-            name=name2
-            tam=tam2
-            molecule=moleculeN
+        else:
+            if(os.path.isfile(name3)==True):    
+                name=name3
+                tam=tam1
+                molecule=moleculeP
+            else:    
+                if(os.path.isfile(name2)==True):
+                    name=name2
+                    tam=tam2
+                    molecule=moleculeN
         
         
         if(os.path.isfile(name)==True):    
@@ -671,16 +677,16 @@ class MyCDS:
 #                self.hitsToFileNT()
 #            else:
 #                self.hitsToFile()
-            if(molecule=="nucl" and self.translation!="None"):
-                print(self.geneID)
-                name = self.geneID+"_"+"nr"+".xml"
-                if(os.path.isfile(name)!=True): 
-                    self.blast("nr")
-            else:
-                if(len(self.hits[0])==0 and self.translation!=" None"):
-                    name = self.geneID+"_"+"nr"+".xml"
-                    if(os.path.isfile(name)!=True): 
-                        self.blast("nr")
+#            if(molecule=="nucl" and self.translation!="None"):
+#                print(self.geneID)
+#                name = self.geneID+"_"+"nr"+".xml"
+#                if(os.path.isfile(name)!=True): 
+#                    self.blast("nr")
+#            else:
+#                if(len(self.hits[0])==0 and self.translation!=" None"):
+#                    name = self.geneID+"_"+"nr"+".xml"
+#                    if(os.path.isfile(name)!=True): 
+#                        self.blast("nr")
                     
                                  
         
