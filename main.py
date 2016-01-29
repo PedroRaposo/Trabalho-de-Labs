@@ -3,9 +3,11 @@
 Created on Wed Jan 13 16:08:28 2016
 
 @author: Emanuel
-Coments in this file will be of this type #--
-Coments with only # are methods that can be commented/uncommented according to necessity
-Later we may group methods in tasks like: retrieve all files, update all etc...
+The main class that controls a big chunk of python scripts. (Files Data , Gene and Connector, an image labelled "Architecture.png" 
+has a simple graphic description of this classes and their relation with other parts of this project )
+Comments of procedure and information in this file will be of this type #--
+Comments with only # are methods that can be commented/uncommented according to necessity
+There are some files that we only need to print once, for debug or make intermediary analyses or for small scripts not controlled from this main file.
 """
 import Data
 import Gene
@@ -29,24 +31,28 @@ if __name__ == '__main__':
     data= Data.Data(filename)
     print("getting the files of Treponema pallidum's genoma")
     data.writeFiles(db,gi,strand,email,seq_start,seq_stop)
-    print("files retrived successfully!")
+    print("files retrieved successfully!")
     #--end--
     #--Next step retrieve the information necessary to process from those files
     print("retrieving information from Treponema files")
+	#--Data is where objects from classes MyCDS , MyTRNA and MyRep are created and stored in lists.  
     data.getData(0)
     print("information retrieved successfully!")
-    #--if neededfor debug print the information in data comment line if it´s not needed
-    #data.printData()
-    #print only rna retaded genes
+    #--if needed for debug print the information in data comment line if it´s not needed
+    #--data.printData()
+    #--print only rna reladed genes
     #data.printRNA()
-    #print only CDS
+    #--print only CDS
     #data.printCDS()
-    #print only repeat resgions
+    #--print only repeat regions
     #data.printRepRegion()
-    #print CDS tofile
+    #--print CDS tofile
     #data.CDStoFile()
-    #make blast
-    #data.makeBlastAll()
+	#
+    #--make blast, blast can be made from multiple methods present in class gene, to suit needs.
+	#--Blast can take a while to finish and it isn't good to overload the server in which the blast is requested, so we decided to make a
+    #-- a semi-automatic process where we would change which class calls the blast and what method to call, the method below is an example we used.
+    data.makeBlastAll()
     
     
 

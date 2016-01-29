@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan  8 10:45:06 2016
-
+This class has major classes, responsible to store , download and transfer data related to the molecule they represent.
 @author: Emanuel
 """
 import os
@@ -28,7 +28,8 @@ import sys
 #import httplib
 #from bioservices import UniProt
 
-#Note the geneID in MyHsp is the geneID of the query!
+#--Note the geneID in MyHsp is the geneID of the query!
+#--Class for blast hits
 class MyHsp:
     def __init__(self,gi,accession,bitScore,cover,e_value,ident,query,matchq,subj,geneID,subjS ,subjE ,isPdb=False):
         self.gi=gi
@@ -48,7 +49,8 @@ class MyHsp:
         self.geneID = geneID
         self.subjS = subjS
         self.subjE = subjE
-        #Connection to database code
+		#--create connector
+        Connection to database code
         c = Connector.Conn()
         s=""
         if(isPdb==True):
@@ -59,7 +61,7 @@ class MyHsp:
         if(isPdb==True):
             self.ncbiLink = "http://www.ncbi.nlm.nih.gov/protein/"+gi
             Entrez.email = "emanuel_queiroga1@hotmail.com"    # Its necessary to tell NCBI who we are
-            #Using the Entrez import we fetch the genbank file
+            #--Using the Entrez import we fetch the genbank file
             if(os.path.isfile("homologous_"+gi+".gb")!=True):
                 handleGb = Entrez.efetch(db="protein", id=gi, rettype="gb")
                 save_fileGb = open("homologous_"+gi+".gb", "w")
@@ -82,25 +84,27 @@ class MyHsp:
             s+="'"+self.function+"' , '"+self.ncbiLink+"' , '"+self.geneID+"'"
         else:
             s+="NULL , NULL , '"+self.geneID+"'"
-        
+        #-- calls connector
         c.insertBlast(s)
     
+	#-- creates string representation 
     def __str__(self):
         res= " Gi: " + self.gi + " \n Accession: "+ self.accession + " \n Score: "+ str(self.bitScore) + "\n E-value: " + str(self.e_value) + "\n Identities: " + str(self.ident)
         if(self.isPdb == True):
             res+= "\n Function: "+ self.function + "\n Link to PDB: "+ self.ncbiLink
         return res
     
+		#-- class for repetition zones
 class MyRep:
     def __init__(self,typeG,strand,location,seq):
         self.type=typeG
         self.strand = strand
         self.location=location
         self.seq=seq
-        #connect to db and insert values of reps
-#        c = Connector.Conn()
-#        s="'"+self.type+"','"+self.strand+"','"+self.location+"'"
-#        c.insertRep(s)
+        connect to db and insert values of reps
+       c = Connector.Conn()
+        s="'"+self.type+"','"+self.strand+"','"+self.location+"'"
+        c.insertRep(s)
         
         
     def __str__(self):
@@ -127,9 +131,9 @@ class MyTRNA:
          self.seq=seq
          self.anticodon=anticodon
          s="'"+self.geneID+"', '"+self.type +"', '"+self.strand+"' ,'"+self.location+"' , '"+self.locus_tag.replace("'", " ")+"' , '" + self.old_locus_tag.replace("'", " ")+"' , '"+self.product+"' , NULL , '"+self.anticodon+"'"
-         #connect to db and insert values of RNA         
-#         c = Connector.Conn()
-#         c.insertRNA(s)
+         #--connect to db and insert values of RNA         
+         c = Connector.Conn()
+         c.insertRNA(s)
          
      def __str__(self):
          res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location+ "\n Locus_Tag: "+ self.locus_tag+ "\n Old_Locus_Tag: "+ self.old_locus_tag+ "\n geneID: "+ self.geneID + "\n Name: "+ self.product+ "\n Notes: "+ self.notes+ "\n Seq: " + self.seq+ "\n Anticodon: "+ self.anticodon 
@@ -187,13 +191,15 @@ class MyCDS:
         self.blastPInfo=None
         
         self.hits=[]
-        #connect to db and insert values of CDS
-#        c = Connector.Conn()
-#        c.insertCDS(self.sqlStringCDS(),self.sqlStringUni())
+        connect to db and insert values of CDS
+        c = Connector.Conn()
+        c.insertCDS(self.sqlStringCDS(),self.sqlStringUni())
 #        s=""
         
         #self.blast()
+		#-- method that parses blast files from proteins(pdb, nr), nucleotide
         self.parseALLBlast()
+#-- for intermediary files
 #        if(self.translation!="None"):
 #            nameProt= self.geneID+"_prot.fasta"
 #            headerProt = ">"+self.geneID
@@ -209,7 +215,7 @@ class MyCDS:
 
 #        self.hitsToFile()
         
-        
+#-- string representattion        
     def __str__(self):
          uniprotInfo=""
          if(self.catalytic_Activity !=""):
@@ -238,7 +244,7 @@ class MyCDS:
              
          res= " Type: "+self.type+"\n Strand: "+self.strand+"\n Location: "+ self.location+ "\n Locus_Tag: "+ self.locus_tag+"\n Old_Locus_Tag: "+ self.old_locus_tag+ "\n Db_xref: "+ self.db_xref + "\n Name: "+ self.product+ "\n Notes: "+ self.notes+ "\n Seq: " + self.seq+ "\n Accession: "+ self.accession+ "\n Translation: " + self.translation + "\n EC_number: " + self.ec+ "\n TC_number: "+ self.tc+uniprotInfo
          return res
-         
+    #-- create sql string with right syntax     
     def sqlStringCDS(self):
         qcds="'"+self.geneID+"' , "
         qcds+="'"+self.type.replace("'", " ")+"' ,'"+self.strand+"' , '"+ self.location.replace("'", " ")+ "' , '"+ self.locus_tag+"' , '"+ self.old_locus_tag[2:-2]+ "' , "
@@ -260,7 +266,8 @@ class MyCDS:
             
         qcds+=ec+" , "+tc+ ", NULL, NULL, NULL" 
         return qcds
-        
+    
+		#-- sql string for additional information on CDS retrieved from uniprot
     def sqlStringUni(self):    
         uniprotInfo="'"+self.geneID+"' ,"
         
@@ -313,14 +320,14 @@ class MyCDS:
         
  
    
-    #Method uniprotSearch, add relevant information to the MyCDS object from
-    #the uniprot website. The method functions by downloading a txt obtained
-    #from a query to uniprot's REST service, afterwards the file is stored and
-    #parsed. A flag update is used to control the download file by need.     
+    #--Method uniprotSearch, add relevant information to the MyCDS object from
+    #--the uniprot website. The method functions by downloading a txt obtained
+    #--from a query to uniprot's REST service, afterwards the file is stored and
+    #--parsed. A flag update is used to control the download file by need.     
     def uniprotSearch(self,update=0):
         tag= re.search("[^\['].+[^\]']",self.old_locus_tag)
           
-        #If it´s neccessary to download the txt file from uniprot
+        #--If it´s neccessary to download the txt file from uniprot
         if(update==1):
             base_url= "http://www.uniprot.org/uniprot"
             payload={'query':'gene:'+tag.group(), 'format':'txt'}
@@ -331,7 +338,7 @@ class MyCDS:
                 advance=0
                 flag=1
                 linha=""
-                #writes the file with the format needed for SwissProt.parse()
+                #--writes the file with the format needed for SwissProt.parse()
                 with open(tag.group()+".dat", "w") as text_file:
                     for word in cont:
                         if(advance<2):
@@ -353,13 +360,13 @@ class MyCDS:
                                     linha+= word
        
             else:
-                #error message
+                #--error message
                 print("Communication to unipot failed on ",self.geneID)
             
         for record in SwissProt.parse(open(tag.group()+".dat")):
-                #store List of the accession numbers, e.g. [‘P00321’]                 
+                #--store List of the accession numbers, e.g. [‘P00321’]                 
                 self.prot_accessions = record.accessions
-                #store versified information
+                #--store versified information
                 
                 for comment in record.comments:
                     if(comment.find("FUNCTION:")>=0):
@@ -383,14 +390,16 @@ class MyCDS:
                 #print(record.description)// maybe not relevant
                 self.review = record.data_class 
                 self.molecular_weight = record.seqinfo[1]
-                #fetch GO 
+                #--fetch GO 
                 for reference in record.cross_references:
                     if(reference[0]=="GO"):
                         self.goList.append(reference)
                 
                 
                 
-        
+     #--blast was changed some times for us to be able to obtain results from three different ways, as it is time consuming we used  os.path.isfile,
+	 #-- to never make the same blast twice by mistake, and it is a big helper in our semi-auto process of blast.
+	 #-- we used unique CDS identifiers like geneID and old_locus_tag as a part of file-names.(Blast parsing is done in other execution of the application)
     def blast(self,databaseP="pdb",database="nt"):
         header = ">"+self.old_locus_tag
         name= self.old_locus_tag+".fasta"
@@ -438,6 +447,8 @@ class MyCDS:
                         print("Error in ", nameProt)
         
         #open XML-------------------------------------------------
+		
+	#-- a method to parse blast an early done, the last used is the parseAllBlast method
     def parseBlast(self,database="pdb", molecule="prot", e_param=0.05, i_param=30):
         if(molecule=="prot"):
             name = self.geneID+"_"+database+".xml"
@@ -509,14 +520,8 @@ class MyCDS:
         
         
         #==============================================================================
-#        print ("Alinhamento com menor E-value:",hsp.expect, "\n")
-#        print ("Accession:", blast1.accession, "\n")
-#        print ("Hit ID:", blast1.hit_id, "\n")
-#        print ("Definição:", blast1.hit_def, "\n")
-#        print ("Comprimento do alinhamento:", blast1.length, "\n")
-#        print ("Numero de HSPs:", len(blast1.hsps), "\n")
-        #==============================================================================
-        
+
+    #-- creates an  intermediary file (Saves results from blast in txt file and the ones who failed the params e-value and identities in another)
     def hitsToFile(self):
         hitIndice = 1
         hspIndice = 1
@@ -548,7 +553,7 @@ class MyCDS:
             with open("failedBlastP2.txt","a") as text_file:
                 print(self.geneID,file=text_file )
             text_file.close()
-            
+    #-- other intermediary file creator method to use when needed     
     def hitsToFileNT(self):
         hitIndice = 1
         hspIndice = 1
@@ -581,7 +586,7 @@ class MyCDS:
                 print(self.geneID,file=text_file )
             text_file.close()
             
-            
+    #-- intermediary files to help with domain's study       
     def fromToFile(self,filename,gene,f,t,n):
         s = gene+"  "+str(f)+" "+str(t) +"  "+n 
         with open(filename, "a") as text_file:
@@ -600,7 +605,8 @@ class MyCDS:
             print(s,file=text_file)
             print("------------------------------------------------------------------..........................",file=text_file)
         text_file.close()
-        
+    
+	#Method to parse the blast files using the priority of blastp pdb > blastp nr > blastn
     def parseALLBlast(self, e_param=0.05, i_param=30):
         databaseP="pdb"
         moleculeP="prot" 
@@ -653,6 +659,7 @@ class MyCDS:
                 for i2 in range(len(alignment.hsps)):               
                     alignment_hsp = alignment.hsps[i2]
                     if(tam > alignment_hsp.align_length):
+						#-- calculating sequence range in percentage
                         rang = (alignment_hsp.align_length/tam)*100
                     else:
                         rang = (tam/alignment_hsp.align_length)*100
@@ -661,6 +668,7 @@ class MyCDS:
                            hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,alignment_hsp.query,alignment_hsp.match,alignment_hsp.sbjct, self.geneID ,alignment_hsp.sbjct_start , alignment_hsp.sbjct_end,True)
                            self.hits[i].append(hsp)
                            if(stop==0):
+								#-- calls the methods above for the domain study
 #                               self.fromToFile("fromToSubj.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"p", alignment_hsp.sbjct)
 #                               self.subjToFile("SubjTo.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"p", alignment_hsp.sbjct)
                                
@@ -670,6 +678,7 @@ class MyCDS:
                             hsp= MyHsp(hitGi,hitAccession,alignment_hsp.bits,rang,alignment_hsp.expect,alignment_hsp.identities,alignment_hsp.query,alignment_hsp.match,alignment_hsp.sbjct ,self.geneID,alignment_hsp.sbjct_start , alignment_hsp.sbjct_end)
                             self.hits[i].append(hsp)
                             if(stop==0):
+								#-- calls the methods above for the domain study
 #                               self.fromToFile("fromToSubj.txt",self.geneID,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"n")
 #                               self.fromToFile("SubjTo.txt",hitGi,alignment_hsp.sbjct_start,alignment_hsp.sbjct_end,"n")
                                stop=1
@@ -700,7 +709,7 @@ class MyCDS:
                 for hps in hit:
                     header="> gi:" + hsp.gi
             
-    #def clust(self):
+
         
                  
                  
