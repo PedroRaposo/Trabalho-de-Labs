@@ -1,0 +1,1022 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_170999</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611765</BlastOutput_query-def>
+  <BlastOutput_query-len>442</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_170999</Iteration_query-ID>
+  <Iteration_query-def>2611765</Iteration_query-def>
+  <Iteration_query-len>442</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|302148840|pdb|3NET|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Histidyl-Trna Synthetase From Nostoc Sp. Pcc 7120 &gt;gi|302148841|pdb|3NET|B Chain B, Crystal Structure Of Histidyl-Trna Synthetase From Nostoc Sp. Pcc 7120</Hit_def>
+  <Hit_accession>3NET_A</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.34375e-54</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>465</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>456</Hsp_align-len>
+      <Hsp_qseq>GFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRK-SEGDT-------------EKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSD--SVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSD-QAEHILRIIDKRAKMAPHVLTAQLESL-CDPVRVQKIMTYVSA-GEVDGVAPSFEH---TLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQLG-MSREHVCFVQALIFCQDSALMDVYQKLCSYF---AVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVEDCLLVLRDLSTRKDTRLP----AHEVRRRMA</Hsp_qseq>
+      <Hsp_hseq>GFPEFLPSEKRLELYLLDTIRRVYESYGFTPIETPAVERLEVLQAKGNQGDNIIYGLEPILPPNRQAEKDKSGDTGSEARALKFDQTVPLAAYIARHLNDLTFPFARYQXDVVFRGERAKDGRFRQFRQCDIDVVGREKLSLLYDAQXPAIITEIFEAVNIGDFVIRINNRKVLTGFFQSLNISETQIKSCISIIDNLEKIGEAKVKLELEKEGINPEQTQKIIDFVKIDGSVDDVLDKLKHLSQTLPESEQFNLGVSELETVITGVRNLGVP---DKRFCIDLAIARGLNYYTGTVYETTLIGHEALGSICSGGRYEELVGTFIGEKXPGVGISIGLTRLISRLLKAGILNTLPPTPAQVVVVNXQDELXPTYLKVSQQLRQAGLNVITNF--EKRQLGKQFQAADKQGIRFCVIIGADEAAAQKS--SLKDLQSGEQVEVALADLAEEIKRRLT</Hsp_hseq>
+      <Hsp_midline>GF + LP E+     L++ +       GF PI+TPA+E  EVL  K ++GD              + +  +  D G    AL+FD TVPLA ++A H   L FPF RY    V+RGE+ + GR+R+F QCD D+VG +  S+  D +    I  +          I + +R +   F ++L++S+ Q +  + IID   K+    +  +LE    +P + QKI+ +V   G VD V    +H   TL   E    GVSE  T +  +  L         +  D +I RG +YYTG V ET L     +GS+CSGGRY+ L   ++ +   GVG SIGL RL +   + G ++       Q ++      L   Y K+        + V T    + R+L +Q+  A+K+GIR+ + +    A  +     L+DL + +   +     A E++RR+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|406855821|pdb|4G84|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Hisrs &gt;gi|406855822|pdb|4G84|B Chain B, Crystal Structure Of Human Hisrs</Hit_def>
+  <Hit_accession>4G84_A</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.303</Hsp_bit-score>
+      <Hsp_score>399</Hsp_score>
+      <Hsp_evalue>1.49665e-42</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>KVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQM--GRYREFTQCDFDIVGS-DSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQA-EHILRIIDKRAKMAPHVLTAQL--ESLCDPVRVQKIMTYVSA-GEVDGVA-----PSFEHTLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLP--------HIGSVCSGGRYDHLTALYMKDA--VSGVGASIGLDRLYAAFQQLGMSREH---VCFVQALIFCQDSALMDVYQKLCS--YFAVQVATEVFPDPRKLSQQYAFAEKKGIRW-GIFVEQRNAVVEDCLLVLRDLSTRKDTRLP----AHEVRRRMA</Hsp_qseq>
+      <Hsp_hseq>KTPKGTRDYSPRQMAVREKVFDVIIRCFKRHGAEVIDTPVFELKETLMGKY-GEDSKLIYDLKDQGGELLSLRYDLTVPFARYLAMNK---LTNIKRYHIAKVYRRDNPAMTRGRYREFYQCDFDIAGNFDPMIPDAECLKIMCEILSSLQIGDFLVKVNDRRILDGMFAICGVSDSKFRTICSSVDKLDKVSWEEVKNEMVGEKGLAPEVADRIGDYVQQHGGVSLVEQLLQDPKLSQNKQALEGLGD--------LKLLFEYLTLFGIDDKISFDLSLARGLDYYTGVIYEAVLLQTPAQAGEEPLGVGSVAAGGRYDGLVGMFDPKGRKVPCVGLSIGVERIFSIVEQRLEALEEKIRTTETQVLVASAQKKLLEERLKLVSELWDAGIKAELLYKKNPKLLNQLQYCEEAGIPLVAIIGEQE---LKDGVIKLRSVTSREEVDVRREDLVEEIKRRTG</Hsp_hseq>
+      <Hsp_midline>K  KG RD  P +   R  + + +    ++ G   IDTP  E  E L+ K  G+  K ++   D+GG  ++LR+DLTVP AR++A +        KRYH AKV+R + P M  GRYREF QCDFDI G+ D +  D E LK +  +L         + V  R + D       +SD     I   +DK  K++   +  ++  E    P    +I  YV   G V  V      P       A+E L          L+ ++E L    I     FD S+ RG DYYTG++ E  L Q P         +GSV +GGRYD L  ++      V  VG SIG++R+++  +Q   + E        Q L+      L++   KL S  + A   A  ++    KL  Q  + E+ GI    I  EQ    ++D ++ LR +++R++  +       E++RR  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|675082593|pdb|4PHC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Human Cytosolic Histidyl-trna Synthetase, Histidine-bound &gt;gi|675082594|pdb|4PHC|B Chain B, Crystal Structure Of A Human Cytosolic Histidyl-trna Synthetase, Histidine-bound &gt;gi|675082595|pdb|4PHC|C Chain C, Crystal Structure Of A Human Cytosolic Histidyl-trna Synthetase, Histidine-bound &gt;gi|675082596|pdb|4PHC|D Chain D, Crystal Structure Of A Human Cytosolic Histidyl-trna Synthetase, Histidine-bound &gt;gi|955264689|pdb|4X5O|A Chain A, Human Histidine Trna Synthetase &gt;gi|955264690|pdb|4X5O|B Chain B, Human Histidine Trna Synthetase</Hit_def>
+  <Hit_accession>4PHC_A</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>2.3622e-42</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>503</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>KVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQM--GRYREFTQCDFDIVGS-DSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQA-EHILRIIDKRAKMAPHVLTAQL--ESLCDPVRVQKIMTYVSA-GEVDGVA-----PSFEHTLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLP--------HIGSVCSGGRYDHLTALYMKDA--VSGVGASIGLDRLYAAFQQLGMSREH---VCFVQALIFCQDSALMDVYQKLCS--YFAVQVATEVFPDPRKLSQQYAFAEKKGIRW-GIFVEQRNAVVEDCLLVLRDLSTRKDTRLP----AHEVRRRMA</Hsp_qseq>
+      <Hsp_hseq>KTPKGTRDYSPRQMAVREKVFDVIIRCFKRHGAEVIDTPVFELKETLMGKY-GEDSKLIYDLKDQGGELLSLRYDLTVPFARYLAMNK---LTNIKRYHIAKVYRRDNPAMTRGRYREFYQCDFDIAGNFDPMIPDAECLKIMCEILSSLQIGDFLVKVNDRRILDGMFAICGVSDSKFRTICSSVDKLDKVSWEEVKNEMVGEKGLAPEVADRIGDYVQQHGGVSLVEQLLQDPKLSQNKQALEGLGD--------LKLLFEYLTLFGIDDKISFDLSLARGLDYYTGVIYEAVLLQTPAQAGEEPLGVGSVAAGGRYDGLVGMFDPKGRKVPCVGLSIGVERIFSIVEQRLEALEEKIRTTETQVLVASAQKKLLEERLKLVSELWDAGIKAELLYKKNPKLLNQLQYCEEAGIPLVAIIGEQE---LKDGVIKLRSVTSREEVDVRREDLVEEIKRRTG</Hsp_hseq>
+      <Hsp_midline>K  KG RD  P +   R  + + +    ++ G   IDTP  E  E L+ K  G+  K ++   D+GG  ++LR+DLTVP AR++A +        KRYH AKV+R + P M  GRYREF QCDFDI G+ D +  D E LK +  +L         + V  R + D       +SD     I   +DK  K++   +  ++  E    P    +I  YV   G V  V      P       A+E L          L+ ++E L    I     FD S+ RG DYYTG++ E  L Q P         +GSV +GGRYD L  ++      V  VG SIG++R+++  +Q   + E        Q L+      L++   KL S  + A   A  ++    KL  Q  + E+ GI    I  EQ    ++D ++ LR +++R++  +       E++RR  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|406855823|pdb|4G85|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Hisrs &gt;gi|406855824|pdb|4G85|B Chain B, Crystal Structure Of Human Hisrs</Hit_def>
+  <Hit_accession>4G85_A</Hit_accession>
+  <Hit_len>517</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>2.55201e-42</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>439</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>462</Hsp_align-len>
+      <Hsp_qseq>KVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQM--GRYREFTQCDFDIVGS-DSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQA-EHILRIIDKRAKMAPHVLTAQL--ESLCDPVRVQKIMTYVSA-GEVDGVA-----PSFEHTLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLP--------HIGSVCSGGRYDHLTALYMKDA--VSGVGASIGLDRLYAAFQQLGMSREH---VCFVQALIFCQDSALMDVYQKLCS--YFAVQVATEVFPDPRKLSQQYAFAEKKGIRW-GIFVEQRNAVVEDCLLVLRDLSTRKDTRLP----AHEVRRRMA</Hsp_qseq>
+      <Hsp_hseq>KTPKGTRDYSPRQMAVREKVFDVIIRCFKRHGAEVIDTPVFELKETLMGKY-GEDSKLIYDLKDQGGELLSLRYDLTVPFARYLAMNK---LTNIKRYHIAKVYRRDNPAMTRGRYREFYQCDFDIAGNFDPMIPDAECLKIMCEILSSLQIGDFLVKVNDRRILDGMFAICGVSDSKFRTICSSVDKLDKVSWEEVKNEMVGEKGLAPEVADRIGDYVQQHGGVSLVEQLLQDPKLSQNKQALEGLGD--------LKLLFEYLTLFGIDDKISFDLSLARGLDYYTGVIYEAVLLQTPAQAGEEPLGVGSVAAGGRYDGLVGMFDPKGRKVPCVGLSIGVERIFSIVEQRLEALEEKIRTTETQVLVASAQKKLLEERLKLVSELWDAGIKAELLYKKNPKLLNQLQYCEEAGIPLVAIIGEQE---LKDGVIKLRSVTSREEVDVRREDLVEEIKRRTG</Hsp_hseq>
+      <Hsp_midline>K  KG RD  P +   R  + + +    ++ G   IDTP  E  E L+ K  G+  K ++   D+GG  ++LR+DLTVP AR++A +        KRYH AKV+R + P M  GRYREF QCDFDI G+ D +  D E LK +  +L         + V  R + D       +SD     I   +DK  K++   +  ++  E    P    +I  YV   G V  V      P       A+E L          L+ ++E L    I     FD S+ RG DYYTG++ E  L Q P         +GSV +GGRYD L  ++      V  VG SIG++R+++  +Q   + E        Q L+      L++   KL S  + A   A  ++    KL  Q  + E+ GI    I  EQ    ++D ++ LR +++R++  +       E++RR  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|83753553|pdb|1WU7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Histidyl-Trna Synthetase From Thermoplasma Acidophilum &gt;gi|83753554|pdb|1WU7|B Chain B, Crystal Structure Of Histidyl-Trna Synthetase From Thermoplasma Acidophilum</Hit_def>
+  <Hit_accession>1WU7_A</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>6.96831e-39</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>423</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>425</Hsp_align-len>
+      <Hsp_qseq>LKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEHI-RIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAP-----SFEHTLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQLGMSREHVCF---VQALIFCQ----DSALMDVYQKLCSYFAVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVEDCLLVLRDLST</Hsp_qseq>
+      <Hsp_hseq>IRGFRDFYPEDXDVEKFIFKTAEEAAEAFGFRRIDFPSLEYLDLYRIKSGEELLQQTYSFVDKGGREVTLIPEATPSTVRXV-TSRKDLQRPLRWYSFPKVWRYEEPQAGRYREHYQFNADIFGSDSPEADAEVIALASSILDRLGLQDIYEIRINSRKIXEEIIGGXTSSDPF-SVFSIIDRYHKISREEFVDQLRS-------------AGIGE-DGVSXIADLCSGTRGIDEXARITGKSSEEIARXAAVEDLLASYGVK-NVRYDFSIVRGLSYYTGIVFEAY-DRSGQFRAILGGGRYDNLASLXSGESVPAVGFGXG-----DAVISLLLKRENVQIPREKKSVYICRVGKINSSIXNEYSRKLRERGXNVTVEIX--ERGLSAQLKYASAIGADFAVIFGERD--LERGVVTIRNXYT</Hsp_hseq>
+      <Hsp_midline>++GFRD  P++      + +    A    GF  ID P+LEY ++   KS  +  +Q + FVDKGGR+V L  + T    R V T    L  P + Y F KVWR E+PQ GRYRE  Q + DI GSDS  AD E++     +L   G + I  I +  R + +  +   + SD    +  IID+  K++      QL S                GE DGV+      S    +     +TG  SEE  R   + +LL +  ++ +  +D SI RG  YYTG+V E +  +     ++  GGRYD+L +L   ++V  VG   G      A   L + RE+V      +++  C+    +S++ + Y +        V  E+    R LS Q  +A   G  + +   +R+  +E  ++ +R+  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|270047663|pdb|3HRK|A</Hit_id>
+  <Hit_def>Chain A, Histidyl-Trna Synthetase From Trypanosoma Cruzi (Histidyl-Adenylate Complex) &gt;gi|270047664|pdb|3HRK|B Chain B, Histidyl-Trna Synthetase From Trypanosoma Cruzi (Histidyl-Adenylate Complex) &gt;gi|284055812|pdb|3LC0|A Chain A, Histidyl-Trna Synthetase From Trypanosoma Cruzi (Histidine Complex) &gt;gi|914684923|pdb|4YP0|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 5-aminoisoquinoline (chem 79) &gt;gi|914684924|pdb|4YPF|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With Quinolin-3-amine (chem 84) &gt;gi|914684925|pdb|4YRC|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 2-aminoquinolin-8-ol (chem 89) &gt;gi|914684926|pdb|4YRE|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With (2-bromophenyl)methanol (chem 145) &gt;gi|914684927|pdb|4YRE|B Chain B, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With (2-bromophenyl)methanol (chem 145) &gt;gi|914684928|pdb|4YRG|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With (6-bromopyridin-2-yl)methanol (chem 149) &gt;gi|914684929|pdb|4YRI|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 1-(3-bromophenyl)methanamine (chem 166) &gt;gi|914684930|pdb|4YRJ|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 4-chlorobenzene-1,2-diamine (chem 256) &gt;gi|914684931|pdb|4YRK|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With (4-chlorophenyl)methanol (chem 260) &gt;gi|914684932|pdb|4YRK|B Chain B, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With (4-chlorophenyl)methanol (chem 260) &gt;gi|914684933|pdb|4YRL|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 4-(methylsulfanyl)aniline (chem 262) &gt;gi|914684934|pdb|4YRM|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 3-methoxypyridine (chem 443) &gt;gi|914684935|pdb|4YRM|B Chain B, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 3-methoxypyridine (chem 443) &gt;gi|914684936|pdb|4YRN|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 6-bromopyridin-3-amine (chem 475) &gt;gi|914684937|pdb|4YRN|B Chain B, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 6-bromopyridin-3-amine (chem 475) &gt;gi|914684938|pdb|4YRO|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 5-bromo-6-methylpyridin-2-amine (chem 491) &gt;gi|914684939|pdb|4YRP|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 1-(4-bromophenyl)methanamine (chem 707) &gt;gi|914684940|pdb|4YRP|B Chain B, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 1-(4-bromophenyl)methanamine (chem 707) &gt;gi|914684941|pdb|4YRQ|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 6-amino-2h-chromen-2-one (chem 744) &gt;gi|914684942|pdb|4YRR|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With N-(quinolin-3-yl)acetamide (chem 1691) &gt;gi|914684943|pdb|4YRR|B Chain B, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With N-(quinolin-3-yl)acetamide (chem 1691) &gt;gi|914684944|pdb|4YRS|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With N-(quinolin-3-yl)propanamide (chem 1698) &gt;gi|914684945|pdb|4YRT|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With N-(5-hydroxynaphthalen-2-yl)propanamide (chem 1781) &gt;gi|918453346|pdb|4YRF|A Chain A, Crystal Structure Of T. Cruzi Histidyl-trna Synthetase In Complex With 5-bromopyridin-2(1h)-one (chem 148)</Hit_def>
+  <Hit_accession>3HRK_A</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.4998e-33</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>SAVSPKVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAG--AEHIRIHVAHRGLFDRFL-RALSLSDQAEHILRIIDKRAKMAPHVLTAQLESL-CDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALY</Hsp_qseq>
+      <Hsp_hseq>NMVETEPVQGCRDFPPEAMRCRRHLFDVFHATAKTFGFEEYDAPVLESEELYIRKAGEEITEQMFNFITKGGHRVALRPEMTPSLARLLLGKGRSLLLPAKWYSIPQCWRYEAITRGRRREHYQWNMDIVGVKSVSAEVELVCAACWAMRSLGLSSKDVGIKVNSRKVLQTVVEQAGVTSDKFAPVCVIVDKMEKIPREEVEAQLAVLGLEPTVVDAITTTLSLKSIDEIAQRVGEEHEAVK-----------ELRQFFEQVEAYGYGDWVLFDASVVRGLAYYTGIVFEGFDRE-GKFRALCGGGRYDNLLTTY</Hsp_hseq>
+      <Hsp_midline>+ V  + ++G RD  P+    R  L +      +  GF   D P LE  E+ +RK+  +  +QMF F+ KGG  VALR ++T  LAR +      L  P K Y   + WR E    GR RE  Q + DIVG  SV A+ E++ +    +   G  ++ + I V  R +    + +A   SD+   +  I+DK  K+    + AQL  L  +P  V  I T +S   +D +A        A++            LR+ +E + A       +FD S+ RG  YYTG+V E F  +     ++C GGRYD+L   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|270047656|pdb|3HRI|A</Hit_id>
+  <Hit_def>Chain A, Histidyl-Trna Synthetase (Apo) From Trypanosoma Brucei &gt;gi|270047657|pdb|3HRI|B Chain B, Histidyl-Trna Synthetase (Apo) From Trypanosoma Brucei &gt;gi|270047658|pdb|3HRI|C Chain C, Histidyl-Trna Synthetase (Apo) From Trypanosoma Brucei &gt;gi|270047659|pdb|3HRI|D Chain D, Histidyl-Trna Synthetase (Apo) From Trypanosoma Brucei &gt;gi|270047660|pdb|3HRI|E Chain E, Histidyl-Trna Synthetase (Apo) From Trypanosoma Brucei &gt;gi|270047661|pdb|3HRI|F Chain F, Histidyl-Trna Synthetase (Apo) From Trypanosoma Brucei</Hit_def>
+  <Hit_accession>3HRI_A</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>4.17105e-32</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>SAVSPKVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAG--AEHIRIHVAHRGLFDRFLRALSLS-DQAEHILRIIDKRAKMAPHVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLC---AVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALY-MKDAVSGVGASIG</Hsp_qseq>
+      <Hsp_hseq>NMVETEPVQGCRDFPPETMRLRKYLFDVFHSTARKFGFEEYDSPVLESEELYIRKAGEEITEQMFNFITKGGHRVALRPEMTPSLARQLLAKGRSLLLPAKWYSIPQCWRYEAITRGRRREHYQWNMDIIGVKSVSSEVELVCAACTAMQSLGLSSKDVGVKINSRKILQTVVEQAGVSADKFAPVCVIVDKMEKLPREEVVAQLAAIG-----------LESNVVDAITSTL--SLKTIDEIAQRIGEEHEAVRELRDFITQIEAYGFGDWVIFDASVVRGLAYYTGIVFEGF-DRDGNFRALCGGGRYDNLLTTYGSPTAVPCVGFGFG</Hsp_hseq>
+      <Hsp_midline>+ V  + ++G RD  P+    R  L +      R+ GF   D+P LE  E+ +RK+  +  +QMF F+ KGG  VALR ++T  LAR +      L  P K Y   + WR E    GR RE  Q + DI+G  SV ++ E++ +    +   G  ++ + + +  R +    +    +S D+   +  I+DK  K+    + AQL ++            + +  VD +  +   +L  I+ +   + EE   +R++ + +    A       +FD S+ RG  YYTG+V E F  +  +  ++C GGRYD+L   Y    AV  VG   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|304446078|pdb|3OD1|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of An Atp Phosphoribosyltransferase Regulatory SubunitHISTIDYL-Trna Synthetase From Bacillus Halodurans C &gt;gi|304446079|pdb|3OD1|B Chain B, The Crystal Structure Of An Atp Phosphoribosyltransferase Regulatory SubunitHISTIDYL-Trna Synthetase From Bacillus Halodurans C</Hit_def>
+  <Hit_accession>3OD1_A</Hit_accession>
+  <Hit_len>400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.05146e-26</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>GFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQ-AEHILRIIDKRAKMA--PHVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVS-EESTRLRKIYELLCAVNIQSSYV-FDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDA-VSGVGASIGL</Hsp_qseq>
+      <Hsp_hseq>GXRDTLPEWYKTKKNICDQXTEEINLWGYDXIETPTLEYYETVGVVS-AILDQQLFKLLDQQGNTLVLRPDXTAPIARLVASSLKDRAYPLRLAYQSNVYRAQQNEGGKPAEFEQLGVELIGDGTASADGEVIALXIAALKRAGLSEFKVAIGHVGYVNALLXDVVGNEQRADRLRRFLYEKNYVGYREHVKSLNL-STIDKSRLXNLLS------LRGGRAAIEEARGLIQTEKGKTALAEXTKLYEVLESYGA----SEYVKFDLTLVLHXSYYTGVVFEGYGNRLGV--PLCSGGRYDELLSKFHRPAQATGFGVRIDL</Hsp_hseq>
+      <Hsp_midline>G RD LP+    +  + ++ T  +   G+  I+TP LEY E +   S    ++Q+F+ +D+ G  + LR D T P+AR VA+      +P +  + + V+R ++ + G+  EF Q   +++G  +  AD E++      L  AG    ++ + H G  +  L  +  ++Q A+ + R + ++  +    HV +  L S  D  R+  +++      + G   + E     I+T  G  +  E T+L ++ E   A    S YV FD ++     YYTG+V E +  +L     +CSGGRYD L + + + A  +G G  I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|783282965|pdb|4RDX|A</Hit_id>
+  <Hit_def>Chain A, Strucutre Of Histidinyl-trna Synthetase In Complex With Trna(his)</Hit_def>
+  <Hit_accession>4RDX_A</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>7.11698e-23</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>442</Hsp_align-len>
+      <Hsp_qseq>VSPKVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTE---KQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYF-PFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEHIRIHVAH------RGLFDRFLRALSLSDQAEHILRIIDKRAKMAP-HVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEES-TRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQ--LGMSREHVCFVQALIFCQDSALMDVYQKLCSYFAVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVEDCLLVLRDLSTRKDTRLPAHEV</Hsp_qseq>
+      <Hsp_hseq>MTARAVRGTKDLFGKELRMHQRIVATARKVLEAAGALELVTPIFEETQVFEKGVGAATDIVRKEMFTFQDRGGRSLTLRPEGTAAMVRAYLEHGMKVWPQPVRLWMAGPMFRAERPQKGRYRQFHQVNYEALGSENPILDAEAVVLLYECLKELGLRRLKVKLSSVGDPEDRARYNAYLREV-LSPHREALSEDSKERLELNPMRILDSKSE------RDQALLKEL------GVRPMLDF-----------LGEEARAHLKEVERHLERLSV--PYELEPALVRGLDYYVRTAFEVHHEEIGAQSALGGGGRYDGLSELLGGPRVPGVGFAFGVERVALALEAEGFGLPEEKGPDLYLIPLTEEAVAEAFY--LAEALRPRLRAEYALAPRKPAKGLEEALKRGAAFAGFLGEDELRAGEV--TLKRLATGEQVRLSREEV</Hsp_hseq>
+      <Hsp_midline>++ + ++G +DL   E      +V      L   G + + TP  E T+V  +     T+   K+MF F D+GGR + LR + T  + R    H  +++  P + +    ++R E+PQ GRYR+F Q +++ +GS++   D E +  +   L   G   +++ ++       R  ++ +LR + LS   E +     +R ++ P  +L ++ E      R Q ++  +      GV P  +            + EE+   L+++   L  +++   Y  +P++ RG DYY     E    ++    ++  GGRYD L+ L     V GVG + G++R+  A +    G+  E    +  +   +++     Y  L      ++  E    PRK ++    A K+G  +  F+ +      +    L+ L+T +  RL   EV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2392059|pdb|1ADJ|A</Hit_id>
+  <Hit_def>Chain A, Histidyl-Trna Synthetase In Complex With Histidine &gt;gi|2392061|pdb|1ADJ|B Chain B, Histidyl-Trna Synthetase In Complex With Histidine &gt;gi|2392063|pdb|1ADJ|C Chain C, Histidyl-Trna Synthetase In Complex With Histidine &gt;gi|2392065|pdb|1ADJ|D Chain D, Histidyl-Trna Synthetase In Complex With Histidine &gt;gi|2392067|pdb|1ADY|A Chain A, Histidyl-Trna Synthetase In Complex With Histidyl-Adenylate &gt;gi|2392068|pdb|1ADY|B Chain B, Histidyl-Trna Synthetase In Complex With Histidyl-Adenylate &gt;gi|2392069|pdb|1ADY|C Chain C, Histidyl-Trna Synthetase In Complex With Histidyl-Adenylate &gt;gi|2392070|pdb|1ADY|D Chain D, Histidyl-Trna Synthetase In Complex With Histidyl-Adenylate &gt;gi|14719709|pdb|1H4V|B Chain B, Histidyl-Trna Synthetase From Thermus Thermophilus (Ligand Free)</Hit_def>
+  <Hit_accession>1ADJ_A</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>2.62618e-22</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>442</Hsp_align-len>
+      <Hsp_qseq>VSPKVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTE---KQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYF-PFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEHIRIHVAH------RGLFDRFLRALSLSDQAEHILRIIDKRAKMAP-HVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEES-TRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQ--LGMSREHVCFVQALIFCQDSALMDVYQKLCSYFAVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVEDCLLVLRDLSTRKDTRLPAHEV</Hsp_qseq>
+      <Hsp_hseq>MTARAVRGTKDLFGKELRMHQRIVATARKVLEAAGALELVTPIFEETQVFEKGVGAATDIVRKEMFTFQDRGGRSLTLRPEGTAAMVRAYLEHGMKVWPQPVRLWMAGPMFRAERPQKGRYRQFHQVNYEALGSENPILDAEAVVLLYECLKELGLRRLKVKLSSVGDPEDRARYNAYLREV-LSPHREALSEDSKERLEENPMRILDSKSE------RDQALLKEL------GVRPMLDF-----------LGEEARAHLKEVERHLERLSV--PYELEPALVRGLDYYVRTAFEVHHEEIGAQSALGGGGRYDGLSELLGGPRVPGVGFAFGVERVALALEAEGFGLPEEKGPDLYLIPLTEEAVAEAFY--LAEALRPRLRAEYALAPRKPAKGLEEALKRGAAFAGFLGEDELRAGEV--TLKRLATGEQVRLSREEV</Hsp_hseq>
+      <Hsp_midline>++ + ++G +DL   E      +V      L   G + + TP  E T+V  +     T+   K+MF F D+GGR + LR + T  + R    H  +++  P + +    ++R E+PQ GRYR+F Q +++ +GS++   D E +  +   L   G   +++ ++       R  ++ +LR + LS   E +     +R +  P  +L ++ E      R Q ++  +      GV P  +            + EE+   L+++   L  +++   Y  +P++ RG DYY     E    ++    ++  GGRYD L+ L     V GVG + G++R+  A +    G+  E    +  +   +++     Y  L      ++  E    PRK ++    A K+G  +  F+ +      +    L+ L+T +  RL   EV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|9955267|pdb|1QE0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo S. Aureus Histidyl-Trna Synthetase &gt;gi|9955268|pdb|1QE0|B Chain B, Crystal Structure Of Apo S. Aureus Histidyl-Trna Synthetase</Hit_def>
+  <Hit_accession>1QE0_A</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.5969</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>2.9177e-22</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>KVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDT----EKQMFRFVDKGGRDVALRFDLTVPLARFVATH--YARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHVLTAQLESL--CDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLCAV--NIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSV---CSGGRYDHLTALYMKDAVSGVGASIGL</Hsp_qseq>
+      <Hsp_hseq>KIPRGTQDILPEDSKKWRYIENQLDELMTFYNYKEIRTPIFESTDLFAR-GVGDSTDVVQKEMYTFKDKGDRSITLRPEGTAAVVRSYIEHKMQGNPNQPIKLYYNGPMFRYERKQKGRYRQFNQFGVEAIGAENPSVDAEVLAMVMHIYQSFGLKHLKLVINSVG---------DMASRKEYNEALV-KHFEPVIHEFCSDCQSRLHTDPMRI-----------LDCKVDRDKEAIKTAPRITDFLNEES---KAYYEQVKAYLDDLGIPYTEDPNLVRGLDYYTHTAFELMMDNPNYDGAITTLCGGGRYNGLLELLDGPSETGIGFALSI</Hsp_hseq>
+      <Hsp_midline>K+ +G +D+LP++  +   +  +L   +    +  I TP  E T++  R   GD+    +K+M+ F DKG R + LR + T  + R    H        P K Y+   ++R E+ Q GRYR+F Q   + +G+++   D E+L  + H+    G +H+++ +   G          ++ + E+   ++ K  +   H   +  +S    DP+R+           +D      +  +     +T  ++EES   +  YE + A   ++   Y  DP++ RG DYYT    E  +    + G++   C GGRY+ L  L    + +G+G ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|381353380|pdb|4E51|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Histidyl-trna Synthetase Hisrs From Burkholderia Thailandensis Bound To Histidine &gt;gi|381353381|pdb|4E51|B Chain B, Crystal Structure Of A Histidyl-trna Synthetase Hisrs From Burkholderia Thailandensis Bound To Histidine</Hit_def>
+  <Hit_accession>4E51_A</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.26114e-21</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDT---EKQMFRFVDK-GGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHV-LTAQLESLCDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEES-TRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRL</Hsp_qseq>
+      <Hsp_hseq>VKGMNDILPQDAGLWEFFEATVKSLLRAYGYQNIRTPIVEHTPLFTRGIGEVTDIVEKEMYSFVDALNGENLTLRPENTAAVVRAAIEHNMLYDGPKRLWYIGPMFRHERPQRGRYRQFHQVGVEALGFAGPDADAEIVMMCQRLWEDLGLTGIKLEINSLGLAE---------ERAAHRVELIKYLEQHADKLDDDAQRRLYTNPLRV-----------LDTKNPALQEIVRNAPKLIDFLGDVSRAHFEGLQRLLKANNV--PFTINPRLVRGLDYYNLTVFEWVTDKLGAQGTVAAGGRYDPLIEQLGGKPTAACGWAMGIERI</Hsp_hseq>
+      <Hsp_midline>+KG  D+LP +          +   LR  G+  I TP +E+T +  R     T   EK+M+ FVD   G ++ LR + T  + R    H      P + ++   ++R E+PQ GRYR+F Q   + +G     AD EI+   + +    G   I++ +   GL +         ++A H + +I    + A  +   AQ     +P+RV           +D   P+ +  +     L   + + S      +  LL A N+   +  +P + RG DYY   V E    +L   G+V +GGRYD L         +  G ++G++R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|346651978|pdb|3RAC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Strucutre Of Histidine--Trna Ligase Subunit From Alicyclobacillus Acidocaldarius Subsp. Acidocaldarius Dsm 446.</Hit_def>
+  <Hit_accession>3RAC_A</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.2857</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>1.33652e-21</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>337</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>GFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVW-RGEKP-----QMGRYREFTQCDFDIVGSD-SVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETL---------TGGVSEESTRLRKIYELLCAVNIQSSYV-FDPSITRGFDYYTGMVCETFLTQLPHIGS-VCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQ</Hsp_qseq>
+      <Hsp_hseq>GMQDGYPDFAKRRRAVETRLLSFVEDAGYEPVTSGLFEYVDTLLRARSPESSRDWIRLFDGGGDAVALRPEMTPSIARMAAPRVAAGRTPIRWCYCERVYRRTDDPASLSWASGKAAESTQVGIERIGEEASVDVDMDVLRLLHEASAAAGVRHHRIVVSHARLVPRLLDALGISASLSRAFLACLTSGNYVQFRELWQLHAAKDVDLLANLLTW-SPAERDAAKRSREASDRELEALLRDAVDPRAAADVRDAWRYLCRLAEALHDSGLASDVVTFDLALHRELDYYTGLVFEMF---APGVGAPIAQGGRYDELLAQFGAGAPA-VGFAFEVERVMAVLE</Hsp_hseq>
+      <Hsp_midline>G +D  PD    R  +  +L   +   G+ P+ +   EY + LLR    ++ +   R  D GG  VALR ++T  +AR  A   A    P +  +  +V+ R + P       G+  E TQ   + +G + SV  D ++L+ +      AG  H RI V+H  L  R L AL +S                       QL +  D   +  ++T+ S  E D    S E +   +E L            V +    L ++ E L    + S  V FD ++ R  DYYTG+V E F    P +G+ +  GGRYD L A +   A + VG +  ++R+ A  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2781066|pdb|1KMM|A</Hit_id>
+  <Hit_def>Chain A, Histidyl-Trna Synthetase Complexed With Histidyl-Adenylate &gt;gi|2781067|pdb|1KMM|B Chain B, Histidyl-Trna Synthetase Complexed With Histidyl-Adenylate &gt;gi|2781068|pdb|1KMM|C Chain C, Histidyl-Trna Synthetase Complexed With Histidyl-Adenylate &gt;gi|2781069|pdb|1KMM|D Chain D, Histidyl-Trna Synthetase Complexed With Histidyl-Adenylate &gt;gi|2781070|pdb|1KMN|A Chain A, Histidyl-trna Synthetase Complexed With Histidinol And Atp &gt;gi|2781071|pdb|1KMN|B Chain B, Histidyl-trna Synthetase Complexed With Histidinol And Atp &gt;gi|2781072|pdb|1KMN|C Chain C, Histidyl-trna Synthetase Complexed With Histidinol And Atp &gt;gi|2781073|pdb|1KMN|D Chain D, Histidyl-trna Synthetase Complexed With Histidinol And Atp</Hit_def>
+  <Hit_accession>1KMM_A</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>4.76854e-20</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>AVSPKVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDT----EKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKR-YHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFE-ILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHVLTAQLESLC------DPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLCAV--NIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQLGMSREHVCFVQALIFCQ----DSALMDVYQKLCSYF-AVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVEDCLLVLRDLSTRKDT</Hsp_qseq>
+      <Hsp_hseq>AKNIQAIRGMNDYLPGETAIWQRIEGTLKNVLGSYGYSEIRLPIVEQTP-LFKRAIGEVTDVVEKEMYTFEDRNGDSLTLRPEGTAGCVR-AGIEHGLLYNQEQRLWYIGPMFRHERPQKGRYRQFHQLGCEVFGLQGPDIDAELIMLTARWWRALGISEHVTLELNSIG---------SLEARANYRDALV---AFLEQH--KEKLDEDCKRRMYTNPLRV-----------LDSKNPEVQALLNDAPALGDYLDEES---REHFAGLCKLLESAGIAYTVNQRLVRGLDYYNRTVFEWVTNSLGSQGTVCAGGRYDGLVEQLGGRATPAVGFAMGLERLVLLVQAVNPEFKADPVVDIYLVASGADTQSAAMALAERLRDELPGVKLMTN--HGGGNFKKQFARADKWGARVAVVLGE--SEVANGTAVVKDLRSGEQT</Hsp_hseq>
+      <Hsp_midline>A + + ++G  D LP E      +   L   L   G+  I  P +E T  L +++ G+     EK+M+ F D+ G  + LR + T    R     +  LY   +R ++   ++R E+PQ GRYR+F Q   ++ G      D E I+ + R    +  +EH+ + +   G         SL  +A +   ++   A +  H    +L+  C      +P+RV           +D   P  +  L+    L   + EES   R+ +  LC +  +   +Y  +  + RG DYY   V E     L   G+VC+GGRYD L       A   VG ++GL+RL    Q +    +    V   +        SA M + ++L      V++ T          +Q+A A+K G R  + + +  + V +   V++DL + + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|1942448|pdb|1HTT|A</Hit_id>
+  <Hit_def>Chain A, Histidyl-Trna Synthetase &gt;gi|1942449|pdb|1HTT|B Chain B, Histidyl-Trna Synthetase &gt;gi|1942450|pdb|1HTT|C Chain C, Histidyl-Trna Synthetase &gt;gi|1942451|pdb|1HTT|D Chain D, Histidyl-Trna Synthetase</Hit_def>
+  <Hit_accession>1HTT_A</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>5.1468e-20</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>AVSPKVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDT----EKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKR-YHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFE-ILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHVLTAQLESLC------DPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLCAV--NIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQLGMSREHVCFVQALIFCQ----DSALMDVYQKLCSYF-AVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVEDCLLVLRDLSTRKDT</Hsp_qseq>
+      <Hsp_hseq>AKNIQAIRGMNDYLPGETAIWQRIEGTLKNVLGSYGYSEIRLPIVEQTP-LFKRAIGEVTDVVEKEMYTFEDRNGDSLTLRPEGTAGCVR-AGIEHGLLYNQEQRLWYIGPMFRHERPQKGRYRQFHQLGCEVFGLQGPDIDAELIMLTARWWRALGISEHVTLELNSIG---------SLEARANYRDALV---AFLEQH--KEKLDEDCKRRMYTNPLRV-----------LDSKNPEVQALLNDAPALGDYLDEES---REHFAGLCKLLESAGIAYTVNQRLVRGLDYYNRTVFEWVTNSLGSQGTVCAGGRYDGLVEQLGGRATPAVGFAMGLERLVLLVQAVNPEFKADPVVDIYLVASGADTQSAAMALAERLRDELPGVKLMTN--HGGGNFKKQFARADKWGARVAVVLGE--SEVANGTAVVKDLRSGEQT</Hsp_hseq>
+      <Hsp_midline>A + + ++G  D LP E      +   L   L   G+  I  P +E T  L +++ G+     EK+M+ F D+ G  + LR + T    R     +  LY   +R ++   ++R E+PQ GRYR+F Q   ++ G      D E I+ + R    +  +EH+ + +   G         SL  +A +   ++   A +  H    +L+  C      +P+RV           +D   P  +  L+    L   + EES   R+ +  LC +  +   +Y  +  + RG DYY   V E     L   G+VC+GGRYD L       A   VG ++GL+RL    Q +    +    V   +        SA M + ++L      V++ T          +Q+A A+K G R  + + +  + V +   V++DL + + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|170292177|pdb|2EL9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of E.Coli Histidyl-Trna Synthetase Complexed With A Histidyl-Adenylate Analogue &gt;gi|170292178|pdb|2EL9|B Chain B, Crystal Structure Of E.Coli Histidyl-Trna Synthetase Complexed With A Histidyl-Adenylate Analogue &gt;gi|170292179|pdb|2EL9|C Chain C, Crystal Structure Of E.Coli Histidyl-Trna Synthetase Complexed With A Histidyl-Adenylate Analogue &gt;gi|170292180|pdb|2EL9|D Chain D, Crystal Structure Of E.Coli Histidyl-Trna Synthetase Complexed With A Histidyl-Adenylate Analogue</Hit_def>
+  <Hit_accession>2EL9_A</Hit_accession>
+  <Hit_len>431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>5.25813e-20</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>441</Hsp_align-len>
+      <Hsp_qseq>AVSPKVLKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDT----EKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKR-YHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFE-ILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHVLTAQLESLC------DPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLCAV--NIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQLGMSREHVCFVQALIFCQ----DSALMDVYQKLCSYF-AVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVEDCLLVLRDLSTRKDT</Hsp_qseq>
+      <Hsp_hseq>AKNIQAIRGMNDYLPGETAIWQRIEGTLKNVLGSYGYSEIRLPIVEQTP-LFKRAIGEVTDVVEKEMYTFEDRNGDSLTLRPEGTAGCVR-AGIEHGLLYNQEQRLWYIGPMFRHERPQKGRYRQFHQLGCEVFGLQGPDIDAELIMLTARWWRALGISEHVTLELNSIG---------SLEARANYRDALV---AFLEQH--KEKLDEDCKRRMYTNPLRV-----------LDSKNPEVQALLNDAPALGDYLDEES---REHFAGLCKLLESAGIAYTVNQRLVRGLDYYNRTVFEWVTNSLGSQGTVCAGGRYDGLVEQLGGRATPAVGFAMGLERLVLLVQAVNPEFKADPVVDIYLVASGADTQSAAMALAERLRDELPGVKLMTN--HGGGNFKKQFARADKWGARVAVVLGE--SEVANGTAVVKDLRSGEQT</Hsp_hseq>
+      <Hsp_midline>A + + ++G  D LP E      +   L   L   G+  I  P +E T  L +++ G+     EK+M+ F D+ G  + LR + T    R     +  LY   +R ++   ++R E+PQ GRYR+F Q   ++ G      D E I+ + R    +  +EH+ + +   G         SL  +A +   ++   A +  H    +L+  C      +P+RV           +D   P  +  L+    L   + EES   R+ +  LC +  +   +Y  +  + RG DYY   V E     L   G+VC+GGRYD L       A   VG ++GL+RL    Q +    +    V   +        SA M + ++L      V++ T          +Q+A A+K G R  + + +  + V +   V++DL + + T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|946927150|pdb|5E3I|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Histidyl-trna Synthetase From Acinetobacter Baumannii With Bound L-histidine And Atp &gt;gi|946927151|pdb|5E3I|B Chain B, Crystal Structure Of A Histidyl-trna Synthetase From Acinetobacter Baumannii With Bound L-histidine And Atp</Hit_def>
+  <Hit_accession>5E3I_A</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>1.47574e-19</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>LKGFRDLLPDEEIERALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDT----EKQMFRFVDKGG--RDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEH-IRIHVAHRGLFD---RFLRALS--LSDQAEHILRIIDKRAKMAP-HVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDA---VSGVGASIGLDRLYAAFQQL</Hsp_qseq>
+      <Hsp_hseq>IKGFNDVLPTQTAAWRRLEQHLASLMDAYGYQQIRLPIVEQTG-LFKRAIGDATDIVEKEMYTFFDKGNPPESLTLRPEGTAGCVRALVEHNLLRGATPRVWYMGPMFRYEKPQKGRYRQFHQFGVETFGVATPDIDAELIMLTARLWKRMGVDHMVQLELNTLGETDERTEYRNALVAFLNEHKDALDEDSQRRLTTNPLRILDSKIES------TQKILEN---------APKLHDFLK---------EDSLSHFQQLQDYLTAAGIK--FVINQKLVRGLDYYNKTVFEWTTTALGSQGTVCAGGRYDGLVGQLKGKADQSVPAVGFAMGMERLLLLLEQV</Hsp_hseq>
+      <Hsp_midline>+KGF D+LP +      L + L   +   G+  I  P +E T  L +++ GD     EK+M+ F DKG     + LR + T    R +  H        + ++   ++R EKPQ GRYR+F Q   +  G  +   D E++     +    G +H +++ +   G  D    +  AL   L++  + +     +R    P  +L +++ES       QKI+           AP     L           +  +  +++ + L A  I+  +V +  + RG DYY   V E   T L   G+VC+GGRYD L       A   V  VG ++G++RL    +Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|75765683|pdb|1Z7M|A</Hit_id>
+  <Hit_def>Chain A, Atp Phosphoribosyl Transferase (hiszg Atp-prtase) From Lactococcus Lactis &gt;gi|75765684|pdb|1Z7M|B Chain B, Atp Phosphoribosyl Transferase (hiszg Atp-prtase) From Lactococcus Lactis &gt;gi|75765685|pdb|1Z7M|C Chain C, Atp Phosphoribosyl Transferase (hiszg Atp-prtase) From Lactococcus Lactis &gt;gi|75765686|pdb|1Z7M|D Chain D, Atp Phosphoribosyl Transferase (hiszg Atp-prtase) From Lactococcus Lactis &gt;gi|75765691|pdb|1Z7N|A Chain A, Atp Phosphoribosyl Transferase (Hiszg Atp-Prtase) From Lactococcus Lactis With Bound Prpp Substrate &gt;gi|75765692|pdb|1Z7N|B Chain B, Atp Phosphoribosyl Transferase (Hiszg Atp-Prtase) From Lactococcus Lactis With Bound Prpp Substrate &gt;gi|75765693|pdb|1Z7N|C Chain C, Atp Phosphoribosyl Transferase (Hiszg Atp-Prtase) From Lactococcus Lactis With Bound Prpp Substrate &gt;gi|75765694|pdb|1Z7N|D Chain D, Atp Phosphoribosyl Transferase (Hiszg Atp-Prtase) From Lactococcus Lactis With Bound Prpp Substrate</Hit_def>
+  <Hit_accession>1Z7M_A</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.49933e-10</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>338</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>345</Hsp_align-len>
+      <Hsp_qseq>LLPDEEIERALLVEKLTVALRQM-----------GFVPIDTPALEYTEVLLR-KSEGDT--EKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFK-----RY-HFAKVWRGEKPQMGRYREFTQCDFDIVGSDSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRIIDKRAKMAPHVLTAQLESLCDPVRVQKIMTYVSAGEVDGVAPS--FEHTLSAIETLTGGVSEES--TRLRKIYELLCAVNIQSSYVFDPSITRGFDYYTGMVCETFLTQLPHIGSVCSGGRYDHLTALYMKDAVSGVGASIGLDRLYAAFQQ</Hsp_qseq>
+      <Hsp_hseq>LLPEESAEMTLNQVK---SLRQIEGRLRKLFSLKNYQEVMPPSFEYTQLYTALESNGKTFNQEKMFQFIKHEGQSITLRYDFTLPL--------VRLYSQIKDSTSARYSYFGKIFRKEKRHKGRSTENYQIGIELFGESADKSELEILSLALQVIEQLGLNKTVFEIGSAKFFQRLCQ---LADGSTELLTELLLKKDLSG------LNAFIEKNNFSK--------ELRGLLKEIFITNELSRLENLVTNTKDDVLISSFDQLKEFSEKLSMIKPIIIDLGMVPKMDYYTDLMFKAYSSAANQ--PILSGGRYDQLLSNFQEEAFA-IGFCCHMDTILKALER</Hsp_hseq>
+      <Hsp_midline>LLP+E  E  L   K   +LRQ+            +  +  P+ EYT++    +S G T  +++MF+F+   G+ + LR+D T+PL         RLY   K     RY +F K++R EK   GR  E  Q   ++ G  +  ++ EIL     ++   G       +     F R  +   L+D +  +L  +  +  ++       L +  +     K        E+ G+       + LS +E L     ++   +   ++ E    +++    + D  +    DYYT ++ + + +       + SGGRYD L + + ++A + +G    +D +  A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|635576220|pdb|4CS2|A</Hit_id>
+  <Hit_def>Chain A, Catalytic Domain Of Pyrrolysyl-trna Synthetase Mutant Y306a, Y384f In Its Apo Form &gt;gi|635576221|pdb|4CS3|A Chain A, Catalytic Domain Of Pyrrolysyl-trna Synthetase Mutant Y306a, Y384f In Complex With An Adenylated Furan-bearing Noncanonical Amino Acid And Pyrophosphate &gt;gi|635576222|pdb|4CS4|A Chain A, Catalytic Domain Of Pyrrolysyl-trna Synthetase Mutant Y306a, Y384f In Complex With Amppnp</Hit_def>
+  <Hit_accession>4CS2_A</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0770494</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERMGIDNDTELSKQIFR-VDK---NFCLRPMLAPNLANYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLNFCQMGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E +   ++ +  KQ+FR VDK   +  LR  L   LA ++      L  P K +     +R E        EFT  +F  +GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|262118516|pdb|3A32|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Putative Threonyl-trna Synthetase Thrrs-1 From Aeropyrum Pernix</Hit_def>
+  <Hit_accession>3A32_A</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.126647</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>RALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTE---KQMFRFVDKGGRDVALRFDLTVP-----LARFVATHYARLYFPFKRYHFAKVWR----GEKPQMGRYREFTQCDFDIVGS-----DSVCADFEILKSIRHMLYMAGAE----HIRIHVAHRGLFDR-FLRALSLSDQAEHILR</Hsp_qseq>
+      <Hsp_hseq>RYALAEVLAKFHARRGYYVVETPIIASTELF--KVSGHIEFYRNNMYLF-DIEGHEFAVK-PMNCPYHILLFLNEVAKHRSKLPLPFKVFEFGRVHRYEPSGSIYGLLRVRGFTQDDAHIIVPGGRVIDVVYDVFEEMKLVLERLFKLGVSSETFKVRLSMSDKSLIGKEFMGSKEEWEGAEEALR</Hsp_hseq>
+      <Hsp_midline>R  L E L     + G+  ++TP +  TE+   K  G  E     M+ F D  G + A++  +  P         VA H ++L  PFK + F +V R    G    + R R FTQ D  I+       D V   FE +K +   L+  G       +R+ ++ + L  + F+ +    + AE  LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|528081991|pdb|4BW9|A</Hit_id>
+  <Hit_def>Chain A, Pylrs Y306g, Y384f, I405r Mutant In Complex With Amp-pnp &gt;gi|528081992|pdb|4BWA|A Chain A, Pylrs Y306g, Y384f, I405r Mutant In Complex With Adenylated Norbornene</Hit_def>
+  <Hit_accession>4BW9_A</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.177881</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERMGIDNDTELSKQIFR-VDK---NFCLRPMLAPNLGNYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLNFCQMGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E +   ++ +  KQ+FR VDK   +  LR  L   L  ++      L  P K +     +R E        EFT  +F  +GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|162329880|pdb|2E3C|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl- Trna Synthetase &gt;gi|185177682|pdb|2ZCE|A Chain A, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl-trna Synthetase In Complex With Pyrrolysine And An Atp Analogue &gt;gi|215794561|pdb|2ZIN|A Chain A, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl- Trna Synthetase In Complex With Boclys And An Atp Analogue &gt;gi|215794562|pdb|2ZIO|A Chain A, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl- Trna Synthetase In Complex With Aloclys-Amp And Pnp &gt;gi|436408773|pdb|3VQV|A Chain A, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl-trna Synthetase In Complex With Amppnp (re-refined) &gt;gi|436408775|pdb|3VQX|A Chain A, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl-trna Synthetase In Triclinic Crystal Form &gt;gi|436408776|pdb|3VQX|B Chain B, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl-trna Synthetase In Triclinic Crystal Form &gt;gi|436408777|pdb|3VQX|C Chain C, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl-trna Synthetase In Triclinic Crystal Form &gt;gi|436408778|pdb|3VQX|D Chain D, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl-trna Synthetase In Triclinic Crystal Form &gt;gi|436408779|pdb|3VQY|A Chain A, Crystal Structure Of The Catalytic Domain Of Pyrrolysyl-trna Synthetase In Complex With Boclys And Amppnp (form 2)</Hit_def>
+  <Hit_accession>2E3C_A</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.373258</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERMGIDNDTELSKQIFR-VDK---NFCLRPMLAPNLYNYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLNFCQMGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E +   ++ +  KQ+FR VDK   +  LR  L   L  ++      L  P K +     +R E        EFT  +F  +GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|157835845|pdb|2Q7E|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Pyrrolysyl-trna Synthetase Bound To An Atp Analogue &gt;gi|157835848|pdb|2Q7G|A Chain A, Pyrrolysine Trna Synthetase Bound To A Pyrrolysine Analogue (Cyc) And Atp &gt;gi|157835849|pdb|2Q7H|A Chain A, Pyrrolysyl-Trna Synthetase Bound To Adenylated Pyrrolysine And Pyrophosphate &gt;gi|169404687|pdb|2ZIM|A Chain A, Pyrrolysyl-Trna Synthetase Bound To Adenylated Pyrrolysine And Pyrophosphate &gt;gi|595588220|pdb|4CH3|A Chain A, Structure Of Pyrrolysyl-trna Synthetase In Complex With Adenylated Butyryl Lysine &gt;gi|595588221|pdb|4CH5|A Chain A, Structure Of Pyrrolysyl-trna Synthetase In Complex With Adenylated Propionyl Lysine &gt;gi|595588222|pdb|4CH6|A Chain A, Structure Of Pyrrolysyl-trna Synthetase In Complex With Adenylated Propargyloxycarbonyl Lysine &gt;gi|597960024|pdb|4CH4|A Chain A, Structure Of Pyrrolysyl-trna Synthetase In Complex With Adenylated Crotonyl Lysine</Hit_def>
+  <Hit_accession>2Q7E_A</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.386659</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERMGIDNDTELSKQIFR-VDK---NFCLRPMLAPNLYNYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLNFCQMGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E +   ++ +  KQ+FR VDK   +  LR  L   L  ++      L  P K +     +R E        EFT  +F  +GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|333944470|pdb|3QTC|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Catalytic Domain Of Mmomers, An O-Methyl Tyrosyl-Trna Synthetase Evolved From Methanosarcina Mazei Pylrs, Complexed With O-Methyl Tyrosine And Amp-Pnp</Hit_def>
+  <Hit_accession>3QTC_A</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>0.549082</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERMGIDNDTELSKQIFR-VDK---NFCLRPMLTPNLYNYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLVFWQMGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E +   ++ +  KQ+FR VDK   +  LR  LT  L  ++      L  P K +     +R E        EFT   F  +GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|720062974|pdb|4TQD|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The C-terminal Domain Of Ifrs Bound With 3-iodo- L-phe And Atp &gt;gi|720062976|pdb|4TQF|A Chain A, Crystal Structure Of The C-terminal Domain Of Ifrs Bound With 2-(5- Bromothienyl)-l-ala And Atp</Hit_def>
+  <Hit_accession>4TQD_A</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>0.69184</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERMGIDNDTELSKQIFR-VDK---NFCLRPMLAPNLYNYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLSFIQMGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E +   ++ +  KQ+FR VDK   +  LR  L   L  ++      L  P K +     +R E        EFT   F  +GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|436408774|pdb|3VQW|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Semet Substituted Catalytic Domain Of Pyrrolysyl-trna Synthetase</Hit_def>
+  <Hit_accession>3VQW_A</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.09383</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERXGIDNDTELSKQIFR-VDK---NFCLRPXLAPNLYNYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTXLNFCQXGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E     ++ +  KQ+FR VDK   +  LR  L   L  ++      L  P K +     +R E        EFT  +F   GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|720062743|pdb|4Q6G|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The C-terminal Domain Of Ackrs-1 Bound With N- Acetyl-lysine And Adpnp</Hit_def>
+  <Hit_accession>4Q6G_A</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.38214</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GFVPIDTP---ALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYAR-----LYFPFKRYHFAKVWRGEKPQMGRYREFTQCDFDIVGS-------DSVCADF</Hsp_qseq>
+      <Hsp_hseq>GFLEIKSPILIPLEYIERMGIDNDTELSKQIFR-VDK---NFCLR-----PMVAPNIFNYARKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLNFFQMGSGCTRENLESIITDF</Hsp_hseq>
+      <Hsp_midline>GF+ I +P    LEY E +   ++ +  KQ+FR VDK   +  LR     P+      +YAR     L  P K +     +R E        EFT  +F  +GS       +S+  DF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|284794104|pdb|3KVN|X</Hit_id>
+  <Hit_def>Chain X, Crystal Structure Of The Full-Length Autotransporter Esta From Pseudomonas Aeruginosa &gt;gi|284794105|pdb|3KVN|A Chain A, Crystal Structure Of The Full-Length Autotransporter Esta From Pseudomonas Aeruginosa</Hit_def>
+  <Hit_accession>3KVN_X</Hit_accession>
+  <Hit_len>632</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.51208</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>RKSEGDTEKQMFRFVDKGGRDVALRFDLTVPLARFVATHYARL</Hsp_qseq>
+      <Hsp_hseq>RSEKGDTNGHLWAFSARLGYDIAQQADSPWHLSPFVSADYARV</Hsp_hseq>
+      <Hsp_midline>R  +GDT   ++ F  + G D+A + D    L+ FV+  YAR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|262118515|pdb|3A31|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Putative Threonyl-trna Synthetase Thrrs-1 From Aeropyrum Pernix (selenomethionine Derivative)</Hit_def>
+  <Hit_accession>3A31_A</Hit_accession>
+  <Hit_len>471</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.44754</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>RALLVEKLTVALRQMGFVPIDTPALEYTEVLLRKSEGDTEKQMFRFVDKGGRDVALR-----FDLTVPLARFVATHYARLYFPFKRYHFAKVWRGEKP----QMGRYREFTQCDFDIV</Hsp_qseq>
+      <Hsp_hseq>RYALAEVLAKFHARRGYYVVETPIIASTELFKVSGHIEFYRNNXYLFDIEGHEFAVKPXNCPYHILLFLNE-VAKHRSKLPLPFKVFEFGRVHRYEPSGSIYGLLRVRGFTQDDAHII</Hsp_hseq>
+      <Hsp_midline>R  L E L     + G+  ++TP +  TE+       +  +      D  G + A++     + + + L   VA H ++L  PFK + F +V R E       + R R FTQ D  I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|197725279|pdb|3DO9|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Ba1542 From Bacillus Anthracis Str.Ames &gt;gi|197725280|pdb|3DO9|B Chain B, Crystal Structure Of Protein Ba1542 From Bacillus Anthracis Str.Ames &gt;gi|197725281|pdb|3DO9|C Chain C, Crystal Structure Of Protein Ba1542 From Bacillus Anthracis Str.Ames</Hit_def>
+  <Hit_accession>3DO9_A</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.90333</Hsp_evalue>
+      <Hsp_query-from>159</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>126</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>EHIRIHVAHRGLFDRFLRALSLSDQAEHILRII----DKRAKMAPHVLTAQLESL</Hsp_qseq>
+      <Hsp_hseq>KHIEVNEKDRLLAERFLEESVFSFRRERLLKQIDEALDKQDKEAFHRLTAELKML</Hsp_hseq>
+      <Hsp_midline>+HI ++   R L +RFL     S + E +L+ I    DK+ K A H LTA+L+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|330689488|pdb|3NT8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Na-Asp-1 &gt;gi|330689489|pdb|3NT8|B Chain B, Crystal Structure Of Na-Asp-1</Hit_def>
+  <Hit_accession>3NT8_A</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.08262</Hsp_evalue>
+      <Hsp_query-from>211</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>DP-VRVQKIMT-YVSAGEVDGVAPSFEHTLSAIETLTGGVSEESTRLRKIYELLCAVNIQSSYVFD--PSITRGFDYYTGMVCETFLTQLPHIGSVCSGG</Hsp_qseq>
+      <Hsp_hseq>DPSVKIEPTLSGWWSGAKKNGVGPDNKYTGGGLFAFSNMVYSETTKLGCAYK-VCGTKLAVSCIYNGVGYITNQPMWETGQACQTGADCSTYKNSGCEDG</Hsp_hseq>
+      <Hsp_midline>DP V+++  ++ + S  + +GV P  ++T   +   +  V  E+T+L   Y+ +C   +  S +++    IT    + TG  C+T      +  S C  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|822599252|pdb|2MPH|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of Human Fk506 Binding Protein 25</Hit_def>
+  <Hit_accession>2MPH_A</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.60194</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>88</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>GSDSVCADFEILKSIRHMLYMAGAEHIRIHVAHRGLFDRFLRALSLSDQAEHILRI</Hsp_qseq>
+      <Hsp_hseq>GSDSFLAEHKLLGNIKNVAKTANKDHLVTAYNHLFETKRFKGTESISKVSEQVKNV</Hsp_hseq>
+      <Hsp_midline>GSDS  A+ ++L +I+++   A  +H+     H     RF    S+S  +E +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|570359691|pdb|4ILQ|A</Hit_id>
+  <Hit_def>Chain A, 2.60a Resolution Structure Of Ct771 From Chlamydia Trachomatis &gt;gi|575403397|pdb|4MPO|A Chain A, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products &gt;gi|575403398|pdb|4MPO|B Chain B, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products &gt;gi|575403399|pdb|4MPO|C Chain C, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products &gt;gi|575403400|pdb|4MPO|D Chain D, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products &gt;gi|575403401|pdb|4MPO|E Chain E, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products &gt;gi|575403402|pdb|4MPO|F Chain F, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products &gt;gi|575403403|pdb|4MPO|G Chain G, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products &gt;gi|575403404|pdb|4MPO|H Chain H, 1.90 A Resolution Structure Of Ct771 From Chlamydia Trachomatis Bound To Hydrolyzed Ap4a Products</Hit_def>
+  <Hit_accession>4ILQ_A</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.66579</Hsp_evalue>
+      <Hsp_query-from>353</Hsp_query-from>
+      <Hsp_query-to>412</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>IFCQDSALMD----VYQKLCSYFAVQVATEVFPDPRKLSQQYAFAEKKGIRWGIFVEQRNAVVE</Hsp_qseq>
+      <Hsp_hseq>IFVENYSFNDKEEIFVRKEVTYFLAEVKGEVHADPDEICDVQWLSFQEGLRLLNFPEIRNIVTE</Hsp_hseq>
+      <Hsp_midline>IF ++ +  D      +K  +YF  +V  EV  DP ++      + ++G+R   F E RN V E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|340708133|pdb|3RT2|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo-Pyl10</Hit_def>
+  <Hit_accession>3RT2_A</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.02335</Hsp_evalue>
+      <Hsp_query-from>340</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GMSREHVCF-VQALIFCQDSALMDVYQKL</Hsp_qseq>
+      <Hsp_hseq>GNTKEETCFFVEALIQCNLNSLADVTERL</Hsp_hseq>
+      <Hsp_midline>G ++E  CF V+ALI C  ++L DV ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|361132418|pdb|3UQH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Strcuture Of Aba Receptor Pyl10 (Apo) &gt;gi|361132419|pdb|3UQH|B Chain B, Crystal Strcuture Of Aba Receptor Pyl10 (Apo) &gt;gi|364506012|pdb|3R6P|A Chain A, Crystal Structure Of Abscisic Acid-Bound Pyl10</Hit_def>
+  <Hit_accession>3UQH_A</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>8.50589</Hsp_evalue>
+      <Hsp_query-from>340</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>GMSREHVCF-VQALIFCQDSALMDVYQKL</Hsp_qseq>
+      <Hsp_hseq>GNTKEETCFFVEALIQCNLNSLADVTERL</Hsp_hseq>
+      <Hsp_midline>G ++E  CF V+ALI C  ++L DV ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1274 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_123127</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611592</BlastOutput_query-def>
+  <BlastOutput_query-len>332</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_123127</Iteration_query-ID>
+  <Iteration_query-def>2611592</Iteration_query-def>
+  <Iteration_query-len>332</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|29726784|pdb|1NWL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Ptp1b Complexed With Sp7343-Sp7964, A Ptyr Mimetic &gt;gi|30749776|pdb|1NWE|A Chain A, Ptp1b R47c Modified At C47 With N-[4-(2-{2-[3-(2-Bromo- Acetylamino)-Propionylamino]-3-Hydroxy-Propionylamino}- Ethyl)-Phenyl]-Oxalamic Acid</Hit_def>
+  <Hit_accession>1NWL_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.649285</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTVGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+ + H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|190016358|pdb|3CWE|A</Hit_id>
+  <Hit_def>Chain A, Ptp1b In Complex With A Phosphonic Acid Inhibitor</Hit_def>
+  <Hit_accession>3CWE_A</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.30202</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|88193039|pdb|2FJM|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 2 &gt;gi|88193040|pdb|2FJM|B Chain B, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 2</Hit_def>
+  <Hit_accession>2FJM_A</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.56078</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSVKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|22219272|pdb|1LQF|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Ptp1b In Complex With A Peptidic Bisphosphonate Inhibitor &gt;gi|22219273|pdb|1LQF|B Chain B, Structure Of Ptp1b In Complex With A Peptidic Bisphosphonate Inhibitor &gt;gi|22219274|pdb|1LQF|C Chain C, Structure Of Ptp1b In Complex With A Peptidic Bisphosphonate Inhibitor &gt;gi|22219275|pdb|1LQF|D Chain D, Structure Of Ptp1b In Complex With A Peptidic Bisphosphonate Inhibitor</Hit_def>
+  <Hit_accession>1LQF_A</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.65277</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|302566001|pdb|3A5K|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein-Tyrosine Phosphatase 1b</Hit_def>
+  <Hit_accession>3A5K_A</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.70547</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKWAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|83755060|pdb|2F6F|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of The S295f Mutant Of Human Ptp1b</Hit_def>
+  <Hit_accession>2F6F_A</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.7308</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|83754201|pdb|2AZR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ptp1b With Bicyclic Thiophene Inhibitor &gt;gi|83754202|pdb|2B07|A Chain A, Crystal Structure Of Ptp1b With Tricyclic Thiophene Inhibitor. &gt;gi|114794197|pdb|2H4G|A Chain A, Crystal Structure Of Ptp1b With Monocyclic Thiophene Inhibitor &gt;gi|114794202|pdb|2H4K|A Chain A, Crystal Structure Of Ptp1b With A Monocyclic Thiophene Inhibitor &gt;gi|114794302|pdb|2HB1|A Chain A, Crystal Structure Of Ptp1b With Monocyclic Thiophene Inhibitor &gt;gi|170292273|pdb|2QBP|A Chain A, Crystal Structure Of Ptp1b-inhibitor Complex &gt;gi|170292274|pdb|2QBQ|A Chain A, Crystal Structure Of Ptp1b-Inhibitor Complex &gt;gi|170292275|pdb|2QBR|A Chain A, Crystal Structure Of Ptp1b-Inhibitor Complex &gt;gi|170292276|pdb|2QBS|A Chain A, Crystal Structure Of Ptp1b-Inhibitor Complex &gt;gi|209156405|pdb|2ZMM|A Chain A, Crystal Structure Of Ptp1b-Inhibitor Complex &gt;gi|209156406|pdb|2ZN7|A Chain A, Crystal Structures Of Ptp1b-Inhibitor Complexes &gt;gi|756142530|pdb|4QBW|A Chain A, The Second Sphere Residue T263 Is Important For Function And Activity Of Ptp1b Through Modulating Wpd Loop</Hit_def>
+  <Hit_accession>2AZR_A</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.75378</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|6729926|pdb|1BZH|A</Hit_id>
+  <Hit_def>Chain A, Cyclic Peptide Inhibitor Of Human Ptp1b</Hit_def>
+  <Hit_accession>1BZH_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.78238</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|14488468|pdb|1G7G|A</Hit_id>
+  <Hit_def>Chain A, Human Ptp1b Catalytic Domain Complexes With Pnu179326 &gt;gi|20150409|pdb|1JF7|A Chain A, Human Ptp1b Catalytic Domain Complexed With Pnu177836 &gt;gi|20150410|pdb|1JF7|B Chain B, Human Ptp1b Catalytic Domain Complexed With Pnu177836 &gt;gi|21730447|pdb|1KAK|A Chain A, Human Tyrosine Phosphatase 1b Complexed With An Inhibitor &gt;gi|21730450|pdb|1KAV|A Chain A, Human Tyrosine Phosphatase 1b Complexed With An Inhibitor &gt;gi|51247545|pdb|1T48|A Chain A, Allosteric Inhibition Of Protein Tyrosine Phosphatase 1b &gt;gi|51247546|pdb|1T49|A Chain A, Allosteric Inhibition Of Protein Tyrosine Phosphatase 1b &gt;gi|51247553|pdb|1T4J|A Chain A, Allosteric Inhibition Of Protein Tyrosine Phosphatase 1b &gt;gi|85544618|pdb|2F6T|A Chain A, Protein Tyrosine Phosphatase 1b With Sulfamic Acid Inhibitors &gt;gi|85544619|pdb|2F6V|A Chain A, Protein Tyrosine Phosphatase 1b With Sulfamic Acid Inhibitors &gt;gi|85544620|pdb|2F6W|A Chain A, Protein Tyrosine Phosphatase 1b With Sulfamic Acid Inhibitors &gt;gi|85544621|pdb|2F6Y|A Chain A, Protein Tyrosine Phosphatase 1b With Sulfamic Acid Inhibitors &gt;gi|85544622|pdb|2F6Z|A Chain A, Protein Tyrosine Phosphatase 1b With Sulfamic Acid Inhibitors &gt;gi|85544623|pdb|2F70|A Chain A, Protein Tyrosine Phosphatase 1b With Sulfamic Acid Inhibitors &gt;gi|85544624|pdb|2F71|A Chain A, Protein Tyrosine Phosphatase 1b With Sulfamic Acid Inhibitors</Hit_def>
+  <Hit_accession>1G7G_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.78238</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|6729771|pdb|1BZJ|A</Hit_id>
+  <Hit_def>Chain A, Human Ptp1b Complexed With Tpicooh</Hit_def>
+  <Hit_accession>1BZJ_A</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.79547</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|114793616|pdb|2CM2|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Protein Tyrosine Phosphatase 1b (P212121) &gt;gi|114793617|pdb|2CM3|A Chain A, Structure Of Protein Tyrosine Phosphatase 1b (C2) &gt;gi|114793618|pdb|2CM3|B Chain B, Structure Of Protein Tyrosine Phosphatase 1b (C2) &gt;gi|114793622|pdb|2CMB|A Chain A, Structural Basis For Inhibition Of Protein Tyrosine Phosphatase 1b By Isothiazolidinone Heterocyclic Phosphonate Mimetics &gt;gi|114793623|pdb|2CMC|A Chain A, Structural Basis For Inhibition Of Protein Tyrosine Phosphatase 1b By Isothiazolidinone Heterocyclic Phosphonate Mimetics &gt;gi|116666941|pdb|2CNE|A Chain A, Structural Insights Into The Design Of Nonpeptidic Isothiazolidinone-Containing Inhibitors Of Protein Tyrosine Phosphatase 1b</Hit_def>
+  <Hit_accession>2CM2_A</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.79843</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|756142529|pdb|4QAP|A</Hit_id>
+  <Hit_def>Chain A, The Second Sphere Residue T263 Is Important For Function And Activity Of Ptp1b Through Modulating Wpd Loop</Hit_def>
+  <Hit_accession>4QAP_A</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.81698</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6729770|pdb|1BZC|A</Hit_id>
+  <Hit_def>Chain A, Human Ptp1b Catalytic Domain Complexed With Tpi</Hit_def>
+  <Hit_accession>1BZC_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.82446</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|30749633|pdb|1NL9|A</Hit_id>
+  <Hit_def>Chain A, Potent, Selective Protein Tyrosine Phosphatase 1b Inhibitor Compound 12 Using A Linked-Fragment Strategy &gt;gi|30749646|pdb|1NNY|A Chain A, Potent, Selective Protein Tyrosine Phosphatase 1b Inhibitor Compound 23 Using A Linked-fragment Strategy &gt;gi|30749650|pdb|1NO6|A Chain A, Potent, Selective Protein Tyrosine Phosphatase 1b Inhibitor Compound 5 Using A Linked-fragment Strategy &gt;gi|31615738|pdb|1NZ7|A Chain A, Potent, Selective Inhibitors Of Protein Tyrosine Phosphatase 1b Using A Second Phosphotyrosine Binding Site, Complexed With Compound 19. &gt;gi|31615827|pdb|1ONY|A Chain A, Oxalyl-aryl-amino Benzoic Acid Inhibitors Of Ptp1b, Compound 17 &gt;gi|31615828|pdb|1ONZ|A Chain A, Oxalyl-Aryl-Amino Benzoic Acid Inhibitors Of Ptp1b, Compound 8b &gt;gi|33357676|pdb|1OEM|X Chain X, Ptp1b With The Catalytic Cysteine Oxidized To A Sulfenyl-Amide Bond &gt;gi|33357678|pdb|1OES|A Chain A, Oxidation State Of Protein Tyrosine Phosphatase 1b &gt;gi|34810681|pdb|1PXH|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b With Potent And Selective Bidentate Inhibitor Compound 2 &gt;gi|34811049|pdb|1PH0|A Chain A, Non-Carboxylic Acid-Containing Inhibitor Of Ptp1b Targeting The Second Phosphotyrosine Site &gt;gi|37927669|pdb|1PYN|A Chain A, Dual-Site Potent, Selective Protein Tyrosine Phosphatase 1b Inhibitor Using A Linked Fragment Strategy And A Malonate Head On The First Site &gt;gi|37927761|pdb|1Q1M|A Chain A, A Highly Efficient Approach To A Selective And Cell Active Ptp1b Inhibitors &gt;gi|38492948|pdb|1QXK|A Chain A, Monoacid-Based, Cell Permeable, Selective Inhibitors Of Protein Tyrosine Phosphatase 1b &gt;gi|55669778|pdb|1SUG|A Chain A, 1.95 A Structure Of Apo Protein Tyrosine Phosphatase 1b &gt;gi|56554457|pdb|1XBO|A Chain A, Ptp1b Complexed With Isoxazole Carboxylic Acid &gt;gi|60593848|pdb|1WAX|A Chain A, Protein Tyrosine Phosphatase 1b With Active Site Inhibitor &gt;gi|67464637|pdb|2BGD|A Chain A, Structure-based Design Of Protein Tyrosine Phosphatase-1b Inhibitors &gt;gi|67464638|pdb|2BGE|A Chain A, Structure-Based Design Of Protein Tyrosine Phosphatase-1b Inhibitors &gt;gi|114793619|pdb|2CM7|A Chain A, Structural Basis For Inhibition Of Protein Tyrosine Phosphatase 1b By Isothiazolidinone Heterocyclic Phosphonate Mimetics &gt;gi|114793620|pdb|2CM8|A Chain A, Structural Basis For Inhibition Of Protein Tyrosine Phosphatase 1b By Isothiazolidinone Heterocyclic Phosphonate Mimetics &gt;gi|116666942|pdb|2CNF|A Chain A, Structural Insights Into The Design Of Nonpeptidic Isothiazolidinone-Containing Inhibitors Of Protein Tyrosine Phosphatase 1b &gt;gi|116666943|pdb|2CNG|A Chain A, Structural Insights Into The Design Of Nonpeptidic Isothiazolidinone-Containing Inhibitors Of Protein Tyrosine Phosphatase 1b &gt;gi|116666944|pdb|2CNH|A Chain A, Structural Insights Into The Design Of Nonpeptidic Isothiazolidinone-Containing Inhibitors Of Protein Tyrosine Phosphatase 1b &gt;gi|116666945|pdb|2CNI|A Chain A, Structural Insights Into The Design Of Nonpeptidic Isothiazolidinone-Containing Inhibitors Of Protein Tyrosine Phosphatase 1b &gt;gi|157835072|pdb|2HNP|A Chain A, Crystal Structure Of Human Protein Tyrosine Phosphatase 1b &gt;gi|157835073|pdb|2HNQ|A Chain A, Crystal Structure Of Human Protein Tyrosine Phosphatase 1b &gt;gi|160286182|pdb|2VEU|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b In Complex With An Isothiazolidinone-containing Inhibitor &gt;gi|160286184|pdb|2VEV|A Chain A, Crystal Strucutre Of Protein Tyrosine Phosphatase 1b In Complex With An Isothiazolidinone-Containing Inhibitor &gt;gi|160286185|pdb|2VEW|A Chain A, Crystal Strucutre Of Protein Tyrosine Phosphatase 1b In Complex With An Isothiazolidinone-Containing Inhibitor &gt;gi|160286187|pdb|2VEX|A Chain A, Crystal Strucutre Of Protein Tyrosine Phosphatase 1b In Complex With An Isothiazolidinone-Containing Inhibitor &gt;gi|160286189|pdb|2VEY|A Chain A, Crystal Strucutre Of Protein Tyrosine Phosphatase 1b In Complex With An Isothiazolidinone-Containing Inhibitor &gt;gi|206582007|pdb|3D9C|A Chain A, Crystal Structure Ptp1b Complex With Aryl Seleninic Acid &gt;gi|251836904|pdb|3EAX|A Chain A, Crystal Structure Ptp1b Complex With Small Molecule Compound Lzp-6 &gt;gi|251836905|pdb|3EB1|A Chain A, Crystal Structure Ptp1b Complex With Small Molecule Inhibitor Lzp-25 &gt;gi|291191115|pdb|3I7Z|A Chain A, Protein Tyrosine Phosphatase 1b - Transition State Analog Fo First Catalytic Step &gt;gi|291191117|pdb|3I80|A Chain A, Protein Tyrosine Phosphatase 1b - Transition State Analog Fo Second Catalytic Step</Hit_def>
+  <Hit_accession>1NL9_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.82446</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|9256882|pdb|1GFY|A</Hit_id>
+  <Hit_def>Chain A, Residue 259 Is A Key Determinant Of Substrate Specificity Of Protein-Tyrosine Phosphatase 1b And Alpha</Hit_def>
+  <Hit_accession>1GFY_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.83035</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKTYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK + +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|114793621|pdb|2CMA|A</Hit_id>
+  <Hit_def>Chain A, Structural Basis For Inhibition Of Protein Tyrosine Phosphatase 1b By Isothiazolidinone Heterocyclic Phosphonate Mimetics &gt;gi|302566000|pdb|3A5J|A Chain A, Crystal Structure Of Protein-Tyrosine Phosphatase 1b</Hit_def>
+  <Hit_accession>2CMA_A</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.83819</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|157877050|pdb|1G7F|A</Hit_id>
+  <Hit_def>Chain A, Human Ptp1b Catalytic Domain Complexed With Pnu177496</Hit_def>
+  <Hit_accession>1G7F_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.84662</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|353251813|pdb|3SME|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Ptp1b Inactivated By H2o2BICARBONATE</Hit_def>
+  <Hit_accession>3SME_A</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.85222</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|400260484|pdb|3QKP|A</Hit_id>
+  <Hit_def>Chain A, Protein Tyrosine Phosphatase 1b - Apo W179f Mutant With Open Wpd-Loop &gt;gi|400260485|pdb|3QKQ|A Chain A, Protein Tyrosine Phosphatase 1b - W179f Mutant Bound With Vanadate</Hit_def>
+  <Hit_accession>3QKP_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.85695</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>154</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQRRMLHGMLEQENAAPTLSSLSREELEMLRSTLGD</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ-------LELENLT---TQETREILHFHYTTFPD</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q       LE EN     +  +RE L    +T  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|157829699|pdb|1A5Y|A</Hit_id>
+  <Hit_def>Chain A, Protein Tyrosine Phosphatase 1b Cysteinyl-Phosphate Intermediate</Hit_def>
+  <Hit_accession>1A5Y_A</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.86122</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|146387305|pdb|2NT7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ptp1b-inhibitor Complex &gt;gi|146387306|pdb|2NTA|A Chain A, Crystal Structure Of Ptp1b-Inhibitor Complex</Hit_def>
+  <Hit_accession>2NT7_A</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.86587</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|910750870|pdb|4Y14|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Protein Tyrosine Phosphatase 1b Complexed With Inhibitor (ptp1b:cpt157633) &gt;gi|910750871|pdb|4Y14|B Chain B, Structure Of Protein Tyrosine Phosphatase 1b Complexed With Inhibitor (ptp1b:cpt157633)</Hit_def>
+  <Hit_accession>4Y14_A</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.92424</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>88</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|433286887|pdb|4I8N|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b In Complex With An Inhibitor [(4-{(2s)-2-(1,3-benzoxazol-2-yl)-2-[(4-fluorophenyl) Sulfamoyl]ethyl}phenyl)amino](oxo)acetic Acid</Hit_def>
+  <Hit_accession>4I8N_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.92788</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>117</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|13096218|pdb|1EEN|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With Acetyl-D-A-D-Bpa-Ptyr-L-I-P-Q-Q-G &gt;gi|13096220|pdb|1EEO|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With Acetyl-E-L-E-F-Ptyr-M-D-Y-E-Nh2 &gt;gi|157833582|pdb|1PTY|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With Two Phosphotyrosine Molecules</Hit_def>
+  <Hit_accession>1EEN_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.9753</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|157829775|pdb|1AAX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With Two Bis(Para-Phosphophenyl)methane (Bppm) Molecules</Hit_def>
+  <Hit_accession>1AAX_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.9753</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|7766808|pdb|1C86|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b (R47v, D48n) Complexed With 2-(Oxalyl-Amino-4,7-Dihydro-5h- Thieno[2,3-C]pyran-3-Carboxylic Acid</Hit_def>
+  <Hit_accession>1C86_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>1.99974</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKTYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK + +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|21465993|pdb|1L8G|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ptp1b Complexed With 7-(1,1-dioxo-1h- Benzo[d]isothiazol-3-yloxymethyl)-2-(oxalyl-amino)-4,7- Dihydro-5h-thieno[2,3-c]pyran-3-carboxylic Acid</Hit_def>
+  <Hit_accession>1L8G_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.01048</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKTYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK + +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|345111100|pdb|3ZV2|A</Hit_id>
+  <Hit_def>Chain A, Human Protein-Tyrosine Phosphatase 1b C215a, S216a Mutant</Hit_def>
+  <Hit_accession>3ZV2_A</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.02572</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|584579614|pdb|4BJO|A</Hit_id>
+  <Hit_def>Chain A, Nitrate In The Active Site Of Ptp1b Is A Putative Mimetic Of The Transition State &gt;gi|584579615|pdb|4BJO|B Chain B, Nitrate In The Active Site Of Ptp1b Is A Putative Mimetic Of The Transition State</Hit_def>
+  <Hit_accession>4BJO_A</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.06978</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|7546544|pdb|1ECV|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With 5-Iodo-2-(Oxalyl-Amino)-Benzoic Acid &gt;gi|7766805|pdb|1C83|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With 6-(Oxalyl-Amino)-1h-Indole-5-Carboxylic Acid &gt;gi|7766806|pdb|1C84|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With 3-(Oxalyl-Amino)-Naphthalene-2-Carboxlic Acid &gt;gi|7766807|pdb|1C85|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With 2-(Oxalyl-Amino)-Benzoic Acid &gt;gi|7766809|pdb|1C87|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With 2-(Oxalyl-Amino-4,7-Dihydro-5h-Thieno[2,3- C]pyran-3-Carboxylic Acid &gt;gi|7766810|pdb|1C88|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With 2-(Oxalyl-Amino)-4,5,6,7-Tetrahydro- Thieno[2,3-C]pyridine-3-Carboxylic Acid</Hit_def>
+  <Hit_accession>1ECV_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.07181</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKTYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK + +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|13096596|pdb|1G1F|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With A Tri-Phosphorylated Peptide (Rdi(Ptr) Etd(Ptr)(Ptr)rk) From The Insulin Receptor Kinase &gt;gi|13096598|pdb|1G1G|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With A Mono-Phosphorylated Peptide (Etdy(Ptr) Rkggkgll) From The Insulin Receptor Kinase &gt;gi|13096600|pdb|1G1H|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With A Bis-Phosphorylated Peptide (Etd(Ptr)(Ptr) Rkggkgll) From The Insulin Receptor Kinase &gt;gi|83754227|pdb|2B4S|A Chain A, Crystal Structure Of A Complex Between Ptp1b And The Insulin Receptor Tyrosine Kinase &gt;gi|83754229|pdb|2B4S|C Chain C, Crystal Structure Of A Complex Between Ptp1b And The Insulin Receptor Tyrosine Kinase</Hit_def>
+  <Hit_accession>1G1F_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.1088</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|848130582|pdb|4ZRT|A</Hit_id>
+  <Hit_def>Chain A, Ptp1bc215s Bound To Nephrin Peptide Substrate</Hit_def>
+  <Hit_accession>4ZRT_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.1088</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|575403145|pdb|3ZMP|A</Hit_id>
+  <Hit_def>Chain A, Src-derived Peptide Inhibitor Complex Of Ptp1b &gt;gi|575403146|pdb|3ZMP|B Chain B, Src-derived Peptide Inhibitor Complex Of Ptp1b &gt;gi|575403149|pdb|3ZMQ|A Chain A, Src-derived Mutant Peptide Inhibitor Complex Of Ptp1b</Hit_def>
+  <Hit_accession>3ZMP_A</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.15964</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|37927867|pdb|1Q6J|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 2 &gt;gi|37927869|pdb|1Q6M|A Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 3 &gt;gi|37927873|pdb|1Q6N|A Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 4 &gt;gi|37927874|pdb|1Q6N|B Chain B, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 4 &gt;gi|37927875|pdb|1Q6P|A Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 6 &gt;gi|37927876|pdb|1Q6P|B Chain B, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 6 &gt;gi|37927879|pdb|1Q6S|A Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 9 &gt;gi|37927880|pdb|1Q6S|B Chain B, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 9 &gt;gi|37927885|pdb|1Q6T|A Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 11 &gt;gi|37927886|pdb|1Q6T|B Chain B, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 11 &gt;gi|88193041|pdb|2FJN|A Chain A, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 2 &gt;gi|88193042|pdb|2FJN|B Chain B, The Structure Of Phosphotyrosine Phosphatase 1b In Complex With Compound 2</Hit_def>
+  <Hit_accession>1Q6J_A</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.16451</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|33357677|pdb|1OEO|X</Hit_id>
+  <Hit_def>Chain X, Ptp1b With The Catalytic Cysteine Oxidized To Sulfonic Acid &gt;gi|33357679|pdb|1OET|A Chain A, Oxidation State Of Protein Tyrosine Phosphatase 1b &gt;gi|33357683|pdb|1OEU|A Chain A, Oxidation State Of Protein Tyrosine Phosphatase 1b &gt;gi|33357684|pdb|1OEV|A Chain A, Oxidation State Of Protein Tyrosine Phosphatase 1b</Hit_def>
+  <Hit_accession>1OEO_X</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.17668</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|212375048|pdb|3EU0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The S-Nitrosylated Cys215 Of Ptp1b</Hit_def>
+  <Hit_accession>3EU0_A</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.19282</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1827883|pdb|1PTU|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With Phosphotyrosine-Containing Hexa-Peptide (Dadepyl-Nh2) &gt;gi|1827885|pdb|1PTT|A Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With Phosphotyrosine-Containing Tetra-Peptide (Ac-Depyl-Nh2)</Hit_def>
+  <Hit_accession>1PTU_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.3359</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKTYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK + +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1827881|pdb|1PTV|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Protein Tyrosine Phosphatase 1b Complexed With Phosphotyrosine</Hit_def>
+  <Hit_accession>1PTV_A</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.3566</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>83</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKTYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK + +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|15825777|pdb|1I57|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo Human Ptp1b (C215s) Mutant</Hit_def>
+  <Hit_accession>1I57_A</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.49319</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|34810874|pdb|1PA1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The C215d Mutant Of Protein Tyrosine Phosphatase 1b</Hit_def>
+  <Hit_accession>1PA1_A</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.56015</Hsp_evalue>
+      <Hsp_query-from>47</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSRGALPSLISHKERMFWEIRGPQGSVYILGTISVGSEKLLHF--QDKILDVFDSASRLYAELGSEDIKNFASVLQ</Hsp_qseq>
+      <Hsp_hseq>LTQGPLPNTCGHFWEMVWEQKS-RGVVMLNRVMEKGSLKCAQYWPQKEEKEMIFEDTNLKLTLISEDIKSYYTVRQ</Hsp_hseq>
+      <Hsp_midline>L++G LP+   H   M WE +  +G V +   +  GS K   +  Q +  ++    + L   L SEDIK++ +V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|400260708|pdb|4AP5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Pofut2 &gt;gi|400260709|pdb|4AP5|B Chain B, Crystal Structure Of Human Pofut2</Hit_def>
+  <Hit_accession>4AP5_A</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.47625</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>315</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>REELEMLRSTLGDDMHTLSRFEPWVMRVALY---------QALIAHTKLDSGKNIEAFLYQRAGNRKILGLD</Hsp_qseq>
+      <Hsp_hseq>RKEYEELKKLLPE----MVRFEPTWEELELYKDGGVAIIDQWICAHARFFIGTSVSTFSFRIHEEREILGLD</Hsp_hseq>
+      <Hsp_midline>R+E E L+  L +    + RFEP    + LY         Q + AH +   G ++  F ++    R+ILGLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|400260710|pdb|4AP6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Pofut2 E54a Mutant In Complex With Gdp- Fucose &gt;gi|400260711|pdb|4AP6|B Chain B, Crystal Structure Of Human Pofut2 E54a Mutant In Complex With Gdp- Fucose &gt;gi|400260712|pdb|4AP6|C Chain C, Crystal Structure Of Human Pofut2 E54a Mutant In Complex With Gdp- Fucose &gt;gi|400260713|pdb|4AP6|D Chain D, Crystal Structure Of Human Pofut2 E54a Mutant In Complex With Gdp- Fucose</Hit_def>
+  <Hit_accession>4AP6_A</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>3.76345</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>329</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>REELEMLRSTLGDDMHTLSRFEPWVMRVALY---------QALIAHTKLDSGKNIEAFLYQRAGNRKILGLD</Hsp_qseq>
+      <Hsp_hseq>RKEYEELKKLLPE----MVRFEPTWEELELYKDGGVAIIDQWICAHARFFIGTSVSTFSFRIHEEREILGLD</Hsp_hseq>
+      <Hsp_midline>R+E E L+  L +    + RFEP    + LY         Q + AH +   G ++  F ++    R+ILGLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|303325046|pdb|3MZK|B</Hit_id>
+  <Hit_def>Chain B, Sec13SEC16 COMPLEX, S.CEREVISIAE &gt;gi|303325047|pdb|3MZK|C Chain C, Sec13SEC16 COMPLEX, S.CEREVISIAE</Hit_def>
+  <Hit_accession>3MZK_B</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>4.19159</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>152</Hsp_query-to>
+      <Hsp_hit-from>299</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>SVYILGTISVGSEKLLHFQDKI------LDVFDSA--SRLYAELGSED--IKNFASVLQRRMLHGMLEQENAAPTLSSLSREELEMLRSTL</Hsp_qseq>
+      <Hsp_hseq>TLFIIGNVPLSNEPVMADSDVIFESIGNMNTFESILWDEIYEYIFSYDPKFKGFSSILPQKIYHASLLQEQG---LNSLGTKYTDYLSSSV</Hsp_hseq>
+      <Hsp_midline>+++I+G + + +E ++   D I      ++ F+S     +Y  + S D   K F+S+L +++ H  L QE     L+SL  +  + L S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|229597994|pdb|3H5O|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Transcription Regulator Gntr From Chromobacterium Violaceum &gt;gi|229597995|pdb|3H5O|B Chain B, The Crystal Structure Of Transcription Regulator Gntr From Chromobacterium Violaceum</Hit_def>
+  <Hit_accession>3H5O_A</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.68183</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>AAPTLSSLSREELEMLRSTLGDD--MHTLSRFEPWVMRVALYQALIAHTKLDSGKNIE---AFLYQRAGNRKILGLDSIQKHLNMLSFGNREEQITLLRALIALGKSPADF--KGRLGALVRSYLSNDKTALGRVSTELDALVTK</Hsp_qseq>
+      <Hsp_hseq>SASTLASAKSRTVLVLIPSLANTVFLETLTGIE-TVLDAAGYQXLIGNSHYDAGQELQLLRAYLQHRPDGVLITGLSHAEPFERILS--QHALPVVYXXDLADDGRCCVGFSQEDAGAAITRHLLSRGKRRIGFLGAQLDERVXK</Hsp_hseq>
+      <Hsp_midline>+A TL+S     + +L  +L +   + TL+  E  V+  A YQ LI ++  D+G+ ++   A+L  R     I GL   +    +LS       +     L   G+    F  +    A+ R  LS  K  +G +  +LD  V K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

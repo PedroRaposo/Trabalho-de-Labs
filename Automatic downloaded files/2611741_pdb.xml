@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_213857</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611741</BlastOutput_query-def>
+  <BlastOutput_query-len>614</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_213857</Iteration_query-ID>
+  <Iteration_query-def>2611741</Iteration_query-def>
+  <Iteration_query-len>614</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|378792586|pdb|3ZX6|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Hamp(af1503)-tsr Fusion - Hamp (a291v) Mutant &gt;gi|378792587|pdb|3ZX6|B Chain B, Structure Of Hamp(af1503)-tsr Fusion - Hamp (a291v) Mutant</Hit_def>
+  <Hit_accession>3ZX6_A</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>3.0543e-10</Hsp_evalue>
+      <Hsp_query-from>407</Hsp_query-from>
+      <Hsp_query-to>545</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>274</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>REVLHASEALAEAGAVIQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDVKTEIEKVS---ESALAVQAQFALIFSITTDIKAQEEVISQSMVEQTKDSVHVLHAIQHITEITRTLQEN</Hsp_qseq>
+      <Hsp_hseq>RDISTSSQKIADIISVIDGIAFQTNILALNAAVEAARAGEQGRGFAVVAGEVRNLAQRSAQAAREIKSLIEDSVGKVDVGSTLVESAGETMAEIVSAVTRVTDIMGE---IASASDEQSRGIDQVGLA---VAEMDRVTQQN</Hsp_hseq>
+      <Hsp_midline>R++  +S+ +A+  +VI  IA QTN+LA+NA++EA    E G+GF VVA E+R LA+ +++  + I +++ D   +++  S   ESA    A+     +  TDI  +   I+ +  EQ++    V  A   + E+ R  Q+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|9955271|pdb|1QU7|A</Hit_id>
+  <Hit_def>Chain A, Four Helical-Bundle Structure Of The Cytoplasmic Domain Of A Chemotaxis Receptor &gt;gi|9955272|pdb|1QU7|B Chain B, Four Helical-Bundle Structure Of The Cytoplasmic Domain Of A Chemotaxis Receptor</Hit_def>
+  <Hit_accession>1QU7_A</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>3.74515e-10</Hsp_evalue>
+      <Hsp_query-from>407</Hsp_query-from>
+      <Hsp_query-to>546</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>REVLHASEALAEAGAVIQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDVKTEIEKVS---ESALAVQAQFALIFSITTDIKAQEEVISQSMVEQTKDSVHVLHAIQHITEITRTLQENS</Hsp_qseq>
+      <Hsp_hseq>RDISTSSQKIADIISVIDGIAFQTNILALNAAVEAARAGEQGRGFAVVAGEVRNLAQRSAQAAREIKSLIEDSVGKVDVGSTLVESAGETMAEIVSAVTRVTDIMGE---IASASDEQSRGIDQVGLA---VAEMDRVTQQNA</Hsp_hseq>
+      <Hsp_midline>R++  +S+ +A+  +VI  IA QTN+LA+NA++EA    E G+GF VVA E+R LA+ +++  + I +++ D   +++  S   ESA    A+     +  TDI  +   I+ +  EQ++    V  A   + E+ R  Q+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|960515320|pdb|3JA6|H</Hit_id>
+  <Hit_def>Chain H, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515322|pdb|3JA6|J Chain J, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515324|pdb|3JA6|L Chain L, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515326|pdb|3JA6|N Chain N, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515328|pdb|3JA6|P Chain P, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515330|pdb|3JA6|R Chain R, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling</Hit_def>
+  <Hit_accession>3JA6_H</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.69677e-10</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDVKT</Hsp_qseq>
+      <Hsp_hseq>INAIAEQTNLLALNAAIEAARAGEAGRGFAVVADEIRKLAEESQQASENVRRVVNEIRS</Hsp_hseq>
+      <Hsp_midline>I  IA QTNLLA+NA+IEA    E+G+GF VVA EIR+LAE++ +  +++  V+ ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|99031961|pdb|2CH7|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of The Cytoplasmic Domain Of A Bacterial Chemoreceptor From Thermotoga Maritima</Hit_def>
+  <Hit_accession>2CH7_B</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>8.08963e-10</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDVKT</Hsp_qseq>
+      <Hsp_hseq>INAIAEQTNLLALNAAIEAARAGEAGRGFAVVADEIRKLAEESQQASENVRRVVNEIRS</Hsp_hseq>
+      <Hsp_midline>I  IA QTNLLA+NA+IEA    E+G+GF VVA EIR+LAE++ +  +++  V+ ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|99031960|pdb|2CH7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Cytoplasmic Domain Of A Bacterial Chemoreceptor From Thermotoga Maritima &gt;gi|960515319|pdb|3JA6|G Chain G, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515321|pdb|3JA6|I Chain I, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515323|pdb|3JA6|K Chain K, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515325|pdb|3JA6|M Chain M, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515327|pdb|3JA6|O Chain O, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling &gt;gi|960515329|pdb|3JA6|Q Chain Q, Cryo-electron Tomography And All-atom Molecular Dynamics Simulations Reveal A Novel Kinase Conformational Switch In Bacterial Chemotaxis Signaling</Hit_def>
+  <Hit_accession>2CH7_A</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>8.2379e-10</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>IQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDVKT</Hsp_qseq>
+      <Hsp_hseq>INAIAEQTNLLALNAAIEAARAGEAGRGFAVVADEIRKLAEESQQASENVRRVVNEIRS</Hsp_hseq>
+      <Hsp_midline>I  IA QTNLLA+NA+IEA    E+G+GF VVA EIR+LAE++ +  +++  V+ ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|379318473|pdb|3UR1|C</Hit_id>
+  <Hit_def>Chain C, The Structure Of A Ternary Complex Between Chea Domains P4 And P5 With Chew And With A Truncated Fragment Of Tm14, A Chemoreceptor Analog From Thermotoga Maritima. &gt;gi|379318474|pdb|3UR1|D Chain D, The Structure Of A Ternary Complex Between Chea Domains P4 And P5 With Chew And With A Truncated Fragment Of Tm14, A Chemoreceptor Analog From Thermotoga Maritima.</Hit_def>
+  <Hit_accession>3UR1_C</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>6.7785e-07</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>IQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDV</Hsp_qseq>
+      <Hsp_hseq>IMRIARETNILALNATIEAARAGEAGKGFMIVANEVQNLSNETNEVTKQIVEKAREI</Hsp_hseq>
+      <Hsp_midline>I  IA +TN+LA+NA+IEA    E+G+GF +VA+E++ L+ + ++  K I    R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|534286555|pdb|4JPB|B</Hit_id>
+  <Hit_def>Chain B, The Structure Of A Ternary Complex Between Chea Domains P4 And P5 With Chew And With An Unzipped Fragment Of Tm14, A Chemoreceptor Analog From Thermotoga Maritima. &gt;gi|534286556|pdb|4JPB|C Chain C, The Structure Of A Ternary Complex Between Chea Domains P4 And P5 With Chew And With An Unzipped Fragment Of Tm14, A Chemoreceptor Analog From Thermotoga Maritima.</Hit_def>
+  <Hit_accession>4JPB_B</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>8.70284e-07</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>IQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDV</Hsp_qseq>
+      <Hsp_hseq>IMRIARETNILALNATIEAARAGEAGKGFMIVANEVQNLSNETNEVTKQIVEKAREI</Hsp_hseq>
+      <Hsp_midline>I  IA +TN+LA+NA+IEA    E+G+GF +VA+E++ L+ + ++  K I    R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254839312|pdb|3G6B|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Soluble Chemoreceptor From Thermotoga Maritima Asn217ile Mutant &gt;gi|254839313|pdb|3G6B|B Chain B, Crystal Structure Of A Soluble Chemoreceptor From Thermotoga Maritima Asn217ile Mutant</Hit_def>
+  <Hit_accession>3G6B_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.97029e-06</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>IQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDV</Hsp_qseq>
+      <Hsp_hseq>IMRIARETNILALNATIEAARAGEAGKGFMIVANEVQNLSNETNEVTKQIVEKAREI</Hsp_hseq>
+      <Hsp_midline>I  IA +TN+LA+NA+IEA    E+G+GF +VA+E++ L+ + ++  K I    R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254839310|pdb|3G67|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Soluble Chemoreceptor From Thermotoga Maritima &gt;gi|254839311|pdb|3G67|B Chain B, Crystal Structure Of A Soluble Chemoreceptor From Thermotoga Maritima</Hit_def>
+  <Hit_accession>3G67_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.98891e-06</Hsp_evalue>
+      <Hsp_query-from>423</Hsp_query-from>
+      <Hsp_query-to>479</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>IQHIASQTNLLAMNASIEATYCKESGQGFEVVASEIRRLAEDASKQGKHISAVLRDV</Hsp_qseq>
+      <Hsp_hseq>IMRIARETNILALNATIEAARAGEAGKGFMIVANEVQNLSNETNEVTKQIVEKAREI</Hsp_hseq>
+      <Hsp_midline>I  IA +TN+LA+NA+IEA    E+G+GF +VA+E++ L+ + ++  K I    R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|594149431|pdb|4OAU|C</Hit_id>
+  <Hit_def>Chain C, Complete Human Rnase L In Complex With Biological Activators. &gt;gi|594149433|pdb|4OAV|B Chain B, Complete Human Rnase L In Complex With 2-5a (5&apos;-ppp Heptamer), Amppcp And Rna Substrate. &gt;gi|594149435|pdb|4OAV|D Chain D, Complete Human Rnase L In Complex With 2-5a (5&apos;-ppp Heptamer), Amppcp And Rna Substrate.</Hit_def>
+  <Hit_accession>4OAU_C</Hit_accession>
+  <Hit_len>699</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.40703</Hsp_evalue>
+      <Hsp_query-from>477</Hsp_query-from>
+      <Hsp_query-to>542</Hsp_query-to>
+      <Hsp_hit-from>495</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>RDVKTEIEKVSESALAVQAQFALIFSITTDIKAQ--EEVISQSMVEQTKDSVHVL-HAIQHITEITRTL</Hsp_qseq>
+      <Hsp_hseq>QEVKRDLEDLGRLVLYVVKKGSISFE---DLKAQSNEEVVQLSPDEETKDLIHRLFHPGEHVRDCLSDL</Hsp_hseq>
+      <Hsp_midline>++VK ++E +    L V  + ++ F    D+KAQ  EEV+  S  E+TKD +H L H  +H+ +    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|403072245|pdb|4GBJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Nad-Binding 6-Phosphogluconate Dehydrogenase From Dyadobacter Fermentans &gt;gi|403072246|pdb|4GBJ|B Chain B, Crystal Structure Of Nad-Binding 6-Phosphogluconate Dehydrogenase From Dyadobacter Fermentans &gt;gi|403072247|pdb|4GBJ|C Chain C, Crystal Structure Of Nad-Binding 6-Phosphogluconate Dehydrogenase From Dyadobacter Fermentans &gt;gi|403072248|pdb|4GBJ|D Chain D, Crystal Structure Of Nad-Binding 6-Phosphogluconate Dehydrogenase From Dyadobacter Fermentans</Hit_def>
+  <Hit_accession>4GBJ_A</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.87835</Hsp_evalue>
+      <Hsp_query-from>486</Hsp_query-from>
+      <Hsp_query-to>528</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>VSESALAVQAQFALIFSITTDIKAQEEVISQSMVEQ-TKDSVHV</Hsp_qseq>
+      <Hsp_hseq>VVENAIDAITPGGIVFSVLADDAAVEELFSXELVEKLGKDGVHV</Hsp_hseq>
+      <Hsp_midline>V E+A+       ++FS+  D  A EE+ S  +VE+  KD VHV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

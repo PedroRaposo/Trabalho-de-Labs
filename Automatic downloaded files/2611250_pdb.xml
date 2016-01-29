@@ -1,0 +1,1594 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6933</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611250</BlastOutput_query-def>
+  <BlastOutput_query-len>259</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6933</Iteration_query-ID>
+  <Iteration_query-def>2611250</Iteration_query-def>
+  <Iteration_query-len>259</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|82408311|pdb|2D2E|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Atypical Cytoplasmic Abc-Atpase Sufc From Thermus Thermophilus Hb8 &gt;gi|82408312|pdb|2D2F|A Chain A, Crystal Structure Of Atypical Cytoplasmic Abc-Atpase Sufc From Thermus Thermophilus Hb8</Hit_def>
+  <Hit_accession>2D2E_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.832</Hsp_bit-score>
+      <Hsp_score>647</Hsp_score>
+      <Hsp_evalue>2.7271e-83</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDVSLVHYVVEHGY</Hsp_qseq>
+      <Hsp_hseq>LEIRDLWASIDGETILKGVNLVVPKGEVHALMGPNGAGKSTLGKILAGDPEYTVERGEILLDGENILELSPDERARKGLFLAFQYPVEVPGVTIANFLRLALQAKLGREVGVAEFWTKVKKALELLDWDESYLSRYLNEGFSGGEKKRNEILQLLVLEPTYAVLDETDSGLDIDALKVVARGVNAMRGPNFGALVITHYQRILNYIQPDKVHVMMDGRVVATGGPELALELEAKGY</Hsp_hseq>
+      <Hsp_midline>L+IRDL  SI    ILK +NL +  GEVHA+MGPNGAGKSTL   + G+P  T+ERGEI   G+ I ++   ERAR+G+FL+FQ P EVPG+++  FLR A +A LG +V V +F T+++  L  L   E+Y SR LN GFSGGEKK+NEILQL VLEP  A+LDETDSGLD+DA ++V  G++ +R P+ G L+ITH++ +L YI+PD VH+++DG +V TG   L   +   GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|88192738|pdb|2D3W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Escherichia Coli Sufc, An Atpase Compenent Of The Suf Iron-Sulfur Cluster Assembly Machinery &gt;gi|88192739|pdb|2D3W|B Chain B, Crystal Structure Of Escherichia Coli Sufc, An Atpase Compenent Of The Suf Iron-Sulfur Cluster Assembly Machinery &gt;gi|88192740|pdb|2D3W|C Chain C, Crystal Structure Of Escherichia Coli Sufc, An Atpase Compenent Of The Suf Iron-Sulfur Cluster Assembly Machinery &gt;gi|88192741|pdb|2D3W|D Chain D, Crystal Structure Of Escherichia Coli Sufc, An Atpase Compenent Of The Suf Iron-Sulfur Cluster Assembly Machinery &gt;gi|951272751|pdb|5AWF|C Chain C, Crystal Structure Of Sufb-sufc-sufd Complex From Escherichia Coli &gt;gi|951272752|pdb|5AWF|D Chain D, Crystal Structure Of Sufb-sufc-sufd Complex From Escherichia Coli &gt;gi|951272755|pdb|5AWF|G Chain G, Crystal Structure Of Sufb-sufc-sufd Complex From Escherichia Coli &gt;gi|951272756|pdb|5AWF|H Chain H, Crystal Structure Of Sufb-sufc-sufd Complex From Escherichia Coli &gt;gi|951272759|pdb|5AWG|C Chain C, Crystal Structure Of Hg-bound Sufb-sufc-sufd Complex From Escherichia Coli &gt;gi|951272760|pdb|5AWG|D Chain D, Crystal Structure Of Hg-bound Sufb-sufc-sufd Complex From Escherichia Coli &gt;gi|951272763|pdb|5AWG|G Chain G, Crystal Structure Of Hg-bound Sufb-sufc-sufd Complex From Escherichia Coli &gt;gi|951272764|pdb|5AWG|H Chain H, Crystal Structure Of Hg-bound Sufb-sufc-sufd Complex From Escherichia Coli</Hit_def>
+  <Hit_accession>2D3W_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.335</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>4.88139e-74</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTK----VSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDVSLVHYVVEHGYA</Hsp_qseq>
+      <Hsp_hseq>MLSIKDLHVSVEDKAILRGLSLDVHPGEVHAIMGPNGSGKSTLSATLAGREDYEVTGGTVEFKGKDLLALSPEDRAGEGIFMAFQYPVEIPGVSNQFFLQTALNAVRSYRGQETLDRFDFQDLMEEKIALLKMPEDLLTRSVNVGFSGGEKKRNDILQMAVLEPELCILDESDSGLDIDALKVVADGVNSLRDGKRSFIIVTHYQRILDYIKPDYVHVLYQGRIVKSGDFTLVKQLEEQGYG</Hsp_hseq>
+      <Hsp_midline>+L I+DL +S+ D+ IL+ L+L ++ GEVHA+MGPNG+GKSTL+ T+ G     +  G + F+G+ +  +   +RA  GIF++FQ P E+PG+S + FL+ A  AV   +    +   DF   +  K+A L++ E   +R +NVGFSGGEKK+N+ILQ+AVLEP+L ILDE+DSGLD+DA ++V +G++ +R     F+I+TH++ +L+YIKPD VH+L  G IVK+GD +LV  + E GY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|224983403|pdb|2ZU0|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of Sufc-Sufd Complex Involved In The Iron- Sulfur Cluster Biosynthesis &gt;gi|224983404|pdb|2ZU0|D Chain D, Crystal Structure Of Sufc-Sufd Complex Involved In The Iron- Sulfur Cluster Biosynthesis</Hit_def>
+  <Hit_accession>2ZU0_C</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>1.16779e-73</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>241</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTK----VSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDVSLVHYVVEHGYA</Hsp_qseq>
+      <Hsp_hseq>MLSIKDLHVSVEDKAILRGLSLDVHPGEVHAIMGPNGSGKSTLSATLAGREDYEVTGGTVEFKGKDLLALSPEDRAGEGIFMAFQYPVEIPGVSNQFFLQTALNAVRSYRGQETLDRFDFQDLMEEKIALLKMPEDLLTRSVNVGFSGGEKKRNDILQMAVLEPELCILDESDSGLDIDALKVVADGVNSLRDGKRSFIIVTHYQRILDYIKPDYVHVLYQGRIVKSGDFTLVKQLEEQGYG</Hsp_hseq>
+      <Hsp_midline>+L I+DL +S+ D+ IL+ L+L ++ GEVHA+MGPNG+GKSTL+ T+ G     +  G + F+G+ +  +   +RA  GIF++FQ P E+PG+S + FL+ A  AV   +    +   DF   +  K+A L++ E   +R +NVGFSGGEKK+N+ILQ+AVLEP+L ILDE+DSGLD+DA ++V +G++ +R     F+I+TH++ +L+YIKPD VH+L  G IVK+GD +LV  + E GY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|694270418|pdb|4WBS|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of An Abc Transporter Related Protein From Burkholderia Phymatum &gt;gi|694270419|pdb|4WBS|B Chain B, Crystal Structure Of An Abc Transporter Related Protein From Burkholderia Phymatum</Hit_def>
+  <Hit_accession>4WBS_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.00096e-20</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVL---GTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHH-REVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>LVVRNLKKRYGSRTVVKDVSLDVKSGEVVGLLGPNGAGKTTSFYMIVG--LVPLDAGEIDLDGKSISLLPIHKRASLGLSYLPQEASVFRKLSVEENIRAVLELQVGDDGKRLSKDAIASRTEALLDELQISHLRENPALS--LSGGERRRVEIARALATNPSFILLDEPFAGVDPIAVLEIQKIVKFLKQRNIGVLITDHNVRETLGIC--DHAYIISDGSVLAAG</Hsp_hseq>
+      <Hsp_midline>L +R+L      R ++K ++L + +GEV  ++GPNGAGK+T    IVG     ++ GEI   G+ I+ +P+++RA  G+    Q       LSVEE +RA  E  +   G ++S     ++  A L  L+IS    +  L+   SGGE+++ EI +     P   +LDE  +G+D  A   + + +  ++  ++G LI  H+ RE L     D  +I+ DG+++  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|15826207|pdb|1G6H|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Adp Conformation Of Mj1267, An Atp- Binding Cassette Of An Abc Transporter</Hit_def>
+  <Hit_accession>1G6H_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.72396e-16</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAK----------LARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHRE-VLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>ILRTENIVKYFGEFKALDGVSISVNKGDVTLIIGPNGSGKSTLINVITG--FLKADEGRVYFENKDITNKEPAELYHYGIVRTFQTPQPLKEMTVLENLLIGEICPGESPLNSLFYKKWIPKEEEMVEKAFKILEFLKLSHLYDRKAGEL--SGGQMKLVEIGRALMTNPKMIVMDEPIAGVAPGLAHDIFNHVLELKAKGITFLIIEHRLDIVLNYI--DHLYVMFNGQIIAEG</Hsp_hseq>
+      <Hsp_midline>+L   ++     +   L  +++++N G+V  ++GPNG+GKSTL   I G      + G +YF+ + I +    E    GI  +FQTP+ +  ++V E L   +     + ++ L +   +  +          L  L++S  Y  +   +  SGG+ K  EI +  +  PK+ ++DE  +G+       +F  + +++   + FLII H  + VL YI  D ++++ +G I+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|15826208|pdb|1GAJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Nucleotide-Free Atp-Binding Cassette From An Abc Transporter</Hit_def>
+  <Hit_accession>1GAJ_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.485</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>6.22647e-16</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAK----------LARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHRE-VLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>ILRTENIVKYFGEFKALDGVSISVNKGDVTLIIGPNGSGKSTLINVITG--FLKADEGRVYFENKDITNKEPAELYHYGIVRTFQTPQPLKEMTVLENLLIGEINPGESPLNSLFYKKWIPKEEEMVEKAFKILEFLKLSHLYDRKAGEL--SGGQMKLVEIGRALMTNPKMIVMDQPIAGVAPGLAHDIFNHVLELKAKGITFLIIEHRLDIVLNYI--DHLYVMFNGQIIAEG</Hsp_hseq>
+      <Hsp_midline>+L   ++     +   L  +++++N G+V  ++GPNG+GKSTL   I G      + G +YF+ + I +    E    GI  +FQTP+ +  ++V E L   +     + ++ L +   +  +          L  L++S  Y  +   +  SGG+ K  EI +  +  PK+ ++D+  +G+       +F  + +++   + FLII H  + VL YI  D ++++ +G I+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|770386352|pdb|4RVC|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Atp Binding Subunit Of Abc Transporter</Hit_def>
+  <Hit_accession>4RVC_A</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>9.78189e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>TLLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITH</Hsp_qseq>
+      <Hsp_hseq>TLLEVKDLSGGYTAQNVLEDVTFVVDRGEMVALIGLNGAGKSTTIKHIIG--LMEPRRGAISINGYRLADGP--ETYRRQFAYIPETPVLYEELTLEEHLRL---AAMAYGLSEAEYERRLPPLLREFRLERRLSS--FPAHFSKGMKQKVMIVCAFLLEPPLYIIDEPFLGLDPLAIHALLERMNEQKAKGAGILLSTH</Hsp_hseq>
+      <Hsp_midline>TLL+++DL      + +L+ +   ++ GE+ A++G NGAGKST    I+G       RG I   G  + D P  E  RR      +TP     L++EE LR    A +   +S  ++  +L   L   R+    +S      FS G K+K  I+   +LEP L I+DE   GLD  A   + E +++ +    G L+ TH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|28948338|pdb|1G9X|A</Hit_id>
+  <Hit_def>Chain A, Characterization Of The Twinning Structure Of Mj1267, An Atp-Binding Cassette Of An Abc Transporter &gt;gi|28948339|pdb|1G9X|B Chain B, Characterization Of The Twinning Structure Of Mj1267, An Atp-Binding Cassette Of An Abc Transporter &gt;gi|28948340|pdb|1G9X|C Chain C, Characterization Of The Twinning Structure Of Mj1267, An Atp-Binding Cassette Of An Abc Transporter</Hit_def>
+  <Hit_accession>1G9X_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>4.04252e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAK----------LARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHRE-VLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>ILRTENIVKYFGEFKALDGVSISVCKGDVTLIIGPNGSGKSTLINVITG--FLKADEGRVYFENKDITNKEPAELYHYGIVRTFQTPQPLKEMTVLENLLIGEINPGESPLNSLFYKKWIPKEEEMVEKAFKILEFLKLSHLYDRKAGEL--SGGQMKLVEIGRALMTNPKMIVMDEPIAGVAPGLAHDIFNHVLELKAKGITFLIIEHRLDIVLNYI--DHLYVMFNGQIIAEG</Hsp_hseq>
+      <Hsp_midline>+L   ++     +   L  +++++  G+V  ++GPNG+GKSTL   I G      + G +YF+ + I +    E    GI  +FQTP+ +  ++V E L   +     + ++ L +   +  +          L  L++S  Y  +   +  SGG+ K  EI +  +  PK+ ++DE  +G+       +F  + +++   + FLII H  + VL YI  D ++++ +G I+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|810516228|pdb|4YMS|J</Hit_id>
+  <Hit_def>Chain J, Crystal Structure Of An Amino Acid Abc Transporter &gt;gi|810516229|pdb|4YMS|A Chain A, Crystal Structure Of An Amino Acid Abc Transporter &gt;gi|810516255|pdb|4YMT|J Chain J, Crystal Structure Of An Amino Acid Abc Transporter Complex With Arginines &gt;gi|810516256|pdb|4YMT|A Chain A, Crystal Structure Of An Amino Acid Abc Transporter Complex With Arginines &gt;gi|810516260|pdb|4YMU|J Chain J, Crystal Structure Of An Amino Acid Abc Transporter Complex With Arginines And Atps &gt;gi|810516261|pdb|4YMU|A Chain A, Crystal Structure Of An Amino Acid Abc Transporter Complex With Arginines And Atps &gt;gi|810516287|pdb|4YMV|J Chain J, Crystal Structure Of An Amino Acid Abc Transporter With Atps &gt;gi|810516288|pdb|4YMV|A Chain A, Crystal Structure Of An Amino Acid Abc Transporter With Atps &gt;gi|810516292|pdb|4YMW|J Chain J, Crystal Structure Of An Amino Acid Abc Transporter With Histidines &gt;gi|810516293|pdb|4YMW|A Chain A, Crystal Structure Of An Amino Acid Abc Transporter With Histidines</Hit_def>
+  <Hit_accession>4YMS_J</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>8.14292e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YERARRGIFLSFQTPEEVPGLS-VEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHH----REVLEYIKPDVVHILVDGTIVKTGDVSLVHY</Hsp_qseq>
+      <Hsp_hseq>MIFVNDVYKNFGSLEVLKGVTLKVNKGEVVVIIGPSGSGKSTLLRCI--NLLEEPTKGEVFIDGVKINNGKVNINKVRQKVGMVFQHFNLFPHLTAIENITLAPVKVKKMNKKEAEELAVDLLAKVGLLDKKDQYP-----IKLSGGQKQRLAIARALAMQPEVMLFDEPTSALDPEMVKEVLNVMKQLANEGMTMVVVTHEMGFAREV-----GDRVIFMDDGVIVEEGTPEEIFY</Hsp_hseq>
+      <Hsp_midline>++ + D+  +     +LK + L +N GEV  ++GP+G+GKSTL   I  N      +GE++  G  IN+  V   + R+ + + FQ     P L+ +E    A  +     K    +    L AK+  L   + Y      +  SGG+K++  I +   ++P++ + DE  S LD +  + V   +  +    M  +++TH     REV      D V  + DG IV+ G    + Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|657232191|pdb|4PL0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Antibacterial Peptide Abc Transporter Mcjd In An Outward Occluded State &gt;gi|657232192|pdb|4PL0|B Chain B, Crystal Structure Of The Antibacterial Peptide Abc Transporter Mcjd In An Outward Occluded State</Hit_def>
+  <Hit_accession>4PL0_A</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>1.21931e-13</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>345</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIAD-RPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQ--------GQCINDVPVYERARRGIFL----------SFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLD-VDATRIVFEGIDDIRT--PDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>LSIRELSFSYSDDKKILNSVSLDLFTGKMYSLTGPSGSGKSTLVKIISG--YYKNYFGDIYLNDISLRNISDEDLNDAIYYLTQDDYIFMDTLRFNLRLANYDASEN----EIFKVLKLANLSVVNNEPVSLDTHL---------------INRGNN--YSGGQKQRISLARLFLRKPAIIIIDEATSALDYINESEI----LSSIRTHFPDALIINISHRINLLE--CSDCVYVLNEGNIVASG</Hsp_hseq>
+      <Hsp_midline>L IR+L  S +D + IL S++L L TG+++++ GP+G+GKSTL   I G  +     G+IY           + +ND   Y      IF+          ++   E      + + L+ A  +V+  +   LD H                 +RG N  +SGG+K++  + +L + +P + I+DE  S LD ++ + I    +  IRT  PD   + I+H   +LE    D V++L +G IV +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|597960436|pdb|4P32|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of E. Coli Lptb In Complex With Adp-magnesium &gt;gi|597960437|pdb|4P32|B Chain B, Crystal Structure Of E. Coli Lptb In Complex With Adp-magnesium</Hit_def>
+  <Hit_accession>4P32_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>1.59947e-13</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISE-------AYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLD----VDATRIVFEGIDDIRTPDMGFLIITHH-REVLEYIKPDVV----HILVDGT</Hsp_qseq>
+      <Hsp_hseq>LTAKNLAKAYKGRRVVEDVSLTVNSGEIVGLLGPNGAGKTTTFYMVVGI--VPRDAGNIIIDDDDISLLPLHARARRGIGYLPQEASIFRRLSVYDNLMA-----------VLQIRDDLSAEQREDRANELMEEFHIEHLRDSMGQSLSGGERRRVEIARALAANPKFILLDEPFAGVDPISVIDIKRI----IEHLRDSGLGVLITDHNVRETLAVCERAYIVSQGHLIAHGT</Hsp_hseq>
+      <Hsp_midline>L  ++L  +   R +++ ++LT+N+GE+  ++GPNGAGK+T    +VG      + G I      I+ +P++ RARRGI    Q       LSV + L A           VL     L A+    R +E        +    +    SGGE+++ EI +     PK  +LDE  +G+D    +D  RI    I+ +R   +G LI  H+ RE L   +   +    H++  GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|699027695|pdb|4QC2|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Lipopolysaccharide Transport Protein Lptb In Complex With Atp And Magnesium Ions &gt;gi|699027696|pdb|4QC2|B Chain B, Crystal Structure Of Lipopolysaccharide Transport Protein Lptb In Complex With Atp And Magnesium Ions</Hit_def>
+  <Hit_accession>4QC2_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>1.90329e-13</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISE-------AYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLD----VDATRIVFEGIDDIRTPDMGFLIITHH-REVLEYIKPDVV----HILVDGT</Hsp_qseq>
+      <Hsp_hseq>LTAKNLAKAYKGRRVVEDVSLTVNSGEIVGLLGPNGAGKTTTFYMVVGI--VPRDAGNIIIDDDDISLLPLHARARRGIGYLPQEASIFRRLSVYDNLMA-----------VLQIRDDLSAEQREDRANELMEEFHIEHLRDSMGQSLSGGERRRVEIARALAANPKFILLDEPFAGVDPISVIDIKRI----IEHLRDSGLGVLITDHNVRETLAVCERAYIVSQGHLIAHGT</Hsp_hseq>
+      <Hsp_midline>L  ++L  +   R +++ ++LT+N+GE+  ++GPNGAGK+T    +VG      + G I      I+ +P++ RARRGI    Q       LSV + L A           VL     L A+    R +E        +    +    SGGE+++ EI +     PK  +LDE  +G+D    +D  RI    I+ +R   +G LI  H+ RE L   +   +    H++  GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|597960434|pdb|4P31|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Selenomethionine Derivative Of E. Coli Lptb In Complex With Adp-magensium &gt;gi|597960435|pdb|4P31|B Chain B, Crystal Structure Of A Selenomethionine Derivative Of E. Coli Lptb In Complex With Adp-magensium</Hit_def>
+  <Hit_accession>4P31_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>4.12352e-13</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISE-------AYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLD----VDATRIVFEGIDDIRTPDMGFLIITHH-REVLEYIKPDVV----HILVDGT</Hsp_qseq>
+      <Hsp_hseq>LTAKNLAKAYKGRRVVEDVSLTVNSGEIVGLLGPNGAGKTTTFYXVVGI--VPRDAGNIIIDDDDISLLPLHARARRGIGYLPQEASIFRRLSVYDNLXA-----------VLQIRDDLSAEQREDRANELXEEFHIEHLRDSXGQSLSGGERRRVEIARALAANPKFILLDEPFAGVDPISVIDIKRI----IEHLRDSGLGVLITDHNVRETLAVCERAYIVSQGHLIAHGT</Hsp_hseq>
+      <Hsp_midline>L  ++L  +   R +++ ++LT+N+GE+  ++GPNGAGK+T    +VG      + G I      I+ +P++ RARRGI    Q       LSV + L A           VL     L A+    R +E        +         SGGE+++ EI +     PK  +LDE  +G+D    +D  RI    I+ +R   +G LI  H+ RE L   +   +    H++  GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|597960438|pdb|4P33|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of E. Coli Lptb-e163q In Complex With Atp-sodium &gt;gi|597960439|pdb|4P33|B Chain B, Crystal Structure Of E. Coli Lptb-e163q In Complex With Atp-sodium</Hit_def>
+  <Hit_accession>4P33_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>4.20754e-13</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISE-------AYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLD----VDATRIVFEGIDDIRTPDMGFLIITHH-REVLEYIKPDVV----HILVDGT</Hsp_qseq>
+      <Hsp_hseq>LTAKNLAKAYKGRRVVEDVSLTVNSGEIVGLLGPNGAGKTTTFYMVVGI--VPRDAGNIIIDDDDISLLPLHARARRGIGYLPQEASIFRRLSVYDNLMA-----------VLQIRDDLSAEQREDRANELMEEFHIEHLRDSMGQSLSGGERRRVEIARALAANPKFILLDQPFAGVDPISVIDIKRI----IEHLRDSGLGVLITDHNVRETLAVCERAYIVSQGHLIAHGT</Hsp_hseq>
+      <Hsp_midline>L  ++L  +   R +++ ++LT+N+GE+  ++GPNGAGK+T    +VG      + G I      I+ +P++ RARRGI    Q       LSV + L A           VL     L A+    R +E        +    +    SGGE+++ EI +     PK  +LD+  +G+D    +D  RI    I+ +R   +G LI  H+ RE L   +   +    H++  GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|820957391|pdb|4U00|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ttha1159 In Complex With Adp &gt;gi|820957392|pdb|4U02|A Chain A, Crystal Structure Of Apo-ttha1159 &gt;gi|820957393|pdb|4U02|B Chain B, Crystal Structure Of Apo-ttha1159 &gt;gi|820957394|pdb|4U02|C Chain C, Crystal Structure Of Apo-ttha1159 &gt;gi|820957395|pdb|4U02|D Chain D, Crystal Structure Of Apo-ttha1159</Hit_def>
+  <Hit_accession>4U00_A</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>5.42187e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MPTLLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFL--------RAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHH----REVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>MEPIIRIRNLHKWFGPLHVLKGIHLEVAPGEKLVIIGPSGSGKSTLIRTI--NRLEDFQEGEVVVDGLSVKDDRALREIRREVGMVFQQFNLFPHMTVLENVTLAPMRVRRWPREKAEKKALELLE------------RVGILDQARKYPAQLSGGQQQRVAIARALAMEPKIMLFDEPTSALDPEMVGEVLDVMRDLAQGGMTMVVVTHEMGFAREV-----ADRVVFMDGGQIVEEG</Hsp_hseq>
+      <Hsp_midline>M  ++ IR+L        +LK ++L +  GE   ++GP+G+GKSTL  TI  N     + GE+   G  + D       RR + + FQ     P ++V E +        R  +E      + +L+            R+     +R      SGG++++  I +   +EPK+ + DE  S LD +    V + + D+    M  +++TH     REV      D V  +  G IV+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|448262577|pdb|4HLU|D</Hit_id>
+  <Hit_def>Chain D, Structure Of The Ecfa-a&apos; Heterodimer Bound To Adp &gt;gi|448262579|pdb|4HLU|C Chain C, Structure Of The Ecfa-a&apos; Heterodimer Bound To Adp &gt;gi|829581801|pdb|4ZIR|B Chain B, Crystal Structure Of Ecfaa&apos; Heterodimer Bound To Amppnp</Hit_def>
+  <Hit_accession>4HLU_D</Hit_accession>
+  <Hit_len>268</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>7.19428e-13</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPE-EVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDVSLVHYVVEHGYADFATP</Hsp_qseq>
+      <Hsp_hseq>VLKDVNAEFETGKIYVVVGKNGSGKTTLLKILAG---LLAAAGEIFLDGSPADPFLL----RKNVGYVFQNPSSQIIGATVEEDVAFSLE-IMGLDES--EMRKRIKKVLELVGLSGLAAADPLNL--SGGQKQRLAIASMLARDTRFLALDEPVSMLDPPSQREIFQVLESLKNEGKGIILVTHELEYLDDM--DFILHISNGTIDFCGS---WEEFVEREFDDVEIP</Hsp_hseq>
+      <Hsp_midline>+LK +N    TG+++ V+G NG+GK+TL   + G        GEI+  G   +   +    R+ +   FQ P  ++ G +VEE +  + E ++G   S  +   +++  L  + +S   A+  LN+  SGG+K++  I  +   + +   LDE  S LD  + R +F+ ++ ++    G +++TH  E L+ +  D +  + +GTI   G        VE  + D   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|114794625|pdb|2HYD|A</Hit_id>
+  <Hit_def>Chain A, Multidrug Abc Transporter Sav1866 &gt;gi|114794626|pdb|2HYD|B Chain B, Multidrug Abc Transporter Sav1866 &gt;gi|145580107|pdb|2ONJ|A Chain A, Structure Of The Multidrug Abc Transporter Sav1866 From S. Aureus In Complex With Amp-Pnp &gt;gi|145580108|pdb|2ONJ|B Chain B, Structure Of The Multidrug Abc Transporter Sav1866 From S. Aureus In Complex With Amp-Pnp &gt;gi|371927791|pdb|4A82|A Chain A, Fitted Model Of Staphylococcus Aureus Sav1866 Model Abc Transporter In The Human Cystic Fibrosis Transmembrane Conductance Regulator Volume Map Emd-1966. &gt;gi|371927792|pdb|4A82|B Chain B, Fitted Model Of Staphylococcus Aureus Sav1866 Model Abc Transporter In The Human Cystic Fibrosis Transmembrane Conductance Regulator Volume Map Emd-1966. &gt;gi|371927793|pdb|4A82|C Chain C, Fitted Model Of Staphylococcus Aureus Sav1866 Model Abc Transporter In The Human Cystic Fibrosis Transmembrane Conductance Regulator Volume Map Emd-1966. &gt;gi|371927794|pdb|4A82|D Chain D, Fitted Model Of Staphylococcus Aureus Sav1866 Model Abc Transporter In The Human Cystic Fibrosis Transmembrane Conductance Regulator Volume Map Emd-1966.</Hit_def>
+  <Hit_accession>2HYD_A</Hit_accession>
+  <Hit_len>578</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>8.99952e-12</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>340</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADR--PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCT-IERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEE---FLRAAKEAVLGTKVSVLDFHTQLRAKLAR-----LRISEAYAS----RGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>IDIDHVSFQYNDNEAPILKDINLSIEKGETVAFVGMSGGGKSTLINLI---PRFYDVTSGQILIDGHNIKD-----------FLTGSLRNQI-GLVQQDNILFSDTVKENILLGRPTATDEEVVEAAKMANAHDFIMNLPQGYDTEVGERG--VKLSGGQKQRLSIARIFLNNPPILILDEATSALDLESESIIQEAL-DVLSKDRTTLIVAHRLSTITH--ADKIVVIENGHIVETG</Hsp_hseq>
+      <Hsp_midline>+DI  +     D   PILK +NL++  GE  A +G +G GKSTL   I   P    +  G+I   G  I D           FL+     ++ GL  ++   F    KE +L  + +  D      AK+A      + + + Y +    RG  V  SGG+K++  I ++ +  P + ILDE  S LD+++  I+ E + D+ + D   LI+ H    + +   D + ++ +G IV+TG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|195927581|pdb|3DHW|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of Methionine Importer Metni &gt;gi|195927582|pdb|3DHW|D Chain D, Crystal Structure Of Methionine Importer Metni &gt;gi|195927585|pdb|3DHW|G Chain G, Crystal Structure Of Methionine Importer Metni &gt;gi|195927586|pdb|3DHW|H Chain H, Crystal Structure Of Methionine Importer Metni</Hit_def>
+  <Hit_accession>3DHW_C</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.74593e-11</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIER---GEIYFQGQCINDVPVYE--RARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLN-------VGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI-RTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDVSLV</Hsp_qseq>
+      <Hsp_hseq>LNNVSLHVPAGQIYGVIGASGAGKSTLIRCV-----NLLERPTEGSVLVDGQELTTLSESELTKARRQIGMIFQ-----------HFNLLSSRTVFGNVALPLELDNTPKDEVKR-RVTELLSLVGLGDKHDSYPSNLSGGQKQRVAIARALASNPKVLLCDEATSALDPATTRSILELLKDINRRLGLTILLITHEMDVVKRI-CDCVAVISNGELIEQDTVSEV</Hsp_hseq>
+      <Hsp_midline>L +++L +  G+++ V+G +GAGKSTL   +       +ER   G +   GQ +  +   E  +ARR I + FQ            F   +   V G     L+     + ++ R R++E  +  GL           SGG+K++  I +     PK+ + DE  S LD   TR + E + DI R   +  L+ITH  +V++ I  D V ++ +G +++   VS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|37927731|pdb|1Q12|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Atp-bound E. Coli Malk &gt;gi|37927732|pdb|1Q12|B Chain B, Crystal Structure Of The Atp-bound E. Coli Malk &gt;gi|37927733|pdb|1Q12|C Chain C, Crystal Structure Of The Atp-bound E. Coli Malk &gt;gi|37927734|pdb|1Q12|D Chain D, Crystal Structure Of The Atp-bound E. Coli Malk &gt;gi|37927752|pdb|1Q1E|A Chain A, The Atpase Component Of E. Coli Maltose Transporter (Malk) In The Nucleotide-Free Form &gt;gi|37927753|pdb|1Q1E|B Chain B, The Atpase Component Of E. Coli Maltose Transporter (Malk) In The Nucleotide-Free Form &gt;gi|85544132|pdb|2AWN|A Chain A, Crystal Structure Of The Adp-Mg-Bound E. Coli Malk (Crystallized With Atp-Mg) &gt;gi|85544133|pdb|2AWN|B Chain B, Crystal Structure Of The Adp-Mg-Bound E. Coli Malk (Crystallized With Atp-Mg) &gt;gi|85544134|pdb|2AWN|C Chain C, Crystal Structure Of The Adp-Mg-Bound E. Coli Malk (Crystallized With Atp-Mg) &gt;gi|85544135|pdb|2AWN|D Chain D, Crystal Structure Of The Adp-Mg-Bound E. Coli Malk (Crystallized With Atp-Mg) &gt;gi|85544136|pdb|2AWO|A Chain A, Crystal Structure Of The Adp-mg-bound E. Coli Malk (crystallized With Adp-mg) &gt;gi|85544137|pdb|2AWO|B Chain B, Crystal Structure Of The Adp-mg-bound E. Coli Malk (crystallized With Adp-mg) &gt;gi|85544138|pdb|2AWO|C Chain C, Crystal Structure Of The Adp-mg-bound E. Coli Malk (crystallized With Adp-mg) &gt;gi|85544139|pdb|2AWO|D Chain D, Crystal Structure Of The Adp-mg-bound E. Coli Malk (crystallized With Adp-mg) &gt;gi|224510676|pdb|3FH6|A Chain A, Crystal Structure Of The Resting State Maltose Transporter From E. Coli &gt;gi|224510677|pdb|3FH6|B Chain B, Crystal Structure Of The Resting State Maltose Transporter From E. Coli &gt;gi|224510680|pdb|3FH6|C Chain C, Crystal Structure Of The Resting State Maltose Transporter From E. Coli &gt;gi|224510681|pdb|3FH6|D Chain D, Crystal Structure Of The Resting State Maltose Transporter From E. Coli &gt;gi|333361370|pdb|3PUY|A Chain A, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Amp-Pnp After Crystal Soaking Of The Pretranslocation State &gt;gi|333361371|pdb|3PUY|B Chain B, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Amp-Pnp After Crystal Soaking Of The Pretranslocation State &gt;gi|333361375|pdb|3PUZ|A Chain A, Crystal Structure Of A Pre-Translocation State Mbp-Maltose Transporter Complex Bound To Amp-Pnp &gt;gi|333361376|pdb|3PUZ|B Chain B, Crystal Structure Of A Pre-Translocation State Mbp-Maltose Transporter Complex Bound To Amp-Pnp &gt;gi|333361380|pdb|3PV0|A Chain A, Crystal Structure Of A Pre-Translocation State Mbp-Maltose Transporter Complex Without Nucleotide &gt;gi|333361381|pdb|3PV0|B Chain B, Crystal Structure Of A Pre-Translocation State Mbp-Maltose Transporter Complex Without Nucleotide &gt;gi|343197238|pdb|3PUV|A Chain A, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Adp-Vo4 &gt;gi|343197239|pdb|3PUV|B Chain B, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Adp-Vo4 &gt;gi|343197243|pdb|3PUW|A Chain A, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Adp-Alf4 &gt;gi|343197244|pdb|3PUW|B Chain B, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Adp-Alf4 &gt;gi|343197248|pdb|3PUX|A Chain A, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Adp-Bef3 &gt;gi|343197249|pdb|3PUX|B Chain B, Crystal Structure Of An Outward-Facing Mbp-Maltose Transporter Complex Bound To Adp-Bef3 &gt;gi|343197371|pdb|3RLF|A Chain A, Crystal Structure Of The Maltose-Binding ProteinMALTOSE TRANSPORTER Complex In An Outward-Facing Conformation Bound To Mgamppnp &gt;gi|343197372|pdb|3RLF|B Chain B, Crystal Structure Of The Maltose-Binding ProteinMALTOSE TRANSPORTER Complex In An Outward-Facing Conformation Bound To Mgamppnp &gt;gi|512125632|pdb|4JBW|A Chain A, Crystal Structure Of E. Coli Maltose Transporter Malfgk2 In Complex With Its Regulatory Protein Eiiaglc &gt;gi|512125633|pdb|4JBW|B Chain B, Crystal Structure Of E. Coli Maltose Transporter Malfgk2 In Complex With Its Regulatory Protein Eiiaglc &gt;gi|512125638|pdb|4JBW|C Chain C, Crystal Structure Of E. Coli Maltose Transporter Malfgk2 In Complex With Its Regulatory Protein Eiiaglc &gt;gi|512125639|pdb|4JBW|D Chain D, Crystal Structure Of E. Coli Maltose Transporter Malfgk2 In Complex With Its Regulatory Protein Eiiaglc &gt;gi|551701908|pdb|4KHZ|A Chain A, Crystal Structure Of The Maltose-binding Protein/maltose Transporter Complex In An Pre-translocation Conformation Bound To Maltoheptaose &gt;gi|551701909|pdb|4KHZ|B Chain B, Crystal Structure Of The Maltose-binding Protein/maltose Transporter Complex In An Pre-translocation Conformation Bound To Maltoheptaose &gt;gi|551701910|pdb|4KI0|A Chain A, Crystal Structure Of The Maltose-binding Protein/maltose Transporter Complex In An Outward-facing Conformation Bound To Maltohexaose &gt;gi|551701911|pdb|4KI0|B Chain B, Crystal Structure Of The Maltose-binding Protein/maltose Transporter Complex In An Outward-facing Conformation Bound To Maltohexaose</Hit_def>
+  <Hit_accession>1Q12_A</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.14603e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEF------LRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFE-GIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD-VSLVHYVVEHGYADF</Hsp_qseq>
+      <Hsp_hseq>VQLQNVTKAWGEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLE--TITSGDLFIGEKRMNDTP---PAERGVGMVFQSYALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLAHLLDRKPKA-----------LSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDA-ALRVQMRIEISRLHKRLGRTMIYVTHDQVEAMTLADKIVVLDAGRVAQVGKPLELYHYPADRFVAGF</Hsp_hseq>
+      <Hsp_midline>+ ++++  +  +  + K +NL ++ GE    +GP+G GKSTL   I G    TI  G+++   + +ND P    A RG+ + FQ+    P LSV E       L  AK+ V+  +V+ +    QL   L R   +            SGG++++  I +  V EP + +LDE  S LD  A R+     I  +       +I   H +V      D + +L  G + + G  + L HY  +   A F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|37927745|pdb|1Q1B|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of E. Coli Malk In The Nucleotide-Free Form &gt;gi|37927746|pdb|1Q1B|B Chain B, Crystal Structure Of E. Coli Malk In The Nucleotide-Free Form &gt;gi|37927747|pdb|1Q1B|C Chain C, Crystal Structure Of E. Coli Malk In The Nucleotide-Free Form &gt;gi|37927748|pdb|1Q1B|D Chain D, Crystal Structure Of E. Coli Malk In The Nucleotide-Free Form</Hit_def>
+  <Hit_accession>1Q1B_A</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>3.17568e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEF------LRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFE-GIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD-VSLVHYVVEHGYADF</Hsp_qseq>
+      <Hsp_hseq>VQLQNVTKAWGEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLE--TITSGDLFIGEKRMNDTP---PAERGVGMVFQSYALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLAHLLDRKPKA-----------LSGGQRQRVAIGRTLVAEPSVFLLDEPLSNLDA-ALRVQMRIEISRLHKRLGRTMIYVTHDQVEAMTLADKIVVLDAGRVAQVGKPLELYHYPADRFVAGF</Hsp_hseq>
+      <Hsp_midline>+ ++++  +  +  + K +NL ++ GE    +GP+G GKSTL   I G    TI  G+++   + +ND P    A RG+ + FQ+    P LSV E       L  AK+ V+  +V+ +    QL   L R   +            SGG++++  I +  V EP + +LDE  S LD  A R+     I  +       +I   H +V      D + +L  G + + G  + L HY  +   A F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|406855735|pdb|4F4C|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The Multi-Drug Transporter</Hit_def>
+  <Hit_accession>4F4C_A</Hit_accession>
+  <Hit_len>1321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>3.83965e-11</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>430</Hsp_hit-from>
+      <Hsp_hit-to>635</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>DRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYAS----RGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI---RTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>DVPILRGMNLRVNAGQTVALVGSSGCGKSTIISLLL--RYYDVLKGKITIDGVDVRDINL-EFLRKNVAVVSQEP-ALFNCTIEENISLGKEGI--TREEMVAACKMANAEKFIKTLPNGYNTLVGDRGTQL--SGGQKQRIAIARALVRNPKILLLDEATSALDAESEGIVQQALDKAAKGRTT----IIIAHRLSTIR--NADLIISCKNGQVVEVGD</Hsp_hseq>
+      <Hsp_midline>D PIL+ +NL +N G+  A++G +G GKST+   ++   +  + +G+I   G  + D+ + E  R+ + +  Q P  +   ++EE +   KE +  T+  ++       A+     +   Y +    RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  IV + +D     RT     +II H    +     D++    +G +V+ GD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>8.82897e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1079</Hsp_hit-from>
+      <Hsp_hit-to>1297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>IRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARL-----RISEAYASRGLNVG--FSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>FKNVRFAYPERPEIEILKGLSFSVEPGQTLALVGPSGCGKSTVVA-LLERFYDTLG-GEIFIDGSEIKTLNP-EHTRSQIAIVSQEPTLFDCSIAENIIYGLDPS------SVTMAQVEEAARLANIHNFIAELPEGFETRVGDRGTQLSGGQKQRIAIARALVRNPKILLLDEATSALDTESEKVVQEALD--RAREGRTCIVIAHR-LNTVMNADCIAVVSNGTIIEKG</Hsp_hseq>
+      <Hsp_midline> +++  +  +RP   ILK L+ ++  G+  A++GP+G GKST+   ++   + T+  GEI+  G  I  +   E  R  I +  Q P        E  +     +      SV     +  A+LA +      + E + +R  + G   SGG+K++  I +  V  PK+ +LDE  S LD ++ ++V E +D  R  +    I+  HR +   +  D + ++ +GTI++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|358439881|pdb|3TUI|C</Hit_id>
+  <Hit_def>Chain C, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Native Crystal Form &gt;gi|358439882|pdb|3TUI|D Chain D, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Native Crystal Form &gt;gi|358439885|pdb|3TUI|G Chain G, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Native Crystal Form &gt;gi|358439886|pdb|3TUI|H Chain H, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Native Crystal Form &gt;gi|358439893|pdb|3TUZ|C Chain C, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Semet Soak Crystal Form &gt;gi|358439894|pdb|3TUZ|D Chain D, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Semet Soak Crystal Form &gt;gi|358439897|pdb|3TUZ|G Chain G, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Semet Soak Crystal Form &gt;gi|358439898|pdb|3TUZ|H Chain H, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Cy5 Semet Soak Crystal Form</Hit_def>
+  <Hit_accession>3TUI_C</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>4.94538e-11</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIER---GEIYFQGQCINDVPVYE--RARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLN-------VGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI-RTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDVSLV</Hsp_qseq>
+      <Hsp_hseq>LNNVSLHVPAGQIYGVIGASGAGKSTLIRCV-----NLLERPTEGSVLVDGQELTTLSESELTKARRQIGMIFQ-----------HFNLLSSRTVFGNVALPLELDNTPKDEVKR-RVTELLSLVGLGDKHDSYPSNLSGGQKQRVAIARALASNPKVLLCDQATSALDPATTRSILELLKDINRRLGLTILLITHEMDVVKRI-CDCVAVISNGELIEQDTVSEV</Hsp_hseq>
+      <Hsp_midline>L +++L +  G+++ V+G +GAGKSTL   +       +ER   G +   GQ +  +   E  +ARR I + FQ            F   +   V G     L+     + ++ R R++E  +  GL           SGG+K++  I +     PK+ + D+  S LD   TR + E + DI R   +  L+ITH  +V++ I  D V ++ +G +++   VS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|161172218|pdb|2R6G|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The E. Coli Maltose Transporter &gt;gi|161172219|pdb|2R6G|B Chain B, The Crystal Structure Of The E. Coli Maltose Transporter</Hit_def>
+  <Hit_accession>2R6G_A</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>7.52231e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEF------LRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFE-GIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD-VSLVHYVVEHGYADF</Hsp_qseq>
+      <Hsp_hseq>VQLQNVTKAWGEVVVSKDINLDIHEGEFVVFVGPSGCGKSTLLRMIAGLE--TITSGDLFIGEKRMNDTP---PAERGVGMVFQSYALYPHLSVAENMSFGLKLAGAKKEVINQRVNQVAEVLQLAHLLDRKPKA-----------LSGGQRQRVAIGRTLVAEPSVFLLDQPLSNLDA-ALRVQMRIEISRLHKRLGRTMIYVTHDQVEAMTLADKIVVLDAGRVAQVGKPLELYHYPADRFVAGF</Hsp_hseq>
+      <Hsp_midline>+ ++++  +  +  + K +NL ++ GE    +GP+G GKSTL   I G    TI  G+++   + +ND P    A RG+ + FQ+    P LSV E       L  AK+ V+  +V+ +    QL   L R   +            SGG++++  I +  V EP + +LD+  S LD  A R+     I  +       +I   H +V      D + +L  G + + G  + L HY  +   A F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|901695597|pdb|4RY2|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Peptidase-containing Abc Transporter Pcat1 &gt;gi|901695598|pdb|4RY2|B Chain B, Crystal Structure Of The Peptidase-containing Abc Transporter Pcat1</Hit_def>
+  <Hit_accession>4RY2_A</Hit_accession>
+  <Hit_len>730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>9.50365e-11</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>502</Hsp_hit-from>
+      <Hsp_hit-to>705</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>RPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGI-------FLSFQTPEEVPGL-----SVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDV---DATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>KPVLKNINLTIPKGKTVAIVGESGSGKTTLAKLLMN--FYSPEKGDILINGHSIKNISL-ELIRKKIAFVSQDVFIFSGTVKENLCLGNENVDMDEIIKAAKMA------NAHDFIEKLPLKYDTF-LNESGAN------LSEGQKQRLAIARALLKKPDILILDEATSNLDSITENHIKDAIYGLED----DVTVIIIAHRLSTI--VNCDKIYLLKDGEIVESG</Hsp_hseq>
+      <Hsp_midline>+P+LK++NLT+  G+  A++G +G+GK+TLA  ++     + E+G+I   G  I ++ + E  R+ I       F+   T +E   L      ++E ++AAK A      +  DF  +L  K     ++E+ A+       S G+K++  I +  + +P + ILDE  S LD    +  +    G++D    D+  +II H    +  +  D +++L DG IV++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|33357348|pdb|1MT0|A</Hit_id>
+  <Hit_def>Chain A, Atp-Binding Domain Of Haemolysin B From Escherichia Coli</Hit_def>
+  <Hit_accession>1MT0_A</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.30824e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>DRP-ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQ--CINDVPVYERARRGI------FLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI---RTPDMGFLIITHHREVLEYIK-PDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>DSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLI--QRFYIPENGQVLIDGHDLALAD-PNWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLA------GAHDFISELREGYNTI-VGEQGA------GLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKICKGRT-----VIIIAHR--LSTVKNADRIIVMEKGKIVEQG</Hsp_hseq>
+      <Hsp_midline>D P IL ++NL++  GEV  ++G +G+GKSTL   I        E G++   G    + D P + R + G+       L+    + +    PG+SVE+ + AAK A         DF ++LR     + + E  A      G SGG++++  I +  V  PK+ I DE  S LD ++  ++   +  I   RT     +II  HR  L  +K  D + ++  G IV+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|167013269|pdb|2PMK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structures Of An Isolated Abc-atpase In Complex With Tnp-adp</Hit_def>
+  <Hit_accession>2PMK_A</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.329e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>DRP-ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQ--CINDVPVYERARRGI------FLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>DSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLI--QRFYIPENGQVLIDGHDLALAD-PNWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLA------GAHDFISELREGYNTI-VGEQGA------GLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKI-CKGRTVIIIAHRLSTVK--NADRIIVMEKGKIVEQG</Hsp_hseq>
+      <Hsp_midline>D P IL ++NL++  GEV  ++G +G+GKSTL   I        E G++   G    + D P + R + G+       L+    + +    PG+SVE+ + AAK A         DF ++LR     + + E  A      G SGG++++  I +  V  PK+ I DE  S LD ++  ++   +  I       +II H    ++    D + ++  G IV+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|358439889|pdb|3TUJ|C</Hit_id>
+  <Hit_def>Chain C, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Dm Crystal Form &gt;gi|358439890|pdb|3TUJ|D Chain D, Inward Facing Conformations Of The Metni Methionine Abc Transporter: Dm Crystal Form</Hit_def>
+  <Hit_accession>3TUJ_C</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.40181e-10</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>LKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIER---GEIYFQGQCINDVPVYE--RARRGIFLSFQTPEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLN-------VGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI-RTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDVSLV</Hsp_qseq>
+      <Hsp_hseq>LNNVSLHVPAGQIYGVIGASGAGKSTLIRCV-----NLLERPTEGSVLVDGQELTTLSESELTKARRQIGXIFQ-----------HFNLLSSRTVFGNVALPLELDNTPKDEVKR-RVTELLSLVGLGDKHDSYPSNLSGGQKQRVAIARALASNPKVLLCDQATSALDPATTRSILELLKDINRRLGLTILLITHEXDVVKRI-CDCVAVISNGELIEQDTVSEV</Hsp_hseq>
+      <Hsp_midline>L +++L +  G+++ V+G +GAGKSTL   +       +ER   G +   GQ +  +   E  +ARR I   FQ            F   +   V G     L+     + ++ R R++E  +  GL           SGG+K++  I +     PK+ + D+  S LD   TR + E + DI R   +  L+ITH  +V++ I  D V ++ +G +++   VS V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|114793814|pdb|2FF7|A</Hit_id>
+  <Hit_def>Chain A, The Abc-Atpase Of The Abc-Transporter Hlyb In The Adp Bound State</Hit_def>
+  <Hit_accession>2FF7_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>1.41146e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>DRP-ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQ--CINDVPVYERARRGI------FLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI---RTPDMGFLIITHHREVLEYIK-PDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>DSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLI--QRFYIPENGQVLIDGHDLALAD-PNWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLA------GAHDFISELREGYNTI-VGEQGA------GLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKICKGRT-----VIIIAHR--LSTVKNADRIIVMEKGKIVEQG</Hsp_hseq>
+      <Hsp_midline>D P IL ++NL++  GEV  ++G +G+GKSTL   I        E G++   G    + D P + R + G+       L+    + +    PG+SVE+ + AAK A         DF ++LR     + + E  A      G SGG++++  I +  V  PK+ I DE  S LD ++  ++   +  I   RT     +II  HR  L  +K  D + ++  G IV+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|901695599|pdb|4S0F|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Peptidase-containing Abc Transporter Pcat1 E648q Mutant Complexed With Atpgs In An Occluded Conformation &gt;gi|901695600|pdb|4S0F|B Chain B, Crystal Structure Of The Peptidase-containing Abc Transporter Pcat1 E648q Mutant Complexed With Atpgs In An Occluded Conformation</Hit_def>
+  <Hit_accession>4S0F_A</Hit_accession>
+  <Hit_len>730</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>2.366e-10</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>502</Hsp_hit-from>
+      <Hsp_hit-to>705</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>RPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGI-------FLSFQTPEEVPGL-----SVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDV---DATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>KPVLKNINLTIPKGKTVAIVGESGSGKTTLAKLLMN--FYSPEKGDILINGHSIKNISL-ELIRKKIAFVSQDVFIFSGTVKENLCLGNENVDMDEIIKAAKMA------NAHDFIEKLPLKYDTF-LNESGAN------LSEGQKQRLAIARALLKKPDILILDQATSNLDSITENHIKDAIYGLED----DVTVIIIAHRLSTI--VNCDKIYLLKDGEIVESG</Hsp_hseq>
+      <Hsp_midline>+P+LK++NLT+  G+  A++G +G+GK+TLA  ++     + E+G+I   G  I ++ + E  R+ I       F+   T +E   L      ++E ++AAK A      +  DF  +L  K     ++E+ A+       S G+K++  I +  + +P + ILD+  S LD    +  +    G++D    D+  +II H    +  +  D +++L DG IV++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|52695490|pdb|1SGW|A</Hit_id>
+  <Hit_def>Chain A, Putative Abc Transporter (Atp-Binding Protein) From Pyrococcus Furiosus Pfu-867808-001</Hit_def>
+  <Hit_accession>1SGW_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>2.5256e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEE--VP-GLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEY</Hsp_qseq>
+      <Hsp_hseq>LEIRDLSVG-YDKPVLERITMTIEKGNVVNFHGPNGIGKTTLLKTI--STYLKPLKGEIIYNG-----VPITKVKGKIFFL----PEEIIVPRKISVEDYLKAV-ASLYGVKVN----KNEIMDALESVEVLDLKKKLG---ELSQGTIRRVQLASTLLVNAEIYVLDDPVVAIDEDSKHKVLKSILEI-LKEKGIVIIS-SREELSY</Hsp_hseq>
+      <Hsp_midline>L+IRDL +   D+P+L+ + +T+  G V    GPNG GK+TL  TI  + +    +GEI + G     VP+ +   +  FL    PEE  VP  +SVE++L+A   ++ G KV+      ++   L  + + +     G     S G  ++ ++    ++  ++ +LD+    +D D+   V + I +I   + G +II+  RE L Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|114793816|pdb|2FFB|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The Hlyb-Nbd E631q Mutant In Complex With Adp &gt;gi|114793823|pdb|2FGK|A Chain A, Crystal Structure Of The Abc-Cassette E631q Mutant Of Hlyb With Bound Atp &gt;gi|114793824|pdb|2FGK|B Chain B, Crystal Structure Of The Abc-Cassette E631q Mutant Of Hlyb With Bound Atp &gt;gi|114793825|pdb|2FGK|C Chain C, Crystal Structure Of The Abc-Cassette E631q Mutant Of Hlyb With Bound Atp &gt;gi|114793826|pdb|2FGK|D Chain D, Crystal Structure Of The Abc-Cassette E631q Mutant Of Hlyb With Bound Atp</Hit_def>
+  <Hit_accession>2FFB_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>2.94431e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>DRP-ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQ--CINDVPVYERARRGI------FLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI---RTPDMGFLIITHHREVLEYIK-PDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>DSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLI--QRFYIPENGQVLIDGHDLALAD-PNWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLA------GAHDFISELREGYNTI-VGEQGA------GLSGGQRQRIAIARALVNNPKILIFDQATSALDYESEHVIMRNMHKICKGRT-----VIIIAHR--LSTVKNADRIIVMEKGKIVEQG</Hsp_hseq>
+      <Hsp_midline>D P IL ++NL++  GEV  ++G +G+GKSTL   I        E G++   G    + D P + R + G+       L+    + +    PG+SVE+ + AAK A         DF ++LR     + + E  A      G SGG++++  I +  V  PK+ I D+  S LD ++  ++   +  I   RT     +II  HR  L  +K  D + ++  G IV+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|165761305|pdb|3B5J|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structures Of The S504a Mutant Of An Isolated Abc-atpase In Complex With Tnp-adp</Hit_def>
+  <Hit_accession>3B5J_A</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>3.00643e-10</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>DRP-ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQ--CINDVPVYERARRGI------FLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>DSPVILDNINLSIKQGEVIGIVGRAGSGKSTLTKLI--QRFYIPENGQVLIDGHDLALAD-PNWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLA------GAHDFISELREGYNTI-VGEQGA------GLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKI-CKGRTVIIIAHRLSTVK--NADRIIVMEKGKIVEQG</Hsp_hseq>
+      <Hsp_midline>D P IL ++NL++  GEV  ++G  G+GKSTL   I        E G++   G    + D P + R + G+       L+    + +    PG+SVE+ + AAK A         DF ++LR     + + E  A      G SGG++++  I +  V  PK+ I DE  S LD ++  ++   +  I       +II H    ++    D + ++  G IV+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|480312128|pdb|4HUQ|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of A Transporter &gt;gi|480312141|pdb|4HZU|A Chain A, Structure Of A Bacterial Energy-coupling Factor Transporter</Hit_def>
+  <Hit_accession>4HUQ_B</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>4.95208e-10</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPE-EVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIR-TPDMGFLIITHHREVLEYIKPDVVHILVDGTIV</Hsp_qseq>
+      <Hsp_hseq>PALTDVSFTVHAGEWLAIVGHNGSGKSTLAKSLDGLLPFT--QGSVTVGGITLTPETVWQ-VREQIGMIFQNPDNQFVGATVEDDVAFGLE---NRQISRDEMVPRVQAALAQVGMT-SFAQREPS-SLSGGQKQRVALAGIVAIAPKILILDEATSMLDPQGRIEMLAIVRQLRQQQNLTVISITH--DIDEAASADRVLVIDDGRLV</Hsp_hseq>
+      <Hsp_midline>P L  ++ T++ GE  A++G NG+GKSTLA ++ G    T  +G +   G  +    V++  R  I + FQ P+ +  G +VE+ +    E     ++S  +   +++A LA++ ++ ++A R  +   SGG+K++  +  +  + PK+ ILDE  S LD      +   +  +R   ++  + ITH  ++ E    D V ++ DG +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|226438425|pdb|3G5U|A</Hit_id>
+  <Hit_def>Chain A, Structure Of P-Glycoprotein Reveals A Molecular Basis For Poly-Specific Drug Binding &gt;gi|226438426|pdb|3G5U|B Chain B, Structure Of P-Glycoprotein Reveals A Molecular Basis For Poly-Specific Drug Binding</Hit_def>
+  <Hit_accession>3G5U_A</Hit_accession>
+  <Hit_len>1284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.0592e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTI--VGNPHCTIERGEIYFQGQCINDVPV-YERARRGI------FLSFQTPEEVPG------LSVEEFLRAAKEAVLGTKVSVL--DFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPMA----GSVFLDGKEIKQLNVQWLRAQLGIVSQEPILFDCSIAENIAYGDNSRVVSYEEIVRAAKEANIHQFIDSLPDKYNTRVGDKGTQL---------------SGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTC-IVIAHRLSTIQ--NADLIVVIQNGKVKEHG</Hsp_hseq>
+      <Hsp_midline>P+L+ L+L +  G+  A++G +G GKST+   +    +P      G ++  G+ I  + V + RA+ GI             E +        +S EE +RAAKEA +   +  L   ++T++  K  +L               SGG+K++  I +  V +P + +LDE  S LD ++ ++V E +D  R      ++I H    ++    D++ ++ +G + + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>7.51987e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YER------ARRGIFLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>LEFKNIHFSYPSRKEVQILKGLNLKVKSGQTVALVGNSGCGKSTTV-QLMQRLYDPLD-GMVSIDGQDIRTINVRYLREIIGVVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEA------NAYDFIMKLPHQFDTL-----VGERGAQL--SGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQAALDKAREGRTT-IVIAHRLSTVR--NADVIAGFDGGVIVEQGN</Hsp_hseq>
+      <Hsp_midline>L+ +++  S   R    ILK LNL + +G+  A++G +G GKST    ++   +  ++ G +   GQ I  + V Y R      ++  +  +    E +      ++++E  +A KEA      +  DF  +L  +   L        RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  +V   +D  R      ++I H    +     DV+     G IV+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|557805121|pdb|4M2S|A</Hit_id>
+  <Hit_def>Chain A, Corrected Structure Of Mouse P-glycoprotein Bound To Qz59-rrr &gt;gi|557805122|pdb|4M2S|B Chain B, Corrected Structure Of Mouse P-glycoprotein Bound To Qz59-rrr &gt;gi|557805123|pdb|4M2T|A Chain A, Corrected Structure Of Mouse P-glycoprotein Bound To Qz59-sss &gt;gi|557805124|pdb|4M2T|B Chain B, Corrected Structure Of Mouse P-glycoprotein Bound To Qz59-sss</Hit_def>
+  <Hit_accession>4M2S_A</Hit_accession>
+  <Hit_len>1282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.06886e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTI--VGNPHCTIERGEIYFQGQCINDVPV-YERARRGI------FLSFQTPEEVPG------LSVEEFLRAAKEAVLGTKVSVL--DFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPMA----GSVFLDGKEIKQLNVQWLRAQLGIVSQEPILFDCSIAENIAYGDNSRVVSYEEIVRAAKEANIHQFIDSLPDKYNTRVGDKGTQL---------------SGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTC-IVIAHRLSTIQ--NADLIVVIQNGKVKEHG</Hsp_hseq>
+      <Hsp_midline>P+L+ L+L +  G+  A++G +G GKST+   +    +P      G ++  G+ I  + V + RA+ GI             E +        +S EE +RAAKEA +   +  L   ++T++  K  +L               SGG+K++  I +  V +P + +LDE  S LD ++ ++V E +D  R      ++I H    ++    D++ ++ +G + + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.08399e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YER------ARRGIFLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>LEFKNIHFSYPSRKEVQILKGLNLKVKSGQTVALVGNSGCGKSTTV-QLMQRLYDPLD-GMVSIDGQDIRTINVRYLREIIGVVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEA------NAYDFIMKLPHQFDTL-----VGERGAQL--SGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQAALDKAREGRTT-IVIAHRLSTVR--NADVIAGFDGGVIVEQGN</Hsp_hseq>
+      <Hsp_midline>L+ +++  S   R    ILK LNL + +G+  A++G +G GKST    ++   +  ++ G +   GQ I  + V Y R      ++  +  +    E +      ++++E  +A KEA      +  DF  +L  +   L        RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  +V   +D  R      ++I H    +     DV+     G IV+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|764091025|pdb|4Q9H|A</Hit_id>
+  <Hit_def>Chain A, P-glycoprotein At 3.4 A Resolution &gt;gi|764091026|pdb|4Q9I|A Chain A, P-glycoprotein Cocrystallised With Qz-ala &gt;gi|764091029|pdb|4Q9J|A Chain A, P-glycoprotein Cocrystallised With Qz-val &gt;gi|764091033|pdb|4Q9K|A Chain A, P-glycoprotein Cocrystallised With Qz-leu &gt;gi|764091035|pdb|4Q9L|A Chain A, P-glycoprotein Cocrystallised With Qz-phe</Hit_def>
+  <Hit_accession>4Q9H_A</Hit_accession>
+  <Hit_len>1284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.09933e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTI--VGNPHCTIERGEIYFQGQCINDVPV-YERARRGI------FLSFQTPEEVPG------LSVEEFLRAAKEAVLGTKVSVL--DFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPMA----GSVFLDGKEIKQLNVQWLRAQLGIVSQEPILFDCSIAENIAYGDNSRVVSYEEIVRAAKEANIHQFIDSLPDKYNTRVGDKGTQL---------------SGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTC-IVIAHRLSTIQ--NADLIVVIQNGKVKEHG</Hsp_hseq>
+      <Hsp_midline>P+L+ L+L +  G+  A++G +G GKST+   +    +P      G ++  G+ I  + V + RA+ GI             E +        +S EE +RAAKEA +   +  L   ++T++  K  +L               SGG+K++  I +  V +P + +LDE  S LD ++ ++V E +D  R      ++I H    ++    D++ ++ +G + + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.15923e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YER------ARRGIFLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>LEFKNIHFSYPSRKEVQILKGLNLKVKSGQTVALVGNSGCGKSTTV-QLMQRLYDPLD-GMVSIDGQDIRTINVRYLREIIGVVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEA------NAYDFIMKLPHQFDTL-----VGERGAQL--SGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQAALDKAREGRTT-IVIAHRLSTVR--NADVIAGFDGGVIVEQGN</Hsp_hseq>
+      <Hsp_midline>L+ +++  S   R    ILK LNL + +G+  A++G +G GKST    ++   +  ++ G +   GQ I  + V Y R      ++  +  +    E +      ++++E  +A KEA      +  DF  +L  +   L        RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  +V   +D  R      ++I H    +     DV+     G IV+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|225734206|pdb|3G60|A</Hit_id>
+  <Hit_def>Chain A, Structure Of P-glycoprotein Reveals A Molecular Basis For Poly- Specific Drug Binding &gt;gi|225734207|pdb|3G60|B Chain B, Structure Of P-glycoprotein Reveals A Molecular Basis For Poly- Specific Drug Binding &gt;gi|225734208|pdb|3G61|A Chain A, Structure Of P-glycoprotein Reveals A Molecular Basis For Poly- Specific Drug Binding &gt;gi|225734209|pdb|3G61|B Chain B, Structure Of P-glycoprotein Reveals A Molecular Basis For Poly- Specific Drug Binding</Hit_def>
+  <Hit_accession>3G60_A</Hit_accession>
+  <Hit_len>1284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.1096e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTI--VGNPHCTIERGEIYFQGQCINDVPV-YERARRGI------FLSFQTPEEVPG------LSVEEFLRAAKEAVLGTKVSVL--DFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPMA----GSVFLDGKEIKQLNVQWLRAQLGIVSQEPILFDCSIAENIAYGDNSRVVSYEEIVRAAKEANIHQFIDSLPDKYNTRVGDKGTQL---------------SGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTC-IVIAHRLSTIQ--NADLIVVIQNGKVKEHG</Hsp_hseq>
+      <Hsp_midline>P+L+ L+L +  G+  A++G +G GKST+   +    +P      G ++  G+ I  + V + RA+ GI             E +        +S EE +RAAKEA +   +  L   ++T++  K  +L               SGG+K++  I +  V +P + +LDE  S LD ++ ++V E +D  R      ++I H    ++    D++ ++ +G + + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.38414e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YER------ARRGIFLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>LEFKNIHFSYPSRKEVQILKGLNLKVKSGQTVALVGNSGCGKSTTV-QLMQRLYDPLD-GMVSIDGQDIRTINVRYLREIIGVVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEA------NAYDFIMKLPHQFDTL-----VGERGAQL--SGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQAALDKAREGRTT-IVIAHRLSTVR--NADVIAGFDGGVIVEQGN</Hsp_hseq>
+      <Hsp_midline>L+ +++  S   R    ILK LNL + +G+  A++G +G GKST    ++   +  ++ G +   GQ I  + V Y R      ++  +  +    E +      ++++E  +A KEA      +  DF  +L  +   L        RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  +V   +D  R      ++I H    +     DV+     G IV+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|528082226|pdb|4KSB|A</Hit_id>
+  <Hit_def>Chain A, Structures Of P-glycoprotein Reveal Its Conformational Flexibility And An Epitope On The Nucleotide-binding Domain &gt;gi|528082227|pdb|4KSC|A Chain A, Structures Of P-glycoprotein Reveal Its Conformational Flexibility And An Epitope On The Nucleotide-binding Domain &gt;gi|528082228|pdb|4KSD|A Chain A, Structures Of P-glycoprotein Reveal Its Conformational Flexibility And An Epitope On The Nucleotide-binding Domain</Hit_def>
+  <Hit_accession>4KSB_A</Hit_accession>
+  <Hit_len>1284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.1096e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTI--VGNPHCTIERGEIYFQGQCINDVPV-YERARRGI------FLSFQTPEEVPG------LSVEEFLRAAKEAVLGTKVSVL--DFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPMA----GSVFLDGKEIKQLNVQWLRAQLGIVSQEPILFDCSIAENIAYGDNSRVVSYEEIVRAAKEANIHQFIDSLPDKYNTRVGDKGTQL---------------SGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTC-IVIAHRLSTIQ--NADLIVVIQNGKVKEHG</Hsp_hseq>
+      <Hsp_midline>P+L+ L+L +  G+  A++G +G GKST+   +    +P      G ++  G+ I  + V + RA+ GI             E +        +S EE +RAAKEA +   +  L   ++T++  K  +L               SGG+K++  I +  V +P + +LDE  S LD ++ ++V E +D  R      ++I H    ++    D++ ++ +G + + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>7.86866e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YER------ARRGIFLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>LEFKNIHFSYPSRKEVQILKGLNLKVKSGQTVALVGNSGCGKSTTV-QLMQRLYDPLD-GMVSIDGQDIRTINVRYLREIIGVVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEA------NAYDFIMKLPHQFDTL-----VGERGAQL--SGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQAALDKAREGRTT-IVIAHRLSTVR--NADVIAGFDGGVIVEQGN</Hsp_hseq>
+      <Hsp_midline>L+ +++  S   R    ILK LNL + +G+  A++G +G GKST    ++   +  ++ G +   GQ I  + V Y R      ++  +  +    E +      ++++E  +A KEA      +  DF  +L  +   L        RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  +V   +D  R      ++I H    +     DV+     G IV+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|528082486|pdb|4LSG|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Mouse P-glycoprotein &gt;gi|528082487|pdb|4LSG|B Chain B, Structure Of Mouse P-glycoprotein</Hit_def>
+  <Hit_accession>4LSG_A</Hit_accession>
+  <Hit_len>1284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.11996e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTI--VGNPHCTIERGEIYFQGQCINDVPV-YERARRGI------FLSFQTPEEVPG------LSVEEFLRAAKEAVLGTKVSVL--DFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPMA----GSVFLDGKEIKQLNVQWLRAQLGIVSQEPILFDCSIAENIAYGDNSRVVSYEEIVRAAKEANIHQFIDSLPDKYNTRVGDKGTQL---------------SGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTC-IVIAHRLSTIQ--NADLIVVIQNGKVKEHG</Hsp_hseq>
+      <Hsp_midline>P+L+ L+L +  G+  A++G +G GKST+   +    +P      G ++  G+ I  + V + RA+ GI             E +        +S EE +RAAKEA +   +  L   ++T++  K  +L               SGG+K++  I +  V +P + +LDE  S LD ++ ++V E +D  R      ++I H    ++    D++ ++ +G + + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.01263e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YER------ARRGIFLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>LEFKNIHFSYPSRKEVQILKGLNLKVKSGQTVALVGNSGCGKSTTV-QLMQRLYDPLD-GMVSIDGQDIRTINVRYLREIIGVVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEA------NAYDFIMKLPHQFDTL-----VGERGAQL--SGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQAALDKAREGRTT-IVIAHRLSTVR--NADVIAGFDGGVIVEQGN</Hsp_hseq>
+      <Hsp_midline>L+ +++  S   R    ILK LNL + +G+  A++G +G GKST    ++   +  ++ G +   GQ I  + V Y R      ++  +  +    E +      ++++E  +A KEA      +  DF  +L  +   L        RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  +V   +D  R      ++I H    +     DV+     G IV+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|557805116|pdb|4M1M|A</Hit_id>
+  <Hit_def>Chain A, Corrected Structure Of Mouse P-glycoprotein &gt;gi|557805117|pdb|4M1M|B Chain B, Corrected Structure Of Mouse P-glycoprotein</Hit_def>
+  <Hit_accession>4M1M_A</Hit_accession>
+  <Hit_len>1282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.14073e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>1047</Hsp_hit-from>
+      <Hsp_hit-to>1251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTI--VGNPHCTIERGEIYFQGQCINDVPV-YERARRGI------FLSFQTPEEVPG------LSVEEFLRAAKEAVLGTKVSVL--DFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PVLQGLSLEVKKGQTLALVGSSGCGKSTVVQLLERFYDPMA----GSVFLDGKEIKQLNVQWLRAQLGIVSQEPILFDCSIAENIAYGDNSRVVSYEEIVRAAKEANIHQFIDSLPDKYNTRVGDKGTQL---------------SGGQKQRIAIARALVRQPHILLLDEATSALDTESEKVVQEALDKAREGRTC-IVIAHRLSTIQ--NADLIVVIQNGKVKEHG</Hsp_hseq>
+      <Hsp_midline>P+L+ L+L +  G+  A++G +G GKST+   +    +P      G ++  G+ I  + V + RA+ GI             E +        +S EE +RAAKEA +   +  L   ++T++  K  +L               SGG+K++  I +  V +P + +LDE  S LD ++ ++V E +D  R      ++I H    ++    D++ ++ +G + + G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>8.15761e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>388</Hsp_hit-from>
+      <Hsp_hit-to>607</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRP---ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YER------ARRGIFLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGD</Hsp_qseq>
+      <Hsp_hseq>LEFKNIHFSYPSRKEVQILKGLNLKVKSGQTVALVGNSGCGKSTTV-QLMQRLYDPLD-GMVSIDGQDIRTINVRYLREIIGVVSQEPVLFATTIAENIRYGREDVTMDEIEKAVKEA------NAYDFIMKLPHQFDTL-----VGERGAQL--SGGQKQRIAIARALVRNPKILLLDEATSALDTESEAVVQAALDKAREGRTT-IVIAHRLSTVR--NADVIAGFDGGVIVEQGN</Hsp_hseq>
+      <Hsp_midline>L+ +++  S   R    ILK LNL + +G+  A++G +G GKST    ++   +  ++ G +   GQ I  + V Y R      ++  +  +    E +      ++++E  +A KEA      +  DF  +L  +   L        RG  +  SGG+K++  I +  V  PK+ +LDE  S LD ++  +V   +D  R      ++I H    +     DV+     G IV+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|71041949|pdb|1XEF|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The AtpMG2+ BOUND COMPOSITE DIMER OF HLYB-Nbd &gt;gi|71041950|pdb|1XEF|B Chain B, Crystal Structure Of The AtpMG2+ BOUND COMPOSITE DIMER OF HLYB-Nbd &gt;gi|71041951|pdb|1XEF|C Chain C, Crystal Structure Of The AtpMG2+ BOUND COMPOSITE DIMER OF HLYB-Nbd &gt;gi|71041952|pdb|1XEF|D Chain D, Crystal Structure Of The AtpMG2+ BOUND COMPOSITE DIMER OF HLYB-Nbd</Hit_def>
+  <Hit_accession>1XEF_A</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.34616e-09</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>DRP-ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQ--CINDVPVYERARRGI------FLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI</Hsp_qseq>
+      <Hsp_hseq>DSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLI--QRFYIPENGQVLIDGHDLALAD-PNWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLA------GAHDFISELREGYNTI-VGEQGA------GLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKI</Hsp_hseq>
+      <Hsp_midline>D P IL ++NL++  GEV  ++G +G+GKSTL   I        E G++   G    + D P + R + G+       L+    + +    PG+SVE+ + AAK A         DF ++LR     + + E  A      G SGG++++  I +  V  PK+ I DE  S LD ++  ++   +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|114793815|pdb|2FFA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Abc-Atpase H662a Of The Abc-Transporter Hlyb In Complex With Adp &gt;gi|114793819|pdb|2FGJ|A Chain A, Crystal Structure Of The Abc-Cassette H662a Mutant Of Hlyb With Bound Atp &gt;gi|114793820|pdb|2FGJ|B Chain B, Crystal Structure Of The Abc-Cassette H662a Mutant Of Hlyb With Bound Atp &gt;gi|114793821|pdb|2FGJ|C Chain C, Crystal Structure Of The Abc-Cassette H662a Mutant Of Hlyb With Bound Atp &gt;gi|114793822|pdb|2FGJ|D Chain D, Crystal Structure Of The Abc-Cassette H662a Mutant Of Hlyb With Bound Atp</Hit_def>
+  <Hit_accession>2FFA_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.44088e-09</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>DRP-ILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQ--CINDVPVYERARRGI------FLSFQTPEEV----PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDI</Hsp_qseq>
+      <Hsp_hseq>DSPVILDNINLSIKQGEVIGIVGRSGSGKSTLTKLI--QRFYIPENGQVLIDGHDLALAD-PNWLRRQVGVVLQDNVLLNRSIIDNISLANPGMSVEKVIYAAKLA------GAHDFISELREGYNTI-VGEQGA------GLSGGQRQRIAIARALVNNPKILIFDEATSALDYESEHVIMRNMHKI</Hsp_hseq>
+      <Hsp_midline>D P IL ++NL++  GEV  ++G +G+GKSTL   I        E G++   G    + D P + R + G+       L+    + +    PG+SVE+ + AAK A         DF ++LR     + + E  A      G SGG++++  I +  V  PK+ I DE  S LD ++  ++   +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|159794850|pdb|2IT1|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Ph0203 Protein From Pyrococcus Horikoshii &gt;gi|159794851|pdb|2IT1|B Chain B, Structure Of Ph0203 Protein From Pyrococcus Horikoshii</Hit_def>
+  <Hit_accession>2IT1_A</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.7947e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVE-------EFLRAAKEAVLGTKVSVLDFHTQLRAKLARL-RISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLD</Hsp_qseq>
+      <Hsp_hseq>IKLENIVKKFGNFTALNNINLKIKDGEFMALLGPSGSGKSTLLYTIAGIYKPT--SGKIYFDEKDVTELPPKD---RNVGLVFQNWALYPHMTVYKNIAFPLELRKAPREEI--------DKKVREVAKMLHIDKLLNRYPWQ-----LSGGQQQRVAIARALVKEPEVLLLDEPLSNLD</Hsp_hseq>
+      <Hsp_midline>+ + ++     +   L ++NL +  GE  A++GP+G+GKSTL  TI G    T   G+IYF  + + ++P  +   R + L FQ     P ++V        E  +A +E +        D   +  AK+  + ++   Y  +      SGG++++  I +  V EP++ +LDE  S LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|394986252|pdb|4AYW|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Human Mitochondrial Abc Transporter, Abcb10 (plate Form)</Hit_def>
+  <Hit_accession>4AYW_A</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>3.02586e-09</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>594</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVG--NPHCTIERGEIYFQGQCINDV-PVYERARRG------IFLSFQTPEEV-------PGLSVEEFLRAAK--EAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGID---DIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PIFQDFSLSIPSGSVTALVGPSGSGKSTVLSLLLRLYDPAS----GTISLDGHDIRQLNPVWLRSKIGTVSQEPILFSCSIAENIAYGADDPSSVTAEEIQRVAEVANAVAFIRNFPQGFNTVVGEK---------------GVLLSGGQKQRIAIARALLKNPKILLLDEATSALDAENEYLVQEALDRLMDGRT----VLVIAHHLSTIK--NANMVAVLDQGKITEYG</Hsp_hseq>
+      <Hsp_midline>PI +  +L++ +G V A++GP+G+GKST+   ++   +P      G I   G  I  + PV+ R++ G      I  S    E +         ++ EE  R A+   AV   +     F+T +  K                V  SGG+K++  I +  +  PK+ +LDE  S LD +   +V E +D   D RT     L+I HH   ++    ++V +L  G I + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|56966600|pdb|1VPL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Abc Transporter Atp-binding Protein (tm0544) From Thermotoga Maritima At 2.10 A Resolution</Hit_def>
+  <Hit_accession>1VPL_A</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>3.71846e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>IRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKST---LAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEV---PGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARL--RISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTGDV</Hsp_qseq>
+      <Hsp_hseq>VKDLRKRIGKKEILKGISFEIEEGEIFGLIGPNGAGKTTTLRIISTLI-KPSSGI----VTVFGKNVVEEPHEVRK----LISY-LPEEAGAYRNMQGIEYLRFVA-GFYASSSSEIEEMVERATEIAGLGEKIKDRVST------YSKGMVRKLLIARALMVNPRLAILDEPTSGLDVLNAREVRKILKQASQEGLTILVSSHNMLEVEFL-CDRIALIHNGTIVETGTV</Hsp_hseq>
+      <Hsp_midline>++DL   I  + ILK ++  +  GE+  ++GPNGAGK+T   +  T++  P   I    +   G+ + + P   R      +S+  PEE      +   E+LR        +  S ++   +   ++A L  +I +  ++      +S G  +K  I +  ++ P+LAILDE  SGLDV   R V + +       +  L+ +H+   +E++  D + ++ +GTIV+TG V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|23200171|pdb|1JI0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Analysis Of The Abc Transporter From Thermotoga Maritima</Hit_def>
+  <Hit_accession>1JI0_A</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.12107e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERARRGIFLSFQTPEEVPGLSVEEFL------RAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPD----------MGFLIITHHREVLE</Hsp_qseq>
+      <Hsp_hseq>VLEVQSLHVYYGAIHAIKGIDLKVPRGQIVTLIGANGAGKTTTLSAIAGLVRA--QKGKIIFNGQDITNKPAHVINRXGIALVPEGRRIFPELTVYENLXXGAYNRKDKEGIKRDLEWIFSLFPRLKERLKQLGGT-----------LSGGEQQXLAIGRALXSRPKLLXXDEPSLGLAPILVSEVFEVIQKINQEGTTILLVEQNALGALKVAHYGYVLE</Hsp_hseq>
+      <Hsp_midline>+L+++ L +       +K ++L +  G++  ++G NGAGK+T    I G      ++G+I F GQ I + P +   R GI L  +     P L+V E L      R  KE +      +     +L+ +L +L  +            SGGE++   I +     PKL   DE   GL       VFE I  I              +G L + H+  VLE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|165760875|pdb|2OLJ|A</Hit_id>
+  <Hit_def>Chain A, Abc Protein Artp In Complex With AdpMG2+ &gt;gi|165760876|pdb|2OLJ|B Chain B, Abc Protein Artp In Complex With AdpMG2+ &gt;gi|165760878|pdb|2OLK|A Chain A, Abc Protein Artp In Complex With Adp-Beta-S &gt;gi|165760879|pdb|2OLK|B Chain B, Abc Protein Artp In Complex With Adp-Beta-S &gt;gi|165760880|pdb|2OLK|C Chain C, Abc Protein Artp In Complex With Adp-Beta-S &gt;gi|165760881|pdb|2OLK|D Chain D, Abc Protein Artp In Complex With Adp-Beta-S &gt;gi|165760931|pdb|2OUK|A Chain A, Abc Protein Artp In Complex With Sulphate &gt;gi|165760932|pdb|2OUK|B Chain B, Abc Protein Artp In Complex With Sulphate &gt;gi|165760933|pdb|2OUK|C Chain C, Abc Protein Artp In Complex With Sulphate &gt;gi|165760934|pdb|2OUK|D Chain D, Abc Protein Artp In Complex With Sulphate &gt;gi|190016171|pdb|2Q0H|A Chain A, Abc Protein Artp In Complex With AdpMG2+, ATP-Gamma-S Hydrolyzed &gt;gi|190016172|pdb|2Q0H|B Chain B, Abc Protein Artp In Complex With AdpMG2+, ATP-Gamma-S Hydrolyzed &gt;gi|222447028|pdb|3C4J|A Chain A, Abc Protein Artp In Complex With Atp-Gamma-S &gt;gi|222447029|pdb|3C4J|B Chain B, Abc Protein Artp In Complex With Atp-Gamma-S</Hit_def>
+  <Hit_accession>2OLJ_A</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>2.31564e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MPTLLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YERARRGIFLSFQTPEEVPGLSVEEFLRAA--------KEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITH</Hsp_qseq>
+      <Hsp_hseq>MLQMIDVHQLKKSFGSLEVLKGINVHIREGEVVVVIGPSGSGKSTFLRCL--NLLEDFDEGEIIIDGINLKAKDTNLNKVREEVGMVFQRFNLFPHMTVLNNITLAPMKVRKWPREKAEAKAMELLD-------KVGLKDKAHAYPD-----SLSGGQAQRVAIARALAMEPKIMLFDEPTSALDPEMVGEVLSVMKQLANEGMTMVVVTH</Hsp_hseq>
+      <Hsp_midline>M  ++D+  L  S     +LK +N+ +  GEV  V+GP+G+GKST    +  N     + GEI   G  +        + R  + + FQ     P ++V   +  A        +E      + +LD       K+     + AY         SGG+ ++  I +   +EPK+ + DE  S LD +    V   +  +    M  +++TH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|394986251|pdb|4AYT|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Human Mitochondrial Abc Transporter, Abcb10 &gt;gi|394986253|pdb|4AYX|A Chain A, Structure Of The Human Mitochondrial Abc Transporter, Abcb10 (rod Form B) &gt;gi|443428009|pdb|3ZDQ|A Chain A, Structure Of The Human Mitochondrial Abc Transporter, Abcb10 (nucleotide-free Form)</Hit_def>
+  <Hit_accession>4AYT_A</Hit_accession>
+  <Hit_len>595</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.40602e-08</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>358</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>PILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVG--NPHCTIERGEIYFQGQCINDV-PVYERARRG------IFLSFQTPEEV-------PGLSVEEFLRAAK--EAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIK-PDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>PIFQDFSLSIPSGSVTALVGPSGSGKSTVLSLLLRLYDPAS----GTISLDGHDIRQLNPVWLRSKIGTVSQEPILFSCSIAENIAYGADDPSSVTAEEIQRVAEVANAVAFIRNFPQGFNTVVGEK---------------GVLLSGGQKQRIAIARALLKNPKILLLDEATSALDAENEYLVQEALD--RLMDGRTVLVIAHR--LSTIKNANMVAVLDQGKITEYG</Hsp_hseq>
+      <Hsp_midline>PI +  +L++ +G V A++GP+G+GKST+   ++   +P      G I   G  I  + PV+ R++ G      I  S    E +         ++ EE  R A+   AV   +     F+T +  K                V  SGG+K++  I +  +  PK+ +LDE  S LD +   +V E +D  R  D   +++  HR  L  IK  ++V +L  G I + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|161761167|pdb|3B5W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Eschericia Coli Msba &gt;gi|161761168|pdb|3B5W|B Chain B, Crystal Structure Of Eschericia Coli Msba &gt;gi|161761169|pdb|3B5W|C Chain C, Crystal Structure Of Eschericia Coli Msba &gt;gi|161761170|pdb|3B5W|D Chain D, Crystal Structure Of Eschericia Coli Msba &gt;gi|161761171|pdb|3B5W|E Chain E, Crystal Structure Of Eschericia Coli Msba &gt;gi|161761172|pdb|3B5W|F Chain F, Crystal Structure Of Eschericia Coli Msba &gt;gi|161761173|pdb|3B5W|G Chain G, Crystal Structure Of Eschericia Coli Msba &gt;gi|161761174|pdb|3B5W|H Chain H, Crystal Structure Of Eschericia Coli Msba</Hit_def>
+  <Hit_accession>3B5W_A</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.42289e-08</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>355</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>DRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPVYERA--RRGIFLSFQT--------PEEVPGLSVEEFLRAAKEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITHHREVLEYIKPDVVHILVDGTIVKTG</Hsp_qseq>
+      <Hsp_hseq>DVPALRNINLKIPAGKTVALVGRSGSGKSTIASLI--TRFYDIDEGEILMDG---HDLREYTLASLRNQVALVSQNVHLFNDTVANNIAYARTEQYSREQIEEA-ARMAYAMDFINKMDNGLDTV-IGEN------GVLLSGGQRQRIAIARALLRDSPILILDEATSALDTESERAIQAALDELQ-KNRTSLVIAHRLSTIE--KADEIVVVEDGVIVERG</Hsp_hseq>
+      <Hsp_midline>D P L+++NL +  G+  A++G +G+GKST+A  I       I+ GEI   G   +D+  Y  A  R  + L  Q            +     E++ R   E         +DF  ++   L  + I E        V  SGG++++  I +  + +  + ILDE  S LD ++ R +   +D+++  +   L+I H    +E  K D + ++ DG IV+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|222447024|pdb|3C41|J</Hit_id>
+  <Hit_def>Chain J, Abc Protein Artp In Complex With Amp-PnpMG2+ &gt;gi|222447025|pdb|3C41|K Chain K, Abc Protein Artp In Complex With Amp-PnpMG2+</Hit_def>
+  <Hit_accession>3C41_J</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>4.57783e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>LLDIRDLCMSIADRPILKSLNLTLNTGEVHAVMGPNGAGKSTLAGTIVGNPHCTIERGEIYFQGQCINDVPV-YERARRGIFLSFQTPEEVPGLSVEEFLRAA--------KEAVLGTKVSVLDFHTQLRAKLARLRISEAYASRGLNVGFSGGEKKKNEILQLAVLEPKLAILDETDSGLDVDATRIVFEGIDDIRTPDMGFLIITH</Hsp_qseq>
+      <Hsp_hseq>MIDVHQLKKSFGSLEVLKGINVHIREGEVVVVIGPSGSGKSTFLRCL--NLLEDFDEGEIIIDGINLKAKDTNLNKVREEVGMVFQRFNLFPHMTVLNNITLAPMKVRKWPREKAEAKAMELLD-------KVGLKDKAHAYPD-----SLSGGQAQRVAIARALAMEPKIMLFDEPTSALDPEMVGEVLSVMKQLANEGMTMVVVTH</Hsp_hseq>
+      <Hsp_midline>++D+  L  S     +LK +N+ +  GEV  V+GP+G+GKST    +  N     + GEI   G  +        + R  + + FQ     P ++V   +  A        +E      + +LD       K+     + AY         SGG+ ++  I +   +EPK+ + DE  S LD +    V   +  +    M  +++TH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

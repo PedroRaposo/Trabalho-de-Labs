@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_13761</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611479</BlastOutput_query-def>
+  <BlastOutput_query-len>337</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_13761</Iteration_query-ID>
+  <Iteration_query-def>2611479</Iteration_query-def>
+  <Iteration_query-len>337</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|73536116|pdb|2A4M|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Trprs Ii Bound To Atp &gt;gi|73536117|pdb|2A4M|B Chain B, Structure Of Trprs Ii Bound To Atp &gt;gi|73536118|pdb|2A4M|C Chain C, Structure Of Trprs Ii Bound To Atp</Hit_def>
+  <Hit_accession>2A4M_A</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.286</Hsp_bit-score>
+      <Hsp_score>765</Hsp_score>
+      <Hsp_evalue>9.0861e-99</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>RVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVL----DYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLK-EMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>RVLTGDRPTGALHLGHLAGSLQNRVRLQDEAELFVLLADVQALTDHFDR------PEQVRENVLAVALDYLAAGLDPQKTTCVVQSAVPELAELTVYFLNLVTVSHLRQNPTVKAEIAQKGYGERVPAGFFVYPVSQAADIAAFGATLVPVGDDQLPMLEQTREIVRRFNALYAPVLAEPQAQLSRVPRLPGLDGQAKMSKSLGNAIALGDSADEVARKVMGMYTDPGHLRASDPGRVEGNPVFTFLDAFDPDPARVQALKDQYRAGGLGDVKVKKHLIDVLNGVLAPIRTRRAEYERDPDAVLRFVTEGTARGREVAAQTLGQVRRAMRL</Hsp_hseq>
+      <Hsp_midline>RVLTGDRPTG LHLGH AGSL  R+R+Q E E F ++AD+  LT    R      P  VRE VL    DYLA G+D Q+    +QSAVPE+ EL   F NLVTV  L++ P++K E+AQ      +P G   YPV QAADI    A LVPVG D    +E TRE+ +RFN LY  V   P+A LS    L G DGQAKMSKSLGNAI L D  + V RKV  MYTDP   RA  PGRVEGNPVF + DAF+P+   V   K++YRAG +GD +VK  L   LN  L PIR RRA+ E+ P  + R + EG AR R  A +T+ +V+ AM L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|61680678|pdb|1YI8|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Tryptophanyl Trrna Synthetase Ii From Deinococcus Radiodurans In Complex With L-Trp &gt;gi|61680679|pdb|1YI8|A Chain A, Crystal Structure Of Tryptophanyl Trrna Synthetase Ii From Deinococcus Radiodurans In Complex With L-Trp &gt;gi|61680680|pdb|1YI8|C Chain C, Crystal Structure Of Tryptophanyl Trrna Synthetase Ii From Deinococcus Radiodurans In Complex With L-Trp &gt;gi|61680681|pdb|1YIA|B Chain B, Crystal Structure Of Tryptophanyl Trna Synthetase Ii From Deinococcus Radiodurans In Complex With 5-Hydroxy Tryptophan. &gt;gi|61680682|pdb|1YIA|A Chain A, Crystal Structure Of Tryptophanyl Trna Synthetase Ii From Deinococcus Radiodurans In Complex With 5-Hydroxy Tryptophan. &gt;gi|61680683|pdb|1YIA|C Chain C, Crystal Structure Of Tryptophanyl Trna Synthetase Ii From Deinococcus Radiodurans In Complex With 5-Hydroxy Tryptophan. &gt;gi|73535683|pdb|1YID|B Chain B, Crystal Structure Of Tryptophanyl Trna Synthetase Ii From Deinococcus Radiodurans In Complex With Atp. &gt;gi|73535684|pdb|1YID|A Chain A, Crystal Structure Of Tryptophanyl Trna Synthetase Ii From Deinococcus Radiodurans In Complex With Atp. &gt;gi|73535685|pdb|1YID|C Chain C, Crystal Structure Of Tryptophanyl Trna Synthetase Ii From Deinococcus Radiodurans In Complex With Atp.</Hit_def>
+  <Hit_accession>1YI8_B</Hit_accession>
+  <Hit_len>351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>8.692e-98</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>348</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVL----DYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLK-EMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>VLTGDRPTGALHLGHLAGSLQNRVRLQDEAELFVLLADVQALTDHFDR------PEQVRENVLAVALDYLAAGLDPQKTTCVVQSAVPELAELTVYFLNLVTVSHLRQNPTVKAEIAQKGYGERVPAGFFVYPVSQAADIAAFGATLVPVGDDQLPMLEQTREIVRRFNALYAPVLAEPQAQLSRVPRLPGLDGQAKMSKSLGNAIALGDSADEVARKVMGMYTDPGHLRASDPGRVEGNPVFTFLDAFDPDPARVQALKDQYRAGGLGDVKVKKHLIDVLNGVLAPIRTRRAEYERDPDAVLRFVTEGTARGREVAAQTLGQVRRAMRL</Hsp_hseq>
+      <Hsp_midline>VLTGDRPTG LHLGH AGSL  R+R+Q E E F ++AD+  LT    R      P  VRE VL    DYLA G+D Q+    +QSAVPE+ EL   F NLVTV  L++ P++K E+AQ      +P G   YPV QAADI    A LVPVG D    +E TRE+ +RFN LY  V   P+A LS    L G DGQAKMSKSLGNAI L D  + V RKV  MYTDP   RA  PGRVEGNPVF + DAF+P+   V   K++YRAG +GD +VK  L   LN  L PIR RRA+ E+ P  + R + EG AR R  A +T+ +V+ AM L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|93279847|pdb|2G36|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase (Ec 6.1.1.2) (Tryptophan-Trna Ligase)(Trprs) (Tm0492) From Thermotoga Maritima At 2.50 A Resolution</Hit_def>
+  <Hit_accession>2G36_A</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>6.77194e-90</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>LRVLTGDRPTGRLHLGHYAGSLGTRLRIQSE-HECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPF-GLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>MRILSGMRPTGKLHIGHLVGALENWVKLQEEGNECFYFVADWHALTTHYD--DVSKLKEYTRDLVRGFLACGIDPEKSVIFVQSGVKEHAELALLFSMIVSVSRLERVPTYKEIKSELNYKDLSTAGFLIYPVLQAADILIYKAEGVPVGEDQVYHIELTREIARRFNYLYDEVFPEPEAILSRVPKLPGTDGR-KMSKSYGNIINLEISEKELEQTILRMMTDPARVRRSDPGNPENCPVWKYHQAFDISEEESKWVWEGCTTASIGCVDCKKLLLKNMKRKLAPIWENFRKIDEDPHYVDDVIMEGTKKAREVAAKTMEEVRRAMNL</Hsp_hseq>
+      <Hsp_midline>+R+L+G RPTG+LH+GH  G+L   +++Q E +ECF+ +AD H LTT +    +++L    R+LV  +LACGID +++VI++QS V E  ELA +F+ +V+V RL+R+P+ KE+    N  +L   G L YPVLQAADIL+ +A  VPVG+D   H+ELTRE+A+RFN LY EVFP P A+LS    L GTDG+ KMSKS GN I L   E+ + + +  M TDPAR R   PG  E  PV+ YH AF+ + +E     E      +G  + K  L + +   L PI     ++++ P Y+  V+ EG  + R  A KTM+ V+ AM L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|170292175|pdb|2EL7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Thermus Thermophilus &gt;gi|170292176|pdb|2EL7|B Chain B, Crystal Structure Of Tryptophanyl-Trna Synthetase From Thermus Thermophilus</Hit_def>
+  <Hit_accession>2EL7_A</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>3.63865e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>335</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGHYAGSLGTRLRIQSE--HECFFIIADLHTLTTRHGRAQLAELPALVR----ELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLV-GTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>MKRVLSGIQPSGEIHIGNYLGAIKQWVAIGEKLGRDAFFCIVDYHALTN-----PLAYDPSTLAQRTFEAALVNIAAGLDPEKVTLFVQSHVPEHTELSWVFTTLTPLGDLTRMTQFKD--KASKQETVWSGLLMYPVLQAADILIYKADTVPVGEDQVQHIELTREIARRFNHLFGETFPEPQALLNPEAPRVPGIDGKAKMSKSLGNTIGLLEPEESIWQKIQHLPDDPQRIRLSDPGDPERTILFTYLSYFAPK-DLVEALKEEYRKAGVGTYVVKRILFDHLMEALRPIRERAEALKKDPDYVMDALLEGAKRARAVAQATMEEVREKVGL</Hsp_hseq>
+      <Hsp_midline>M RVL+G +P+G +H+G+Y G++   + I  +   + FF I D H LT       LA  P+ +     E  L  +A G+D ++  +++QS VPE TEL+++F  L  +  L R+   K+  +A+    +  GLL YPVLQAADIL+ +A  VPVG+D   H+ELTRE+A+RFN L+GE FP P+ALL+  A  V G DG+AKMSKSLGN I L + EE++ +K++ +  DP R R   PG  E   +F Y   F P  D V   KE YR   VG   VK  L   L   L PIR R   L++ P Y+   L EG  R RA A+ TM+ V+E +GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|301016057|pdb|3N9I|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Yersinia Pestis Co92 &gt;gi|301016058|pdb|3N9I|B Chain B, Crystal Structure Of Tryptophanyl-Trna Synthetase From Yersinia Pestis Co92</Hit_def>
+  <Hit_accession>3N9I_A</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>7.67874e-54</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLD----YLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSE-LPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKS---LGNAIFLSDDEETVRRKVRAMYTD---PARTRADIPGRVEGNPVFAYHDAFNPNTDE-VAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSARP</Hsp_qseq>
+      <Hsp_hseq>VFSGAQPSGELTIGNYMGALRQWVQMQDDYDCIYCIVDLHAITARQD-------PALLRKRTLDTLALYLACGIDPKKSTIFVQSHVPEHSQLSWALNCYTYFGELSRMTQFKD--KSARYAENINAGLFDYPVLMAADILLYQTNQVPVGEDQKQHLELSRDIASRFNNLYGDIFKIPEPFIPKAGARVMSLQDPTKKMSKSDDNRNNVIELLEDPKSVVKKIKRAMTDSDEPALIRYDVEKKAGVSNLL---DILSGVTGQSIPELEAQFTGQMYG--HLKGAVADAVSGMLSELQERYRTYREDEALLQDVMREGAAKARARAQVTLAKVYEAIGFVAQP</Hsp_hseq>
+      <Hsp_midline>V +G +P+G L +G+Y G+L   +++Q +++C + I DLH +T R         PAL+R+  LD    YLACGID +++ I++QS VPE ++L++          L R+   K+  ++A  +E +  GL  YPVL AADILL + + VPVG+D + H+EL+R++A RFN LYG++F +P   +      V +  D   KMSKS     N I L +D ++V +K++   TD   PA  R D+  +   + +    D  +  T + +   + ++     G   +K A+A A++  L  ++ R     +  A L  V+ EG A+ RA A+ T+ +V EA+G  A+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|292659842|pdb|3M5W|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Campylobacter Jejuni &gt;gi|292659843|pdb|3M5W|B Chain B, Crystal Structure Of Tryptophanyl-Trna Synthetase From Campylobacter Jejuni &gt;gi|349587915|pdb|3TZL|A Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Campylobacter Jejuni Complexed With Adp And Tryptophane &gt;gi|349587916|pdb|3TZL|B Chain B, Crystal Structure Of Tryptophanyl-Trna Synthetase From Campylobacter Jejuni Complexed With Adp And Tryptophane</Hit_def>
+  <Hit_accession>3M5W_A</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>1.27885e-52</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>322</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>RVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAE--LPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>RVLTGLQPSGDLHIGNYFGAIKQXVDAQEKSQXFXFIANYHAXTSSQDGEKLKQNSLKAAAA-----FLSLGIDPQKSVFWLQSDVKEVXELYWILSQFTPXGLLERAHSYKDKV-AKGLS-ASHGLFSYPVLXAADILLFDTRIVPVGKDQIQHVEIARDIALKVNNEWGEIFTLPEARVNEEVAVVVGTDG-AKXSKSYQNTIDIFSSEKTLKKQISSIVTDS--TALEDPKDHENCNIFKIAKLFLDESGQ-KELQIRYEKGGEGYGHFKIYLNELVNAYFKEAREKYNELLEKPSHLKEILDFGATKARKIAQEKXQKIYEKIGL</Hsp_hseq>
+      <Hsp_midline>RVLTG +P+G LH+G+Y G++   +  Q + + F  IA+ H  T+     +L +  L A        +L+ GID Q++V +LQS V EV EL +I +       L+R  S K+   A  LS    GL  YPVL AADILL    +VPVGKD   HVE+ R++A + N  +GE+F LP A ++ + A +VGTDG AK SKS  N I +   E+T+++++ ++ TD   T  + P   E   +F     F   + +    + RY  G  G    K  L   +N + +  R +  +L ++P++L  +L+ G  + R  A++  Q++ E +GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|16974813|pdb|1I6M|A</Hit_id>
+  <Hit_def>Chain A, 1.7 High Resolution Experimental Phases For Tryptophanyl-Trna Synthetase Complexed With Tryptophanyl-5&apos;amp &gt;gi|27573858|pdb|1M83|A Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp In A Closed, Pre-Transition State Conformation &gt;gi|28373622|pdb|1MAU|A Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp And Tryptophanamide In A Pre-Transition State Conformation &gt;gi|28373623|pdb|1MAW|A Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp In An Open Conformation &gt;gi|28373624|pdb|1MAW|B Chain B, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp In An Open Conformation &gt;gi|28373625|pdb|1MAW|C Chain C, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp In An Open Conformation &gt;gi|28373626|pdb|1MAW|D Chain D, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp In An Open Conformation &gt;gi|28373627|pdb|1MAW|E Chain E, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp In An Open Conformation &gt;gi|28373628|pdb|1MAW|F Chain F, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Atp In An Open Conformation &gt;gi|28373629|pdb|1MB2|A Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Tryptophan In An Open Conformation &gt;gi|28373630|pdb|1MB2|B Chain B, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Tryptophan In An Open Conformation &gt;gi|28373631|pdb|1MB2|C Chain C, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Tryptophan In An Open Conformation &gt;gi|28373632|pdb|1MB2|D Chain D, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Tryptophan In An Open Conformation &gt;gi|28373633|pdb|1MB2|E Chain E, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Tryptophan In An Open Conformation &gt;gi|28373634|pdb|1MB2|F Chain F, Crystal Structure Of Tryptophanyl-Trna Synthetase Complexed With Tryptophan In An Open Conformation &gt;gi|134105432|pdb|2OV4|A Chain A, Crystal Structure Of B. Stearothermophilus Tryptophanyl Trna Synthetase In Complex With Adenosine Tetraphosphate</Hit_def>
+  <Hit_accession>1I6M_A</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>5.56045e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>340</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPART-RAD---IPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSAR</Hsp_qseq>
+      <Hsp_hseq>MKTIFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELERMTQFKE--KSAGKEAVSAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRYGELFTIPEARIPKVGARIMSLVDPTKKMSKSDPNPKAYITLLDDAKTIEKKIKSAVTDSEGTIRYDKEAKPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHW-MESEELDRVLDEGAEKANRVASEMVRKMEQAMGLGRR</Hsp_hseq>
+      <Hsp_midline>M  + +G +P+G + +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R+   KE  ++A    +  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ YGE+F +P A +      + +  D   KMSKS  N    I L DD +T+ +K+++  TD   T R D    PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R      +   L RVL+EG  +    A + ++++++AMGL  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|346652036|pdb|3SZ3|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Vibrio Cholerae With An Endogenous Tryptophan</Hit_def>
+  <Hit_accession>3SZ3_A</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.696</Hsp_bit-score>
+      <Hsp_score>413</Hsp_score>
+      <Hsp_evalue>2.06441e-46</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>332</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLD----YLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYG---EVFPLPRALLSDCATLVGT--DGQAKMSKS---LGNAIFLSDDEETVRRKVRAMYTD---PARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSARP</Hsp_qseq>
+      <Hsp_hseq>VLSGVQPSGELSIGNYLGALRQWQQMQDDYDCQYCVVDLHAITVRQD-------PQALHEATLDALAICLAVGVDPKKSTLFVQSHVPEHAQLGWVLNCYTQMGELSRMTQFKDKS-ARYANDVNAGLFGYPVLMAADILLYGAHQVPVGSDQKQHLELARDIATRFNNIYSPEQPIFTIPEPYIPTVNARVMSLQDATKKMSKSDDNRKNVITLLEDPKSIIKKINKAQTDAETPPRIAYDVENKAGIANLMGLYSAATGKT--FAEIEAQY-AGVEMYGPFKKDVGEAVVAMLEPVQAEYQRIRNDREYLNSVMRDGAEKASAKALQTLKKVYAAVGFVARP</Hsp_hseq>
+      <Hsp_midline>VL+G +P+G L +G+Y G+L    ++Q +++C + + DLH +T R         P  + E  LD     LA G+D +++ +++QS VPE  +L ++      +  L R+   K+ + A   +++  GL GYPVL AADILL  AH VPVG D + H+EL R++A RFN +Y     +F +P   +      V +  D   KMSKS     N I L +D +++ +K+    TD   P R   D+  +     +   + A    T   A  + +Y AG       K  +  A+   LEP++A   ++     YL  V+ +G  +  A+A +T+++V  A+G  ARP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|7546192|pdb|1D2R|A</Hit_id>
+  <Hit_def>Chain A, 2.9 A Crystal Structure Of Ligand-Free Tryptophanyl-Trna Synthetase: Domain Movements Fragment The Adenine Nucleotide Binding Site. &gt;gi|7546193|pdb|1D2R|B Chain B, 2.9 A Crystal Structure Of Ligand-Free Tryptophanyl-Trna Synthetase: Domain Movements Fragment The Adenine Nucleotide Binding Site. &gt;gi|7546194|pdb|1D2R|C Chain C, 2.9 A Crystal Structure Of Ligand-Free Tryptophanyl-Trna Synthetase: Domain Movements Fragment The Adenine Nucleotide Binding Site. &gt;gi|7546195|pdb|1D2R|D Chain D, 2.9 A Crystal Structure Of Ligand-Free Tryptophanyl-Trna Synthetase: Domain Movements Fragment The Adenine Nucleotide Binding Site. &gt;gi|7546196|pdb|1D2R|E Chain E, 2.9 A Crystal Structure Of Ligand-Free Tryptophanyl-Trna Synthetase: Domain Movements Fragment The Adenine Nucleotide Binding Site. &gt;gi|7546197|pdb|1D2R|F Chain F, 2.9 A Crystal Structure Of Ligand-Free Tryptophanyl-Trna Synthetase: Domain Movements Fragment The Adenine Nucleotide Binding Site.</Hit_def>
+  <Hit_accession>1D2R_A</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.00835e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPART-RAD---IPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>MKTIFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELERMTQFKE--KSAGAAAAAAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRYGELFTIPEARIPKVGARIMSLVDPTKKMSKSDPNPKAYITLLDDAKTIEKKIKSAVTDSEGTIRYDKEAKPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHW-MESEELDRVLDEGAEKANRVASEMVRKMEQAMGL</Hsp_hseq>
+      <Hsp_midline>M  + +G +P+G + +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R+   KE  ++A  +    GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ YGE+F +P A +      + +  D   KMSKS  N    I L DD +T+ +K+++  TD   T R D    PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R      +   L RVL+EG  +    A + ++++++AMGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|16974811|pdb|1I6K|A</Hit_id>
+  <Hit_def>Chain A, 1.7 High Resolution Experimental Phases For Tryptophanyl-Trna Synthetase Complexed With Tryptophanyl-5&apos;amp &gt;gi|16974812|pdb|1I6L|A Chain A, 1.7 High Resolution Experimental Phases For Tryptophanyl-Trna Synthetase Complexed With Tryptophanyl-5&apos;amp</Hit_def>
+  <Hit_accession>1I6K_A</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>4.50318e-44</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPART----RADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSAR</Hsp_qseq>
+      <Hsp_hseq>IFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQ---DPHELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWXLQCIVYIGELERXTQFKE--KSAGKEAVSAGLLTYPPLXAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRYGELFTIPEARIPKVGARIXSLVDPTKKXSKSDPNPKAYITLLDDAKTIEKKIKSAVTDSEGTIRYDKEAKPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWXESEE-LDRVLDEGAEKANRVASEXVRKXEQAXGLGRR</Hsp_hseq>
+      <Hsp_midline>+ +G +P+G + +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A+    +V +  L+R    KE  ++A    +  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ YGE+F +P A +      + +  D   K SKS  N    I L DD +T+ +K+++  TD   T    +   PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + +++ ++A GL  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|953267713|pdb|5DK4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Analysis Of Tryptophanyl-trna Synthetase From Bacillus Stearothermophilus In Complex With Indolmycin And Mg*atp</Hit_def>
+  <Hit_accession>5DK4_A</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>4.50766e-44</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPART----RADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSAR</Hsp_qseq>
+      <Hsp_hseq>IFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQ---DPHELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWXLQCIVYIGELERXTQFKE--KSAGKEAVSAGLLTYPPLXAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRYGELFTIPEARIPKVGARIXSLVDPTKKXSKSDPNPKAYITLLDDAKTIEKKIKSAVTDSEGTIRYDKEAKPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWXESEE-LDRVLDEGAEKANRVASEXVRKXEQAXGLGRR</Hsp_hseq>
+      <Hsp_midline>+ +G +P+G + +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A+    +V +  L+R    KE  ++A    +  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ YGE+F +P A +      + +  D   K SKS  N    I L DD +T+ +K+++  TD   T    +   PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + +++ ++A GL  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|253722679|pdb|3FI0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722680|pdb|3FI0|B Chain B, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722681|pdb|3FI0|C Chain C, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722682|pdb|3FI0|D Chain D, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722683|pdb|3FI0|E Chain E, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722684|pdb|3FI0|F Chain F, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722685|pdb|3FI0|G Chain G, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722686|pdb|3FI0|H Chain H, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722687|pdb|3FI0|I Chain I, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722688|pdb|3FI0|J Chain J, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722689|pdb|3FI0|K Chain K, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722690|pdb|3FI0|L Chain L, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722691|pdb|3FI0|M Chain M, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722692|pdb|3FI0|N Chain N, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722693|pdb|3FI0|O Chain O, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722694|pdb|3FI0|P Chain P, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722695|pdb|3FI0|Q Chain Q, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate &gt;gi|253722696|pdb|3FI0|R Chain R, Crystal Structure Analysis Of B. Stearothermophilus Tryptophanyl-Trna Synthetase Complexed With Tryptophan, Amp, And Inorganic Phosphate</Hit_def>
+  <Hit_accession>3FI0_A</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.08448e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>324</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>334</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPART----RADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>IFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWXLQCIVYIGELERXTQFKE--KSAGKEAVSAGLLTYPPLXAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRYGELFTIPEARIPKVGARIXSLVDPTKKXSKSDPNPKAYITLLDDAKTIEKKIKSAVTDSEGTIRYDKEAKPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWXESEE-LDRVLDEGAEKANRVASEXVRKXEQAXGL</Hsp_hseq>
+      <Hsp_midline>+ +G +P+G + +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A+    +V +  L+R    KE  ++A    +  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ YGE+F +P A +      + +  D   K SKS  N    I L DD +T+ +K+++  TD   T    +   PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + +++ ++A GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|319443750|pdb|3PRH|A</Hit_id>
+  <Hit_def>Chain A, Tryptophanyl-trna Synthetase Val144pro Mutant From B. Subtilis &gt;gi|319443751|pdb|3PRH|B Chain B, Tryptophanyl-trna Synthetase Val144pro Mutant From B. Subtilis</Hit_def>
+  <Hit_accession>3PRH_A</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>9.62284e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>361</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>337</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPART----RADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSAR</Hsp_qseq>
+      <Hsp_hseq>IFSGIQPSGSVTLGNYIGAMKQFVELQHDYNSYFCIVDQHAITVPQDRL---ELRKNIRNLAALYLAVGLDPEKATLFIQSEVPAHAQAGWMMQCVAYIGELERMTQFKDKSKGN--EAVVSGLLTYPPLMAADILLYGTDLVPPGEDQKQHLELTRNLAERFNKKYNDIFTIPEVKIPKVGARIMSLNDPLKKMSKSDPNQKAYITLLDEPKQLEKKIKSAVTDSEGIVKFDKENKPGV--SNLLTIYSILGNTTIEEL---EAKYEGKGYG--EFKGDLAEVVVNALKPIQDRYYELIESEE-LDRILDEGAERANRTANKMLKKMENAMGLGRK</Hsp_hseq>
+      <Hsp_midline>+ +G +P+G + LG+Y G++   + +Q ++  +F I D H +T    R    EL   +R L   YLA G+D ++A +++QS VP   +  ++   +  +  L+R+   K+ ++      +  GLL YP L AADILL    LVP G+D + H+ELTR +A+RFN+ Y ++F +P   +      + +  D   KMSKS  N    I L D+ + + +K+++  TD        + + PG    N +  Y    N   +E+   + +Y     G  E K  LA  +   L+PI+ R  +L +    L R+L+EG  R    A K +++++ AMGL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|222447092|pdb|3FHJ|F</Hit_id>
+  <Hit_def>Chain F, Independent Saturation Of Three Trprs Subsites Generates A Partially-Assembled State Similar To Those Observed In Molecular Simulations</Hit_def>
+  <Hit_accession>3FHJ_F</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>7.7409e-38</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>MKTIFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELERMVSA--------------GLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRY---FTIPEA--RRIMSLV--DPTKKMSKSDPNPKAYITLLDDAKTIEKKIKS-----SEGTIRYPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWMESEE-LDRVLDEGAEKANRVASEMVRKMEQAMGL</Hsp_hseq>
+      <Hsp_midline>M  + +G +P+G + +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R+ S               GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ Y   F +P A      +LV  D   KMSKS  N    I L DD +T+ +K+++     +      PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + ++++++AMGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|222447089|pdb|3FHJ|B</Hit_id>
+  <Hit_def>Chain B, Independent Saturation Of Three Trprs Subsites Generates A Partially-Assembled State Similar To Those Observed In Molecular Simulations</Hit_def>
+  <Hit_accession>3FHJ_B</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.06761e-35</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>289</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>TGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGN---AIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>SGIQTIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELER------------MTQVSAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRY---FTIPERIMS----LV--DPTKKMSKSDPNPKAYITLLDDAKTIEKKIKS-----SEGTIRYPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWMESEE-LDRVLDEGAEKANRVASEMVRKMEQAMGL</Hsp_hseq>
+      <Hsp_midline>+G   +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R            ++++  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ Y   F +P  ++S    LV  D   KMSKS  N    I L DD +T+ +K+++     +      PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + ++++++AMGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|222447087|pdb|3FHJ|A</Hit_id>
+  <Hit_def>Chain A, Independent Saturation Of Three Trprs Subsites Generates A Partially-Assembled State Similar To Those Observed In Molecular Simulations</Hit_def>
+  <Hit_accession>3FHJ_A</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>1.32853e-35</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>TGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>SGIQTIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELER------------MTQVSAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRY---FTIPEARIPKVGARIMSLVDPTKKMSKSDPNPKAYITLLDDAKTIEKKIKS-----SEGTIRYPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWMESEE-LDRVLDEGAEKANRVASEMVRKMEQAMGL</Hsp_hseq>
+      <Hsp_midline>+G   +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R            ++++  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ Y   F +P A +      + +  D   KMSKS  N    I L DD +T+ +K+++     +      PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + ++++++AMGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|222447091|pdb|3FHJ|E</Hit_id>
+  <Hit_def>Chain E, Independent Saturation Of Three Trprs Subsites Generates A Partially-Assembled State Similar To Those Observed In Molecular Simulations</Hit_def>
+  <Hit_accession>3FHJ_E</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>1.37576e-35</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>TGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>SGIQTIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELER------------MTQVSAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRY---FTIPEARIPKVGARIMSLVDPTKKMSKSDPNPKAYITLLDDAKTIEKKIKS------------PGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWMESEE-LDRVLDEGAEKANRVASEMVRKMEQAMGL</Hsp_hseq>
+      <Hsp_midline>+G   +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R            ++++  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ Y   F +P A +      + +  D   KMSKS  N    I L DD +T+ +K+++            PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + ++++++AMGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|222447088|pdb|3FHJ|D</Hit_id>
+  <Hit_def>Chain D, Independent Saturation Of Three Trprs Subsites Generates A Partially-Assembled State Similar To Those Observed In Molecular Simulations</Hit_def>
+  <Hit_accession>3FHJ_D</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.31336e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>MKTIFSGIQPSGVITIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPH---ELRQNIRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELER------------MTQVSAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERF-------FTIPEARIPKVGARIMSLVDPTKKMSKSDPNPKAYITLLDDAKTIEKKIKSAISNLLNIYSTLSGQ------------------SIEELERQYV--------FKADLAQVVIETLRPIQERYHHW-MESEELDRVLDEGAEKANRVASEMVRKMEQAMGL</Hsp_hseq>
+      <Hsp_midline>M  + +G +P+G + +G+Y G+L   + +Q E+ C+F I D H +T         EL   +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R            ++++  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RF       F +P A +      + +  D   KMSKS  N    I L DD +T+ +K+++  ++     + + G+                   +   + +Y          K  LA+ +   L PI+ R      +   L RVL+EG  +    A + ++++++AMGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|186972918|pdb|2YY5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Mycoplasma Pneumoniae &gt;gi|186972919|pdb|2YY5|B Chain B, Crystal Structure Of Tryptophanyl-Trna Synthetase From Mycoplasma Pneumoniae &gt;gi|186972920|pdb|2YY5|C Chain C, Crystal Structure Of Tryptophanyl-Trna Synthetase From Mycoplasma Pneumoniae &gt;gi|186972921|pdb|2YY5|D Chain D, Crystal Structure Of Tryptophanyl-Trna Synthetase From Mycoplasma Pneumoniae</Hit_def>
+  <Hit_accession>2YY5_A</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>1.21528e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLK----EMAQAANLS-ELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGN---AIFLSDDEETVRRKVRAMYTDP-------ARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSARPL</Hsp_qseq>
+      <Hsp_hseq>MKRALTGIQASGKQHLGNYLGVMQSLIELQEQCQLFVFVADLHSITVDF---QPQALKQNNFDLVRTLLAVGLDPQKACLFLQSDLLEHSMMGYLMMVQSNLGELQRMTQFKAKKAEQTRNPNGTLNIPTGLLTYPALMAGDILLYQPDIVPVGNDQKQHLELTRDLAQRIQKKFKLKLRLPQFVQNKDTNRIMDLFDPTKKMSKSSKNQNGVIYLDDPKEVVVKKIRQATTDSFNKIRFASKTQPGVTNMLTILKALLKEPVNQSLTNQLGNDLEAYFSTK-SYLDLKNALTEATVNLLVNIQRKREQISREQVF--NCLQAGKNQAQATARTTLALFYDGFGLGSQNI</Hsp_hseq>
+      <Hsp_midline>M R LTG + +G+ HLG+Y G + + + +Q + + F  +ADLH++T      Q   L     +LV   LA G+D Q+A ++LQS + E + + ++      +  LQR+   K    E  +  N +  +P GLL YP L A DILL +  +VPVG D + H+ELTR++A+R  + +     LP+ + +     +    D   KMSKS  N    I+L D +E V +K+R   TD        ++T+  +   +               T+++ +  E Y + +    ++K+AL  A    L  I+ +R Q+ ++  +    L+ G  + +A AR T+    +  GL ++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|222447090|pdb|3FHJ|C</Hit_id>
+  <Hit_def>Chain C, Independent Saturation Of Three Trprs Subsites Generates A Partially-Assembled State Similar To Those Observed In Molecular Simulations</Hit_def>
+  <Hit_accession>3FHJ_C</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.872</Hsp_bit-score>
+      <Hsp_score>320</Hsp_score>
+      <Hsp_evalue>1.23921e-33</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>328</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>TGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGL</Hsp_qseq>
+      <Hsp_hseq>SGIQTIGNYIGALRQFVELQHEYNCYFCIVDQHAITVWQDPHELRQN---IRRLAALYLAVGIDPTQATLFIQSEVPAHAQAAWMLQCIVYIGELER------------MTQVSAGLLTYPPLMAADILLYNTDIVPVGEDQKQHIELTRDLAERFNKRY---FTIPEARIPKVGARIMSLVDPTKKMSKSDPNPKAYITLLDDAKTIEKKIKSS---------------EGTP-------------GISNLLNIYSTLGV----FKADLAQVVIETLRPIQERYHHW-MESEELDRVLDEGAEKANRVASEMVRKMEQAMGL</Hsp_hseq>
+      <Hsp_midline>+G   +G+Y G+L   + +Q E+ C+F I D H +T      +L +    +R L   YLA GID  +A +++QS VP   + A++   +V +  L+R            ++++  GLL YP L AADILL    +VPVG+D + H+ELTR++A+RFN+ Y   F +P A +      + +  D   KMSKS  N    I L DD +T+ +K+++                EG P              +++    Y    V     K  LA+ +   L PI+ R      +   L RVL+EG  +    A + ++++++AMGL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|359546107|pdb|3U1V|A</Hit_id>
+  <Hit_def>Chain A, X-ray Structure Of De Novo Design Cysteine Esterase Fr29, Northeast Structural Genomics Consortium Target Or52 &gt;gi|359546108|pdb|3U1V|B Chain B, X-ray Structure Of De Novo Design Cysteine Esterase Fr29, Northeast Structural Genomics Consortium Target Or52 &gt;gi|359546109|pdb|3U1V|C Chain C, X-ray Structure Of De Novo Design Cysteine Esterase Fr29, Northeast Structural Genomics Consortium Target Or52 &gt;gi|359546110|pdb|3U1V|D Chain D, X-ray Structure Of De Novo Design Cysteine Esterase Fr29, Northeast Structural Genomics Consortium Target Or52</Hit_def>
+  <Hit_accession>3U1V_A</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>6.98109e-33</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>331</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>PTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGT--DGQAKMSKSLGNA---IFLSDDEETVRRKVRAMYTDPART----RADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQPAYLARVLEEGCARMRAEARKTMQRVKEAMGLSAR</Hsp_qseq>
+      <Hsp_hseq>PTGVITIGRYIGALRQFVELQHEYNCYFCIADQSAITVWQ---DPHELRQNIRRLAALYLAVGIDPTQATLFIASEVPAHAQAAWXLQCIVYIGELERXTLFKELS--AGKEAVSAGLLTHPPIYAAXILLYNTDIVPVGEYGKQLYELTRDLAERFNKRYGELFTIPEARIPKVGARIXSLVDPTKSXYQSDPNPKAYITLLDDAKTIEKKIKSAVTDSEGTIRYDKEAKPGI--SNLLNIYSTLSGQSIEEL----ERQYEGK-GYGVFKADLAQVVIETLRPIQERYHHWXESEE-LDRVLDEGAEKANRVASEXVRKXEQAXGLGRR</Hsp_hseq>
+      <Hsp_midline>PTG + +G Y G+L   + +Q E+ C+F IAD   +T         EL   +R L   YLA GID  +A +++ S VP   + A+    +V +  L+R    KE++  A    +  GLL +P + AA ILL    +VPVG+  +   ELTR++A+RFN+ YGE+F +P A +      + +  D      +S  N    I L DD +T+ +K+++  TD   T    +   PG    N +  Y      + +E+    ER   G+ G    K  LA+ +   L PI+ R     +    L RVL+EG  +    A + +++ ++A GL  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|83754904|pdb|2CYB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tyrosyl-Trna Synthetase Complexed With L-Tyrosine From Archaeoglobus Fulgidus &gt;gi|83754905|pdb|2CYB|B Chain B, Crystal Structure Of Tyrosyl-Trna Synthetase Complexed With L-Tyrosine From Archaeoglobus Fulgidus</Hit_def>
+  <Hit_accession>2CYB_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.2688e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>RVLTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTRHGR-AQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSL----KEMAQAANLSELPF-GLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVF---AYH------------DAFNPNTDEVAHFK---ERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>RAYVGYEPSGEIHLGHMMTVQKLMDLQEAGFEIIVLLADIHAYLNEKGTFEEIAEVADYNKKV---FIALGLDESRAKFVLGS------EYQLSRDYVLDVLKMARITTLNRARRSMDEVSRRKEDPMVSQMIYPLMQALDIAHLGVDLAVGGIDQRKIHMLARENLPRLG------YSSPVCL--HTPILVGLDGQ-KMSSSKGNYISVRDPPEEVERKIRKAYC-PA-------GVVEENPILDIAKYHILPRFGKIVVERDAKFGGDVEYASFEELAEDFKSGQLHPLDLKIAVAKYLNMLLEDARKR</Hsp_hseq>
+      <Hsp_midline>R   G  P+G +HLGH           ++  E   ++AD+H      G   ++AE+    +++   ++A G+D  RA   L S      E       ++ V ++ RI +L    + M + +   E P    + YP++QA DI      L   G D      L RE   R        +  P  L      LVG DGQ KMS S GN I + D  E V RK+R  Y  PA       G VE NP+     YH            DA      E A F+   E +++G++   ++K A+A+ LN  LE  R R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|326634434|pdb|3P0J|A</Hit_id>
+  <Hit_def>Chain A, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Tyrosinol, Triclinic Crystal Form 1 &gt;gi|326634435|pdb|3P0J|B Chain B, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Tyrosinol, Triclinic Crystal Form 1 &gt;gi|326634436|pdb|3P0J|C Chain C, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Tyrosinol, Triclinic Crystal Form 1 &gt;gi|326634437|pdb|3P0J|D Chain D, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Tyrosinol, Triclinic Crystal Form 1</Hit_def>
+  <Hit_accession>3P0J_A</Hit_accession>
+  <Hit_len>690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.633</Hsp_bit-score>
+      <Hsp_score>174</Hsp_score>
+      <Hsp_evalue>1.9349e-13</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGH-YAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLV-TVPRLQRIPSLKEMAQAANLSE--LPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSL-GNAIFLSDDEETVRRKVRAMY------TDPARTRADIPGRVEG-NPVFAYHDAF-------NPNTDEVAH-----FKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQ</Hsp_qseq>
+      <Hsp_hseq>LIRCYDGFEPSGRMHIAQGIFKAVNVNKCTAAGCEFVFWVADWFALMNDKVGGELEKIRIVGRYLIEVWKAAGMDMDK-VLFLWSS-EEITSHADTYWRMVLDIGRQNTIARIKKCCTIMGKTEGTLTAAQVLYPLMQCCDIFFLKADICQLGLDQRKVNMLAREYCDLIGR------KLKPVILSHHMLAGLKQGQAKMSKSDPDSAIFMEDTEEDVARKIRQAYCPRVKQSASAITDDGAPVATDDRNPVLDYFQCVVYARPGAAATIDGTTYATYEDLEQAFVSDEVSEDALKSCLIDEVNALLEPVRQHFASNEE</Hsp_hseq>
+      <Hsp_midline>++R   G  P+GR+H+      ++       +  E  F +AD   L       +L ++  + R L+  + A G+D  + V++L S+  E+T  A  +  +V  + R   I  +K+       +E  L    + YP++Q  DI   +A +  +G D      L RE      R       L   +LS         GQAKMSKS   +AIF+ D EE V RK+R  Y      +  A T    P   +  NPV  Y               D   +      ++ + +  V +  +K  L   +N  LEP+R   A  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|290789897|pdb|3A04|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Hyperthermophilic Archaeon, Aeropyrum Pernix K1 &gt;gi|290789898|pdb|3A05|A Chain A, Crystal Structure Of Tryptophanyl-Trna Synthetase From Hyperthermophilic Archaeon, Aeropyrum Pernix K1 Complex With Tryptophan</Hit_def>
+  <Hit_accession>3A04_A</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.98292e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHYAGSLGTRLRIQSE-HECFFIIADLHTLTTRH-GRAQLAELPALVRELVLDYLACGIDAQRAVIYLQS--AVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLA--------RAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNP--VFAYH-DAFN--PNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>VLTGFMPSGKFHFGHKL-TVDQLIYLQKNGFKVFVAIADAEAFAVRRIGREEAVRIA--VEEYIANMIALGLDPKDTEFYFQTNRGTPYF-RLIQLFSGKVTAAEMEAI--YGELTPAKMMASL---------TQAADILHVQLDEYGGYRHVVVPVGADQDPHLRLTRDLA---DRMAG-VVELERPASTYHKLQPGLDGRKMSSSRPDSTIFLTDPPEVARNKLFRALTG-GRATAEEQRRLGGVPEVCSVYHMDLYHLMPDDGEVKHIYTSCRLGKILCGECKQIAWEKLERFLAEHQSR</Hsp_hseq>
+      <Hsp_midline>VLTG  P+G+ H GH   ++   + +Q    + F  IAD      R  GR +   +   V E + + +A G+D +    Y Q+    P    L  +F+  VT   ++ I    E+  A  ++ L          QAADIL          R  +VPVG D + H+ LTR++A   +R+ G V  L R   +      G DG+   S    + IFL+D  E  R K+    T   R  A+   R+ G P     YH D ++  P+  EV H     R G++   E K      L  FL   ++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|400261127|pdb|3VGJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Of Plasmodium Falciparum Tyrosyl-trna Synthetase (pftyrrs)in Complex With Adenylate Analog &gt;gi|400261128|pdb|3VGJ|B Chain B, Crystal Of Plasmodium Falciparum Tyrosyl-trna Synthetase (pftyrrs)in Complex With Adenylate Analog</Hit_def>
+  <Hit_accession>3VGJ_A</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.3958</Hsp_bit-score>
+      <Hsp_score>163</Hsp_score>
+      <Hsp_evalue>3.38815e-12</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>287</Hsp_query-to>
+      <Hsp_hit-from>62</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHL--GHYAGSLGTRLRIQSEHECFFI--IADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAV-----PEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGN-AIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAY--------HDAFN-----PNTDEVAHF-----KERYRAGRVGDTEVKDALARALNTFLEPIR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGRMHIAQGLLKSIIVNKL---TSNGCTFIFWIADWFAHLNNKMSGDLKKIKKVGSYFIEVWKSCGMNMENVQFLWASEEINKKPNEYWSLVLDISRSFNINRMKR--CLKIMGRSEGEENYCSQIL-YPCMQCADIFFLNVDICQLGIDQRKVNMLAREYCDIKKIKKKPVI-LSHGMLPGL-----LEGQEKMSKSDENSAIFMDDSESDVNRKIKKAYCP--------PNVIENNPIYAYAKSIIFPSYNEFNLVRKEKNGGDKTYYTLQELEHDYVNGFIHPLDLKDNVAMYINKLLQPVR</Hsp_hseq>
+      <Hsp_midline>G  P+GR+H+  G     +  +L   + + C FI  IAD            L ++  +    +  + +CG++ +       S        E   L    +    + R++R   LK M ++         +L YP +Q ADI      +  +G D      L RE           V  L   +L         +GQ KMSKS  N AIF+ D E  V RK++  Y          P  +E NP++AY        ++ FN      N  +  ++     +  Y  G +   ++KD +A  +N  L+P+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|266618748|pdb|3JXE|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Pyrococcus Horikoshii Tryptophanyl-Trna Synthetase In Complex With Trpamp &gt;gi|266618749|pdb|3JXE|B Chain B, Crystal Structure Of Pyrococcus Horikoshii Tryptophanyl-Trna Synthetase In Complex With Trpamp</Hit_def>
+  <Hit_accession>3JXE_A</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>4.17098e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>VLTGDRPTGRLHLGHY---------AGSLGTRLRIQ-SEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAADILLARAH-LVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSL-GNAIFLSDDEETVRRKVRAMYTDPAR----TRADIPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDT---EVKDALARALNTFLEPIRARRAQLEQ</Hsp_qseq>
+      <Hsp_hseq>LYTGRGPSGPMHIGHIIPFFATKWLQEKFGVNLYIQITDDEKFLFKENLTFDDTKR----------WAYDNILDIIAVGFDPDKTFIFQNSEFTKIYEMAIPIAKKINFSMAKAVFGFTEQSKI--------GMIFFPAIQIAPTFFERKRCLIPAAIDQDPYWRLQRDFAESLG--YYKTAALHSKFVPSLTSLSG-----KMSASKPETAIYLTDSPEDVEKKVWKFTLTGGRPTLKEQREKGGEPEKCVVFKWLEIFFEEDDK--KLKERYYACKNGELTCGECKRYLISKIQEFLKEHQRRRKKAEK</Hsp_hseq>
+      <Hsp_midline>+ TG  P+G +H+GH              G  L IQ ++ E F    +L    T+              + +LD +A G D  +  I+  S   ++ E+A   A  +     + +    E ++         G++ +P +Q A     R   L+P   D + +  L R+ A+     Y +   L    +    +L G     KMS S    AI+L+D  E V +KV        R     + +  G  E   VF + + F    D+    KERY A + G+    E K  L   +  FL+  + RR + E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|326634430|pdb|3P0H|A</Hit_id>
+  <Hit_def>Chain A, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Fisetin, Cubic Crystal Form &gt;gi|326634431|pdb|3P0H|B Chain B, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Fisetin, Cubic Crystal Form &gt;gi|326634432|pdb|3P0I|A Chain A, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Tyrosinol, Cubic Crystal Form &gt;gi|326634433|pdb|3P0I|B Chain B, Leishmania Major Tyrosyl-Trna Synthetase In Complex With Tyrosinol, Cubic Crystal Form</Hit_def>
+  <Hit_accession>3P0H_A</Hit_accession>
+  <Hit_len>690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>6.60807e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>MLRVLTGDRPTGRLHLGH-YAGSLGTRLRIQSEHECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLV-TVPRLQRIPSLKEMAQAANLSE--LPFGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSL-GNAIFLSDDEETVRRKVRAMY------TDPARTRADIPGRVEG-NPVFAYH--------------DAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQ</Hsp_qseq>
+      <Hsp_hseq>LIRCYDGFEPSGRXHIAQGIFKAVNVNKCTAAGCEFVFWVADWFALXNDKVGGELEKIRIVGRYLIEVWKAAGXDXDK-VLFLWSS-EEITSHADTYWRXVLDIGRQNTIARIKKCCTIXGKTEGTLTAAQVLYPLXQCCDIFFLKADICQLGLDQRKVNXLAREYCDLIGR------KLKPVILSHHXLAGLKQGQAKXSKSDPDSAIFXEDTEEDVARKIRQAYCPRVKQSASAITDDGAPVATDDRNPVLDYFQCVVYARPGAAATIDGTTYATYE--DLEQAFVSDEVSEDALKSCLIDEVNALLEPVRQHFASNEE</Hsp_hseq>
+      <Hsp_midline>++R   G  P+GR H+      ++       +  E  F +AD   L       +L ++  + R L+  + A G D  + V++L S+  E+T  A  +   V  + R   I  +K+       +E  L    + YP+ Q  DI   +A +  +G D      L RE      R       L   +LS         GQAK SKS   +AIF  D EE V RK+R  Y      +  A T    P   +  NPV  Y               D     T E    ++ + +  V +  +K  L   +N  LEP+R   A  E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|31615439|pdb|1J1U|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Archaeal Tyrosyl-Trna Synthetase Complexed With Trna(Tyr) And L-Tyrosine &gt;gi|67464162|pdb|1U7D|A Chain A, Crystal Structure Of Apo M. Jannashii Tyrosyl-Trna Synthetase &gt;gi|67464163|pdb|1U7D|B Chain B, Crystal Structure Of Apo M. Jannashii Tyrosyl-Trna Synthetase</Hit_def>
+  <Hit_accession>1J1U_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>1.42352e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNDIHYLGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q  DI      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|310942792|pdb|3N2Y|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tyrosyl-Trna Synthetase Complexed With P-(2- Tetrazolyl)-Phenylalanine &gt;gi|310942793|pdb|3N2Y|B Chain B, Crystal Structure Of Tyrosyl-Trna Synthetase Complexed With P-(2- Tetrazolyl)-Phenylalanine</Hit_def>
+  <Hit_accession>3N2Y_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.87222e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>LTGDRPTGRLHLGHYAGSLGTRLRIQSE-HECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>LIGFEPSGKIHLGHYL-QIKKMIDLQNAGFDIIIILADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFMLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNGIHYVGGDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>L G  P+G++HLGHY   +   + +Q+   +   I+ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q   I      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|667484943|pdb|4PBR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The M. Jannaschii G2 Trna Synthetase Variant Bound To 4-(2-bromoisobutyramido)-phenylalanine (bibaf) &gt;gi|667484945|pdb|4PBT|A Chain A, Crystal Structure Of The M. Jannaschii G2 Trna Synthetase Variant Bound To 4-trans-cyclooctene-amidopheylalanine (tco-amf)</Hit_def>
+  <Hit_accession>4PBR_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>4.70192e-10</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIIELADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEWMLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNSIHYKGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q   I      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|323463147|pdb|3QE4|A</Hit_id>
+  <Hit_def>Chain A, An Evolved Aminoacyl-Trna Synthetase With Atypical Polysubstrate Specificity &gt;gi|323463148|pdb|3QE4|B Chain B, An Evolved Aminoacyl-Trna Synthetase With Atypical Polysubstrate Specificity</Hit_def>
+  <Hit_accession>3QE4_A</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>5.00284e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>LTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>LIGFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIIVLADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEWMLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNG-----AHYLGV------DVAVGGMEQRKIHMLARELLP-KKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>L G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q        AH + V       V +     ++ + L  E+ P  + +      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|93278581|pdb|1ZH0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of L-3-(2-Napthyl)alanine-Trna Synthetase In Complex With L-3-(2-Napthyl)alanine</Hit_def>
+  <Hit_accession>1ZH0_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>6.12326e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>LIGFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSSFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNPAHYQGVDVVVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>L G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q          +V  G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|93278672|pdb|2AG6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of P-Bromo-L-Phenylalanine-Trna Sythetase In Complex With P-Bromo-L-Phenylalanine</Hit_def>
+  <Hit_accession>2AG6_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>8.809e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>LIGFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSSFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNPLHYEGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>L G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q   +      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|67463836|pdb|1U7X|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Mutant M. Jannashii Tyrosyl-trna Synthetase Specific For O-methyl-tyrosine &gt;gi|67463837|pdb|1U7X|B Chain B, Crystal Structure Of A Mutant M. Jannashii Tyrosyl-trna Synthetase Specific For O-methyl-tyrosine</Hit_def>
+  <Hit_accession>1U7X_A</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.06489e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSTFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNAIHYPGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q   I      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|460417555|pdb|4HJR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of F2yrs &gt;gi|460417556|pdb|4HJR|B Chain B, Crystal Structure Of F2yrs &gt;gi|460417557|pdb|4HJX|A Chain A, Crystal Structure Of F2yrs Complexed With F2y &gt;gi|460417558|pdb|4HJX|B Chain B, Crystal Structure Of F2yrs Complexed With F2y</Hit_def>
+  <Hit_accession>4HJR_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.55983e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIIYLADLGAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSENCLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNNIHYSGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADL     + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q  +I  +   +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|149241961|pdb|2HGZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A P-Benzoyl-L-Phenylalanyl-Trna Synthetase</Hit_def>
+  <Hit_accession>2HGZ_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.9214</Hsp_bit-score>
+      <Hsp_score>141</Hsp_score>
+      <Hsp_evalue>1.74786e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVA------KRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSPFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQV----------------NTSH-RLGVDVAVGGMEQRKIHMLARELLP-KKVVMIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q                 N SH  L  +VA      ++ + L  E+ P  + ++     L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|694270080|pdb|4NX2|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Dcyrs Complexed With Dcy</Hit_def>
+  <Hit_accession>4NX2_A</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>2.09298e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>309</Hsp_align-len>
+      <Hsp_qseq>LTGDRPTGRLHLGHYAGSLGTRLRIQSE-HECFFIIADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLK----EMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRA</Hsp_qseq>
+      <Hsp_hseq>LIGFEPSGKIHLGHYL-QIKKMIDLQNAGFDIIIILADLGAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAK----YVYG-----SEILLDKDGTLNVYRLALKTTLKRARRSMELIAREDENPKVAEVIYPIMQVNSIHYMGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKRLA</Hsp_hseq>
+      <Hsp_midline>L G  P+G++HLGHY   +   + +Q+   +   I+ADL     + G  +L E+  +       + A G+ A+    Y+       +E+       + V RL    +LK     M   A   E P    + YP++Q   I      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|93278582|pdb|1ZH6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of P-Acetylphenylalanine-Trna Synthetase In Complex With P-Acetylphenylalanine</Hit_def>
+  <Hit_accession>1ZH6_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>58.151</Hsp_bit-score>
+      <Hsp_score>139</Hsp_score>
+      <Hsp_evalue>2.45202e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>LTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>LIGFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNGCHYRGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>L G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q          +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|554793464|pdb|4HPW|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tyrosine-trna Ligase Mutant Complexed With Unnatural Amino Acid 3-o-methyl-tyrosine</Hit_def>
+  <Hit_accession>4HPW_A</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>3.85176e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>307</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTR-HGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRA</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIISLADLGAYLNQKGELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFGLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNNIHYVGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKRLA</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II  L  L    + + +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q  +I      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|480312079|pdb|4HK4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo Tyrosine-trna Ligase Mutant Protein</Hit_def>
+  <Hit_accession>4HK4_A</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>3.9221e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTR-HGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQ</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIISLADLGAYLNQKGELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFGLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNNIHYVGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKRLAH</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II  L  L    + + +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q  +I      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|667484944|pdb|4PBS|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The M. Jannaschii F9 Trna Synthetase Variant Bound To 4-(2-bromoisobutyramido)-phenylalanine (bibaf)</Hit_def>
+  <Hit_accession>4PBS_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>6.97886e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIIELADLHAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNGCHYLGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADLH    + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q          +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|189096270|pdb|3D6U|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of 4-(Trifluoromethyldiazirinyl) Phenylalanyl-Trna Synthetase &gt;gi|189096271|pdb|3D6V|A Chain A, Crystal Structure Of 4-(Trifluoromethyldiazirinyl) Phenylalanyl-Trna Synthetase</Hit_def>
+  <Hit_accession>3D6U_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.59513e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>LTGDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAV--PEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>IIGFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLFAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAK--YVYGSSFMLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQVNPLHYEGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>+ G  P+G++HLGHY   L  +  I  ++  F II   ADL     + G  +L E+  +       + A G+ A+   +Y  S +   + T   +  A   T+ R +R      M   A   E P    + YP++Q   +      +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|167013270|pdb|2PXH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Bipyridylalanyl-Trna Synthetase</Hit_def>
+  <Hit_accession>2PXH_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.29553e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLS-DCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIIYLADLAAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMEVNGWHYSGVDVAVGGMEQRKIHMLAREL-------------LPKKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADL     + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP+++      +   +   G +      L RE+             LP+ ++      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|595588410|pdb|4ND6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo 3-nitro-tyrosine Trna Synthetase (5b) In The Open Form</Hit_def>
+  <Hit_accession>4ND6_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.34267e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>300</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFIIADLHTLTTR-HGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLCAYLNNKGELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQ-----VNSAHYRGV------DVAVGGMEQRKIHMLARELLP-KKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II  L  L    + + +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q     +  AH   V       V +     ++ + L  E+ P  + +      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|595588411|pdb|4ND7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo 3-nitro-tyrosine Trna Synthetase (5b) In The Closed Form &gt;gi|595588412|pdb|4NDA|A Chain A, Crystal Structure Of 3-nitro-tyrosine Trna Synthetase (5b) Bound To 3- Nitro-tyrosine</Hit_def>
+  <Hit_accession>4ND7_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.36687e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLCAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQ-----VNSAHYRGV------DVAVGGMEQRKIHMLARELLP-KKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMDLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADL     + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q     +  AH   V       V +     ++ + L  E+ P  + +      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +   ++K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|50513261|pdb|1O5T|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Aminoacylation Catalytic Fragment Of Human Tryptophanyl-Trna Synthetase</Hit_def>
+  <Hit_accession>1O5T_A</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.39007e-07</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>DYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAA--------DILLARAH---LVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNA-IFLSDDEETVRRKVRAMYTDPARTRAD----IPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQ</Hsp_qseq>
+      <Hsp_hseq>DIIACGFDINKTFIF--SDLDYMGMSSGFYKNVV---KIQKHVTFNQVKGIFGFTDSDCIGKISFPAIQAAPSFSNSFPQIFRDRTDIQCLIPCAIDQDPYFRMTRDVAPRIG------YPKP-ALLHSTFFPALQGAQTKMSASDPNSSIFLTDTAKQIKTKVNKHAFSGGRDTIEEHRQFGGNCDVDVSFMYLTFFLEDDDKLEQIRKDYTSGAMLTGELKKALIEVLQPLIAEHQARRKEVTDE</Hsp_hseq>
+      <Hsp_midline>D +ACG D  +  I+  S +  +   +  + N+V   ++Q+  +  ++      ++    G + +P +QAA         I   R     L+P   D + +  +TR+VA R        +P P ALL           Q KMS S  N+ IFL+D  + ++ KV        R   +      G  + +  F Y   F  + D++   ++ Y +G +   E+K AL   L   +   +ARR ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|112489952|pdb|2AKE|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Human Tryptophanyl-Trna Synthetase In Complex With Trna(Trp) &gt;gi|112490495|pdb|2DR2|A Chain A, Structure Of Human Tryptophanyl-trna Synthetase In Complex With Trna(trp)</Hit_def>
+  <Hit_accession>2AKE_A</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.40742e-07</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>DYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAA--------DILLARAH---LVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNA-IFLSDDEETVRRKVRAMYTDPARTRAD----IPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQ</Hsp_qseq>
+      <Hsp_hseq>DIIACGFDINKTFIF--SDLDYMGMSSGFYKNVV---KIQKHVTFNQVKGIFGFTDSDCIGKISFPAIQAAPSFSNSFPQIFRDRTDIQCLIPCAIDQDPYFRMTRDVAPRIG------YPKP-ALLHSTFFPALQGAQTKMSASDPNSSIFLTDTAKQIKTKVNKHAFSGGRDTIEEHRQFGGNCDVDVSFMYLTFFLEDDDKLEQIRKDYTSGAMLTGELKKALIEVLQPLIAEHQARRKEVTDE</Hsp_hseq>
+      <Hsp_midline>D +ACG D  +  I+  S +  +   +  + N+V   ++Q+  +  ++      ++    G + +P +QAA         I   R     L+P   D + +  +TR+VA R        +P P ALL           Q KMS S  N+ IFL+D  + ++ KV        R   +      G  + +  F Y   F  + D++   ++ Y +G +   E+K AL   L   +   +ARR ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|186972760|pdb|2QUJ|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structures Of Human Tryptophanyl-Trna Synthetase In Complex With Trpamp</Hit_def>
+  <Hit_accession>2QUJ_B</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.44548e-07</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>DYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELPFGLLGYPVLQAA--------DILLARAH---LVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNA-IFLSDDEETVRRKVRAMYTDPARTRAD----IPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQ</Hsp_qseq>
+      <Hsp_hseq>DIIACGFDINKTFIF--SDLDYMGMSSGFYKNVVKIQKHVTFNQVKGIFGFTDSDCI--GKISFPAIQAAPSFSNSFPQIFRDRTDIQCLIPCAIDQDPYFRMTRDVAPRIG------YPKP-ALLHSTFFPALQGAQTKMSASDPNSSIFLTDTAKQIKTKVNKHAFSGGRDTIEEHRQFGGNCDVDVSFMYLTFFLEDDDKLEQIRKDYTSGAMLTGELKKALIEVLQPLIAEHQARRKEVTDE</Hsp_hseq>
+      <Hsp_midline>D +ACG D  +  I+  S +  +   +  + N+V + +      +K +    +   +  G + +P +QAA         I   R     L+P   D + +  +TR+VA R        +P P ALL           Q KMS S  N+ IFL+D  + ++ KV        R   +      G  + +  F Y   F  + D++   ++ Y +G +   E+K AL   L   +   +ARR ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|42543730|pdb|1ULH|A</Hit_id>
+  <Hit_def>Chain A, A Short Peptide Insertion Crucial For Angiostatic Activity Of Human Tryptophanyl-Trna Synthetase &gt;gi|42543731|pdb|1ULH|B Chain B, A Short Peptide Insertion Crucial For Angiostatic Activity Of Human Tryptophanyl-Trna Synthetase</Hit_def>
+  <Hit_accession>1ULH_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.86003e-07</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>DYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAA--------DILLARAH---LVPVGKDNESHVELTREVAKRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNA-IFLSDDEETVRRKVRAMYTDPARTRAD----IPGRVEGNPVFAYHDAFNPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRARRAQLEQQ</Hsp_qseq>
+      <Hsp_hseq>DIIACGFDINKTFIF--SDLDYMGMSSGFYKNVV---KIQKHVTFNQVKGIFGFTDSDCIGKISFPAIQAAPSFSNSFPQIFRDRTDIQCLIPCAIDQDPYFRMTRDVAPRIG------YPKP-ALLHSTFFPALQGAQTKMSASDPNSSIFLTDTAKQIKTKVNKHAFSGGRDTIEEHRQFGGNCDVDVSFMYLTFFLEDDDKLEQIRKDYTSGAMLTGELKKALIEVLQPLIAEHQARRKEVTDE</Hsp_hseq>
+      <Hsp_midline>D +ACG D  +  I+  S +  +   +  + N+V   ++Q+  +  ++      ++    G + +P +QAA         I   R     L+P   D + +  +TR+VA R        +P P ALL           Q KMS S  N+ IFL+D  + ++ KV        R   +      G  + +  F Y   F  + D++   ++ Y +G +   E+K AL   L   +   +ARR ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|223673858|pdb|2ZP1|A</Hit_id>
+  <Hit_def>Chain A, Structual Basis Of Iodo-Tyrosine Recognition By Engineered Archeal Tyrosyl-Trna Synthetase</Hit_def>
+  <Hit_accession>2ZP1_A</Hit_accession>
+  <Hit_len>314</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.53131e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>61</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>GDRPTGRLHLGHYAGSLGTRLRIQSEHECFFII---ADLHTLTTRHGRAQLAELPALVRELVLDYLACGIDAQRAVIYLQSAVPEVTELAFIFANLVTVPRLQRIPSLKEMAQAANLSELP-FGLLGYPVLQAADILLARAHLVPVGKDNESHVELTREVA------KRFNRLYGEVFPLPRALLSDCATLVGTDGQAKMSKSLGNAIFLSDDEETVRRKVRAMYTDPARTRADIPGRVEGNPVFAYHDAF---------------NPNTDEVAHFKERYRAGRVGDTEVKDALARALNTFLEPIRAR</Hsp_qseq>
+      <Hsp_hseq>GFEPSGKIHLGHY---LQIKKMIDLQNAGFDIIILLADLAAYLNQKG--ELDEIRKIGDYNKKVFEAMGLKAKYVYGSEFQLDKDYTLNVYRLALKTTLKRARR-----SMELIAREDENPKVAEVIYPIMQV----------------NTSHY-LGVDVAVGGMEQRKIHMLARELLP-KKVVCIHNPVLTGLDGEGKMSSSKGNFIAVDDSPEEIRAKIKKAYC-PA-------GVVEGNPIMEIAKYFLEYPLTIKRPEKFGGDLTVNSYEELESLFKNKELHPMYLKNAVAEELIKILEPIRKR</Hsp_hseq>
+      <Hsp_midline>G  P+G++HLGHY   L  +  I  ++  F II   ADL     + G  +L E+  +       + A G+ A+           + T   +  A   T+ R +R      M   A   E P    + YP++Q                 N SH  L  +VA      ++ + L  E+ P  + +      L G DG+ KMS S GN I + D  E +R K++  Y  PA       G VEGNP+      F               +   +     +  ++   +    +K+A+A  L   LEPIR R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

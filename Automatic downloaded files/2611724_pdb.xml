@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_42023</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611724</BlastOutput_query-def>
+  <BlastOutput_query-len>254</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_42023</Iteration_query-ID>
+  <Iteration_query-def>2611724</Iteration_query-def>
+  <Iteration_query-len>254</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|641389924|pdb|4NWP|E</Hit_id>
+  <Hit_def>Chain E, Computationally Designed Two-component Self-assembling Tetrahedral Cage, T33-21, Crystallized In Space Group R32 &gt;gi|641389925|pdb|4NWP|F Chain F, Computationally Designed Two-component Self-assembling Tetrahedral Cage, T33-21, Crystallized In Space Group R32 &gt;gi|641389926|pdb|4NWP|G Chain G, Computationally Designed Two-component Self-assembling Tetrahedral Cage, T33-21, Crystallized In Space Group R32 &gt;gi|641389927|pdb|4NWP|H Chain H, Computationally Designed Two-component Self-assembling Tetrahedral Cage, T33-21, Crystallized In Space Group R32 &gt;gi|641389929|pdb|4NWQ|B Chain B, Computationally Designed Two-component Self-assembling Tetrahedral Cage, T33-21, Crystallized In Space Group F4132</Hit_def>
+  <Hit_accession>4NWP_E</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>0.647708</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>67</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>91</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHET-PVADLVDLLRTRALFADAVCVVLYNA</Hsp_qseq>
+      <Hsp_hseq>LFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIA-TRTLLGASLCAVLAEA</Hsp_hseq>
+      <Hsp_midline>LF   + GE D   + V   A  QGT  V R Y H    + D  D+  TR L   ++C VL  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|340780633|pdb|3SDL|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of Human Isg15 In Complex With Ns1 N-Terminal Region From Influenza B Virus, Northeast Structural Genomics Consortium Target Ids Hx6481, Hr2873, And Or2 &gt;gi|340780634|pdb|3SDL|D Chain D, Crystal Structure Of Human Isg15 In Complex With Ns1 N-Terminal Region From Influenza B Virus, Northeast Structural Genomics Consortium Target Ids Hx6481, Hr2873, And Or2</Hit_def>
+  <Hit_accession>3SDL_C</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.678142</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>RAQAQGTVDVH----RLYAHETPVA--DLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSL</Hsp_qseq>
+      <Hsp_hseq>KAQITQKIGVHAFQQRLAVHPSGVALQDRVPL-ASQGLGPGSTVLL-----VVDKCDEP--LSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGK-------------------PLEDQLPLGEYGLKPLSTVFMNLRL</Hsp_hseq>
+      <Hsp_midline>+AQ    + VH    RL  H + VA  D V L  ++ L   +  ++     V+ KCDE   L+  +++   R+  + V ++ +V+  K+    +  V   +FW  FE K                    +E  L L E   + L TV   L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|281306915|pdb|2WEK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Human Mgc45594 Gene Product In Complex With Diclofenac &gt;gi|281306916|pdb|2WEK|B Chain B, Crystal Structure Of The Human Mgc45594 Gene Product In Complex With Diclofenac</Hit_def>
+  <Hit_accession>2WEK_A</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.56303</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>KKHAWVQRFFFQHEMRIEQEAIESLLEL</Hsp_qseq>
+      <Hsp_hseq>KKSASVQGFFLNHYLSKYQAAMSHLLEM</Hsp_hseq>
+      <Hsp_midline>KK A VQ FF  H +   Q A+  LLE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|160877702|pdb|2O7Q|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The A. Thaliana Dhq-Dehydroshikimate-Sdh- Shikimate-Nadp(H) &gt;gi|160877703|pdb|2O7S|A Chain A, Crystal Structure Of The A. Thaliana Dhq-dehydroshikimate-sdh- Shikimate-nadp(h)</Hit_def>
+  <Hit_accession>2O7Q_A</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>3.59839</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>IGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLR--TRALFADAVCVVLYNAEVIKKCDEVHVLTEWI</Hsp_qseq>
+      <Hsp_hseq>IGKPVSHSKSPIVHNQAFKSVDFNGVYVHLL-VDNLVSFLQAYSSSDFAGFSCTIPHKEAALQXCDEVDPLAKSI</Hsp_hseq>
+      <Hsp_midline>IG+  S  +      QA  +VD + +Y H   V +LV  L+  + + FA   C + +    ++ CDEV  L + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|78101736|pdb|2C0C|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Mgc45594 Gene Product &gt;gi|78101737|pdb|2C0C|B Chain B, Structure Of The Mgc45594 Gene Product &gt;gi|311771879|pdb|2X1H|A Chain A, Crystal Structure Of The Human Mgc45594 Gene Product In Complex With Raloxifene &gt;gi|311771880|pdb|2X1H|B Chain B, Crystal Structure Of The Human Mgc45594 Gene Product In Complex With Raloxifene</Hit_def>
+  <Hit_accession>2C0C_A</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.7281</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>286</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>KKHAWVQRFFFQHEMRIEQEAIESLLEL</Hsp_qseq>
+      <Hsp_hseq>KKSASVQGFFLNHYLSKYQAAMSHLLEM</Hsp_hseq>
+      <Hsp_midline>KK A VQ FF  H +   Q A+  LLE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|313753976|pdb|2X7H|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Human Mgc45594 Gene Product In Complex With Fenoprofen &gt;gi|313753977|pdb|2X7H|B Chain B, Crystal Structure Of The Human Mgc45594 Gene Product In Complex With Fenoprofen</Hit_def>
+  <Hit_accession>2X7H_A</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.81943</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>153</Hsp_query-to>
+      <Hsp_hit-from>294</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>KKHAWVQRFFFQHEMRIEQEAIESLLEL</Hsp_qseq>
+      <Hsp_hseq>KKSASVQGFFLNHYLSKYQAAMSHLLEM</Hsp_hseq>
+      <Hsp_midline>KK A VQ FF  H +   Q A+  LLE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|39654294|pdb|1O60|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Kdo-8-Phosphate Synthase &gt;gi|39654295|pdb|1O60|B Chain B, Crystal Structure Of Kdo-8-Phosphate Synthase &gt;gi|39654296|pdb|1O60|C Chain C, Crystal Structure Of Kdo-8-Phosphate Synthase &gt;gi|39654297|pdb|1O60|D Chain D, Crystal Structure Of Kdo-8-Phosphate Synthase</Hit_def>
+  <Hit_accession>1O60_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>7.94228</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>57</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>SVWLFTGPEIGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLRTRALFA</Hsp_qseq>
+      <Hsp_hseq>SIHSYRGPGXEEGLKIFQELKDTFGVKIITDVHEIYQCQ-PVADVVDIIQLPAFLA</Hsp_hseq>
+      <Hsp_midline>S+  + GP   E     QE+      +   DVH +Y  + PVAD+VD+++  A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|409107499|pdb|4HC4|A</Hit_id>
+  <Hit_def>Chain A, Human Hmt1 Hnrnp Methyltransferase-Like Protein 6 (S. Cerevisiae) &gt;gi|665764879|pdb|4QQK|A Chain A, Human Hmt1 Hnrnp Methyltransferase-like Protein 6 (s. Cerevisiae) &gt;gi|673541879|pdb|4QPP|A Chain A, The Crystal Structure Of Human Hmt1 Hnrnp Methyltransferase-like Protein 6 In Complex With Compound Ds-421 (2-{4-[3-chloro-2-(2- Methoxyphenyl)-1h-indol-5-yl]piperidin-1-yl}-n-methylethanamine &gt;gi|673541880|pdb|4QPP|B Chain B, The Crystal Structure Of Human Hmt1 Hnrnp Methyltransferase-like Protein 6 In Complex With Compound Ds-421 (2-{4-[3-chloro-2-(2- Methoxyphenyl)-1h-indol-5-yl]piperidin-1-yl}-n-methylethanamine &gt;gi|673541881|pdb|4QPP|C Chain C, The Crystal Structure Of Human Hmt1 Hnrnp Methyltransferase-like Protein 6 In Complex With Compound Ds-421 (2-{4-[3-chloro-2-(2- Methoxyphenyl)-1h-indol-5-yl]piperidin-1-yl}-n-methylethanamine &gt;gi|960515621|pdb|5E8R|A Chain A, Human Hmt1 Hnrnp Methyltransferase-like Protein 6 (s. Cerevisiae) &gt;gi|960515622|pdb|5E8R|B Chain B, Human Hmt1 Hnrnp Methyltransferase-like Protein 6 (s. Cerevisiae)</Hit_def>
+  <Hit_accession>4HC4_A</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>8.83222</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>VHVLTEWIKDGG----SRADVFLVLISDSV</Hsp_qseq>
+      <Hsp_hseq>LHARTKWLKEGGLLLPASAELFIVPISDQM</Hsp_hseq>
+      <Hsp_midline>+H  T+W+K+GG    + A++F+V ISD +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|109157947|pdb|2GPT|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Arabidopsis Dehydroquinate Dehydratase- Shikimate Dehydrogenase In Complex With Tartrate And Shikimate</Hit_def>
+  <Hit_accession>2GPT_A</Hit_accession>
+  <Hit_len>523</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>9.57513</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>83</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>IGERDSAVQEVCARAQAQGTVDVHRLYAHETPVADLVDLLR--TRALFADAVCVVLYNAEVIKKCDEVHVLTEWI</Hsp_qseq>
+      <Hsp_hseq>IGKPVSHSKSPIVHNQAFKSVDFNGVYVHLL-VDNLVSFLQAYSSSDFAGFSCTIPHKEAALQCCDEVDPLAKSI</Hsp_hseq>
+      <Hsp_midline>IG+  S  +      QA  +VD + +Y H   V +LV  L+  + + FA   C + +    ++ CDEV  L + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|339961370|pdb|3RT3|B</Hit_id>
+  <Hit_def>Chain B, Complex Of Influenza Virus Protein With Host Anti-Viral Factor</Hit_def>
+  <Hit_accession>3RT3_B</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.335</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>9.96208</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>RAQAQGTVDVH----RLYAHETPVA--DLVDLLRTRALFADAVCVVLYNAEVIKKCDEVHVLTEWIKDGGSRADVFLVLISDSVSIHKRIEQNISPVHKRVFWELFENKKHAWVQRFFFQHEMRIEQEAIESLLELVENNTRALKTVCTQLSL</Hsp_qseq>
+      <Hsp_hseq>KAQITQKIGVHAFQQRLAVHPSGVALQDRVPL-ASQGLGPGSTVLL-----VVDKSDEP--LSILVRNNKGRSSTYEVRLTQTVAHLKQQVSGLEGVQDDLFWLTFEGK-------------------PLEDQLPLGEYGLKPLSTVFMNLRL</Hsp_hseq>
+      <Hsp_midline>+AQ    + VH    RL  H + VA  D V L  ++ L   +  ++     V+ K DE   L+  +++   R+  + V ++ +V+  K+    +  V   +FW  FE K                    +E  L L E   + L TV   L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_135343</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611495</BlastOutput_query-def>
+  <BlastOutput_query-len>291</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_135343</Iteration_query-ID>
+  <Iteration_query-def>2611495</Iteration_query-def>
+  <Iteration_query-len>291</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|168177254|pdb|3BQH|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Central Domain (Msra) Of Neisseria Meningitidis Pilb (Oxidized Form)</Hit_def>
+  <Hit_accession>3BQH_A</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>3.58188e-52</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>TALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPL</Hsp_qseq>
+      <Hsp_hseq>TIYLAGGCFWGLEAYFQRIDGVVDAVSGYANGNTKNPSYEDVSYRHTGHAETVKVTYDADKLSLDDILQYFFRVVDPTSLNKQGNDTGTQYRSGVYYTDPAEKAVIAAALKR--EQQKYQLPLVVENEPLKNFYDAEEYHQDYLIKNPNGYCHIDIRKADEPL</Hsp_hseq>
+      <Hsp_midline>T   A GCFW  EAYF+R+ GV+    GY  G TK+P+Y +V    TGHAE V++ +D   +S +D+L++FFR+ DPTSLNKQG D GTQYRS ++Y    +K      + R     K+  PLV   E  ++FY AEEYHQDYL KNP GYCH+ +  A EPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|168177251|pdb|3BQE|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Central Domain (Msra) Of Neisseria Meningitidis Pilb (Reduced Form)</Hit_def>
+  <Hit_accession>3BQE_A</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>3.68834e-52</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>TALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPL</Hsp_qseq>
+      <Hsp_hseq>TIYLAGGCFWGLEAYFQRIDGVVDAVSGYANGNTKNPSYEDVSYRHTGHAETVKVTYDADKLSLDDILQYFFRVVDPTSLNKQGNDTGTQYRSGVYYTDPAEKAVIAAALKR--EQQKYQLPLVVENEPLKNFYDAEEYHQDYLIKNPNGYCHIDIRKADEPL</Hsp_hseq>
+      <Hsp_midline>T   A GCFW  EAYF+R+ GV+    GY  G TK+P+Y +V    TGHAE V++ +D   +S +D+L++FFR+ DPTSLNKQG D GTQYRS ++Y    +K      + R     K+  PLV   E  ++FY AEEYHQDYL KNP GYCH+ +  A EPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|168177252|pdb|3BQF|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Central Domain (Msra) Of Neisseria Meningitidis Pilb (Complex With A Substrate)</Hit_def>
+  <Hit_accession>3BQF_A</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.474</Hsp_bit-score>
+      <Hsp_score>428</Hsp_score>
+      <Hsp_evalue>9.17716e-51</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>TALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPL</Hsp_qseq>
+      <Hsp_hseq>TIYLAGGSFWGLEAYFQRIDGVVDAVSGYANGNTKNPSYEDVSYRHTGHAETVKVTYDADKLSLDDILQYFFRVVDPTSLNKQGNDTGTQYRSGVYYTDPAEKAVIAAALKR--EQQKYQLPLVVENEPLKNFYDAEEYHQDYLIKNPNGYCHIDIRKADEPL</Hsp_hseq>
+      <Hsp_midline>T   A G FW  EAYF+R+ GV+    GY  G TK+P+Y +V    TGHAE V++ +D   +S +D+L++FFR+ DPTSLNKQG D GTQYRS ++Y    +K      + R     K+  PLV   E  ++FY AEEYHQDYL KNP GYCH+ +  A EPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|168177253|pdb|3BQG|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Central Domain (msra) Of Neisseria Meningitidis Pilb (sulfenic Acid Form)</Hit_def>
+  <Hit_accession>3BQG_A</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>2.69719e-49</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>TALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPL</Hsp_qseq>
+      <Hsp_hseq>TIYLAGGXFWGLEAYFQRIDGVVDAVSGYANGNTKNPSYEDVSYRHTGHAETVKVTYDADKLSLDDILQYFFRVVDPTSLNKQGNDTGTQYRSGVYYTDPAEKAVIAAALKR--EQQKYQLPLVVENEPLKNFYDAEEYHQDYLIKNPNGYSHIDIRKADEPL</Hsp_hseq>
+      <Hsp_midline>T   A G FW  EAYF+R+ GV+    GY  G TK+P+Y +V    TGHAE V++ +D   +S +D+L++FFR+ DPTSLNKQG D GTQYRS ++Y    +K      + R     K+  PLV   E  ++FY AEEYHQDYL KNP GY H+ +  A EPL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|20664244|pdb|1L1D|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The C-Terminal Methionine Sulfoxide Reductase Domain (Msrb) Of N. Gonorrhoeae Pilb &gt;gi|20664245|pdb|1L1D|B Chain B, Crystal Structure Of The C-Terminal Methionine Sulfoxide Reductase Domain (Msrb) Of N. Gonorrhoeae Pilb</Hit_def>
+  <Hit_accession>1L1D_A</Hit_accession>
+  <Hit_len>152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.23786e-45</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREEGTA</Hsp_qseq>
+      <Hsp_hseq>LTEEQYQVTQNSATEYAFSHEYDHLFKPGIYVDVVSGEPLFSSADKYDSGCGWPSFTRPIDAKSVTEHDDFSFNXRRTEVRSRAADSHLGHVFPDGPRDKGGLRYCINGASLKFIPLEQXDA</Hsp_hseq>
+      <Hsp_midline>L++ QY+VTQ SATE  F +E+ + ++PG Y+DVVSGE LF S DK+DSGCGWPSF+ P  A++V E +D + N  RTEVRSR A+SHLGHVF DGP ++GGLRYCIN A+L+F+  E+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|261278714|pdb|3HCG|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The C-terminal Domain (msrb) Of Neisseria Meningitidis Pilb (reduced Form) &gt;gi|261278715|pdb|3HCG|B Chain B, Structure Of The C-terminal Domain (msrb) Of Neisseria Meningitidis Pilb (reduced Form) &gt;gi|261278716|pdb|3HCG|C Chain C, Structure Of The C-terminal Domain (msrb) Of Neisseria Meningitidis Pilb (reduced Form) &gt;gi|261278717|pdb|3HCG|D Chain D, Structure Of The C-terminal Domain (msrb) Of Neisseria Meningitidis Pilb (reduced Form)</Hit_def>
+  <Hit_accession>3HCG_A</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>2.46013e-45</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREEGTA</Hsp_qseq>
+      <Hsp_hseq>LTEEQYQVTQNSATEYAFSHEYDHLFKPGIYVDVVSGEPLFSSADKYDSGCGWPSFTRPIDAKSVTEHDDFSYNXRRTEVRSHAADSHLGHVFPDGPRDKGGLRYCINGASLKFIPLEQXDA</Hsp_hseq>
+      <Hsp_midline>L++ QY+VTQ SATE  F +E+ + ++PG Y+DVVSGE LF S DK+DSGCGWPSF+ P  A++V E +D ++N  RTEVRS  A+SHLGHVF DGP ++GGLRYCIN A+L+F+  E+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|240104356|pdb|3E0O|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Msrb &gt;gi|240104357|pdb|3E0O|B Chain B, Crystal Structure Of Msrb &gt;gi|240104358|pdb|3E0O|C Chain C, Crystal Structure Of Msrb &gt;gi|240104359|pdb|3E0O|D Chain D, Crystal Structure Of Msrb &gt;gi|240104360|pdb|3E0O|E Chain E, Crystal Structure Of Msrb &gt;gi|240104361|pdb|3E0O|F Chain F, Crystal Structure Of Msrb</Hit_def>
+  <Hit_accession>3E0O_A</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>6.65518e-45</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>LQHLSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAR</Hsp_qseq>
+      <Hsp_hseq>IKSLNRMQYEVTQNNGTEPPFQNEYWDHKEEGLYVDIVSGKPLFTSKDKFDSQCGWPSFTKPI-EEEVEEKLDTSHGMIRTEVRSRTADSHLGHVFNDGPGP-NGLRYCINSAALRFVPK</Hsp_hseq>
+      <Hsp_midline>++ L+ +QY VTQ + TE PF+NE+W+  + G Y+D+VSG+ LF S+DKFDS CGWPSF+ P     V EK D +H M+RTEVRSR A+SHLGHVF DGP    GLRYCINSAALRFV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|300193109|pdb|2KZN|A</Hit_id>
+  <Hit_def>Chain A, Solution Nmr Structure Of Peptide Methionine Sulfoxide Reductase Msrb From Bacillus Subtilis, Northeast Structural Genomics Consortium Target Sr10</Hit_def>
+  <Hit_accession>2KZN_A</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>7.26106e-45</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>LQHLSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAR</Hsp_qseq>
+      <Hsp_hseq>IKSLNRMQYEVTQNNGTEPPFQNEYWDHKEEGLYVDIVSGKPLFTSKDKFDSQCGWPSFTKPI-EEEVEEKLDTSHGMIRTEVRSRTADSHLGHVFNDGPGP-NGLRYCINSAALRFVPK</Hsp_hseq>
+      <Hsp_midline>++ L+ +QY VTQ + TE PF+NE+W+  + G Y+D+VSG+ LF S+DKFDS CGWPSF+ P     V EK D +H M+RTEVRSR A+SHLGHVF DGP    GLRYCINSAALRFV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|405945116|pdb|4GWB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Putative Peptide Methionine Sulfoxide Reductase From Sinorhizobium Meliloti 1021</Hit_def>
+  <Hit_accession>4GWB_A</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.18808e-43</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGY-CH</Hsp_qseq>
+      <Hsp_hseq>AVLAGGCFWGXQDLIRKLPGVIETRVGYTGGDVPNATYRNHGT----HAEGIEIIFDPERISYRRILELFFQIHDPTTKDRQGNDIGTSYRSAIYYVDDEQKRIAQETIADVEASGLWPGKVVTEVEPVRDFWEAEPEHQNYLERYPNGYTCH</Hsp_hseq>
+      <Hsp_midline>A+ A GCFW  +   R++ GV+  RVGYTGG   + TYRN  T    HAE +EI+FDP+ ISY  +L+ FF++HDPT+ ++QG D+GT YRSAI+Y+   QK+ A+  +     +G +   +VT +E  RDF+ AE  HQ+YL + P GY CH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|261278718|pdb|3HCH|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The C-terminal Domain (msrb) Of Neisseria Meningitidis Pilb (complex With Substrate) &gt;gi|261278719|pdb|3HCH|B Chain B, Structure Of The C-terminal Domain (msrb) Of Neisseria Meningitidis Pilb (complex With Substrate)</Hit_def>
+  <Hit_accession>3HCH_A</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.25844e-43</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>LSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREEGTA</Hsp_qseq>
+      <Hsp_hseq>LTEEQYQVTQNSATEYAFSHEYDHLFKPGIYVDVVSGEPLFSSADKYDSGSGWPSFTRPIDAKSVTEHDDFSYNMRRTEVRSHAADSHLGHVFPDGPRDKGGLRYSINGASLKFIPLEQMDA</Hsp_hseq>
+      <Hsp_midline>L++ QY+VTQ SATE  F +E+ + ++PG Y+DVVSGE LF S DK+DSG GWPSF+ P  A++V E +D ++NM RTEVRS  A+SHLGHVF DGP ++GGLRY IN A+L+F+  E+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|134104431|pdb|2GT3|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure And Dynamics Of The Reduced Form Of Methionine Sulfoxide Reductase A From Escherichia Coli, A 23 Kda Protein</Hit_def>
+  <Hit_accession>2GT3_A</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.08656e-42</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YCINSAALRFVAREEGTALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAG---AGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNP</Hsp_qseq>
+      <Hsp_hseq>HAVNGHSMTNVPDGMEIAIFAMGCFWGVERLFWQLPGVYSTAAGYTGGYTPNPTYREVCSGDTGHAEAVRIVYDPSVISYEQLLQVFWENHDPAQGMRQGNDHGTQYRSAIYPLTPEQDAAARASLERFQAAMLAADDDRHITTEIANATPFYYAEDDHQQYLHKNP</Hsp_hseq>
+      <Hsp_midline>+ +N  ++  V      A+FA GCFW  E  F ++ GV     GYTGG T +PTYR VC+G TGHAEAV I++DP VISYE LL+ F+  HDP    +QG D GTQYRSAI+ L+  Q   A   + R+     A    R + T +  A  FY AE+ HQ YL KNP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|240104348|pdb|3E0M|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Fusion Protein Of Msra And Msrb &gt;gi|240104349|pdb|3E0M|B Chain B, Crystal Structure Of Fusion Protein Of Msra And Msrb &gt;gi|240104350|pdb|3E0M|C Chain C, Crystal Structure Of Fusion Protein Of Msra And Msrb &gt;gi|240104351|pdb|3E0M|D Chain D, Crystal Structure Of Fusion Protein Of Msra And Msrb</Hit_def>
+  <Hit_accession>3E0M_A</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>2.63737e-42</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>180</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>LSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREE</Hsp_qseq>
+      <Hsp_hseq>LSEESYRVTQEAATEAPFTNAYDQTFEEGIYVDITTGEPLFFAKDKFASGCGWPSFSRPLSKELIHYYKDLSHGMERIEVRSRSGSAHLGHVFTDGPRELGGLRYCINSASLRFVAKDE</Hsp_hseq>
+      <Hsp_midline>LS+  YRVTQ++ATE PF N +  +++ G Y+D+ +GE LF ++DKF SGCGWPSFS P     +   +D +H M R EVRSR+ ++HLGHVF DGP E GGLRYCINSA+LRFVA++E</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.51483e-35</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>FAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSG-------TQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPL</Hsp_qseq>
+      <Hsp_hseq>LAGGCFWGLEEYFSRISGVLETSVGYANGQVETTNYQ--LLKETDHAETVQVIYDEKEVSLREILLYYFRVIDPLSINQQGNDRGRQYRTGIYYQDEADLPAIYTVVQEQERMLG---------RKIAVEVEQLRHYILAEDYHQDYLRKNPSGYCHIDVTDADKPL</Hsp_hseq>
+      <Hsp_midline> A GCFW  E YF R+ GVL   VGY  G  ++  Y+      T HAE V++++D + +S  ++L ++FR+ DP S+N+QG D G QYR+ I+Y          T  Q+ E ++G         R +   +E+ R +  AE+YHQDYL KNP GYCH+ +  A +PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|371927257|pdb|2L90|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of Murine Myristoylated Msra</Hit_def>
+  <Hit_accession>2L90_A</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.48361e-41</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>EGT--ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQ-------KQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPL</Hsp_qseq>
+      <Hsp_hseq>EGTQMAVFGMGCFWGAERKFWVLKGVYSTQVGFAGGHTRNPTYKEVCSEKTGHAEVVRVVYRPEHISFEELLKVFWENHDPTQGMRQGNDFGTQYRSAVYPTSAVQMEAALRSKEEYQKVLSKHNFG-----PITTDIREGQVFYYAEDYHQQYLSKNPDGYCGLGGTGVSCPM</Hsp_hseq>
+      <Hsp_midline>EGT  A+F  GCFW  E  F  +KGV   +VG+ GG T++PTY+ VC+  TGHAE V +++ P+ IS+E+LLK F+  HDPT   +QG D GTQYRSA++  S  Q       K++ + ++ ++        P+ T + E + FY AE+YHQ YL+KNP GYC +     S P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|134104507|pdb|2IEM|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of An Oxidized Form (Cys51-Cys198) Of E. Coli Methionine Sulfoxide Reductase A (Msra)</Hit_def>
+  <Hit_accession>2IEM_A</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>3.97301e-41</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YCINSAALRFVAREEGTALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAG---AGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNP</Hsp_qseq>
+      <Hsp_hseq>HAVNGHSMTNVPDGMEIAIFAMGCFWGVERLFWQLPGVYSTAAGYTGGYTPNPTYREVSSGDTGHAEAVRIVYDPSVISYEQLLQVFWENHDPAQGMRQGNDHGTQYRSAIYPLTPEQDAAARASLERFQAAMLAADDDRHITTEIANATPFYYAEDDHQQYLHKNP</Hsp_hseq>
+      <Hsp_midline>+ +N  ++  V      A+FA GCFW  E  F ++ GV     GYTGG T +PTYR V +G TGHAEAV I++DP VISYE LL+ F+  HDP    +QG D GTQYRSAI+ L+  Q   A   + R+     A    R + T +  A  FY AE+ HQ YL KNP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|12084654|pdb|1FF3|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Peptide Methionine Sulfoxide Reductase From Escherichia Coli &gt;gi|12084655|pdb|1FF3|B Chain B, Structure Of The Peptide Methionine Sulfoxide Reductase From Escherichia Coli &gt;gi|12084656|pdb|1FF3|C Chain C, Structure Of The Peptide Methionine Sulfoxide Reductase From Escherichia Coli</Hit_def>
+  <Hit_accession>1FF3_A</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>7.39487e-41</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>YCINSAALRFVAREEGTALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAG---AGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNP</Hsp_qseq>
+      <Hsp_hseq>HAVNGHSMTNVPDGMEIAIFAMGXFWGVERLFWQLPGVYSTAAGYTGGYTPNPTYREVCSGDTGHAEAVRIVYDPSVISYEQLLQVFWENHDPAQGMRQGNDHGTQYRSAIYPLTPEQDAAARASLERFQAAMLAADDDRHITTEIANATPFYYAEDDHQQYLHKNP</Hsp_hseq>
+      <Hsp_midline>+ +N  ++  V      A+FA G FW  E  F ++ GV     GYTGG T +PTYR VC+G TGHAEAV I++DP VISYE LL+ F+  HDP    +QG D GTQYRSAI+ L+  Q   A   + R+     A    R + T +  A  FY AE+ HQ YL KNP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|33357515|pdb|1NWA|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Mycobacterium Tuberculosis Methionine Sulfoxide Reductase A In Complex With Protein-Bound Methionine</Hit_def>
+  <Hit_accession>1NWA_A</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>2.72701e-40</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGY-CH</Hsp_qseq>
+      <Hsp_hseq>AILAGGCFWGLQDLIRNQPGVVSTRVGYSGGNIPNATYRNHGT----HAEAVEIIFDPTVTDYRTLLEFFFQIHDPTTKDRQGNDRGTSYRSAIFYFDEQQKRIALDTIADVEASGLWPGKVVTEVSPAGDFWEAEPEHQDYLQRYPNGYTCH</Hsp_hseq>
+      <Hsp_midline>A+ A GCFW  +   R   GV+  RVGY+GG   + TYRN  T    HAEAVEI+FDP V  Y  LL+ FF++HDPT+ ++QG D GT YRSAIFY    QK+ A   +     +G +   +VT +  A DF+ AE  HQDYL + P GY CH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|11513717|pdb|1FVG|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Peptide Methionine Sulfoxide Reductase</Hit_def>
+  <Hit_accession>1FVG_A</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>5.23319e-40</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>EGT--ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQ-------KQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYC</Hsp_qseq>
+      <Hsp_hseq>EGTQXAVFGXGCFWGAERKFWTLKGVYSTQVGFAGGYTPNPTYKEVCSGKTGHAEVVRVVFQPEHISFEELLKVFWENHDPTQGXRQGNDHGSQYRSAIYPTSAEHVGAALKSKEDYQKVLSEH-GFGLIT----TDIREGQTFYYAEDYHQQYLSKDPDGYC</Hsp_hseq>
+      <Hsp_midline>EGT  A+F  GCFW  E  F  +KGV   +VG+ GG T +PTY+ VC+G TGHAE V ++F P+ IS+E+LLK F+  HDPT   +QG D G+QYRSAI+  S          K+  + ++  + G G  T    T + E + FY AE+YHQ YL+K+P GYC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|11513883|pdb|1FVA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bovine Methionine Sulfoxide Reductase &gt;gi|11513884|pdb|1FVA|B Chain B, Crystal Structure Of Bovine Methionine Sulfoxide Reductase</Hit_def>
+  <Hit_accession>1FVA_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.739</Hsp_bit-score>
+      <Hsp_score>356</Hsp_score>
+      <Hsp_evalue>7.07871e-40</Hsp_evalue>
+      <Hsp_query-from>126</Hsp_query-from>
+      <Hsp_query-to>290</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>EGT--ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQ-------KQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYCHVSLHLASEPL</Hsp_qseq>
+      <Hsp_hseq>EGTQMAVFGMGCFWGAERKFWTLKGVYSTQVGFAGGYTPNPTYKEVCSGKTGHAEVVRVVFQPEHISFEELLKVFWENHDPTQGMRQGNDHGSQYRSAIYPTSAEHVGAALKSKEDYQKVLSEH-GFGLIT----TDIREGQTFYYAEDYHQQYLSKDPDGYCGLGGTGVSCPL</Hsp_hseq>
+      <Hsp_midline>EGT  A+F  GCFW  E  F  +KGV   +VG+ GG T +PTY+ VC+G TGHAE V ++F P+ IS+E+LLK F+  HDPT   +QG D G+QYRSAI+  S          K+  + ++  + G G  T    T + E + FY AE+YHQ YL+K+P GYC +     S PL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|119390444|pdb|2J89|A</Hit_id>
+  <Hit_def>Chain A, Functional And Structural Aspects Of Poplar Cytosolic And Plastidial Type A Methionine Sulfoxide Reductases</Hit_def>
+  <Hit_accession>2J89_A</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.198</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>7.67523e-39</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTK</Hsp_qseq>
+      <Hsp_hseq>AQFGAGCFWGVELAFQRVPGVTKTEVGYTQGLLHNPTYEDVXTGTTNHNEVVRVQYDPKECSFDTLIDVLWARHDPTTLNRQGNDVGTQYRSGIYYYTPEQEKAAKESLERQQKL--LNRKIVTEILPAKKFYRAEEYHQQYLAK</Hsp_hseq>
+      <Hsp_midline>A F AGCFW  E  F+RV GV +  VGYT G   +PTY +V TGTT H E V + +DP+  S++ L+   +  HDPT+LN+QG DVGTQYRS I+Y +  Q++ A+  + R        R +VT +  A+ FY AEEYHQ YL K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|170292525|pdb|3CEZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Methionine-R-Sulfoxide Reductase From Burkholderia Pseudomallei &gt;gi|170292526|pdb|3CEZ|B Chain B, Crystal Structure Of Methionine-R-Sulfoxide Reductase From Burkholderia Pseudomallei &gt;gi|189096242|pdb|3CXK|A Chain A, 1.7 A Crystal Structure Of Methionine-R-Sulfoxide Reductase From Burkholderia Pseudomallei: Crystallization In A Microfluidic Crystal Card. &gt;gi|189096243|pdb|3CXK|B Chain B, 1.7 A Crystal Structure Of Methionine-R-Sulfoxide Reductase From Burkholderia Pseudomallei: Crystallization In A Microfluidic Crystal Card.</Hit_def>
+  <Hit_accession>3CEZ_A</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.028</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.14516e-35</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>QHLSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREE</Hsp_qseq>
+      <Hsp_hseq>RRLTPMQYEVTQHAATEPPFTGEYTDTEDAGIYHCVVCGTALFESGAKYHSGCGWPSYFKPIDGEVIDEKMDYTHGMTRVEVRCNQCGAHLGHVFEDGPRDKTGLRYCINSAALNFEAKPE</Hsp_hseq>
+      <Hsp_midline>+ L+ +QY VTQ +ATE PF  E+ ++   G Y  VV G  LF S  K+ SGCGWPS+  P     + EK D TH M R EVR     +HLGHVF+DGP ++ GLRYCINSAAL F A+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|770386242|pdb|4D7L|A</Hit_id>
+  <Hit_def>Chain A, Methionine Sulfoxide Reductase A Of Corynebacterium Diphtheriae &gt;gi|770386243|pdb|4D7L|B Chain B, Methionine Sulfoxide Reductase A Of Corynebacterium Diphtheriae &gt;gi|770386244|pdb|4D7L|C Chain C, Methionine Sulfoxide Reductase A Of Corynebacterium Diphtheriae</Hit_def>
+  <Hit_accession>4D7L_A</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>6.10149e-34</Hsp_evalue>
+      <Hsp_query-from>128</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>TALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAE---TLMGRY------AGAGKFTR---PLVTTLEEARDFYPAEEYHQDYLTKNPGGYC</Hsp_qseq>
+      <Hsp_hseq>TIYIGIGCYWGAEKLFWETPGVVYTSVGFAGGITPNPTYRETCTGRTNHTEIVEVVYDPTQVTFDELVVKAMEAHDPTQGYRQGNDTGTQYRSAIYTAGPNAEQQAQRAREIVEHYAPKLAAAGLGRITTEILPLAST--PAGEYYMAEDEHQQYLHKNPLGYC</Hsp_hseq>
+      <Hsp_midline>T     GC+W  E  F    GV+   VG+ GG T +PTYR  CTG T H E VE+++DP  +++++L+      HDPT   +QG D GTQYRSAI+      +QQA+    ++  Y      AG G+ T    PL +T   A ++Y AE+ HQ YL KNP GYC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|323714534|pdb|3PIM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mxr1 From Saccharomyces Cerevisiae In Unusual Oxidized Form &gt;gi|323714535|pdb|3PIM|B Chain B, Crystal Structure Of Mxr1 From Saccharomyces Cerevisiae In Unusual Oxidized Form &gt;gi|323714536|pdb|3PIM|C Chain C, Crystal Structure Of Mxr1 From Saccharomyces Cerevisiae In Unusual Oxidized Form</Hit_def>
+  <Hit_accession>3PIM_A</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>2.23018e-32</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SAALRFVAREEGTALFAAGCFWSTEAYFRRVKG--VLRVRVGYTGG------TTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGY</Hsp_qseq>
+      <Hsp_hseq>SKTIKYDPAKDKLITLACGCFWGTEHMYRKYLNDRIVDCKVGYANGEESKKDSPSSVSYKRVCGGDTDFAEVLQVSYNPKVITLRELTDFFFRIHDPTTSNSQGPDKGTQYRSGLFAHSDADLKELAKIKEEW--QPKWGNKIATVIEPIKNFYDAEEYHQLYLDKNPQGY</Hsp_hseq>
+      <Hsp_midline>S  +++   ++     A GCFW TE  +R+     ++  +VGY  G      +  S +Y+ VC G T  AE +++ ++P+VI+  +L   FFR+HDPT+ N QG D GTQYRS +F  S    ++   +   +    K+   + T +E  ++FY AEEYHQ YL KNP GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|323714532|pdb|3PIL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mxr1 From Saccharomyces Cerevisiae In Reduced Form &gt;gi|323714533|pdb|3PIL|B Chain B, Crystal Structure Of Mxr1 From Saccharomyces Cerevisiae In Reduced Form</Hit_def>
+  <Hit_accession>3PIL_A</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.939</Hsp_bit-score>
+      <Hsp_score>302</Hsp_score>
+      <Hsp_evalue>2.24916e-32</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>278</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>SAALRFVAREEGTALFAAGCFWSTEAYFRRVKG--VLRVRVGYTGG------TTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGY</Hsp_qseq>
+      <Hsp_hseq>SKTIKYDPAKDKLITLACGCFWGTEHMYRKYLNDRIVDCKVGYANGEESKKDSPSSVSYKRVCGGDTDFAEVLQVSYNPKVITLRELTDFFFRIHDPTTSNSQGPDKGTQYRSGLFAHSDADLKELAKIKEEW--QPKWGNKIATVIEPIKNFYDAEEYHQLYLDKNPQGY</Hsp_hseq>
+      <Hsp_midline>S  +++   ++     A GCFW TE  +R+     ++  +VGY  G      +  S +Y+ VC G T  AE +++ ++P+VI+  +L   FFR+HDPT+ N QG D GTQYRS +F  S    ++   +   +    K+   + T +E  ++FY AEEYHQ YL KNP GY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|323714538|pdb|3PIN|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Mxr1 From Saccharomyces Cerevisiae In Complex With Trx2</Hit_def>
+  <Hit_accession>3PIN_B</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>9.70215e-30</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>SAALRFVAREEGTALFAAGCFWSTEAYFRRVKG--VLRVRVGYTGG------TTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPTSLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKNPGGYC</Hsp_qseq>
+      <Hsp_hseq>SKTIKYDPAKDKLITLASGSFWGTEHMYRKYLNDRIVDSKVGYANGEESKKDSPSSVSYKRVSGGDTDFAEVLQVSYNPKVITLRELTDFFFRIHDPTTSNSQGPDKGTQYRSGLFAHSDADLKELAKIKEEW--QPKWGNKIATVIEPIKNFYDAEEYHQLYLDKNPQGYA</Hsp_hseq>
+      <Hsp_midline>S  +++   ++     A+G FW TE  +R+     ++  +VGY  G      +  S +Y+ V  G T  AE +++ ++P+VI+  +L   FFR+HDPT+ N QG D GTQYRS +F  S    ++   +   +    K+   + T +E  ++FY AEEYHQ YL KNP GY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|887492536|pdb|4W8C|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Helical Domain Deleted Form Msra From Clostridium Oremlandii &gt;gi|887492537|pdb|4W8C|B Chain B, Crystal Structure Of The Helical Domain Deleted Form Msra From Clostridium Oremlandii</Hit_def>
+  <Hit_accession>4W8C_A</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>1.77351e-26</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPT--SLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKN</Hsp_qseq>
+      <Hsp_hseq>AVFALGCFWGPDAQFGSIKGVVSTRVGYAGGTTNNPSYYNLGD----HSESIEIQYDANVITYGELLNIFWNLHNPVYETTNR-------QYMSRIFYLDDGQKSEALEMKRQIEAANG--EKIYTEIVPLENFYLAEGYHQKYYLQN</Hsp_hseq>
+      <Hsp_midline>A+FA GCFW  +A F  +KGV+  RVGY GGTT +P+Y N+      H+E++EI +D  VI+Y +LL  F+ +H+P   + N+       QY S IFYL   QK +A  +  +   A      + T +    +FY AE YHQ Y  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|218156826|pdb|2K8D|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of A Zinc-binding Methionine Sulfoxide Reductase</Hit_def>
+  <Hit_accession>2K8D_A</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>6.56823e-26</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>YRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREE</Hsp_qseq>
+      <Hsp_hseq>FRVARKAGTEPPFTGKYHDLHDDGIYRCICCGTDLFDSETKFDSGTGWPSFYDVVSEHNIKLREDRSLGMVRCEVLCARCDAHLGHVFDDG-PRPTGKRYCMNSAALKFIPRDQ</Hsp_hseq>
+      <Hsp_midline>+RV +++ TE PF  ++ + +  G Y  +  G  LF SE KFDSG GWPSF        +  +EDR+  M+R EV     ++HLGHVF DG P   G RYC+NSAAL+F+ R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|887492462|pdb|4U66|A</Hit_id>
+  <Hit_def>Chain A, Induced Dimer Structure Of Methionine Sulfoxide Reductase U16c From Clostridium Oremlandii &gt;gi|887492463|pdb|4U66|B Chain B, Induced Dimer Structure Of Methionine Sulfoxide Reductase U16c From Clostridium Oremlandii &gt;gi|887492464|pdb|4U66|C Chain C, Induced Dimer Structure Of Methionine Sulfoxide Reductase U16c From Clostridium Oremlandii</Hit_def>
+  <Hit_accession>4U66_A</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>7.20367e-26</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPT--SLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKN</Hsp_qseq>
+      <Hsp_hseq>AVFALGCFWGPDAQFGSIKGVVSTRVGYAGGTTNNPSYYNLGD----HSESIEIQYDANVITYGELLNIFWNLHNPVYETTNR-------QYMSRIFYLDDGQKSEALEMKRQIEAANG--EKIYTEIVPLENFYLAEGYHQKYYLQN</Hsp_hseq>
+      <Hsp_midline>A+FA GCFW  +A F  +KGV+  RVGY GGTT +P+Y N+      H+E++EI +D  VI+Y +LL  F+ +H+P   + N+       QY S IFYL   QK +A  +  +   A      + T +    +FY AE YHQ Y  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|651207650|pdb|4LWM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Methionine Sulfoxide Reductase U16c/e55d From Clostridium Oremlandii With Methionie Sulfoxide</Hit_def>
+  <Hit_accession>4LWM_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>2.42692e-25</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPT--SLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKN</Hsp_qseq>
+      <Hsp_hseq>AVFALGCFWGPDAQFGSIKGVVSTRVGYAGGTTNNPSYYNLGD----HSDSIEIQYDANVITYGELLNIFWNLHNPVYETTNR-------QYMSRIFYLDDGQKSEALEMKRQIEAANG--EKIYTEIVPLENFYLAEGYHQKYYLQN</Hsp_hseq>
+      <Hsp_midline>A+FA GCFW  +A F  +KGV+  RVGY GGTT +P+Y N+      H++++EI +D  VI+Y +LL  F+ +H+P   + N+       QY S IFYL   QK +A  +  +   A      + T +    +FY AE YHQ Y  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|651207647|pdb|4LWK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Methionine Sulfoxide Reductase U16s From Clostridium Oremlandii &gt;gi|651207648|pdb|4LWK|B Chain B, Crystal Structure Of Methionine Sulfoxide Reductase U16s From Clostridium Oremlandii</Hit_def>
+  <Hit_accession>4LWK_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>1.91942e-24</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPT--SLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKN</Hsp_qseq>
+      <Hsp_hseq>AVFALGSFWGPDAQFGSIKGVVSTRVGYAGGTTNNPSYYNLGD----HSESIEIQYDANVITYGELLNIFWNLHNPVYETTNR-------QYMSRIFYLDDGQKSEALEMKRQIEAANG--EKIYTEIVPLENFYLAEGYHQKYYLQN</Hsp_hseq>
+      <Hsp_midline>A+FA G FW  +A F  +KGV+  RVGY GGTT +P+Y N+      H+E++EI +D  VI+Y +LL  F+ +H+P   + N+       QY S IFYL   QK +A  +  +   A      + T +    +FY AE YHQ Y  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|651207646|pdb|4LWJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Methionine Sulfoxide Reductase U16c From Clostridium Oremlandii</Hit_def>
+  <Hit_accession>4LWJ_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>2.42868e-24</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPT--SLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKN</Hsp_qseq>
+      <Hsp_hseq>AVFALGXFWGPDAQFGSIKGVVSTRVGYAGGTTNNPSYYNLGD----HSESIEIQYDANVITYGELLNIFWNLHNPVYETTNR-------QYMSRIFYLDDGQKSEALEMKRQIEAANG--EKIYTEIVPLENFYLAEGYHQKYYLQN</Hsp_hseq>
+      <Hsp_midline>A+FA G FW  +A F  +KGV+  RVGY GGTT +P+Y N+      H+E++EI +D  VI+Y +LL  F+ +H+P   + N+       QY S IFYL   QK +A  +  +   A      + T +    +FY AE YHQ Y  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|261278722|pdb|3HCJ|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Msrb From Xanthomonas Campestris (Oxidized Form) &gt;gi|261278723|pdb|3HCJ|B Chain B, Structure Of Msrb From Xanthomonas Campestris (Oxidized Form)</Hit_def>
+  <Hit_accession>3HCJ_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>2.5075e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>ANLQHLSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREEGTAL</Hsp_qseq>
+      <Hsp_hseq>ALIAGLSDEEQRVLLHHGTEAPFCGVFLDNKLDGVYTCRLCGLPLFRSNAKFDSGTGWPSFFAPYDPAHVREIRDTSYGMIRTEIVCARCDSHLGHVFPDGPPPTGE-RHCLNSVSLAFT--EDGQPL</Hsp_hseq>
+      <Hsp_midline>A +  LSD + RV     TE PF   F ++   G Y   + G  LF S  KFDSG GWPSF AP     V E  D ++ M+RTE+     +SHLGHVF DGPP  G  R+C+NS +L F   E+G  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|651207649|pdb|4LWL|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Methionine Sulfoxide Reductase U16c/e55a From Clostridium Oremlandii</Hit_def>
+  <Hit_accession>4LWL_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.72836e-23</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>ALFAAGCFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKHFFRMHDPT--SLNKQGGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDYLTKN</Hsp_qseq>
+      <Hsp_hseq>AVFALGXFWGPDAQFGSIKGVVSTRVGYAGGTTNNPSYYNLGD----HSASIEIQYDANVITYGELLNIFWNLHNPVYETTNR-------QYMSRIFYLDDGQKSEALEMKRQIEAANG--EKIYTEIVPLENFYLAEGYHQKYYLQN</Hsp_hseq>
+      <Hsp_midline>A+FA G FW  +A F  +KGV+  RVGY GGTT +P+Y N+      H+ ++EI +D  VI+Y +LL  F+ +H+P   + N+       QY S IFYL   QK +A  +  +   A      + T +    +FY AE YHQ Y  +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|261278720|pdb|3HCI|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Msrb From Xanthomonas Campestris (complex-like Form) &gt;gi|261278721|pdb|3HCI|B Chain B, Structure Of Msrb From Xanthomonas Campestris (complex-like Form)</Hit_def>
+  <Hit_accession>3HCI_A</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.20788e-22</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>128</Hsp_align-len>
+      <Hsp_qseq>ANLQHLSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREEGTAL</Hsp_qseq>
+      <Hsp_hseq>ALIAGLSDEEQRVLLHHGTEAPFCGVFLDNKLDGVYTCRLCGLPLFRSNAKFDSGTGWPSFFAPYDPAHVREIRDTSYGMVRTEIVCARCDSHLGHVFPDGPPPTGE-RHSLNSVSLAFT--EDGQPL</Hsp_hseq>
+      <Hsp_midline>A +  LSD + RV     TE PF   F ++   G Y   + G  LF S  KFDSG GWPSF AP     V E  D ++ M+RTE+     +SHLGHVF DGPP  G  R+ +NS +L F   E+G  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|303324721|pdb|2L1U|A</Hit_id>
+  <Hit_def>Chain A, Structure-Functional Analysis Of Mammalian Msrb2 Protein</Hit_def>
+  <Hit_accession>2L1U_A</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.87017e-21</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>QHLSDIQYRVTQQSATETPFKNEFWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYAR--------AVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREEGTAL</Hsp_qseq>
+      <Hsp_hseq>KKLTPEQFYVTREKGTEAPFSGMYLNNKETGMYHCVCCDSPLFSSEKKYCSGTGWPSFSE-AYGSKGSDESHTGILRRLDTSLGCPRMEVVCKQCEAHLGHVFPDG-PKPTGQRFCINSVALKFKPSKPAAAL</Hsp_hseq>
+      <Hsp_midline>+ L+  Q+ VT++  TE PF   + N+ + G Y  V     LF SE K+ SG GWPSFS  AY           ++ + D +    R EV  +   +HLGHVF DG P+  G R+CINS AL+F   +   AL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|291190986|pdb|2KV1|A</Hit_id>
+  <Hit_def>Chain A, Insights Into Function, Catalytic Mechanism And Fold Evolution Of Mouse Selenoprotein Methionine Sulfoxide Reductase B1 Through Structural Analysis</Hit_def>
+  <Hit_accession>2KV1_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>8.85847e-08</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>106</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>FWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRTEVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAR</Hsp_qseq>
+      <Hsp_hseq>FQNHFEPGVYVCAKCSYELFSSHSKYAHSSPWPAFTETIHPDSVTKCPEKNRPEA-LKVSCGKCGNGLGHEFLNDGPKRGQSRFCIFSSSLKFVPK</Hsp_hseq>
+      <Hsp_midline>F N ++PG Y+       LF S  K+     WP+F+   +  +V +  ++       +V      + LGH F +  P+RG  R+CI S++L+FV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|293652063|pdb|3MAO|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Methionine-R-Sulfoxide Reductase B1 (Msrb1)</Hit_def>
+  <Hit_accession>3MAO_A</Hit_accession>
+  <Hit_len>105</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.13518e-07</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>104</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>FWNSYQPGFYLDVVSGELLFLSEDKFDSGCGWPSFSAPAYARAVIEKEDRTHNMLRT-EVRSRNANSHLGHVFKDGPPERGGLRYCINSAALRFVAREEGTA</Hsp_qseq>
+      <Hsp_hseq>FQNHFEPGVYVCAKCGYELFSSRSKYAHSSPWPAFTETIHADSVAKRPE--HNRSEALKVSCGKCGNGLGHEFLNDGPKPGQSRFSIFSSSLKFVPKGKETS</Hsp_hseq>
+      <Hsp_midline>F N ++PG Y+    G  LF S  K+     WP+F+   +A +V ++ +  HN     +V      + LGH F +  P+ G  R+ I S++L+FV + + T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|285803112|pdb|2KE9|A</Hit_id>
+  <Hit_def>Chain A, Nmr Solution Structure Of The Caskin Sh3 Domain</Hit_def>
+  <Hit_accession>2KE9_A</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.132934</Hsp_evalue>
+      <Hsp_query-from>195</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>22</Hsp_align-len>
+      <Hsp_qseq>LKHFFRMHDPTSLNKQGGDVGT</Hsp_qseq>
+      <Hsp_hseq>LKDFWNLHDPTALNVRAGDVIT</Hsp_hseq>
+      <Hsp_midline>LK F+ +HDPT+LN + GDV T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|334359064|pdb|2Y7D|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From Candidatus Cloacamonas Acidaminovorans (Orthorombic Form) &gt;gi|334359065|pdb|2Y7D|B Chain B, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From Candidatus Cloacamonas Acidaminovorans (Orthorombic Form) &gt;gi|334359066|pdb|2Y7D|C Chain C, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From Candidatus Cloacamonas Acidaminovorans (Orthorombic Form) &gt;gi|334359067|pdb|2Y7D|D Chain D, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From Candidatus Cloacamonas Acidaminovorans (Orthorombic Form) &gt;gi|334359068|pdb|2Y7E|A Chain A, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From Candidatus Cloacamonas Acidaminovorans (Tetragonal Form) &gt;gi|334359069|pdb|2Y7E|B Chain B, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From Candidatus Cloacamonas Acidaminovorans (Tetragonal Form) &gt;gi|334359070|pdb|2Y7F|A Chain A, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) &gt;gi|334359071|pdb|2Y7F|B Chain B, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) &gt;gi|334359072|pdb|2Y7F|C Chain C, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) &gt;gi|334359073|pdb|2Y7F|D Chain D, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) &gt;gi|334359074|pdb|2Y7G|A Chain A, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From C. Cloacamonas Acidaminovorans In Complex With The Product Acetoacetate &gt;gi|334359075|pdb|2Y7G|B Chain B, Crystal Structure Of The 3-Keto-5-Aminohexanoate Cleavage Enzyme (Kce) From C. Cloacamonas Acidaminovorans In Complex With The Product Acetoacetate</Hit_def>
+  <Hit_accession>2Y7D_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.40302</Hsp_evalue>
+      <Hsp_query-from>200</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>RMHDPTSLNKQ--GGDVGTQYRSAIFYLSGTQKQQAETLMGRYAGAGK-FTRPLVTTLEEARDFY</Hsp_qseq>
+      <Hsp_hseq>RWHIPTSLIAMVTGGHIRCGFEDNIFYHKGVIAESNAQLVARLARIAKEIGRPLATP-EQAREIL</Hsp_hseq>
+      <Hsp_midline>R H PTSL     GG +   +   IFY  G   +    L+ R A   K   RPL T  E+AR+  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|167745139|pdb|3C5H|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Ras Homolog Domain Of Human Grlf1 (P190rhogap)</Hit_def>
+  <Hit_accession>3C5H_A</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.09183</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>YRSAIFYLSGTQKQQAETLMGRYAGAGKFTRPLVTTLEEARDFYPAEEYHQDY</Hsp_qseq>
+      <Hsp_hseq>YNISVVGLSGTEKEKGQCGIGKSCLCNRFVRP------------SADEFHLDH</Hsp_hseq>
+      <Hsp_midline>Y  ++  LSGT+K++ +  +G+     +F RP             A+E+H D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|520728462|pdb|2LQB|A</Hit_id>
+  <Hit_def>Chain A, Metal Binding Repeat 2 Of The Wilson Disease Protein (atp7b)</Hit_def>
+  <Hit_accession>2LQB_A</Hit_accession>
+  <Hit_len>76</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>26.5646</Hsp_bit-score>
+      <Hsp_score>57</Hsp_score>
+      <Hsp_evalue>7.86447</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>CFWSTEAYFRRVKGVLRVRVGYTGGTTKSPTYRNVCTGTTGHAEAVEILFDPQVISYEDLLKH</Hsp_qseq>
+      <Hsp_hseq>CVSSIEGKVRKLQGVVRVKVSLS------------------NQEAV-ITYQPYLIQPEDLRDH</Hsp_hseq>
+      <Hsp_midline>C  S E   R+++GV+RV+V  +                  + EAV I + P +I  EDL  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

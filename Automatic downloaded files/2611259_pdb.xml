@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_162425</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611259</BlastOutput_query-def>
+  <BlastOutput_query-len>105</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_162425</Iteration_query-ID>
+  <Iteration_query-def>2611259</Iteration_query-def>
+  <Iteration_query-len>105</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|157878104|pdb|1HA6|A</Hit_id>
+  <Hit_def>Chain A, Nmr Solution Structure Of Murine Ccl20MIP-3a Chemokine</Hit_def>
+  <Hit_accession>1HA6_A</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.00136215</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>TPVPGVSLVGFTLELLPLACFIASLIF-TIKRHSI</Hsp_qseq>
+      <Hsp_hseq>TPLPSRAIVGFTRQMADEACDINAIIFHTKKRKSV</Hsp_hseq>
+      <Hsp_midline>TP+P  ++VGFT ++   AC I ++IF T KR S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|6980707|pdb|1C9B|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Human Tbp Core Domain-Human Tfiib Core Domain Complex Bound To An Extended, Modified Adenoviral Major Late Promoter (Admlp) &gt;gi|6980709|pdb|1C9B|E Chain E, Crystal Structure Of A Human Tbp Core Domain-Human Tfiib Core Domain Complex Bound To An Extended, Modified Adenoviral Major Late Promoter (Admlp) &gt;gi|6980711|pdb|1C9B|I Chain I, Crystal Structure Of A Human Tbp Core Domain-Human Tfiib Core Domain Complex Bound To An Extended, Modified Adenoviral Major Late Promoter (Admlp) &gt;gi|6980713|pdb|1C9B|M Chain M, Crystal Structure Of A Human Tbp Core Domain-Human Tfiib Core Domain Complex Bound To An Extended, Modified Adenoviral Major Late Promoter (Admlp) &gt;gi|6980715|pdb|1C9B|Q Chain Q, Crystal Structure Of A Human Tbp Core Domain-Human Tfiib Core Domain Complex Bound To An Extended, Modified Adenoviral Major Late Promoter (Admlp)</Hit_def>
+  <Hit_accession>1C9B_A</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.741375</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>LAVTAVAVFLAIVAWTKTRTQETVCFIAGVLCMYLAQLF</Hsp_qseq>
+      <Hsp_hseq>ISVAAAAIYMASQASAEKRTQKEIGDIAGVADVTIRQSY</Hsp_hseq>
+      <Hsp_midline>++V A A+++A  A  + RTQ+ +  IAGV  + + Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1943468|pdb|1VOL|A</Hit_id>
+  <Hit_def>Chain A, Tfiib (Human Core Domain)TBP (A.THALIANA)TATA ELEMENT Ternary Complex</Hit_def>
+  <Hit_accession>1VOL_A</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.746242</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>LAVTAVAVFLAIVAWTKTRTQETVCFIAGVLCMYLAQLF</Hsp_qseq>
+      <Hsp_hseq>ISVAAAAIYMASQASAEKRTQKEIGDIAGVADVTIRQSY</Hsp_hseq>
+      <Hsp_midline>++V A A+++A  A  + RTQ+ +  IAGV  + + Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|146387163|pdb|2PHG|A</Hit_id>
+  <Hit_def>Chain A, Model For Vp16 Binding To Tfiib</Hit_def>
+  <Hit_accession>2PHG_A</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.785656</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>LAVTAVAVFLAIVAWTKTRTQETVCFIAGVLCMYLAQLF</Hsp_qseq>
+      <Hsp_hseq>ISVAAAAIYMASQASAEKRTQKEIGDIAGVADVTIRQSY</Hsp_hseq>
+      <Hsp_midline>++V A A+++A  A  + RTQ+ +  IAGV  + + Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|157833927|pdb|1TFB|A</Hit_id>
+  <Hit_def>Chain A, Nmr Studies Of Human General Transcription Factor Tfiib: Dynamics And Interaction With Vp16 Activation Domain, 20 Structures</Hit_def>
+  <Hit_accession>1TFB_A</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>0.787389</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>39</Hsp_align-len>
+      <Hsp_qseq>LAVTAVAVFLAIVAWTKTRTQETVCFIAGVLCMYLAQLF</Hsp_qseq>
+      <Hsp_hseq>ISVAAAAIYMASQASAEKRTQKEIGDIAGVADVTIRQSY</Hsp_hseq>
+      <Hsp_midline>++V A A+++A  A  + RTQ+ +  IAGV  + + Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|901695832|pdb|4Z2Y|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Methyltransferase Calo6</Hit_def>
+  <Hit_accession>4Z2Y_A</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.1054</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>1.39926</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>88</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>LAQLFAFLRAAGFSITRYTPVPGVSLVGFTLELLP</Hsp_qseq>
+      <Hsp_hseq>VAEFRELLRVAGFRLESVTPCPAPSVVGI-LEAAP</Hsp_hseq>
+      <Hsp_midline>+A+    LR AGF +   TP P  S+VG  LE  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

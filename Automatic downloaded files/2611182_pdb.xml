@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_230463</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611182</BlastOutput_query-def>
+  <BlastOutput_query-len>211</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_230463</Iteration_query-ID>
+  <Iteration_query-def>2611182</Iteration_query-def>
+  <Iteration_query-len>211</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|157834399|pdb|1ZIN|A</Hit_id>
+  <Hit_def>Chain A, Adenylate Kinase With Bound Ap5a &gt;gi|157834400|pdb|1ZIO|A Chain A, Phosphotransferase &gt;gi|157834401|pdb|1ZIP|A Chain A, Bacillus Stearothermophilus Adenylate Kinase</Hit_def>
+  <Hit_accession>1ZIN_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>7.62942e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQAEKIVAAYGIPHISTGDMFRAAMKEGTPLGLQAKQYMDRGDLVPDEVTIGIVRERLSKDDCQNGFLLDGFPRTVAQAEALETMLADIGRKLDYVIHIDVRQDVLMERLTGRRICRNCGATYHLIFHPPAKPGVCDKCGGELYQRADDNEATVANRLEVNMKQMKPLVDFYEQKGYLRNINGEQDMEKVFADIRE</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A +I    G+ HISTG + RAA+++ T LG + ++ ++ G LV D+    +VRER+S +D  +GF+LDGFPRTV QA  LE ++      +DY + I V  DVL+ RLTGRR+C  CG++YH++F  P + GVCD+C G L  R DD  + +  RL     Q +P+V FY ++G L ++NG   +  V  + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|659835563|pdb|4QBI|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Stable Adenylate Kinase Variant Aklse6 &gt;gi|659835564|pdb|4QBI|B Chain B, Crystal Structure Of A Stable Adenylate Kinase Variant Aklse6</Hit_def>
+  <Hit_accession>4QBI_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>4.4175e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQAEKIVEAYGIPHISTGDMFRAAMKEGTPLGLQAKQYMDRGDLVPDEVTIGIVRERLGKDDCERGFLLDGFPRTVAQAEALEEILEDIGRKIDYVIHIDVRQDVLMERLTGRRICRNCGATYHLIFHPPAKPGVCDKCGGELYQRADDNEETVAKRLEVNMKQMKPLLDFYEQKGYLRNVNGEQDIEKVFADVRE</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A +I    G+ HISTG + RAA+++ T LG + ++ ++ G LV D+    +VRER+  +D   GF+LDGFPRTV QA  LE+I+      IDY + I V  DVL+ RLTGRR+C  CG++YH++F  P + GVCD+C G L  R DD    + +RL     Q +P++ FY ++G L ++NG   I  V  + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|165760928|pdb|2OSB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (q16l/q199r/) &gt;gi|165760929|pdb|2OSB|B Chain B, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (q16l/q199r/)</Hit_def>
+  <Hit_accession>2OSB_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>2.48263e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTLGERIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQTQPLLDFYSEKGYLANVNGQRDIQDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGTL   I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G L ++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|165760925|pdb|2ORI|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (A193vQ199R) &gt;gi|165760926|pdb|2ORI|B Chain B, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (A193vQ199R)</Hit_def>
+  <Hit_accession>2ORI_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.03</Hsp_bit-score>
+      <Hsp_score>458</Hsp_score>
+      <Hsp_evalue>5.56703e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGERIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQTQPLLDFYSEKGYLVNVNGQRDIQDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT    I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G LV++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|239781809|pdb|3DL0|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase Variant Aklse3 &gt;gi|239781810|pdb|3DL0|B Chain B, Crystal Structure Of Adenylate Kinase Variant Aklse3</Hit_def>
+  <Hit_accession>3DL0_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>6.19984e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>204</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>209</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQ</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGERIVEKYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEMGKPIDYVINIQVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVTKRLEVNMKQTAPLLDFYDEKGYLVNVNGQQDIQDVYADLK</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT    I  + G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q  P++ FY E+G LV++NG   I DV  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|48425192|pdb|1P3J|A</Hit_id>
+  <Hit_def>Chain A, Adenylate Kinase From Bacillus Subtilis</Hit_def>
+  <Hit_accession>1P3J_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>1.21757e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGERIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQTQPLLDFYSEKGYLANVNGQQDIQDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT    I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G L ++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|597960173|pdb|4MKF|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Stable Adenylate Kinase Variant Akv3 &gt;gi|597960174|pdb|4MKF|B Chain B, Crystal Structure Of A Stable Adenylate Kinase Variant Akv3</Hit_def>
+  <Hit_accession>4MKF_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>1.41559e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGEKIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVRKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQMQPLLDFYSEKGYLANVNGEQDIEDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT   +I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G L ++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|186972751|pdb|2QAJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (Q199rG213E) &gt;gi|186972752|pdb|2QAJ|B Chain B, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (Q199rG213E)</Hit_def>
+  <Hit_accession>2QAJ_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>1.6458e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGERIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQTQPLLDFYSEKGYLANVNGQRDIQDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT    I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G L ++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166007058|pdb|2P3S|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (G214rQ199R)</Hit_def>
+  <Hit_accession>2P3S_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>2.06316e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGERIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQTQPLLDFYSEKGYLANVNGQRDIQDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT    I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G L ++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|110591304|pdb|2EU8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (Q199r) &gt;gi|110591305|pdb|2EU8|B Chain B, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (Q199r)</Hit_def>
+  <Hit_accession>2EU8_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>2.11505e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGERIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQTQPLLDFYSEKGYLANVNGQRDIQDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT    I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G L ++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|48425544|pdb|1S3G|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase From Bacillus Globisporus</Hit_def>
+  <Hit_accession>1S3G_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>3.85125e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTQADRIVEKYGTPHISTGDMFRAAIQEGTELGVKAKSFMDQGALVPDEVTIGIVRERLSKSDCDNGFLLDGFPRTVPQAEALDQLLADMGRKIEHVLNIQVEKEELIARLTGRRICKVCGTSYHLLFNPPQVEGKCDKDGGELYQRADDNPDTVTNRLEVNMNQTAPLLAFYDSKEVLVNINGQKDIKDV</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A  I  + G  HISTG + RAAIQ+ T LG K +  ++ G LV D+    +VRER+S  D  +GF+LDGFPRTV QA  L+ ++      I++ ++I V  + L+ARLTGRR+C  CG+SYH+LF  P+ EG CD+  G L  R DD    +  RL     Q  P++ FY  +  LV++NG   I DV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|167013243|pdb|2OO7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (T179iQ199R) &gt;gi|167013244|pdb|2OO7|B Chain B, Crystal Structure Of A Thermostable Mutant Of Bacillus Subtilis Adenylate Kinase (T179iQ199R)</Hit_def>
+  <Hit_accession>2OO7_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>4.4774e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQGERIVEDYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVKERLGKDDCERGFLLDGFPRTVAQAEALEEILEEYGKPIDYVINIEVDKDVLMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVSKRLEVNMKQIQPLLDFYSEKGYLANVNGQRDIQDVYADVKD</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT    I    G+ HISTG + RAA++++T LG + +  ++ G LV D+    +V+ER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  DVL+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FYSE+G L ++NG   I DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|659835561|pdb|4QBH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Stable Adenylate Kinase Variant Aklse5 &gt;gi|659835562|pdb|4QBH|B Chain B, Crystal Structure Of A Stable Adenylate Kinase Variant Aklse5</Hit_def>
+  <Hit_accession>4QBH_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>1.87255e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLVLMGLPGAGKGTQAERIVEAYGIPHISTGDMFRAAMKEGTPLGLQAKQYMDRGDLVPDEVTIGIVRERLGKDDCERGFLLDGFPRTVAQAEALEEILEEIGRPIDYVIHIEVRQDVLMERLTGRRICRNCGATYHLIFHPPAKPGVCDKCGGELYQRADDNEETVAKRLEVNMKQMKPLLDFYEQKGYLRNVNGQQDMQDVFADVRE</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A  I    G+ HISTG + RAA+++ T LG + ++ ++ G LV D+    +VRER+  +D   GF+LDGFPRTV QA  LE+I+     PIDY + I V  DVL+ RLTGRR+C  CG++YH++F  P + GVCD+C G L  R DD    + +RL     Q +P++ FY ++G L ++NG   + DV  + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|597960176|pdb|4MKH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Stable Adenylate Kinase Variant Akv18</Hit_def>
+  <Hit_accession>4MKH_A</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>8.11015e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTLAEKIVEKYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVRERLSKSDCERGFLLDGFPRTVAQAEALEEILEEMGRPIDYVINIQVRKEELMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVTKRLEVNMKQMAPLLAFYDSKEVLVNVNGERDIEDV</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGTLA +I  + G+ HISTG + RAA++++T LG + +  ++ G LV D+    +VRER+S  D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  + L+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q  P++ FY  +  LV++NG   I DV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|239781808|pdb|3DKV|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase Variant Aklse1 &gt;gi|597960175|pdb|4MKG|A Chain A, Crystal Structure Of A Stable Adenylate Kinase Variant Akv8</Hit_def>
+  <Hit_accession>3DKV_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>4.71271e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTQAERIVEKYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVRERLSKSDCERGFLLDGFPRTVAQAEALEEILEEMGRPIDYVINIQVDKEELMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVTKRLEVNMKQTAPLLAFYDSKEVLVNVNGQQDIQDV</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A  I  + G+ HISTG + RAA++++T LG + +  ++ G LV D+    +VRER+S  D   GF+LDGFPRTV QA  LE+I+     PIDY ++I V  + L+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q  P++ FY  +  LV++NG   I DV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|659835559|pdb|4QBF|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Stable Adenylate Kinase Variant Aklse2</Hit_def>
+  <Hit_accession>4QBF_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>6.57591e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>204</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTQAERIVEKYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVRERLSKSDCERGFLLDGFPRTVAQAEALEELLEEMGRPIDYVINIQVDKEELIARLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVTKRLEVNMKQTAPLLAFYDSKEVLVNVNGQQDIQDV</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A  I  + G+ HISTG + RAA++++T LG + +  ++ G LV D+    +VRER+S  D   GF+LDGFPRTV QA  LE+++     PIDY ++I V  + L+ARLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q  P++ FY  +  LV++NG   I DV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|260099898|pdb|3FB4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase From Marinibacillus Marinus</Hit_def>
+  <Hit_accession>3FB4_A</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.09375e-52</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTQAEQIIEKYEIPHISTGDMFRAAIKNGTELGLKAKSFMDQGNLVPDEVTIGIVHERLSKDDCQKGFLLDGFPRTVAQADALDSLLTDLGKKLDYVLNIKVEQEELMKRLTGRWICKTCGATYHTIFNPPAVEGICDKDGGELYQRIDDKPETVKNRLDVNMKQTQPLLDFYSQKGVLKDIDGQQDIKKVFVDIND</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A +I  +  + HISTG + RAAI+  T LG K +  ++ G LV D+    +V ER+S +D   GF+LDGFPRTV QA  L+ ++      +DY ++I V  + L+ RLTGR +C  CG++YH +F  P  EG+CD+  G L  R DDK   +  RL     Q +P++ FYS++G L  ++G   I  V ++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|157836762|pdb|3AKY|A</Hit_id>
+  <Hit_def>Chain A, Stability, Activity And Structure Of Adenylate Kinase Mutants</Hit_def>
+  <Hit_accession>3AKY_A</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.318</Hsp_bit-score>
+      <Hsp_score>425</Hsp_score>
+      <Hsp_evalue>4.05899e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVV-SGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQERFAQS</Hsp_qseq>
+      <Hsp_hseq>IRMVLIGPPGAGKGTQAPNLQERFHAAHLATGDMLRSQIAKGTQLGLEAKKIMDQGGLVSDDIMVNMIKDELTNNPACKNGFILDGFPRTIPQAEKLDQMLKEQGTPLEKAIELKVDDELLVARITGRLIHPASGRSYHKIFNPPKEDMKDDVTGEALVQRSDDNADALKKRLAAYHAQTEPIVDFYKKTGIWAGVDASQPPATVWADFLNKLGKN</Hsp_hseq>
+      <Hsp_midline>+R V +GPPGAGKGT A  +  R    H++TG +LR+ I K T LG + +K+++ GGLV D  +  ++++ +++     +GFILDGFPRT+ QA  L+ ++     P++ A+ + V D++LVAR+TGR +  A G SYH +F  PK +   D     LV R DD   A+ +RL AY AQ EPIV FY + G    ++ + P + V  +F  +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|665764323|pdb|4K46|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase From Photobacterium Profundum</Hit_def>
+  <Hit_accession>4K46_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>167.933</Hsp_bit-score>
+      <Hsp_score>424</Hsp_score>
+      <Hsp_evalue>5.15435e-51</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQERFA</Hsp_qseq>
+      <Hsp_hseq>MRIILLGAPGAGKGTQAQFIMAKFGIPQISTGDMLRAAIKAGTELGKQAKSVIDAGQLVSDDIILGLVKERIAQDDCAKGFLLDGFPRTIPQADGLKEVGVVVDYVIEFDVADSVIVERMAGRRAHLASGRTYHNVYNPPKVEGKDDVTGEDLVIREDDKEETVLARLGVYHNQTAPLIAYYGKEAEAGNTQYLKFDGTKAVAEVSAELEKALA</Hsp_hseq>
+      <Hsp_midline>MR + LG PGAGKGT A  I  + G+  ISTG +LRAAI+  T LGK+ + V++ G LV D  +  LV+ER++ +D   GF+LDGFPRT+ QA  L+++ V +DY +   V D V+V R+ GRR   A G +YH ++  PK EG  D     LV+REDDK   +L RL  Y  Q  P++ +Y +       + +  +G   +++V  E ++  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|157829936|pdb|1AKY|A</Hit_id>
+  <Hit_def>Chain A, High-Resolution Structures Of Adenylate Kinase From Yeast Ligated With Inhibitor Ap5a, Showing The Pathway Of Phosphoryl Transfer &gt;gi|157834546|pdb|2AKY|A Chain A, High-Resolution Structures Of Adenylate Kinase From Yeast Ligated With Inhibitor Ap5a, Showing The Pathway Of Phosphoryl Transfer</Hit_def>
+  <Hit_accession>1AKY_A</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>4.63407e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVV-SGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQERFAQS</Hsp_qseq>
+      <Hsp_hseq>IRMVLIGPPGAGKGTQAPNLQERFHAAHLATGDMLRSQIAKGTQLGLEAKKIMDQGGLVSDDIMVNMIKDELTNNPACKNGFILDGFPRTIPQAEKLDQMLKEQGTPLEKAIELKVDDELLVARITGRLIHPASGRSYHKIFNPPKEDMKDDVTGEALVQRSDDNADALKKRLAAYHAQTEPIVDFYKKTGIWAGVDASQPPATVWADILNKLGKN</Hsp_hseq>
+      <Hsp_midline>+R V +GPPGAGKGT A  +  R    H++TG +LR+ I K T LG + +K+++ GGLV D  +  ++++ +++     +GFILDGFPRT+ QA  L+ ++     P++ A+ + V D++LVAR+TGR +  A G SYH +F  PK +   D     LV R DD   A+ +RL AY AQ EPIV FY + G    ++ + P + V  +   +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|726969063|pdb|4TYQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of An Adenylate Kinase Mutant--akm2 &gt;gi|726969064|pdb|4TYQ|B Chain B, Crystal Structure Of An Adenylate Kinase Mutant--akm2</Hit_def>
+  <Hit_accession>4TYQ_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.851</Hsp_bit-score>
+      <Hsp_score>416</Hsp_score>
+      <Hsp_evalue>8.46639e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTQAERIVAKYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVRERLSKSDCERGFLLDGFPRTVAQAEALEEILEEMGRKLEYVIHIEVRQEELMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVAKRLEVNMKQMAPLLAFYDSKEVLVNVNGQQDMEKVFKDLRE</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A  I  + G+ HISTG + RAA++++T LG + +  ++ G LV D+    +VRER+S  D   GF+LDGFPRTV QA  LE+I+      ++Y + I V  + L+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q  P++ FY  +  LV++NG   +  V  + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|262367965|pdb|3HPR|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of V148g Adenylate Kinase From E. Coli, In Complex With Ap5a &gt;gi|262367966|pdb|3HPR|B Chain B, Crystal Structure Of V148g Adenylate Kinase From E. Coli, In Complex With Ap5a</Hit_def>
+  <Hit_accession>3HPR_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.41972e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MRIILLGAPGAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVTDELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDGTGEELTTRKDDQEETVRKRLVEYHQMTAPLIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEK</Hsp_hseq>
+      <Hsp_midline>MR + LG PGAGKGT A  I  + G+  ISTG +LRAA++  + LGK+ + +++ G LV D+ V  LV+ER++ ED  +GF+LDGFPRT+ QA  +++  + +DY +   VPD+++V R+ GRRV +  G  YHV F  PK EG  D     L  R+DD+   + +RL  Y     P++ +YS+       K   ++G  P+++V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|493809|pdb|1AKE|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Complex Between Adenylate Kinase From Escherichia Coli And The Inhibitor Ap5a Refined At 1.9 Angstroms Resolution: A Model For A Catalytic Transition State &gt;gi|493810|pdb|1AKE|B Chain B, Structure Of The Complex Between Adenylate Kinase From Escherichia Coli And The Inhibitor Ap5a Refined At 1.9 Angstroms Resolution: A Model For A Catalytic Transition State &gt;gi|576003|pdb|1ANK|A Chain A, The Closed Conformation Of A Highly Flexible Protein: The Structure Of E. Cloi Adenylate Kinase With Bound Amp And Amppnp &gt;gi|576004|pdb|1ANK|B Chain B, The Closed Conformation Of A Highly Flexible Protein: The Structure Of E. Cloi Adenylate Kinase With Bound Amp And Amppnp &gt;gi|1633462|pdb|4AKE|A Chain A, Adenylate Kinase &gt;gi|1633463|pdb|4AKE|B Chain B, Adenylate Kinase &gt;gi|1942106|pdb|2ECK|A Chain A, Structure Of Phosphotransferase &gt;gi|1942107|pdb|2ECK|B Chain B, Structure Of Phosphotransferase &gt;gi|262367963|pdb|3HPQ|A Chain A, Crystal Structure Of Wild-Type Adenylate Kinase From E. Coli, In Complex With Ap5a &gt;gi|262367964|pdb|3HPQ|B Chain B, Crystal Structure Of Wild-Type Adenylate Kinase From E. Coli, In Complex With Ap5a &gt;gi|635576239|pdb|4JZK|A Chain A, Crystal Structure Of Adenylate Kinase Of E. Coli With Adp/amp Bound &gt;gi|635576240|pdb|4JZK|B Chain B, Crystal Structure Of Adenylate Kinase Of E. Coli With Adp/amp Bound</Hit_def>
+  <Hit_accession>1AKE_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>163.31</Hsp_bit-score>
+      <Hsp_score>412</Hsp_score>
+      <Hsp_evalue>3.68625e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MRIILLGAPGAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVTDELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTRKDDQEETVRKRLVEYHQMTAPLIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEK</Hsp_hseq>
+      <Hsp_midline>MR + LG PGAGKGT A  I  + G+  ISTG +LRAA++  + LGK+ + +++ G LV D+ V  LV+ER++ ED  +GF+LDGFPRT+ QA  +++  + +DY +   VPD+++V R+ GRRV +  G  YHV F  PK EG  D     L  R+DD+   + +RL  Y     P++ +YS+       K   ++G  P+++V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|726969059|pdb|4TYP|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of An Adenylate Kinase Mutant--akm1 &gt;gi|726969060|pdb|4TYP|B Chain B, Crystal Structure Of An Adenylate Kinase Mutant--akm1 &gt;gi|726969061|pdb|4TYP|A Chain A, Crystal Structure Of An Adenylate Kinase Mutant--akm1 &gt;gi|726969062|pdb|4TYP|D Chain D, Crystal Structure Of An Adenylate Kinase Mutant--akm1</Hit_def>
+  <Hit_accession>4TYP_C</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.54</Hsp_bit-score>
+      <Hsp_score>410</Hsp_score>
+      <Hsp_evalue>6.70275e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQ-----------ARCLEDIVPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTQAEKIVAKYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVRERLSKSDCERGFLLDGFPRTVAQAEALEEILEEMGRKLEHVIHID------VRQEELMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVAKRLEVNMKQMKPLLAFYDSKEVLRNVNGEQDMEKVFKDLRE</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A +I  + G+ HISTG + RAA++++T LG + +  ++ G LV D+    +VRER+S  D   GF+LDGFPRTV Q            R LE ++ ID      V  + L+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q +P++ FY  +  L ++NG   +  V  + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|887492594|pdb|4X8M|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of E. Coli Adenylate Kinase Y171w Mutant &gt;gi|887492595|pdb|4X8O|A Chain A, Crystal Structure Of E. Coli Adenylate Kinase Y171w Mutant In Complex With Inhibitor Ap5a &gt;gi|887492596|pdb|4X8O|B Chain B, Crystal Structure Of E. Coli Adenylate Kinase Y171w Mutant In Complex With Inhibitor Ap5a</Hit_def>
+  <Hit_accession>4X8M_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.1001e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MRIILLGAPGAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVTDELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTRKDDQEETVRKRLVEWHQMTAPLIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEK</Hsp_hseq>
+      <Hsp_midline>MR + LG PGAGKGT A  I  + G+  ISTG +LRAA++  + LGK+ + +++ G LV D+ V  LV+ER++ ED  +GF+LDGFPRT+ QA  +++  + +DY +   VPD+++V R+ GRRV +  G  YHV F  PK EG  D     L  R+DD+   + +RL  +     P++ +YS+       K   ++G  P+++V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|799531778|pdb|3X2S|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Pyrene-conjugated Adenylate Kinase &gt;gi|799531779|pdb|3X2S|B Chain B, Crystal Structure Of Pyrene-conjugated Adenylate Kinase</Hit_def>
+  <Hit_accession>3X2S_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>1.60079e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MRIILLGAPGAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDCGKLVTDELVIALVKERIAQEDSRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTRKDDQEETVRKRLCEYHQMTAPLIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEK</Hsp_hseq>
+      <Hsp_midline>MR + LG PGAGKGT A  I  + G+  ISTG +LRAA++  + LGK+ + +++ G LV D+ V  LV+ER++ ED  +GF+LDGFPRT+ QA  +++  + +DY +   VPD+++V R+ GRRV +  G  YHV F  PK EG  D     L  R+DD+   + +RL  Y     P++ +YS+       K   ++G  P+++V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|659835560|pdb|4QBG|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of A Stable Adenylate Kinase Variant Aklse4</Hit_def>
+  <Hit_accession>4QBG_B</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>4.5126e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNIVLMGLPGAGKGTQAERIVAKYGIPHISTGDMFRAAMKEETPLGLEAKSYIDKGELVPDEVTIGIVRERLSKSDCERGFLLDGFPRTVAQAEALEEILEEMGRKLEHVIHIEVRQEELMERLTGRRICSVCGTTYHLVFNPPKTPGICDKDGGELYQRADDNEETVAKRLEVNMKQMAPLLAFYDSKEVLRNVNGQQDMEKVFKDLRE</Hsp_hseq>
+      <Hsp_midline>M  V +G PGAGKGT A  I  + G+ HISTG + RAA++++T LG + +  ++ G LV D+    +VRER+S  D   GF+LDGFPRTV QA  LE+I+      +++ + I V  + L+ RLTGRR+CS CG++YH++F  PK  G+CD+  G L  R DD    + +RL     Q  P++ FY  +  L ++NG   +  V  + +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|901695765|pdb|4X8H|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of E. Coli Adenylate Kinase P177a Mutant &gt;gi|901695766|pdb|4X8L|A Chain A, Crystal Structure Of E. Coli Adenylate Kinase P177a Mutant In Complex With Inhibitor Ap5a &gt;gi|901695767|pdb|4X8L|B Chain B, Crystal Structure Of E. Coli Adenylate Kinase P177a Mutant In Complex With Inhibitor Ap5a</Hit_def>
+  <Hit_accession>4X8H_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.844</Hsp_bit-score>
+      <Hsp_score>403</Hsp_score>
+      <Hsp_evalue>7.17337e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MRIILLGAPGAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVTDELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTRKDDQEETVRKRLVEYHQMTAALIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEK</Hsp_hseq>
+      <Hsp_midline>MR + LG PGAGKGT A  I  + G+  ISTG +LRAA++  + LGK+ + +++ G LV D+ V  LV+ER++ ED  +GF+LDGFPRT+ QA  +++  + +DY +   VPD+++V R+ GRRV +  G  YHV F  PK EG  D     L  R+DD+   + +RL  Y      ++ +YS+       K   ++G  P+++V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|10121071|pdb|1E4V|A</Hit_id>
+  <Hit_def>Chain A, Mutant G10v Of Adenylate Kinase From E. Coli, Modified In The Gly-Loop &gt;gi|10121072|pdb|1E4V|B Chain B, Mutant G10v Of Adenylate Kinase From E. Coli, Modified In The Gly-Loop</Hit_def>
+  <Hit_accession>1E4V_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>1.0548e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MRIILLGAPVAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVTDELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTRKDDQEETVRKRLVEYHQMTAPLIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEK</Hsp_hseq>
+      <Hsp_midline>MR + LG P AGKGT A  I  + G+  ISTG +LRAA++  + LGK+ + +++ G LV D+ V  LV+ER++ ED  +GF+LDGFPRT+ QA  +++  + +DY +   VPD+++V R+ GRRV +  G  YHV F  PK EG  D     L  R+DD+   + +RL  Y     P++ +YS+       K   ++G  P+++V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|567755670|pdb|4NP6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase From Vibrio Cholerae O1 Biovar Eltor &gt;gi|567755671|pdb|4NP6|B Chain B, Crystal Structure Of Adenylate Kinase From Vibrio Cholerae O1 Biovar Eltor &gt;gi|567755672|pdb|4NP6|C Chain C, Crystal Structure Of Adenylate Kinase From Vibrio Cholerae O1 Biovar Eltor &gt;gi|567755673|pdb|4NP6|D Chain D, Crystal Structure Of Adenylate Kinase From Vibrio Cholerae O1 Biovar Eltor</Hit_def>
+  <Hit_accession>4NP6_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.77677e-47</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>RFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSE-----RGKLVSLNGAPPISDVVLEFQERFA</Hsp_qseq>
+      <Hsp_hseq>RIILLGAPGAGKGTQAQFIXEKFGIPQISTGDXLRAAIKAGTELGKQAKAVIDAGQLVSDDIILGLIKERIAQADCEKGFLLDGFPRTIPQADGLKEXGINVDYVIEFDVADDVIVERXAGRRAHLPSGRTYHVVYNPPKVEGKDDVTGEDLVIREDDKEETVRARLNVYHTQTAPLIEYYGKEAAAGKTQYLKFDGTKQVSEVSADIAKALA</Hsp_hseq>
+      <Hsp_midline>R + LG PGAGKGT A  I  + G+  ISTG  LRAAI+  T LGK+ + V++ G LV D  +  L++ER++  D   GF+LDGFPRT+ QA  L++  + +DY +   V DDV+V R  GRR     G +YHV++  PK EG  D     LV+REDDK   +  RL  Y  Q  P++ +Y +     + + +  +G   +S+V  +  +  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1421658|pdb|1DVR|A</Hit_id>
+  <Hit_def>Chain A, Structure Of A Mutant Adenylate Kinase Ligated With An Atp- Analogue Showing Domain Closure Over Atp &gt;gi|1421659|pdb|1DVR|B Chain B, Structure Of A Mutant Adenylate Kinase Ligated With An Atp- Analogue Showing Domain Closure Over Atp</Hit_def>
+  <Hit_accession>1DVR_A</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.918</Hsp_bit-score>
+      <Hsp_score>398</Hsp_score>
+      <Hsp_evalue>4.63763e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>210</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVV-SGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQERFAQS</Hsp_qseq>
+      <Hsp_hseq>IRMVLIGPPGAGKGTQAPNLQERFHAAHLATGDMLRSQIAKGTQLGLEAKKIMDQGGLVSDDIMVNMIKDELTNNPACKNGFILVGFPRTIPQAEKLDQMLKEQGTPLEKAIELKVDDELLVARITGRLIHPASGRSYHKIFNPPKEDMKDDVTGEALVQISDDNADALKKRLAAYHAQTEPIVDFYKKTGIWAGVDASQPPATVWADILNKLGKN</Hsp_hseq>
+      <Hsp_midline>+R V +GPPGAGKGT A  +  R    H++TG +LR+ I K T LG + +K+++ GGLV D  +  ++++ +++     +GFIL GFPRT+ QA  L+ ++     P++ A+ + V D++LVAR+TGR +  A G SYH +F  PK +   D     LV   DD   A+ +RL AY AQ EPIV FY + G    ++ + P + V  +   +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|10121073|pdb|1E4Y|A</Hit_id>
+  <Hit_def>Chain A, Mutant P9l Of Adenylate Kinase From E. Coli, Modified In The Gly-Loop &gt;gi|10121074|pdb|1E4Y|B Chain B, Mutant P9l Of Adenylate Kinase From E. Coli, Modified In The Gly-Loop</Hit_def>
+  <Hit_accession>1E4Y_A</Hit_accession>
+  <Hit_len>214</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>4.61157e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG-----KLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MRIILLGALVAGKGTQAQFIMEKYGIPQISTGDMLRAAVKSGSELGKQAKDIMDAGKLVTDELVIALVKERIAQEDCRNGFLLDGFPRTIPQADAMKEAGINVDYVLEFDVPDELIVDRIVGRRVHAPSGRVYHVKFNPPKVEGKDDVTGEELTTRKDDQEETVRKRLVEYHQMTAPLIGYYSKEAEAGNTKYAKVDGTKPVAEVRADLEK</Hsp_hseq>
+      <Hsp_midline>MR + LG   AGKGT A  I  + G+  ISTG +LRAA++  + LGK+ + +++ G LV D+ V  LV+ER++ ED  +GF+LDGFPRT+ QA  +++  + +DY +   VPD+++V R+ GRRV +  G  YHV F  PK EG  D     L  R+DD+   + +RL  Y     P++ +YS+       K   ++G  P+++V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|618855305|pdb|4PZL|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Adenylate Kinase From Francisella Tularensis Subsp. Tularensis Schu S4 &gt;gi|618855306|pdb|4PZL|B Chain B, The Crystal Structure Of Adenylate Kinase From Francisella Tularensis Subsp. Tularensis Schu S4 &gt;gi|618855307|pdb|4PZL|C Chain C, The Crystal Structure Of Adenylate Kinase From Francisella Tularensis Subsp. Tularensis Schu S4 &gt;gi|618855308|pdb|4PZL|D Chain D, The Crystal Structure Of Adenylate Kinase From Francisella Tularensis Subsp. Tularensis Schu S4</Hit_def>
+  <Hit_accession>4PZL_A</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>7.2799e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>RFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFY</Hsp_qseq>
+      <Hsp_hseq>RIILLGAPGAGKGTQAKIIEQKYNIAHISTGDXIRETIKSGSALGQELKKVLDAGELVSDEFIIKIVKDRISKNDCNNGFLLDGVPRTIPQAQELDKLGVNIDYIVEVDVADNLLIERITGRRIHPASGRTYHTKFNPPKVADKDDVTGEPLITRTDDNEDTVKQRLSVYHAQTAKLIDFY</Hsp_hseq>
+      <Hsp_midline>R + LG PGAGKGT A  I  +  + HISTG  +R  I+  +ALG++++KV++ G LV D+ + ++V++R+S  D  +GF+LDG PRT+ QA+ L+ + V IDY V + V D++L+ R+TGRR+  A G +YH  F  PK     D     L+ R DD    + QRL+ Y AQ   ++ FY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|659835213|pdb|4JKY|A</Hit_id>
+  <Hit_def>Chain A, Cobalt Between Two Adp&apos;s In The Active Site Of Adenylate Kinase &gt;gi|659835214|pdb|4JKY|B Chain B, Cobalt Between Two Adp&apos;s In The Active Site Of Adenylate Kinase &gt;gi|659835215|pdb|4JL5|A Chain A, A High Resolution Structure Of Aquifex Adenylate Kinase With 2 Adp&apos;s &gt;gi|659835216|pdb|4JL5|B Chain B, A High Resolution Structure Of Aquifex Adenylate Kinase With 2 Adp&apos;s &gt;gi|659835217|pdb|4JL6|A Chain A, Crystal Structure Of Adenylate Kinase With 2 Adp&apos;s &gt;gi|659835218|pdb|4JL6|B Chain B, Crystal Structure Of Adenylate Kinase With 2 Adp&apos;s &gt;gi|659835219|pdb|4JL8|A Chain A, A Various Kinds Of Adp Conformations In The Adenylate Kinase Active Site &gt;gi|659835220|pdb|4JL8|B Chain B, A Various Kinds Of Adp Conformations In The Adenylate Kinase Active Site &gt;gi|659835221|pdb|4JLA|A Chain A, Crystal Structure Of Adenylate Kinase With 2 Adp&apos;s In The Active Site &gt;gi|659835222|pdb|4JLA|B Chain B, Crystal Structure Of Adenylate Kinase With 2 Adp&apos;s In The Active Site &gt;gi|659835223|pdb|4JLB|A Chain A, Crystal Structures Of Adenylate Kinase With 2adp&apos;s &gt;gi|659835224|pdb|4JLB|B Chain B, Crystal Structures Of Adenylate Kinase With 2adp&apos;s &gt;gi|659835225|pdb|4JLD|A Chain A, Crystal Structures Of Adenylate Kinase With 2 Adp&apos;s &gt;gi|659835226|pdb|4JLD|B Chain B, Crystal Structures Of Adenylate Kinase With 2 Adp&apos;s</Hit_def>
+  <Hit_accession>4JKY_A</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.41602e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-----VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVV-REDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>MILVFLGPPGAGKGTQAKRLAKEKGFVHISTGDILREAVQKGTPLGKKAKEYMERGELVPDDLIIALIEEVFPKH---GNVIFDGFPRTVKQAEALDEMLEKKGLKVDHVLLFEVPDEVVIERLSGRRINPETGEVYHVKYNPP--------PPGVKVIQREDDKPEVIKKRLEVYREQTAPLIEYYKKKGILRIIDASKPVEEV</Hsp_hseq>
+      <Hsp_midline>M  VFLGPPGAGKGT A  ++   G VHISTG ILR A+QK T LGKK ++ +E G LV D  +  L+ E           I DGFPRTV QA  L+++     + +D+ +   VPD+V++ RL+GRR+    G  YHV +  P          GV V+ REDDK   I +RL  YR Q  P++ +Y ++G L  ++ + P+ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|163310973|pdb|2RGX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase From Aquifex Aeolicus In Complex With Ap5a &gt;gi|163310974|pdb|2RH5|A Chain A, Structure Of Apo Adenylate Kinase From Aquifex Aeolicus &gt;gi|163310975|pdb|2RH5|C Chain C, Structure Of Apo Adenylate Kinase From Aquifex Aeolicus &gt;gi|163310976|pdb|2RH5|B Chain B, Structure Of Apo Adenylate Kinase From Aquifex Aeolicus &gt;gi|408535740|pdb|3SR0|A Chain A, Crystal Structure Of The Phosphoryl Transfer Transition State Mimic In The Adenylate Kinase: Adp/alf4/amp In The Active Site &gt;gi|408535741|pdb|3SR0|B Chain B, Crystal Structure Of The Phosphoryl Transfer Transition State Mimic In The Adenylate Kinase: Adp/alf4/amp In The Active Site &gt;gi|661918107|pdb|4IKE|A Chain A, Crystal Structure Of A Partly Open Atp-lid Of Liganded Adenylate Kinase &gt;gi|661918108|pdb|4IKE|B Chain B, Crystal Structure Of A Partly Open Atp-lid Of Liganded Adenylate Kinase &gt;gi|728055250|pdb|4CF7|A Chain A, Crystal Structure Of Adenylate Kinase From Aquifex Aeolicus With Mgadp Bound &gt;gi|728055251|pdb|4CF7|B Chain B, Crystal Structure Of Adenylate Kinase From Aquifex Aeolicus With Mgadp Bound</Hit_def>
+  <Hit_accession>2RGX_A</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.67493e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-----VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVV-REDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>MILVFLGPPGAGKGTQAKRLAKEKGFVHISTGDILREAVQKGTPLGKKAKEYMERGELVPDDLIIALIEEVFPKH---GNVIFDGFPRTVKQAEALDEMLEKKGLKVDHVLLFEVPDEVVIERLSGRRINPETGEVYHVKYNPP--------PPGVKVIQREDDKPEVIKKRLEVYREQTAPLIEYYKKKGILRIIDASKPVEEV</Hsp_hseq>
+      <Hsp_midline>M  VFLGPPGAGKGT A  ++   G VHISTG ILR A+QK T LGKK ++ +E G LV D  +  L+ E           I DGFPRTV QA  L+++     + +D+ +   VPD+V++ RL+GRR+    G  YHV +  P          GV V+ REDDK   I +RL  YR Q  P++ +Y ++G L  ++ + P+ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|659835227|pdb|4JLO|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Aquifex Adenylate Kinase R150k Mutant &gt;gi|659835228|pdb|4JLO|B Chain B, Crystal Structure Of Aquifex Adenylate Kinase R150k Mutant &gt;gi|659835229|pdb|4JLP|A Chain A, Crystal Structure Of R150k Aquifex Adenylate Kinase Mutant &gt;gi|659835230|pdb|4JLP|B Chain B, Crystal Structure Of R150k Aquifex Adenylate Kinase Mutant</Hit_def>
+  <Hit_accession>4JLO_A</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.70884e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERV-SHEDVVSGFILDGFPRTVTQARCLEDI-----VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVV-REDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>MILVFLGPPGAGKGTQAKRLAKEKGFVHISTGDILREAVQKGTPLGKKAKEYMERGELVPDDLIIALIEEVFPKHGNV----IFDGFPRTVKQAEALDEMLEKKGLKVDHVLLFEVPDEVVIERLSGRRINPETGEVYHVKYNPP--------PPGVKVIQKEDDKPEVIKKRLEVYREQTAPLIEYYKKKGILRIIDASKPVEEV</Hsp_hseq>
+      <Hsp_midline>M  VFLGPPGAGKGT A  ++   G VHISTG ILR A+QK T LGKK ++ +E G LV D  +  L+ E    H +V    I DGFPRTV QA  L+++     + +D+ +   VPD+V++ RL+GRR+    G  YHV +  P          GV V+ +EDDK   I +RL  YR Q  P++ +Y ++G L  ++ + P+ +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|354459761|pdb|3TLX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Pf10_0086, Adenylate Kinase From Plasmodium Falciparum &gt;gi|354459762|pdb|3TLX|B Chain B, Crystal Structure Of Pf10_0086, Adenylate Kinase From Plasmodium Falciparum &gt;gi|354459763|pdb|3TLX|C Chain C, Crystal Structure Of Pf10_0086, Adenylate Kinase From Plasmodium Falciparum &gt;gi|354459764|pdb|3TLX|D Chain D, Crystal Structure Of Pf10_0086, Adenylate Kinase From Plasmodium Falciparum</Hit_def>
+  <Hit_accession>3TLX_A</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.34106e-44</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>199</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>203</Hsp_align-len>
+      <Hsp_qseq>RFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDV</Hsp_qseq>
+      <Hsp_hseq>RYIFLGAPGSGKGTQSLNLKKSHCYCHLSTGDLLREAAEKKTELGLKIKNIINEGKLVDDQMVLSLVDEKLKTPQCKKGFILDGYPRNVKQAEDLNKLLQKNQTKLDGVFYFNVPDEVLVNRISGRLIHKPSGRIYHKIFNPPKVPFRDDVTNEPLIQREDDNEDVLKKRLTVFKSETSPLISYYKNKNLLINLDATQPANDL</Hsp_hseq>
+      <Hsp_midline>R++FLG PG+GKGT +  +       H+STG +LR A +K+T LG K++ ++  G LVDDQ V  LV E++       GFILDG+PR V QA  L  ++      +D      VPD+VLV R++GR +    G  YH +F  PK     D     L+ REDD    + +RLT ++++  P++ +Y  +  L++L+   P +D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|157829916|pdb|1AK2|A</Hit_id>
+  <Hit_def>Chain A, Adenylate Kinase Isoenzyme-2 &gt;gi|157834545|pdb|2AK2|A Chain A, Adenylate Kinase Isoenzyme-2</Hit_def>
+  <Hit_accession>1AK2_A</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>3.76115e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG</Hsp_qseq>
+      <Hsp_hseq>VRAVLLGPPGAGKGTQAPKLAKNFCVCHLATGDMLRAMVASGSELGKKLKATMDAGKLVSDEMVLELIEKNLETPPCKNGFLLDGFPRTVRQAEMLDDLMEKRKEKLDSVIEFSIPDSLLIRRITGRLIHPQSGRSYHEEFNPPKEPMKDDITGEPLIRRSDDNKKALKIRLEAYHTQTTPLVEYYSKRG</Hsp_hseq>
+      <Hsp_midline>+R V LGPPGAGKGT A +++    V H++TG +LRA +   + LGKK++  ++ G LV D+ V EL+ + +      +GF+LDGFPRTV QA  L+D++      +D  +   +PD +L+ R+TGR +    G SYH  F  PK     D     L+ R DD   A+  RL AY  Q  P+V +YS+RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|238828229|pdb|3GMT|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase From Burkholderia Pseudomallei &gt;gi|238828230|pdb|3GMT|B Chain B, Crystal Structure Of Adenylate Kinase From Burkholderia Pseudomallei</Hit_def>
+  <Hit_accession>3GMT_A</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.07646e-43</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>RFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDI-VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNG</Hsp_qseq>
+      <Hsp_hseq>RLILLGAPGAGKGTQANFIKEKFGIPQISTGDXLRAAVKAGTPLGVEAKTYXDEGKLVPDSLIIGLVKERLKEADCANGYLFDGFPRTIAQADAXKEAGVAIDYVLEIDVPFSEIIERXSGRRTHPASGRTYHVKFNPPKVEGKDDVTGEPLVQRDDDKEETVKKRLDVYEAQTKPLITYYGDWARRGAENG</Hsp_hseq>
+      <Hsp_midline>R + LG PGAGKGT A  I  + G+  ISTG  LRAA++  T LG + +   + G LV D  +  LV+ER+   D  +G++ DGFPRT+ QA   ++  V IDY + I VP   ++ R +GRR   A G +YHV F  PK EG  D     LV R+DDK   + +RL  Y AQ +P++ +Y +  +  + NG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|88192646|pdb|2C9Y|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Human Adenylate Kinase 2</Hit_def>
+  <Hit_accession>2C9Y_A</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>3.12613e-42</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIV-----PIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERG</Hsp_qseq>
+      <Hsp_hseq>IRAVLLGPPGAGKGTQAPRLAENFCVCHLATGDMLRAMVASGSELGKKLKATMDAGKLVSDEMVVELIEKNLETPLCKNGFLLDGFPRTVRQAEMLDDLMEKRKEKLDSVIEFSIPDSLLIRRITGRLIHPKSGRSYHEEFNPPKEPMKDDITGEPLIRRSDDNEKALKIRLQAYHTQTTPLIEYYRKRG</Hsp_hseq>
+      <Hsp_midline>+R V LGPPGAGKGT A  ++    V H++TG +LRA +   + LGKK++  ++ G LV D+ V EL+ + +      +GF+LDGFPRTV QA  L+D++      +D  +   +PD +L+ R+TGR +    G SYH  F  PK     D     L+ R DD   A+  RL AY  Q  P++ +Y +RG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|163311052|pdb|3BE4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Cryptosporidium Parvum Adenylate Kinase Cgd5_3360</Hit_def>
+  <Hit_accession>3BE4_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>3.42571e-37</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>RFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIVPI--DYAVSIV---VPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>NLILIGAPGSGKGTQCEFIKKEYGLAHLSTGDMLREAIKNGTKIGLEAKSIIESGNFVGDEIVLGLVKEKFDLGVCVNGFVLDGFPRTIPQAEGLAKILSEIGDSLTSVIYFEIDDSEIIERISGRCTHPASGRIYHVKYNPPKQPGIDDVTGEPLVWRDDDNAEAVKVRLDVFHKQTAPLVKFYEDLGILKRVNAKLPPKEVTEQIKK</Hsp_hseq>
+      <Hsp_midline>  + +G PG+GKGT    I    G+ H+STG +LR AI+  T +G + + ++E G  V D+ V  LV+E+      V+GF+LDGFPRT+ QA  L  I+    D   S++   + D  ++ R++GR    A G  YHV +  PK+ G+ D     LV R+DD   A+  RL  +  Q  P+V FY + G L  +N   P  +V  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|667484883|pdb|4NTZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenylate Kinase From Streptococcus Pneumoniae &gt;gi|667484884|pdb|4NU0|A Chain A, Crystal Structure Of Adenylate Kinase From Streptococcus Pneumoniae With Ap5a &gt;gi|667484885|pdb|4NU0|B Chain B, Crystal Structure Of Adenylate Kinase From Streptococcus Pneumoniae With Ap5a &gt;gi|726969089|pdb|4W5H|A Chain A, New Structural Conformations Of Adenylate Kinase From Streptococcus Pneumoniae D39 &gt;gi|726969090|pdb|4W5J|A Chain A, New Structural Conformations Of Adenylate Kinase From Streptococcus Pneumoniae D39 With Ap5a &gt;gi|726969091|pdb|4W5J|B Chain B, New Structural Conformations Of Adenylate Kinase From Streptococcus Pneumoniae D39 With Ap5a &gt;gi|726969092|pdb|4W5J|C Chain C, New Structural Conformations Of Adenylate Kinase From Streptococcus Pneumoniae D39 With Ap5a &gt;gi|726969093|pdb|4W5J|D Chain D, New Structural Conformations Of Adenylate Kinase From Streptococcus Pneumoniae D39 With Ap5a</Hit_def>
+  <Hit_accession>4NTZ_A</Hit_accession>
+  <Hit_len>217</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>4.65561e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVV-SGFILDGFPRTVTQARCLEDI-----VPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQE</Hsp_qseq>
+      <Hsp_hseq>MNLLIMGLPGAGKGTQAAKIVEQFHVAHISTGDMFRAAMANQTEMGVLAKSYIDKGELVPDEVTNGIVKERLSQDDIKETGFLLDGYPRTIEQAHALDKTLAELGIELEGIINIEVNPDSLLERLSGRIIHRVTGETFHKVFNPP-----VDYKEEDYYQREDDKPETVKRRLDVNIAQGEPIIAHYRAKGLVHDIEGNQDINDVFSDIEK</Hsp_hseq>
+      <Hsp_midline>M  + +G PGAGKGT A +I  +  V HISTG + RAA+  QT +G   +  ++ G LV D+    +V+ER+S +D+  +GF+LDG+PRT+ QA  L+       + ++  ++I V  D L+ RL+GR +    G ++H +F  P      D        REDDK   + +RL    AQ EPI+  Y  +G +  + G   I+DV  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|67464380|pdb|1ZD8|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Human Adenylate Kinase 3 Like 1</Hit_def>
+  <Hit_accession>1ZD8_A</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.01592e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIVPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGAPPISDVVLEFQERFAQSR</Hsp_qseq>
+      <Hsp_hseq>LRAVIMGAPGSGKGTVSSRITTHFELKHLSSGDLLRDNMLRGTEIGVLAKAFIDQGKLIPDDVMTRLALHELKNLTQYS-WLLDGFPRTLPQAEALDRAYQIDTVINLNVPFEVIKQRLTARWIHPASGRVYNIEFNPPKTVGIDDLTGEPLIQREDDKPETVIKRLKAYEDQTKPVLEYYQKKGVLETFSGTE--TNKIWPYVYAFLQTK</Hsp_hseq>
+      <Hsp_midline>+R V +G PG+GKGT++  I+    + H+S+G +LR  + + T +G   +  ++ G L+ D  +T L    + +    S ++LDGFPRT+ QA  L+    ID  +++ VP +V+  RLT R +  A G  Y++ F  PK  G+ D     L+ REDDK   +++RL AY  Q +P++ +Y ++G L + +G    ++ +  +   F Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1065285|pdb|2AK3|A</Hit_id>
+  <Hit_def>Chain A, The Three-Dimensional Structure Of The Complex Between Mitochondrial Matrix Adenylate Kinase And Its Substrate Amp At 1.85 Angstroms Resolution &gt;gi|1065286|pdb|2AK3|B Chain B, The Three-Dimensional Structure Of The Complex Between Mitochondrial Matrix Adenylate Kinase And Its Substrate Amp At 1.85 Angstroms Resolution</Hit_def>
+  <Hit_accession>2AK3_A</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>1.02391e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIVPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGA</Hsp_qseq>
+      <Hsp_hseq>LRAAIMGAPGSGKGTVSSRITKHFELKHLSSGDLLRDNMLRGTEIGVLAKTFIDQGKLIPDDVMTRLVLHELKNLTQYN-WLLDGFPRTLPQAEALDRAYQIDTVINLNVPFEVIKQRLTARWIHPGSGRVYNIEFNPPKTMGIDDLTGEPLVQREDDRPETVVKRLKAYEAQTEPVLEYYRKKGVLETFSGT</Hsp_hseq>
+      <Hsp_midline>+R   +G PG+GKGT++  I+    + H+S+G +LR  + + T +G   +  ++ G L+ D  +T LV   + +    + ++LDGFPRT+ QA  L+    ID  +++ VP +V+  RLT R +    G  Y++ F  PK  G+ D     LV REDD+   +++RL AY AQ EP++ +Y ++G L + +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|83754030|pdb|2AR7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Adenylate Kinase 4, Ak4 &gt;gi|83754031|pdb|2AR7|B Chain B, Crystal Structure Of Human Adenylate Kinase 4, Ak4 &gt;gi|83754359|pdb|2BBW|A Chain A, Crystal Structure Of Human Adenylate Kinase 4 (Ak4) In Complex With Diguanosine Pentaphosphate &gt;gi|83754360|pdb|2BBW|B Chain B, Crystal Structure Of Human Adenylate Kinase 4 (Ak4) In Complex With Diguanosine Pentaphosphate</Hit_def>
+  <Hit_accession>2AR7_A</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>127.102</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>5.55816e-35</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIVPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGA</Hsp_qseq>
+      <Hsp_hseq>LRAVILGPPGSGKGTVCQRIAQNFGLQHLSSGHFLRENIKASTEVGEMAKQYIEKSLLVPDHVITRLMMSELENRRG-QHWLLDGFPRTLGQAEALDKICEVDLVISLNIPFETLKDRLSRRWIHPPSGRVYNLDFNPPHVHGIDDVTGEPLVQQEDDKPEAVAARLRQYKDVAKPVIELYKSRGVLHQFSGT</Hsp_hseq>
+      <Hsp_midline>+R V LGPPG+GKGT+   I+   G+ H+S+G  LR  I+  T +G+  ++ +E   LV D  +T L+   + +      ++LDGFPRT+ QA  L+ I  +D  +S+ +P + L  RL+ R +    G  Y++ F  P   G+ D     LV +EDDK  A+  RL  Y+  A+P++  Y  RG L   +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|299689349|pdb|3NDP|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Ak4(L171p) &gt;gi|299689350|pdb|3NDP|B Chain B, Crystal Structure Of Human Ak4(L171p)</Hit_def>
+  <Hit_accession>3NDP_A</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.79</Hsp_bit-score>
+      <Hsp_score>312</Hsp_score>
+      <Hsp_evalue>3.28096e-34</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIVPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVSLNGA</Hsp_qseq>
+      <Hsp_hseq>LRAVILGPPGSGKGTVCQRIAQNFGLQHLSSGHFLRENIKASTEVGEMAKQYIEKSLLVPDHVITRLMMSELENRRG-QHWLLDGFPRTLGQAEALDKICEVDLVISLNIPFETLKDRLSRRWIHPPSGRVYNLDFNPPHVHGIDDVTGEPLVQQEDDKPEAVAARPRQYKDVAKPVIELYKSRGVLHQFSGT</Hsp_hseq>
+      <Hsp_midline>+R V LGPPG+GKGT+   I+   G+ H+S+G  LR  I+  T +G+  ++ +E   LV D  +T L+   + +      ++LDGFPRT+ QA  L+ I  +D  +S+ +P + L  RL+ R +    G  Y++ F  P   G+ D     LV +EDDK  A+  R   Y+  A+P++  Y  RG L   +G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|42543246|pdb|1P4S|A</Hit_id>
+  <Hit_def>Chain A, Solution Structure Of Mycobacterium Tuberculosis Adenylate Kinase</Hit_def>
+  <Hit_accession>1P4S_A</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>8.33708e-30</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIVP-----IDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVS</Hsp_qseq>
+      <Hsp_hseq>MRVLLLGPPGAGKGTQAVKLAEKLGIPQISTGELFRRNIEEGTKLGVEAKRYLDAGDLVPSDLTNELVDDRLNNPDAANGFILDGYPRSVEQAKALHEMLERRGTDIDAVLEFRVSEEVLLERLKGRG-------------------------------RADDTDDVILNRMKVYRDETAPLLEYYRDQLKTVD</Hsp_hseq>
+      <Hsp_midline>MR + LGPPGAGKGT A +++ + G+  ISTG + R  I++ T LG + ++ ++ G LV      ELV +R+++ D  +GFILDG+PR+V QA+ L +++      ID  +   V ++VL+ RL GR                                R DD    IL R+  YR +  P++ +Y ++ K V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|109157291|pdb|2CDN|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mycobacterium Tuberculosis Adenylate Kinase Complexed With Two Molecules Of Adp And Mg</Hit_def>
+  <Hit_accession>2CDN_A</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>2.02212e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>189</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCLEDIVP-----IDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFYSERGKLVS</Hsp_qseq>
+      <Hsp_hseq>MRVLLLGPPGAGKGTQAVKLAEKLGIPQISTGELFRRNIEEGTKLGVEAKRYLDAGDLVPSDLTNELVDDRLNNPDAANGFILDGYPRSVEQAKALHEMLERRGTDIDAVLEFRVSEEVLLERLKGRG-------------------------------RADDTDDVILNRMKVYRDETAPLLEYYRDQLKTVD</Hsp_hseq>
+      <Hsp_midline>MR + LGPPGAGKGT A +++ + G+  ISTG + R  I++ T LG + ++ ++ G LV      ELV +R+++ D  +GFILDG+PR+V QA+ L +++      ID  +   V ++VL+ RL GR                                R DD    IL R+  YR +  P++ +Y ++ K V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|3114421|pdb|1ZAK|A</Hit_id>
+  <Hit_def>Chain A, Adenylate Kinase From Maize In Complex With The Inhibitor P1,P5-Bis(Adenosine-5&apos;-)pentaphosphate (Ap5a) &gt;gi|3114422|pdb|1ZAK|B Chain B, Adenylate Kinase From Maize In Complex With The Inhibitor P1,P5-Bis(Adenosine-5&apos;-)pentaphosphate (Ap5a)</Hit_def>
+  <Hit_accession>1ZAK_A</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>3.26302e-29</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVV-SGFILDGFPRTVTQARCLE--DIVPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREGVCDRCRGVLVVREDDKMSAILQRLTAYRAQAEPIVHFY</Hsp_qseq>
+      <Hsp_hseq>LKVMISGAPASGKGTQCELIKTKYQLAHISAGDLLRAEIAAGSENGKRAKEFMEKGQLVPDEIVVNMVKERLRQPDAQENGWLLDGYPRSYSQAMALETLEIRP-DTFILLDVPDELLVERVVGRRLDPVTGKIYHLKYSPPENEEIASR----LTQRFDDTEEKVKLRLETYYQNIESLLSTY</Hsp_hseq>
+      <Hsp_midline>++ +  G P +GKGT    I  +  + HIS G +LRA I   +  GK+ ++ +E G LV D+ V  +V+ER+   D   +G++LDG+PR+ +QA  LE  +I P D  + + VPD++LV R+ GRR+    G  YH+ ++ P+ E +  R    L  R DD    +  RL  Y    E ++  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|315113385|pdb|3L0P|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structures Of Iron Containing Adenylate Kinase From Desulfovibrio Gigas &gt;gi|315113386|pdb|3L0S|A Chain A, Crystal Structures Of Zinc, Cobalt And Iron Containing Adenylate Kinase From Gram-negative Bacteria Desulfovibrio Gigas &gt;gi|315113387|pdb|3L0S|C Chain C, Crystal Structures Of Zinc, Cobalt And Iron Containing Adenylate Kinase From Gram-negative Bacteria Desulfovibrio Gigas</Hit_def>
+  <Hit_accession>3L0P_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>7.85697e-24</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MRFVFLGPPGAGKGTLAGEISGRCGVVHISTGGILRAAIQKQTALGKKVQKVVEVGGLVDDQTVTELVRERVSHEDVVSGFILDGFPRTVTQARCL-----EDIVPIDYAVSIVVPDDVLVARLTGRRVCSACGSSYHVLFAQPKREG--VCDRCRGVLVVREDDK-MSAILQRLTAY</Hsp_qseq>
+      <Hsp_hseq>MNILIFGPNGSGKGTQGNLVKDKYSLAHIESGGIFREHIGGGTELGKKAKEFIDRGDLVPDDITIPMVLETLESKG-KDGWLLDGFPRNTVQAQKLFEALQEKGMKINFVIEILLPREVAKNRIMGRRICKNNPNHPNNIFIEAIKPNGDVCRVCGGALSARADDQDEGAINKRHDIY</Hsp_hseq>
+      <Hsp_midline>M  +  GP G+GKGT    +  +  + HI +GGI R  I   T LGKK ++ ++ G LV D     +V E +  +    G++LDGFPR   QA+ L     E  + I++ + I++P +V   R+ GRR+C    +  + +F +  +    VC  C G L  R DD+   AI +R   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

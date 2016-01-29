@@ -1,0 +1,1004 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_191827</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611562</BlastOutput_query-def>
+  <BlastOutput_query-len>597</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_191827</Iteration_query-ID>
+  <Iteration_query-def>2611562</Iteration_query-def>
+  <Iteration_query-len>597</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|378792626|pdb|4DIM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Phosphoribosylglycinamide Synthetase From Anaerococcus Prevotii</Hit_def>
+  <Hit_accession>4DIM_A</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>2.26592e-18</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>KTILILGAGTMQAPALRAARELGLWVCA-VDGNPHAPCAALADEFTPIDLADSAALVAHARAIRARRGLDAVFTAATDFS-VSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSLEGLIF-DGTLYVTALADR----HICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVRALGLTHGAVKGDLFLS</Hsp_qseq>
+      <Hsp_hseq>KRLLILGAGRGQLGLYKAAKELGIHTIAGTXPNAHKPCLNLADEISYXDISNPDEVEQKVKDLN----LDGAATCCLDTGIVSLARICDKENLVGLNEEAAIXCGDKYKXKEAFKKYNVNTARHFVVRNEN----------ELKNALEN--LKLPVIVKATDLQGSKGIYIAKKEEEAIDGFNETXNLTKRDYCIVEEFIEGYEFGAQAFVYKNDVLFVXPHGDETYXSHTAVP-----VGHYVPLDVKDDIIEKTKTEVKKAIKALGLNNCAVNVDXILK</Hsp_hseq>
+      <Hsp_midline>K +LILGAG  Q    +AA+ELG+   A    N H PC  LADE +  D+++   +    + +     LD   T   D   VS+A + +   L G   EA     DK + +  F +  +   R   +  ++           L + L +  L  P++VK TD  G++G  +A+ ++  I+        ++    I+EEFI G EF  +  ++ +  L+V    D     H   P     +GH +P  +     +         ++ALGL + AV  D  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|411024156|pdb|3VOT|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of L-Amino Acid Ligase From Bacillus Licheniformis &gt;gi|411024157|pdb|3VOT|B Chain B, Crystal Structure Of L-Amino Acid Ligase From Bacillus Licheniformis</Hit_def>
+  <Hit_accession>3VOT_A</Hit_accession>
+  <Hit_len>425</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>2.49418e-14</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>417</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>377</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>GLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTL---------INACAVARQFSRSGRVIIEEFIVGREFSLEGLIFDGTLYVTALADRHICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVRALGLTHGAVKGDLFLSTPSPTKTPSTAATPNPSAPYTPEAVLGEIAARLSGGFMSGWTVPYALGFDVTRAALHVALHGPSAAASAATASVAPPPTALTVLRTQLTTLSPLPEKSPYASAERAWISIPGVIHRIWGLADAQQIAYVKNVFVRMQEGAAV</Hsp_qseq>
+      <Hsp_hseq>GVMTLFEPALPFT---AKAAEALNLPGLPFTTMENCRNKNKTRSILQQNGLNTPVFH--------------EFHTLADLENRKLSYPLVVKPVNGFSSQGVVRVDDRKELEEAVRKVEAVNQRDLNRFVHGKTGIVAEQFIDGPEFAIETLSIQGNVHVLSIGYKGNSKGPFFEEGVYIAPAQLKEETRLAIVKEVTGAVSALGIHQGPAHTELRLDKDG-----------------TPYVI--EVGARIGGSGVSHYIVKESTGINFMQLVLQNALK--PLESSEFEGEIRP-------VRTAGNYIIP--------------VQGSGTFEKIDGLEEVKQRQEVKRVFQFMRRGAKI</Hsp_hseq>
+      <Hsp_midline>G+  +F  A  F+   A  AEA  LPG      +N  +K + R+   +  L  P F                    + L +  LS+PLVVKP +   ++G      +  L         +N   + R       ++ E+FI G EF++E L   G ++V ++  +     P F E  +  PA L  +   A++      V ALG+  G    +L L                     TP  +  E+ AR+ G  +S + V  + G +  +  L  AL      +S     + P       +RT    + P              +   G   +I GL + +Q   VK VF  M+ GA +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|635575014|pdb|3WO1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Trp332ala Mutant Ywfe, An L-amino Acid Ligase, With Bound Adp-mg-ala</Hit_def>
+  <Hit_accession>3WO1_A</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>3.81266e-07</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>GLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRA---RLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRV----------IIEEFIVGR------------EFSLEGLIFDGTLYVTALADRHICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVRALGL----THGAVK</Hsp_qseq>
+      <Hsp_hseq>GADAITTNNELFIAPMAKACERLGLRGAGVQAAENARDKNKMRDAFNKAGVKSIKNKRVTTLEDFRAALEE---------------IGTPLILKPTYLASSIGVTLITDTETAEDEFNRVNDYLKSINVPKAVTFEAPFIAEEFLQGEYGDWYQTEGYSDYISIEGIMADGEYFPIAIHDKTPQI--GFTETSHITPSILDEEAKKKIVEAAKKANEGLGLQNCATHTEIK</Hsp_hseq>
+      <Hsp_midline>G DA+ T    F   +A   E   L G  ++A +NA DK +MR  F +A    ++  R T LE    A +                +  PL++KPT    + G TL    +T  +       + +S  V          I EEF+ G               S+EG++ DG  +  A+ D+       F E  H  P+ L  +  + +++        LGL    TH  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|383875654|pdb|3VMM|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bacd, An L-Amino Acid Dipeptide Ligase From Bacillus Subtilis</Hit_def>
+  <Hit_accession>3VMM_A</Hit_accession>
+  <Hit_len>474</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>3.97263e-07</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>GLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRA---RLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRV----------IIEEFIVGR------------EFSLEGLIFDGTLYVTALADRHICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVRALGL----THGAVK</Hsp_qseq>
+      <Hsp_hseq>GADAITTNNELFIAPMAKACERLGLRGAGVQAAENARDKNKMRDAFNKAGVKSIKNKRVTTLEDFRAALEE---------------IGTPLILKPTYLASSIGVTLITDTETAEDEFNRVNDYLKSINVPKAVTFEAPFIAEEFLQGEYGDWYQTEGYSDYISIEGIMADGEYFPIAIHDKTPQI--GFTETSHITPSILDEEAKKKIVEAAKKANEGLGLQNCATHTEIK</Hsp_hseq>
+      <Hsp_midline>G DA+ T    F   +A   E   L G  ++A +NA DK +MR  F +A    ++  R T LE    A +                +  PL++KPT    + G TL    +T  +       + +S  V          I EEF+ G               S+EG++ DG  +  A+ D+       F E  H  P+ L  +  + +++        LGL    TH  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|635575012|pdb|3WNZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Bacillus Subtilis Ywfe, An L-amino Acid Ligase, With Bound Adp-mg-pi &gt;gi|635575013|pdb|3WO0|A Chain A, Crystal Structure Of Bacillus Subtilis Ywfe, An L-amino Acid Ligase, With Bound Adp-mg-ala</Hit_def>
+  <Hit_accession>3WNZ_A</Hit_accession>
+  <Hit_len>470</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>4.19552e-07</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>GLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRA---RLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRV----------IIEEFIVGR------------EFSLEGLIFDGTLYVTALADRHICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVRALGL----THGAVK</Hsp_qseq>
+      <Hsp_hseq>GADAITTNNELFIAPMAKACERLGLRGAGVQAAENARDKNKMRDAFNKAGVKSIKNKRVTTLEDFRAALEE---------------IGTPLILKPTYLASSIGVTLITDTETAEDEFNRVNDYLKSINVPKAVTFEAPFIAEEFLQGEYGDWYQTEGYSDYISIEGIMADGEYFPIAIHDKTPQI--GFTETSHITPSILDEEAKKKIVEAAKKANEGLGLQNCATHTEIK</Hsp_hseq>
+      <Hsp_midline>G DA+ T    F   +A   E   L G  ++A +NA DK +MR  F +A    ++  R T LE    A +                +  PL++KPT    + G TL    +T  +       + +S  V          I EEF+ G               S+EG++ DG  +  A+ D+       F E  H  P+ L  +  + +++        LGL    TH  +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|5821976|pdb|1CE8|A</Hit_id>
+  <Hit_def>Chain A, Carbamoyl Phosphate Synthetase From Escherichis Coli With Complexed With The Allosteric Ligand Imp &gt;gi|5821978|pdb|1CE8|C Chain C, Carbamoyl Phosphate Synthetase From Escherichis Coli With Complexed With The Allosteric Ligand Imp &gt;gi|5821980|pdb|1CE8|E Chain E, Carbamoyl Phosphate Synthetase From Escherichis Coli With Complexed With The Allosteric Ligand Imp &gt;gi|5821982|pdb|1CE8|G Chain G, Carbamoyl Phosphate Synthetase From Escherichis Coli With Complexed With The Allosteric Ligand Imp &gt;gi|22219401|pdb|1M6V|A Chain A, Crystal Structure Of The G359f (Small Subunit) Point Mutant Of Carbamoyl Phosphate Synthetase &gt;gi|22219403|pdb|1M6V|C Chain C, Crystal Structure Of The G359f (Small Subunit) Point Mutant Of Carbamoyl Phosphate Synthetase &gt;gi|22219405|pdb|1M6V|E Chain E, Crystal Structure Of The G359f (Small Subunit) Point Mutant Of Carbamoyl Phosphate Synthetase &gt;gi|22219407|pdb|1M6V|G Chain G, Crystal Structure Of The G359f (Small Subunit) Point Mutant Of Carbamoyl Phosphate Synthetase</Hit_def>
+  <Hit_accession>1CE8_A</Hit_accession>
+  <Hit_len>1073</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000171424</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MKTILILGAGTM-----------QAPALRAARELGLWVCAVDGNPHA----PCAALADEFTPIDLADSAALVAHAR--AIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVG-REFSLEGLIFDGTLYVTALADRH-----ICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVR</Hsp_qseq>
+      <Hsp_hseq>IKSILILGAGPIVIGQACEFDYSGAQACKALREEGYRVINVNSNPATIMTDPEMADATYIEPIHWEVVRKIIEKERPDAVLPTMGGQTALNCALELERQGVLEEFGVTMIGATADAIDKAEDRRRFDVAMKKIGLETAR------------SGIAHTMEEALAVAADVGFPCIIRPSFTMGGSGGGIAYNREEFEEICARGLDLSPTKELLIDESLIGWKEYEME-----------VVRDKNDNCIIVCSIENFDAMGIHTGDSITVAPAQTLTDKEYQIMR</Hsp_hseq>
+      <Hsp_midline>+K+ILILGAG +            A A +A RE G  V  V+ NP      P  A A    PI       ++   R  A+    G       A +             + G   +A   A D+ R      +  L   R            +   H    +   +A + FP +++P+  MG  G  +A  ++     CA     S +  ++I+E ++G +E+ +E            + D++     +C   +F  MG     ++    AQ L D  +  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.925593</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>588</Hsp_hit-from>
+      <Hsp_hit-to>871</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>AARELGLWVCAVDGNPHAPCAALADE----FTPIDLADSAALVAHARAIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFI-VGREFSLEGLIFDGTLYVTALADRHICFPPSFVEMGH---TLPAALCTQDAQALIDT------FHNGVRALGLTHGAVK-GDLFLSTPSPTKTPSTAATPNPSAPYTPEAVLGEIAARLSGG</Hsp_qseq>
+      <Hsp_hseq>ALREDGYETIMVNCNPETVSTDYDTSDRLYFEPVTLEDVLEIVR----IEKPKGVIVQYGGQTPLKLARALEAAGVPVIGTSPDAIDRAEDRERFQHAVERLKLKQPANATVTAIEMAVE------------KAKEIGYPLVVRPSYVLGGRAMEIVYDEADLRRYFQTAVSVSNDAPVLLDHFLDDAVEVDVDA-ICDGEMVLIGGIMEHI--EQAGVHSGDSACSLPAYTLSQEIQDVMRQQVQKLAFELQVRGLMNVQFAVKNNEVYLIEVNP-----RAARTVPFVSKATGVPLAKVAARVMAG</Hsp_hseq>
+      <Hsp_midline>A RE G     V+ NP              F P+ L D   +V     I   +G+   +   T   ++ A  A    + G   +A   A D+ R +    R +L+ P    +     A +             +  + +PLVV+P+  +G R   +   +  L      A   S    V+++ F+    E  ++  I DG + +      HI    + V  G    +LPA   +Q+ Q ++        F   VR L     AVK  +++L   +P      AA   P         L ++AAR+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|157838095|pdb|1A9X|A</Hit_id>
+  <Hit_def>Chain A, Carbamoyl Phosphate Synthetase: Caught In The Act Of Glutamine Hydrolysis &gt;gi|157838096|pdb|1A9X|C Chain C, Carbamoyl Phosphate Synthetase: Caught In The Act Of Glutamine Hydrolysis &gt;gi|157838097|pdb|1A9X|E Chain E, Carbamoyl Phosphate Synthetase: Caught In The Act Of Glutamine Hydrolysis &gt;gi|157838098|pdb|1A9X|G Chain G, Carbamoyl Phosphate Synthetase: Caught In The Act Of Glutamine Hydrolysis</Hit_def>
+  <Hit_accession>1A9X_A</Hit_accession>
+  <Hit_len>1073</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.00020164</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MKTILILGAGTM-----------QAPALRAARELGLWVCAVDGNPHA----PCAALADEFTPIDLADSAALVAHAR--AIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVG-REFSLEGLIFDGTLYVTALADRH-----ICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVR</Hsp_qseq>
+      <Hsp_hseq>IKSILILGAGPIVIGQACEFDYSGAQACKALREEGYRVINVNSNPATIMTDPEMADATYIEPIHWEVVRKIIEKERPDAVLPTMGGQTALNCALELERQGVLEEFGVTMIGATADAIDKAEDRRRFDVAMKKIGLETAR------------SGIAHTMEEALAVAADVGFPCIIRPSFTMGGSGGGIAYNREEFEEICARGLDLSPTKELLIDESLIGWKEYEME-----------VVRDKNDNCIIVCSIENFDAMGIHTGDSITVAPAQTLTDKEYQIMR</Hsp_hseq>
+      <Hsp_midline>+K+ILILGAG +            A A +A RE G  V  V+ NP      P  A A    PI       ++   R  A+    G       A +             + G   +A   A D+ R      +  L   R            +   H    +   +A + FP +++P+  MG  G  +A  ++     CA     S +  ++I+E ++G +E+ +E            + D++     +C   +F  MG     ++    AQ L D  +  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|3318817|pdb|1JDB|B</Hit_id>
+  <Hit_def>Chain B, Carbamoyl Phosphate Synthetase From Escherichia Coli &gt;gi|3318821|pdb|1JDB|E Chain E, Carbamoyl Phosphate Synthetase From Escherichia Coli &gt;gi|3318825|pdb|1JDB|H Chain H, Carbamoyl Phosphate Synthetase From Escherichia Coli &gt;gi|3318829|pdb|1JDB|K Chain K, Carbamoyl Phosphate Synthetase From Escherichia Coli &gt;gi|4929935|pdb|1BXR|A Chain A, Structure Of Carbamoyl Phosphate Synthetase Complexed With The Atp Analog Amppnp &gt;gi|4929937|pdb|1BXR|C Chain C, Structure Of Carbamoyl Phosphate Synthetase Complexed With The Atp Analog Amppnp &gt;gi|4929939|pdb|1BXR|E Chain E, Structure Of Carbamoyl Phosphate Synthetase Complexed With The Atp Analog Amppnp &gt;gi|4929941|pdb|1BXR|G Chain G, Structure Of Carbamoyl Phosphate Synthetase Complexed With The Atp Analog Amppnp &gt;gi|6730116|pdb|1C30|A Chain A, Crystal Structure Of Carbamoyl Phosphate Synthetase: Small Subunit Mutation C269s &gt;gi|6730118|pdb|1C30|C Chain C, Crystal Structure Of Carbamoyl Phosphate Synthetase: Small Subunit Mutation C269s &gt;gi|6730120|pdb|1C30|E Chain E, Crystal Structure Of Carbamoyl Phosphate Synthetase: Small Subunit Mutation C269s &gt;gi|6730122|pdb|1C30|G Chain G, Crystal Structure Of Carbamoyl Phosphate Synthetase: Small Subunit Mutation C269s &gt;gi|6730126|pdb|1C3O|A Chain A, Crystal Structure Of The Carbamoyl Phosphate Synthetase: Small Subunit Mutant C269s With Bound Glutamine &gt;gi|6730128|pdb|1C3O|C Chain C, Crystal Structure Of The Carbamoyl Phosphate Synthetase: Small Subunit Mutant C269s With Bound Glutamine &gt;gi|6730130|pdb|1C3O|E Chain E, Crystal Structure Of The Carbamoyl Phosphate Synthetase: Small Subunit Mutant C269s With Bound Glutamine &gt;gi|6730132|pdb|1C3O|G Chain G, Crystal Structure Of The Carbamoyl Phosphate Synthetase: Small Subunit Mutant C269s With Bound Glutamine &gt;gi|6730187|pdb|1CS0|A Chain A, Crystal Structure Of Carbamoyl Phosphate Synthetase Complexed At Cys269 In The Small Subunit With The Tetrahedral Mimic L-glutamate Gamma-semialdehyde &gt;gi|6730189|pdb|1CS0|C Chain C, Crystal Structure Of Carbamoyl Phosphate Synthetase Complexed At Cys269 In The Small Subunit With The Tetrahedral Mimic L-glutamate Gamma-semialdehyde &gt;gi|6730191|pdb|1CS0|E Chain E, Crystal Structure Of Carbamoyl Phosphate Synthetase Complexed At Cys269 In The Small Subunit With The Tetrahedral Mimic L-glutamate Gamma-semialdehyde &gt;gi|6730193|pdb|1CS0|G Chain G, Crystal Structure Of Carbamoyl Phosphate Synthetase Complexed At Cys269 In The Small Subunit With The Tetrahedral Mimic L-glutamate Gamma-semialdehyde &gt;gi|18158903|pdb|1KEE|A Chain A, Inactivation Of The Amidotransferase Activity Of Carbamoyl Phosphate Synthetase By The Antibiotic Acivicin &gt;gi|18158905|pdb|1KEE|C Chain C, Inactivation Of The Amidotransferase Activity Of Carbamoyl Phosphate Synthetase By The Antibiotic Acivicin &gt;gi|18158907|pdb|1KEE|E Chain E, Inactivation Of The Amidotransferase Activity Of Carbamoyl Phosphate Synthetase By The Antibiotic Acivicin &gt;gi|18158909|pdb|1KEE|G Chain G, Inactivation Of The Amidotransferase Activity Of Carbamoyl Phosphate Synthetase By The Antibiotic Acivicin &gt;gi|55669821|pdb|1T36|A Chain A, Crystal Structure Of E. Coli Carbamoyl Phosphate Synthetase Small Subunit Mutant C248d Complexed With Uridine 5&apos;-Monophosphate &gt;gi|55669823|pdb|1T36|C Chain C, Crystal Structure Of E. Coli Carbamoyl Phosphate Synthetase Small Subunit Mutant C248d Complexed With Uridine 5&apos;-Monophosphate &gt;gi|55669825|pdb|1T36|E Chain E, Crystal Structure Of E. Coli Carbamoyl Phosphate Synthetase Small Subunit Mutant C248d Complexed With Uridine 5&apos;-Monophosphate &gt;gi|55669827|pdb|1T36|G Chain G, Crystal Structure Of E. Coli Carbamoyl Phosphate Synthetase Small Subunit Mutant C248d Complexed With Uridine 5&apos;-Monophosphate</Hit_def>
+  <Hit_accession>1JDB_B</Hit_accession>
+  <Hit_len>1073</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>0.000205116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MKTILILGAGTM-----------QAPALRAARELGLWVCAVDGNPHA----PCAALADEFTPIDLADSAALVAHAR--AIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVG-REFSLEGLIFDGTLYVTALADRH-----ICFPPSFVEMGHTLPAALCTQDAQALIDTFHNGVR</Hsp_qseq>
+      <Hsp_hseq>IKSILILGAGPIVIGQACEFDYSGAQACKALREEGYRVILVNSNPATIMTDPEMADATYIEPIHWEVVRKIIEKERPDAVLPTMGGQTALNCALELERQGVLEEFGVTMIGATADAIDKAEDRRRFDVAMKKIGLETAR------------SGIAHTMEEALAVAADVGFPCIIRPSFTMGGSGGGIAYNREEFEEICARGLDLSPTKELLIDESLIGWKEYEME-----------VVRDKNDNCIIVCSIENFDAMGIHTGDSITVAPAQTLTDKEYQIMR</Hsp_hseq>
+      <Hsp_midline>+K+ILILGAG +            A A +A RE G  V  V+ NP      P  A A    PI       ++   R  A+    G       A +             + G   +A   A D+ R      +  L   R            +   H    +   +A + FP +++P+  MG  G  +A  ++     CA     S +  ++I+E ++G +E+ +E            + D++     +C   +F  MG     ++    AQ L D  +  +R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.941509</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>588</Hsp_hit-from>
+      <Hsp_hit-to>871</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>AARELGLWVCAVDGNPHAPCAALADE----FTPIDLADSAALVAHARAIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFI-VGREFSLEGLIFDGTLYVTALADRHICFPPSFVEMGH---TLPAALCTQDAQALIDT------FHNGVRALGLTHGAVK-GDLFLSTPSPTKTPSTAATPNPSAPYTPEAVLGEIAARLSGG</Hsp_qseq>
+      <Hsp_hseq>ALREDGYETIMVNCNPETVSTDYDTSDRLYFEPVTLEDVLEIVR----IEKPKGVIVQYGGQTPLKLARALEAAGVPVIGTSPDAIDRAEDRERFQHAVERLKLKQPANATVTAIEMAVE------------KAKEIGYPLVVRPSYVLGGRAMEIVYDEADLRRYFQTAVSVSNDAPVLLDHFLDDAVEVDVDA-ICDGEMVLIGGIMEHI--EQAGVHSGDSACSLPAYTLSQEIQDVMRQQVQKLAFELQVRGLMNVQFAVKNNEVYLIEVNP-----RAARTVPFVSKATGVPLAKVAARVMAG</Hsp_hseq>
+      <Hsp_midline>A RE G     V+ NP              F P+ L D   +V     I   +G+   +   T   ++ A  A    + G   +A   A D+ R +    R +L+ P    +     A +             +  + +PLVV+P+  +G R   +   +  L      A   S    V+++ F+    E  ++  I DG + +      HI    + V  G    +LPA   +Q+ Q ++        F   VR L     AVK  +++L   +P      AA   P         L ++AAR+  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|21730483|pdb|1KJ8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Purt-Encoded Glycinamide Ribonucleotide Transformylase In Complex With Mg-Atp And Gar &gt;gi|21730484|pdb|1KJ8|B Chain B, Crystal Structure Of Purt-Encoded Glycinamide Ribonucleotide Transformylase In Complex With Mg-Atp And Gar &gt;gi|21730485|pdb|1KJ9|A Chain A, Crystal Structure Of Purt-Encoded Glycinamide Ribonucleotide Transformylase Complexed With Mg-Atp &gt;gi|21730486|pdb|1KJ9|B Chain B, Crystal Structure Of Purt-Encoded Glycinamide Ribonucleotide Transformylase Complexed With Mg-Atp &gt;gi|21730487|pdb|1KJI|A Chain A, Crystal Structure Of Glycinamide Ribonucleotide Transformylase In Complex With Mg-Amppcp &gt;gi|21730488|pdb|1KJI|B Chain B, Crystal Structure Of Glycinamide Ribonucleotide Transformylase In Complex With Mg-Amppcp &gt;gi|21730489|pdb|1KJJ|A Chain A, Crystal Structure Of Glycniamide Ribonucleotide Transformylase In Complex With Mg-Atp-Gamma-S &gt;gi|21730490|pdb|1KJJ|B Chain B, Crystal Structure Of Glycniamide Ribonucleotide Transformylase In Complex With Mg-Atp-Gamma-S &gt;gi|21730491|pdb|1KJQ|A Chain A, Crystal Structure Of Glycinamide Ribonucleotide Transformylase In Complex With Mg-Adp &gt;gi|21730492|pdb|1KJQ|B Chain B, Crystal Structure Of Glycinamide Ribonucleotide Transformylase In Complex With Mg-Adp</Hit_def>
+  <Hit_accession>1KJ8_A</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00108093</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ILILGAGTMQAPALRAARELGLWVCAVDGNPHAPCAALADEFTPIDLADSAALVAHARAIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSR--SGRVIIEEFIVGREFSLEGLIFDGTLYVTALADRHICFP</Hsp_qseq>
+      <Hsp_hseq>VMLLGSGELGKEVAIECQRLGVEVIAVDRYADAPAMHVAHRSHVINMLDGDALRRVVELEKPHYIVPEIEAIATDMLIQLEEEG-LNVVPCAR--ATKLTMNREGIRR-LAAEELQLPTSTYRFADSESLFREA----------VADIGYPCIVKPVMSSSGKGQTFIRSAEQLAQAWKYAQQGGRAGAGRVIVEGVV---KFDFEITL----LTVSAVDGVHFCAP</Hsp_hseq>
+      <Hsp_midline>+++LG+G +        + LG+ V AVD    AP   +A     I++ D  AL       +    +  +   ATD  + +        +P  R  ATK   ++  +R       L+ P  T+   DS +                A + +P +VKP  +   +G T  +  + L  A   A+Q  R  +GRVI+E  +   +F  E  +    L V+A+   H C P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|9954928|pdb|1EYZ|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Escherichia Coli Purt-Encoded Glycinamide Ribonucleotide Transformylase Complexed With Mg And Amppnp &gt;gi|9954929|pdb|1EYZ|B Chain B, Structure Of Escherichia Coli Purt-Encoded Glycinamide Ribonucleotide Transformylase Complexed With Mg And Amppnp &gt;gi|9954930|pdb|1EZ1|A Chain A, Structure Of Escherichia Coli Purt-Encoded Glycinamide Ribonucleotide Transformylase Complexed With Mg, Amppnp, And Gar &gt;gi|9954931|pdb|1EZ1|B Chain B, Structure Of Escherichia Coli Purt-Encoded Glycinamide Ribonucleotide Transformylase Complexed With Mg, Amppnp, And Gar</Hit_def>
+  <Hit_accession>1EYZ_A</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>0.0011915</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>ILILGAGTMQAPALRAARELGLWVCAVDGNPHAPCAALADEFTPIDLADSAALVAHARAIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSR--SGRVIIEEFIVGREFSLEGLIFDGTLYVTALADRHICFP</Hsp_qseq>
+      <Hsp_hseq>VMLLGSGELGKEVAIECQRLGVEVIAVDRYADAPAMHVAHRSHVINMLDGDALRRVVELEKPHYIVPEIEAIATDMLIQLEEEG-LNVVPCAR--ATKLTMNREGIRR-LAAEELQLPTSTYRFADSESLFREA----------VADIGYPCIVKPVMSSSGKGQTFIRSAEQLAQAWKYAQQGGRAGAGRVIVEGVV---KFDFEITL----LTVSAVDGVHFCAP</Hsp_hseq>
+      <Hsp_midline>+++LG+G +        + LG+ V AVD    AP   +A     I++ D  AL       +    +  +   ATD  + +        +P  R  ATK   ++  +R       L+ P  T+   DS +                A + +P +VKP  +   +G T  +  + L  A   A+Q  R  +GRVI+E  +   +F  E  +    L V+A+   H C P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|327200743|pdb|3R23|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of D-Alanine--D-Alanine Ligase From Bacillus Anthracis &gt;gi|327200744|pdb|3R23|B Chain B, Crystal Structure Of D-Alanine--D-Alanine Ligase From Bacillus Anthracis &gt;gi|327533810|pdb|3R5X|A Chain A, Crystal Structure Of D-alanine--d-alanine Ligase From Bacillus Anthracis Complexed With Atp &gt;gi|327533811|pdb|3R5X|B Chain B, Crystal Structure Of D-alanine--d-alanine Ligase From Bacillus Anthracis Complexed With Atp &gt;gi|327533812|pdb|3R5X|C Chain C, Crystal Structure Of D-alanine--d-alanine Ligase From Bacillus Anthracis Complexed With Atp &gt;gi|327533813|pdb|3R5X|D Chain D, Crystal Structure Of D-alanine--d-alanine Ligase From Bacillus Anthracis Complexed With Atp</Hit_def>
+  <Hit_accession>3R23_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0021312</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSLEGLIFDG</Hsp_qseq>
+      <Hsp_hseq>LGFPLVVKPNSGGSSVGVKIVYDKDELISXLETV--FEWDSEVVIEKYIKGEEITCS--IFDG</Hsp_hseq>
+      <Hsp_midline>L FPLVVKP     + G  +   KD LI+       F     V+IE++I G E +    IFDG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|158431213|pdb|2YRW|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Gar Synthetase From Geobacillus Kaustophilus &gt;gi|158431214|pdb|2YRX|A Chain A, Crystal Structure Of Gar Synthetase From Geobacillus Kaustophilus &gt;gi|158431219|pdb|2YS6|A Chain A, Crystal Structure Of Gar Synthetase From Geobacillus Kaustophilus &gt;gi|158431220|pdb|2YS7|A Chain A, Crystal Structure Of Gar Synthetase From Geobacillus Kaustophilus</Hit_def>
+  <Hit_accession>2YRW_A</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0275857</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>PLVVKPTDNMGARGCTLAQCKDTLINACA---VARQFSRSG-RVIIEEFIVGREFSLEGLIFDGTLYVTALADRH</Hsp_qseq>
+      <Hsp_hseq>PIVIKADGLAAGKGVTVAQTVEEALAAAKAALVDGQFGTAGSQVVIEEYLEGEEFSFMAFVNGEKVYPLAIAQDH</Hsp_hseq>
+      <Hsp_midline>P+V+K       +G T+AQ  +  + A     V  QF  +G +V+IEE++ G EFS    +    +Y  A+A  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|346651986|pdb|3SE7|A</Hit_id>
+  <Hit_def>Chain A, Ancient Vana &gt;gi|346651987|pdb|3SE7|B Chain B, Ancient Vana &gt;gi|346651988|pdb|3SE7|C Chain C, Ancient Vana &gt;gi|346651989|pdb|3SE7|D Chain D, Ancient Vana &gt;gi|346651990|pdb|3SE7|E Chain E, Ancient Vana &gt;gi|346651991|pdb|3SE7|F Chain F, Ancient Vana</Hit_def>
+  <Hit_accession>3SE7_A</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.0422451</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSLEGLIFDGTLYVTALADRHICFPPSFVEMGH-------------TLPAALCTQDAQALIDTFHNGVRALGLTHGAVKGDLFLS</Hsp_qseq>
+      <Hsp_hseq>LTYPVFVKPARSGSSFGVSKVAREEDLQGAVEAAREYDS--KVLIEEAVIGTEIGC-AVMGNGPELITGEVDQ-ITLSHGFFKIHQESTPESGSDNSAVTVPADISTTSRSLVQDTAKAVYRALG-CRGLSRVDLFLT</Hsp_hseq>
+      <Hsp_midline>L++P+ VKP  +  + G +    ++ L  A   AR++    +V+IEE ++G E     ++ +G   +T   D+ I     F ++               T+PA + T     + DT     RALG   G  + DLFL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|171848811|pdb|2PVP|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of D-Alanine-D-Alanine Ligase From Helicobacter Pylori &gt;gi|171848812|pdb|2PVP|B Chain B, Crystal Structure Of D-Alanine-D-Alanine Ligase From Helicobacter Pylori</Hit_def>
+  <Hit_accession>2PVP_A</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.0735797</Hsp_evalue>
+      <Hsp_query-from>146</Hsp_query-from>
+      <Hsp_query-to>208</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>LHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVG-REFSLEG</Hsp_qseq>
+      <Hsp_hseq>LDLMNFNFPFIVKPSNAGSSLGVNVVKEEKELIYALDSAFEYSK--EVLIEPFIQGVKEYNLAG</Hsp_hseq>
+      <Hsp_midline>L     +FP +VKP++   + G  + + +  LI A   A ++S+   V+IE FI G +E++L G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|405944939|pdb|4FFL|A</Hit_id>
+  <Hit_def>Chain A, Pylc In Complex With L-lysine &gt;gi|405944940|pdb|4FFM|A Chain A, Pylc In Complex With L-lysine-ne-d-ornithine (cocrystallized With L- Lysine-ne-d-ornithine) &gt;gi|405944941|pdb|4FFN|A Chain A, Pylc In Complex With D-ornithine And Amppnp &gt;gi|405944942|pdb|4FFO|A Chain A, Pylc In Complex With Phosphorylated D-ornithine &gt;gi|405944943|pdb|4FFP|A Chain A, Pylc In Complex With L-lysine-ne-d-ornithine (cocrystallized With L- Lysine And D-ornithine)</Hit_def>
+  <Hit_accession>4FFL_A</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.165772</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>MKTILILGAGTMQAPALRAARELGLWVCAVDGNPHAPCAALADEFTPIDLADSAALVAHARAIRARRGLDAVFTAATDFSV--SVAAVAEACALPG-HRLEATKNATDKTRMRACFTRARLRCPR</Hsp_qseq>
+      <Hsp_hseq>MKTICLVGGKLQGFEAAYLSKKAGMKVVLVDKNPQALIRNYADEFYCFDVIKEP-----EKLLELSKRVDAVLPVNENLACIEFLNSIKEKFSCPVLFDFEAYRISRDKKKSKDYFKSIGVPTPQ</Hsp_hseq>
+      <Hsp_midline>MKTI ++G       A   +++ G+ V  VD NP A     ADEF   D+          + +   + +DAV     + +    + ++ E  + P     EA + + DK + +  F    +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|326634052|pdb|2XCL|A</Hit_id>
+  <Hit_def>Chain A, Nucleotide-Bound Structures Of Bacillus Subtilis Glycinamide Ribonucleotide Synthetase</Hit_def>
+  <Hit_accession>2XCL_A</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.327222</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>PLVVKPTDNMGARGCTLAQCKDTLINACA----VARQFSR-SGRVIIEEFIVGREFSLEGLIFDGTLYVTALADRH</Hsp_qseq>
+      <Hsp_hseq>PIVIKADGLAAGKGVTVAXTEEEAI-ACLHDFLEDEKFGDASASVVIEEYLSGEEFSLXAFVKGEKVYPXVIAQDH</Hsp_hseq>
+      <Hsp_midline>P+V+K       +G T+A  ++  I AC        +F   S  V+IEE++ G EFSL   +    +Y   +A  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|289526951|pdb|3LP8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Phosphoribosylamine-Glycine Ligase From Ehrlichia Chaffeensis</Hit_def>
+  <Hit_accession>3LP8_A</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.375531</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>LDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINAC---AVARQFSRSG-RVIIEEFIVGREFSLEGLIFDGT</Hsp_qseq>
+      <Hsp_hseq>MNGLSDALTEEGILVFGPSKAAA----RLESSKGFTKELCMRYGIPTAKY-----------GYFVDTNSAYKFIDKH------KLPLVVKADGLAQGKGTVICHTHEEAYNAVDAMLVHHKFGEAGCAIIIEEFLEGKEISFFTLV-DGS</Hsp_hseq>
+      <Hsp_midline>++ +  A T+  + V   ++A A    RLE++K  T +  MR     A+             +  DT   +  +  H        PLVVK       +G  +    +   NA     V  +F  +G  +IIEEF+ G+E S   L+ DG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|326634053|pdb|2XD4|A</Hit_id>
+  <Hit_def>Chain A, Nucleotide-Bound Structures Of Bacillus Subtilis Glycinamide Ribonucleotide Synthetase</Hit_def>
+  <Hit_accession>2XD4_A</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.478759</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>PLVVKPTDNMGARGCTLAQCKDTLINACA----VARQFSR-SGRVIIEEFIVGREFSLEGLIFDGTLYVTALADRH</Hsp_qseq>
+      <Hsp_hseq>PIVIKADGLAAGKGVTVAMTEEEAI-ACLHDFLEDEKFGDASASVVIEEYLSGEEFSLMAFVKGEKVYPMVIAQDH</Hsp_hseq>
+      <Hsp_midline>P+V+K       +G T+A  ++  I AC        +F   S  V+IEE++ G EFSL   +    +Y   +A  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|198443111|pdb|2VPQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Biotin Carboxylase From S. Aureus Complexed With Amppnp &gt;gi|198443112|pdb|2VPQ|B Chain B, Crystal Structure Of Biotin Carboxylase From S. Aureus Complexed With Amppnp</Hit_def>
+  <Hit_accession>2VPQ_A</Hit_accession>
+  <Hit_len>451</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.63996</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>92</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKTILILGAGTMQAPALRAARELGLWVCAV--DGNPHAPCAALADE---FTPIDLADSAALVAHARAIRARRGLDAV-----FTAAT-DFSVSVAAVAEACAL</Hsp_qseq>
+      <Hsp_hseq>MKKVLIANRGEIAVRIIRACRDLGIQTVAIYSEGDKDALHTQIADEAYCVGPTLSKDSYLNIPNILSIATSTGCDGVHPGYGFLAENADF----AELCEACQL</Hsp_hseq>
+      <Hsp_midline>MK +LI   G +    +RA R+LG+   A+  +G+  A    +ADE     P    DS   + +  +I    G D V     F A   DF    A + EAC L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|88192722|pdb|2CZG|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Probable Phosphoribosylglycinamide Formyl Transferase (Ph0318) From Pyrococcus Horikoshii Ot3 &gt;gi|88192723|pdb|2CZG|B Chain B, Crystal Structure Of Probable Phosphoribosylglycinamide Formyl Transferase (Ph0318) From Pyrococcus Horikoshii Ot3 &gt;gi|134104146|pdb|2DWC|A Chain A, Crystal Structure Of Probable Phosphoribosylglycinamide Formyl Transferase From Pyrococcus Horikoshii Ot3 Complexed With Adp &gt;gi|134104147|pdb|2DWC|B Chain B, Crystal Structure Of Probable Phosphoribosylglycinamide Formyl Transferase From Pyrococcus Horikoshii Ot3 Complexed With Adp</Hit_def>
+  <Hit_accession>2CZG_A</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.09829</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>KTILILGAGTMQAPALRAARELGLWVCAVDGNPHAPCAALADE------------FTPIDLADSAALVAHARAIRARRGLDAVFTAATDFSVSVAAVAEACALPGHRLEATKNATDKTRMRACFTR-ARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSA--GLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSG--RVIIEEFIVGREFSLEGLIFDGTLYVTALADRH</Hsp_qseq>
+      <Hsp_hseq>QKILLLGSGELGKEIAIEAQRLGVEVVAVDRYANAPAMQVAHRSYVGNMMDKDFLWSVVEREKPDAIIPEIEAI----NLDALFEFEKDGYFVV---------PNAR--ATWIAMHRERLRETLVKEAKVPTSRYMY--------------ATTLDELYEACEKIGYPCHTKAIMSSSGKGSYFVKGPEDIPKAWEEAKTKARGSAEKIIVEEHI---DFDVE---------VTELAVRH</Hsp_hseq>
+      <Hsp_midline>+ IL+LG+G +       A+ LG+ V AVD   +AP   +A              ++ ++     A++    AI     LDA+F    D    V         P  R  AT  A  + R+R    + A++   R+ +              A     L+ A   + +P   K   +   +G    +  + +  A   A+  +R    ++I+EE I   +F +E         VT LA RH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|973744090|pdb|4ZQI|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo D-alanine-d-alanine Ligase(ddl) From Yersinia Pestis &gt;gi|973744091|pdb|4ZQI|B Chain B, Crystal Structure Of Apo D-alanine-d-alanine Ligase(ddl) From Yersinia Pestis &gt;gi|973744092|pdb|4ZQI|C Chain C, Crystal Structure Of Apo D-alanine-d-alanine Ligase(ddl) From Yersinia Pestis &gt;gi|973744093|pdb|4ZQI|D Chain D, Crystal Structure Of Apo D-alanine-d-alanine Ligase(ddl) From Yersinia Pestis</Hit_def>
+  <Hit_accession>4ZQI_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.15727</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>RRGLDAVFTAA---TDFSVSVAAVAEACALP--GHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSL</Hsp_qseq>
+      <Hsp_hseq>EQGFDKVFIALHGRGGEDGTLQGVLEFLQLPYTGSGVMASALTMDKLRTKLVWQALGLPISPYVALNRQQFETLSP---EELVACV--AKLGLPLIVKPSHEGSSVGMSKVDHASELQKALVEA--FQHDSDVLIEKWLSGPEFTV</Hsp_hseq>
+      <Hsp_midline> +G D VF A         ++  V E   LP  G  + A+    DK R +  +    L    +  L    F   +P     L + +  A L  PL+VKP+    + G +       L  A   A  F     V+IE+++ G EF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|365813291|pdb|3V4Z|A</Hit_id>
+  <Hit_def>Chain A, D-Alanine--D-Alanine Ligase From Yersinia Pestis &gt;gi|365813292|pdb|3V4Z|B Chain B, D-Alanine--D-Alanine Ligase From Yersinia Pestis</Hit_def>
+  <Hit_accession>3V4Z_A</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.30438</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>RRGLDAVFTAA---TDFSVSVAAVAEACALP--GHRLEATKNATDKTRMRACFTRARLRCPRFTFLEPDSFAWDTPPGHARLCSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSL</Hsp_qseq>
+      <Hsp_hseq>EQGFDKVFIALHGRGGEDGTLQGVLEFLQLPYTGSGVMASALTMDKLRTKLVWQALGLPISPYVALNRQQFETLSP---EELVACV--AKLGLPLIVKPSHEGSSVGMSKVDHASELQKALVEA--FQHDSDVLIEKWLSGPEFTV</Hsp_hseq>
+      <Hsp_midline> +G D VF A         ++  V E   LP  G  + A+    DK R +  +    L    +  L    F   +P     L + +  A L  PL+VKP+    + G +       L  A   A  F     V+IE+++ G EF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|405944944|pdb|4FFR|A</Hit_id>
+  <Hit_def>Chain A, Semet-labeled Pylc (remote)</Hit_def>
+  <Hit_accession>4FFR_A</Hit_accession>
+  <Hit_len>363</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>2.34623</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>KTILILGAGTMQAPALRAARELGLWVCAVDGNPHAPCAALADEFTPIDLADSAALVAHARAIRARRGLDAVFTAATDFSV--SVAAVAEACALPG-HRLEATKNATDKTRMRACFTRARLRCPR</Hsp_qseq>
+      <Hsp_hseq>KTICLVGGKLQGFEAAYLSKKAGXKVVLVDKNPQALIRNYADEFYCFDVIKEP-----EKLLELSKRVDAVLPVNENLACIEFLNSIKEKFSCPVLFDFEAYRISRDKKKSKDYFKSIGVPTPQ</Hsp_hseq>
+      <Hsp_midline>KTI ++G       A   +++ G  V  VD NP A     ADEF   D+          + +   + +DAV     + +    + ++ E  + P     EA + + DK + +  F    +  P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|290790328|pdb|3LWB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo D-Alanine:d-Alanine Ligase (Ddl) From Mycobacterium Tuberculosis &gt;gi|290790329|pdb|3LWB|B Chain B, Crystal Structure Of Apo D-Alanine:d-Alanine Ligase (Ddl) From Mycobacterium Tuberculosis</Hit_def>
+  <Hit_accession>3LWB_A</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.98832</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSLEGLIF-DGTLYVTALADRHI</Hsp_qseq>
+      <Hsp_hseq>LGLPVFVKPARGGSSIGVSRVSSWDQL--PAAVARARRHDPKVIVEAAISGRELECGVLEMPDGTLEASTLGEIRV</Hsp_hseq>
+      <Hsp_midline>L  P+ VKP     + G +     D L    AVAR      +VI+E  I GRE     L   DGTL  + L +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|157831485|pdb|1IOV|A</Hit_id>
+  <Hit_def>Chain A, Complex Of D-Ala:d-Ala Ligase With Adp And A Phosphoryl Phosphonate &gt;gi|157834791|pdb|2DLN|A Chain A, Vancomycin Resistance: Structure Of D-Alanine:d-Alanine Ligase At 2.3 Angstroms Resolution</Hit_def>
+  <Hit_accession>1IOV_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.33927</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSL</Hsp_qseq>
+      <Hsp_hseq>LGLPVIVKPSREGSSVGMSKVVAENALQDALRLA--FQHDEEVLIEKWLSGPEFTV</Hsp_hseq>
+      <Hsp_midline>L  P++VKP+    + G +    ++ L +A  +A  F     V+IE+++ G EF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|749197064|pdb|4C5A|A</Hit_id>
+  <Hit_def>Chain A, The X-ray Crystal Structures Of D-alanyl-d-alanine Ligase In Complex Adp And D-cycloserine Phosphate &gt;gi|749197065|pdb|4C5A|B Chain B, The X-ray Crystal Structures Of D-alanyl-d-alanine Ligase In Complex Adp And D-cycloserine Phosphate &gt;gi|749197067|pdb|4C5B|A Chain A, The X-ray Crystal Structure Of D-alanyl-d-alanine Ligase In Complex With Atp And D-ala-d-ala &gt;gi|749197068|pdb|4C5B|B Chain B, The X-ray Crystal Structure Of D-alanyl-d-alanine Ligase In Complex With Atp And D-ala-d-ala &gt;gi|749197069|pdb|4C5C|A Chain A, The X-ray Crystal Structure Of D-alanyl-d-alanine Ligase In Complex With Adp And D-ala-d-ala &gt;gi|749197070|pdb|4C5C|B Chain B, The X-ray Crystal Structure Of D-alanyl-d-alanine Ligase In Complex With Adp And D-ala-d-ala</Hit_def>
+  <Hit_accession>4C5A_A</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.56504</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>161</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSL</Hsp_qseq>
+      <Hsp_hseq>LGLPVIVKPSREGSSVGMSKVVAENALQDALRLA--FQHDEEVLIEKWLSGPEFTV</Hsp_hseq>
+      <Hsp_midline>L  P++VKP+    + G +    ++ L +A  +A  F     V+IE+++ G EF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|157831486|pdb|1IOW|A</Hit_id>
+  <Hit_def>Chain A, Complex Of Y216f D-Ala:d-Ala Ligase With Adp And A Phosphoryl Phosphinate</Hit_def>
+  <Hit_accession>1IOW_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.61278</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSL</Hsp_qseq>
+      <Hsp_hseq>LGLPVIVKPSREGSSVGMSKVVAENALQDALRLA--FQHDEEVLIEKWLSGPEFTV</Hsp_hseq>
+      <Hsp_midline>L  P++VKP+    + G +    ++ L +A  +A  F     V+IE+++ G EF++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|226438411|pdb|3GUW|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Tatd-Like Protein (Af1765) From Archaeoglobus Fulgidus, Northeast Structural Genomics Consortium Target Gr121 &gt;gi|226438412|pdb|3GUW|B Chain B, Crystal Structure Of The Tatd-Like Protein (Af1765) From Archaeoglobus Fulgidus, Northeast Structural Genomics Consortium Target Gr121 &gt;gi|226438413|pdb|3GUW|C Chain C, Crystal Structure Of The Tatd-Like Protein (Af1765) From Archaeoglobus Fulgidus, Northeast Structural Genomics Consortium Target Gr121 &gt;gi|226438414|pdb|3GUW|D Chain D, Crystal Structure Of The Tatd-Like Protein (Af1765) From Archaeoglobus Fulgidus, Northeast Structural Genomics Consortium Target Gr121</Hit_def>
+  <Hit_accession>3GUW_A</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.97404</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>28</Hsp_align-len>
+      <Hsp_qseq>SHLHSAGLSFPLVVKPTDNMGARGCTLA</Hsp_qseq>
+      <Hsp_hseq>SHLHSEGLGFSELVKLKENGIKEVCSLA</Hsp_hseq>
+      <Hsp_midline>SHLHS GL F  +VK  +N     C+LA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|306991644|pdb|3K3P|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Apo Form Of D-Alanine:d-Alanine Ligase (Ddl) From Streptococcus Mutans &gt;gi|306991645|pdb|3K3P|B Chain B, Crystal Structure Of The Apo Form Of D-Alanine:d-Alanine Ligase (Ddl) From Streptococcus Mutans</Hit_def>
+  <Hit_accession>3K3P_A</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.08603</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>206</Hsp_query-to>
+      <Hsp_hit-from>200</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGAR-GCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSL</Hsp_qseq>
+      <Hsp_hseq>LIYPVFVKPA-NMGSSVGISKAENRTDLKQAIALALKY--DSRVLIEQGVDAREIEV</Hsp_hseq>
+      <Hsp_midline>L +P+ VKP  NMG+  G + A+ +  L  A A+A ++    RV+IE+ +  RE  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|317455526|pdb|3Q1K|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The D-Alanyl-Alanine Synthetase A From Salmonella Enterica Typhimurium Complexed With Adp &gt;gi|317455527|pdb|3Q1K|B Chain B, The Crystal Structure Of The D-Alanyl-Alanine Synthetase A From Salmonella Enterica Typhimurium Complexed With Adp &gt;gi|317455528|pdb|3Q1K|C Chain C, The Crystal Structure Of The D-Alanyl-Alanine Synthetase A From Salmonella Enterica Typhimurium Complexed With Adp &gt;gi|317455529|pdb|3Q1K|D Chain D, The Crystal Structure Of The D-Alanyl-Alanine Synthetase A From Salmonella Enterica Typhimurium Complexed With Adp</Hit_def>
+  <Hit_accession>3Q1K_A</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.21229</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>181</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFS</Hsp_qseq>
+      <Hsp_hseq>LGLPLFVKPANQGSSVGVSKVANEAQYQQAVALAFEFDH--KVVVEQGIKGREIE</Hsp_hseq>
+      <Hsp_midline>L  PL VKP +   + G +    +     A A+A +F    +V++E+ I GRE  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|159794834|pdb|2IP4|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Glycinamide Ribonucleotide Synthetase From Thermus Thermophilus Hb8 &gt;gi|159794835|pdb|2IP4|B Chain B, Crystal Structure Of Glycinamide Ribonucleotide Synthetase From Thermus Thermophilus Hb8</Hit_def>
+  <Hit_accession>2IP4_A</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.31976</Hsp_evalue>
+      <Hsp_query-from>143</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>CSHLHSAGLSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFSLEGLIFDGTLYVTALADRHICFPPSFVEMGHTLPAALCTQDAQALID</Hsp_qseq>
+      <Hsp_hseq>LAYLEEVGV--PVVVKDSGLAAGKGVTVAFDLHQAKQAVANILNRAEGGEVVVEEYLEGEEAT-----------VLALTD------------GETILPLLPSQDHKRLLD</Hsp_hseq>
+      <Hsp_midline> ++L   G+  P+VVK +     +G T+A        A A     +  G V++EE++ G E +           V AL D            G T+   L +QD + L+D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|157881389|pdb|2BP1|A</Hit_id>
+  <Hit_def>Chain A, Structure Of The Aflatoxin Aldehyde Reductase In Complex With Nadph &gt;gi|157881390|pdb|2BP1|B Chain B, Structure Of The Aflatoxin Aldehyde Reductase In Complex With Nadph &gt;gi|157881391|pdb|2BP1|C Chain C, Structure Of The Aflatoxin Aldehyde Reductase In Complex With Nadph &gt;gi|157881392|pdb|2BP1|D Chain D, Structure Of The Aflatoxin Aldehyde Reductase In Complex With Nadph</Hit_def>
+  <Hit_accession>2BP1_A</Hit_accession>
+  <Hit_len>360</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.74537</Hsp_evalue>
+      <Hsp_query-from>326</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>VTRAALHVALHGPSAAASAATASVAPPPTALTVLRT</Hsp_qseq>
+      <Hsp_hseq>VSRAAVHCALRSPPPEARALAMSRPPPPRVASVLGT</Hsp_hseq>
+      <Hsp_midline>V+RAA+H AL  P   A A   S  PPP   +VL T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|256032847|pdb|3I12|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of The D-alanyl-alanine Synthetase A From Salmonella Enterica Subsp. Enterica Serovar Typhimurium Str. Lt2 &gt;gi|256032848|pdb|3I12|B Chain B, The Crystal Structure Of The D-alanyl-alanine Synthetase A From Salmonella Enterica Subsp. Enterica Serovar Typhimurium Str. Lt2 &gt;gi|256032849|pdb|3I12|C Chain C, The Crystal Structure Of The D-alanyl-alanine Synthetase A From Salmonella Enterica Subsp. Enterica Serovar Typhimurium Str. Lt2 &gt;gi|256032850|pdb|3I12|D Chain D, The Crystal Structure Of The D-alanyl-alanine Synthetase A From Salmonella Enterica Subsp. Enterica Serovar Typhimurium Str. Lt2</Hit_def>
+  <Hit_accession>3I12_A</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>7.98032</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LSFPLVVKPTDNMGARGCTLAQCKDTLINACAVARQFSRSGRVIIEEFIVGREFS</Hsp_qseq>
+      <Hsp_hseq>LGLPLFVKPANQGSSVGVSKVANEAQYQQAVALAFEFDH--KVVVEQGIKGREIE</Hsp_hseq>
+      <Hsp_midline>L  PL VKP +   + G +    +     A A+A +F    +V++E+ I GRE  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

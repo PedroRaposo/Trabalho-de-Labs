@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_140073</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611590</BlastOutput_query-def>
+  <BlastOutput_query-len>291</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_140073</Iteration_query-ID>
+  <Iteration_query-def>2611590</Iteration_query-def>
+  <Iteration_query-len>291</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|116666568|pdb|1VS5|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With The Antibiotic Kasugamyin At 3.5a Resolution. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|116666620|pdb|1VS7|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With The Antibiotic Kasugamyin At 3.5a Resolution. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|256032353|pdb|3E1A|B Chain B, Structure Of The 30s Subunit And The Trnas Of E. Coli Ribosome In Pre- Accommodation State &gt;gi|256032410|pdb|3E1C|B Chain B, Structure Of The 30s Subunit And The Trnas Of E. Coli Ribosome In Post-Accommodation State &gt;gi|257097323|pdb|3I1M|B Chain B, Crystal Structure Of The E. Coli 70s Ribosome In An Intermediate State Of Ratcheting &gt;gi|257097375|pdb|3I1O|B Chain B, Crystal Structure Of The E. Coli 70s Ribosome In An Intermediate State Of Ratcheting &gt;gi|257097427|pdb|3I1Q|B Chain B, Crystal Structure Of The E. Coli 70s Ribosome In An Intermediate State Of Ratcheting &gt;gi|257097481|pdb|3I1S|B Chain B, Crystal Structure Of The E. Coli 70s Ribosome In An Intermediate State Of Ratcheting &gt;gi|257097535|pdb|3I1Z|B Chain B, Crystal Structure Of The E. Coli 70s Ribosome In An Intermediate State Of Ratcheting &gt;gi|257097590|pdb|3I21|B Chain B, Crystal Structure Of The E. Coli 70s Ribosome In An Intermediate State Of Ratcheting &gt;gi|290560308|pdb|3KC4|B Chain B, Ribosome-Secy Complex. This Entry 3kc4 Contains 30s Ribosomal Subnit. The 50s Ribosomal Subunit Can Be Found In Pdb Entry 3kcr &gt;gi|308198688|pdb|3OR9|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Cem-101. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|308198709|pdb|3ORA|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Cem-101. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|326634280|pdb|3IZV|F Chain F, Structural Insights Into Cognate Vs. Near-Cognate Discrimination During Decoding. This Entry Contains The Small Subunit Of A Ribosome Programmed With A Near-Cognate Codon, AT-Site Trna, P-Site Trna, Mrna And Ef-Tu &gt;gi|326634305|pdb|3IZW|F Chain F, Structural Insights Into Cognate Vs. Near-Cognate Discrimination During Decoding.This Entry Contains The Small Subunit Of A Ribosome Programmed With A Cognate Codon, AT-Site Trna, P-Site Trna, Mrna And Ef-Tu &gt;gi|371927495|pdb|3SFS|B Chain B, Crystal Structure Of Release Factor Rf3 Trapped In The Gtp State On A Rotated Conformation Of The Ribosome &gt;gi|371927620|pdb|3UOQ|B Chain B, Crystal Structure Of Release Factor Rf3 Trapped In The Gtp State On A Rotated Conformation Of The Ribosome (Without Viomycin) &gt;gi|402550585|pdb|4GAQ|B Chain B, Allosteric Control Of The Ribosome By Small-Molecule Antibiotics &gt;gi|402550639|pdb|4GAS|B Chain B, Allosteric Control Of The Ribosome By Small-Molecule Antibiotics &gt;gi|524934310|pdb|4KIY|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|524934379|pdb|4KJ0|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|524934449|pdb|4KJ2|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|524934520|pdb|4KJ4|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|524934588|pdb|4KJ6|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|524934651|pdb|4KJ8|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|524934715|pdb|4KJA|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|524934776|pdb|4KJC|B Chain B, Control Of Ribosomal Subunit Rotation By Elongation Factor G &gt;gi|564730737|pdb|3J5N|B Chain B, Visualization Of Two Trnas Trapped In Transit During Ef-g-mediated Translocation (30s Subunit + Ligands)</Hit_def>
+  <Hit_accession>1VS5_B</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.202</Hsp_bit-score>
+      <Hsp_score>622</Hsp_score>
+      <Hsp_evalue>3.30933e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MAVVTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVME</Hsp_qseq>
+      <Hsp_hseq>MATVSMRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVRE</Hsp_hseq>
+      <Hsp_midline>MA V+++++L++GVHFGHQ R W+P+MK +IF  RN +HII+L+KT+    EA   + +  S    +LFVGTK+ + + +   A  C  F+V +RWLGGMLTN+ T+R+S+ RLK +E    DGTF+ L+KKE     +E  KLE +LGGIK+M  LP  +F+ID   E IAI+EA  +GIP+ A+VDTN +P+G+D+ IPGNDDAIRA++L+   +A  V E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|742261432|pdb|4TOI|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of E.coli Ribosomal Protein S2 In Complex With N- Terminal Domain Of S1</Hit_def>
+  <Hit_accession>4TOI_A</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>245.358</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>2.06133e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MAVVTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVME</Hsp_qseq>
+      <Hsp_hseq>MATVSMRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVRE</Hsp_hseq>
+      <Hsp_midline>MA V+++++L++GVHFGHQ R W+P+MK +IF  RN +HII+L+KT+    EA   + +  S    +LFVGTK+ + + +   A  C  F+V +RWLGGMLTN+ T+R+S+ RLK +E    DGTF+ L+KKE     +E  KLE +LGGIK+M  LP  +F+ID   E IAI+EA  +GIP+ A+VDTN +P+G+D+ IPGNDDAIRA++L+   +A  V E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|33357956|pdb|1P87|B</Hit_id>
+  <Hit_def>Chain B, Real Space Refined Coordinates Of The 30s Subunit Fitted Into The Low Resolution Cryo-Em Map Of The Initiation-Like State Of E. Coli 70s Ribosome &gt;gi|83754059|pdb|2AVY|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli At 3.5 A Resolution. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|83754115|pdb|2AW7|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli At 3.5 A Resolution. This File Contains The 30s Subunit Of The Second 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|118138054|pdb|2I2P|B Chain B, Crystal Structure Of Ribosome With Messenger Rna And The Anticodon Stem-Loop Of P-Site Trna. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|118138125|pdb|2I2U|B Chain B, Crystal Structure Of Ribosome With Messenger Rna And The Anticodon Stem-Loop Of P-Site Trna. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|157836041|pdb|2QOU|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Spectinomycin. This File Contains The 30s Subunit Of The First 70s Ribosome, With Spectinomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|157836095|pdb|2QOW|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Spectinomycin. This File Contains The 30s Subunit Of The Second 70s Ribosome, With Spectinomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|157836145|pdb|2QOY|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Spectinomycin And Neomycin. This File Contains The 30s Subunit Of The First 70s Ribosome, With Spectinomycin And Neomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|157836199|pdb|2QP0|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Spectinomycin And Neomycin. This File Contains The 30s Subunit Of The Second 70s Ribosome, With Spectinomycin And Neomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|158429718|pdb|2QAL|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Neomycin. This File Contains The 30s Subunit Of The First 70s Ribosome, With Neomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158429770|pdb|2QAN|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Neomycin. This File Contains The 30s Subunit Of The Second 70s Ribosome, With Neomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158429828|pdb|2QB9|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Gentamicin. This File Contains The 30s Subunit Of The First 70s Ribosome, With Gentamicin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158429880|pdb|2QBB|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Gentamicin. This File Contains The 30s Subunit Of The Second 70s Ribosome, With Gentamicin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158429932|pdb|2QBD|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Ribosome Recycling Factor (Rrf). This File Contains The 30s Subunit Of The First 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158429984|pdb|2QBF|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Ribosome Recycling Factor (Rrf). This File Contains The 30s Subunit Of The Second 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158430038|pdb|2QBH|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Gentamicin And Ribosome Recycling Factor (Rrf). This File Contains The 30s Subunit Of The First 70s Ribosome, With Gentamicin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158430091|pdb|2QBJ|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Gentamicin And Ribosome Recycling Factor (Rrf). This File Contains The 30s Subunit Of The Second 70s Ribosome, With Gentamicin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158431391|pdb|2Z4K|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Paromomycin And Ribosome Recycling Factor (Rrf). This File Contains The 30s Subunit Of The First 70s Ribosome, With Paromomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|158431444|pdb|2Z4M|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Paromomycin And Ribosome Recycling Factor (Rrf). This File Contains The 30s Subunit Of The Second 70s Ribosome, With Paromomycin Bound. The Entire Crystal Structure Contains Two 70s Ribosomes And Is Described In Remark 400. &gt;gi|168988789|pdb|2VHO|B Chain B, Structure Of Pdf Binding Helix In Complex With The Ribosome (Part 3 Of 4) &gt;gi|168988810|pdb|2VHP|B Chain B, Structure Of Pdf Binding Helix In Complex With The Ribosome (Part 4 Of 4) &gt;gi|197107298|pdb|3DF1|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Hygromycin B. This File Contains The 30s Subunit Of The First 70s Ribosome, With Hygromycin B Bound. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|197107350|pdb|3DF3|B Chain B, Crystal Structure Of The Bacterial Ribosome From Escherichia Coli In Complex With Hygromycin B. This File Contains The 30s Subunit Of The Second 70s Ribosome, With Hygromycin B Bound. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|329665993|pdb|3J00|B Chain B, Structure Of The Ribosome-secye Complex In The Membrane Environment &gt;gi|375332713|pdb|4ADV|B Chain B, Structure Of The E. Coli Methyltransferase Ksga Bound To The E. Coli 30s Ribosomal Subunit &gt;gi|380763740|pdb|3J0U|E Chain E, Structural Characterization Of Mrna-Trna Translocation Intermediates (30s Ribosome Of Class2 Of The Six Classes) &gt;gi|380763764|pdb|3J0V|E Chain E, Structural Characterization Of Mrna-Trna Translocation Intermediates (30s Ribosome Of Class 4a Of The Six Classes) &gt;gi|380763822|pdb|3J0X|E Chain E, Structural Characterization Of Mrna-Trna Translocation Intermediates (30s Ribosome Of Class 4b Of The Six Classes) &gt;gi|380763880|pdb|3J0Z|E Chain E, Structural Characterization Of Mrna-Trna Translocation Intermediates (30s Ribosome Of Class 5 Of The Six Classes) &gt;gi|380763904|pdb|3J10|E Chain E, Structural Characterization Of Mrna-Trna Translocation Intermediates (30s Ribosome Of Class 6 Of The Six Classes) &gt;gi|380763995|pdb|3J13|D Chain D, Structural Characterization Of Mrna-Trna Translocation Intermediates (30s Ribosome Of Class 3 Of The Six Classes) &gt;gi|474452762|pdb|3J36|B Chain B, Tetracycline Resistance Protein Tet(o) Bound To The Ribosome &gt;gi|567754971|pdb|3J5T|B Chain B, Structure Of The Ribosome With Elongation Factor G Trapped In The Pre- Translocation State (pre-translocation 70s*trna Structure, 30s Subunit With Hybrid A/p And P/e Trnas And Viomycin) &gt;gi|567755065|pdb|3J5X|B Chain B, Structure Of The Ribosome With Elongation Factor G Trapped In The Pre- Translocation State (pre-translocation 70s*trna*ef-g Structure, 30s Subunit With Hybrid A/p* And P/e Trnas, Ef-g, And Viomycin)</Hit_def>
+  <Hit_accession>1P87_B</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>241.891</Hsp_bit-score>
+      <Hsp_score>616</Hsp_score>
+      <Hsp_evalue>2.84573e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>AVVTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVME</Hsp_qseq>
+      <Hsp_hseq>ATVSMRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVRE</Hsp_hseq>
+      <Hsp_midline>A V+++++L++GVHFGHQ R W+P+MK +IF  RN +HII+L+KT+    EA   + +  S    +LFVGTK+ + + +   A  C  F+V +RWLGGMLTN+ T+R+S+ RLK +E    DGTF+ L+KKE     +E  KLE +LGGIK+M  LP  +F+ID   E IAI+EA  +GIP+ A+VDTN +P+G+D+ IPGNDDAIRA++L+   +A  V E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|116667411|pdb|2GY9|B</Hit_id>
+  <Hit_def>Chain B, Structure Of The 30s Subunit Of A Pre-Translocational E. Coli Ribosome Obtained By Fitting Atomic Models For Rna And Protein Components Into Cryo-Em Map Emd-1056 &gt;gi|116667463|pdb|2GYB|B Chain B, Structure Of The 30s Subunit Of A Secm-Stalled E. Coli Ribosome Complex Obtained By Fitting Atomic Models For Rna And Protein Components Into Cryo-Em Map Emd-1143</Hit_def>
+  <Hit_accession>2GY9_B</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.424</Hsp_bit-score>
+      <Hsp_score>607</Hsp_score>
+      <Hsp_evalue>6.84568e-77</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>MRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVREG</Hsp_hseq>
+      <Hsp_midline>++++L++GVHFGHQ R W+P+MK +IF  RN +HII+L+KT+    EA   + +  S    +LFVGTK+ + + +   A  C  F+V +RWLGGMLTN+ T+R+S+ RLK +E    DGTF+ L+KKE     +E  KLE +LGGIK+M  LP  +F+ID   E IAI+EA  +GIP+ A+VDTN +P+G+D+ IPGNDDAIRA++L+   +A  V E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|224510723|pdb|3FIH|B</Hit_id>
+  <Hit_def>Chain B, Ternary Complex-Bound E.Coli 70s Ribosome. This Entry Consists Of The 30s Subunit, Trnas And The Ternary Complex. &gt;gi|294662218|pdb|2WWL|B Chain B, E.Coli 70s Ribosome Stalled During Translation Of Tnac Leader Peptide. This File Contains The 30s, The P-Site Trna And The Tnac Leader Peptide (Part 1 Of 2). &gt;gi|308387966|pdb|3OFO|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Erythromycin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|308387987|pdb|3OFP|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Erythromycin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|309320024|pdb|3OFA|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Chloramphenicol. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|309320045|pdb|3OFB|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Chloramphenicol. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|309320128|pdb|3OFX|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Clindamycin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|309320149|pdb|3OFY|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Clindamycin. This File Contains The 30s Subunit Of The Second 70s Ribosome &gt;gi|315113613|pdb|3OAQ|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Telithromycin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|315113634|pdb|3OAR|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Telithromycin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|344189495|pdb|2YKR|B Chain B, 30s Ribosomal Subunit With Rsga Bound In The Presence Of Gmppnp &gt;gi|355333226|pdb|4A2I|B Chain B, Cryo-electron Microscopy Structure Of The 30s Subunit In Complex With The Yjeq Biogenesis Factor &gt;gi|386783097|pdb|3J18|B Chain B, Structure Of The Bacterial Ribosome Complexed By Tmrna-Smpb And Ef-G During Translocation And Mld-Loading (30s Subunit) &gt;gi|409973950|pdb|4GD1|B Chain B, Structures Of The Bacterial Ribosome In Classical And Hybrid States Of Trna Binding &gt;gi|409973974|pdb|4GD2|B Chain B, Structures Of The Bacterial Ribosome In Classical And Hybrid States Of Trna Binding &gt;gi|672883469|pdb|4PE9|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Quinupristin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|672883490|pdb|4PEA|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Quinupristin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|672883714|pdb|4TOL|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Linopristin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|672883767|pdb|4TON|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Linopristin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|672883819|pdb|4TOU|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Flopristin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|672883872|pdb|4TOW|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Flopristin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|672883924|pdb|4TP0|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Dalfopristin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|672883977|pdb|4TP2|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Dalfopristin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|672884029|pdb|4TP4|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Virginiamycin M1. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|672884082|pdb|4TP6|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Virginiamycin M1. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|672884134|pdb|4TP8|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Dalfopristin And Quinupristin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|672884187|pdb|4TPA|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Dalfopristin And Quinupristin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|672884239|pdb|4TPC|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Flopristin And Linopristin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|672884292|pdb|4TPE|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Flopristin And Linopristin. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|704361188|pdb|4WAO|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Negamycin. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|704361258|pdb|4WAQ|B Chain B, Crystal Structure Of The E. Coli Ribosome Bound To Negamycin. This File Contains The 30s Subunit Of The Second 70s Ribosome With Negamycin Bound.</Hit_def>
+  <Hit_accession>3FIH_B</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>4.22271e-76</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>MLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVREG</Hsp_hseq>
+      <Hsp_midline>+L++GVHFGHQ R W+P+MK +IF  RN +HII+L+KT+    EA   + +  S    +LFVGTK+ + + +   A  C  F+V +RWLGGMLTN+ T+R+S+ RLK +E    DGTF+ L+KKE     +E  KLE +LGGIK+M  LP  +F+ID   E IAI+EA  +GIP+ A+VDTN +P+G+D+ IPGNDDAIRA++L+   +A  V E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|557804006|pdb|3J4V|B</Hit_id>
+  <Hit_def>Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Classic Pre- Translocation State (pre1a, 30s Subunit + Trna + Mrna) &gt;gi|557804030|pdb|3J4W|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Classic Pre- Translocation State (pre1b, 30s Subunit + Trna + Mrna) &gt;gi|557804086|pdb|3J4Y|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Intermediate Pre- Translocation State (pre3, 30s Subunit + Trna + Mrna) &gt;gi|557804110|pdb|3J4Z|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Intermediate Pre- Translocation State (pre2, 30s Subunit + Trna + Mrna) &gt;gi|557804230|pdb|3J53|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Hybrid Pre- Translocation State (pre4, 30s Subunit + Trna + Mrna) &gt;gi|557804286|pdb|3J55|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Hybrid Pre- Translocation State (pre5a, 30s Subunit + Trna + Mrna) &gt;gi|557804342|pdb|3J57|B Chain B, 70s-fmetval-trnaval-trnafmet Complex In Hybrid Pre-translocation State (pre5b, 30s Subunit + Trna + Mrna) &gt;gi|557804398|pdb|3J59|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Classic Post- Translocation State (post1, 30s Subunit + Trna + Mrna) &gt;gi|557804454|pdb|3J5B|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Intermediate Post- Translocation State (post2a, 30s Subunit + Trna + Mrna) &gt;gi|557804510|pdb|3J5D|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Intermediate Post- Translocation State (post2b, 30s Subunit + Trna + Mrna) &gt;gi|557804566|pdb|3J5F|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Intermediate Post- Translocation State (post3a, 30s Subunit + Trna + Mrna) &gt;gi|557804622|pdb|3J5H|B Chain B, E. Coli 70s-fmetval-trnaval-trnafmet Complex In Intermediate Post- Translocation State (post3b, 30s Subunit + Trna + Mrna) &gt;gi|557804678|pdb|3J5J|B Chain B, E. Coli 70s-fmetval-trnaval Post-translocation Complex (post4, 30s Subunit + Trna + Mrna)</Hit_def>
+  <Hit_accession>3J4V_B</Hit_accession>
+  <Hit_len>220</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>4.49911e-76</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>MLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVREG</Hsp_hseq>
+      <Hsp_midline>+L++GVHFGHQ R W+P+MK +IF  RN +HII+L+KT+    EA   + +  S    +LFVGTK+ + + +   A  C  F+V +RWLGGMLTN+ T+R+S+ RLK +E    DGTF+ L+KKE     +E  KLE +LGGIK+M  LP  +F+ID   E IAI+EA  +GIP+ A+VDTN +P+G+D+ IPGNDDAIRA++L+   +A  V E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|10835586|pdb|1FJG|B</Hit_id>
+  <Hit_def>Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With The Antibiotics Streptomycin, Spectinomycin, And Paromomycin &gt;gi|13096395|pdb|1HR0|B Chain B, Crystal Structure Of Initiation Factor If1 Bound To The 30s Ribosomal Subunit &gt;gi|13399793|pdb|1HNW|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With Tetracycline &gt;gi|13399815|pdb|1HNX|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With Pactamycin &gt;gi|13399837|pdb|1HNZ|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With Hygromycin B &gt;gi|14278011|pdb|1GIX|E Chain E, Crystal Structure Of The Ribosome At 5.5 A Resolution. This File, 1gix, Contains The 30s Ribosome Subunit, Three Trna, And Mrna Molecules. 50s Ribosome Subunit Is In The File 1giy &gt;gi|14278057|pdb|1IBK|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With The Antibiotic Paromomycin &gt;gi|14278078|pdb|1IBL|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With A Messenger Rna Fragment And Cognate Transfer Rna Anticodon Stem-Loop Bound At The A Site And With The Antibiotic Paromomycin &gt;gi|14278102|pdb|1IBM|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With A Messenger Rna Fragment And Cognate Transfer Rna Anticodon Stem-Loop Bound At The A Site &gt;gi|15826121|pdb|1JGO|E Chain E, The Path Of Messenger Rna Through The Ribosome. This File, 1jgo, Contains The 30s Ribosome Subunit, Three Trna, And Mrna Molecules. 50s Ribosome Subunit Is In The File 1giy &gt;gi|15826146|pdb|1JGP|E Chain E, The Path Of Messenger Rna Through The Ribosome. This File, 1jgp, Contains The 30s Ribosome Subunit, Three Trna, And Mrna Molecules. 50s Ribosome Subunit Is In The File 1giy &gt;gi|15826171|pdb|1JGQ|E Chain E, The Path Of Messenger Rna Through The Ribosome. This File, 1jgq, Contains The 30s Ribosome Subunit, Three Trna, And Mrna Molecules. 50s Ribosome Subunit Is In The File 1giy &gt;gi|20663887|pdb|1J5E|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit &gt;gi|27065877|pdb|1N32|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Bound To Codon And Near-Cognate Transfer Rna Anticodon Stem-Loop Mismatched At The First Codon Position At The A Site With Paromomycin &gt;gi|27065904|pdb|1N33|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Bound To Codon And Near-Cognate Transfer Rna Anticodon Stem-Loop Mismatched At The Second Codon Position At The A Site With Paromomycin &gt;gi|27065931|pdb|1N34|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In The Presence Of Codon And Crystallographically Disordered Near-Cognate Transfer Rna Anticodon Stem-Loop Mismatched At The First Codon Position &gt;gi|27065957|pdb|1N36|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In The Presence Of Crystallographically Disordered Codon And Near-cognate Transfer Rna Anticodon Stem-loop Mismatched At The Second Codon Position &gt;gi|28373700|pdb|1ML5|E Chain E, Structure Of The E. Coli Ribosomal Termination Complex With Release Factor 2 &gt;gi|58177401|pdb|1XMO|B Chain B, Crystal Structure Of Mnm5u34t6a37-Trnalysuuu Complexed With Aag-Mrna In The Decoding Center &gt;gi|58177424|pdb|1XMQ|B Chain B, Crystal Structure Of T6a37-Asllysuuu Aaa-Mrna Bound To The Decoding Center &gt;gi|58177465|pdb|1XNQ|B Chain B, Structure Of An Inosine-Adenine Wobble Base Pair Complex In The Context Of The Decoding Center &gt;gi|58177488|pdb|1XNR|B Chain B, Crystal Structure Of An Inosine-Cytosine Wobble Base Pair In The Context Of The Decoding Center &gt;gi|66361055|pdb|1YL4|E Chain E, Crystal Structure Of 70s Ribosome With Thrs Operator And Trnas. 30s Subunit. The Coordinates For The 50s Subunit Are In The Pdb Entry 1yl3 &gt;gi|88192237|pdb|2B64|B Chain B, 30s Ribosomal Subunit, Trnas, Mrna And Release Factor Rf1 From A Crystal Structure Of The Whole Ribosomal Complex. This File Contains The 30s Subunit, Trnas, Mrna And Release Factor Rf1 From A Crystal Structure Of The Whole Ribosomal Complex&quot;. The Entire Crystal Structure Contains One 70s Ribosome, Trnas, Mrna And Release Factor Rf1 And Is Described In Remark 400. &gt;gi|88192300|pdb|2B9M|B Chain B, 30s Ribosomal Subunit, Trnas, Mrna And Release Factor Rf2 From A Crystal Structure Of The Whole Ribosomal Complex. This File Contains The 30s Ribosomal Subunit, Trnas, Mrna And Release Factor Rf2 From A Crystal Structure Of The Whole Ribosomal Complex&quot;. The Entire Crystal Structure Contains One 70s Ribosome, Trnas, Mrna And Release Factor Rf2 And Is Described In Remark 400. &gt;gi|88192356|pdb|2B9O|B Chain B, 30s Ribosomal Subunit, Trnas And Mrna From A Crystal Structure Of The Whole Ribosomal Complex With A Stop Codon In The A-Site. This File Contains The 30s Subunit, Trnas And Mrna From A Crystal Structure Of The Whole Ribosomal Complex With A Stop Codon In The A-Site And Is Described In Remark 400. &gt;gi|110591324|pdb|2F4V|B Chain B, 30s Ribosome + Designer Antibiotic &gt;gi|116667655|pdb|2HHH|B Chain B, Crystal Structure Of Kasugamycin Bound To The 30s Ribosomal Subunit &gt;gi|116668198|pdb|2J00|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome Complexed With Mrna, Trna And Paromomycin (Part 1 Of 4). This File Contains The 30s Subunit, Mrna, A-, P- And E-Site Trnas And Paromomycin For Molecule I. &gt;gi|116668259|pdb|2J02|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome Complexed With Mrna, Trna And Paromomycin (Part 3 Of 4) This File Contains The 30s Subunit, Mrna, A-, P- And E-Site Trnas And Paromomycin For Molecule Ii. &gt;gi|119389713|pdb|2HGI|E Chain E, Crystal Structure Of The 70s Thermus Thermophilus Ribosome Showing How The 16s 3&apos;-End Mimicks Mrna E And P Codons. This Entry 2hgi Contains 30s Ribosomal Subunit. The 50s Ribosomal Subunit Can Be Found In Pdb Entry 2hgj. &gt;gi|119389770|pdb|2HGP|E Chain E, Crystal Structure Of The 70s Thermus Thermophilus Ribosome With Translocated And Rotated Shine-Dalgarno Duplex. This Entry 2hgp Contains 30s Ribosomal Subunit. The 50s Ribosomal Subunit Can Be Found In Pdb Entry 2hgq. &gt;gi|119389826|pdb|2HGR|E Chain E, 70s T.Th. Ribosome Functional Complex With Mrna And E- And P-Site Trnas At 4.5a. This Entry 2hgr Contains 30s Ribosomal Subunit. The 50s Ribosomal Subunit Can Be Found In Pdb Entry 2hgu. &gt;gi|149242709|pdb|2OW8|CC Chain c, Crystal Structure Of A 70s Ribosome-Trna Complex Reveals Functional Interactions And Rearrangements. This File, 2ow8, Contains The 30s Ribosome Subunit, Two Trna, And Mrna Molecules. 50s Ribosome Subunit Is In The File 1vsa. &gt;gi|149243619|pdb|2UU9|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Valine-asl With Cmo5u In Position 34 Bound To An Mrna With A Gug-codon In The A-site And Paromomycin. &gt;gi|149243646|pdb|2UUA|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Valine-Asl With Cmo5u In Position 34 Bound To An Mrna With A Guc-Codon In The A-Site And Paromomycin. &gt;gi|149243673|pdb|2UUB|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Valine-Asl With Cmo5u In Position 34 Bound To An Mrna With A Guu-Codon In The A-Site And Paromomycin. &gt;gi|149243700|pdb|2UUC|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Valine-asl With Cmo5u In Position 34 Bound To An Mrna With A Gua-codon In The A-site And Paromomycin. &gt;gi|149243839|pdb|2UXC|B Chain B, Crystal Structure Of An Extended Trna Anticodon Stem Loop In Complex With Its Cognate Mrna Ucgu In The Context Of The Thermus Thermophilus 30s Subunit. &gt;gi|157836409|pdb|2UXB|B Chain B, Crystal Structure Of An Extended Trna Anticodon Stem Loop In Complex With Its Cognate Mrna Gggu In The Context Of The Thermus Thermophilus 30s Subunit. &gt;gi|157836486|pdb|2V46|B Chain B, Structure Of The Ribosome Recycling Factor Bound To The Thermus Thermophilus 70s Ribosome With Mrna, Asl-Phe And Trna-Fmet (Part 1 Of 4). This File Contains The 30s Subunit, Mrna, P-Site Asl, E-Site Trna And Rrf For Molecule 1. &gt;gi|157836542|pdb|2V48|B Chain B, Structure Of The Ribosome Recycling Factor Bound To The Thermus Thermophilus 70s Ribosome With Mrna, Asl-Phe And Trna-Fmet (Part 3 Of 4). This File Contains The 30s Subunit, Mrna, P-Site Asl, E-Site Trna And Rrf For Molecule 2. &gt;gi|158430901|pdb|2UXD|B Chain B, Crystal Structure Of An Extended Trna Anticodon Stem Loop In Complex With Its Cognate Mrna Cggg In The Context Of The Thermus Thermophilus 30s Subunit. &gt;gi|160285940|pdb|2QNH|CC Chain c, Interactions And Dynamics Of The Shine-Dalgarno Helix In The 70s Ribosome. This File, 2qnh, Contains The 30s Ribosome Subunit, Two Trna, And Mrna Molecules. 50s Ribosome Subunit Is In The File 1vsp. &gt;gi|165760897|pdb|2OM7|N Chain N, Structural Basis For Interaction Of The Ribosome With The Switch Regions Of Gtp-bound Elongation Factors &gt;gi|186972850|pdb|2VQE|B Chain B, Modified Uridines With C5-methylene Substituents At The First Position Of The Trna Anticodon Stabilize U-g Wobble Pairing During Decoding &gt;gi|186972873|pdb|2VQF|B Chain B, Modified Uridines With C5-Methylene Substituents At The First Position Of The Trna Anticodon Stabilize U-G Wobble Pairing During Decoding &gt;gi|209156497|pdb|3D5A|B Chain B, Structural Basis For Translation Termination On The 70s Ribosome. This File Contains The 30s Subunit, Release Factor 1 (Rf1), Two Trna, And Mrna Molecules Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes As Described In Remark 400. &gt;gi|209156553|pdb|3D5C|B Chain B, Structural Basis For Translation Termination On The 70s Ribosome. This File Contains The 30s Subunit, Release Factor 1 (Rf1), Two Trna, And Mrna Molecules Of The Second 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes As Described In Remark 400. &gt;gi|218766774|pdb|3F1E|B Chain B, Crystal Structure Of A Translation Termination Complex Formed With Release Factor Rf2. This File Contains The 30s Subunit, Rf2, Two Trna, And Mrna Molecules Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes As Described In Remark 400. &gt;gi|218766830|pdb|3F1G|B Chain B, Crystal Structure Of A Translation Termination Complex Formed With Release Factor Rf2. This File Contains The 30s Subunit, Rf2, Two Trna, And Mrna Molecules Of The Second 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes As Described In Remark 400. &gt;gi|226887375|pdb|2WDG|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Mrna, Paromomycin, Acylated A-Site Trna, Deacylated P-Site Trna, And E-Site Trna.  This File Contains The 30s Subunit A-,P-, And E-Site Trnas And Paromomycin For Molecule I. &gt;gi|226887400|pdb|2WDH|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Mrna, Paromomycin, Acylated A-Site Trna, Deacylated P-Site Trna, And E-Site Trna.  This File Contains The 30s Subunit A-,P-, And E-Site Trnas And Paromomycin For Molecule Ii. &gt;gi|226887489|pdb|2WDK|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Mrna, Paromomycin, Acylated A- And P-Site Trnas, And E-Site Trna.  This File Contains The 30s Subunit A-,P-, And E-Site Trnas And Paromomycin For Molecule I. &gt;gi|226887546|pdb|2WDM|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Mrna, Paromomycin, Acylated A- And P-Site Trnas, And E-Site Trna.  This File Contains The 30s Subunit A-,P-, And E-Site Trnas And Paromomycin For Molecule Ii. &gt;gi|237823530|pdb|2WH1|B Chain B, Insights Into Translational Termination From The Structure Of Rf2 Bound To The Ribosome &gt;gi|237823589|pdb|2WH3|B Chain B, Insights Into Translational Termination From The Structure Of Rf2 Bound To The Ribosome). This File Contains The 30s Subunit. &gt;gi|260099987|pdb|3HUW|B Chain B, Structure Of Ef-p Bound To The 70s Ribosome; This File Contains The 30s Subunit, Mrna, P-site Trna And Ef-p For Molecule I. &gt;gi|260100043|pdb|3HUY|B Chain B, Structure Of Ef-p Bound To The 70s Ribosome; This File Contains The 30s Subunit, Mrna, P-site Trna And Ef-p For Molecule Ii. &gt;gi|261824485|pdb|2WRI|B Chain B, The Structure Of The Ribosome With Elongation Factor G Trapped In The Post-Translocational State (Part 1 Of 4). &gt;gi|261824547|pdb|2WRK|B Chain B, The Structure Of The Ribosome With Elongation Factor G Trapped In The Post-Translocational State (Part 3 Of 4). &gt;gi|261824609|pdb|2WRN|B Chain B, The Crystal Structure Of The 70s Ribosome Bound To Ef-Tu And Trna (Part 1 Of 4). &gt;gi|261824668|pdb|2WRQ|B Chain B, The Crystal Structure Of The 70s Ribosome Bound To Ef-Tu And Trna (Part 3 Of 4). &gt;gi|281307168|pdb|3KIQ|BB Chain b, Structure Of Rele Nuclease Bound To The 70s Ribosome (Precleavage State; Part 1 Of 4) &gt;gi|281307226|pdb|3KIS|BB Chain b, Structure Of Rele Nuclease Bound To The 70s Ribosome (Precleavage State; Part 3 Of 4) &gt;gi|281307284|pdb|3KIU|BB Chain b, Structure Of Rele Nuclease Bound To The 70s Ribosome (Postcleavage State; Part 1 Of 4) &gt;gi|281307342|pdb|3KIX|BB Chain b, Structure Of Rele Nuclease Bound To The 70s Ribosome (Postcleavage State; Part 3 Of 4) &gt;gi|288965605|pdb|3KNH|B Chain B, The Structures Of Viomycin Bound To The 70s Ribosome. This File Contains The 30s Subunit For Molecule I &gt;gi|289526683|pdb|3KNJ|B Chain B, The Structures Of Viomycin Bound To The 70s Ribosome. This File Contains The 30s Subunit For Molecule Ii&apos; &gt;gi|289526708|pdb|3KNL|B Chain B, The Structures Of Capreomycin Bound To The 70s Ribosome. This File Contains The 30s Subunit For Molecule I &gt;gi|289526733|pdb|3KNN|B Chain B, The Structures Of Capreomycin Bound To The 70s Ribosome. This File Contains The 30s Subunit For Molecule Ii &gt;gi|294979505|pdb|3I8G|E Chain E, Elongation Complex Of The 70s Ribosome With Three Trnas And Entry 3i8g Contains 30s Ribosomal Subnit.The 50s Ribosomal Can Be Found In Pdb Entry 3i8f. Molecule B In The Same Asym Unit Is Deposited As 3i8g (30s) And 3i8f (50s). &gt;gi|294979530|pdb|3I8H|E Chain E, Elongation Complex Of The 70s Ribosome With Three Trnas And Entry 3i8h Contains 30s Ribosomal Subnit. The 50s Ribosomal Can Be Found In Pdb Entry 3i8i. Molecule A In The Same Asym Unit Is Deposited As 3i8f (50s) And 3i8g (30s). &gt;gi|294979589|pdb|3I9B|E Chain E, Initiation Complex Of 70s Ribosome With Two Trnas And Mrna. 3i9b Contains 30s Ribosomal Subunit Of Molecule B. The 50s Subunit Can Be Found In Pdb Entry 3i9c. Molecule A In The S Asymmetric Unit Is Deposited As 3i9d (30s) And 3i9e (50s) &gt;gi|294979643|pdb|3I9D|E Chain E, Initiation Complex Of 70s Ribosome With Two Trnas And Mrna. 3i9d Contains 30s Ribosomal Subunit Of Molecule A. The 50s Subunit Can Be Found In Pdb Entry 3i9e. Molecule B In The S Asymmetric Unit Is Deposited As 3i9b (30s) And 3i9c (50s) &gt;gi|295982076|pdb|2X9R|B Chain B, Structure Of The 70s Ribosome Bound To Release Factor 2 And A Substrate Analog Provides Insights Into Catalysis Of Peptide Release &gt;gi|295982135|pdb|2X9T|B Chain B, Structure Of The 70s Ribosome Bound To Release Factor 2 And A Substrate Analog Provides Insights Into Catalysis Of Peptide Release &gt;gi|307567963|pdb|2XFZ|B Chain B, Structure Of Cytotoxic Domain Of Colicin E3 Bound To The 70s Ribosome (part 1 Of 4) &gt;gi|307568021|pdb|2XG1|B Chain B, Structure Of Cytotoxic Domain Of Colicin E3 Bound To The 70s Ribosome (part 3 Of 4) &gt;gi|307776613|pdb|3OTO|B Chain B, Crystal Structure Of The 30s Ribosomal Subunit From A Ksga Mutant Of Thermus Thermophilus (Hb8) &gt;gi|309320236|pdb|3OGE|B Chain B, Structure Of The Thermus Thermophilus Ribosome Complexed With Chloramphenicol. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|309320257|pdb|3OGY|B Chain B, Structure Of The Thermus Thermophilus Ribosome Complexed With Chloramphenicol. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|309320338|pdb|3OHC|B Chain B, Structure Of The Thermus Thermophilus Ribosome Complexed With Erythromycin. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|309320359|pdb|3OHD|B Chain B, Structure Of The Thermus Thermophilus Ribosome Complexed With Erythromycin. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|309320440|pdb|3OHY|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome Complexed With Azithromycin. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|309320491|pdb|3OI0|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome Complexed With Azithromycin. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|309320542|pdb|3OI2|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome Complexed With Telithromycin. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|309320593|pdb|3OI4|B Chain B, Structure Of The Thermus Thermophilus 70s Ribosome Complexed With Telithromycin. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|312207674|pdb|2XQD|B Chain B, The Structure Of Ef-tu And Aminoacyl-trna Bound To The 70s Ribosome With A Gtp Analog &gt;gi|313754000|pdb|2XSY|B Chain B, Trna Tranlocation On The 70s Ribosome: The Pre- Translocational Translocation Intermediate Ti(Pre) &gt;gi|313754115|pdb|2XUY|B Chain B, Trna Translocation On The 70s Ribosome: The Post- Translocational Translocation Intermediate Ti(Post) &gt;gi|325533403|pdb|2Y0U|B Chain B, The Crystal Structure Of Ef-Tu And A9c-Trna-Trp Bound To A Near-Cognate Codon On The 70s Ribosome &gt;gi|325533462|pdb|2Y0W|B Chain B, The Crystal Structure Of Ef-Tu And A9c-Trna-Trp Bound To A Near-Cognate Codon On The 70s Ribosome &gt;gi|325533521|pdb|2Y0Y|B Chain B, The Crystal Structure Of Ef-Tu And G24a-Trna-Trp Bound To A Near-Cognate Codon On The 70s Ribosome &gt;gi|325533580|pdb|2Y10|B Chain B, The Crystal Structure Of Ef-Tu And Trp-Trna-Trp Bound To A Cognate Codon On The 70s Ribosome. &gt;gi|325533639|pdb|2Y12|B Chain B, The Crystal Structure Of Ef-Tu And G24a-Trna-Trp Bound To A Near-Cognate Codon On The 70s Ribosome &gt;gi|325533698|pdb|2Y14|B Chain B, The Crystal Structure Of Ef-Tu And G24a-Trna-Trp Bound To A Cognate Codon On The 70s Ribosome. &gt;gi|325533757|pdb|2Y16|B Chain B, The Crystal Structure Of Ef-Tu And G24a-Trna-Trp Bound To A Cognate Codon On The 70s Ribosome. &gt;gi|325533816|pdb|2Y18|B Chain B, The Crystal Structure Of Ef-Tu And Trp-Trna-Trp Bound To A Cognate Codon On The 70s Ribosome. &gt;gi|347948796|pdb|3ZVO|B Chain B, Crystal Structure Of The Hybrid State Of Ribosome In Complex With The Guanosine Triphosphatase Release Factor 3 &gt;gi|374074264|pdb|3T1H|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Human Anti-Codon Stem Loop (Hasl) Of Transfer Rna Lysine 3 (Trnalys3) Bound To An Mrna With An Aaa-Codon In The A-Site And Paromomycin &gt;gi|374074289|pdb|3T1Y|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Human Anti-Codon Stem Loop (Hasl) Of Transfer Rna Lysine 3 (Trnalys3) Bound To An Mrna With An Aag-Codon In The A-Site And Paromomycin &gt;gi|374074506|pdb|3UXS|B Chain B, The Structure Of Thermorubin In Complex With The 70s Ribosome From Thermus Thermophilus. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes. &gt;gi|374074527|pdb|3UXT|B Chain B, The Structure Of Thermorubin In Complex With The 70s Ribosome From Thermus Thermophilus. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Two 70s Ribosomes.&apos; &gt;gi|380764243|pdb|3TVF|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit For The Cognate Trna-Leu Complex &gt;gi|380764268|pdb|3TVG|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The Second 70s Molecule In The Asymmetric Unit For The Cognate Trna-Leu Complex &gt;gi|380764345|pdb|3UYD|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit For The Near-Cognate Trna-Leu Complex &gt;gi|380764401|pdb|3UYF|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit For The Near-Cognate Trna-Leu Complex &gt;gi|380764521|pdb|3UZ3|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit For The Near-Cognate Trna-Leu Complex With Paromomycin. &gt;gi|380764546|pdb|3UZ4|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The Second 70s Molecule In The Asymmetric Unit For The Near-Cognate Trna-Leu Complex With Paromomycin. &gt;gi|380764572|pdb|3UZ6|E Chain E, Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit For The Cognate Trna-Tyr Complex &gt;gi|380764598|pdb|3UZ7|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The Second 70s Molecule In The Asymmetric Unit For The Cognate Trna-Tyr Complex. &gt;gi|380764718|pdb|3UZG|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit For The Near-Cognate Trna-Tyr Complex &gt;gi|380764774|pdb|3UZI|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The Second 70s Molecule In The Asymmetric Unit For The Near-Cognate Trna-Tyr Complex &gt;gi|380764829|pdb|3UZL|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit For The Near-Cognate Trna-Tyr Complex With Paromomycin &gt;gi|380764855|pdb|3UZM|E Chain E, Crystal Structure Analysis Of Ribosomal Decoding. This Entry Contains The 30s Ribosomal Subunit Of The Second 70s Molecule In The Asymmetric Unit For The Near-cognate Trna-tyr Complex With Paromomycin &gt;gi|381353089|pdb|4ABR|B Chain B, Complex Of Smpb, A Tmrna Fragment And Ef-Tu-Gdp-Kirromycin With The 70s Ribosome &gt;gi|381353193|pdb|4DH9|B Chain B, Crystal Structure Of Yaej Bound To The 70s Ribosome &gt;gi|381353248|pdb|4DHB|B Chain B, Crystal Structure Of Yaej Bound To The 70s Ribosome &gt;gi|388325944|pdb|3V22|B Chain B, Crystal Structure Of Rmf Bound To The 70s Ribosome. This Pdb Entry Contains Coordinates For The 30s Subunit With Bound Rmf Of The 1st Ribosome In The Asu &gt;gi|388325997|pdb|3V24|B Chain B, Crystal Structure Of Rmf Bound To The 70s Ribosome. This Pdb Entry Contains Coordinates For The 30s Subunit With Bound Rmf Of The 2nd Ribosome In The Asu &gt;gi|388326050|pdb|3V26|B Chain B, Crystal Structure Of Hpf Bound To The 70s Ribosome. This Pdb Entry Contains Coordinates For The 30s Subunit With Bound Hpf Of The 1st Ribosome In The Asu &gt;gi|388326103|pdb|3V28|B Chain B, Crystal Structure Of Hpf Bound To The 70s Ribosome. This Pdb Entry Contains Coordinates For The 30s Subunit With Bound Hpf Of The 2nd Ribosome In The Asu &gt;gi|388326226|pdb|3V2C|B Chain B, Crystal Structure Of Yfia Bound To The 70s Ribosome. This Pdb Entry Contains Coordinates For The 30s Subunit With Bound Yfia Of The 1st Ribosome In The Asu &gt;gi|388326279|pdb|3V2E|B Chain B, Crystal Structure Of Yfia Bound To The 70s Ribosome. This Pdb Entry Contains Coordinates For The 30s Subunit With Bound Yfia Of The 2nd Ribosome In The Asu &gt;gi|395759335|pdb|4AQY|B Chain B, Structure Of Ribosome-apramycin Complexes &gt;gi|414145508|pdb|4DR1|B Chain B, Crystal Structure Of The Apo 30s Ribosomal Subunit From Thermus Thermophilus (hb8) &gt;gi|414145529|pdb|4DR2|B Chain B, Crystal Structure Of The Thermus Thermophilus (hb8) 30s Ribosomal Subunit With Multiple Copies Of Paromomycin Molecules Bound &gt;gi|414145550|pdb|4DR3|B Chain B, Crystal Structure Of The Thermus Thermophilus (hb8) 30s Ribosomal Subunit With Streptomycin Bound &gt;gi|414145571|pdb|4DR4|B Chain B, Crystal Structure Of The Thermus Thermophilus (hb8) 30s Ribosomal Subunit With Codon, Cognate Transfer Rna Anticodon Stem-loop And Multiple Copies Of Paromomycin Molecules Bound &gt;gi|414145594|pdb|4DR5|B Chain B, Crystal Structure Of The Thermus Thermophilus (hb8) 30s Ribosomal Subunit With Codon, Crystallographically Disordered Cognate Transfer Rna Anticodon Stem-loop And Streptomycin Bound &gt;gi|414145617|pdb|4DR6|B Chain B, Crystal Structure Of The Thermus Thermophilus (hb8) 30s Ribosomal Subunit With Codon, Near-cognate Transfer Rna Anticodon Stem-loop Mismatched At The First Codon Position And Streptomycin Bound &gt;gi|414145642|pdb|4DR7|B Chain B, Crystal Structure Of The Thermus Thermophilus (hb8) 30s Ribosomal Subunit With Codon, Crystallographically Disordered Near-cognate Transfer Rna Anticodon Stem-loop Mismatched At The Second Codon Position, And Streptomycin Bound &gt;gi|451928690|pdb|4G5K|E Chain E, Crystal Structure Of The 70s Ribosome With Tetracycline. This Entry Contains The 30s Subunit Of Molecule A. &gt;gi|451928743|pdb|4G5M|E Chain E, Crystal Structure Of The 70s Ribosome With Tetracycline. This Entry Contains The 30s Subunit Of Molecule B. &gt;gi|451928796|pdb|4G5T|E Chain E, Crystal Structure Of The 70s Ribosome With Tigecycline. This Entry Contains The 30s Subunit Of Molecule A. &gt;gi|451928850|pdb|4G5V|E Chain E, Crystal Structure Of The 70s Ribosome With Tigecycline. This Entry Contains The 30s Subunit Of Molecule B. &gt;gi|453055750|pdb|4DUY|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, U13c &gt;gi|453055771|pdb|4DUZ|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, U13c, Bound With Streptomycin &gt;gi|453055792|pdb|4DV0|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, U20g &gt;gi|453055813|pdb|4DV1|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, U20g, Bound With Streptomycin &gt;gi|453055834|pdb|4DV2|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, C912a &gt;gi|453055855|pdb|4DV3|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, C912a, Bound With Streptomycin &gt;gi|453055876|pdb|4DV4|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, A914g &gt;gi|453055897|pdb|4DV5|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, A914g, Bound With Streptomycin &gt;gi|453055918|pdb|4DV6|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, A915g &gt;gi|453055939|pdb|4DV7|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit With A 16s Rrna Mutation, A915g, Bound With Streptomycin &gt;gi|474452945|pdb|3ZN7|B Chain B, The Crystal Structure Of Agmatidine Trna-ile2 Bound To The 70s Ribosome In The A And P Site. &gt;gi|474453003|pdb|3ZND|B Chain B, The Crystal Structure Of Agmatidine Trna-ile2 Bound To The 70s Ribosome In The A And P Site. &gt;gi|474453082|pdb|4B8F|B Chain B, Crystal Structure Of 70s Ribosome With Both Cognate Trnas In The E And P Sites Representing An Authentic Elongation Complex &gt;gi|474453139|pdb|4B8H|B Chain B, Crystal Structure Of 70s Ribosome With Both Cognate Trnas In The E And P Sites Representing An Authentic Elongation Complex &gt;gi|482676663|pdb|3V6U|B Chain B, Crystal Structure Of The Bacterial Ribosome Ram Mutation G347u. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit &gt;gi|482676688|pdb|3V6V|B Chain B, Crystal Structure Of The Bacterial Ribosome Ram Mutation G347u. This Entry Contains The 30s Ribosomal Subunit Of The Second 70s Molecule In The Asymmetric Unit &gt;gi|482676991|pdb|4EJ9|B Chain B, Crystal Structure Of The Bacterial Ribosome Ram Mutation G299a. This Entry Contains The 30s Ribosomal Subunit Of The First 70s Molecule In The Asymmetric Unit &gt;gi|482677016|pdb|4EJA|B Chain B, Crystal Structure Of The Bacterial Ribosome Ram Mutation G299a. This Entry Contains The 30s Ribosomal Subunit Of The Second 70s Molecule In The Asymmetric Unit &gt;gi|529280795|pdb|4B3M|B Chain B, Crystal Structure Of The 30s Ribosome In Complex With Compound 1 &gt;gi|529280818|pdb|4B3R|B Chain B, Crystal Structure Of The 30s Ribosome In Complex With Compound 30 &gt;gi|529280841|pdb|4B3S|B Chain B, Crystal Structure Of The 30s Ribosome In Complex With Compound 37 &gt;gi|529280864|pdb|4B3T|B Chain B, Crystal Structure Of The 30s Ribosome In Complex With Compound 39 &gt;gi|534286155|pdb|4BYB|B Chain B, Structure Of Thermus Thermophilus 30s Ribosome &gt;gi|534286219|pdb|4BYD|B Chain B, Structure Of Thermus Thermophilus 30s Ribosome &gt;gi|557129267|pdb|4JI0|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129288|pdb|4JI1|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129309|pdb|4JI2|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129330|pdb|4JI3|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129351|pdb|4JI4|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129372|pdb|4JI5|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129393|pdb|4JI6|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129414|pdb|4JI7|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|557129435|pdb|4JI8|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|594146137|pdb|4CR1|B Chain B, Thermus Thermophilus Ribosome &gt;gi|605604013|pdb|4NVU|B Chain B, Crystal Structure Of Antibiotic Dityromycin Bound To 70s Ribosome &gt;gi|605604076|pdb|4NVW|B Chain B, Crystal Structure Of Antibiotic Dityromycin Bound To 70s Ribosome &gt;gi|605604148|pdb|4NVY|B Chain B, Crystal Structure Of Antibiotic Ge82832 Bound To 70s Ribosome &gt;gi|605604208|pdb|4NW0|B Chain B, Crystal Structure Of Antibiotic Ge82832 Bound To 70s Ribosome &gt;gi|609412564|pdb|4OX9|B Chain B, Crystal Structure Of The Aminoglycoside Resistance Methyltransferase Npma Bound To The 30s Ribosomal Subunit &gt;gi|636666437|pdb|4NXM|B Chain B, Crystal Structure Of The 30s Ribosomal Subunit From A Gidb (rsmg) Mutant Of Thermus Thermophilus (hb8) &gt;gi|636666458|pdb|4NXN|B Chain B, Crystal Structure Of The 30s Ribosomal Subunit From A Gidb (rsmg) Mutant Of Thermus Thermophilus (hb8), Bound With Streptomycin &gt;gi|645985666|pdb|4KVB|B Chain B, Thermus Thermophilus Hb27 30s Ribosomal Subunit Lacking Ribosomal Protein S17 &gt;gi|661918119|pdb|4LF4|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918140|pdb|4LF5|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918161|pdb|4LF6|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918182|pdb|4LF7|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918203|pdb|4LF8|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918224|pdb|4LF9|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918245|pdb|4LFA|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918266|pdb|4LFB|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|661918287|pdb|4LFC|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|672884574|pdb|1VVL|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-u On The Ribosome &gt;gi|672884630|pdb|1VVN|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-u On The Ribosome &gt;gi|672884686|pdb|1VVP|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-a On The Ribosome &gt;gi|672884742|pdb|1VVR|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-a On The Ribosome &gt;gi|672884798|pdb|1VVT|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccg-g On The Ribosome &gt;gi|672884854|pdb|1VVV|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccg-g On The Ribosome &gt;gi|672884910|pdb|1VVX|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-u In The Absence Of Paromomycin &gt;gi|672884966|pdb|1VVZ|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-u In The Absence Of Paromomycin &gt;gi|672885022|pdb|1VX8|B Chain B, Crystal Structure Of Trna Proline (cgg) Bound To Codon Ccc-u On The Ribosome &gt;gi|672885078|pdb|1VXI|B Chain B, Crystal Structure Of Trna Proline (cgg) Bound To Codon Ccc-u On The Ribosome &gt;gi|672885134|pdb|1VXK|B Chain B, Crystal Structure Of Trna Proline (cgg) Bound To Codon Ccg-g On The Ribosome &gt;gi|672885190|pdb|1VXM|B Chain B, Crystal Structure Of Trna Proline (cgg) Bound To Codon Ccg-g On The Ribosome &gt;gi|672885246|pdb|1VXP|B Chain B, Crystal Structure Of Trna Proline (cgg) Bound To Codon Ccc-g On The Ribosome &gt;gi|672885302|pdb|1VXS|B Chain B, Crystal Structure Of Trna Proline (cgg) Bound To Codon Ccc-g On The Ribosome &gt;gi|672885650|pdb|4KWZ|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-g On The Ribosome &gt;gi|672885705|pdb|4KX1|B Chain B, Crystal Structure Of Frameshift Suppressor Trna Sufa6 Bound To Codon Ccc-g On The Ribosome &gt;gi|672886113|pdb|1VY0|B Chain B, Crystal Structure Of Unmodified Trna Proline (cgg) Bound To Codon Ccg On The Ribosome &gt;gi|672886169|pdb|1VY2|B Chain B, Crystal Structure Of Unmodified Trna Proline (cgg) Bound To Codon Ccg On The Ribosome &gt;gi|673541423|pdb|4QCM|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Pre- Attack State Of Peptide Bond Formation Containing Acylated Trna- Substrates In The A And P Sites. This Entry Contains The 30s Subunit Of The First 70s Ribosome In The Asu. &gt;gi|673541479|pdb|4QCO|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Pre- Attack State Of Peptide Bond Formation Containing Acylated Trna- Substrates In The A And P Sites. This Entry Contains The 30s Subunit Of The Second 70s Ribosome In The Asu. &gt;gi|673541535|pdb|4QCQ|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Post-catalysis State Of Peptide Bond Formation Containing Dipeptydil- Trna In The A Site And Deacylated Trna In The P Site. This Entry Contains The 50s Subunit Of The First 70s Ribosome In The Asu. &gt;gi|673541591|pdb|4QCS|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Post-catalysis State Of Peptide Bond Formation Containing Dipeptydil- Trna In The A Site And Deacylated Trna In The P Site. This Entry Contains The 30s Subunit Of The Second 70s Ribosome In The Asu. &gt;gi|673541647|pdb|4QCU|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Pre- Attack State Of Peptide Bond Formation Containing Short Substrate- Mimic Cytidine-puromycin In The A Site And Acylated Trna In The P Site. This Entry Contains The 30s Subunit Of The First 70s Ribosome In The Asu. &gt;gi|673541702|pdb|4QCW|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Pre- Attack State Of Peptide Bond Formation Containing Short Substrate- Mimic Cytidine-puromycin In The A Site And Acylated Trna In The P Site. This Entry Contains The 30s Subunit Of The Second 70s Ribosome In The Asu. &gt;gi|673541757|pdb|4QCY|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Pre- Attack State Of Peptide Bond Formation Containing Short Substrate- Mimic Cytidine-cytidine-puromycin In The A Site And Acylated Trna In The P Site. This Entry Contains The 30s Subunit Of The First 70s Ribosome In The Asu. &gt;gi|673541813|pdb|4QD0|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In The Pre- Attack State Of Peptide Bond Formation Containing Short Substrate- Mimic Cytidine-cytidine-puromycin In The A Site And Acylated Trna In The P Site. This Entry Contains The 30s Subunit Of The Second 70s Ribosome In The Asu. &gt;gi|695721348|pdb|4W2A|B Chain B, Crystal Structure Of The Peptolide 12c Bound To Bacterial Ribosome &gt;gi|695721415|pdb|4W2C|B Chain B, Crystal Structure Of The Peptolide 12c Bound To Bacterial Ribosome &gt;gi|697351038|pdb|4RB5|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Amicoumacin, Mrna And Three Deacylated Trnas In The A, P And E Sites &gt;gi|697351094|pdb|4RB7|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Amicoumacin, Mrna And Three Deacylated Trnas In The A, P And E Sites &gt;gi|697351150|pdb|4RB9|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Pactamycin (soaked), Mrna And Three Deacylated Trnas In The A, P And E Sites &gt;gi|697351206|pdb|4RBB|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Pactamycin (soaked), Mrna And Three Deacylated Trnas In The A, P And E Sites &gt;gi|697351262|pdb|4RBD|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Pactamycin (co-crystallized), Mrna And Deacylated Trna In The P Site &gt;gi|697351317|pdb|4RBF|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Pactamycin (co-crystallized), Mrna And Deacylated Trna In The P Site &gt;gi|697351372|pdb|4RBH|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Negamycin, Mrna And Three Deacylated Trnas In The A, P And E Sites &gt;gi|697351428|pdb|4RBJ|B Chain B, Crystal Structure Of The Thermus Thermophilus 70s Ribosome In Complex With Negamycin, Mrna And Three Deacylated Trnas In The A, P And E Sites &gt;gi|720065890|pdb|4QJT|BB Chain b, Crystal Structure Of Elongation Factor 4 (ef4/lepa) Bound To The Thermus Thermophilus 70s Ribosome, 30s Subunit Of The 70s Ribosome &gt;gi|953267647|pdb|5BR8|B Chain B, Ambient-temperature Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus In Complex With Paromomycin</Hit_def>
+  <Hit_accession>1FJG_B</Hit_accession>
+  <Hit_len>256</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>6.70337e-75</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>ITVKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTISQRVHRLEELEALFASPEIEERPKKEQVRLKHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>+T+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI + + RL+++E +      E   KKE   L+ E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|14278531|pdb|1I94|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structures Of The Small Ribosomal Subunit With Tetracycline, Edeine And If3 &gt;gi|14278552|pdb|1I95|B Chain B, Crystal Structure Of The 30s Ribosomal Subunit From Thermus Thermophilus In Complex With Edeine &gt;gi|14278573|pdb|1I96|B Chain B, Crystal Structure Of The 30s Ribosomal Subunit From Thermus Thermophilus In Complex With The Translation Initiation Factor If3 (C-Terminal Domain) &gt;gi|14278595|pdb|1I97|B Chain B, Crystal Structure Of The 30s Ribosomal Subunit From Thermus Thermophilus In Complex With Tetracycline &gt;gi|226887630|pdb|2ZM6|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit</Hit_def>
+  <Hit_accession>1I94_B</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.802</Hsp_bit-score>
+      <Hsp_score>595</Hsp_score>
+      <Hsp_evalue>7.0099e-75</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>ITVKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTISQRVHRLEELEALFASPEIEERPKKEQVRLKHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>+T+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI + + RL+++E +      E   KKE   L+ E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|806394373|pdb|4YHH|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of The 30s Ribosomal Subunit From Thermus Thermophilus In Complex With Tigecycline</Hit_def>
+  <Hit_accession>4YHH_B</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>8.6389e-75</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>ITVKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTISQRVHRLEELEALFASPEIEERPKKEQVRLKHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>+T+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI + + RL+++E +      E   KKE   L+ E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|149241276|pdb|2E5L|B</Hit_id>
+  <Hit_def>Chain B, A Snapshot Of The 30s Ribosomal Subunit Capturing Mrna Via The Shine- Dalgarno Interaction</Hit_def>
+  <Hit_accession>2E5L_B</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.646</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>9.10933e-75</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>ITVKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTISQRVHRLEELEALFASPEIEERPKKEQVRLKHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>+T+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI + + RL+++E +      E   KKE   L+ E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|953267431|pdb|4X62|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|953267454|pdb|4X64|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|953267477|pdb|4X65|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus &gt;gi|953267500|pdb|4X66|B Chain B, Crystal Structure Of 30s Ribosomal Subunit From Thermus Thermophilus</Hit_def>
+  <Hit_accession>4X62_B</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>2.00546e-74</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>TIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>TVKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTISQRVHRLEELEALFASPEIEERPKKEQVRLKHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>T+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI + + RL+++E +      E   KKE   L+ E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|34811530|pdb|1PNS|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of A Streptomycin Dependent Ribosome From E. Coli, 30s Subunit Of 70s Ribosome. This File, 1pns, Contains The 30s Subunit, Two Trnas, And One Mrna Molecule. The 50s Ribosomal Subunit Is In File 1pnu. &gt;gi|34811586|pdb|1PNX|B Chain B, Crystal Structure Of The Wild Type Ribosome From E. Coli, 30s Subunit Of 70s Ribosome. This File, 1pnx, Contains Only Molecules Of The 30s Ribosomal Subunit. The 50s Subunit Is In The Pdb File 1pny. &gt;gi|56966324|pdb|1VOQ|B Chain B, Crystal Structure Of Five 70s Ribosomes From Escherichia Coli In Complex With Protein Y. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Five 70s Ribosomes And Is Described In Remark 400. &gt;gi|56966377|pdb|1VOS|B Chain B, Crystal Structure Of Five 70s Ribosomes From Escherichia Coli In Complex With Protein Y. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Five 70s Ribosomes And Is Described In Remark 400. &gt;gi|56966430|pdb|1VOV|B Chain B, Crystal Structure Of Five 70s Ribosomes From Escherichia Coli In Complex With Protein Y. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Five 70s Ribosomes And Is Described In Remark 400. &gt;gi|56966483|pdb|1VOX|B Chain B, Crystal Structure Of Five 70s Ribosomes From Escherichia Coli In Complex With Protein Y. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Five 70s Ribosomes And Is Described In Remark 400. &gt;gi|56966536|pdb|1VOZ|B Chain B, Crystal Structure Of Five 70s Ribosomes From Escherichia Coli In Complex With Protein Y. This File Contains The 30s Subunit Of One 70s Ribosome. The Entire Crystal Structure Contains Five 70s Ribosomes And Is Described In Remark 400. &gt;gi|300508606|pdb|3MR8|B Chain B, Recognition Of The Amber Stop Codon By Release Factor Rf1. This Entry 3mr8 Contains 30s Ribosomal Subunit. The 50s Ribosomal Subunit Can Be Found In Pdb Entry 3ms1. Molecule B In The Same Asymmetric Unit Is Deposited As 3mrz (50s) And 3ms0 (30s). &gt;gi|300508661|pdb|3MS0|B Chain B, Recognition Of The Amber Stop Codon By Release Factor Rf1. This Entry 3ms0 Contains 30s Ribosomal Subunit. The 50s Ribosomal Subunit Can Be Found In Pdb Entry 3mrz. Molecule A In The Same Asymmetric Unit Is Deposited As 3mr8 (30s) And 3ms1 (50s). &gt;gi|322812551|pdb|3PYN|B Chain B, Crystal Structure Of A Complex Containing Domain 3 From The Psiv Igr Ires Rna Bound To The 70s Ribosome. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|322812604|pdb|3PYQ|B Chain B, Crystal Structure Of A Complex Containing Domain 3 From The Psiv Igr Ires Rna Bound To The 70s Ribosome. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|322812657|pdb|3PYS|B Chain B, Crystal Structure Of A Complex Containing Domain 3 Of Crpv Igr Ires Rna Bound To The 70s Ribosome. This File Contains The 30s Subunit Of The First 70s Ribosome. &gt;gi|322812710|pdb|3PYU|B Chain B, Crystal Structure Of A Complex Containing Domain 3 Of Crpv Igr Ires Rna Bound To The 70s Ribosome. This File Contains The 30s Subunit Of The Second 70s Ribosome. &gt;gi|510101938|pdb|4GKJ|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Human Mitochondrial Anticodon Stem Loop (asl) Of Transfer Rna Methionine (trnamet) Bound To An Mrna With An Aug-codon In The A-site And Paromomycin. &gt;gi|510101963|pdb|4GKK|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Human Mitochondrial Anticodon Stem Loop (asl) Of Transfer Rna Methionine (trnamet) Bound To An Mrna With An Aua-codon In The A-site And Paromomycin &gt;gi|510102254|pdb|4KHP|B Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal Subunit In Complex With De-6-msa-pactamycin &gt;gi|514829990|pdb|4JUW|B Chain B, Crystal Structure Of The Ribosome Bound To Elongation Factor G In The Guanosine Triphosphatase State (this File Contains The 30s Subunit) &gt;gi|514830035|pdb|4JV5|B Chain B, Crystal Structures Of Pseudouridinilated Stop Codons With Asls &gt;gi|514830066|pdb|4JYA|B Chain B, Crystal Structures Of Pseudouridinilated Stop Codons With Asls &gt;gi|520728778|pdb|4K0L|B Chain B, Crystal Structure Of Thermus Thermophilus 70s In Complex With Trnas And Mrna Containing A Pseudouridine In A Stop Codon &gt;gi|520728836|pdb|4K0P|B Chain B, Crystal Structure Of Thermus Thermophilus 70s Containing Trnas And Mrna Stop Codon With Pseudouridine &gt;gi|520729388|pdb|4KFH|B Chain B, Crystal Structure Of The 70s Ribosome Bound With The Q253p Mutant Of Release Factor Rf2. 30s Of The A Subunit &gt;gi|520729443|pdb|4KFK|B Chain B, Crystal Structure Of The 70s Ribosome Bound With The Q253p Mutant Of Release Factor Rf2. 30s Of The B Subunit &gt;gi|528082341|pdb|4L6K|B Chain B, Crystal Structure Of Blasticidin S Bound To Thermus Thermophilus 70s Ribosome. This File Contains The 30s Subunit, Trna And Mrna Molecules From The First 70s Ribosome. &gt;gi|528082395|pdb|4L6M|B Chain B, Crystal Structure Of Blasticidin S Bound To Thermus Thermophilus 70s Ribosome. This File Contains The 30s Subunit, Trna And Mrna Molecules From The Second 70s Ribosome. &gt;gi|749197483|pdb|4WT8|A Chain A, Crystal Structure Of Bactobolin A Bound To 70s Ribosome-trna Complex</Hit_def>
+  <Hit_accession>1PNS_B</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.565</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.54569e-73</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>VKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTISQRVHRLEELEALFASPEIEERPKKEQVRLKHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI + + RL+++E +      E   KKE   L+ E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|224510685|pdb|3FIC|B</Hit_id>
+  <Hit_def>Chain B, T. Thermophilus 70s Ribosome In Complex With Mrna, Trnas And Ef- Tu.Gdp.Kirromycin Ternary Complex, Fitted To A 6.4 A Cryo-Em Map. This File Contains The 30s Subunit And The Ligands &gt;gi|514830093|pdb|4K0K|B Chain B, Crystal Structure Of The Thermus Thermophilus 30s Ribosomal Subunit Complexed With A Serine-asl And Mrna Containing A Stop Codon &gt;gi|520728898|pdb|4KBT|B Chain B, 70s Ribosome Translocation Intermediate Gdpnp-ii Containing Elongation Factor Efg/gdpnp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains 30s Ribosomal Subunit A. The Full Asymmetric Unit Also Contains Pdb Entries 4kbu (50s Subunit A), 4kbv (30s Subunit B), And 4kbw (50s Subunit B). &gt;gi|520728958|pdb|4KBV|B Chain B, 70s Ribosome Translocation Intermediate Gdpnp-ii Containing Elongation Factor Efg/gdpnp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains 30s Ribosomal Subunit B. The Full Asymmetric Unit Also Contains Pdb Entries 4kbw (50s Subunit B), 4kbt (30s Subunit A), And 4kbu (50s Subunit A). &gt;gi|520729018|pdb|4KCY|B Chain B, 70s Ribosome Translocation Intermediate Gdpnp-i Containing Elongation Factor Efg/gdpnp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains The 30s Ribosomal Subunit A. The 50s Subunit A Can Be Found In 4kcz. Molecule B In The Same Asymmetric Unit Is Deposited As 4kd0 (30s) And 4kd2 (50s) &gt;gi|520729078|pdb|4KD0|B Chain B, 70s Ribosome Translocation Intermediate Gdpnp-i Containing Elongation Factor Efg/gdpnp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains The 30s Ribosomal Subunit B. The 50s Subunit B Can Be Found In 4kd2. Molecule A In The Same Asymmetric Unit Is Deposited As 4kcy (30s) And 4kcz (50s) &gt;gi|520729138|pdb|4KD8|B Chain B, 70s Ribosome Translocation Intermediate Fa-3.6a Containing Elongation Factor Efg/fusidic Acid/gdp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains The 30s Ribosomal Subunit A. The 50s Subunit A Can Be Found In 4kd9. Molecule B In The Same Asymmetric Unit Is Deposited As 4kda (30s) And 4kdb (50s). &gt;gi|520729198|pdb|4KDA|B Chain B, 70s Ribosome Translocation Intermediate Fa-3.6a Containing Elongation Factor Efg/fusidic Acid/gdp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains The 30s Ribosomal Subunit B. The 50s Subunit A Can Be Found In 4kdb. Molecule A In The Same Asymmetric Unit Is Deposited As 4kd8 (30s) And 4kd9 (50s). &gt;gi|520729258|pdb|4KDG|B Chain B, 70s Ribosome Translocation Intermediate Fa-4.2a Containing Elongation Factor Efg/fusidic Acid/gdp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains The 30s Ribosomal Subunit A. The 50s Subunit A Can Be Found In 4kdh. Molecule B In The Same Asymmetric Unit Is Deposited As 4kdj (30s) And 4kdk (50s). &gt;gi|520729318|pdb|4KDJ|B Chain B, 70s Ribosome Translocation Intermediate Fa-4.2a Containing Elongation Factor Efg/fusidic Acid/gdp, Mrna, And Trna Bound In The Pe*/e State. This Entry Contains The 30s Ribosomal Subunit B. The 50s Subunit B Can Be Found In 4kdk. Molecule A In The Same Asymmetric Unit Is Deposited As 4kdg (30s) And 4kdh (50s).</Hit_def>
+  <Hit_accession>3FIC_B</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.565</Hsp_bit-score>
+      <Hsp_score>584</Hsp_score>
+      <Hsp_evalue>1.64702e-73</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>VKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTISQRVHRLEELEALFASPEIEERPKKEQVRLKHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI + + RL+++E +      E   KKE   L+ E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|73536330|pdb|1X18|E</Hit_id>
+  <Hit_def>Chain E, Contact Sites Of Era Gtpase On The Thermus Thermophilus 30s Subunit</Hit_def>
+  <Hit_accession>1X18_E</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>2.23553e-69</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>VKELLEAGVHFGHERKRWNPKFARYIYAERNGIHIIDLQKTMEELERTFRFIEDLAMRGGTILFVGTKKQAQDIVRMEAERAGMPYVNQRWLGGMLTNFKTIQR-VHRLEELEALFASPEIEERPKKE--QRLHELERLQKYLSGFRLLKRLPDAIFVVDPTKEAIAVREARKLFIPVIALADTDSDPDLVDYIIPGNDDAIRSIQLILSRAVDLIIQA</Hsp_hseq>
+      <Hsp_midline>+K LLE+GVHFGH+ +RW+P+  +YI+AERNGIHIIDLQKT+  +   +  +      G ++LFVGTKKQ+Q  +  EA+R GM YV  RWLGGMLTNF TI++ + RL+++E +      E   KKE      E  +L+K L G + +K LP  +F++D  KE IA+REAR++ IP++A+ DT+ +P+ +DY IPGNDDAIR+I L      + +++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|188036203|pdb|3BBN|B</Hit_id>
+  <Hit_def>Chain B, Homology Model For The Spinach Chloroplast 30s Subunit Fitted To 9.4a Cryo-Em Map Of The 70s Chlororibosome.</Hit_def>
+  <Hit_accession>3BBN_B</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.66142e-60</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>VTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEH</Hsp_qseq>
+      <Hsp_hseq>INLEEMMEAGVHFGHGTRKWNPRMSPYISAKCKGIHIINLTRTARFLSEACDLVFDASSRGKQFLIVGTKNKAADSVARAAIRARCHYVNKKWLGGMLTNWSTTETRLHKFRDLRMEQTAGRLARLPKRDAAVVKRQLSHLQTYLGGIKYMTGLPDIVIIVDQQEEYTALRECITLGIPTICLIDTNCNPDLADISIPANDDAIASIRLILTKLVFAICEGRSSY</Hsp_hseq>
+      <Hsp_midline>+ ++ ++E+GVHFGH  R+W+PRM  YI A+  GIHII+L +T   + EA D+V    S GK  L VGTK ++  ++A+ A R    YV  +WLGGMLTN+ST    L + + +   +  G    L K++ A ++++ + L+  LGGIK M  LP +V I+D ++E  A+RE   +GIP + ++DTNCNP+  D  IP NDDAI +I L    +  A+ E  + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|657231756|pdb|3J6V|B</Hit_id>
+  <Hit_def>Chain B, Cryo-em Structure Of The Small Subunit Of The Mammalian Mitochondrial Ribosome</Hit_def>
+  <Hit_accession>3J6V_B</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>6.33047e-27</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>VVTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKET----IAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>LFSVRSLFNARVHLGHKAGCRHRFMEPYIFGSRLGQDIIDLEQTATHLQLALNFTAHVAFRGGIILFVSRARQFSHLIESTARSCGEYAHTRYFKGGLLTNAPLLLGARVRL-------------------------------------------PDLIIFLHTLNNVFEPHVAVRDAAKMSIPTVGVVDTNCNPCLITYPVPGNDDSPPAVQLFCQLFQTAVTRA</Hsp_hseq>
+      <Hsp_midline>+ ++++L  + VH GH+       M+ YIF  R G  IIDL++T T ++ A +        G  +LFV   +Q    I   A+ CG +  T  + GG+LTN   +  +  RL                                           P ++  + T        +A+R+A ++ IP V VVDTNCNP  I YP+PGNDD+  A+ LF QL   AV  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|810516681|pdb|5AJ3|B</Hit_id>
+  <Hit_def>Chain B, Structure Of The Small Subunit Of The Mammalian Mitoribosome</Hit_def>
+  <Hit_accession>5AJ3_B</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>3.83206e-23</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>VVTIKNLLESGVHFGHQVRRWDPRMKKYIFAERNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLG-GIKEMKELPGVVFIIDTRKET----IAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEA</Hsp_qseq>
+      <Hsp_hseq>LFSVRSLFDARVHLGHKAGCRHRFMEPYLFGSRLGQDIIDLEQTAAHLQLALNFTAHVAYREGIILFVSRHRQFAHLIETTARDCGEYAHTRYFKGGLLTNAPLL----------------------------------------LGPGVR----LPDLIIFLHTLNNVFEPHVAVRDAAKMNIPTVGIVDTNCNPALITYPVPGNDDSPPAVRLFCRLFQVAISRA</Hsp_hseq>
+      <Hsp_midline>+ ++++L ++ VH GH+       M+ Y+F  R G  IIDL++T   ++ A +           +LFV   +Q    I   A+ CG +  T  + GG+LTN   +                                        LG G++    LP ++  + T        +A+R+A ++ IP V +VDTNCNP  I YP+PGNDD+  A+ LF +L   A+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|40889982|pdb|1VI6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribosomal Protein S2p &gt;gi|40889983|pdb|1VI6|B Chain B, Crystal Structure Of Ribosomal Protein S2p &gt;gi|40889984|pdb|1VI6|C Chain C, Crystal Structure Of Ribosomal Protein S2p &gt;gi|40889985|pdb|1VI6|D Chain D, Crystal Structure Of Ribosomal Protein S2p</Hit_def>
+  <Hit_accession>1VI6_A</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>9.84044e-16</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>VVTIKNLLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESG</Hsp_qseq>
+      <Hsp_hseq>LVPPDDYLAAGVHIGTQIKTGD--MKKFIFKVRQDGLYVLDIRKLDERIRVAAKFLSRYEPS--KILLVAARQYAHKPVQMFSKVVGSDYIVGRFIPGTLTN---------------------------------------------PMLSEYRE-PEVVFVNDPAIDKQAVSEATAVGIPVVALCDSNNSSADVDLVIPTNNKGRRALAIVYWLLAREIAKIRGQDFTYSIEDFEAELEG</Hsp_hseq>
+      <Hsp_midline>+V   + L +GVH G Q++  D  MKK+IF  R +G++++D++K    IR A   + R   S   +L V  ++ + + +   ++  G  Y+  R++ G LTN                                               + E +E P VVF+ D   +  A+ EA  VGIP+VA+ D+N +   +D  IP N+   RA+++   L+A  + +   +     IE+ + E  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|40889978|pdb|1VI5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ribosomal Protein S2p &gt;gi|40889979|pdb|1VI5|B Chain B, Crystal Structure Of Ribosomal Protein S2p &gt;gi|40889980|pdb|1VI5|C Chain C, Crystal Structure Of Ribosomal Protein S2p &gt;gi|40889981|pdb|1VI5|D Chain D, Crystal Structure Of Ribosomal Protein S2p</Hit_def>
+  <Hit_accession>1VI5_A</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>4.75173e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>242</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>VVTIKNLLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESG</Hsp_qseq>
+      <Hsp_hseq>LVPPDDYLAAGVHIGTQIKTGD--XKKFIFKVRQDGLYVLDIRKLDERIRVAAKFLSRYEPS--KILLVAARQYAHKPVQXFSKVVGSDYIVGRFIPGTLTN---------------------------------------------PXLSEYRE-PEVVFVNDPAIDKQAVSEATAVGIPVVALCDSNNSSADVDLVIPTNNKGRRALAIVYWLLAREIAKIRGQDFTYSIEDFEAELEG</Hsp_hseq>
+      <Hsp_midline>+V   + L +GVH G Q++  D   KK+IF  R +G++++D++K    IR A   + R   S   +L V  ++ + + +   ++  G  Y+  R++ G LTN                                               + E +E P VVF+ D   +  A+ EA  VGIP+VA+ D+N +   +D  IP N+   RA+++   L+A  + +   +     IE+ + E  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|428697927|pdb|3J20|B</Hit_id>
+  <Hit_def>Chain B, Promiscuous Behavior Of Proteins In Archaeal Ribosomes Revealed By Cryo-em: Implications For Evolution Of Eukaryotic Ribosomes (30s Ribosomal Subunit) &gt;gi|551701550|pdb|3J43|B Chain B, Structure Of The Methanococcus Jannaschii Ribosome-secyebeta Channel Complex (30s Ribosomal Subunit)</Hit_def>
+  <Hit_accession>3J20_B</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>9.312e-13</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>176</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>VVTIKNLLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>LVPLDQYLAAGVHIGTQQKTKD--MKKFIYRVRQDGLYVLDVRKTDERLKVAGKFLAKF--EPQSILAVSVRLYGQKPVKKFGEVTGARAIPGRFLPGTMTNPA----------------VKNFFE------------------------------PDVLIVTDPRADHQAMREAVEIGIPIVALVDTENLLSYVDLAIPTNNKGRKALALIYWILAREIL</Hsp_hseq>
+      <Hsp_midline>+V +   L +GVH G Q +  D  MKK+I+  R +G++++D++KT   ++ A   + +     +S+L V  +   Q+ + K  +  G   +  R+L G +TN +                +   FE                              P V+ + D R +  A+REA  +GIPIVA+VDT      +D  IP N+   +A++L   ++A  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|665764124|pdb|3J7A|C</Hit_id>
+  <Hit_def>Chain C, Cryo-em Structure Of The Plasmodium Falciparum 80s Ribosome Bound To The Anti-protozoan Drug Emetine, Small Subunit</Hit_def>
+  <Hit_accession>3J7A_C</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>6.44996e-12</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>TIKNLLESGVHFGHQVRRWDPRMKKYIFAE-RNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>SIAKMLICKVHIG--TKNLENKMKRYVYTRAKDGVHIINLAKTYEKLQLAARIIV-AISNPADVVVVSARPFGSRAVLKFAQYTGAQAIAGRWTPGMLTN-----------------QIIQKFTE-----------------------------PRLLIVTDPRTDAQSVKESAYANIPVIALCDSDSPLEHVDIAIPCNNKGKESIALMYWLLAQEVL</Hsp_hseq>
+      <Hsp_midline>+I  +L   VH G   +  + +MK+Y++   ++G+HII+L KT   ++ A  ++   +S+   V+ V  +    + + K AQ  G   +  RW  GMLTN                 +I   F                               P ++ + D R +  +++E+    IP++A+ D++   E +D  IP N+    +I+L   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|319443357|pdb|2XZM|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of The Eukaryotic 40s Ribosomal Subunit In Complex With Initiation Factor 1. This File Contains The 40s Subunit And Initiation Factor For Molecule 1 &gt;gi|319443392|pdb|2XZN|B Chain B, Crystal Structure Of The Eukaryotic 40s Ribosomal Subunit In Complex With Initiation Factor 1. This File Contains The 40s Subunit And Initiation Factor For Molecule 2 &gt;gi|524933473|pdb|4BPE|B Chain B, The Crystal Structure Of The Eukaryotic 40s Ribosomal Subunit In Complex With Eif1 And Eif1a - Complex 1 &gt;gi|524933525|pdb|4BPN|B Chain B, The Crystal Structure Of The Eukaryotic 40s Ribosomal Subunit In Complex With Eif1 And Eif1a - Complex 2 &gt;gi|524933565|pdb|4BPO|B Chain B, The Crystal Structure Of The Eukaryotic 40s Ribosomal Subunit In Complex With Eif1 And Eif1a - Complex 3 &gt;gi|524933607|pdb|4BPP|B Chain B, The Crystal Structure Of The Eukaryotic 40s Ribosomal Subunit In Complex With Eif1 And Eif1a - Complex 4</Hit_def>
+  <Hit_accession>2XZM_B</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>4.11642e-09</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IKNLLESGVHFGHQVRRWDPRMKKYIFAE-RNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEA--QRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAV</Hsp_qseq>
+      <Hsp_hseq>IKRLLASNCH--QATINLNNQMKRYISHKGVNGIHYINIEETWQKIKLAARVIA-AVQHPEDVMVVCSRIYGQRAAIKFAGYTHCKST-SSSRWTPGTLTNYQTLKY----------------------------------------------EEPRVLIVTDPRSDFQAIKEASYVNIPVIALCDSDSPLAYVDVVIPCNNRSTESISMIYWMIAREV</Hsp_hseq>
+      <Hsp_midline>IK LL S  H        + +MK+YI  +  NGIH I++++T   I+ A  ++   V   + V+ V ++   Q+   K A    C     ++RW  G LTN+ T++                                               E P V+ + D R +  AI+EA  V IP++A+ D++     +D  IP N+ +  +IS+   +IA  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|281500808|pdb|3JYV|B</Hit_id>
+  <Hit_def>Chain B, Structure Of The 40s Rrna And Proteins And PE TRNA FOR EUKARYOTIC Ribosome Based On Cryo-Em Map Of Thermomyces Lanuginosus Ribosome At 8.9a Resolution</Hit_def>
+  <Hit_accession>3JYV_B</Hit_accession>
+  <Hit_len>193</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.75904e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>LLAANTHLG--ARNVQVHQEPYVFNARPDGVHVINVGKTWEKLVLAARIIA-AIPNPEDVVAISSRTFGQRAVLKFAAHTGATPIAGRFTPGSFTNYIT---------------------------------------------RSFKE-PRLVIVTDPRSDAQAIKEASYVNIPVIALTDLDSPSEFVDVAIPCNNRGKHSIGLIWYLLAREVL</Hsp_hseq>
+      <Hsp_midline>LL +  H G   R      + Y+F  R +G+H+I++ KT   +  A  ++   + + + V+ + ++   Q+ + K A   G   +  R+  G  TN+ T                                             +  KE P +V + D R +  AI+EA  V IP++A+ D +   E +D  IP N+    +I L   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|49258822|pdb|1S1H|B</Hit_id>
+  <Hit_def>Chain B, Structure Of The Ribosomal 80s-Eef2-Sordarin Complex From Yeast Obtained By Docking Atomic Models For Rna And Protein Components Into A 11.7 A Cryo-Em Map. This File, 1s1h, Contains 40s Subunit. The 60s Ribosomal Subunit Is In File 1s1i.</Hit_def>
+  <Hit_accession>1S1H_B</Hit_accession>
+  <Hit_len>185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>2.1816e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>LLAANTHLG--ARNVQVHQEPYVFNARPDGVHVINVGKTWEKLVLAARIIA-AIPNPEDVVAISSRTFGQRAVLKFAAHTGATPIAGRFTPGSFTNYIT---------------------------------------------RSFKE-PRLVIVTDPRSDAQAIKEASYVNIPVIALTDLDSPSEFVDVAIPCNNRGKHSIGLIWYLLAREVL</Hsp_hseq>
+      <Hsp_midline>LL +  H G   R      + Y+F  R +G+H+I++ KT   +  A  ++   + + + V+ + ++   Q+ + K A   G   +  R+  G  TN+ T                                             +  KE P +V + D R +  AI+EA  V IP++A+ D +   E +D  IP N+    +I L   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|313103664|pdb|3IZB|A</Hit_id>
+  <Hit_def>Chain A, Localization Of The Small Subunit Ribosomal Proteins Into A 6.1 A Cryo-Em Map Of Saccharomyces Cerevisiae Translating 80s Ribosome &gt;gi|315113448|pdb|3O2Z|A Chain A, Yeast 80s Ribosome. This Entry Consists Of The 40s Subunit Of The First 80s In The Asymmetric Unit. &gt;gi|315113476|pdb|3O30|A Chain A, Yeast 80s Ribosome. This Entry Consists Of The 40s Subunit Of The Second 80s In The Asymmetric Unit. &gt;gi|364506096|pdb|3U5C|A Chain A, The Structure Of The Eukaryotic Ribosome At 3.0 A Resolution. This Entry Contains Proteins Of The 40s Subunit, Ribosome A &gt;gi|364506134|pdb|3U5G|A Chain A, The Structure Of The Eukaryotic Ribosome At 3.0 A Resolution. This Entry Contains Proteins Of The 40s Subunit, Ribosome B &gt;gi|558704748|pdb|4BYL|A Chain A, Cryo-em Reconstruction Of The 80s-eif5b-met-itrnamet Eukaryotic Translation Initiation Complex &gt;gi|558704790|pdb|4BYT|A Chain A, Cryo-em Reconstruction Of The 80s-eif5b-met-itrnamet Eukaryotic Translation Initiation Complex &gt;gi|651207358|pdb|1VW9|B Chain B, S. Cerevisiae 80s Ribosome Bound With Taura Syndrome Virus (tsv) Ires, 5 Degree Rotation (class Ii). This Entry Contains The Small Ribosomal Subunit. &gt;gi|651207438|pdb|1VWV|B Chain B, S. Cerevisiae 80s Ribosome Bound With Taura Syndrome Virus (tsv) Ires, 2 Degree Rotation (class I). This Entry Contains The Small Ribosomal Subunit. &gt;gi|672885405|pdb|1VXW|A Chain A, Structures Of Yeast 80s Ribosome-trna Complexes In The Rotated And Non-rotated Conformations (class Ii - Rotated Ribosome With 1 Trna, This Entry Contains The Small Ribosomal Subunit, Mrna, And Trna) &gt;gi|672885488|pdb|1VXZ|A Chain A, Structures Of Yeast 80s Ribosome-trna Complexes In The Rotated And Non-rotated Conformations (class I - Non-rotated Ribosome With 2 Trnas, This Entry Contains The Small Ribosomal Subunit, Mrna, And Trna)</Hit_def>
+  <Hit_accession>3IZB_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.18212e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>LLAANTHLG--ARNVQVHQEPYVFNARPDGVHVINVGKTWEKLVLAARIIA-AIPNPEDVVAISSRTFGQRAVLKFAAHTGATPIAGRFTPGSFTNYIT---------------------------------------------RSFKE-PRLVIVTDPRSDAQAIKEASYVNIPVIALTDLDSPSEFVDVAIPCNNRGKHSIGLIWYLLAREVL</Hsp_hseq>
+      <Hsp_midline>LL +  H G   R      + Y+F  R +G+H+I++ KT   +  A  ++   + + + V+ + ++   Q+ + K A   G   +  R+  G  TN+ T                                             +  KE P +V + D R +  AI+EA  V IP++A+ D +   E +D  IP N+    +I L   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|699027831|pdb|4UJF|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Narciclasine Bound To The Yeast 80s Ribosome &gt;gi|699027910|pdb|4UJH|EE Chain e, Crystal Structure Of Narciclasine Bound To The Yeast 80s Ribosome &gt;gi|699027993|pdb|4UJK|B Chain B, Crystal Structure Of Lycorine Bound To The Yeast 80s Ribosome &gt;gi|699028072|pdb|4UJM|EE Chain e, Crystal Structure Of Lycorine Bound To The Yeast 80s Ribosome &gt;gi|699028155|pdb|4UJP|B Chain B, Crystal Structure Of Lactimidomycin Bound To The Yeast 80s Ribosome &gt;gi|699028234|pdb|4UJR|EE Chain e, Crystal Structure Of Lactimidomycin Bound To The Yeast 80s Ribosome &gt;gi|699028317|pdb|4UJU|B Chain B, Crystal Structure Of T-2 Toxin Bound To The Yeast 80s Ribosome &gt;gi|699028396|pdb|4UJW|EE Chain e, Crystal Structure Of T-2 Toxin Bound To The Yeast 80s Ribosome &gt;gi|699028479|pdb|4UJZ|B Chain B, Crystal Structure Of Anisomycin Bound To The Yeast 80s Ribosome &gt;gi|699028558|pdb|4UK1|EE Chain e, Crystal Structure Of Anisomycin Bound To The Yeast 80s Ribosome &gt;gi|699028641|pdb|4UK4|B Chain B, Crystal Structure Of Cca Trinucleotide Bound To The Yeast 80s Ribosome &gt;gi|699028720|pdb|4UK6|EE Chain e, Crystal Structure Of Cca Trinucleotide Bound To The Yeast 80s Ribosome &gt;gi|699028803|pdb|4UK9|B Chain B, Crystal Structure Of Cycloheximide Bound To The Yeast 80s Ribosome &gt;gi|699028882|pdb|4UKB|EE Chain e, Crystal Structure Of Cycloheximide Bound To The Yeast 80s Ribosome &gt;gi|699028965|pdb|4UKF|B Chain B, Crystal Structure Of Blasticidin S Bound To The Yeast 80s Ribosome &gt;gi|699029044|pdb|4UKH|EE Chain e, Crystal Structure Of Blasticidin S Bound To The Yeast 80s Ribosome &gt;gi|699029127|pdb|4UKK|B Chain B, Crystal Structure Of Cryptopleurine Bound To The Yeast 80s Ribosome &gt;gi|699029206|pdb|4UKM|EE Chain e, Crystal Structure Of Cryptopleurine Bound To The Yeast 80s Ribosome &gt;gi|699029289|pdb|4UKP|B Chain B, Crystal Structure Of Deoxynivalenol Bound To The Yeast 80s Ribosome &gt;gi|699029368|pdb|4UKR|EE Chain e, Crystal Structure Of Deoxynivalenol Bound To The Yeast 80s Ribosome &gt;gi|699029451|pdb|4UKU|B Chain B, Crystal Structure Of Edeine Bound To The Yeast 80s Ribosome &gt;gi|699029530|pdb|4UKW|EE Chain e, Crystal Structure Of Edeine Bound To The Yeast 80s Ribosome &gt;gi|699029613|pdb|4UKZ|B Chain B, Crystal Structure Of Geneticin Bound To The Yeast 80s Ribosome &gt;gi|699029692|pdb|4UL1|EE Chain e, Crystal Structure Of Geneticin Bound To The Yeast 80s Ribosome &gt;gi|699029775|pdb|4UL4|B Chain B, Crystal Structure Of Homoharringtonine Bound To The Yeast 80s Ribosome &gt;gi|699029854|pdb|4UL6|EE Chain e, Crystal Structure Of Homoharringtonine Bound To The Yeast 80s Ribosome &gt;gi|699029937|pdb|4UL9|B Chain B, Crystal Structure Of Nagilactone C Bound To The Yeast 80s Ribosome &gt;gi|699030016|pdb|4ULB|EE Chain e, Crystal Structure Of Nagilactone C Bound To The Yeast 80s Ribosome &gt;gi|699030099|pdb|4ULE|B Chain B, Crystal Structure Of Pactamycin Bound To The Yeast 80s Ribosome &gt;gi|699030178|pdb|4ULG|EE Chain e, Crystal Structure Of Pactamycin Bound To The Yeast 80s Ribosome &gt;gi|699030261|pdb|4ULJ|B Chain B, Crystal Structure Of Phyllanthoside Bound To The Yeast 80s Ribosome &gt;gi|699030340|pdb|4ULM|EE Chain e, Crystal Structure Of Phyllanthoside Bound To The Yeast 80s Ribosome &gt;gi|699030423|pdb|4ULP|B Chain B, Crystal Structure Of Verrucarin Bound To The Yeast 80s Ribosome &gt;gi|699030502|pdb|4ULR|EE Chain e, Crystal Structure Of Verrucarin Bound To The Yeast 80s Ribosome</Hit_def>
+  <Hit_accession>4UJF_B</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.20344e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>LLAANTHLG--ARNVQVHQEPYVFNARPDGVHVINVGKTWEKLVLAARIIA-AIPNPEDVVAISSRTFGQRAVLKFAAHTGATPIAGRFTPGSFTNYIT---------------------------------------------RSFKE-PRLVIVTDPRSDAQAIKEASYVNIPVIALTDLDSPSEFVDVAIPCNNRGKHSIGLIWYLLAREVL</Hsp_hseq>
+      <Hsp_midline>LL +  H G   R      + Y+F  R +G+H+I++ KT   +  A  ++   + + + V+ + ++   Q+ + K A   G   +  R+  G  TN+ T                                             +  KE P +V + D R +  AI+EA  V IP++A+ D +   E +D  IP N+    +I L   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|635575167|pdb|4CUY|A</Hit_id>
+  <Hit_def>Chain A, Kluyveromyces Lactis 80s Ribosome In Complex With Crpv-ires &gt;gi|756142878|pdb|4UER|B Chain B, 40s-eif1-eif1a-eif3-eif3j Translation Initiation Complex From Lachancea Kluyveri</Hit_def>
+  <Hit_accession>4CUY_A</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>2.21075e-08</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>LLAANTHLG--ARNVQVHQEPYVFNARPDGVHVINVGKTWEKLVLAARIIA-AIPNPEDVVAISSRTFGQRAVLKFAAHTGATPIAGRFTPGSFTNYIT---------------------------------------------RSFKE-PRLVIVTDPRSDAQAIKEASYVNIPVIALTDLDSPSEFVDVAIPCNNRGKHSIGLIWYLLAREVL</Hsp_hseq>
+      <Hsp_midline>LL +  H G   R      + Y+F  R +G+H+I++ KT   +  A  ++   + + + V+ + ++   Q+ + K A   G   +  R+  G  TN+ T                                             +  KE P +V + D R +  AI+EA  V IP++A+ D +   E +D  IP N+    +I L   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|449802196|pdb|3ZEY|C</Hit_id>
+  <Hit_def>Chain C, High-resolution Cryo-electron Microscopy Structure Of The Trypanosoma Brucei Ribosome</Hit_def>
+  <Hit_accession>3ZEY_C</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>3.27079e-08</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>IKNLLESGVHFGHQVRRWDPRMKKYIFAE-RNGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>VQKLLAMHCHLG--TKNSSSAMKKYIHGRTSDGTNIIDIHMTWEKLILAARVIA-AVENPQDVTVCSTRLFGQRAIFKFSQLVGTSFLGGRFIPGTFTN-----------------QIQKKFMQ-----------------------------PRVLVVTDPRTDHQALREASLVNIPVIAFCDTDAPLEFVDIAIPCNNRGRHSISMMYWLLAREVL</Hsp_hseq>
+      <Hsp_midline>++ LL    H G   +     MKKYI     +G +IID+  T   +  A  ++   V + + V    T+   Q+ I K +Q  G  ++  R++ G  TN                 +I   F                               P V+ + D R +  A+REA  V IP++A  DT+   E +D  IP N+    +IS+   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|704360238|pdb|3J80|A</Hit_id>
+  <Hit_def>Chain A, Cryoem Structure Of 40s-eif1-eif1a Preinitiation Complex &gt;gi|704360290|pdb|3J81|A Chain A, Cryoem Structure Of A Partial Yeast 48s Preinitiation Complex &gt;gi|914684517|pdb|3JAM|A Chain A, Cryoem Structure Of 40s-eif1a-eif1 Complex From Yeast</Hit_def>
+  <Hit_accession>3J80_A</Hit_accession>
+  <Hit_len>254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>1.52654e-07</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>LLESGVHFGH---QVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVM</Hsp_qseq>
+      <Hsp_hseq>LLAARVHLGAKNVQVHQ-----EPYVYKARPDGVNVINVGKTWEKIVLAARIIA-AIPNPEDVVAISSRTYGQRAVLKYAAHTGATPIAGRFTPGSFTNYIT---------------------------------------------RSFKE-PRLVIVTDPRSDAQAIKESSYVNIPVIALTDLDSPSEYVDVAIPCNNRGKHSIGLIWYLLAREVL</Hsp_hseq>
+      <Hsp_midline>LL + VH G    QV +     + Y++  R +G+++I++ KT   I  A  ++   + + + V+ + ++   Q+ + K A   G   +  R+  G  TN+ T                                             +  KE P +V + D R +  AI+E+  V IP++A+ D +   E +D  IP N+    +I L   L+A  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|582044882|pdb|3J60|A</Hit_id>
+  <Hit_def>Chain A, Localization Of The Small Subunit Ribosomal Proteins Into A 5.5 A Cryo-em Map Of Triticum Aestivum Translating 80s Ribosome</Hit_def>
+  <Hit_accession>3J60_A</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>5.61126e-06</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>223</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>IKNLLESGVHFGHQVRRWDPRMKKYIFAER-NGIHIIDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRCGMFYVTNRWLGGMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIVAVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVME</Hsp_qseq>
+      <Hsp_hseq>IQMMLAADVHLG--TKNCDFQMERYVYKRRTDGIYIINLGKTWEKLQLAARVIV-AIENPQDIIVQSARPYGQRAVLKFAQYTGAHAIAGRHTPGTFTN--QLQTSFSE--------------------------------------------PRLLILTDPRTDHQPIKESALGNIPTIAFCDTDSPMRYVDIGIPANNKGKQSIGCLFWLLARMVLQ</Hsp_hseq>
+      <Hsp_midline>I+ +L + VH G   +  D +M++Y++  R +GI+II+L KT   ++ A  ++   + + + ++    +   Q+ + K AQ  G   +  R   G  TN   ++ S S                                             P ++ + D R +   I+E+    IP +A  DT+     +D  IP N+   ++I     L+A  V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|145580487|pdb|2P5S|A</Hit_id>
+  <Hit_def>Chain A, Rab Domain Of Human Rasef In Complex With Gdp &gt;gi|145580488|pdb|2P5S|B Chain B, Rab Domain Of Human Rasef In Complex With Gdp</Hit_def>
+  <Hit_accession>2P5S_A</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>0.943623</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>87</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>MKKYIFAERNGIHI---IDLQKTITAIREAYDMVRRTVSSGKSVLFVGTKKQSQQTIAKEAQRC</Hsp_qseq>
+      <Hsp_hseq>IAKSYFRKADGVLLLYDVTCEKSFLNIREWVDMIEDAAHETVPIMLVGNKADIRDTAATEGQKC</Hsp_hseq>
+      <Hsp_midline>+ K  F + +G+ +   +  +K+   IRE  DM+         ++ VG K   + T A E Q+C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|14719751|pdb|1E3D|B</Hit_id>
+  <Hit_def>Chain B, [nife] Hydrogenase From Desulfovibrio Desulfuricans Atcc 27774 &gt;gi|14719753|pdb|1E3D|D Chain D, [nife] Hydrogenase From Desulfovibrio Desulfuricans Atcc 27774</Hit_def>
+  <Hit_accession>1E3D_B</Hit_accession>
+  <Hit_len>542</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.00499</Hsp_evalue>
+      <Hsp_query-from>185</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>AVVDTNCNPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIEN----LQDEESGDELDESVS</Hsp_qseq>
+      <Hsp_hseq>ALASTRCLEDAINKPIPANATYIRNLVLGNQFMHDHLVHFYHLHALDFVDVTSALLADPAKAAKLANSIS</Hsp_hseq>
+      <Hsp_midline>A+  T C  + I+ PIP N   IR + L  Q + + ++   + H L  ++     L D     +L  S+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|167013373|pdb|2ZE5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase &gt;gi|167013374|pdb|2ZE6|A Chain A, Crystal Structure Of Adenosine Phosphate-isopentenyltransferase Complexed With Substrate Analog, Dmaspp &gt;gi|167013375|pdb|2ZE7|A Chain A, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Zinc Ion And Substrate Analog, Dmaspp &gt;gi|167013376|pdb|2ZE8|A Chain A, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate &gt;gi|167013377|pdb|2ZE8|B Chain B, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate &gt;gi|167013378|pdb|2ZE8|C Chain C, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate &gt;gi|167013379|pdb|2ZE8|D Chain D, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate</Hit_def>
+  <Hit_accession>2ZE5_A</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>2.25468</Hsp_evalue>
+      <Hsp_query-from>168</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KETIAIREARRVGIPIVAVVDTNCNPE---GIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIE</Hsp_qseq>
+      <Hsp_hseq>KTDMAIQIAQETGWPVVALDRVQCCPQIATGSGRPLESELQSTRRIYLDSRPLTEGILDAESAHRRLIFE</Hsp_hseq>
+      <Hsp_midline>K  +AI+ A+  G P+VA+    C P+   G   P+     + R I L ++ +   +++A + H   I E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|152149087|pdb|2HOQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Probable Haloacid Dehalogenase (Ph1655) From Pyrococcus Horikoshii Ot3</Hit_def>
+  <Hit_accession>2HOQ_A</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>3.62651</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>GMLTNFSTIRKSLSRLKKIERMEIDGTFEHLSKKEVASLRKEHAKLEKNLGGIKEMKELPGVVFIIDTRKETIAIREARRVGIPIV</Hsp_qseq>
+      <Hsp_hseq>GIITDGNPVKQ----WEKILRLELDDFFEHVIISDFEGVKKPHPKIFKK--ALKAFNVKPEEALMVGDRLYS-DIYGAKRVGMKTV</Hsp_hseq>
+      <Hsp_midline>G++T+ + +++     +KI R+E+D  FEH+   +   ++K H K+ K    +K     P    ++  R  +  I  A+RVG+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|313103928|pdb|3OUH|A</Hit_id>
+  <Hit_def>Chain A, Phd2-R127 With Jnj41536014 &gt;gi|313103930|pdb|3OUJ|A Chain A, Phd2 With 2-Oxoglutarate</Hit_def>
+  <Hit_accession>3OUH_A</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>4.11055</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>SPNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>+P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|313103929|pdb|3OUI|A</Hit_id>
+  <Hit_def>Chain A, Phd2-R717 With 40787422</Hit_def>
+  <Hit_accession>3OUI_A</Hit_accession>
+  <Hit_len>213</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.58059</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>SPNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>+P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|513137177|pdb|4BQW|A</Hit_id>
+  <Hit_def>Chain A, Hif Prolyl Hydroxylase 2 (phd2/ Egln1) In Complex With Mn(ii) And 2-(4-hydroxy-2-oxo-1,2-dihydroquinoline-3-carboxamido)acetic Acid &gt;gi|513137178|pdb|4BQX|A Chain A, Hif Prolyl Hydroxylase 2 (phd2/ Egln1) In Complex With Mn(ii) And N-[(1-chloro-4-hydroxyisoquinolin-3-yl)carbonyl]glycine (iox3/un9) &gt;gi|513137179|pdb|4BQY|A Chain A, Hif Prolyl Hydroxylase 2 (phd2/ Egln1) In Complex With Fe(ii) And N-[(1-chloro-4-hydroxyisoquinolin-3-yl)carbonyl]alanine &gt;gi|835020582|pdb|5A3U|A Chain A, Hif Prolyl Hydroxylase 2 (phd2/egln1) In Complex With 6-(5-oxo-4- (1h-1,2,3-triazol-1-yl)-2,5-dihydro-1h-pyrazol-1-yl) Nicotinic Acid &gt;gi|835020583|pdb|5A3U|B Chain B, Hif Prolyl Hydroxylase 2 (phd2/egln1) In Complex With 6-(5-oxo-4- (1h-1,2,3-triazol-1-yl)-2,5-dihydro-1h-pyrazol-1-yl) Nicotinic Acid &gt;gi|835020584|pdb|5A3U|C Chain C, Hif Prolyl Hydroxylase 2 (phd2/egln1) In Complex With 6-(5-oxo-4- (1h-1,2,3-triazol-1-yl)-2,5-dihydro-1h-pyrazol-1-yl) Nicotinic Acid</Hit_def>
+  <Hit_accession>4BQW_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.72751</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>SPNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>+P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|675082887|pdb|4UWD|A</Hit_id>
+  <Hit_def>Chain A, Hif Prolyl Hydroxylase 2 (phd2/ Egln1) D315e Variant In Complex With Mn(ii) And N-[(1-chloro-4-hydroxyisoquinolin-3-yl)carbonyl]glycine (iox3/un9)</Hit_def>
+  <Hit_accession>4UWD_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.72751</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>SPNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>+P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|315583407|pdb|2Y33|A</Hit_id>
+  <Hit_def>Chain A, S-Nitrosylated Phd2 (Gsno Soaked) In Complex With Zn(Ii) And Un9 &gt;gi|315583408|pdb|2Y34|A Chain A, S-Nitrosylated Phd2 (No Exposed) In Complex With Fe(Ii) And Un9</Hit_def>
+  <Hit_accession>2Y33_A</Hit_accession>
+  <Hit_len>252</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.94363</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>NPEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>SPNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>+P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|110591521|pdb|2G19|A</Hit_id>
+  <Hit_def>Chain A, Cellular Oxygen Sensing: Crystal Structure Of Hypoxia- Inducible Factor Prolyl Hydroxylase (Phd2)</Hit_def>
+  <Hit_accession>2G19_A</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>4.99495</Hsp_evalue>
+      <Hsp_query-from>193</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>PEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>PNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|374074213|pdb|3RUK|A</Hit_id>
+  <Hit_def>Chain A, Human Cytochrome P450 Cyp17a1 In Complex With Abiraterone &gt;gi|374074214|pdb|3RUK|B Chain B, Human Cytochrome P450 Cyp17a1 In Complex With Abiraterone &gt;gi|374074215|pdb|3RUK|C Chain C, Human Cytochrome P450 Cyp17a1 In Complex With Abiraterone &gt;gi|374074216|pdb|3RUK|D Chain D, Human Cytochrome P450 Cyp17a1 In Complex With Abiraterone &gt;gi|374074252|pdb|3SWZ|A Chain A, Human Cytochrome P450 17a1 In Complex With Tok-001 &gt;gi|374074253|pdb|3SWZ|B Chain B, Human Cytochrome P450 17a1 In Complex With Tok-001 &gt;gi|374074254|pdb|3SWZ|C Chain C, Human Cytochrome P450 17a1 In Complex With Tok-001 &gt;gi|374074255|pdb|3SWZ|D Chain D, Human Cytochrome P450 17a1 In Complex With Tok-001</Hit_def>
+  <Hit_accession>3RUK_A</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.08063</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIAIREARR</Hsp_qseq>
+      <Hsp_hseq>GQLPSLEGIPKVVFLIDSFKVKIKVRQAWR</Hsp_hseq>
+      <Hsp_midline>G +  ++ +P VVF+ID+ K  I +R+A R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|699027506|pdb|4NKV|A</Hit_id>
+  <Hit_def>Chain A, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Inhibitor Abiraterone &gt;gi|699027507|pdb|4NKV|B Chain B, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Inhibitor Abiraterone &gt;gi|699027508|pdb|4NKV|C Chain C, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Inhibitor Abiraterone &gt;gi|699027509|pdb|4NKV|D Chain D, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Inhibitor Abiraterone &gt;gi|699027510|pdb|4NKW|A Chain A, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Pregnenolone &gt;gi|699027511|pdb|4NKW|B Chain B, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Pregnenolone &gt;gi|699027512|pdb|4NKW|C Chain C, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Pregnenolone &gt;gi|699027513|pdb|4NKW|D Chain D, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Pregnenolone &gt;gi|699027514|pdb|4NKX|A Chain A, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Progesterone &gt;gi|699027515|pdb|4NKX|B Chain B, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Progesterone &gt;gi|699027516|pdb|4NKX|C Chain C, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Progesterone &gt;gi|699027517|pdb|4NKX|D Chain D, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate Progesterone &gt;gi|699027518|pdb|4NKY|A Chain A, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxyprogesterone &gt;gi|699027519|pdb|4NKY|B Chain B, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxyprogesterone &gt;gi|699027520|pdb|4NKY|C Chain C, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxyprogesterone &gt;gi|699027521|pdb|4NKY|D Chain D, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxyprogesterone &gt;gi|699027522|pdb|4NKZ|A Chain A, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxypregnenolone &gt;gi|699027523|pdb|4NKZ|B Chain B, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxypregnenolone &gt;gi|699027524|pdb|4NKZ|C Chain C, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxypregnenolone &gt;gi|699027525|pdb|4NKZ|D Chain D, Human Steroidogenic Cytochrome P450 17a1 Mutant A105l With Substrate 17alpha-hydroxypregnenolone</Hit_def>
+  <Hit_accession>4NKV_A</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>5.12537</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>453</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>30</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIAIREARR</Hsp_qseq>
+      <Hsp_hseq>GQLPSLEGIPKVVFLIDSFKVKIKVRQAWR</Hsp_hseq>
+      <Hsp_midline>G +  ++ +P VVF+ID+ K  I +R+A R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|110591523|pdb|2G1M|A</Hit_id>
+  <Hit_def>Chain A, Cellular Oxygen Sensing: Crystal Structure Of Hypoxia- Inducible Factor Prolyl Hydroxylase (Phd2) &gt;gi|254839568|pdb|3HQU|A Chain A, Phd2:fe:un9:partial Hif1-Alpha Substrate Complex</Hit_def>
+  <Hit_accession>2G1M_A</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.34049</Hsp_evalue>
+      <Hsp_query-from>193</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>PEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>PNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|254839566|pdb|3HQR|A</Hit_id>
+  <Hit_def>Chain A, Phd2:mn:nog:hif1-Alpha Substrate Complex</Hit_def>
+  <Hit_accession>3HQR_A</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>5.53511</Hsp_evalue>
+      <Hsp_query-from>193</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>PEGIDYPIPGNDDAIRAISLFTQLIANAVMEAGNEHGLKIIENLQDEESGDEL-DESVSLHEEGR</Hsp_qseq>
+      <Hsp_hseq>PNGQTKPLP-------ALKLALEYIVPCM----NKHGICVVDDFLGKETGQQIGDEVRALHDTGK</Hsp_hseq>
+      <Hsp_midline>P G   P+P       A+ L  + I   +    N+HG+ ++++   +E+G ++ DE  +LH+ G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|158430530|pdb|2QZP|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mutation Of An Acylptide HydrolaseESTERASE FROM AEROPYRUM PERNIX K1 &gt;gi|158430531|pdb|2QZP|B Chain B, Crystal Structure Of Mutation Of An Acylptide HydrolaseESTERASE FROM AEROPYRUM PERNIX K1</Hit_def>
+  <Hit_accession>2QZP_A</Hit_accession>
+  <Hit_len>562</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.32743</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>122</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIA</Hsp_qseq>
+      <Hsp_hseq>GGLRELARLPGFGFVSDIRGDLIA</Hsp_hseq>
+      <Hsp_midline>GG++E+  LPG  F+ D R + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|188595845|pdb|2QR5|A</Hit_id>
+  <Hit_def>Chain A, Aeropyrum Pernix Acylaminoacyl Peptidase, H367a Mutant &gt;gi|188595846|pdb|2QR5|B Chain B, Aeropyrum Pernix Acylaminoacyl Peptidase, H367a Mutant</Hit_def>
+  <Hit_accession>2QR5_A</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.70074</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIA</Hsp_qseq>
+      <Hsp_hseq>GGLRELARLPGFGFVSDIRGDLIA</Hsp_hseq>
+      <Hsp_midline>GG++E+  LPG  F+ D R + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|149242100|pdb|2HU8|A</Hit_id>
+  <Hit_def>Chain A, Binding Of Inhibitors By Acylaminoacyl Peptidase &gt;gi|149242101|pdb|2HU8|B Chain B, Binding Of Inhibitors By Acylaminoacyl Peptidase</Hit_def>
+  <Hit_accession>2HU8_A</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.76836</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIA</Hsp_qseq>
+      <Hsp_hseq>GGLRELARLPGFGFVSDIRGDLIA</Hsp_hseq>
+      <Hsp_midline>GG++E+  LPG  F+ D R + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|312207995|pdb|3O4H|A</Hit_id>
+  <Hit_def>Chain A, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312207996|pdb|3O4H|B Chain B, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312207997|pdb|3O4H|C Chain C, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312207998|pdb|3O4H|D Chain D, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312207999|pdb|3O4I|A Chain A, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312208000|pdb|3O4I|B Chain B, Structure And Catalysis Of Acylaminoacyl Peptidase</Hit_def>
+  <Hit_accession>3O4H_A</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.76836</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIA</Hsp_qseq>
+      <Hsp_hseq>GGLRELARLPGFGFVSDIRGDLIA</Hsp_hseq>
+      <Hsp_midline>GG++E+  LPG  F+ D R + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|312208001|pdb|3O4J|A</Hit_id>
+  <Hit_def>Chain A, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312208002|pdb|3O4J|B Chain B, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312208003|pdb|3O4J|C Chain C, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312208004|pdb|3O4J|D Chain D, Structure And Catalysis Of Acylaminoacyl Peptidase</Hit_def>
+  <Hit_accession>3O4J_A</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.83657</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIA</Hsp_qseq>
+      <Hsp_hseq>GGLRELARLPGFGFVSDIRGDLIA</Hsp_hseq>
+      <Hsp_midline>GG++E+  LPG  F+ D R + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|56554271|pdb|1VE6|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of An Acylpeptide Hydrolase/esterase From Aeropyrum Pernix K1 &gt;gi|56554272|pdb|1VE6|B Chain B, Crystal Structure Of An Acylpeptide Hydrolase/esterase From Aeropyrum Pernix K1 &gt;gi|56554273|pdb|1VE7|A Chain A, Crystal Structure Of An Acylpeptide HydrolaseESTERASE FROM AEROPYRUM Pernix K1 In Complex With P-Nitrophenyl Phosphate &gt;gi|56554274|pdb|1VE7|B Chain B, Crystal Structure Of An Acylpeptide HydrolaseESTERASE FROM AEROPYRUM Pernix K1 In Complex With P-Nitrophenyl Phosphate &gt;gi|149242094|pdb|2HU5|A Chain A, Binding Of Inhibitors By Acylaminoacyl-Peptidase &gt;gi|149242095|pdb|2HU5|B Chain B, Binding Of Inhibitors By Acylaminoacyl-Peptidase &gt;gi|149242096|pdb|2HU7|A Chain A, Binding Of Inhibitors By Acylaminoacyl Peptidase &gt;gi|149242097|pdb|2HU7|B Chain B, Binding Of Inhibitors By Acylaminoacyl Peptidase &gt;gi|312207991|pdb|3O4G|A Chain A, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312207992|pdb|3O4G|B Chain B, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312207993|pdb|3O4G|C Chain C, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|312207994|pdb|3O4G|D Chain D, Structure And Catalysis Of Acylaminoacyl Peptidase &gt;gi|751361436|pdb|4RE5|A Chain A, Acylaminoacyl Peptidase Complexed With A Chloromethylketone Inhibitor &gt;gi|751361437|pdb|4RE5|B Chain B, Acylaminoacyl Peptidase Complexed With A Chloromethylketone Inhibitor &gt;gi|751361438|pdb|4RE6|A Chain A, Acylaminoacyl Peptidase Complexed With A Chloromethylketone Inhibitor &gt;gi|751361439|pdb|4RE6|B Chain B, Acylaminoacyl Peptidase Complexed With A Chloromethylketone Inhibitor &gt;gi|751361440|pdb|4RE6|C Chain C, Acylaminoacyl Peptidase Complexed With A Chloromethylketone Inhibitor &gt;gi|751361441|pdb|4RE6|D Chain D, Acylaminoacyl Peptidase Complexed With A Chloromethylketone Inhibitor</Hit_def>
+  <Hit_accession>1VE6_A</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.90538</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>24</Hsp_align-len>
+      <Hsp_qseq>GGIKEMKELPGVVFIIDTRKETIA</Hsp_qseq>
+      <Hsp_hseq>GGLRELARLPGFGFVSDIRGDLIA</Hsp_hseq>
+      <Hsp_midline>GG++E+  LPG  F+ D R + IA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

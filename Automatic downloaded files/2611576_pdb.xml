@@ -1,0 +1,1162 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_166495</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611576</BlastOutput_query-def>
+  <BlastOutput_query-len>537</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_166495</Iteration_query-ID>
+  <Iteration_query-def>2611576</Iteration_query-def>
+  <Iteration_query-len>537</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|403072305|pdb|4GRI|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Glutamyl-Trna Synthetase Glurs From Borrelia Burgdorferi Bound To Glutamic Acid And Zinc &gt;gi|403072306|pdb|4GRI|B Chain B, Crystal Structure Of A Glutamyl-Trna Synthetase Glurs From Borrelia Burgdorferi Bound To Glutamic Acid And Zinc</Hit_def>
+  <Hit_accession>4GRI_A</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>510.76</Hsp_bit-score>
+      <Hsp_score>1314</Hsp_score>
+      <Hsp_evalue>9.23346e-176</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>520</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>502</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>332</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>520</Hsp_align-len>
+      <Hsp_qseq>MEVRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIE</Hsp_qseq>
+      <Hsp_hseq>LSTRVRYAPSPTGLQHIGGIRTALFNYFFAKSCGGKFLLRIEDTDQSRYSPEAENDLYSSLKWLGISFDEG-------------------PVVGGDYAPYVQSQRSAIYKQYAKYLIESGHAYYCYCSPERLERIKKIQNINKMPPGYDRHCRNLSNEEVENALIKKIKPVVRFKIPLEGDTSFDDILLGRITWANKDISPDPVILKSDGLPTYHLANVVDDYLMKITHVLRAQEWVSSGPLHVLLYKAFKWKPPIYCHLPMVMGNDGQKLSKRHGSTALRQFIEDGYLPEAIINYVTLLGWSYDDKREFFSKNDLEQFFSIEKINKSPAIFDYHKLDFFNSYYIREKKDEDLFNLLLPFFQKKGYVS-------------------KPSTLEENQKLKLL--IPLIKSRIKKLSDALNMTKFFYEDIKSWNLDEFLSRKKTAKEVCSILELIKPILEGFEKRSSEENDKIFYDFAESNGFKLGEILLPIRIAALGSKVSPPLFDSLKLIGKSKVFERIK</Hsp_hseq>
+      <Hsp_midline>+  RVRYAPSPTGLQHIGGIRTALFN+ FA++  G F+LR+EDTD+SR +   E +LY +L+WLG+S+DEG                      GG Y PY QS R+ +Y+     L+E+G AYYC+C   RLER++KI+ +N+MPPGYDRHCR L  EEV   L   +  V+RFK+PLEG T F D LLG I W N++I+PDP++LKSDG PTYHLANVVDD+ M+ITHVLRAQEWV S PLH+LLY+AF W+PP++CHLPMVMG DG KLSKRHG+T+  +F   GYLPEA++NYV +LG SY + ++ F++  L   FS+ ++NKSPA+FDY KL +FN  YIR K DE L  L+ PF    G                       P    E Q+  L+  IPLIK R++ L+DA  + + F+++        F+ ++    +V ++L   + ++      S  + + +    AE  G KLG+ L+PIR+A  G+ VS PL  +++++G S+   RI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|28948411|pdb|1J09|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thermus Thermophilus Glutamyl-Trna Synthetase Complexed With Atp And Glu &gt;gi|28948740|pdb|1N75|A Chain A, Crystal Structure Of Thermus Thermophilus Glutamyl-Trna Synthetase Complexed With Atp. &gt;gi|28948742|pdb|1N77|A Chain A, Crystal Structure Of Thermus Thermophilus Glutamyl-Trna Synthetase Complexed With Trna(Glu) And Atp. &gt;gi|28948743|pdb|1N77|B Chain B, Crystal Structure Of Thermus Thermophilus Glutamyl-Trna Synthetase Complexed With Trna(Glu) And Atp. &gt;gi|28948746|pdb|1N78|A Chain A, Crystal Structure Of Thermus Thermophilus Glutamyl-Trna Synthetase Complexed With Trna(Glu) And Glutamol-Amp. &gt;gi|28948747|pdb|1N78|B Chain B, Crystal Structure Of Thermus Thermophilus Glutamyl-Trna Synthetase Complexed With Trna(Glu) And Glutamol-Amp. &gt;gi|114793637|pdb|2CUZ|A Chain A, Glutamyl-Trna Synthetase From Thermus Thermophilus In Complex With L-Glutamate &gt;gi|114793638|pdb|2CV0|A Chain A, Glutamyl-Trna Synthetase From Thermus Thermophilus In Complex With Trna(Glu) And L-Glutamate &gt;gi|114793639|pdb|2CV0|B Chain B, Glutamyl-Trna Synthetase From Thermus Thermophilus In Complex With Trna(Glu) And L-Glutamate &gt;gi|114793642|pdb|2CV1|A Chain A, Glutamyl-Trna Synthetase From Thermus Thermophilus In Complex With Trna(Glu), Atp, And An Analog Of L-Glutamate: A Quaternary Complex &gt;gi|114793643|pdb|2CV1|B Chain B, Glutamyl-Trna Synthetase From Thermus Thermophilus In Complex With Trna(Glu), Atp, And An Analog Of L-Glutamate: A Quaternary Complex &gt;gi|114793646|pdb|2CV2|A Chain A, Glutamyl-Trna Synthetase From Thermus Thermophilus In Complex With Trna(Glu) And An Enzyme Inhibitor, Glu-Ams &gt;gi|114793647|pdb|2CV2|B Chain B, Glutamyl-Trna Synthetase From Thermus Thermophilus In Complex With Trna(Glu) And An Enzyme Inhibitor, Glu-Ams &gt;gi|118137631|pdb|2DXI|A Chain A, 2.2 A Crystal Structure Of Glutamyl-Trna Synthetase From Thermus Thermophilus Complexed With Trna(Glu), Atp, And L- Glutamol &gt;gi|118137632|pdb|2DXI|B Chain B, 2.2 A Crystal Structure Of Glutamyl-Trna Synthetase From Thermus Thermophilus Complexed With Trna(Glu), Atp, And L- Glutamol</Hit_def>
+  <Hit_accession>1J09_A</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>1.10246e-109</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIR-AKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIEHVI</Hsp_qseq>
+      <Hsp_hseq>VVTRIAPSPTGDPHVGTAYIALFNYAWARRNGGRFIVRIEDTDRARYVPGAEERILAALKWLGLSYDEG-------------------PDVGGPHGPYRQSERLPLYQKYAEELLKRGWAYRAFETPEELEQIRKEKG------GYDGRARNIPPEEAEERARRGEPHVIRLKVPRPGTTEVKDELRGVVVYDNQEI-PDVVLLKSDGYPTYHLANVVDDHLMGVTDVIRAEEWLVSTPIHVLLYRAFGWEAPRFYHMPLLRNPDKTKISKRKSHTSLDWYKAEGFLPEALRNYLCLMGFSMPDGREIFTLEEFIQAFTWERVSLGGPVFDLEKLRWMNGKYIREVLSLEEVAERVKPFLREAGLSWE--------------------------SEAYLRRAVELMRPRFDTLKEFPEKARYLFTEDYPVSEKAQRKLEEGLPLLKELYPRLRAQEE----WTEAALEALLRGFAAEKGVKLGQVAQPLRAALTGSLETPGLFEILALLGKERALRRLERAL</Hsp_hseq>
+      <Hsp_midline>V  R APSPTG  H+G    ALFN+ +AR + G F++R+EDTDR+R     E+ +   L+WLG+S+DEG                      GG +GPY QS R  LY+     L++ G AY  F     LE++RK +       GYD   R + PEE  E    G PHVIR KVP  G+T  +D L G + + N+EI PD +LLKSDG+PTYHLANVVDDH M +T V+RA+EW+ STP+H+LLYRAFGW+ P F H+P++   D  K+SKR   TS D ++  G+LPEAL NY+ ++G S  +G+++FT E+    F+  R++    VFD +KL W NG+YIR   S E++   V PF+  AG+                               + L R + L++ R   L + PE  R  F E     +         +  ++ +  R R         +E  +E LLR  A + G+KLG    P+R ALTG+  +  L   + +LG  R+  R+E  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|15826583|pdb|1G59|A</Hit_id>
+  <Hit_def>Chain A, Glutamyl-Trna Synthetase Complexed With Trna(Glu). &gt;gi|15826584|pdb|1G59|C Chain C, Glutamyl-Trna Synthetase Complexed With Trna(Glu). &gt;gi|157831204|pdb|1GLN|A Chain A, Architectures Of Class-Defining And Specific Domains Of Glutamyl-Trna Synthetase</Hit_def>
+  <Hit_accession>1G59_A</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>3.61605e-108</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>523</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>197</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIR-AKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIEHVI</Hsp_qseq>
+      <Hsp_hseq>VVTRIAPSPTGDPHVGTAYIALFNYAWARRNGGRFIVRIEDTDRARYVPGAEERILAALKWLGLSYDEG---PDVAAPTG----------------PYRQSERLPLYQKYAEELLKRGWAYRAFETPEELEQIRKEKG------GYDGRARNIPPEEAEERARRGEPHVIRLKVPRPGTTEVKDELRGVVVYDNQEI-PDVVLLKSDGYPTYHLANVVDDHLMGVTDVIRAEEWLVSTPIHVLLYRAFGWEAPRFYHMPLLRNPDKTKISKRKSHTSLDWYKAEGFLPEALRNYLCLMGFSMPDGREIFTLEEFIQAFTWERVSLGGPVFDLEKLRWMNGKYIREVLSLEEVAERVKPFLREAGLSWE--------------------------SEAYLRRAVELMRPRFDTLKEFPEKARYLFTEDYPVSEKAQRKLEEGLPLLKELYPRLRAQEE----WTEAALEALLRGFAAEKGVKLGQVAQPLRAALTGSLETPGLFEILALLGKERALRRLERAL</Hsp_hseq>
+      <Hsp_midline>V  R APSPTG  H+G    ALFN+ +AR + G F++R+EDTDR+R     E+ +   L+WLG+S+DEG   P+ A   G                PY QS R  LY+     L++ G AY  F     LE++RK +       GYD   R + PEE  E    G PHVIR KVP  G+T  +D L G + + N+EI PD +LLKSDG+PTYHLANVVDDH M +T V+RA+EW+ STP+H+LLYRAFGW+ P F H+P++   D  K+SKR   TS D ++  G+LPEAL NY+ ++G S  +G+++FT E+    F+  R++    VFD +KL W NG+YIR   S E++   V PF+  AG+                               + L R + L++ R   L + PE  R  F E     +         +  ++ +  R R         +E  +E LLR  A + G+KLG    P+R ALTG+  +  L   + +LG  R+  R+E  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122921441|pdb|2O5R|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Glutamyl-Trna Synthetase 1 (Ec 6.1.1.17) (Glutamate-Trna Ligase 1) (Glurs 1) (Tm1351) From Thermotoga Maritima At 2.5 A Resolution</Hit_def>
+  <Hit_accession>2O5R_A</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.798</Hsp_bit-score>
+      <Hsp_score>852</Hsp_score>
+      <Hsp_evalue>6.62824e-107</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>520</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>196</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>523</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELL--PEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPS---LPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIE</Hsp_qseq>
+      <Hsp_hseq>VRVRFAPSPTGFLHVGGARTALFNFLFARKEKGKFILRIEDTDLERSEREYEEKLXESLRWLGLLWDEG-------------------PDVGGDHGPYRQSERVEIYREHAERLVKEGKAYYVYAYPEEIEEXREKLLSEGKAPHYSQEXFEKFDTPERRREYEEKGLRPAVFFKXPRKDYV-LNDVVKGEVVFKTGAIG-DFVIXRSNGLPTYNFACVVDDXLXEITHVIRGDDHLSNTLRQLALYEAFEKAPPVFAHVSTILGPDGKKLSKRHGATSVEAFRDXGYLPEALVNYLALLGWSHPEGKELLTLEELISSFSLDRLSPNPAIFDPQKLKWXNGYYLRNXPIEKLAELAKPFFEKAGI----------------KIIDE----------EYFKKVLEITKERVEVLSEFPEESRFFFEDPAPVEIPEEXKEV-----FSQLKEELQNVRWTXEEITP--------VFKKVLKQHGVKPKEFYXTLRRVLTGREEGPELVNIIPLLGKEIFLRRIE</Hsp_hseq>
+      <Hsp_midline>VRVR+APSPTG  H+GG RTALFNFLFAR   G F+LR+EDTD  R    +E+ L ++LRWLG+ WDEG                      GG +GPY QS R ++YR    RLV+ G+AYY +     +E  R+        P Y +   E    PE  RE    G+   + FK P +      D + G++ ++   I  D ++ +S+G PTY+ A VVDD    ITHV+R  + + +T   L LY AF   PP+F H+  ++G DG KLSKRHGATS + FR+ GYLPEAL+NY+A+LG S+ EG++L T E+L + FSL RL+ +PA+FD +KL W NG Y+R    E+L  L  PF   AG+                +  DE              +V+ + KER+  L++ PE  R FF++P+   +PE+   V      +Q++  L   R    EI          + +   ++ G+K  +F   +R  LTG      LV  I +LG      RIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|307776347|pdb|3AKZ|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Thermotoga Maritima Nondiscriminating Glutamyl- Trna Synthetase In Complex With Trnagln And A Glutamyl-Amp Analog &gt;gi|307776348|pdb|3AKZ|D Chain D, Crystal Structure Of Thermotoga Maritima Nondiscriminating Glutamyl- Trna Synthetase In Complex With Trnagln And A Glutamyl-Amp Analog &gt;gi|307776349|pdb|3AKZ|C Chain C, Crystal Structure Of Thermotoga Maritima Nondiscriminating Glutamyl- Trna Synthetase In Complex With Trnagln And A Glutamyl-Amp Analog &gt;gi|307776350|pdb|3AKZ|A Chain A, Crystal Structure Of Thermotoga Maritima Nondiscriminating Glutamyl- Trna Synthetase In Complex With Trnagln And A Glutamyl-Amp Analog</Hit_def>
+  <Hit_accession>3AKZ_B</Hit_accession>
+  <Hit_len>487</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>3.88247e-98</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>524</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>482</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIEHVIR</Hsp_qseq>
+      <Hsp_hseq>VRVRFAPSPTGHLHVGGARTALFNWMFARKEGGKFILRIEDTDTERSSREYEQQILESLRWCGLDWDEGPDI-------------------GGDFGPYRQSERLEIYREYAEKLVEDKRAYYVVYD--------------KEDPSKELFTTYEYPHEYKE---KGHPVTIKFKV-LPGKTSFEDLLKGYMEFDNSTLE-DFIIMKSNGFPTYNFAVVVDDHLMRISHVFRGEDHLSNTPKQLMIYEAFGWEAPVFMHIPLILGSDRTPLSKRHGATSVEHFRREGILSRALMNYLALLGWRV-EGDEIFTIEEKLQSFDPKDISNKGVIFDYQKLEWVNGKHMRRIDLEDLKR---EFIEWAKYAGK-----EIPSVDERYFSE----------------TLRICREKVNTLSQLYDIMYPFMNDDYEYEKD-YVEKFLKREEAERVLEEAKKAFKDLNSWNMEEIEKTLRDLSEKGLASKKVVFQLIRGAVTGKLVTPGLFETIEVLGKERTLKRLERTLQ</Hsp_hseq>
+      <Hsp_midline>VRVR+APSPTG  H+GG RTALFN++FAR   G F+LR+EDTD  R +  +EQ + ++LRW G+ WDEG                      GG +GPY QS R ++YR    +LVE  +AYY   D              +  P  +       P E +E    G P  I+FKV L G T F D L G +E+ N  +  D I++KS+GFPTY+ A VVDDH MRI+HV R ++ + +TP  L++Y AFGW+ P+F H+P+++G+D   LSKRHGATS + FR  G L  AL+NY+A+LG    EG ++FT E+    F    ++    +FDY+KL W NG+++R    E L      FI  A   G      E  +V  R F++                 + + +E++  L+   +++  F  +    E+  +V K L   +   VL  A+    ++ S +  ++E  LR  +EK           IR A+TG  V+  L  TI +LG  R+  R+E  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|299856675|pdb|3AFH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thermotoga Maritima Nondiscriminating Glutamyl- Trna Synthetase In Complex With A Glutamyl-Amp Analog</Hit_def>
+  <Hit_accession>3AFH_A</Hit_accession>
+  <Hit_len>488</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>4.07919e-98</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>524</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>483</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIEHVIR</Hsp_qseq>
+      <Hsp_hseq>VRVRFAPSPTGHLHVGGARTALFNWMFARKEGGKFILRIEDTDTERSSREYEQQILESLRWCGLDWDEGPDI-------------------GGDFGPYRQSERLEIYREYAEKLVEDKRAYYVVYD--------------KEDPSKELFTTYEYPHEYKE---KGHPVTIKFKV-LPGKTSFEDLLKGYMEFDNSTLE-DFIIMKSNGFPTYNFAVVVDDHLMRISHVFRGEDHLSNTPKQLMIYEAFGWEAPVFMHIPLILGSDRTPLSKRHGATSVEHFRREGILSRALMNYLALLGWRV-EGDEIFTIEEKLQSFDPKDISNKGVIFDYQKLEWVNGKHMRRIDLEDLKR---EFIEWAKYAGK-----EIPSVDERYFSE----------------TLRICREKVNTLSQLYDIMYPFMNDDYEYEKD-YVEKFLKREEAERVLEEAKKAFKDLNSWNMEEIEKTLRDLSEKGLASKKVVFQLIRGAVTGKLVTPGLFETIEVLGKERTLKRLERTLQ</Hsp_hseq>
+      <Hsp_midline>VRVR+APSPTG  H+GG RTALFN++FAR   G F+LR+EDTD  R +  +EQ + ++LRW G+ WDEG                      GG +GPY QS R ++YR    +LVE  +AYY   D              +  P  +       P E +E    G P  I+FKV L G T F D L G +E+ N  +  D I++KS+GFPTY+ A VVDDH MRI+HV R ++ + +TP  L++Y AFGW+ P+F H+P+++G+D   LSKRHGATS + FR  G L  AL+NY+A+LG    EG ++FT E+    F    ++    +FDY+KL W NG+++R    E L      FI  A   G      E  +V  R F++                 + + +E++  L+   +++  F  +    E+  +V K L   +   VL  A+    ++ S +  ++E  LR  +EK           IR A+TG  V+  L  TI +LG  R+  R+E  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|307776357|pdb|3AL0|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of The Glutamine Transamidosome From Thermotoga Maritima In The Glutamylation State.</Hit_def>
+  <Hit_accession>3AL0_C</Hit_accession>
+  <Hit_len>592</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>3.48687e-97</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>524</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>587</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>187</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIEHVIR</Hsp_qseq>
+      <Hsp_hseq>VRVRFAPSPTGHLHVGGARTALFNWMFARKEGGKFILRIEDTDTERSSREYEQQILESLRWCGLDWDEGPDI-------------------GGDFGPYRQSERLEIYREYAEKLVEDKRAYYVVYDKE--------------DPSKELFTTYEYPHEYKE---KGHPVTIKFKV-LPGKTSFEDLLKGYMEFDNSTLE-DFIIMKSNGFPTYNFAVVVDDHLMRISHVFRGEDHLSNTPKQLMIYEAFGWEAPVFMHIPLILGSDRTPLSKRHGATSVEHFRREGILSRALMNYLALLGWRV-EGDEIFTIEEKLQSFDPKDISNKGVIFDYQKLEWVNGKHMRRIDLEDLKR---EFIEWAKYAGK-----EIPSVDERYFSE----------------TLRICREKVNTLSQLYDIMYPFMNDDYEYEKD-YVEKFLKREEAERVLEEAKKAFKDLNSWNMEEIEKTLRDLSEKGLASKKVVFQLIRGAVTGKLVTPGLFETIEVLGKERTLKRLERTLQ</Hsp_hseq>
+      <Hsp_midline>VRVR+APSPTG  H+GG RTALFN++FAR   G F+LR+EDTD  R +  +EQ + ++LRW G+ WDEG                      GG +GPY QS R ++YR    +LVE  +AYY   D                 P  +       P E +E    G P  I+FKV L G T F D L G +E+ N  +  D I++KS+GFPTY+ A VVDDH MRI+HV R ++ + +TP  L++Y AFGW+ P+F H+P+++G+D   LSKRHGATS + FR  G L  AL+NY+A+LG    EG ++FT E+    F    ++    +FDY+KL W NG+++R    E L      FI  A   G      E  +V  R F++                 + + +E++  L+   +++  F  +    E+  +V K L   +   VL  A+    ++ S +  ++E  LR  +EK           IR A+TG  V+  L  TI +LG  R+  R+E  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|114793606|pdb|2CFO|A</Hit_id>
+  <Hit_def>Chain A, Non-discriminating Glutamyl-trna Synthetase From Thermosynechococcus Elongatus In Complex With Glu &gt;gi|114793607|pdb|2CFO|B Chain B, Non-discriminating Glutamyl-trna Synthetase From Thermosynechococcus Elongatus In Complex With Glu</Hit_def>
+  <Hit_accession>2CFO_A</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.426</Hsp_bit-score>
+      <Hsp_score>742</Hsp_score>
+      <Hsp_evalue>1.37847e-90</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>259</Hsp_positive>
+      <Hsp_gaps>68</Hsp_gaps>
+      <Hsp_align-len>519</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSD-----GFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEG-QDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEV-----LLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRIL</Hsp_qseq>
+      <Hsp_hseq>VRVRLAPSPTGNLHIGTARTAVFNWLYARHRGGKFILRIEDTDRERSRPEYTENILEGLQWLGLTWDEG---------------------------PYFQSDRLDLYRQAIQTLLDKGLAYYCYCTPEELEALRAEQKAKGQAPRYDNRHRHLTPEEQAAFEAAGRTPVIRFKIEDDRQIEWQDLVRGRVSWQGADLGGDMVIARAAPRGEIGYPLYNLVVVVDDIAMGITDVIRGEDHIGNTPKQILLYEALGATPPNFAHTPLILNSTGQKLSKRDGVTSISDFRAMGYLAPALANYMTLLGWSPPEGVGELFTLDLAAKHFSFERINKAGARFDWDKLNWLNRQYIQQLEPEEFLAELIPLWQGAGYA-----------------FDE------ERDRPWLFDLAQLLQPGLNTLREAIDQGAVFF----IPSVTFDSEAMAQLGQPQSATILAYLLEH---LPAEPALTVAMGQQLIQQAAKAAGVKKGATMRTLRAALTGAVHGPDLMAAWQIL</Hsp_hseq>
+      <Hsp_midline>VRVR APSPTG  HIG  RTA+FN+L+AR   G F+LR+EDTDR R    + +N+ + L+WLG++WDEG                           PY QS R DLYR  +  L++ G AYYC+C    LE +R  +      P YD   R L PEE     A+G   VIRFK+  +    ++D + G + WQ  ++  D ++ ++      G+P Y+L  VVDD AM IT V+R ++ + +TP  +LLY A G  PP F H P+++ + G KLSKR G TS  +FR  GYL  AL NY+ +LG S  EG  +LFT +    HFS  R+NK+ A FD+ KL W N QYI+    E+  A + P    AG                    DE      E  R  L  +  L++  L  L +A +    FF    +P           + Q ++  + A  L H     +EP + V     L++  A+  G+K G  +  +R ALTGA     L+   +IL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|399125226|pdb|4G6Z|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of A Glutamyl-trna Synthetase Glurs From Burkholderia Thailandensis Bound To L-glutamate</Hit_def>
+  <Hit_accession>4G6Z_A</Hit_accession>
+  <Hit_len>490</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.1</Hsp_bit-score>
+      <Hsp_score>710</Hsp_score>
+      <Hsp_evalue>7.99166e-86</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>520</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>522</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCR----ELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARIE</Hsp_qseq>
+      <Hsp_hseq>VRTRFAPSPTGFIHLGNIRSALYPWAFARKMKGTFVLRIEDTDVERSSQEAVDAILEGMAWLGLDYDEG---------------------------PYYQMQRMDRYREVLAQMQEKGLVYPXYMSTEELDALRERQRAAGEKPRYDGTWRPEPGKVLPEP-----PAGVAPVLRFRNPLTGTVAWDDAVKGRVEISNEELD-DLVVARPDGTPMYNFCVVVDDLDMGITHVIRGDDHVNNTPRQINILRALGGEVPVYAHLPTVLNEQGEKMSKRHGAMSVMGYRDAGYLPEAVLNYLARLGWSHGDAE-IFTREQFVEWFDLEHLGKSPAQYDHNKLNWLNNHYIKEADDARLAGLAKPFFAALG--------IDAGAIE---------------QGPDLVSVMGLMKDRASTVKEIAENSAMFYRAPA-PGADALAQHVTDA--VRPALVEFAAAL-KTVEWTKEAIAAALKAVLGAHKLKMPQLAMPVRLLVAGTTHTPSIDAVLLLFGRDVVVSRIE</Hsp_hseq>
+      <Hsp_midline>VR R+APSPTG  H+G IR+AL+ + FAR   G FVLR+EDTD  R +      + + + WLG+ +DEG                           PY Q  R D YR  +A++ E G  Y  +     L+ +R+ +      P YD   R    ++LPE       +GV  V+RF+ PL G+  + DA+ G +E  NEE++ D ++ + DG P Y+   VVDD  M ITHV+R  + V +TP  + + RA G + P++ HLP V+   G K+SKRHGA S   +R+AGYLPEA+LNY+A LG S+G+ + +FTREQ    F L  L KSPA +D+ KL W N  YI+   D +L  L  PF A  G        ++AGA+                Q   L+ V+ L+K+R   + +  E    F++ P+ P          D   VR  LV     + + V  ++  +   L+A      +K+    MP+R+ + G T +  +   + + G     +RIE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|359545720|pdb|3PNY|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Glutamyl-Trna Synthetase From Mycobacterium Tuberculosis In Space Group P21 &gt;gi|359545721|pdb|3PNY|B Chain B, Structure Of Glutamyl-Trna Synthetase From Mycobacterium Tuberculosis In Space Group P21</Hit_def>
+  <Hit_accession>3PNY_A</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.595</Hsp_bit-score>
+      <Hsp_score>636</Hsp_score>
+      <Hsp_evalue>6.64597e-75</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>519</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>530</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAF-----GWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAV-------LVRARGLVHEIVSASEPDVEVLLR-AEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARI</Hsp_qseq>
+      <Hsp_hseq>VRVRFCPSPTGTPHVGLVRTALFNWAYARHTGGTFVFRIEDTDAQRDSEESYLALLDALRWLGLDWDEG---PEV----------------GGPYGPYRQSQRAEIYRDVLARLLAAGEAYHAFSTPEEVE-ARHVAAGRNPKLGYDNFDRHLTDAQRAAYLAEGRQPVVRLRMP-DDDLAWNDLVRGPVTFAAGSV-PDFALTRASGDPLYTLVNPCDDALMKITHVLRGEDLLPSTPRQLALHQALIRIGVAERIPKFAHLPTVLGEGTKKLSKRDPQSNLFAHRDRGFIPEGLLNYLALLGWSIADDHDLFGLDEMVAAFDVADVNSSPARFDQKKADALNAEHIRM------------------------LDVGDFTVRLRDHLDTH-GHHIALDEAAFAAAAELVQTRIVVLGDAWELLK-FFND----DQYVIDPK----AAAKELGPDGAAVLDAALAALTSVTDWTAPLIEAALKDALIEGLALKPRKAFSPIRVAATGTTVSPPLFESLELLGRDRSMQRL</Hsp_hseq>
+      <Hsp_midline>VRVR+ PSPTG  H+G +RTALFN+ +AR   G FV R+EDTD  R +      L D LRWLG+ WDEG   PE                 GG YGPY QS R ++YR  +ARL+  G+AY+ F     +E  R +        GYD   R L   +    LA G   V+R ++P +    + D + G + +    + PD  L ++ G P Y L N  DD  M+ITHVLR ++ +PSTP  L L++A        + P F HLP V+G    KLSKR   ++    R+ G++PE LLNY+A+LG S  +  DLF  +++ A F ++ +N SPA FD KK    N ++IR                          DV    VR R   D           +       L++ R+  L DA EL++ FF +    +Q V  PK    A  + +       L  A   +  +   + P +E  L+ A  E   +K      PIRVA TG TVS PL  ++ +LG  RS  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|210060724|pdb|2JA2|A</Hit_id>
+  <Hit_def>Chain A, Mycobacterium Tuberculosis Glutamyl-Trna Synthetase</Hit_def>
+  <Hit_accession>2JA2_A</Hit_accession>
+  <Hit_len>498</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>7.14511e-75</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>519</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>530</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAF-----GWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAV-------LVRARGLVHEIVSASEPDVEVLLR-AEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARI</Hsp_qseq>
+      <Hsp_hseq>VRVRFCPSPTGTPHVGLVRTALFNWAYARHTGGTFVFRIEDTDAQRDSEESYLALLDALRWLGLDWDEG---PEV----------------GGPYGPYRQSQRAEIYRDVLARLLAAGEAYHAFSTPEEVE-ARHVAAGRNPKLGYDNFDRHLTDAQRAAYLAEGRQPVVRLRMP-DDDLAWNDLVRGPVTFAAGSV-PDFALTRASGDPLYTLVNPCDDALMKITHVLRGEDLLPSTPRQLALHQALIRIGVAERIPKFAHLPTVLGEGTKKLSKRDPQSNLFAHRDRGFIPEGLLNYLALLGWSIADDHDLFGLDEMVAAFDVADVNSSPARFDQKKADALNAEHIRM------------------------LDVGDFTVRLRDHLDTH-GHHIALDEAAFAAAAELVQTRIVVLGDAWELLK-FFND----DQYVIDPK----AAAKELGPDGAAVLDAALAALTSVTDWTAPLIEAALKDALIEGLALKPRKAFSPIRVAATGTTVSPPLFESLELLGRDRSMQRL</Hsp_hseq>
+      <Hsp_midline>VRVR+ PSPTG  H+G +RTALFN+ +AR   G FV R+EDTD  R +      L D LRWLG+ WDEG   PE                 GG YGPY QS R ++YR  +ARL+  G+AY+ F     +E  R +        GYD   R L   +    LA G   V+R ++P +    + D + G + +    + PD  L ++ G P Y L N  DD  M+ITHVLR ++ +PSTP  L L++A        + P F HLP V+G    KLSKR   ++    R+ G++PE LLNY+A+LG S  +  DLF  +++ A F ++ +N SPA FD KK    N ++IR                          DV    VR R   D           +       L++ R+  L DA EL++ FF +    +Q V  PK    A  + +       L  A   +  +   + P +E  L+ A  E   +K      PIRVA TG TVS PL  ++ +LG  RS  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|359545717|pdb|3PNV|A</Hit_id>
+  <Hit_def>Chain A, V369m Mutant Of Glutamyl-Trna Synthetase From Mycobacterium Tuberculosis &gt;gi|359545718|pdb|3PNV|B Chain B, V369m Mutant Of Glutamyl-Trna Synthetase From Mycobacterium Tuberculosis</Hit_def>
+  <Hit_accession>3PNV_A</Hit_accession>
+  <Hit_len>505</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>9.77943e-75</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>519</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>530</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAF-----GWQPPLFCHLPMVMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEGQDLFTREQLCAHFSLSRLNKSPAVFDYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAVRTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAV-------LVRARGLVHEIVSASEPDVEVLLR-AEAEKFGIKLGDFLMPIRVALTGATVSAPLVGTIRILGASRSCARI</Hsp_qseq>
+      <Hsp_hseq>VRVRFCPSPTGTPHVGLVRTALFNWAYARHTGGTFVFRIEDTDAQRDSEESYLALLDALRWLGLDWDEG---PEV----------------GGPYGPYRQSQRAEIYRDVLARLLAAGEAYHAFSTPEEVE-ARHVAAGRNPKLGYDNFDRHLTDAQRAAYLAEGRQPVVRLRMP-DDDLAWNDLVRGPVTFAAGSV-PDFALTRASGDPLYTLVNPCDDALMKITHVLRGEDLLPSTPRQLALHQALIRIGVAERIPKFAHLPTVLGEGTKKLSKRDPQSNLFAHRDRGFIPEGLLNYLALLGWSIADDHDLFGLDEMVAAFDVADVNSSPARFDQKKADALNAEHIRM------------------------LDVGDFTVRLRDHLDTH-GHHIALDEAAFAAAAELMQTRIVVLGDAWELLK-FFND----DQYVIDPK----AAAKELGPDGAAVLDAALAALTSVTDWTAPLIEAALKDALIEGLALKPRKAFSPIRVAATGTTVSPPLFESLELLGRDRSMQRL</Hsp_hseq>
+      <Hsp_midline>VRVR+ PSPTG  H+G +RTALFN+ +AR   G FV R+EDTD  R +      L D LRWLG+ WDEG   PE                 GG YGPY QS R ++YR  +ARL+  G+AY+ F     +E  R +        GYD   R L   +    LA G   V+R ++P +    + D + G + +    + PD  L ++ G P Y L N  DD  M+ITHVLR ++ +PSTP  L L++A        + P F HLP V+G    KLSKR   ++    R+ G++PE LLNY+A+LG S  +  DLF  +++ A F ++ +N SPA FD KK    N ++IR                          DV    VR R   D           +       L++ R+  L DA EL++ FF +    +Q V  PK    A  + +       L  A   +  +   + P +E  L+ A  E   +K      PIRVA TG TVS PL  ++ +LG  RS  R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|48425079|pdb|1NZJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure And Activity Studies Of Escherichia Coli Yadb Orf &gt;gi|371927838|pdb|4A91|A Chain A, Crystal Structure Of The Glutamyl-Queuosine Trnaasp Synthetase From E.Coli Complexed With L-Glutamate</Hit_def>
+  <Hit_accession>1NZJ_A</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>4.36917e-30</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>277</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>272</Hsp_align-len>
+      <Hsp_qseq>RYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCHLPMVMGADGHKLSKRHGA</Hsp_qseq>
+      <Hsp_hseq>RFAPSPSGELHFGSLIAALGSYLQARARQGRWLVRIEDIDPPREVPGAAETILRQLEHYGLHWD---------------GD------------VLWQSQRHDAYREALAWLHEQGLSYYCTCTRARIQSIGGI---------YDGHCRVLHHGPDNAAVR------IRQQHPV---TQFTDQLRGIIHADEKLAREDFIIHRRDGLFAYNLAVVVDDHFQGVTEIVRGADLIEPTVRQISLYQLFGWKVPDYIHLPLALNPQGAKLSKQNHA</Hsp_hseq>
+      <Hsp_midline>R+APSP+G  H G +  AL ++L ARA  G +++R+ED D  R      + +   L   G+ WD               GD               QS R D YR  +A L E G +YYC C  +R++ +  I         YD HCR L        +       IR + P+   T F D L G I    +    D I+ + DG   Y+LA VVDDH   +T ++R  + +  T   + LY+ FGW+ P + HLP+ +   G KLSK++ A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|302148693|pdb|3AII|A</Hit_id>
+  <Hit_def>Chain A, Archaeal Non-Discriminating Glutamyl-Trna Synthetase From Methanothermobacter Thermautotrophicus</Hit_def>
+  <Hit_accession>3AII_A</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.219</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>6.00245e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>264</Hsp_align-len>
+      <Hsp_qseq>EVRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEEV----REC--LASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPPLFCH</Hsp_qseq>
+      <Hsp_hseq>EVVLRFAPNPSGPLHIGHARAAILNHEYARKYDGRLILRIEDTDPRRVDPEAYDMIPADLEWLGVEWDE----------------------------TVIQSDRMETYYEYTEKLIERGGAYVCTC---RPEEFRELK--NR---GEACHCRSLGFRENLQRWREMFEMKEGSA-VVRVKTDL---NHPNPAIRDWVSMRIVEAEHPRTGTRYRVYPMMNFSVAVDDHLLGVTHVLRGKDHLANREKQEYLYRHLGWEPPEFIH</Hsp_hseq>
+      <Hsp_midline>EV +R+AP+P+G  HIG  R A+ N  +AR + G  +LR+EDTD  R        +   L WLGV WDE                               QS R + Y     +L+E G AY C C   R E  R+++  NR   G   HCR L   E     RE   +  G   V+R K  L    H   A+   +  +  E        +   +P  + +  VDDH + +THVLR ++ + +      LYR  GW+PP F H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|146386870|pdb|2HZ7|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Glutaminyl-Trna Synthetase From Deinococcus Radiodurans</Hit_def>
+  <Hit_accession>2HZ7_A</Hit_accession>
+  <Hit_len>851</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>5.2177e-12</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>43</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGY-DRHCRELLPEEVRECLA---SGVPHVIRFKVPLEG-STHFRDALLGDIEWQNEEINPDPILLKSDG---FPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQP</Hsp_qseq>
+      <Hsp_hseq>VVTRFPPDPSGYAHLGHVFASLLDFNTARQYGGQFNLRMDDTNPELARQEYVDSIADDLKWLGLDWGE---------------------HF------YYASDYFDRYYAYAEQLIRQGDAYVESVSPEELSRLRGNATTPGTPSPYRDRSVEENL-DLLRRMKAGEFADGEHVLRAKIDLTAPNMKLRDPVLYRI------VN-KPHFRTSDEWHIYPAYDFEHPLQDAIEGVTHSMCSLEFVDNRAIYDWLMEKLNFDP</Hsp_hseq>
+      <Hsp_midline>V  R+ P P+G  H+G +  +L +F  AR + G F LR++DT+       +  ++ D L+WLG+ W E                     H       Y  S   D Y A   +L+  G AY        L R+R   T    P  Y DR   E L + +R   A   +   HV+R K+ L   +   RD +L  I      +N  P    SD    +P Y   + + D    +TH + + E+V +  ++  L     + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|695722043|pdb|4R3Z|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of Human Argrs-glnrs-aimp1 Complex</Hit_def>
+  <Hit_accession>4R3Z_C</Hit_accession>
+  <Hit_len>799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>3.15228e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>287</Hsp_hit-from>
+      <Hsp_hit-to>569</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>EVRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYR---AQVARLVETGQAYYCFCDASRLERVRKIRTLNRMP-PGYDRHCRE--LLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAFGWQPP-------LFCHLPMVMGADGHKLSKRHGATSCDE--------FRNAGYLPEALLNYVAMLGCSYGE</Hsp_qseq>
+      <Hsp_hseq>QVRTRFPPEPNGILHIGHAKAINFNFGYAKANNGICFLRFDDTNPEKEEAKFFTAICDMVAWLG-------------------------------YTPYKVTYASDYFDQLYAWAVELIRRGLAYVCH------QRGEELKGHNTLPSPWRDRPMEESLLLFEAMRKGKFSEGEATLRMKLVMEDGK--MDPVAYRVKYTPHHRTGDKWCI----YPTYDYTHCLCDSIEHITHSLCTKEFQARRSSYFWLCNALDVYCPVQWEYGRLNLHYAVVSKRKILQLVATGAVRDWDDPRLFTLTALRRRGFPPEAINNFCARVGVTVAQ</Hsp_hseq>
+      <Hsp_midline>+VR R+ P P G+ HIG  +   FNF +A+A+ G+  LR +DT+  +  A F   + D + WLG                               Y PY  +  +D +    A    L+  G AY C       +R  +++  N +P P  DR   E  LL E +R+   S     +R K+ +E      D +   +++       D   +    +PTY   + + D    ITH L  +E+      +  L  A     P       L  H  +V      +L         D+         R  G+ PEA+ N+ A +G +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|482677154|pdb|4H3S|A</Hit_id>
+  <Hit_def>Chain A, The Structure Of Glutaminyl-trna Synthetase From Saccharomyces Cerevisiae</Hit_def>
+  <Hit_accession>4H3S_A</Hit_accession>
+  <Hit_len>817</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.11604e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>139</Hsp_query-to>
+      <Hsp_hit-from>251</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>EVRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVS-WDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYR-AQVARLVETGQAYYCFCDASRLERVRKIR</Hsp_qseq>
+      <Hsp_hseq>KVRTRFPPEPNGYLHIGHSKAIMVNFGYAKYHNGTCYLRFDDTNPEKEAPEYFESIKRMVSWLGFKPWK----------------------------ITYSSDYFDELYRLAEV--LIKNGKAYVCHCTAEEIKRGRGIK</Hsp_hseq>
+      <Hsp_midline>+VR R+ P P G  HIG  +  + NF +A+ H G   LR +DT+  +    + +++   + WLG   W                               Y+     +LYR A+V  L++ G+AY C C A  ++R R I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|827343422|pdb|5BNZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Glutamine-trna Ligase /glutaminyl-trna Synthetase (glnrs) From Pseudomonas Aeruginosa &gt;gi|827343423|pdb|5BNZ|B Chain B, Crystal Structure Of Glutamine-trna Ligase /glutaminyl-trna Synthetase (glnrs) From Pseudomonas Aeruginosa</Hit_def>
+  <Hit_accession>5BNZ_A</Hit_accession>
+  <Hit_len>564</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>3.33025e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>333</Hsp_align-len>
+      <Hsp_qseq>EVRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTL-NRMPPGYDRHCRELLPEEVRECLASGVP---HVIRFKVPLEG-STHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLH--LLLYRAFGWQPPL--FCHLPM------------------VMGADGHKLSKRHGATSCDEFRNAGYLPEALLNYVAMLGCSYGEG</Hsp_qseq>
+      <Hsp_hseq>KIVTRFPPEPNGYLHIGHAKSICLNFGLAQEFAGDCHLRFDDTNPAKEDQEYIDAIEADIKWLGFQW------------------SGEVCYASNYF---------DQLHAWAVELIKAGKAFVCDLGPEEMREYRGTLTEPGRNSPYRDRSVEENLDLFAR-MKAGEFPDGARSLRAKIDMGSPNMNLRDPILYRIRHAHHHQTGDKWCI----YPSYDFTHGQSDAIEGITHSICTLEFEDHRPLYEWFLANLPVPAQPRQYEFSRLNLNYTVTSKRKLKQLVDEGHVSGWDDPRMSTLSG------YRRRGYTPESIRNFCEMIGVNRASG</Hsp_hseq>
+      <Hsp_midline>++  R+ P P G  HIG  ++   NF  A+  AG   LR +DT+ ++    +   +   ++WLG  W                     V +A   +         D   A    L++ G+A+ C      +   R   T   R  P  DR   E L    R   A   P     +R K+ +   + + RD +L  I   +     D   +    +P+Y   +   D    ITH +   E+    PL+   L       QP    F  L +                  V G D  ++S   G      +R  GY PE++ N+  M+G +   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|165761087|pdb|2RD2|A</Hit_id>
+  <Hit_def>Chain A, Glutaminyl-Trna Synthetase Mutant C229r With Bound Analog 5&apos;-O-[n-(L- Glutaminyl)-Sulfamoyl]adenosine &gt;gi|165761091|pdb|2RE8|A Chain A, Glutaminyl-Trna Synthetase Mutant C229r With Bound Analog 5&apos;-O-[n-(L-Glutamyl)-Sulfamoyl]adenosine</Hit_def>
+  <Hit_accession>2RD2_A</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>5.92272e-06</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMP----PGYDRHCRELLP----------EEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLH</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHWS---------------GNVR------------YSSDYFDQLHAYAIELINKGLAY---VDELTPEQIREYRGTLTQPGKNSPYRDRSVEENLALFEKMRAGGFEEGKACLRAKIDMASPFIV-------MRDPVLYRIKFAEHHQTGNKWCI----YPMYDFTHCISDALEGITHSLRTLEFQDNRRLY</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W                G+ R              S   D   A    L+  G AY    D    E++R+ R     P    P  DR   E L           EE + CL + +     F V        RD +L  I++       +   +    +P Y   + + D    ITH LR  E+  +  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|8569293|pdb|1EUQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Glutaminyl-Trna Synthetase Complexed With A Trna- Gln Mutant And An Active-Site Inhibitor &gt;gi|8569295|pdb|1EUY|A Chain A, Glutaminyl-Trna Synthetase Complexed With A Trna Mutant And An Active Site Inhibitor &gt;gi|8569569|pdb|1EXD|A Chain A, Crystal Structure Of A Tight-Binding Glutamine Trna Bound To Glutamine Aminoacyl Trna Synthetase</Hit_def>
+  <Hit_accession>1EUQ_A</Hit_accession>
+  <Hit_len>548</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.1819e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSW</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHW</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1942956|pdb|1QRT|A</Hit_id>
+  <Hit_def>Chain A, Glutaminyl-Trna Synthetase Mutant D235g Complexed With Glutamine Transfer Rna</Hit_def>
+  <Hit_accession>1QRT_A</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.27909e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSW</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHW</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|28949039|pdb|1NYL|A</Hit_id>
+  <Hit_def>Chain A, Unliganded Glutaminyl-Trna Synthetase</Hit_def>
+  <Hit_accession>1NYL_A</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.35486e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSW</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHW</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|30749806|pdb|1O0B|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of L-Glutamine And Ampcpp Bound To Glutamine Aminoacyl Trna Synthetase &gt;gi|30749808|pdb|1O0C|A Chain A, Crystal Structure Of L-glutamate And Ampcpp Bound To Glutamine Aminoacyl Trna Synthetase</Hit_def>
+  <Hit_accession>1O0B_A</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.42684e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSW</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHW</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|229955|pdb|1GSG|P</Hit_id>
+  <Hit_def>Chain P, Structure Of E.Coli Glutaminyl-Trna Synthetase Complexed With Trnagln And Atp At 2.8 Angstroms Resolution &gt;gi|999529|pdb|1GTR|A Chain A, Structural Basis Of Anticodon Loop Recognition By Glutaminyl-Trna Synthetase &gt;gi|999531|pdb|1GTS|A Chain A, Structural Basis For Transfer Rna Aminoaceylation By Escherichia Coli Glutaminyl-Trna Synthetase &gt;gi|3212590|pdb|1QTQ|A Chain A, Glutaminyl-Trna Synthetase Complexed With Trna And An Amino Acid Analog &gt;gi|71042333|pdb|1ZJW|A Chain A, Glutaminyl-trna Synthetase Complexed To Glutamine And 2&apos;deoxy A76 Glutamine Trna &gt;gi|485602196|pdb|4JXX|A Chain A, Crystal Structure Of E Coli E. Coli Glutaminyl-trna Synthetase Bound To Trna(gln)(cug) And Atp From Novel Cryostabilization Conditions &gt;gi|485602198|pdb|4JXZ|A Chain A, Structure Of E. Coli Glutaminyl-trna Synthetase Bound To Atp And A Trna(gln) Acceptor Containing A Uug Anticodon &gt;gi|508123925|pdb|4JYZ|A Chain A, Crystal Structure Of E. Coli Glutaminyl-trna Synthetase Bound To Atp And Native Trna(gln) Containing The Cmnm5s2u34 Anticodon Wobble Base</Hit_def>
+  <Hit_accession>1GSG_P</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.45381e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSW</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHW</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1942954|pdb|1QRS|A</Hit_id>
+  <Hit_def>Chain A, Glutaminyl-Trna Synthetase Mutant D235n Complexed With Glutamine Transfer Rna</Hit_def>
+  <Hit_accession>1QRS_A</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.45381e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSW</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHW</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1942958|pdb|1QRU|A</Hit_id>
+  <Hit_def>Chain A, Glutaminyl-Trna Synthetase Mutant I129t Complexed With Glutamine Transfer Rna</Hit_def>
+  <Hit_accession>1QRU_A</Hit_accession>
+  <Hit_len>553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.57543e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSW</Hsp_qseq>
+      <Hsp_hseq>VHTRFPPEPNGYLHIGHAKSICLNFGIAQDYKGQCNLRFDDTNPVKEDIEYVESIKNDVEWLGFHW</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  HIG  ++   NF  A+ + G   LR +DT+  +    + +++ + + WLG  W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|770386276|pdb|4P2B|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Apo Form Of The Glutaminyl-trna Synthetase Catalytic Domain From Toxoplasma Gondii.</Hit_def>
+  <Hit_accession>4P2B_A</Hit_accession>
+  <Hit_len>576</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>3.73516e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>250</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>VRVRYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCPETAVKQGARGDGRSVAHAGGAYGPYTQSARTDLYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNRMPPGYDRHCRELLPEE-------VRECLASGVPHVIRFKVPLEGST-HFRDALLGDIEWQNEEINPDPILLKSDGFPTYHLANVVDDHAMRITHVLRAQEWVPSTPLHLLLYRAF</Hsp_qseq>
+      <Hsp_hseq>VITRFPPEPNGFLHLGHAKSVCLNFGLAKAFGGRCHLRFDDTNPMKEETRYIESIQRDVRWLGGDW--------------------------GNHLYYASDYFQQLY-DWAELLIKKGLA---FVDDDSLEEIRRKRG-SISQPGENSPFRERSIEENLDLFRRMRAGEFEEGSRVLRAKIDMTHSNMNMRDPVLYRILKKEHPRTGNQWVI----YPMYDYAHGQSDSIENITHSICTLEF----DLHRILYDWF</Hsp_hseq>
+      <Hsp_midline>V  R+ P P G  H+G  ++   NF  A+A  G   LR +DT+  +    + +++   +RWLG  W                          G +  Y       LY      L++ G A   F D   LE +R+ R  +   PG +   RE   EE       +R         V+R K+ +  S  + RD +L  I  +      +  ++    +P Y  A+   D    ITH +   E+     LH +LY  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|62738755|pdb|1YT8|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Thiosulfate Sulfurtransferase From Pseudomonas Aeruginosa</Hit_def>
+  <Hit_accession>1YT8_A</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.72508</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>415</Hsp_hit-from>
+      <Hsp_hit-to>511</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>LYRAQVARLVE---TGQAYYCFCDASRLER--VRKIRTLNRMP-----PGYDRHCRELLPEEVRECLASGVPHVIRFKVPLEGSTHFRDALLGDIEWQ</Hsp_qseq>
+      <Hsp_hseq>VLRSQLKQALERLGTAERYVLTCGSSLLARFAVAEVQALSGKPVFLLDGGTSAWVAAGLPTEDGESLLAS-PRIDRYRRPYEGTDNPREAXQGYLDWE</Hsp_hseq>
+      <Hsp_midline>+ R+Q+ + +E   T + Y   C +S L R  V +++ L+  P      G        LP E  E L +  P + R++ P EG+ + R+A  G ++W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|340708159|pdb|3RWA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Circular-Permutated Mkate &gt;gi|340708160|pdb|3RWA|B Chain B, Crystal Structure Of Circular-Permutated Mkate &gt;gi|340708161|pdb|3RWA|C Chain C, Crystal Structure Of Circular-Permutated Mkate &gt;gi|340708162|pdb|3RWA|D Chain D, Crystal Structure Of Circular-Permutated Mkate &gt;gi|340708163|pdb|3RWA|E Chain E, Crystal Structure Of Circular-Permutated Mkate &gt;gi|340708164|pdb|3RWA|F Chain F, Crystal Structure Of Circular-Permutated Mkate &gt;gi|340708165|pdb|3RWA|G Chain G, Crystal Structure Of Circular-Permutated Mkate &gt;gi|340708166|pdb|3RWA|H Chain H, Crystal Structure Of Circular-Permutated Mkate</Hit_def>
+  <Hit_accession>3RWA_A</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>2.73617</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>RYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCP</Hsp_qseq>
+      <Hsp_hseq>RYCDLPSKLGHAGGTGGSMSELITENMHMKLYMEGTVNNHHFKCTSEGEGKPYEGTQTMRIKVVEGGPLP</Hsp_hseq>
+      <Hsp_midline>RY   P+ L H GG   ++   +    H  +++    +    +CT+  E   Y+  + + +   EGG  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|340708167|pdb|3RWT|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153) &gt;gi|340708168|pdb|3RWT|B Chain B, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153) &gt;gi|340708169|pdb|3RWT|C Chain C, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153) &gt;gi|340708170|pdb|3RWT|D Chain D, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153) &gt;gi|340708171|pdb|3RWT|E Chain E, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153) &gt;gi|340708172|pdb|3RWT|F Chain F, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153) &gt;gi|340708173|pdb|3RWT|G Chain G, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153) &gt;gi|340708174|pdb|3RWT|H Chain H, Crystal Structure Of Circular Permutated Red Fluorescent Protein Mkate(Cp 154-153)</Hit_def>
+  <Hit_accession>3RWT_A</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>3.82175</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>RYAPSPTGLQHIGGIRTALFNFLFARAHAGVFVLRVEDTDRSRCTAAFEQNLYDTLRWLGVSWDEGGGCP</Hsp_qseq>
+      <Hsp_hseq>RYCDLPSKLGHKGGTGGSMSELITENMHMKLYMEGTVNNHHFKCTSEGEGKPYEGTQTMRIKVVEGGPLP</Hsp_hseq>
+      <Hsp_midline>RY   P+ L H GG   ++   +    H  +++    +    +CT+  E   Y+  + + +   EGG  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|478247196|pdb|3W3Y|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Kap121p Bound To Nup53p</Hit_def>
+  <Hit_accession>3W3Y_B</Hit_accession>
+  <Hit_len>48</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>5.29892</Hsp_evalue>
+      <Hsp_query-from>438</Hsp_query-from>
+      <Hsp_query-to>468</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>48</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>PKRLDVAQVRAVLVRARGLVHE-IVSASEPDV</Hsp_qseq>
+      <Hsp_hseq>PRRLEIKDGRSLFLRNRGKIHSGVLSSIESDL</Hsp_hseq>
+      <Hsp_midline>P+RL++   R++ +R RG +H  ++S+ E D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|83754904|pdb|2CYB|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tyrosyl-Trna Synthetase Complexed With L-Tyrosine From Archaeoglobus Fulgidus &gt;gi|83754905|pdb|2CYB|B Chain B, Crystal Structure Of Tyrosyl-Trna Synthetase Complexed With L-Tyrosine From Archaeoglobus Fulgidus</Hit_def>
+  <Hit_accession>2CYB_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>5.78615</Hsp_evalue>
+      <Hsp_query-from>250</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>194</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>10</Hsp_identity>
+      <Hsp_positive>16</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>27</Hsp_align-len>
+      <Hsp_qseq>FGWQPPLFCHLPMVMGADGHKLSKRHG</Hsp_qseq>
+      <Hsp_hseq>LGYSSPVCLHTPILVGLDGQKMSSSKG</Hsp_hseq>
+      <Hsp_midline> G+  P+  H P+++G DG K+S   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|345531903|pdb|3TL3|A</Hit_id>
+  <Hit_def>Chain A, Structure Of A Short-chain Type Dehydrogenase/reductase From Mycobacterium Ulcerans &gt;gi|345531904|pdb|3TL3|B Chain B, Structure Of A Short-chain Type Dehydrogenase/reductase From Mycobacterium Ulcerans</Hit_def>
+  <Hit_accession>3TL3_A</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>6.4518</Hsp_evalue>
+      <Hsp_query-from>137</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>KIRTLNRMPPGYDRHCRELLPEEVRECLASGVPHVIRFKVPLE</Hsp_qseq>
+      <Hsp_hseq>RIRVMTIAPGLFDTPLLASLPEEARASLGKQVPHPSRLGNPDE</Hsp_hseq>
+      <Hsp_midline>+IR +   P  +D      LPEE R  L   VPH  R   P E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|306991872|pdb|3NTK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tudor &gt;gi|306991873|pdb|3NTK|B Chain B, Crystal Structure Of Tudor</Hit_def>
+  <Hit_accession>3NTK_A</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.48495</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNR---MPPGYDRHCRELLPEEVRECLAS</Hsp_qseq>
+      <Hsp_hseq>FYRAQIRKVLDDGKCEVHFIDFGNNAVTQQFRQLPEELAKPARYSRHC-ELDASTISKCDAA</Hsp_hseq>
+      <Hsp_midline> YRAQ+ ++++ G+    F D       ++ R L      P  Y RHC EL    + +C A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|306991868|pdb|3NTH|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Tudor And Aubergine [r13(Me2s)] Complex &gt;gi|306991870|pdb|3NTI|A Chain A, Crystal Structure Of Tudor And Aubergine [r15(Me2s)] Complex</Hit_def>
+  <Hit_accession>3NTH_A</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>6.58141</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>66</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LYRAQVARLVETGQAYYCFCDASRLERVRKIRTLNR---MPPGYDRHCRELLPEEVRECLAS</Hsp_qseq>
+      <Hsp_hseq>FYRAQIRKVLDDGKCEVHFIDFGNNAVTQQFRQLPEELAKPARYSRHC-ELDASTISKCDAA</Hsp_hseq>
+      <Hsp_midline> YRAQ+ ++++ G+    F D       ++ R L      P  Y RHC EL    + +C A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|14278674|pdb|1E10|A</Hit_id>
+  <Hit_def>Chain A, [2fe-2s]-Ferredoxin From Halobacterium Salinarum</Hit_def>
+  <Hit_accession>1E10_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.80653</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAV</Hsp_qseq>
+      <Hsp_hseq>DYGTMEVAEGEYILEAAEAQ--GYDWPFSCRAGACANCASIVKEGEI</Hsp_hseq>
+      <Hsp_midline>DY  +    G+YI   ++ Q     WPF   AG C +  + V+ G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|157830853|pdb|1DOI|A</Hit_id>
+  <Hit_def>Chain A, 2fe-2s Ferredoxin From Haloarcula Marismortui</Hit_def>
+  <Hit_accession>1DOI_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>7.06956</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAV</Hsp_qseq>
+      <Hsp_hseq>DYGSLEVNEGEYILEAAEAQ--GYDWPFSCRAGACANCAAIVLEGDI</Hsp_hseq>
+      <Hsp_midline>DY  L    G+YI   ++ Q     WPF   AG C +  A V  G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|257097767|pdb|1E0Z|A</Hit_id>
+  <Hit_def>Chain A, [2fe-2s]-Ferredoxin From Halobacterium Salinarum</Hit_def>
+  <Hit_accession>1E0Z_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.84584</Hsp_evalue>
+      <Hsp_query-from>333</Hsp_query-from>
+      <Hsp_query-to>379</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>DYKKLAWFNGQYIRAKSDEQLCALVWPFIANAGVCGHIPADVEAGAV</Hsp_qseq>
+      <Hsp_hseq>DYGTMEVAEGEYILEAAEAQ--GYDWPFSCRAGACANCASIVKEGEI</Hsp_hseq>
+      <Hsp_midline>DY  +    G+YI   ++ Q     WPF   AG C +  + V+ G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|906848906|pdb|4U3K|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Rhogap Domain Of Rgd1p At 2.19 Angstroms Resolution</Hit_def>
+  <Hit_accession>4U3K_A</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>8.35307</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>203</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>VRKIRTLNRMPPGYDRHCR--------------ELLPEEVRECLASGVPHVI-RFKVPLEGSTHFRDALLGDIEWQNEEINPDP</Hsp_qseq>
+      <Hsp_hseq>ISHIQTNNNMPPGVQKNFKTFGVPLESLIEFEQDMVPAIVRQCI-----YVIDKFGLDQEG-IYRKSANVLDVSKLKEEIDKDP</Hsp_hseq>
+      <Hsp_midline>+  I+T N MPPG  ++ +              +++P  VR+C+     +VI +F +  EG  + + A + D+    EEI+ DP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|99032498|pdb|2GFN|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Hth-Type Transcriptional Regulator Pksa Related Protein From Rhodococcus Sp. Rha1 &gt;gi|99032499|pdb|2GFN|B Chain B, Crystal Structure Of Hth-Type Transcriptional Regulator Pksa Related Protein From Rhodococcus Sp. Rha1</Hit_def>
+  <Hit_accession>2GFN_A</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.63754</Hsp_evalue>
+      <Hsp_query-from>380</Hsp_query-from>
+      <Hsp_query-to>483</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>RTRRFADEAPCAPTEAQRSMLMRVIPLIKERLRFLTDAPELVRCFFQEPSLPEQGVFVPKRLDVAQVRAVLVRARGLVHEIVSASEPDVEVLLRAEAEKFGIKL</Hsp_qseq>
+      <Hsp_hseq>RYRTILDEEGAGPIEKLRNITASILPLDERRL-----AXTRVFLFFYAEGAAEETAR-------GEIAAFLARWRGVVRESVVAAQREGTVSTDLDADAVTVAL</Hsp_hseq>
+      <Hsp_midline>R R   DE    P E  R++   ++PL + RL     A   V  FF      E+           ++ A L R RG+V E V A++ +  V    +A+   + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

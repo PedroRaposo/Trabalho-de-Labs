@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_36547</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611718</BlastOutput_query-def>
+  <BlastOutput_query-len>316</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_36547</Iteration_query-ID>
+  <Iteration_query-def>2611718</Iteration_query-def>
+  <Iteration_query-len>316</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|152149497|pdb|2QGN|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Trna Isopentenylpyrophosphate Transferase (Bh2366) From Bacillus Halodurans, Northeast Structural Genomics Consortium Target Bhr41. &gt;gi|212375070|pdb|3EXA|A Chain A, Crystal Structure Of The Full-Length Trna Isopentenylpyrophosphate Transferase (Bh2366) From Bacillus Halodurans, Northeast Structural Genomics Consortium Target Bhr41. &gt;gi|212375071|pdb|3EXA|B Chain B, Crystal Structure Of The Full-Length Trna Isopentenylpyrophosphate Transferase (Bh2366) From Bacillus Halodurans, Northeast Structural Genomics Consortium Target Bhr41. &gt;gi|212375072|pdb|3EXA|C Chain C, Crystal Structure Of The Full-Length Trna Isopentenylpyrophosphate Transferase (Bh2366) From Bacillus Halodurans, Northeast Structural Genomics Consortium Target Bhr41. &gt;gi|212375073|pdb|3EXA|D Chain D, Crystal Structure Of The Full-Length Trna Isopentenylpyrophosphate Transferase (Bh2366) From Bacillus Halodurans, Northeast Structural Genomics Consortium Target Bhr41.</Hit_def>
+  <Hit_accession>2QGN_A</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.91855e-42</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>294</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>302</Hsp_align-len>
+      <Hsp_qseq>LVVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGKDLAL-YGSVPYHLIDVCDPYEEYNVFRFQQAVYGIVPSILRAHKVPIIVGGTGLYLDAVLRQYALVPVERNQALRASLR------GASLSHMRAVYFSLKDSHAVHNKTDLEDPARLMRAIEIAVFHATHPELLQQAR---ETRPMMRAKVYGIQYPRSMLRARIRARLEQRIRGGLIEEVAALHKGGV-SWQRLEYFGLEYRFTAQYLQGIIATRDEYVDLLFRAISRFAKRQETWFRRMQRLGVKIHWLVHTENGF</Hsp_qseq>
+      <Hsp_hseq>VAIVGPTAVGKTKTSVXLAKRLNGEVISGDSXQVYRGXDIGTAKITAEEXDGVPHHLIDIKDPSESFSVADFQDLATPLITEIHERGRLPFLVGGTGLYVNAVIHQFNLGDIRADEDYRHELEAFVNSYGVQALHDKLSKIDPKAAAAIHPN----NYRRVIRALEI--IKLTGKTVTEQARHEEETPSPYNLVXIGLTXERDVLYDRINRRVDQXVEEGLIDEAKKLYDRGIRDCQSVQAIG--YKEXYDYLDGNV-TLEEAIDTLKRNSRRYAKRQLTWFRNK----ANVTWFDXTDVDF</Hsp_hseq>
+      <Hsp_midline>+ ++G TA GKT  +V LA++  GE+IS DS QVYRG D+GT K  A     VP+HLID+ DP E ++V  FQ     ++  I    ++P +VGGTGLY++AV+ Q+ L  +  ++  R  L       G    H +      K + A+H      +  R++RA+EI     T   + +QAR   ET         G+   R +L  RI  R++Q +  GLI+E   L+  G+   Q ++  G  Y+    YL G + T +E +D L R   R+AKRQ TWFR        + W   T+  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|194320048|pdb|3D3Q|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Trna Delta(2)-Isopentenylpyrophosphate Transferase (Se0981) From Staphylococcus Epidermidis. Northeast Structural Genomics Consortium Target Ser100 &gt;gi|194320049|pdb|3D3Q|B Chain B, Crystal Structure Of Trna Delta(2)-Isopentenylpyrophosphate Transferase (Se0981) From Staphylococcus Epidermidis. Northeast Structural Genomics Consortium Target Ser100</Hit_def>
+  <Hit_accession>3D3Q_A</Hit_accession>
+  <Hit_len>340</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.168</Hsp_bit-score>
+      <Hsp_score>300</Hsp_score>
+      <Hsp_evalue>1.41518e-30</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>301</Hsp_align-len>
+      <Hsp_qseq>LVVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGK-DLALYGSVPYHLIDVCDPYEEYNVFRFQQAVYGIVPSILRAHKVPIIVGGTGLYLDAVLRQYAL--VPVERNQALRASLRGASLSHMRAVYF----------SLKDSHAVHNKTDLEDPARLMRAIEIAVFHATHPELLQQARETRPMMR---AKVYGIQYPRSMLRARIRARLEQRIRGGLIEEVAAL-HKGGVSWQRLEYFGLEYRFTAQYLQGIIATRDEYVDLLFRAISRFAKRQETWFRRMQRLGVKIHWL</Hsp_qseq>
+      <Hsp_hseq>IVIVGPTASGKTELSIEVAKKFNGEIISGDSXQVYQGXDIGTAKVTTEEXEGIPHYXIDILPPDASFSAYEFKKRAEKYIKDITRRGKVPIIAGGTGLYIQSLLYNYAFEDESISEDKXKQVKLKLKELEHLNNNKLHEYLASFDKESAKDIHPNNRK-------RVLRAIE---YYLKTKKLLSSRKKVQQFTENYDTLLIGIEXSRETLYLRINKRVDIXLGHGLFNEVQHLVEQGFEASQSXQAIG--YKELVPVIKGNISXENA-VEKLKQHSRQYAKRQLTWFKNKXN----VHWL</Hsp_hseq>
+      <Hsp_midline>+V++G TA+GKT L++ +A+K+ GEIIS DS QVY+G D+GT K        +P++ ID+  P   ++ + F++     +  I R  KVPII GGTGLY+ ++L  YA     +  ++  +  L+   L H+               S KD H  + K       R++RAIE   ++    +LL   ++ +         + GI+  R  L  RI  R++  +  GL  EV  L  +G  + Q  +  G  Y+     ++G I+  +  V+ L +   ++AKRQ TWF+        +HWL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|221046906|pdb|3FOZ|A</Hit_id>
+  <Hit_def>Chain A, Structure Of E. Coli Isopentenyl-Trna Transferase In Complex With E. Coli Trna(Phe) &gt;gi|221046907|pdb|3FOZ|B Chain B, Structure Of E. Coli Isopentenyl-Trna Transferase In Complex With E. Coli Trna(Phe) &gt;gi|238537730|pdb|2ZXU|A Chain A, Crystal Structure Of Trna Modification Enzyme Miaa In The Complex With Trna(Phe) And Dmaspp &gt;gi|238537731|pdb|2ZXU|B Chain B, Crystal Structure Of Trna Modification Enzyme Miaa In The Complex With Trna(Phe) And Dmaspp</Hit_def>
+  <Hit_accession>3FOZ_A</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.153</Hsp_bit-score>
+      <Hsp_score>274</Hsp_score>
+      <Hsp_evalue>2.54579e-27</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>ALVVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGKDLA-LYGSVPYHLIDVCDPYEEYNVFRFQQAVYGIVPSILRAHKVPIIVGGTGLYLDAVLRQYALVPVERNQALRASL-RGASLSHMRAVYFSLKDSHAV-HNKTDLEDPARLMRAIEIAVFHA-THPELLQQARETRPMMRAKVYGIQYPRSMLRARIRARLEQRIRGGLIEEVAALH-KGGVSWQRLEYFGLEYRFTAQYLQGIIATRDEYVDLLFRAIS---RFAKRQETWFRRMQRLGVKIHWL</Hsp_qseq>
+      <Hsp_hseq>AIFLMGPTASGKTALAIELRKILPVELISVDSALIYKGMDIGTAKPNAEELLAAPHRLLDIRDPSQAYSAADFRRDALAEMADITAAGRIPLLVGGTMLYFKALLEGLSPLP-SADPEVRARIEQQAAEQGWESLHRQLQEVDPVAAARIHPNDPQRLSRALEVFFISGKTLTELTQTSGDALPYQVHQFAIAPASRELLHQRIEQRFHQMLASGFEAEVRALFARGDLHTDLPSIRCVGYRQMWSYLEGEIS----YDEMVYRGVCATRQLAKRQITWLRGWE----GVHWL</Hsp_hseq>
+      <Hsp_midline>A+ ++G TA+GKTALA+ L +    E+IS DS  +Y+G+D+GT K  A    + P+ L+D+ DP + Y+   F++     +  I  A ++P++VGGT LY  A+L   + +P   +  +RA + + A+     +++  L++   V   +    DP RL RA+E+      T  EL Q + +  P    +       R +L  RI  R  Q +  G   EV AL  +G +         + YR    YL+G I+    Y ++++R +    + AKRQ TW R  +     +HWL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|186973101|pdb|3CRM|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Trna Dimethylallyltransferase: Rna Modification Through A Channel &gt;gi|186973102|pdb|3CRQ|A Chain A, Structure Of Trna Dimethylallyltransferase: Rna Modification Through A Channel &gt;gi|186973103|pdb|3CRR|A Chain A, Structure Of Trna Dimethylallyltransferase: Rna Modification Through A Channel</Hit_def>
+  <Hit_accession>3CRM_A</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.22646e-26</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>ALVVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGK-DLALYGSVPYHLIDVCDPYEEYNVFRFQQAVYGIVPSILRAHKVPIIVGGTGLYLDAVLRQYALVP-----VERNQALRASLRGASLSHMRAVYFSLKDSHAVHNKTDLEDPARLMRAIEIAVF------------HATHPELLQQARETRPMMRAKVYGIQYPRSMLRARIRARLEQRIRGGLIEEVAALHKGGVSWQRLEYF-GLEYRFTAQYLQGIIATRDEYVDLLFRAI---SRFAKRQETWFRRMQRLGVKIHWL</Hsp_qseq>
+      <Hsp_hseq>AIFLMGPTAAGKTDLAMALADALPCELISVDSALIYRGMDIGTAKPSRELLARYPHRLIDIRDPAESYSAAEFRADALAAMAKATARGRIPLLVGGTMLYYKALLEGLADMPGADPEVRAAIEAEAQAEGWEALHRQLAEVDPESAARIHPN----DPQRLMRALEVYRLGGVSMSDLRRRQSAEKADFDASGRNQLPYTVAQLAIAPEQRQVLHARIAQRFRQMLEQGFIAEVEALHARSDLHAGLPSIRAVGYRQVWDYLDGKLS----YAEMTERGIIATRQLAKRQFTWLRSWSHL----HWM</Hsp_hseq>
+      <Hsp_midline>A+ ++G TA GKT LA+ALA     E+IS DS  +YRG+D+GT K    L    P+ LID+ DP E Y+   F+      +       ++P++VGGT LY  A+L   A +P     V       A   G    H +      + +  +H      DP RLMRA+E+                A   +     R   P   A++      R +L ARI  R  Q +  G I EV ALH        L     + YR    YL G ++    Y ++  R I    + AKRQ TW R    L    HW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|226887623|pdb|2ZM5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Trna Modification Enzyme Miaa In The Complex With Trna(Phe) &gt;gi|226887624|pdb|2ZM5|B Chain B, Crystal Structure Of Trna Modification Enzyme Miaa In The Complex With Trna(Phe)</Hit_def>
+  <Hit_accession>2ZM5_A</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.75562e-26</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ALVVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGKDLA-LYGSVPYHLIDVCDPYEEYNVFRFQQAVYGIVPSILRAHKVPIIVGGTGLYLDAVLRQYALVPVERNQALRASL-RGASLSHMRAVYFSLKDSHAV-HNKTDLEDPARLMRAIEIAVFHA-THPELLQQARETRPMMRAKVYGIQYPRSMLRARIRARLEQRIRGGLIEEVAALH-KGGVSWQRLEYFGLEYRFTAQYLQGIIATRDEYVDLLFRAISRFAKRQETWFRRMQRLGVKIHWL</Hsp_qseq>
+      <Hsp_hseq>AIFLXGPTASGKTALAIELRKILPVELISVDSALIYKGXDIGTAKPNAEELLAAPHRLLDIRDPSQAYSAADFRRDALAEXADITAAGRIPLLVGGTXLYFKALLEGLSPLP-SADPEVRARIEQQAAEQGWESLHRQLQEVDPVAAARIHPNDPQRLSRALEVFFISGKTLTELTQTSGDALPYQVHQFAIAPASRELLHQRIEQRFHQXLASGFEAEVRALFARGDLHTDLPSIRCVGYRQXWSYLEGEI-SYDEXVYRGVCATRQLAKRQITWLRGWE----GVHWL</Hsp_hseq>
+      <Hsp_midline>A+ + G TA+GKTALA+ L +    E+IS DS  +Y+G D+GT K  A    + P+ L+D+ DP + Y+   F++        I  A ++P++VGGT LY  A+L   + +P   +  +RA + + A+     +++  L++   V   +    DP RL RA+E+      T  EL Q + +  P    +       R +L  RI  R  Q +  G   EV AL  +G +         + YR    YL+G I + DE V     A  + AKRQ TW R  +     +HWL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|211939415|pdb|3EPH|A</Hit_id>
+  <Hit_def>Chain A, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism &gt;gi|211939417|pdb|3EPH|B Chain B, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism &gt;gi|211939419|pdb|3EPJ|A Chain A, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism &gt;gi|211939421|pdb|3EPJ|B Chain B, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism &gt;gi|211939423|pdb|3EPK|A Chain A, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism &gt;gi|211939425|pdb|3EPK|B Chain B, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism &gt;gi|211939427|pdb|3EPL|A Chain A, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism &gt;gi|211939429|pdb|3EPL|B Chain B, Crystallographic Snapshots Of Eukaryotic Dimethylallyltransferase Acting On Trna: Insight Into Trna Recognition And Reaction Mechanism</Hit_def>
+  <Hit_accession>3EPH_A</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>8.85394e-21</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>LVVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGK-DLALYGSVPYHLIDVCDPYEEYNVFRFQQAVYGIVPSILRAHKVPIIVGGTGLYLDAVLRQYALVPVERNQALRASLRGASLSHMRAVYFSL-KDSHAVHNKTDLEDPARLMRAIEIAVFHATHP-ELLQQARETRPMMRAKVYGIQYPRSMLRARIRARLEQRIRGGLIEEVAALHKGGVSWQRLEYFGLEYRFTAQYLQGII---------------ATRDEYV---DLLFRAISR---FAKRQETWFRRM</Hsp_qseq>
+      <Hsp_hseq>IVIAGTTGVGKSQLSIQLAQKFNGEVINSDSMQVYKDIPIITNKHPLQEREGIPHHVMNHVDWSEEYYSHRFETECMNAIEDIHRRGKIPIVVGGTHYYLQTLFNKRVDTKSSERKLTRKQLDILESTDPDVIYNTLVKCDPDIATKYHPNDYRRVQRMLEIYYKTGKKPSETFNEQKITLKFDTLFLWLYSKPEPLFQ-RLDDRVDDMLERGALQEIKQLY---------EYYS-QNKFTPEQCENGVWQVIGFKEFLPWLTGKTDDNTVKLEDCIERMKTRTRQYAKRQVKWIKKM</Hsp_hseq>
+      <Hsp_midline>+V+ G T  GK+ L++ LAQK+ GE+I++DS QVY+ + + T K  L     +P+H+++  D  EEY   RF+      +  I R  K+PI+VGGT  YL  +  +         +  R  L     +    +Y +L K    +  K    D  R+ R +EI       P E   + + T       ++    P  + + R+  R++  +  G ++E+  L+         EY+  + +FT +  +  +                T D  V   D + R  +R   +AKRQ  W ++M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|282403612|pdb|3A8T|A</Hit_id>
+  <Hit_def>Chain A, Plant Adenylate Isopentenyltransferase In Complex With Atp</Hit_def>
+  <Hit_accession>3A8T_A</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>5.28913e-14</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>125</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LVVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGK-DLALYGSVPYHLIDVCDPYE-EYNVFRFQQAVYGIVPSILRAHKVPIIVGGTGLYLDAVL</Hsp_qseq>
+      <Hsp_hseq>LVLMGATGTGKSRLSIDLAAHFPLEVINSDKMQVYKGLDITTNKISVPDRGGVPHHLLGEVDPARGELTPADFRSLAGKAVSEITGRRKLPVLVGGSNSFIHALL</Hsp_hseq>
+      <Hsp_midline>LV++GAT TGK+ L++ LA  +  E+I++D  QVY+GLD+ T K  +   G VP+HL+   DP   E     F+      V  I    K+P++VGG+  ++ A+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|167013373|pdb|2ZE5|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase &gt;gi|167013374|pdb|2ZE6|A Chain A, Crystal Structure Of Adenosine Phosphate-isopentenyltransferase Complexed With Substrate Analog, Dmaspp &gt;gi|167013375|pdb|2ZE7|A Chain A, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Zinc Ion And Substrate Analog, Dmaspp &gt;gi|167013376|pdb|2ZE8|A Chain A, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate &gt;gi|167013377|pdb|2ZE8|B Chain B, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate &gt;gi|167013378|pdb|2ZE8|C Chain C, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate &gt;gi|167013379|pdb|2ZE8|D Chain D, Crystal Structure Of Adenosine Phosphate-Isopentenyltransferase Complexed With Diphosphate</Hit_def>
+  <Hit_accession>2ZE5_A</Hit_accession>
+  <Hit_len>253</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>0.544014</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>VVLGATATGKTALAVALAQKYQGEIISADSRQVYRGLDVGTGKDL</Hsp_qseq>
+      <Hsp_hseq>LIYGPTCSGKTDMAIQIAQETGWPVVALDRVQCCPQIATGSGRPL</Hsp_hseq>
+      <Hsp_midline>++ G T +GKT +A+ +AQ+    +++ D  Q    +  G+G+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|6573505|pdb|1B0Z|A</Hit_id>
+  <Hit_def>Chain A, The Crystal Structure Of Phosphoglucose Isomerase-An Enzyme With Autocrine Motility Factor Activity In Tumor Cells &gt;gi|10835796|pdb|1C7Q|A Chain A, The Crystal Structure Of Phosphoglucose IsomeraseAUTOCRINE MOTILITY FactorNEUROLEUKIN COMPLEXED WITH ITS CARBOHYDRATE PHOSPHATE Inhibitors And Its Substrate Recognition Mechanism &gt;gi|10835797|pdb|1C7R|A Chain A, The Crystal Structure Of Phosphoglucose IsomeraseAUTOCRINE MOTILITY FactorNEUROLEUKIN COMPLEXED WITH ITS CARBOHYDRATE PHOSPHATE Inhibitors And Its Substrate Recognition Mechanism &gt;gi|157835676|pdb|2PGI|A Chain A, The Crystal Structure Of Phosphoglucose Isomerase-An Enzyme With Autocrine Motility Factor Activity In Tumor Cells</Hit_def>
+  <Hit_accession>1B0Z_A</Hit_accession>
+  <Hit_len>445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.43511</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>VPYPVRFD--------------RSHHDALVVLGATAT--GKTALAVALAQKYQGEIISADSRQVYRG------------LDVGTGKDLALYGSVPYHLIDVCDPYEEYNVFR-FQQAVYG</Hsp_qseq>
+      <Hsp_hseq>VDWPIRYDKNEFSRIKQAAERIRNHSDALVVIGIGGSYLGARAAIEALSHTFHNQM--NDTTQIYFAGQNISSTYISHLLDVLEGKDLSI--NVISKSGTTTEPAIAFRIFRDYMEKKYG</Hsp_hseq>
+      <Hsp_midline>V +P+R+D              R+H DALVV+G   +  G  A   AL+  +  ++   D+ Q+Y              LDV  GKDL++  +V        +P   + +FR + +  YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|302148731|pdb|3KMV|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Cbm42a From Clostridium Thermocellum &gt;gi|302148732|pdb|3KMV|B Chain B, Crystal Structure Of Cbm42a From Clostridium Thermocellum &gt;gi|302148733|pdb|3KMV|C Chain C, Crystal Structure Of Cbm42a From Clostridium Thermocellum &gt;gi|302148734|pdb|3KMV|D Chain D, Crystal Structure Of Cbm42a From Clostridium Thermocellum &gt;gi|302148735|pdb|3KMV|E Chain E, Crystal Structure Of Cbm42a From Clostridium Thermocellum &gt;gi|302148736|pdb|3KMV|F Chain F, Crystal Structure Of Cbm42a From Clostridium Thermocellum &gt;gi|302148737|pdb|3KMV|G Chain G, Crystal Structure Of Cbm42a From Clostridium Thermocellum &gt;gi|302148738|pdb|3KMV|H Chain H, Crystal Structure Of Cbm42a From Clostridium Thermocellum</Hit_def>
+  <Hit_accession>3KMV_A</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.91096</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>ARETRPMMRAKVYGIQYPRSMLR-ARIRARLEQRI------RGGLIEEVAALHKGGVSWQRLEYFG</Hsp_qseq>
+      <Hsp_hseq>ASSTNPITKAKFQSYNYPNMYIRHANFDARIDENVTPEMDSQWELVPGLANSGDGYVSIQSVNYPG</Hsp_hseq>
+      <Hsp_midline>A  T P+ +AK     YP   +R A   AR+++ +      +  L+  +A    G VS Q + Y G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_38721</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611771</BlastOutput_query-def>
+  <BlastOutput_query-len>337</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_38721</Iteration_query-ID>
+  <Iteration_query-def>2611771</Iteration_query-def>
+  <Iteration_query-len>337</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|384482541|pdb|4E5S|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mccflike Protein (Ba_5613) From Bacillus Anthracis Str. Ames &gt;gi|384482542|pdb|4E5S|B Chain B, Crystal Structure Of Mccflike Protein (Ba_5613) From Bacillus Anthracis Str. Ames &gt;gi|384482543|pdb|4E5S|C Chain C, Crystal Structure Of Mccflike Protein (Ba_5613) From Bacillus Anthracis Str. Ames &gt;gi|384482544|pdb|4E5S|D Chain D, Crystal Structure Of Mccflike Protein (Ba_5613) From Bacillus Anthracis Str. Ames &gt;gi|970842269|pdb|5FD8|A Chain A, Crystal Structure Of Mccf-like Protein (ba_5613) In Complex With Asa (alanyl Sulfamoyl Adenylates) &gt;gi|970842270|pdb|5FD8|B Chain B, Crystal Structure Of Mccf-like Protein (ba_5613) In Complex With Asa (alanyl Sulfamoyl Adenylates)</Hit_def>
+  <Hit_accession>4E5S_A</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>3.2795e-99</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGR-CDILASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKSILFIED---TSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRV--NVDRKCITVQLH</Hsp_qseq>
+      <Hsp_hseq>LKKGDEIRVISPSCSLSIVSTENRRLAVKRLTELGFHVTFSTHAEEIDRFASSSISSRVQDLHEAFRDPNVKAILTTLGGYNSNGLLKYLDYDLIRENPKFFCGYSDITALNNAIYTKTGLVTYSGPHFSSFGXEKGLEYTTDYFLQCLTSNKPIEVLPSETWSDDSWYIDQENRKFIKNEGYVSIHEGEATGDIIGGNXSTLNLLQGTSYXPNLKDKILFLEEDSLTGTSTLKTFDRYLHSLXQQQNFKHVKGIVIGKXQKGAECTIEDIQEXIASKPELAHIPIIANASFGHTTPIFTFPIGGRATIISSKEKTSITILTH</Hsp_hseq>
+      <Hsp_midline>L+  DE+RVI+PSCS+  + +     A +R   LG +V F  H  + D   S+S+  RV DLH AF D  VK ILT +GG+NSN LL+++DY L+++NPK  CG+SD+TAL NAI+ KTG+  + GPHFS+FG EKG+E+T + F       +  ++L SETWSDD W+ DQE+R+FI N GY  IH G+  G  +GGN ST NLL GT Y P+LK  ILF+E+   T   ++  FDR+L +L Q+ +F  V+GI+IG+ QK +   ++ +++ I+ K  L  IP+ AN  FGHTTP    PIGG   +  + ++  IT+  H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|451929055|pdb|4INJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The S111a Mutant Of Member Of Mccf Clade From Listeria Monocytogenes Egd-e With Product &gt;gi|451929056|pdb|4INJ|B Chain B, Crystal Structure Of The S111a Mutant Of Member Of Mccf Clade From Listeria Monocytogenes Egd-e With Product</Hit_def>
+  <Hit_accession>4INJ_A</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>6.4764e-93</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGRCDIL-ASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDR</Hsp_qseq>
+      <Hsp_hseq>LKQGDEIRIIAPSRSIGIMADNQVEIAVNRLTDMGFKVTFGEHVAEMDCMMSSSIRSRVADIHEAFNDSSVKAILTVIGGFNSNQLLPYLDYDLISENPKILCGFADITALATAIYTQTELITYSGAHFSSFSMEKGLDYVMESFSDCLLQKEPFALKESATWSDDEWYLDQENRNFIPNEGLVVMQPGVAEGIIIGGNLCTLNLLQGTEYMPNLAGTILFIEDDFMTIPETFDRDLESLLSQPGADEIEGMVIGRFQQKTAMTAEKLAYIIETKTALQKIPVISGADFGHTQPIATFPIGGTARIDTNQ</Hsp_hseq>
+      <Hsp_midline>L+  DE+R+IAPS S+  +  + +E A  R   +G  V FG+HV + D + S+S+  RVAD+H AF D  VK ILT IGGFNSNQLL ++DY L+ +NPK+LCGF+D+TAL  AI+ +T +  + G HFS+F MEKG+++ +E F +         L  S TWSDD W+ DQE+R FI N G  ++  G   G+ +GGN+ T NLL GTEY P+L  +ILFIED        FDR LE+L  +     + G++IGRFQ+ + +  + L  II  K AL  IP+ +  DFGHT P    PIGG  R++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|406855919|pdb|4H1H|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mccf Homolog From Listeria Monocytogenes Egd-E &gt;gi|406855920|pdb|4H1H|B Chain B, Crystal Structure Of Mccf Homolog From Listeria Monocytogenes Egd-E</Hit_def>
+  <Hit_accession>4H1H_A</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>4.60224e-87</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>321</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGRCDIL-ASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDR</Hsp_qseq>
+      <Hsp_hseq>LKQGDEIRIIAPSRSIGIXADNQVEIAVNRLTDXGFKVTFGEHVAEXDCXXSSSIRSRVADIHEAFNDSSVKAILTVIGGFNSNQLLPYLDYDLISENPKILCGFSDITALATAIYTQTELITYSGAHFSSFSXEKGLDYVXESFSDCLLQKEPFALKESATWSDDEWYLDQENRNFIPNEGLVVXQPGVAEGIIIGGNLCTLNLLQGTEYXPNLAGTILFIEDDFXTIPETFDRDLESLLSQPGADEIEGXVIGRFQQKTAXTAEKLAYIIETKTALQKIPVISGADFGHTQPIATFPIGGTARIDTNQ</Hsp_hseq>
+      <Hsp_midline>L+  DE+R+IAPS S+     + +E A  R    G  V FG+HV + D   S+S+  RVAD+H AF D  VK ILT IGGFNSNQLL ++DY L+ +NPK+LCGFSD+TAL  AI+ +T +  + G HFS+F  EKG+++  E F +         L  S TWSDD W+ DQE+R FI N G  +   G   G+ +GGN+ T NLL GTEY P+L  +ILFIED        FDR LE+L  +     + G +IGRFQ+ +    + L  II  K AL  IP+ +  DFGHT P    PIGG  R++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|343197710|pdb|3SR3|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The W180a Mutant Of Microcin Immunity Protein Mccf From Bacillus Anthracis Shows The Active Site Loop In The Open Conformation. &gt;gi|343197711|pdb|3SR3|B Chain B, Crystal Structure Of The W180a Mutant Of Microcin Immunity Protein Mccf From Bacillus Anthracis Shows The Active Site Loop In The Open Conformation.</Hit_def>
+  <Hit_accession>3SR3_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>8.17447e-43</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>326</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFG-MEKGIEFTIECFKNTFFYGRC---DILASETWSDDMWFKDQEHRQFITNPGYEI-IHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQK--DSGID---MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>LKYGDTIGIYSPSSPVTYTSPKRFERAKSYLLQKGFHILEGSLTGRYDYYRSGSIQERAKELNALIRNPNVSCIMSTIGGMNSNSLLPYIDYDAFQNNPKIMIGYSDATALLLGIYAKTGIPTFYGPALVPSFGEFEPFVDDTYKYFLETLLHDQALPYNIKQPLFWSDEFINAEEKTKEKELRPNNWISVTNGQATGRVIGGNLNTIQGIWGSPYMPCIQEGDILFIEDSSKDAAT-IERSFSFLKINGVFDKVSGIILGKHEQFDDCGTNRKPYEILLEVLQNQR----IPLLADFDCCHTHPMITMPIGVQVKMDATNKTIHI</Hsp_hseq>
+      <Hsp_midline>L+  D + + +PS  +        ERA+      G ++  G      D+  S S+ +R  +L+A   +  V  I++ IGG NSN LL +IDY   + NPK++ G+SD TALL  I+AKTG+P FYGP    +FG  E  ++ T + F  T  + +    +I     WSD+    +++ ++    P   I +  G   G  +GGN++T   + G+ Y P +++  ILFIED+S+ + T  +R    L     F  V GI++G+ ++  D G +    ++L +++  ++    IPL A+ D  HT P   +PIG  ++++   K I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|365813142|pdb|3TYX|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The F177s Mutant Of Mycrocine Immunity Protein (Mccf) With Amp &gt;gi|365813143|pdb|3TYX|B Chain B, Crystal Structure Of The F177s Mutant Of Mycrocine Immunity Protein (Mccf) With Amp</Hit_def>
+  <Hit_accession>3TYX_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>9.74227e-43</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFG-MEKGIEFTIECFKNTFFYGRC---DILASETWSDDM--WFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQK--DSGID---MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>LKYGDTIGIYSPSSPVTYTSPKRFERAKSYLLQKGFHILEGSLTGRYDYYRSGSIQERAKELNALIRNPNVSCIMSTIGGMNSNSLLPYIDYDAFQNNPKIMIGYSDATALLLGIYAKTGIPTFYGPALVPSFGEFEPFVDDTYKYFLETLLHDQALPYNIKQPLFWSDESINWEEKTKEKELRPN-NWISVTNGQATGRVIGGNLNTIQGIWGSPYMPCIQEGDILFIEDSSKDAAT-IERSFSFLKINGVFDKVSGIILGKHEQFDDCGTNRKPYEILLEVLQNQR----IPLLADFDCCHTHPMITMPIGVQVKMDATNKTIHI</Hsp_hseq>
+      <Hsp_midline>L+  D + + +PS  +        ERA+      G ++  G      D+  S S+ +R  +L+A   +  V  I++ IGG NSN LL +IDY   + NPK++ G+SD TALL  I+AKTG+P FYGP    +FG  E  ++ T + F  T  + +    +I     WSD+   W +  + ++   N  +  +  G   G  +GGN++T   + G+ Y P +++  ILFIED+S+ + T  +R    L     F  V GI++G+ ++  D G +    ++L +++  ++    IPL A+ D  HT P   +PIG  ++++   K I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|345531862|pdb|3T5M|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The S112a Mutant Of Mycrocine Immunity Protein (Mccf) With Amp &gt;gi|345531863|pdb|3T5M|B Chain B, Crystal Structure Of The S112a Mutant Of Mycrocine Immunity Protein (Mccf) With Amp</Hit_def>
+  <Hit_accession>3T5M_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.68317e-42</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFG-MEKGIEFTIECFKNTFFYGRC---DILASETWSDDM--WFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQK--DSGID---MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>LKYGDTIGIYSPSSPVTYTSPKRFERAKSYLLQKGFHILEGSLTGRYDYYRSGSIQERAKELNALIRNPNVSCIMSTIGGMNSNSLLPYIDYDAFQNNPKIMIGYADATALLLGIYAKTGIPTFYGPALVPSFGEFEPFVDDTYKYFLETLLHDQALPYNIKQPLFWSDEFINWEEKTKEKELRPN-NWISVTNGQATGRVIGGNLNTIQGIWGSPYMPCIQEGDILFIEDSSKDAAT-IERSFSFLKINGVFDKVSGIILGKHEQFDDCGTNRKPYEILLEVLQNQR----IPLLADFDCCHTHPMITMPIGVQVKMDATNKTIHI</Hsp_hseq>
+      <Hsp_midline>L+  D + + +PS  +        ERA+      G ++  G      D+  S S+ +R  +L+A   +  V  I++ IGG NSN LL +IDY   + NPK++ G++D TALL  I+AKTG+P FYGP    +FG  E  ++ T + F  T  + +    +I     WSD+   W +  + ++   N  +  +  G   G  +GGN++T   + G+ Y P +++  ILFIED+S+ + T  +R    L     F  V GI++G+ ++  D G +    ++L +++  ++    IPL A+ D  HT P   +PIG  ++++   K I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|358439900|pdb|3U1B|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The S238r Mutant Of Mycrocine Immunity Protein (Mccf) With Amp &gt;gi|358439901|pdb|3U1B|B Chain B, Crystal Structure Of The S238r Mutant Of Mycrocine Immunity Protein (Mccf) With Amp</Hit_def>
+  <Hit_accession>3U1B_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.20074e-42</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>166</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFG-MEKGIEFTIECFKNTFFYGRC---DILASETWSDDM--WFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQK--DSGID---MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>LKYGDTIGIYSPSSPVTYTSPKRFERAKSYLLQKGFHILEGSLTGRYDYYRSGSIQERAKELNALIRNPNVSCIMSTIGGMNSNSLLPYIDYDAFQNNPKIMIGYSDATALLLGIYAKTGIPTFYGPALVPSFGEFEPFVDDTYKYFLETLLHDQALPYNIKQPLFWSDEFINWEEKTKEKELRPN-NWISVTNGQATGRVIGGNLNTIQGIWGSPYMPCIQEGDILFIED-SRKDAATIERSFSFLKINGVFDKVSGIILGKHEQFDDCGTNRKPYEILLEVLQNQR----IPLLADFDCCHTHPMITMPIGVQVKMDATNKTIHI</Hsp_hseq>
+      <Hsp_midline>L+  D + + +PS  +        ERA+      G ++  G      D+  S S+ +R  +L+A   +  V  I++ IGG NSN LL +IDY   + NPK++ G+SD TALL  I+AKTG+P FYGP    +FG  E  ++ T + F  T  + +    +I     WSD+   W +  + ++   N  +  +  G   G  +GGN++T   + G+ Y P +++  ILFIED SR      +R    L     F  V GI++G+ ++  D G +    ++L +++  ++    IPL A+ D  HT P   +PIG  ++++   K I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|226887877|pdb|3GJZ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Microcin Immunity Protein Mccf From Bacillus Anthracis Str. Ames &gt;gi|226887878|pdb|3GJZ|B Chain B, Crystal Structure Of Microcin Immunity Protein Mccf From Bacillus Anthracis Str. Ames</Hit_def>
+  <Hit_accession>3GJZ_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.16405e-41</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFG-MEKGIEFTIECFKNTFFYGRC---DILASETWSDDM--WFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQK--DSGID---MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>LKYGDTIGIYSPSSPVTYTSPKRFERAKSYLLQKGFHILEGSLTGRYDYYRSGSIQERAKELNALIRNPNVSCIXSTIGGXNSNSLLPYIDYDAFQNNPKIXIGYSDATALLLGIYAKTGIPTFYGPALVPSFGEFEPFVDDTYKYFLETLLHDQALPYNIKQPLFWSDEFINWEEKTKEKELRPN-NWISVTNGQATGRVIGGNLNTIQGIWGSPYXPCIQEGDILFIEDSSKDAAT-IERSFSFLKINGVFDKVSGIILGKHEQFDDCGTNRKPYEILLEVLQNQR----IPLLADFDCCHTHPXITXPIGVQVKXDATNKTIHI</Hsp_hseq>
+      <Hsp_midline>L+  D + + +PS  +        ERA+      G ++  G      D+  S S+ +R  +L+A   +  V  I + IGG NSN LL +IDY   + NPK+  G+SD TALL  I+AKTG+P FYGP    +FG  E  ++ T + F  T  + +    +I     WSD+   W +  + ++   N  +  +  G   G  +GGN++T   + G+ Y P +++  ILFIED+S+ + T  +R    L     F  V GI++G+ ++  D G +    ++L +++  ++    IPL A+ D  HT P    PIG  ++ +   K I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|512125726|pdb|4JVO|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Double Mutant (s112a, H303a) Of B.anthracis Mycrocine Immunity Protein (mccf) With Alanyl Sulfamoyl Adenylates &gt;gi|512125727|pdb|4JVO|B Chain B, Crystal Structure Of The Double Mutant (s112a, H303a) Of B.anthracis Mycrocine Immunity Protein (mccf) With Alanyl Sulfamoyl Adenylates &gt;gi|550544901|pdb|4MJX|A Chain A, Crystal Structure Of The Double Mutant (s112a, H303a) Of B.anthracis Mycrocine Immunity Protein (mccf) &gt;gi|550544902|pdb|4MJX|B Chain B, Crystal Structure Of The Double Mutant (s112a, H303a) Of B.anthracis Mycrocine Immunity Protein (mccf)</Hit_def>
+  <Hit_accession>4JVO_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>3.54434e-41</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFG-MEKGIEFTIECFKNTFFYGRC---DILASETWSDDM--WFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQK--DSGID---MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>LKYGDTIGIYSPSSPVTYTSPKRFERAKSYLLQKGFHILEGSLTGRYDYYRSGSIQERAKELNALIRNPNVSCIMSTIGGMNSNSLLPYIDYDAFQNNPKIMIGYADATALLLGIYAKTGIPTFYGPALVPSFGEFEPFVDDTYKYFLETLLHDQALPYNIKQPLFWSDEFINWEEKTKEKELRPN-NWISVTNGQATGRVIGGNLNTIQGIWGSPYMPCIQEGDILFIEDSSKDAAT-IERSFSFLKINGVFDKVSGIILGKHEQFDDCGTNRKPYEILLEVLQNQR----IPLLADFDCCATHPMITMPIGVQVKMDATNKTIHI</Hsp_hseq>
+      <Hsp_midline>L+  D + + +PS  +        ERA+      G ++  G      D+  S S+ +R  +L+A   +  V  I++ IGG NSN LL +IDY   + NPK++ G++D TALL  I+AKTG+P FYGP    +FG  E  ++ T + F  T  + +    +I     WSD+   W +  + ++   N  +  +  G   G  +GGN++T   + G+ Y P +++  ILFIED+S+ + T  +R    L     F  V GI++G+ ++  D G +    ++L +++  ++    IPL A+ D   T P   +PIG  ++++   K I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|635576737|pdb|4MI1|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of The Double Mutant (s112a, H303a) Of B.anthracis Mycrocine Immunity Protein (mccf) With Aspartyl Sulfamoyl Adenylates &gt;gi|635576738|pdb|4MI1|B Chain B, Crystal Structure Of The Double Mutant (s112a, H303a) Of B.anthracis Mycrocine Immunity Protein (mccf) With Aspartyl Sulfamoyl Adenylates</Hit_def>
+  <Hit_accession>4MI1_A</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.15672e-39</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>LRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFG-MEKGIEFTIECFKNTFFYGRC---DILASETWSDDM--WFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQK--DSGID---MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>LKYGDTIGIYSPSSPVTYTSPKRFERAKSYLLQKGFHILEGSLTGRYDYYRSGSIQERAKELNALIRNPNVSCIXSTIGGXNSNSLLPYIDYDAFQNNPKIXIGYADATALLLGIYAKTGIPTFYGPALVPSFGEFEPFVDDTYKYFLETLLHDQALPYNIKQPLFWSDEFINWEEKTKEKELRPN-NWISVTNGQATGRVIGGNLNTIQGIWGSPYXPCIQEGDILFIEDSSKDAAT-IERSFSFLKINGVFDKVSGIILGKHEQFDDCGTNRKPYEILLEVLQNQR----IPLLADFDCCATHPXITXPIGVQVKXDATNKTIHI</Hsp_hseq>
+      <Hsp_midline>L+  D + + +PS  +        ERA+      G ++  G      D+  S S+ +R  +L+A   +  V  I + IGG NSN LL +IDY   + NPK+  G++D TALL  I+AKTG+P FYGP    +FG  E  ++ T + F  T  + +    +I     WSD+   W +  + ++   N  +  +  G   G  +GGN++T   + G+ Y P +++  ILFIED+S+ + T  +R    L     F  V GI++G+ ++  D G +    ++L +++  ++    IPL A+ D   T P    PIG  ++ +   K I +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|378792212|pdb|3TLB|A</Hit_id>
+  <Hit_def>Chain A, Microcin C7 Self Immunity Protein Mccf In Complex Aspartyl Sulfamoyl Adenosine &gt;gi|378792213|pdb|3TLB|B Chain B, Microcin C7 Self Immunity Protein Mccf In Complex Aspartyl Sulfamoyl Adenosine</Hit_def>
+  <Hit_accession>3TLB_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.59692e-30</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFGMEKG-IEFTIECFKNTFFYGRCDILA---SETWSDDM--WFKDQEHR-QFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQ-----KDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>RGVEFLQRKGFKLVSGKLTGKTDFYRSGTIKERAQEFNELVYNPDITCIMSTIGGDNSNSLLPFLDYDAIIANPKIIIGYSDTTALLAGIYAKTGLITFYGPALIPSFGEHPPLVDITYESFIKILTRKQAGIYTYTLPEKWSDESINWNENKILRPKKLYKNNCAFYGSGKVEGRVIGGNLNTLTGIWGSEWMPEIRNGDILFIED-SRKSIATVERLFSMLKLNRVFDKVSAIILGKHELFDCAGSKRRPYEVLTEVLDGKQ----IPVLDGFDCSHTHPMLTLPLGVKLAIDFDNKNISI</Hsp_hseq>
+      <Hsp_midline>R  E  +  G  +  G      DF  S ++ +R  + +    +  +  I++ IGG NSN LL  +DY  +  NPK++ G+SD TALL  I+AKTG+  FYGP    +FG     ++ T E F       +  I      E WSD+   W +++  R + +          G + G  +GGN++T   + G+E+ P ++   ILFIED SR SI   +R    L     F  V  I++G+ +            ++L +++  K+    IP+    D  HT P   LP+G  + ++ D K I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|378792210|pdb|3TLA|A</Hit_id>
+  <Hit_def>Chain A, Microcin C7 Self Immunity Protein Mccf In The Wild Type Apo State &gt;gi|378792211|pdb|3TLA|B Chain B, Microcin C7 Self Immunity Protein Mccf In The Wild Type Apo State &gt;gi|378792216|pdb|3TLE|A Chain A, Microcin C7 Self Immunity Protein Mccf In Complex With Glutamyl Sulfamoyl Adenylate &gt;gi|378792217|pdb|3TLE|B Chain B, Microcin C7 Self Immunity Protein Mccf In Complex With Glutamyl Sulfamoyl Adenylate</Hit_def>
+  <Hit_accession>3TLA_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>120.553</Hsp_bit-score>
+      <Hsp_score>301</Hsp_score>
+      <Hsp_evalue>1.93423e-30</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFGMEKG-IEFTIECFKNTFFYGRCDILA---SETWSDDM--WFKDQEHR-QFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQ-----KDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>RGVEFLQRKGFKLVSGKLTGKTDFYRSGTIKERAQEFNELVYNPDITCIMSTIGGDNSNSLLPFLDYDAIIANPKIIIGYSDTTALLAGIYAKTGLITFYGPALIPSFGEHPPLVDITYESFIKILTRKQSGIYTYTLPEKWSDESINWNENKILRPKKLYKNNCAFYGSGKVEGRVIGGNLNTLTGIWGSEWMPEIRNGDILFIED-SRKSIATVERLFSMLKLNRVFDKVSAIILGKHELFDCAGSKRRPYEVLTEVLDGKQ----IPVLDGFDCSHTHPMLTLPLGVKLAIDFDNKNISI</Hsp_hseq>
+      <Hsp_midline>R  E  +  G  +  G      DF  S ++ +R  + +    +  +  I++ IGG NSN LL  +DY  +  NPK++ G+SD TALL  I+AKTG+  FYGP    +FG     ++ T E F       +  I      E WSD+   W +++  R + +          G + G  +GGN++T   + G+E+ P ++   ILFIED SR SI   +R    L     F  V  I++G+ +            ++L +++  K+    IP+    D  HT P   LP+G  + ++ D K I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|378792219|pdb|3TLG|B</Hit_id>
+  <Hit_def>Chain B, Microcin C7 Self Immunity Protein Mccf In The Inactive Mutant Apo State</Hit_def>
+  <Hit_accession>3TLG_B</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>2.86369e-30</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFGMEKG-IEFTIECFKNTFFYGRCDILA---SETWSDDM--WFKDQEHR-QFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQ-----KDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>RGVEFLQRKGFKLVSGKLTGKTDFYRSGTIKERAQEFNELVYNPDITCIXSTIGGDNSNSLLPFLDYDAIIANPKIIIGYSDTTALLAGIYAKTGLITFYGPALIPSFGEHPPLVDITYESFIKILTRKQSGIYTYTLPEKWSDESINWNENKILRPKKLYKNNCAFYGSGKVEGRVIGGNLNTLTGIWGSEWXPEIRNGDILFIED-SRKSIATVERLFSXLKLNRVFDKVSAIILGKHELFDCAGSKRRPYEVLTEVLDGKQ----IPVLDGFDCSHTHPXLTLPLGVKLAIDFDNKNISI</Hsp_hseq>
+      <Hsp_midline>R  E  +  G  +  G      DF  S ++ +R  + +    +  +  I + IGG NSN LL  +DY  +  NPK++ G+SD TALL  I+AKTG+  FYGP    +FG     ++ T E F       +  I      E WSD+   W +++  R + +          G + G  +GGN++T   + G+E+ P ++   ILFIED SR SI   +R    L     F  V  I++G+ +            ++L +++  K+    IP+    D  HT P   LP+G  + ++ D K I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|378792220|pdb|3TLY|A</Hit_id>
+  <Hit_def>Chain A, Microcin C7 Self Immunity Protein Mccf Active Site Mutant S118aN220AK247A IN THE APO STATE &gt;gi|378792221|pdb|3TLY|B Chain B, Microcin C7 Self Immunity Protein Mccf Active Site Mutant S118aN220AK247A IN THE APO STATE</Hit_def>
+  <Hit_accession>3TLY_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.60215e-30</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFGMEKG-IEFTIECFKNTFFYGRCDILA---SETWSDDM--WFKDQEHR-QFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQ-----KDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>RGVEFLQRKGFKLVSGKLTGKTDFYRSGTIKERAQEFNELVYNPDITCIMSTIGGDNSNSLLPFLDYDAIIANPKIIIGYADTTALLAGIYAKTGLITFYGPALIPSFGEHPPLVDITYESFIKILTRKQSGIYTYTLPEKWSDESINWNENKILRPKKLYKNNCAFYGSGKVEGRVIGGNLATLTGIWGSEWMPEIRNGDILFIED-SRASIATVERLFSMLKLNRVFDKVSAIILGKHELFDCAGSKRRPYEVLTEVLDGKQ----IPVLDGFDCSHTHPMLTLPLGVKLAIDFDNKNISI</Hsp_hseq>
+      <Hsp_midline>R  E  +  G  +  G      DF  S ++ +R  + +    +  +  I++ IGG NSN LL  +DY  +  NPK++ G++D TALL  I+AKTG+  FYGP    +FG     ++ T E F       +  I      E WSD+   W +++  R + +          G + G  +GGN++T   + G+E+ P ++   ILFIED SR SI   +R    L     F  V  I++G+ +            ++L +++  K+    IP+    D  HT P   LP+G  + ++ D K I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|378792218|pdb|3TLG|A</Hit_id>
+  <Hit_def>Chain A, Microcin C7 Self Immunity Protein Mccf In The Inactive Mutant Apo State</Hit_def>
+  <Hit_accession>3TLG_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.783</Hsp_bit-score>
+      <Hsp_score>299</Hsp_score>
+      <Hsp_evalue>3.67164e-30</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFGMEKG-IEFTIECFKNTFFYGRCDILA---SETWSDDM--WFKDQEHR-QFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQ-----KDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>RGVEFLQRKGFKLVSGKLTGKTDFYRSGTIKERAQEFNELVYNPDITCIXSTIGGDNSNSLLPFLDYDAIIANPKIIIGYSDTTALLAGIYAKTGLITFYGPALIPSFGEHPPLVDITYESFIKILTRKQSGIYTYTLPEKWSDESINWNENKILRPKKLYKNNCAFYGSGKVEGRVIGGNLNTLTGIWGSEWXPEIRNGDILFIED-SRKSIATVERLFSXLKLNRVFDKVSAIILGKHELFDCAGSKRRPYEVLTEVLDGKQ----IPVLDGFDCSHTHPMLTLPLGVKLAIDFDNKNISI</Hsp_hseq>
+      <Hsp_midline>R  E  +  G  +  G      DF  S ++ +R  + +    +  +  I + IGG NSN LL  +DY  +  NPK++ G+SD TALL  I+AKTG+  FYGP    +FG     ++ T E F       +  I      E WSD+   W +++  R + +          G + G  +GGN++T   + G+E+ P ++   ILFIED SR SI   +R    L     F  V  I++G+ +            ++L +++  K+    IP+    D  HT P   LP+G  + ++ D K I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|378792214|pdb|3TLC|A</Hit_id>
+  <Hit_def>Chain A, Microcin C7 Self Immunity Protein Mccf In Complex With Microcin C7 Antibiotic &gt;gi|378792215|pdb|3TLC|B Chain B, Microcin C7 Self Immunity Protein Mccf In Complex With Microcin C7 Antibiotic &gt;gi|568786546|pdb|4IIX|A Chain A, Structure Of Mccf In Complex With Glutamyl Sulfamoyl Guanosine &gt;gi|568786547|pdb|4IIX|B Chain B, Structure Of Mccf In Complex With Glutamyl Sulfamoyl Guanosine &gt;gi|568786548|pdb|4IIY|A Chain A, Structure Of Mccf In Complex With Glutamyl Sulfamoyl Inosine &gt;gi|568786549|pdb|4IIY|B Chain B, Structure Of Mccf In Complex With Glutamyl Sulfamoyl Inosine</Hit_def>
+  <Hit_accession>3TLC_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>119.398</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>4.57356e-30</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>303</Hsp_align-len>
+      <Hsp_qseq>RAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFGMEKG-IEFTIECFKNTFFYGRCDILA---SETWSDDM--WFKDQEHR-QFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQ-----KDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>RGVEFLQRKGFKLVSGKLTGKTDFYRSGTIKERAQEFNELVYNPDITCIMSTIGGDNSNSLLPFLDYDAIIANPKIIIGYADTTALLAGIYAKTGLITFYGPALIPSFGEHPPLVDITYESFIKILTRKQSGIYTYTLPEKWSDESINWNENKILRPKKLYKNNCAFYGSGKVEGRVIGGNLNTLTGIWGSEWMPEIRNGDILFIED-SRKSIATVERLFSMLKLNRVFDKVSAIILGKHELFDCAGSKRRPYEVLTEVLDGKQ----IPVLDGFDCSHTHPMLTLPLGVKLAIDFDNKNISI</Hsp_hseq>
+      <Hsp_midline>R  E  +  G  +  G      DF  S ++ +R  + +    +  +  I++ IGG NSN LL  +DY  +  NPK++ G++D TALL  I+AKTG+  FYGP    +FG     ++ T E F       +  I      E WSD+   W +++  R + +          G + G  +GGN++T   + G+E+ P ++   ILFIED SR SI   +R    L     F  V  I++G+ +            ++L +++  K+    IP+    D  HT P   LP+G  + ++ D K I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|378792222|pdb|3TLZ|A</Hit_id>
+  <Hit_def>Chain A, Microcin C7 Self Immunity Protein Mccf Mutant W186f In Complex With Adenosine Monophosphate &gt;gi|378792223|pdb|3TLZ|B Chain B, Microcin C7 Self Immunity Protein Mccf Mutant W186f In Complex With Adenosine Monophosphate</Hit_def>
+  <Hit_accession>3TLZ_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>9.89813e-30</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>326</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>RAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHF-STFGMEKG-IEFTIECFKNTFFYGRCDILA---SETWSDD-MWFKDQE----HRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGTEYEPSLKKS-ILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQ-----KDSGIDMDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITV</Hsp_qseq>
+      <Hsp_hseq>RGVEFLQRKGFKLVSGKLTGKTDFYRSGTIKERAQEFNELVYNPDITCIMSTIGGDNSNSLLPFLDYDAIIANPKIIIGYSDTTALLAGIYAKTGLITFYGPALIPSFGEHPPLVDITYESFIKILTRKQSGIYTYTLPEKWSDESINFNENKILRPKKLYKNNCAF--YGSGKVEGRVIGGNLNTLTGIWGSEWMPEIRNGDILFIED-SRKSIATVERLFSMLKLNRVFDKVSAIILGKHELFDCAGSKRRPYEVLTEVLDGKQ----IPVLDGFDCSHTHPMLTLPLGVKLAIDFDNKNISI</Hsp_hseq>
+      <Hsp_midline>R  E  +  G  +  G      DF  S ++ +R  + +    +  +  I++ IGG NSN LL  +DY  +  NPK++ G+SD TALL  I+AKTG+  FYGP    +FG     ++ T E F       +  I      E WSD+ + F + +     + +  N  +     G + G  +GGN++T   + G+E+ P ++   ILFIED SR SI   +R    L     F  V  I++G+ +            ++L +++  K+    IP+    D  HT P   LP+G  + ++ D K I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|970842259|pdb|5F9M|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Native B3275, Member Of Mccf Family Of Enzymes &gt;gi|970842260|pdb|5F9M|B Chain B, Crystal Structure Of Native B3275, Member Of Mccf Family Of Enzymes &gt;gi|970842261|pdb|5F9M|C Chain C, Crystal Structure Of Native B3275, Member Of Mccf Family Of Enzymes &gt;gi|970842262|pdb|5F9M|D Chain D, Crystal Structure Of Native B3275, Member Of Mccf Family Of Enzymes</Hit_def>
+  <Hit_accession>5F9M_A</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>6.96102e-27</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>347</Hsp_align-len>
+      <Hsp_qseq>MKKLLLRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCL----GLNV-AFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIE---FTIECFKNTFFYGRC--DILASETWSDDM--WFKDQE--HRQFITNPGYEIIHRGDMV-GMGVGGNISTFNLLAGTEYEPSLKK---SILFIEDTSRMSITDFDRH-LEALTQRDDFCTVRGILIGRFQKDSGIDMDMLRKIIS--RKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITVQLHSSVE</Hsp_qseq>
+      <Hsp_hseq>IKPKRLQPGDIVATVSPSWGGAG-DSEIRWRYEQGVKRLEEVFGLTVVPMPNSLKGSEFIYN-NPQARAEDLMTAFQDTRVKAIIANIGGQDSIRLLPYIDFNAIRENPKIFMGYADVTISHLFCH-KAGLSSFYGPAILT-DFAENVEMDPYTVEMVNRTLFSNEMIGEIQPAPEWTSERLEWIEINKDTRRTMQQNNGYELLQGSTTVQGRLIGGCIEVLEFAKGTELWPEKKHWEDSILFFETSEDHPEPSYIKYWLRNYAAQGILQKAKGIIFGK-PKDEMYYEEYKHEILQVMKEHNLEDLPILYNLNFGHTEPKFILPYGSMAEIDCENGSFSI-LESGVE</Hsp_hseq>
+      <Hsp_midline>+K   L+  D V  ++PS      DS +  R ++  + L    GL V    + +   +F+ + +   R  DL  AF D +VK I+  IGG +S +LL +ID+  +++NPK+  G++DVT      H K G+  FYGP   T    + +E   +T+E    T F      +I  +  W+ +   W +  +   R    N GYE++     V G  +GG I       GTE  P  K    SILF E +       + ++ L     +      +GI+ G+  KD     +   +I+   ++  L+ +P+  N++FGHT P  ILP G M  ++ +    ++ L S VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|970842250|pdb|5F5X|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of S116a Ba3275 With Adp Bound &gt;gi|970842251|pdb|5F5X|B Chain B, Crystal Structure Of S116a Ba3275 With Adp Bound</Hit_def>
+  <Hit_accession>5F5X_A</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>3.83945e-26</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>MKKLLLRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCL----GLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIE---FTIECFKNTFFYGRC--DILASETWSDDM--WFK--DQEHRQFITNPGYEIIHRGDMV-GMGVGGNISTFNLLAGTEYEPSLKK---SILFIEDTSRMSITDFDRH-LEALTQRDDFCTVRGILIGRFQKDSGIDMDMLRKI--ISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITVQLHSSVE</Hsp_qseq>
+      <Hsp_hseq>IKPKRLQAGDIVATVSPSWGGAG-DSEIRWRYEQGVKRLEEVFGLTVVPXPNSLKGSEFIYNNPQARAEDLXTAFQDTRVKAIIANIGGQDSIRLLPYIDFNAIRENPKIFXGYADVTISHLFCH-KAGLSSFYGPAILT-DFAENVEXDPYTVEXVNRTLFSNEXIGEIQPAPEWTSERLEWIEINKDTRRTXQQNNGYELLQGSTTVQGRLIGGCIEVLEFAKGTELWPEKKHWEDSILFFETSEDHPEPSYIKYWLRNYAAQGILQKAKGIIFGK-PKDEXYYEEYKHEILQVXKEHNLEDLPILYNLNFGHTEPKFILPYGSXAEIDCENGSFSI-LESGVE</Hsp_hseq>
+      <Hsp_midline>+K   L++ D V  ++PS      DS +  R ++  + L    GL V    +          +   R  DL  AF D +VK I+  IGG +S +LL +ID+  +++NPK+  G++DVT      H K G+  FYGP   T    + +E   +T+E    T F      +I  +  W+ +   W +      R    N GYE++     V G  +GG I       GTE  P  K    SILF E +       + ++ L     +      +GI+ G+  KD     +   +I  + ++  L+ +P+  N++FGHT P  ILP G    ++ +    ++ L S VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|970842235|pdb|5F1Y|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Ba3275, The Member Of S66 Family Of Serine Peptidases &gt;gi|970842236|pdb|5F1Y|B Chain B, Crystal Structure Of Ba3275, The Member Of S66 Family Of Serine Peptidases</Hit_def>
+  <Hit_accession>5F1Y_A</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.457</Hsp_bit-score>
+      <Hsp_score>267</Hsp_score>
+      <Hsp_evalue>4.39699e-26</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>MKKLLLRSSDEVRVIAPSCSMRKIDSSVIERAQERFRCL----GLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLKKNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIE---FTIECFKNTFFYGRC--DILASETWSDDM--WFK--DQEHRQFITNPGYEIIHRGDMV-GMGVGGNISTFNLLAGTEYEPSLKK---SILFIEDTSRMSITDFDRH-LEALTQRDDFCTVRGILIGRFQKDSGIDMDMLRKI--ISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCITVQLHSSVE</Hsp_qseq>
+      <Hsp_hseq>IKPKRLQAGDIVATVSPSWGGAG-DSEIRWRYEQGVKRLEEVFGLTVVPXPNSLKGSEFIYNNPQARAEDLXTAFQDTRVKAIIANIGGQDSIRLLPYIDFNAIRENPKIFXGYADVTISHLFCH-KAGLSSFYGPAILT-DFAENVEXDPYTVEXVNRTLFSNEXIGEIQPAPEWTSERLEWIEINKDTRRTXQQNNGYELLQGSTTVQGRLIGGCIEVLEFAKGTELWPEKKHWEDSILFFETSEDHPEPSYIKYWLRNYAAQGILQKAKGIIFGK-PKDEXYYEEYKHEILQVXKEHNLEDLPILYNLNFGHTEPKFILPYGSXAEIDCENGSFSI-LESGVE</Hsp_hseq>
+      <Hsp_midline>+K   L++ D V  ++PS      DS +  R ++  + L    GL V    +          +   R  DL  AF D +VK I+  IGG +S +LL +ID+  +++NPK+  G++DVT      H K G+  FYGP   T    + +E   +T+E    T F      +I  +  W+ +   W +      R    N GYE++     V G  +GG I       GTE  P  K    SILF E +       + ++ L     +      +GI+ G+  KD     +   +I  + ++  L+ +P+  N++FGHT P  ILP G    ++ +    ++ L S VE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|78101106|pdb|1ZRS|A</Hit_id>
+  <Hit_def>Chain A, Wild-Type Ld-Carboxypeptidase &gt;gi|78101107|pdb|1ZRS|B Chain B, Wild-Type Ld-Carboxypeptidase</Hit_def>
+  <Hit_accession>1ZRS_A</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>4.4489e-16</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>VRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLK-KNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGRCDILASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGT---EYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGIDM-DMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIG</Hsp_qseq>
+      <Hsp_hseq>VALIAPASA---IATEVLEATLRQLEVHGVDYHLGRHVEARYRYLAGTVEQRLEDLHNAFDMPDITAVWCLRGGYGCGQLLPGLDWGRLEAASPRPLIGFSDISVLLSAFH-RHGLPAIHGPVATGLGLSP-----LSAPRE-----QQERLASLA-SVSRLLAGIDHELPVQHLGG---HKQRVEGALIGGNLTALACMAGTLGGLHAPA--GSILVLEDVGE-PYYRLERSLWQLLESIDARQLGAICLGSFTDCPRKEVAHSLERIFGEYAAAIEVPLYHHLPSGHGAQNRAWPYG</Hsp_hseq>
+      <Hsp_midline>V +IAP+ +   I + V+E    +    G++   G HV       + +V++R+ DLH AF    +  +    GG+   QLL  +D+  L+  +P+ L GFSD++ LL+A H + G+P  +GP  +  G+       +   +      + + LAS   S        +H   + + G    H+  + G  +GGN++    +AGT    + P+   SIL +ED         +R L  L +  D   +  I +G F      ++   L +I     A   +PL+ ++  GH   +   P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|71042381|pdb|1ZL0|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Protein Of Unknown Function Pa5198 From Pseudomonas Aeruginosa &gt;gi|71042382|pdb|1ZL0|B Chain B, Structure Of Protein Of Unknown Function Pa5198 From Pseudomonas Aeruginosa</Hit_def>
+  <Hit_accession>1ZL0_A</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.7962</Hsp_bit-score>
+      <Hsp_score>190</Hsp_score>
+      <Hsp_evalue>5.23392e-16</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>VRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLK-KNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGRCDILASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGT---EYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGIDM-DMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIG</Hsp_qseq>
+      <Hsp_hseq>VALIAPASA---IATDVLEATLRQLEVHGVDYHLGRHVEARYRYLAGTVEQRLEDLHNAFDMPDITAVWCLRGGYGCGQLLPGLDWGRLQAASPRPLIGFSDISVLLSAFH-RHGLPAIHGPVATGLGLSP-LSAPREQQE------RLASLASVS----RLLAGIDHELPVQHLGG---HKQRVEGALIGGNLTALACMAGTLGGLHAPA--GSILVLEDVGE-PYYRLERSLWQLLESIDARQLGAICLGSFTDCPRKEVAHSLERIFGEYAAAIEVPLYHHLPSGHGAQNRAWPYG</Hsp_hseq>
+      <Hsp_midline>V +IAP+ +   I + V+E    +    G++   G HV       + +V++R+ DLH AF    +  +    GG+   QLL  +D+  L+  +P+ L GFSD++ LL+A H + G+P  +GP  +  G+   +    E  +      R   LAS +          +H   + + G    H+  + G  +GGN++    +AGT    + P+   SIL +ED         +R L  L +  D   +  I +G F      ++   L +I     A   +PL+ ++  GH   +   P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|78101450|pdb|2AUM|A</Hit_id>
+  <Hit_def>Chain A, Active Site Ser115ala Mutant Of Ld-Carboxypeptidase &gt;gi|78101451|pdb|2AUM|B Chain B, Active Site Ser115ala Mutant Of Ld-Carboxypeptidase</Hit_def>
+  <Hit_accession>2AUM_A</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>1.06905e-15</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>VRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLK-KNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGRCDILASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGT---EYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGIDM-DMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIG</Hsp_qseq>
+      <Hsp_hseq>VALIAPASA---IATEVLEATLRQLEVHGVDYHLGRHVEARYRYLAGTVEQRLEDLHNAFDMPDITAVWCLRGGYGCGQLLPGLDWGRLEAASPRPLIGFADISVLLSAFH-RHGLPAIHGPVATGLGLSP-----LSAPRE-----QQERLASLA-SVSRLLAGIDHELPVQHLGG---HKQRVEGALIGGNLTALACMAGTLGGLHAPA--GSILVLEDVGE-PYYRLERSLWQLLESIDARQLGAICLGSFTDCPRKEVAHSLERIFGEYAAAIEVPLYHHLPSGHGAQNRAWPYG</Hsp_hseq>
+      <Hsp_midline>V +IAP+ +   I + V+E    +    G++   G HV       + +V++R+ DLH AF    +  +    GG+   QLL  +D+  L+  +P+ L GF+D++ LL+A H + G+P  +GP  +  G+       +   +      + + LAS   S        +H   + + G    H+  + G  +GGN++    +AGT    + P+   SIL +ED         +R L  L +  D   +  I +G F      ++   L +I     A   +PL+ ++  GH   +   P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|78101452|pdb|2AUN|A</Hit_id>
+  <Hit_def>Chain A, Active Site His285ala Mutant Of Ld-Carboxypeptidase &gt;gi|78101453|pdb|2AUN|B Chain B, Active Site His285ala Mutant Of Ld-Carboxypeptidase</Hit_def>
+  <Hit_accession>2AUN_A</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.0358e-14</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>299</Hsp_align-len>
+      <Hsp_qseq>VRVIAPSCSMRKIDSSVIERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHIDYALLK-KNPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGRCDILASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMVGMGVGGNISTFNLLAGT---EYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGIDM-DMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIG</Hsp_qseq>
+      <Hsp_hseq>VALIAPASA---IATEVLEATLRQLEVHGVDYHLGRHVEARYRYLAGTVEQRLEDLHNAFDMPDITAVWCLRGGYGCGQLLPGLDWGRLEAASPRPLIGFSDISVLLSAFH-RHGLPAIHGPVATGLGLSP-----LSAPRE-----QQERLASLA-SVSRLLAGIDHELPVQHLGG---HKQRVEGALIGGNLTALACMAGTLGGLHAPA--GSILVLEDVGE-PYYRLERSLWQLLESIDARQLGAICLGSFTDCPRKEVAHSLERIFGEYAAAIEVPLYHHLPSGAGAQNRAWPYG</Hsp_hseq>
+      <Hsp_midline>V +IAP+ +   I + V+E    +    G++   G HV       + +V++R+ DLH AF    +  +    GG+   QLL  +D+  L+  +P+ L GFSD++ LL+A H + G+P  +GP  +  G+       +   +      + + LAS   S        +H   + + G    H+  + G  +GGN++    +AGT    + P+   SIL +ED         +R L  L +  D   +  I +G F      ++   L +I     A   +PL+ ++  G    +   P G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|386783424|pdb|4E94|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Mccf-Like Protein From Streptococcus Pneumoniae &gt;gi|386783425|pdb|4E94|B Chain B, Crystal Structure Of Mccf-Like Protein From Streptococcus Pneumoniae &gt;gi|395759407|pdb|4EYS|A Chain A, Crystal Structure Of Mccf-Like Protein From Streptococcus Pneumoniae In Complex With Amp</Hit_def>
+  <Hit_accession>4E94_A</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>2.30411e-14</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>324</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>340</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>320</Hsp_align-len>
+      <Hsp_qseq>ERFRCLGLNVAFGDH-VYDEDFLGSASVDKRVADLHAAFADKKVKLILTAIGGFNSNQLLQHI-DYALLKK--NPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGME---KGIEFTIECFKNTFFYGRCDILASETWSDDMWFKDQEH---------RQFITNPGYEIIH-RGDMVGMGVGGNI-STFNLLAGTEYEPS---------------LKKSILFIEDTS-RMSITDFDRHLEALTQRDDFCTVRGILIGRFQKDSGID--MDMLRKIISRKKALDAIPLFANVDFGHTTPHCILPIGGMIRVNVDRKCI</Hsp_qseq>
+      <Hsp_hseq>QRLKDLGLNPIFLPHSLKGLDFIKDHP-EARAEDLIHAFSDDSIDXILCAIGGDDTYRLLPYLFENDQLQKVIKQKIFLGFSDTTXNHLXLH-KLGIKTFYGQSFLADICELDKEXLAYSLHYFKELIETGRI----SEIRPSDVWYEERTDFSPTALGTPRVSHTNTGFDLLQGSAQFEGKILGGCLESLYDIFDNSRYADSTELCQKYKLFPDLSDWEGKILLLETSEEKPKPEDFKKXLLTLKDTGIFAVINGLLVGKPXDETFHDDYKEALLDIIDSN-----IPIVYNLNVGHATPRAIVPFGVHAHVDAQEQVI</Hsp_hseq>
+      <Hsp_midline>+R + LGLN  F  H +   DF+     + R  DL  AF+D  +  IL AIGG ++ +LL ++ +   L+K    K+  GFSD T     +H K G+  FYG  F     E   + + +++  FK     GR     SE    D+W++++           R   TN G++++       G  +GG + S +++   + Y  S                +  IL +E +  +    DF + L  L     F  + G+L+G+   ++  D   + L  II        IP+  N++ GH TP  I+P G    V+   + I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|387766218|pdb|3VF1|A</Hit_id>
+  <Hit_def>Chain A, Structure Of A Calcium-Dependent 11r-Lipoxygenase Suggests A Mechanism For Ca-Regulation &gt;gi|387766219|pdb|3VF1|B Chain B, Structure Of A Calcium-Dependent 11r-Lipoxygenase Suggests A Mechanism For Ca-Regulation</Hit_def>
+  <Hit_accession>3VF1_A</Hit_accession>
+  <Hit_len>698</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>1.36393</Hsp_evalue>
+      <Hsp_query-from>170</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>247</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>ASETWSDDMWFKDQEHRQFITNPGYEIIHRGDMV--GMGVGGNISTFNLLAGTEYEPSLKKSILFIED</Hsp_qseq>
+      <Hsp_hseq>AAEYWRDDVWFG----SQFLNGSNPEVIRRCDKLPENFPVKNEMVEKLLDRGYTLEKAMKEGLIFITD</Hsp_hseq>
+      <Hsp_midline>A+E W DD+WF      QF+     E+I R D +     V   +    L  G   E ++K+ ++FI D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|749197247|pdb|4OFF|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Apo Carboxy Cgmp Binding Domain Of Plasmodium Falciparum Pkg &gt;gi|749197248|pdb|4OFG|A Chain A, Co-crystal Structure Of Carboxy Cgmp Binding Domain Of Plasmodium Falciparum Pkg With Cgmp</Hit_def>
+  <Hit_accession>4OFF_A</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>2.94227</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>IERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKL</Hsp_qseq>
+      <Hsp_hseq>IVKNKKRLRTLGKNDYFGERALLYDEPRTASVISKVNNVECWFVDKSVFL</Hsp_hseq>
+      <Hsp_midline>I + ++R R LG N  FG+     D   +ASV  +V ++   F DK V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|946927139|pdb|5DYK|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Pf3d7_1436600</Hit_def>
+  <Hit_accession>5DYK_A</Hit_accession>
+  <Hit_len>853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>4.40519</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>465</Hsp_hit-from>
+      <Hsp_hit-to>514</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>IERAQERFRCLGLNVAFGDHVYDEDFLGSASVDKRVADLHAAFADKKVKL</Hsp_qseq>
+      <Hsp_hseq>IVKNKKRLRTLGKNDYFGERALLYDEPRTASVISKVNNVECWFVDKSVFL</Hsp_hseq>
+      <Hsp_midline>I + ++R R LG N  FG+     D   +ASV  +V ++   F DK V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|940376732|pdb|5D98|B</Hit_id>
+  <Hit_def>Chain B, Influenza C Virus Rna-dependent Rna Polymerase - Space Group P43212 &gt;gi|940376735|pdb|5D98|E Chain E, Influenza C Virus Rna-dependent Rna Polymerase - Space Group P43212 &gt;gi|940376738|pdb|5D9A|B Chain B, Influenza C Virus Rna-dependent Rna Polymerase - Space Group P212121 &gt;gi|940376741|pdb|5D9A|E Chain E, Influenza C Virus Rna-dependent Rna Polymerase - Space Group P212121 &gt;gi|940376744|pdb|5D9A|H Chain H, Influenza C Virus Rna-dependent Rna Polymerase - Space Group P212121 &gt;gi|940376747|pdb|5D9A|K Chain K, Influenza C Virus Rna-dependent Rna Polymerase - Space Group P212121</Hit_def>
+  <Hit_accession>5D98_B</Hit_accession>
+  <Hit_len>754</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.24843</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>NPKLLCGFSDVTALLNAIHAKTGMPVFYGPHFSTFGMEKGIEFTIECFKNTFFYGRCDI</Hsp_qseq>
+      <Hsp_hseq>NPYLMFLNNDVTSLISTTYPYTGPPPM--SHGSS------TKYTLETIKRTYDYSRTSV</Hsp_hseq>
+      <Hsp_midline>NP L+   +DVT+L++  +  TG P     H S+       ++T+E  K T+ Y R  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|4558278|pdb|1F58|H</Hit_id>
+  <Hit_def>Chain H, Igg1 Fab Fragment (58.2) Complex With 24-Residue Peptide (Residues 308-333 Of Hiv-1 Gp120 (Mn Isolate) With Ala To Aib Substitution At Position 323 &gt;gi|4558337|pdb|2F58|H Chain H, Igg1 Fab Fragment (58.2) Complex With 12-Residue Cyclic Peptide (Including Residues 315-324 Of Hiv-1 Gp120) (Mn Isolate) &gt;gi|4558341|pdb|3F58|H Chain H, Igg1 Fab Fragment (58.2) Complex With 12-Residue Cyclic Peptide (Including Residues 315-324 Of Hiv-1 Gp120 (Mn Isolate); H315s Mutation</Hit_def>
+  <Hit_accession>1F58_H</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>7.31221</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>19</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>AGTEYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRD</Hsp_qseq>
+      <Hsp_hseq>AGTNYNPSLKSRISITRDTSK---NQFFLQLNSVTTED</Hsp_hseq>
+      <Hsp_midline>AGT Y PSLK  I    DTS+     F   L ++T  D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|82407654|pdb|2A0L|D</Hit_id>
+  <Hit_def>Chain D, Crystal Structure Of Kvap-33h1 Fv Complex &gt;gi|82407656|pdb|2A0L|F Chain F, Crystal Structure Of Kvap-33h1 Fv Complex</Hit_def>
+  <Hit_accession>2A0L_D</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>27.7202</Hsp_bit-score>
+      <Hsp_score>60</Hsp_score>
+      <Hsp_evalue>7.68731</Hsp_evalue>
+      <Hsp_query-from>215</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NLLAGTEYEPSLKKSILFIEDTSRMSITDFDRHLEALTQRDD---FCTVRG</Hsp_qseq>
+      <Hsp_hseq>NYSGTTSYNPSLKSRISITRDTSK---NQFFLQLNSVTTEDTATYFC-VRG</Hsp_hseq>
+      <Hsp_midline>N    T Y PSLK  I    DTS+     F   L ++T  D    FC VRG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|193506744|pdb|3CSQ|A</Hit_id>
+  <Hit_def>Chain A, Crystal And Cryoem Structural Studies Of A Cell Wall Degrading Enzyme In The Bacteriophage Phi29 Tail &gt;gi|193506745|pdb|3CSQ|B Chain B, Crystal And Cryoem Structural Studies Of A Cell Wall Degrading Enzyme In The Bacteriophage Phi29 Tail &gt;gi|193506746|pdb|3CSQ|C Chain C, Crystal And Cryoem Structural Studies Of A Cell Wall Degrading Enzyme In The Bacteriophage Phi29 Tail &gt;gi|193506747|pdb|3CSQ|D Chain D, Crystal And Cryoem Structural Studies Of A Cell Wall Degrading Enzyme In The Bacteriophage Phi29 Tail</Hit_def>
+  <Hit_accession>3CSQ_A</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.4906</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>9.98825</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>295</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>IHRGDMVG-MGVGGNIST----FNLLAGTEYEPSLKK</Hsp_qseq>
+      <Hsp_hseq>LKKGDLMGHTGIGGNVTGDHWHFNVIDGKEYQGWTKK</Hsp_hseq>
+      <Hsp_midline>+ +GD++G  G+GGN++     FN++ G EY+   KK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81146</Statistics_db-num>
+      <Statistics_db-len>19940001</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

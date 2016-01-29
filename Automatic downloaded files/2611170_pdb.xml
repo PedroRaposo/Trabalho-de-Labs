@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.3.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_226065</BlastOutput_query-ID>
+  <BlastOutput_query-def>2611170</BlastOutput_query-def>
+  <BlastOutput_query-len>677</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_226065</Iteration_query-ID>
+  <Iteration_query-def>2611170</Iteration_query-def>
+  <Iteration_query-len>677</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|354459496|pdb|3B1F|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Prephenate Dehydrogenase From Streptococcus Mutans</Hit_def>
+  <Hit_accession>3B1F_A</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.51178</Hsp_evalue>
+      <Hsp_query-from>197</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>FESDVLLADSGSVTYRKYNAEEH---DVPLQFLGEH</Hsp_qseq>
+      <Hsp_hseq>LKEDVIITDAGSTKYEIVRAAEYYLKDKPVQFVGSH</Hsp_hseq>
+      <Hsp_midline> + DV++ D+GS  Y    A E+   D P+QF+G H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|960515578|pdb|5DOT|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Carbamoyl Phosphate Synthetase I (cps1), Apo Form &gt;gi|960515579|pdb|5DOT|B Chain B, Crystal Structure Of Human Carbamoyl Phosphate Synthetase I (cps1), Apo Form &gt;gi|960515580|pdb|5DOU|A Chain A, Crystal Structure Of Human Carbamoyl Phosphate Synthetase I (cps1), Ligand-bound Form &gt;gi|960515581|pdb|5DOU|B Chain B, Crystal Structure Of Human Carbamoyl Phosphate Synthetase I (cps1), Ligand-bound Form &gt;gi|960515582|pdb|5DOU|C Chain C, Crystal Structure Of Human Carbamoyl Phosphate Synthetase I (cps1), Ligand-bound Form &gt;gi|960515583|pdb|5DOU|D Chain D, Crystal Structure Of Human Carbamoyl Phosphate Synthetase I (cps1), Ligand-bound Form</Hit_def>
+  <Hit_accession>5DOT_A</Hit_accession>
+  <Hit_len>1489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>4.21847</Hsp_evalue>
+      <Hsp_query-from>160</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>890</Hsp_hit-from>
+      <Hsp_hit-to>958</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>EDITQRARE---ASALLSSVAGLKGVRIVEAQ-KPNIHFSTFESDVLLADSGSVT---YRKYNAEEHDV</Hsp_qseq>
+      <Hsp_hseq>EETLKRAKEIGFSDKQISKCLGLTEAQTRELRLKKNIHPWVKQIDTLAAEYPSVTNYLYVTYNGQEHDV</Hsp_hseq>
+      <Hsp_midline>E+  +RA+E   +   +S   GL   +  E + K NIH    + D L A+  SVT   Y  YN +EHDV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|550544979|pdb|4M89|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Enoyl-acyl Carrier Protein Reductase (fabi) From Neisseria Meningitidis In Complex With Nad+ And Triclosan &gt;gi|550544980|pdb|4M89|B Chain B, Crystal Structure Of Enoyl-acyl Carrier Protein Reductase (fabi) From Neisseria Meningitidis In Complex With Nad+ And Triclosan &gt;gi|550544981|pdb|4M87|A Chain A, Crystal Structure Of Enoyl-acyl Carrier Protein Reductase (fabi) From Neisseria Meningitidis In Complex With Nad+ &gt;gi|550544982|pdb|4M87|B Chain B, Crystal Structure Of Enoyl-acyl Carrier Protein Reductase (fabi) From Neisseria Meningitidis In Complex With Nad+ &gt;gi|550544983|pdb|4M86|A Chain A, Crystal Structure Of Enoyl-acyl Carrier Protein Reductase (fabi) From Neisseria Meningitidis &gt;gi|550544984|pdb|4M86|B Chain B, Crystal Structure Of Enoyl-acyl Carrier Protein Reductase (fabi) From Neisseria Meningitidis</Hit_def>
+  <Hit_accession>4M89_A</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>5.04419</Hsp_evalue>
+      <Hsp_query-from>405</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LLHSCLEQKESLEWEEVRTRLEHRRRETDAEMKKSLPRRLRIRRGRELD---ALLSKGWDDV</Hsp_qseq>
+      <Hsp_hseq>IAKACREQGAELAFTYVVDKLEERVRKMAAELDSELVFRCDVASDDEINQVFADLGKHWDGL</Hsp_hseq>
+      <Hsp_midline>+  +C EQ   L +  V  +LE R R+  AE+   L  R  +    E++   A L K WD +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>81321</Statistics_db-num>
+      <Statistics_db-len>19989811</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
