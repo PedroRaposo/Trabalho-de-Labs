@@ -1,0 +1,91 @@
+LOCUS       2JCB_A                   200 aa            linear   BCT 06-MAY-2015
+DEFINITION  Chain A, The Crystal Structure Of 5-formyl-tetrahydrofolate
+            Cycloligase From Bacillus Anthracis (ba4489).
+ACCESSION   2JCB_A
+VERSION     2JCB_A  GI:134104769
+DBSOURCE    pdb: molecule 2JCB, chain 65, release May 6, 2015;
+            deposition: Dec 21, 2006;
+            class: Ligase;
+            source: Mmdb_id: 44578, Pdb_id 1: 2JCB;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus anthracis str. Ames
+  ORGANISM  Bacillus anthracis str. Ames
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus;
+            Bacillus cereus group.
+REFERENCE   1  (residues 1 to 200)
+  AUTHORS   Meier,C., Carter,L.G., Winter,G., Owens,R.J., Stuart,D.I. and
+            Esnouf,R.M.
+  TITLE     Structure of 5-formyltetrahydrofolate cyclo-ligase from Bacillus
+            anthracis (BA4489)
+  JOURNAL   Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun. 63 (PT 3),
+            168-172 (2007)
+   PUBMED   17329806
+REFERENCE   2  (residues 1 to 200)
+  AUTHORS   Meier,C., Carter,L.G., Winter,G., Owens,R.J., Stuart,D.I.,
+            Esnouf,R.M., Oxford Protein Production Facility (Oppf), Structural
+            Proteo and Europe (Spine).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-DEC-2006)
+COMMENT     1 5-formyltetrahydrofolate Cyclo-ligase Family Protein.
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Bacillus anthracis str. Ames"
+                     /strain="Ames"
+                     /db_xref="taxon:198094"
+     SecStr          6..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          13..190
+                     /region_name="MTHFS_bact"
+                     /note="5,10-methenyltetrahydrofolate synthetase;
+                     TIGR02727"
+                     /db_xref="CDD:274270"
+     SecStr          29..45
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          53..57
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          68..77
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          79..89
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          90..97
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          103..108
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          110..115
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          128..132
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          135..139
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          141..145
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Het             join(bond(152),bond(181))
+                     /heterogen="( MG,1002 )"
+     SecStr          160..167
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          185..190
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          191..196
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+ORIGIN      
+        1 mahhhhhhvr eeklrlrkqi iehmnslske ryttlseqiv fslyeqkewa eaktigitls
+       61 menevntypi iekawkegkr vvvpkcnket rtmsfrqisn fdqletvymn lrepipalte
+      121 evnadeidlq ivpgvayter gerigygggy ydrylvhykg ktlslaysfq mvehipvepf
+      181 dknvekiite kgtmvknglv
+//
+

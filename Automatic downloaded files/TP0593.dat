@@ -1,0 +1,69 @@
+ID   Y593_TREPA              Reviewed;         677 AA.
+AC   O83602;
+DT   01-JUN-2001, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 82.
+DE   RecName: Full=Uncharacterized protein TP_0593;
+GN   OrderedLocusNames=TP_0593;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000305}; Multi-pass
+CC       membrane protein {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65571.1; -; Genomic_DNA.
+DR   PIR; B71306; B71306.
+DR   RefSeq; WP_010882039.1; NC_021490.2.
+DR   ProteinModelPortal; O83602; -.
+DR   IntAct; O83602; 7.
+DR   STRING; 243276.TP0593; -.
+DR   EnsemblBacteria; AAC65571; AAC65571; TP_0593.
+DR   GeneID; 2611170; -.
+DR   KEGG; tpa:TP_0593; -.
+DR   PATRIC; 20531247; VBITrePal57110_0632.
+DR   eggNOG; ENOG4106TP1; Bacteria.
+DR   eggNOG; ENOG410YM75; LUCA.
+DR   OrthoDB; EOG60CWH7; -.
+DR   BioCyc; TPAL243276:GC1H-631-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+PE   4: Predicted;
+KW   Cell membrane; Complete proteome; Membrane; Reference proteome;
+KW   Transmembrane; Transmembrane helix.
+FT   CHAIN         1    677       Uncharacterized protein TP_0593.
+FT                                /FTId=PRO_0000202282.
+FT   TRANSMEM     80    102       Helical. {ECO:0000255}.
+FT   TRANSMEM    338    360       Helical. {ECO:0000255}.
+FT   TRANSMEM    367    386       Helical. {ECO:0000255}.
+SQ   SEQUENCE   677 AA;  75493 MW;  0583E109B453053C CRC64;
+     MHDARTFFMR GSCTYAHPVA IGRFFPLSSP THTPQGTLMK SHGTMCSRNA LLLPRRGAGL
+     HVLTPRIREA RPVNTGVKVI LSLFATLVLM VGVFFCAPRA SFAEFERHFY QPTVLSALST
+     NLREVSKASE AWHSRYRPLF SQFCALDAVR SSFDPAQKAE DITQRAREAS ALLSSVAGLK
+     GVRIVEAQKP NIHFSTFESD VLLADSGSVT YRKYNAEEHD VPLQFLGEHS PEPKVIIDEY
+     HDALLYSFPS LGNYGEYRGR ILFYLSLRAL GTHLIAENKL KITDSIVPLS ADDYTFGGIV
+     IGIPHEGVRS LKPSVLAEWK RKQFRVQTVR SEQHEDWALL SNASGAFVIA QAVPVLLFGF
+     TPLTKGLVAM VAVVTTFLLV FQLLSLRQDP LTKLRDRLIH FHAQLLHSCL EQKESLEWEE
+     VRTRLEHRRR ETDAEMKKSL PRRLRIRRGR ELDALLSKGW DDVFSTLEHG YGGARAMNRA
+     QIEQLVREVL AQSLASGEAV LPVAMRADTA DEELDEVLEE LPDEAASLPS DSSPEEDLDP
+     LEEVESIEGT AEESTREYAA AGDALLSKTP QLSTHSEYVP ATLAELLGRN AEPGDVVRDS
+     AVLEYIEGVF DYRPCCFYES HAVHDCLEVV TGEDGPSLSP MESIVSTEDG LFTIRVSKEE
+     GNHLNRDFKA LVDSVLY
+//

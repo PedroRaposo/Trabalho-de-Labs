@@ -1,0 +1,133 @@
+LOCUS       2Q80_A                   301 aa            linear   PRI 05-DEC-2012
+DEFINITION  Chain A, Crystal Structure Of Human Geranylgeranyl Pyrophosphate
+            Synthase Bound To Ggpp.
+ACCESSION   2Q80_A
+VERSION     2Q80_A  GI:150261574
+DBSOURCE    pdb: molecule 2Q80, chain 65, release Dec 5, 2012;
+            deposition: Jun 8, 2007;
+            class: Transferase;
+            source: Mmdb_id: 47039, Pdb_id 1: 2Q80;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 301)
+  AUTHORS   Kavanagh,K.L., Dunford,J.E., Bunkoczi,G., Russell,R.G. and
+            Oppermann,U.
+  TITLE     The crystal structure of human geranylgeranyl pyrophosphate
+            synthase reveals a novel hexameric arrangement and inhibitory
+            product binding
+  JOURNAL   J. Biol. Chem. 281 (31), 22004-22012 (2006)
+   PUBMED   16698791
+REFERENCE   2  (residues 1 to 301)
+  AUTHORS   Kavanagh,K.L., Dunford,J.E., Bunkoczi,G., Smee,C., Von Delft,F.,
+            Arr,C., Weigelt,J., Edwards,A., Sundstrom,M., Oppermann,U.,
+            Structural Geno and Consortium (Sgc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUN-2007)
+COMMENT     1 Geranylgeranyl Pyrophosphate Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..301
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..108,282..301)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          9..20
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          11..294
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          26..37
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          44..69
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(57,60..62,64..66,68..69,74..75,127,130,152..153,156,
+                     189..190,193,203,208,213)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            60..69
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(65..66,69,74..75,130,152,189..190,193,203,208,213)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(65..66,69,74..75,152,189..190)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(65..66,69,74..75,130,152)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Het             join(bond(65),bond(69))
+                     /heterogen="( MG,1000 )"
+     Het             join(bond(65),bond(69))
+                     /heterogen="( MG,1001 )"
+     Site            order(71..85,196..197,203..208,211..215)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          72..75
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          76..79
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          86..105
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          109..281
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          112..136
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          142..154
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          155..165
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          175..194
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Site            order(189..190,193,203,208,213)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          216..225
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          230..237
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          242..255
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          256..279
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          283..293
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 smektqetvq rillepykyl lqlpgkqvrt klsqafnhwl kvpedklqii ievtemlhna
+       61 slliddiedn sklrrgfpva hsiygipsvi nsanyvyflg lekvltldhp davklftrql
+      121 lelhqgqgld iywrdnytcp teeeykamvl qktgglfgla vglmqlfsdy kedlkpllnt
+      181 lglffqirdd yanlhskeys enksfcedlt egkfsfptih aiwsrpestq vqnilrqrte
+      241 nidikkycvh yledvgsfey trntlkelea kaykqidarg gnpelvalvk hlskmfkeen
+      301 e
+//
+

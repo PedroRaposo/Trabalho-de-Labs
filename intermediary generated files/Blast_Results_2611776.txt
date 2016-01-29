@@ -1,0 +1,149 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 145580424 
+ Accession: 2P1J_A 
+ Score: 96.6709
+ E-value: 4.53795e-24
+ Identities: 62
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145580424
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 955265177 
+ Accession: 5FKU_D 
+ Score: 92.4337
+ E-value: 4.24932e-22
+ Identities: 62
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/955265177
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 24987377 
+ Accession: 1J53_A 
+ Score: 90.8929
+ E-value: 5.56599e-22
+ Identities: 59
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/24987377
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 145579465 
+ Accession: 2GUI_A 
+ Score: 90.8929
+ E-value: 6.03683e-22
+ Identities: 59
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/145579465
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 520728670 
+ Accession: 4FZY_A 
+ Score: 56.225
+ E-value: 8.273e-10
+ Identities: 45
+ Function: HydrolaseDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/520728670
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 520728667 
+ Accession: 4FZX_C 
+ Score: 52.373
+ E-value: 1.88712e-08
+ Identities: 44
+ Function: HydrolaseDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/520728667
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 323462903 
+ Accession: 3NGY_A 
+ Score: 40.817
+ E-value: 0.000370955
+ Identities: 52
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323462903
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 323462912 
+ Accession: 3NH0_A 
+ Score: 40.4318
+ E-value: 0.000488075
+ Identities: 52
+ Function: HydrolaseDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323462912
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 90109308 
+ Accession: 2F96_A 
+ Score: 38.5058
+ E-value: 0.00214735
+ Identities: 49
+ Function: Structural Genomics, Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/90109308
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 146386891 
+ Accession: 2IS3_A 
+ Score: 37.3502
+ E-value: 0.00469178
+ Identities: 52
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/146386891
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

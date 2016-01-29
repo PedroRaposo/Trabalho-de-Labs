@@ -1,0 +1,108 @@
+LOCUS       3BAC_A                   270 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structural Basis For The Inhibition Of Bacterial Nad+
+            Dependent Dna Ligase.
+ACCESSION   3BAC_A
+VERSION     3BAC_A  GI:212374934
+DBSOURCE    pdb: molecule 3BAC, chain 65, release Jun 18, 2009;
+            deposition: Nov 7, 2007;
+            class: Ligase;
+            source: Mmdb_id: 67869, Pdb_id 1: 3BAC;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Haemophilus influenzae
+  ORGANISM  Haemophilus influenzae
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+            Pasteurellaceae; Haemophilus.
+REFERENCE   1  (residues 1 to 270)
+  AUTHORS   Pinko,C., Borchardt,A., Nikulin,V. and Su,Y.
+  TITLE     Structural Basis For The Inhibition Of Bacterial Nad+ Dependent Dna
+            Ligase
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 270)
+  AUTHORS   Pinko,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-NOV-2007)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..270
+                     /organism="Haemophilus influenzae"
+                     /db_xref="taxon:727"
+     Region          1..255
+                     /region_name="LIGANc"
+                     /note="NAD+ dependent DNA ligase adenylation domain. DNA
+                     ligases catalyze the crucial step of joining the breaks in
+                     duplex DNA during DNA replication, repair and
+                     recombination, utilizing either ATP or NAD(+) as a
+                     cofactor, but using the same basic reaction...; cd00114"
+                     /db_xref="CDD:238062"
+     SecStr          8..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          join(19..55,174..270)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Site            order(19,51,53,74,111,163,226,228)
+                     /site_type="other"
+                     /note="nucleotide binding pocket [chemical binding]"
+                     /db_xref="CDD:238062"
+     SecStr          25..38
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          46..54
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(53,55..56)
+                     /site_type="other"
+                     /note="K-X-D-G motif"
+                     /db_xref="CDD:238062"
+     Site            53
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:238062"
+     Region          56..173
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          56..65
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          67..76
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          78..84
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          104..114
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          116..129
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          137..145
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          158..170
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          177..187
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          195..200
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          201..214
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          223..229
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          231..239
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 akplsgfsqi rheipmlsld nafsdaefna fvkriedrli llpkpltfcc epkldglavs
+       61 ilyvngeltq aatrgdgttg editanirti rnvplqlltd npparlevrg evfmphagfe
+      121 rlnkyalehn ektfanprna aagslrqldp nitskrplvl naygigiaeg vglptthyar
+      181 lqwlksigip vnpeirlcng adevldfyqd iqnkrsslgy didgtvlkin dialqnelgf
+      241 iskaprwaia ykfpaqeelt llndhhhhhh
+//
+

@@ -1,0 +1,106 @@
+LOCUS       2JEL_P                    85 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain P, Jel42 FabHPR COMPLEX.
+ACCESSION   2JEL_P
+VERSION     2JEL_P  GI:3212690
+DBSOURCE    pdb: molecule 2JEL, chain 80, release Jan 4, 2013;
+            deposition: Feb 24, 1998;
+            class: Complex (AntibodyANTIGEN);
+            source: Mmdb_id: 7634, Pdb_id 1: 2JEL;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 85)
+  AUTHORS   Prasad,L., Vandonselaar,M., Lee,J.S. and Delbaere,L.T.
+  TITLE     Structure determination of a monoclonal Fab fragment specific for
+            histidine-containing protein of the phosphoenolpyruvate: sugar
+            phosphotransferase system of Escherichia coli
+  JOURNAL   J. Biol. Chem. 263 (5), 2571-2574 (1988)
+   PUBMED   3276693
+REFERENCE   2  (residues 1 to 85)
+  AUTHORS   Delbaere,L.T., Vandonselaar,M., Quail,J.W., Waygood,E.B. and
+            Lee,J.S.
+  TITLE     Crystallization of the complex of a monoclonal Fab fragment with
+            the histidine-containing protein of the phosphoenolpyruvate: sugar
+            phosphotransferase system of Escherichia coli
+  JOURNAL   J. Biol. Chem. 264 (31), 18645-18646 (1989)
+   PUBMED   2681201
+REFERENCE   3  (residues 1 to 85)
+  AUTHORS   Sharma,S., Georges,F., Delbaere,L.T., Lee,J.S., Klevit,R.E. and
+            Waygood,E.B.
+  TITLE     Epitope mapping by mutagenesis distinguishes between the two
+            tertiary structures of the histidine-containing protein HPr
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 88 (11), 4877-4881 (1991)
+   PUBMED   1711212
+REFERENCE   4  (residues 1 to 85)
+  AUTHORS   Prasad,L., Sharma,S., Vandonselaar,M., Quail,J.W., Lee,J.S.,
+            Waygood,E.B., Wilson,K.S., Dauter,Z. and Delbaere,L.T.
+  TITLE     Evaluation of mutagenesis for epitope mapping. Structure of an
+            antibody-protein antigen complex
+  JOURNAL   J. Biol. Chem. 268 (15), 10705-10708 (1993)
+   PUBMED   7684366
+REFERENCE   5  (residues 1 to 85)
+  AUTHORS   Prasad,L., Waygood,E.B., Lee,J.S. and Delbaere,L.T.
+  TITLE     The 2.5 A resolution structure of the jel42 Fab fragment/HPr
+            complex
+  JOURNAL   J. Mol. Biol. 280 (5), 829-845 (1998)
+   PUBMED   9671553
+REFERENCE   6  (residues 1 to 85)
+  AUTHORS   Prasad,L., Waygood,E.B., Lee,J.S. and Delbaere,L.T.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-1998)
+COMMENT     3 Histidine-containing Protein.
+FEATURES             Location/Qualifiers
+     source          1..85
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     SecStr          1..8
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          16..27
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 39"
+     SecStr          39..44
+                     /sec_str_type="sheet"
+                     /note="strand 40"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          59..67
+                     /sec_str_type="sheet"
+                     /note="strand 41"
+     SecStr          70..82
+                     /sec_str_type="helix"
+                     /note="helix 3"
+ORIGIN      
+        1 mfqqevtita pnglhtrpaa qfvkeakgft seitvtsngk sasakslfkl qtlgltqgtv
+       61 vtisaegede qkavehlvkl maele
+//
+

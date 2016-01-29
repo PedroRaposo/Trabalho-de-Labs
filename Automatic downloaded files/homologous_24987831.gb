@@ -1,0 +1,103 @@
+LOCUS       1MVO_A                   136 aa            linear   BCT 18-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The Phop Receiver Domain From
+            Bacillus Subtilis.
+ACCESSION   1MVO_A
+VERSION     1MVO_A  GI:24987831
+DBSOURCE    pdb: molecule 1MVO, chain 65, release Oct 13, 2012;
+            deposition: Sep 26, 2002;
+            class: Transcription;
+            source: Mmdb_id: 21020, Pdb_id 1: 1MVO;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 136)
+  AUTHORS   Birck,C., Chen,Y., Hulett,F.M. and Samama,J.P.
+  TITLE     The crystal structure of the phosphorylation domain in PhoP reveals
+            a functional tandem association mediated by an asymmetric interface
+  JOURNAL   J. Bacteriol. 185 (1), 254-261 (2003)
+   PUBMED   12486062
+REFERENCE   2  (residues 1 to 136)
+  AUTHORS   Chen,Y., Birck,C., Samama,J.P. and Hulett,F.M.
+  TITLE     Residue R113 is essential for PhoP dimerization and function: a
+            residue buried in the asymmetric PhoP dimer interface determined in
+            the PhoPN three-dimensional crystal structure
+  JOURNAL   J. Bacteriol. 185 (1), 262-273 (2003)
+   PUBMED   12486063
+REFERENCE   3  (residues 1 to 136)
+  AUTHORS   Birck,C., Chen,Y., Hulett,F.M., Samama,J.P., Structural Proteomics
+            and In Europe (Spine).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-SEP-2002)
+COMMENT     1 Phop Response Regulator.
+FEATURES             Location/Qualifiers
+     source          1..136
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     SecStr          4..11
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..119
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(10..11,54,62,82,101,104..105)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     Het             join(bond(11),bond(54),bond(56))
+                     /heterogen="( MN,1000 )"
+     SecStr          13..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          28..35
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          36..45
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Het             join(bond(38),bond(38))
+                     /heterogen="( NA,1001 )"
+     SecStr          49..55
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            54
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(57..58,60..62)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          62..72
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Het             join(bond(76),bond(97),bond(99))
+                     /heterogen="( NA,1002 )"
+     SecStr          77..83
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          89..97
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          99..104
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            104..106
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          108..120
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 hmnkkilvvd deesivtllq ynlersgydv itasdgeeal kkaetekpdl ivldvmlpkl
+       61 dgievckqlr qqklmfpilm ltakdeefdk vlglelgadd ymtkpfspre vnarvkailr
+      121 rseirapsse mkndem
+//
+

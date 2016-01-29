@@ -1,0 +1,273 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 78100844 
+ Accession: 1WQA_A 
+ Score: 96.6709
+ E-value: 4.86812e-21
+ Identities: 132
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/78100844
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 75765260 
+ Accession: 1TUO_A 
+ Score: 90.1225
+ E-value: 7.29521e-19
+ Identities: 102
+ Function: Biosynthetic Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/75765260
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 119389439 
+ Accession: 2F7L_A 
+ Score: 88.1965
+ E-value: 3.0869e-18
+ Identities: 117
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/119389439
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 160286310 
+ Accession: 2Z0F_A 
+ Score: 69.3218
+ E-value: 3.83898e-12
+ Identities: 106
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/160286310
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 572153306 
+ Accession: 4MRQ_A 
+ Score: 60.077
+ E-value: 2.40276e-09
+ Identities: 54
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/572153306
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 20150646 
+ Accession: 1K2Y_X 
+ Score: 58.9214
+ E-value: 6.91424e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/20150646
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 323462896 
+ Accession: 3NA5_A 
+ Score: 58.9214
+ E-value: 7.4008e-09
+ Identities: 131
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323462896
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 323463042 
+ Accession: 3OLP_A 
+ Score: 58.9214
+ E-value: 8.57598e-09
+ Identities: 134
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323463042
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 93279553 
+ Accession: 2FKM_X 
+ Score: 58.5362
+ E-value: 8.88946e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279553
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 530537520 
+ Accession: 4IL8_A 
+ Score: 58.5362
+ E-value: 9.38634e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/530537520
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 42543249 
+ Accession: 1P5D_X 
+ Score: 58.5362
+ E-value: 9.55171e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/42543249
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 198443194 
+ Accession: 3BKQ_X 
+ Score: 58.5362
+ E-value: 9.55171e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/198443194
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 114794203 
+ Accession: 2H4L_X 
+ Score: 58.5362
+ E-value: 9.71999e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/114794203
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 378792146 
+ Accession: 3RSM_A 
+ Score: 58.5362
+ E-value: 9.71999e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/378792146
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 93279551 
+ Accession: 2FKF_A 
+ Score: 58.151
+ E-value: 9.95822e-09
+ Identities: 53
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279551
+------------------------------------------------------------------
+
+
+Hit num: 16
+
+Hsp num :1
+ Gi: 344189595 
+ Accession: 3PDK_A 
+ Score: 56.6102
+ E-value: 3.83473e-08
+ Identities: 88
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/344189595
+------------------------------------------------------------------
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 20150647 
+ Accession: 1K35_A 
+ Score: 55.0694
+ E-value: 1.15797e-07
+ Identities: 52
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/20150647
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 93279756 
+ Accession: 2FUV_A 
+ Score: 55.0694
+ E-value: 1.3642e-07
+ Identities: 127
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/93279756
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 374414700 
+ Accession: 3UW2_A 
+ Score: 44.2838
+ E-value: 0.000266502
+ Identities: 69
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/374414700
+------------------------------------------------------------------
+
+
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 284055608 
+ Accession: 3I3W_A 
+ Score: 38.1206
+ E-value: 0.0188683
+ Identities: 63
+ Function: Isomerase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/284055608
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

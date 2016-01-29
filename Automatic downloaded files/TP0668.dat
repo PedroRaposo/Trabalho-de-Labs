@@ -1,0 +1,79 @@
+ID   O83674_TREPA            Unreviewed;       202 AA.
+AC   O83674;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 78.
+DE   SubName: Full=Conserved hypothetical integral membrane protein {ECO:0000313|EMBL:AAC26566.1};
+DE   SubName: Full=Putative membrane protein {ECO:0000313|EMBL:AGN75846.1};
+GN   OrderedLocusNames=TP_0668 {ECO:0000313|EMBL:AAC26566.1};
+GN   ORFNames=TPANIC_0668 {ECO:0000313|EMBL:AGN75846.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC26566.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AAC26566.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC26566.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75846.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75846.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC26566.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75846.1; -; Genomic_DNA.
+DR   PIR; G71295; G71295.
+DR   RefSeq; WP_010882113.1; NC_021490.2.
+DR   STRING; 243276.TP0668; -.
+DR   EnsemblBacteria; AAC26566; AAC26566; TP_0668.
+DR   EnsemblBacteria; AGN75846; AGN75846; TPANIC_0668.
+DR   GeneID; 2611529; -.
+DR   KEGG; tpa:TP_0668; -.
+DR   KEGG; tpw:TPANIC_0668; -.
+DR   PATRIC; 20531411; VBITrePal57110_0709.
+DR   eggNOG; COG0762; LUCA.
+DR   eggNOG; ENOG41062EY; Bacteria.
+DR   KO; K02221; -.
+DR   OMA; FFRFGIY; -.
+DR   OrthoDB; EOG68SW5P; -.
+DR   BioCyc; TPAL243276:GC1H-710-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   InterPro; IPR003425; CCB3/YggT.
+DR   Pfam; PF02325; YGGT; 1.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Membrane {ECO:0000256|SAM:Phobius};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Transmembrane {ECO:0000256|SAM:Phobius};
+KW   Transmembrane helix {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     64     87       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM     99    122       Helical. {ECO:0000256|SAM:Phobius}.
+FT   TRANSMEM    165    193       Helical. {ECO:0000256|SAM:Phobius}.
+SQ   SEQUENCE   202 AA;  22693 MW;  4628F8BDAF12AFF1 CRC64;
+     MSSVLSTLSA LLSVYALLCT ARVFLSWVPH LSHSPLGEFL SAICEPYLSW FRRFSFMRVG
+     TVDFSPMIAI GVLTILSNTV GTIFLVGSVS VLKLLLQMLM LLLLLWSLCK FVLEFLLILF
+     AVRFVSDRMN VNVHTLFFVM MDRILNPVRV ALTAPFKFLD LSYRASLLLC VLVILCARVL
+     GGFFVNVVVR YFLTGTLHVA VM
+//

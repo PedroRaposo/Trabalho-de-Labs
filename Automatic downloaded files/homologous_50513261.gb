@@ -1,0 +1,145 @@
+LOCUS       1O5T_A                   378 aa            linear   PRI 26-NOV-2012
+DEFINITION  Chain A, Crystal Structure Of The Aminoacylation Catalytic Fragment
+            Of Human Tryptophanyl-Trna Synthetase.
+ACCESSION   1O5T_A
+VERSION     1O5T_A  GI:50513261
+DBSOURCE    pdb: molecule 1O5T, chain 65, release Nov 16, 2012;
+            deposition: Oct 5, 2003;
+            class: Ligase;
+            source: Mmdb_id: 28123, Pdb_id 1: 1O5T;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 378)
+  AUTHORS   Yu,Y., Liu,Y., Shen,N., Xu,X., Xu,F., Jia,J., Jin,Y., Arnold,E. and
+            Ding,J.
+  TITLE     Crystal structure of human tryptophanyl-tRNA synthetase catalytic
+            fragment: insights into substrate recognition, tRNA binding, and
+            angiogenesis activity
+  JOURNAL   J. Biol. Chem. 279 (9), 8378-8388 (2004)
+   PUBMED   14660560
+REFERENCE   2  (residues 1 to 378)
+  AUTHORS   Yu,Y., Liu,Y., Shen,N., Xu,X., Jia,J., Jin,Y., Arnold,E. and
+            Ding,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-OCT-2003)
+COMMENT     1 Tryptophanyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..378
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..258,360..378)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          7..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          16..19
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          21..31
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          43..49
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          50..59
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          61..378
+                     /region_name="trpS"
+                     /note="tryptophanyl-tRNA synthetase; TIGR00233"
+                     /db_xref="CDD:272975"
+     SecStr          62..71
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          64..348
+                     /region_name="TrpRS_core"
+                     /note="catalytic core domain of tryptophanyl-tRNA
+                     synthetase; cd00806"
+                     /db_xref="CDD:173903"
+     Site            order(66..70,77,79..80,83,101,106,144,187,191,194,214,
+                     216..217,219..220,223,246,256..257,259)
+                     /site_type="active"
+                     /db_xref="CDD:173903"
+     Site            77..80
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173903"
+     SecStr          82..94
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          97..103
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          104..111
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(105,108..109,154..155,157..159,162..163,165..168,
+                     170..171,183,185..186,189..190)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173903"
+     SecStr          115..130
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          138..145
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          154..164
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          166..174
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          210..217
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          224..231
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          239..245
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            256..260
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173903"
+     Region          259..359
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          272..281
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          283..286
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          290..297
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          303..306
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          317..329
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          334..357
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          361..368
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 sakgidydkl ivrfgsskid kelinriera tgqrphhflr rgiffshrdm nqvldayenk
+       61 kpfylytgrg psseamhvgh lipfiftkwl qdvfnvplvi qmtddekylw kdltldqays
+      121 yavenakdii acgfdinktf ifsdldymgm ssgfyknvvk iqkhvtfnqv kgifgftdsd
+      181 cigkisfpai qaapsfsnsf pqifrdrtdi qclipcaidq dpyfrmtrdv aprigypkpa
+      241 llhstffpal qgaqtkmsas dpnssifltd takqiktkvn khafsggrdt ieehrqfggn
+      301 cdvdvsfmyl tffledddkl eqirkdytsg amltgelkka lievlqplia ehqarrkevt
+      361 deivkefmtp rklsfdfq
+//
+

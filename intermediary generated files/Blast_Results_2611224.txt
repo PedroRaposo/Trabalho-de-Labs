@@ -1,0 +1,50 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 194708985 
+ Accession: 2QQ4_A 
+ Score: 98.9821
+ E-value: 3.85872e-26
+ Identities: 51
+ Function: Metal Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/194708985
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 58177361 
+ Accession: 1XJS_A 
+ Score: 92.0485
+ E-value: 2.04449e-23
+ Identities: 46
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/58177361
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 52695567 
+ Accession: 1SU0_B 
+ Score: 87.4261
+ E-value: 1.21596e-21
+ Identities: 43
+ Function: Structural Genomics, Unknown Function
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/52695567
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

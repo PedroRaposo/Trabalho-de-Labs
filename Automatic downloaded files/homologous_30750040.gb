@@ -1,0 +1,147 @@
+LOCUS       1OU5_A                   448 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Human Cca-Adding Enzyme.
+ACCESSION   1OU5_A
+VERSION     1OU5_A  GI:30750040
+DBSOURCE    pdb: molecule 1OU5, chain 65, release Jun 18, 2009;
+            deposition: Mar 24, 2003;
+            class: Translation, Transferase;
+            source: Mmdb_id: 22826, Pdb_id 1: 1OU5;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 448)
+  AUTHORS   Augustin,M.A., Reichert,A.S., Betat,H., Huber,R., Morl,M. and
+            Steegborn,C.
+  TITLE     Crystal structure of the human CCA-adding enzyme: insights into
+            template-independent polymerization
+  JOURNAL   J. Mol. Biol. 328 (5), 985-994 (2003)
+   PUBMED   12729736
+REFERENCE   2  (residues 1 to 448)
+  AUTHORS   Augustin,M.A., Reichert,A.S., Betat,H., Huber,R., Moerl,M. and
+            Steegborn,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2003)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..448
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          1..202
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          19..>40
+                     /region_name="RNase_A"
+                     /note="RNase A family, or Pancreatic RNases family;
+                     includes vertebrate RNase homologs to the bovine
+                     pancreatic ribonuclease A (RNase A). Many of these enzymes
+                     have special biological activities; for example, some
+                     stimulate the development of vascular...; cl00128"
+                     /db_xref="CDD:260206"
+     Region          54..431
+                     /region_name="PcnB"
+                     /note="tRNA nucleotidyltransferase/poly(A) polymerase
+                     [Translation, ribosomal structure and biogenesis];
+                     COG0617"
+                     /db_xref="CDD:223690"
+     Region          56..192
+                     /region_name="NT_ClassII-CCAase"
+                     /note="Nucleotidyltransferase (NT) domain of ClassII
+                     CCA-adding enzymes; cd05398"
+                     /db_xref="CDD:143388"
+     SecStr          59..69
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          71..77
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(77..78,81..82,91,93,122,135,140,164..167,170)
+                     /site_type="active"
+                     /db_xref="CDD:143388"
+     Site            order(77..78,81,91,93,164..166,170)
+                     /site_type="other"
+                     /note="NTP binding site [chemical binding]"
+                     /db_xref="CDD:143388"
+     SecStr          78..85
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(91,93,135)
+                     /site_type="metal-binding"
+                     /note="metal binding triad [ion binding]"
+                     /db_xref="CDD:143388"
+     SecStr          93..98
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          100..110
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          123..129
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          132..139
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          172..176
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          178..182
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          186..193
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          203..282
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          211..221
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          230..284
+                     /region_name="PolyA_pol_RNAbd"
+                     /note="Probable RNA and SrmB- binding site of polymerase
+                     A; pfam12627"
+                     /db_xref="CDD:257174"
+     SecStr          231..240
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          250..261
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          265..275
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          283..448
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          290..299
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          319..327
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          331..340
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          358..366
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          372..383
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          386..394
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 mhhhhhhssg lvprgsgmke taaakferqh mdspdlgtdd ddkmklqspe fqslfteglk
+       61 sltelfvken helriaggav rdllngvkpq didfattatp tqmkemfqsa girminnrge
+      121 khgtitarlh eenfeittlr idvttdgrha evefttdwqk daerrdltin smflgfdgtl
+      181 fdyfngyedl knkkvrfvgh akqriqedyl rilryfrfyg rivdkpgdhd petleaiaen
+      241 akglagisge riwvelkkil vgnhvnhlih liydldvapy iglpanasle efdkvsknvd
+      301 gfspkpvtll aslfkvqddv tkldlrlkia keeknlglfi vknrkdlika tdssdplkpy
+      361 qdfiidsrep dattrvcell kyqgehcllk emqqwsippf pvsghdirkv gissgkeiga
+      421 llqqlreqwk ksgyqmekde llsyikkt
+//
+

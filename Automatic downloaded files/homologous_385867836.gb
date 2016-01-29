@@ -1,0 +1,146 @@
+LOCUS       4EB5_A                   382 aa            linear   BCT 02-JAN-2013
+DEFINITION  Chain A, A. Fulgidus Iscs-Iscu Complex Structure.
+ACCESSION   4EB5_A
+VERSION     4EB5_A  GI:385867836
+DBSOURCE    pdb: molecule 4EB5, chain 65, release Jan 2, 2013;
+            deposition: Mar 23, 2012;
+            class: TransferaseMETAL BINDING PROTEIN;
+            source: Mmdb_id: 99263, Pdb_id 1: 4EB5;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Archaeoglobus fulgidus DSM 4304
+  ORGANISM  Archaeoglobus fulgidus DSM 4304
+            Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales;
+            Archaeoglobaceae; Archaeoglobus.
+REFERENCE   1  (residues 1 to 382)
+  AUTHORS   Marinoni,E.N., de Oliveira,J.S., Nicolet,Y., Raulfs,E.C., Amara,P.,
+            Dean,D.R. and Fontecilla-Camps,J.C.
+  TITLE     (IscS-IscU)2 complex structures provide insights into Fe2S2
+            biogenesis and transfer
+  JOURNAL   Angew. Chem. Int. Ed. Engl. 51 (22), 5439-5442 (2012)
+   PUBMED   22511353
+REFERENCE   2  (residues 1 to 382)
+  AUTHORS   Marinoni,E.N., De Oliveira,J.S., Nicolet,Y., Raulfs,E.C., Amara,P.,
+            D,D. and Fontecilla-Camps,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2012)
+COMMENT     1 Probable Cysteine Desulfurase 2.
+FEATURES             Location/Qualifiers
+     source          1..382
+                     /organism="Archaeoglobus fulgidus DSM 4304"
+                     /db_xref="taxon:224325"
+     Region          join(1..9,275..382)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..381
+                     /region_name="NifS"
+                     /note="Cysteine sulfinate desulfinase/cysteine desulfurase
+                     or related enzyme [Amino acid transport and metabolism];
+                     COG1104"
+                     /db_xref="CDD:224029"
+     Region          2..362
+                     /region_name="Aminotran_5"
+                     /note="Aminotransferase class-V; pfam00266"
+                     /db_xref="CDD:249728"
+     SecStr          2..5
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          join(10..58,226..252)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          13..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          36..56
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          59..225
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          60..67
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(69..70,73,146,173,176,196,199)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     SecStr          69..84
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          89..94
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          99..111
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          113..118
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          127..135
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          140..145
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          146..150
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          151..155
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          157..164
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          168..175
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          191..197
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            199
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     SecStr          206..213
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          237..252
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          253..272
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          277..281
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          290..297
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          302..311
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          312..318
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Het             bond(321)
+                     /heterogen="(FES,1006 )"
+     SecStr          329..336
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          344..350
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          356..376
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 mayfdytsak pvderileam lpymtesfgn pssvhsygfk areavqeare kvaklvnggg
+       61 gtvvftsgat eannlaiigy amrnarkgkh ilvsavehms vinpakflqk qgfeveyipv
+      121 gkygevdvsf idqklrddti lvsvqhanne igtiqpveei sevlagkaal hidatasvgq
+      181 ievdvekiga dmltissndi ygpkgvgalw irkeaklqpv ilgggqengl rsgsenvpsi
+      241 vgfgkaaeit amewreeaer lrrlrdriid nvlkieesyl nghpekrlpn nvnvrfsyie
+      301 gesivlsldm agiqastgsa cssktlqpsh vlmacglkhe eahgtllltl gryntdedvd
+      361 rllevlpgvi erlrsmsply rr
+//
+

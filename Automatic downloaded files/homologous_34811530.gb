@@ -1,0 +1,100 @@
+LOCUS       1PNS_B                   234 aa            linear   BCT 11-OCT-2012
+DEFINITION  Chain B, Crystal Structure Of A Streptomycin Dependent Ribosome
+            From E. Coli, 30s Subunit Of 70s Ribosome. This File, 1pns,
+            Contains The 30s Subunit, Two Trnas, And One Mrna Molecule. The 50s
+            Ribosomal Subunit Is In File 1pnu.
+ACCESSION   1PNS_B
+VERSION     1PNS_B  GI:34811530
+DBSOURCE    pdb: molecule 1PNS, chain 66, release Aug 27, 2007;
+            deposition: Aug 27, 2007;
+            class: Ribosome;
+            source: Mmdb_id: 99536, Pdb_id 1: 1PNS, Pdb_id 2: 1PNU;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 234)
+  AUTHORS   Vila-Sanjurjo,A., Ridgeway,W.K., Seymaner,V., Zhang,W., Santoso,S.,
+            Yu,K. and Cate,J.H.
+  TITLE     X-ray crystal structures of the WT and a hyper-accurate ribosome
+            from Escherichia coli
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 100 (15), 8682-8687 (2003)
+   PUBMED   12853578
+REFERENCE   2  (residues 1 to 234)
+  AUTHORS   Vila-Sanjurjo,A., Ridgeway,W.K., Seymaner,V., Zhang,W., Santoso,S.,
+            Yu,K. and Cate,J.H.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-2003)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..234
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          4..213
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     Site            order(20..21,30..32,90,92..94,97..98,170,173)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          26..31
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          32..36
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          38..58
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          61..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          72..81
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          84..89
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          100..115
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          127..142
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          154..160
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          165..174
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(172..173,175,189..192)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          176..183
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          192..197
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          203..220
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Site            order(207..208,209)
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+ORIGIN      
+        1 vkelleagvh fgherkrwnp kfaryiyaer ngihiidlqk tmeelertfr fiedlamrgg
+       61 tilfvgtkkq aqdivrmeae ragmpyvnqr wlggmltnfk tisqrvhrle elealfaspe
+      121 ieerpkkeqv rlkhelerlq kylsgfrllk rlpdaifvvd ptkeaiavre arklfipvia
+      181 ladtdsdpdl vdyiipgndd airsiqlils ravdliiqar ggvvepspsy alvq
+//
+

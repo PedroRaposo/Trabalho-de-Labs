@@ -1,0 +1,119 @@
+LOCUS       4HG0_A                   292 aa            linear   BCT 06-FEB-2013
+DEFINITION  Chain A, Crystal Structure Of Magnesium And Cobalt Efflux Protein
+            Corc, Northeast Structural Genomics Consortium (nesg) Target Er40.
+ACCESSION   4HG0_A
+VERSION     4HG0_A  GI:448262570
+DBSOURCE    pdb: molecule 4HG0, chain 65, release Feb 6, 2013;
+            deposition: Oct 5, 2012;
+            class: Transport Protein;
+            source: Mmdb_id: 107341, Pdb_id 1: 4HG0;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 292)
+  AUTHORS   Kuzin,A., Neely,H., Seetharaman,J., Patel,P., Xiao,R., Cicc,C.,
+            Cooper,B., Everett,J.K., Acton,T.B., Montelione,G.T., Ton,L. and
+            Hunt,J.F.
+  TITLE     Northeast Structural Genomics Consortium Target Er4
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 292)
+  AUTHORS   Kuzin,A., Neely,H., Seetharaman,J., Patel,P., Xiao,R.,
+            Ciccosanti,C., B,B., K,Everett.J.K., B,Acton.T.B., Montelione,G.T.,
+            Tong,L., Hunt,J.F., Nort and Structural Genomics Consortium (Nesg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-OCT-2012)
+COMMENT     1 Magnesium And Cobalt Efflux Protein Corc.
+FEATURES             Location/Qualifiers
+     source          1..292
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          11..292
+                     /region_name="PRK15094"
+                     /note="magnesium/cobalt efflux protein CorC; Provisional"
+                     /db_xref="CDD:185050"
+     SecStr          54..63
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          join(69..78,132..192)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          73..76
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          77..186
+                     /region_name="CBS_pair_CorC_HlyC_assoc"
+                     /note="This cd contains two tandem repeats of the
+                     cystathionine beta-synthase (CBS pair) domains associated
+                     with the CorC_HlyC domain. CorC_HlyC is a transporter
+                     associated domain. This small domain is found in Na+/H+
+                     antiporters, in proteins involved in...; cd04590"
+                     /db_xref="CDD:239963"
+     Region          79..131
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          81..84
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          91..98
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          101..107
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          114..119
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          143..147
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          151..161
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          164..171
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          173..181
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          193..292
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          203..208
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          205..282
+                     /region_name="CorC_HlyC"
+                     /note="Transporter associated domain; smart01091"
+                     /db_xref="CDD:215020"
+     SecStr          210..216
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          220..227
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          239..247
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          255..260
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          261..267
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          268..271
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          272..281
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 xsddnshssd tisnkkgffs lllsqlfhge pknrdellal irdsgqndli dedtrdxleg
+       61 vxdiadqrvr dixiprsqxi tlkrnqtlde cldviiesah srfpvisedk dhiegilxak
+      121 dllpfxrsda eafsxdkvlr qavvvpeskr vdrxlkefrs qryhxaivid efggvsglvt
+      181 iedilelivg eiedeydeed didfrqlsrh twtvralasi edfneafgth fsdeevdtig
+      241 glvxqafghl pargetidid gyqfkvaxad srriiqvhvk ipddspqpkl de
+//
+

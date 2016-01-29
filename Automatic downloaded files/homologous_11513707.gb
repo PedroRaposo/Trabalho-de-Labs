@@ -1,0 +1,87 @@
+LOCUS       1EH1_A                   185 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Ribosome Recycling Factor From Thermus Thermophilus.
+ACCESSION   1EH1_A
+VERSION     1EH1_A  GI:11513707
+DBSOURCE    pdb: molecule 1EH1, chain 65, release Jun 18, 2009;
+            deposition: Feb 18, 2000;
+            class: Ribosome;
+            source: Mmdb_id: 14591, Pdb_id 1: 1EH1;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus
+  ORGANISM  Thermus thermophilus
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 185)
+  AUTHORS   Toyoda,T., Tin,O.F., Ito,K., Fujiwara,T., Kumasaka,T., Yamamoto,M.,
+            Garber,M.B. and Nakamura,Y.
+  TITLE     Crystal structure combined with genetic analysis of the Thermus
+            thermophilus ribosome recycling factor shows that a flexible hinge
+            may act as a functional switch
+  JOURNAL   RNA 6 (10), 1432-1444 (2000)
+   PUBMED   11073219
+REFERENCE   2  (residues 1 to 185)
+  AUTHORS   Toyoda,T., Tin,O.F., Ito,K., Fujiwara,T., Kumasaka,T., Yamamoto,M.,
+            Garber,M.B. and Nakamura,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-FEB-2000)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..185
+                     /organism="Thermus thermophilus"
+                     /db_xref="taxon:274"
+     Region          join(1..35,106..185)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          3..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          6..184
+                     /region_name="RRF"
+                     /note="Ribosome recycling factor (RRF). Ribosome recycling
+                     factor dissociates the posttermination complex, composed
+                     of the ribosome, deacylated tRNA, and mRNA, after
+                     termination of translation. Thus ribosomes are 'recycled'
+                     and ready for another round of...; cd00520"
+                     /db_xref="CDD:238288"
+     Site            order(30..33,103..106)
+                     /site_type="other"
+                     /note="hinge region"
+                     /db_xref="CDD:238288"
+     Region          36..105
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          43..46
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          47..50
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          56..62
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          64..70
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          73..82
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          92..96
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          97..103
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          108..147
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          151..184
+                     /sec_str_type="helix"
+                     /note="helix 4"
+ORIGIN      
+        1 mtlkelyaet rshmqkslev lehnlaglrt granpalllh lkveyygahv plnqiatvta
+       61 pdprtlvvqs wdqnalkaie kairdsdlgl npsnkgdaly inipplteer rkdlvravrq
+      121 yaeegrvair nirrealdkl kklakelhls edetkraeae iqkitdefia kadqlaekke
+      181 qeilg
+//
+

@@ -1,0 +1,144 @@
+LOCUS       1DVR_A                   220 aa            linear   PLN 10-OCT-2012
+DEFINITION  Chain A, Structure Of A Mutant Adenylate Kinase Ligated With An
+            Atp- Analogue Showing Domain Closure Over Atp.
+ACCESSION   1DVR_A
+VERSION     1DVR_A  GI:1421658
+DBSOURCE    pdb: molecule 1DVR, chain 65, release Aug 27, 2007;
+            deposition: Dec 14, 1995;
+            class: Transferase (Phosphotransferase);
+            source: Mmdb_id: 4306, Pdb_id 1: 1DVR;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae (baker's yeast)
+  ORGANISM  Saccharomyces cerevisiae
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+            Saccharomyces.
+REFERENCE   1  (residues 1 to 220)
+  AUTHORS   Tomasselli,A.G., Mast,E., Janes,W. and Schiltz,E.
+  TITLE     The complete amino acid sequence of adenylate kinase from baker's
+            yeast
+  JOURNAL   Eur. J. Biochem. 155 (1), 111-119 (1986)
+   PUBMED   3004985
+REFERENCE   2  (residues 1 to 220)
+  AUTHORS   Egner,U., Tomasselli,A.G. and Schulz,G.E.
+  TITLE     Structure of the complex of yeast adenylate kinase with the
+            inhibitor P1,P5-di(adenosine-5'-)pentaphosphate at 2.6 A resolution
+  JOURNAL   J. Mol. Biol. 195 (3), 649-658 (1987)
+   PUBMED   2821281
+REFERENCE   3  (residues 1 to 220)
+  AUTHORS   Proba,K., Tomasselli,A.G., Nielsen,P. and Schulz,G.E.
+  TITLE     The cDNA sequence encoding cytosolic adenylate kinase from baker's
+            yeast (Saccharomyces cerevisiae)
+  JOURNAL   Nucleic Acids Res. 15 (17), 7187 (1987)
+   PUBMED   2821496
+REFERENCE   4  (residues 1 to 220)
+  AUTHORS   Vonrhein,C., Schlauderer,G.J. and Schulz,G.E.
+  TITLE     Movie of the structural changes during a catalytic cycle of
+            nucleoside monophosphate kinases
+  JOURNAL   Structure 3 (5), 483-490 (1995)
+   PUBMED   7663945
+REFERENCE   5  (residues 1 to 220)
+  AUTHORS   Abele,U. and Schulz,G.E.
+  TITLE     High-resolution structures of adenylate kinase from yeast ligated
+            with inhibitor Ap5A, showing the pathway of phosphoryl transfer
+  JOURNAL   Protein Sci. 4 (7), 1262-1271 (1995)
+   PUBMED   7670369
+REFERENCE   6  (residues 1 to 220)
+  AUTHORS   Spuergin,P., Abele,U. and Schulz,G.E.
+  TITLE     Stability, activity and structure of adenylate kinase mutants
+  JOURNAL   Eur. J. Biochem. 231 (2), 405-413 (1995)
+   PUBMED   7635152
+REFERENCE   7  (residues 1 to 220)
+  AUTHORS   Schlauderer,G.J., Proba,K. and Schulz,G.E.
+  TITLE     Structure of a mutant adenylate kinase ligated with an ATP-analogue
+            showing domain closure over ATP
+  JOURNAL   J. Mol. Biol. 256 (2), 223-227 (1996)
+   PUBMED   8594191
+REFERENCE   8  (residues 1 to 220)
+  AUTHORS   Schlauderer,G.J. and Schulz,G.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-DEC-1995)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..220
+                     /organism="Saccharomyces cerevisiae"
+                     /db_xref="taxon:4932"
+     Region          join(1..120,196..220)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          4..11
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          6..220
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     Region          6..209
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          20..28
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          30..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(35,40,63,89..90,92..93,97)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          35..45
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(40,89,93,132,176,180)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          48..59
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          65..77
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          84..90
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          95..108
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          113..119
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          121..158
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          122..131
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          132..137
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          138..144
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          172..194
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          196..201
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          206..217
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 ssesirmvli gppgagkgtq apnlqerfha ahlatgdmlr sqiakgtqlg leakkimdqg
+       61 glvsddimvn mikdeltnnp ackngfilvg fprtipqaek ldqmlkeqgt plekaielkv
+      121 ddellvarit grlihpasgr syhkifnppk edmkddvtge alvqisddna dalkkrlaay
+      181 haqtepivdf ykktgiwagv dasqppatvw adilnklgkn
+//
+

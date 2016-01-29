@@ -1,0 +1,145 @@
+LOCUS       1T4G_A                   322 aa            linear   BCT 11-FEB-2013
+DEFINITION  Chain A, Atpase In Complex With Amp-pnp.
+ACCESSION   1T4G_A
+VERSION     1T4G_A  GI:52695616
+DBSOURCE    pdb: molecule 1T4G, chain 65, release Feb 7, 2013;
+            deposition: Apr 29, 2004;
+            class: Recombination;
+            source: Mmdb_id: 28997, Pdb_id 1: 1T4G;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanococcus voltae
+  ORGANISM  Methanococcus voltae
+            Archaea; Euryarchaeota; Methanococci; Methanococcales;
+            Methanococcaceae; Methanococcus.
+REFERENCE   1  (residues 1 to 322)
+  AUTHORS   Wu,Y., He,Y., Moya,I.A., Qian,X. and Luo,Y.
+  TITLE     Crystal structure of archaeal recombinase RADA: a snapshot of its
+            extended conformation
+  JOURNAL   Mol. Cell 15 (3), 423-435 (2004)
+   PUBMED   15304222
+REFERENCE   2  (residues 1 to 322)
+  AUTHORS   Wu,Y., He,Y., Moya,I.A., Qian,X. and Luo,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-APR-2004)
+COMMENT     1 Dna Repair And Recombination Protein Rada.
+FEATURES             Location/Qualifiers
+     source          1..322
+                     /organism="Methanococcus voltae"
+                     /db_xref="taxon:2188"
+     Region          3..322
+                     /region_name="radA"
+                     /note="DNA repair and recombination protein RadA;
+                     Validated; PRK04301"
+                     /db_xref="CDD:235273"
+     Region          3..58
+                     /region_name="HHH_5"
+                     /note="Helix-hairpin-helix domain; pfam14520"
+                     /db_xref="CDD:258660"
+     SecStr          13..22
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..33
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          46..60
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          68..75
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          77..322
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          78..81
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          80..320
+                     /region_name="Rad51_DMC1_radA"
+                     /note="Rad51_DMC1_radA,B. This group of recombinases
+                     includes the eukaryotic proteins RAD51, RAD55/57 and the
+                     meiosis-specific protein DMC1, and the archaeal proteins
+                     radA and radB. They are closely related to the bacterial
+                     RecA group. Rad51 proteins catalyze a...; cd01123"
+                     /db_xref="CDD:238543"
+     SecStr          84..91
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Het             join(bond(98),bond(246))
+                     /heterogen="( MG,1001 )"
+     SecStr          98..106
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            105..112
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238543"
+     Site            order(107,111..112,147,149,151,211)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238543"
+     SecStr          111..121
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Het             bond(112)
+                     /heterogen="( MG,1000 )"
+     SecStr          127..130
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          144..150
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(146,148,156,159,174,177..178,180,191..196,198,240,
+                     243..244,247..248)
+                     /site_type="other"
+                     /note="multimer (BRC) interface"
+                     /db_xref="CDD:238543"
+     SecStr          156..166
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          169..176
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          177..182
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          185..201
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          206..211
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            207..211
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238543"
+     SecStr          214..222
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          228..248
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          250..258
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          283..292
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          294..302
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          308..316
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          319..322
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+ORIGIN      
+        1 mgdnltdlpg vgpstaeklv eagyidfmki atatvgeltd iegisekaaa kmimgardlc
+       61 dlgfksgidl lkqrstvwkl stssseldsv lggglesqsv tefagvfgsg ktqimhqscv
+      121 nlqnpeflfy deeavskgev aqpkavyidt egtfrperim qmaehagidg qtvldntfva
+      181 raynsdmqml faekiedliq egnniklvvi dsltstfrne ytgrgklaer qqklgrhmat
+      241 lnkladlfnc vvlvtnqvsa kpdaffgmae qaigghivgh aatfrffvrk gkgdkrvakl
+      301 ydsphlpdae aifritekgi qd
+//
+

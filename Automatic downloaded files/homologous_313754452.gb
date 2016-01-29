@@ -1,0 +1,82 @@
+LOCUS       3OQM_S                    87 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain S, Structure Of Ccpa-Hpr-Ser46p-Acka2 Complex.
+ACCESSION   3OQM_S
+VERSION     3OQM_S  GI:313754452
+DBSOURCE    pdb: molecule 3OQM, chain 83, release Apr 27, 2011;
+            deposition: Sep 3, 2010;
+            class: TranscriptionTRANSFERASEDNA;
+            source: Mmdb_id: 87201, Pdb_id 1: 3OQM;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 87)
+  AUTHORS   Schumacher,M.A., Sprehe,M., Bartholomae,M., Hillen,W. and
+            Brennan,R.G.
+  TITLE     Structures of carbon catabolite protein A-(HPr-Ser46-P) bound to
+            diverse catabolite response element sites reveal the basis for
+            high-affinity binding to degenerate DNA operators
+  JOURNAL   Nucleic Acids Res. 39 (7), 2931-2942 (2011)
+   PUBMED   21106498
+REFERENCE   2  (residues 1 to 87)
+  AUTHORS   Schumacher,M.A., Sprehe,M., Bartholomae,M., Hillen,W. and
+            Brennan,R.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-SEP-2010)
+COMMENT     Phosphocarrier Protein Hpr.
+FEATURES             Location/Qualifiers
+     source          1..87
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     SecStr          1..9
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Region          4..80
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            4..7
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(13,15..16,18..19,23,26,44..47,50..51)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            14
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          16..26
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          29..37
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          38..43
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            45
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          57..67
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          69..83
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          84..87
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+ORIGIN      
+        1 aqktfkvtad sgiharpatv lvqtaskyda dvnleyngkt vnlkximgvm slgiakgaei
+       61 tisasgaden dalnaleetm kseglge
+//
+

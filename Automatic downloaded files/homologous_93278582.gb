@@ -1,0 +1,138 @@
+LOCUS       1ZH6_A                   314 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Crystal Structure Of P-Acetylphenylalanine-Trna Synthetase
+            In Complex With P-Acetylphenylalanine.
+ACCESSION   1ZH6_A
+VERSION     1ZH6_A  GI:93278582
+DBSOURCE    pdb: molecule 1ZH6, chain 65, release Jan 4, 2013;
+            deposition: Apr 22, 2005;
+            class: Ligase;
+            source: Mmdb_id: 37940, Pdb_id 1: 1ZH6;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanocaldococcus jannaschii
+  ORGANISM  Methanocaldococcus jannaschii
+            Archaea; Euryarchaeota; Methanococci; Methanococcales;
+            Methanocaldococcaceae; Methanocaldococcus.
+REFERENCE   1  (residues 1 to 314)
+  AUTHORS   Turner,J.M., Graziano,J., Spraggon,G. and Schultz,P.G.
+  TITLE     Structural characterization of a p-acetylphenylalanyl
+            aminoacyl-tRNA synthetase
+  JOURNAL   J. Am. Chem. Soc. 127 (43), 14976-14977 (2005)
+   PUBMED   16248607
+REFERENCE   2  (residues 1 to 314)
+  AUTHORS   Turner,J.M., Graziano,J., Spraggon,G. and Schultz,P.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-2005)
+COMMENT     1 Tyrosyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..314
+                     /organism="Methanocaldococcus jannaschii"
+                     /db_xref="taxon:2190"
+     Region          1..306
+                     /region_name="tyrS"
+                     /note="tyrosyl-tRNA synthetase; TIGR00234"
+                     /db_xref="CDD:272976"
+     Region          1..206
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          2..9
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          12..15
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          17..25
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          29..298
+                     /region_name="TyrRS_core"
+                     /note="catalytic core domain of tyrosinyl-tRNA synthetase;
+                     cd00805"
+                     /db_xref="CDD:173902"
+     SecStr          29..36
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(32,34..36,42,44..45,151,155,158,167,169..170,173,
+                     195..196,204..207)
+                     /site_type="active"
+                     /db_xref="CDD:173902"
+     Site            42..45
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173902"
+     SecStr          43..58
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          60..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          68..75
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(69,72..73,115..116,118..120,122..123,125..128,
+                     130..131,147,149..150,153..154)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173902"
+     SecStr          79..96
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          100..105
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          112..124
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          127..134
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          151..158
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Het             bond(159)
+                     /heterogen="(BME,1001 )"
+     SecStr          165..170
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          174..183
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          188..193
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Het             bond(190)
+                     /heterogen="(BME,1002 )"
+     Site            204..208
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173902"
+     Region          207..314
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          219..228
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          240..247
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          252..257
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          263..268
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          271..279
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          284..305
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 mdefemikrn tseiiseeel revlkkdeks aligfepsgk ihlghylqik kmidlqnagf
+       61 diiilladlh aylnqkgeld eirkigdynk kvfeamglka kyvygsefql dkdytlnvyr
+      121 lalkttlkra rrsmeliare denpkvaevi ypimqvngch yrgvdvavgg meqrkihmla
+      181 rellpkkvvc ihnpvltgld gegkmssskg nfiavddspe eirakikkay cpagvvegnp
+      241 imeiakyfle ypltikrpek fggdltvnsy eeleslfknk elhpmdlkna vaeelikile
+      301 pirkrllehh hhhh
+//
+

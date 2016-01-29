@@ -1,0 +1,95 @@
+ID   O83666_TREPA            Unreviewed;       625 AA.
+AC   O83666;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 95.
+DE   SubName: Full=Flagellar hook-associated protein 1 (FlgK) {ECO:0000313|EMBL:AAC65634.1};
+DE   SubName: Full=Flagellar hook-associated protein FlgK {ECO:0000313|EMBL:AGN75838.1};
+GN   Name=flgK {ECO:0000313|EMBL:AGN75838.1};
+GN   OrderedLocusNames=TP_0660 {ECO:0000313|EMBL:AAC65634.1};
+GN   ORFNames=TPANIC_0660 {ECO:0000313|EMBL:AGN75838.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65634.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65634.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65634.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75838.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75838.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65634.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75838.1; -; Genomic_DNA.
+DR   PIR; E71297; E71297.
+DR   RefSeq; WP_010882105.1; NC_021490.2.
+DR   MINT; MINT-6479982; -.
+DR   STRING; 243276.TP0660; -.
+DR   EnsemblBacteria; AAC65634; AAC65634; TP_0660.
+DR   EnsemblBacteria; AGN75838; AGN75838; TPANIC_0660.
+DR   GeneID; 2611174; -.
+DR   KEGG; tpa:TP_0660; -.
+DR   KEGG; tpw:TPANIC_0660; -.
+DR   PATRIC; 20531393; VBITrePal57110_0701.
+DR   eggNOG; COG1256; LUCA.
+DR   eggNOG; ENOG4105E1Q; Bacteria.
+DR   KO; K02396; -.
+DR   OMA; FQQYYMA; -.
+DR   OrthoDB; EOG6NWBMH; -.
+DR   BioCyc; TPAL243276:GC1H-701-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0009424; C:bacterial-type flagellum hook; IEA:InterPro.
+DR   GO; GO:0005198; F:structural molecule activity; IEA:InterPro.
+DR   GO; GO:0044780; P:bacterial-type flagellum assembly; IEA:InterPro.
+DR   InterPro; IPR010810; Flagellin_hook_IN_motif.
+DR   InterPro; IPR010930; Flg_bb/hook_C_dom.
+DR   InterPro; IPR002371; HAP1.
+DR   Pfam; PF07196; Flagellin_IN; 1.
+DR   Pfam; PF06429; Flg_bbr_C; 1.
+DR   PRINTS; PR01005; FLGHOOKAP1.
+DR   TIGRFAMs; TIGR02492; flgK_ends; 1.
+PE   4: Predicted;
+KW   Cell projection {ECO:0000313|EMBL:AAC65634.1};
+KW   Cilium {ECO:0000313|EMBL:AAC65634.1};
+KW   Coiled coil {ECO:0000256|SAM:Coils};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Flagellum {ECO:0000313|EMBL:AAC65634.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN      576    621       Flg_bbr_C. {ECO:0000259|Pfam:PF06429}.
+FT   COILED      172    199       {ECO:0000256|SAM:Coils}.
+SQ   SEQUENCE   625 AA;  68562 MW;  2BE47A5D91C8C2FA CRC64;
+     MSTFASIELG KRALYAHKQS VQTAGHNVSN SSTPGYSRQR VNLDSFEPLY RPDLSRAQLP
+     GQIGQGVTIG SIARLRDQLL DSRIVSQTDE QGYWSTRDAY VRLLEQVYNE PEDIAVRTRL
+     DQFWDGWQEL SVYPEARAAR QVVLTRAQTL TDAIHHQYRG LVGIRDMLNA DIEATVEQVN
+     DLLAKIAQLN EQIVKSKAMG DNPNDLLDRR DTLVESLAHR IEVRVDVRDE DESYVIHSAG
+     LEVVQGKSYK TLGLVSGTTP EGYVSVVWKD SGDRAHFSGG KLAALIELRD TDVRDELRKL
+     DTMAMNFVDL VNNVHRNAMG LNGKTGLDFF KEQYFINNVD GNFDRDGDGQ YDSSYIFRIS
+     GAHALDAREQ VGLTGVITLS AADGTVEVPY AATDMVADVV ARINQANAEV TAYLDQNHKL
+     VLKATTAHNS DNPDFVIRHV EDSGRFLAGY AGLLAASGAE GAFDWQRADA IAALDQAGAQ
+     HAVSPIAHPA GWMELNPAVL SDVYSVAAGY PSAEGLPHAG DNRAALAIAS LRNSPVMIGN
+     RHTFDEFFAE VTTAIGLKGE QAERSMQMHA AILKELTDMR DATSGVNIDE ELADIIKFQH
+     GYNASARFIA AVNEMLDTVI NRMGV
+//

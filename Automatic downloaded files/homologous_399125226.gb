@@ -1,0 +1,160 @@
+LOCUS       4G6Z_A                   490 aa            linear   BCT 30-OCT-2013
+DEFINITION  Chain A, Crystal Structure Of A Glutamyl-trna Synthetase Glurs From
+            Burkholderia Thailandensis Bound To L-glutamate.
+ACCESSION   4G6Z_A
+VERSION     4G6Z_A  GI:399125226
+DBSOURCE    pdb: molecule 4G6Z, chain 65, release Oct 30, 2013;
+            deposition: Jul 19, 2012;
+            class: Ligase;
+            source: Mmdb_id: 101697, Pdb_id 1: 4G6Z;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Burkholderia thailandensis E264
+  ORGANISM  Burkholderia thailandensis E264
+            Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+            Burkholderiaceae; Burkholderia; pseudomallei group.
+REFERENCE   1  (residues 1 to 490)
+  AUTHORS   Baugh,L., Gallagher,L.A., Patrapuvich,R., Clifton,M.C.,
+            Gardberg,A.S., Edwards,T.E., Armour,B., Begley,D.W.,
+            Dieterich,S.H., Dranow,D.M., Abendroth,J., Fairman,J.W., Fox D,3r.,
+            Staker,B.L., Phan,I., Gillespie,A., Choi,R., Nakazawa-Hewitt,S.,
+            Nguyen,M.T., Napuli,A., Barrett,L., Buchko,G.W., Stacy,R.,
+            Myler,P.J., Stewart,L.J., Manoil,C. and Van Voorhis,W.C.
+  TITLE     Combining functional and structural genomics to sample the
+            essential Burkholderia structome
+  JOURNAL   PLoS ONE 8 (1), E53851 (2013)
+   PUBMED   23382856
+REFERENCE   2  (residues 1 to 490)
+  AUTHORS   Seattle Structural Genomics Center For Infectious Disease (S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2012)
+COMMENT     1 Glutamate-trna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..490
+                     /organism="Burkholderia thailandensis E264"
+                     /db_xref="taxon:271848"
+     Region          join(1..100,255..341)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          22..489
+                     /region_name="gltX"
+                     /note="glutamyl-tRNA synthetase; Reviewed; PRK01406"
+                     /db_xref="CDD:234953"
+     Region          26..340
+                     /region_name="GluRS_core"
+                     /note="catalytic core domain of discriminating
+                     glutamyl-tRNA synthetase; cd00808"
+                     /db_xref="CDD:173905"
+     SecStr          26..34
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(29,31..33,41..42,44..45,65,208,212,226..227,
+                     229..230,255..256,264..265)
+                     /site_type="active"
+                     /db_xref="CDD:173905"
+     Site            39..42
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173905"
+     SecStr          42..56
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          58..66
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          74..87
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          95..99
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          101..254
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          102..115
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          117..121
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          165..170
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          175..182
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          183..191
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          196..202
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          209..219
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          222..227
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          234..244
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          249..254
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          255..260
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            264..268
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173905"
+     SecStr          273..280
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          284..293
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          305..313
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          321..326
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          327..340
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          342..430
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          343..357
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          360..367
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Het             join(bond(364),bond(365),bond(367))
+                     /heterogen="( NA,1002 )"
+     SecStr          370..377
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          384..391
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          469..476
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          478..485
+                     /sec_str_type="helix"
+                     /note="helix 15"
+ORIGIN      
+        1 mahhhhhhmg tleaqtqgpg smtrpvrtrf apsptgfihl gnirsalypw afarkmkgtf
+       61 vlriedtdve rssqeavdai legmawlgld ydegpyyqmq rmdryrevla qmqekglvyp
+      121 xymsteelda lrerqraage kprydgtwrp epgkvlpepp agvapvlrfr npltgtvawd
+      181 davkgrveis neelddlvva rpdgtpmynf cvvvddldmg ithvirgddh vnntprqini
+      241 lralggevpv yahlptvlne qgekmskrhg amsvmgyrda gylpeavlny larlgwshgd
+      301 aeiftreqfv ewfdlehlgk spaqydhnkl nwlnnhyike addarlagla kpffaalgid
+      361 agaieqgpdl vsvmglmkdr astvkeiaen samfyrapap gadalaqhvt davrpalvef
+      421 aaalktvewt keaiaaalka vlgahklkmp qlampvrllv agtthtpsid avlllfgrdv
+      481 vvsrieaala
+//
+

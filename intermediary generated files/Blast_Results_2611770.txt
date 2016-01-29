@@ -1,0 +1,506 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 770386257 
+ Accession: 4OQF_A 
+ Score: 425.246
+ E-value: 5.48936e-147
+ Identities: 207
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/770386257
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 770386296 
+ Accession: 4PO1_A 
+ Score: 425.246
+ E-value: 1.02332e-146
+ Identities: 207
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/770386296
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 34811308 
+ Accession: 1UBC_A 
+ Score: 421.394
+ E-value: 3.50255e-145
+ Identities: 205
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34811308
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 12084113 
+ Accession: 1G18_A 
+ Score: 421.009
+ E-value: 4.80928e-145
+ Identities: 206
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/12084113
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 217035313 
+ Accession: 2ZR0_A 
+ Score: 419.853
+ E-value: 1.32001e-144
+ Identities: 204
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/217035313
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 217035318 
+ Accession: 2ZRC_A 
+ Score: 419.468
+ E-value: 2.06162e-144
+ Identities: 204
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/217035318
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 217035323 
+ Accession: 2ZRH_A 
+ Score: 419.083
+ E-value: 2.73524e-144
+ Identities: 204
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/217035323
+------------------------------------------------------------------
+
+
+Hit num: 8
+
+Hsp num :1
+ Gi: 297787594 
+ Accession: 3HR8_A 
+ Score: 402.519
+ E-value: 1.29177e-137
+ Identities: 203
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/297787594
+------------------------------------------------------------------
+
+
+Hit num: 9
+
+Hsp num :1
+ Gi: 55670286 
+ Accession: 1U94_A 
+ Score: 399.438
+ E-value: 1.86939e-136
+ Identities: 194
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/55670286
+------------------------------------------------------------------
+
+
+Hit num: 10
+
+Hsp num :1
+ Gi: 28948687 
+ Accession: 1N03_A 
+ Score: 399.053
+ E-value: 2.44066e-136
+ Identities: 194
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/28948687
+------------------------------------------------------------------
+
+
+Hit num: 11
+
+Hsp num :1
+ Gi: 2098390 
+ Accession: 2REC_A 
+ Score: 399.053
+ E-value: 2.52463e-136
+ Identities: 194
+ Function: Helicase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2098390
+------------------------------------------------------------------
+
+
+Hit num: 12
+
+Hsp num :1
+ Gi: 188596459 
+ Accession: 3CMV_A 
+ Score: 399.438
+ E-value: 2.96736e-126
+ Identities: 195
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 188596459 
+ Accession: 3CMV_A 
+ Score: 399.438
+ E-value: 3.02874e-126
+ Identities: 194
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
+------------------------------------------------------------------
+
+Hsp num :3
+ Gi: 188596459 
+ Accession: 3CMV_A 
+ Score: 399.438
+ E-value: 3.02874e-126
+ Identities: 194
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
+------------------------------------------------------------------
+
+Hsp num :4
+ Gi: 188596459 
+ Accession: 3CMV_A 
+ Score: 367.851
+ E-value: 1.15411e-114
+ Identities: 175
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596459
+------------------------------------------------------------------
+
+
+Hit num: 13
+
+Hsp num :1
+ Gi: 188596455 
+ Accession: 3CMT_A 
+ Score: 399.823
+ E-value: 3.47452e-125
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 188596455 
+ Accession: 3CMT_A 
+ Score: 399.823
+ E-value: 3.47452e-125
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
+------------------------------------------------------------------
+
+Hsp num :3
+ Gi: 188596455 
+ Accession: 3CMT_A 
+ Score: 399.823
+ E-value: 3.47452e-125
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
+------------------------------------------------------------------
+
+Hsp num :4
+ Gi: 188596455 
+ Accession: 3CMT_A 
+ Score: 399.823
+ E-value: 3.47452e-125
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
+------------------------------------------------------------------
+
+Hsp num :5
+ Gi: 188596455 
+ Accession: 3CMT_A 
+ Score: 368.237
+ E-value: 5.04253e-114
+ Identities: 175
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596455
+------------------------------------------------------------------
+
+
+Hit num: 14
+
+Hsp num :1
+ Gi: 188596458 
+ Accession: 3CMU_A 
+ Score: 400.208
+ E-value: 1.03121e-124
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 188596458 
+ Accession: 3CMU_A 
+ Score: 400.208
+ E-value: 1.03121e-124
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
+------------------------------------------------------------------
+
+Hsp num :3
+ Gi: 188596458 
+ Accession: 3CMU_A 
+ Score: 400.208
+ E-value: 1.03121e-124
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
+------------------------------------------------------------------
+
+Hsp num :4
+ Gi: 188596458 
+ Accession: 3CMU_A 
+ Score: 400.208
+ E-value: 1.03121e-124
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
+------------------------------------------------------------------
+
+Hsp num :5
+ Gi: 188596458 
+ Accession: 3CMU_A 
+ Score: 400.208
+ E-value: 1.03121e-124
+ Identities: 194
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
+------------------------------------------------------------------
+
+Hsp num :6
+ Gi: 188596458 
+ Accession: 3CMU_A 
+ Score: 368.622
+ E-value: 1.31626e-113
+ Identities: 176
+ Function: RecombinationDNA
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/188596458
+------------------------------------------------------------------
+
+
+Hit num: 15
+
+Hsp num :1
+ Gi: 58177549 
+ Accession: 1XP8_A 
+ Score: 362.844
+ E-value: 5.24807e-122
+ Identities: 189
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/58177549
+------------------------------------------------------------------
+
+
+
+Hit num: 17
+
+Hsp num :1
+ Gi: 126030236 
+ Accession: 2DFL_A 
+ Score: 53.1434
+ E-value: 1.51946e-07
+ Identities: 58
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126030236
+------------------------------------------------------------------
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 75766445 
+ Accession: 2CVF_A 
+ Score: 50.447
+ E-value: 6.90738e-07
+ Identities: 53
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/75766445
+------------------------------------------------------------------
+
+
+Hit num: 19
+
+Hsp num :1
+ Gi: 62738997 
+ Accession: 2BKE_A 
+ Score: 51.2174
+ E-value: 7.21045e-07
+ Identities: 58
+ Function: Dna-Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/62738997
+------------------------------------------------------------------
+
+
+Hit num: 20
+
+Hsp num :1
+ Gi: 304445772 
+ Accession: 3IO5_A 
+ Score: 50.0618
+ E-value: 1.67717e-06
+ Identities: 62
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/304445772
+------------------------------------------------------------------
+
+
+Hit num: 21
+
+Hsp num :1
+ Gi: 49259489 
+ Accession: 1V5W_A 
+ Score: 46.9802
+ E-value: 1.72999e-05
+ Identities: 52
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/49259489
+------------------------------------------------------------------
+
+
+Hit num: 22
+
+Hsp num :1
+ Gi: 478247368 
+ Accession: 4HYY_A 
+ Score: 46.595
+ E-value: 1.73988e-05
+ Identities: 52
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/478247368
+------------------------------------------------------------------
+
+
+Hit num: 23
+
+Hsp num :1
+ Gi: 34809805 
+ Accession: 1PZN_A 
+ Score: 46.9802
+ E-value: 1.80292e-05
+ Identities: 53
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34809805
+------------------------------------------------------------------
+
+
+Hit num: 24
+
+Hsp num :1
+ Gi: 196049702 
+ Accession: 2ZJB_A 
+ Score: 46.595
+ E-value: 2.5101e-05
+ Identities: 52
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/196049702
+------------------------------------------------------------------
+
+
+Hit num: 25
+
+Hsp num :1
+ Gi: 229597842 
+ Accession: 3ETL_A 
+ Score: 37.3502
+ E-value: 0.0202409
+ Identities: 57
+ Function: Dna Binding Protein, Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/229597842
+------------------------------------------------------------------
+
+
+Hit num: 26
+
+Hsp num :1
+ Gi: 109157830 
+ Accession: 2GDJ_A 
+ Score: 36.965
+ E-value: 0.0207908
+ Identities: 52
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/109157830
+------------------------------------------------------------------
+
+
+Hit num: 27
+
+Hsp num :1
+ Gi: 385867758 
+ Accession: 4DC9_A 
+ Score: 36.965
+ E-value: 0.0218668
+ Identities: 52
+ Function: Dna Binding Protein
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/385867758
+------------------------------------------------------------------
+
+
+Hit num: 28
+
+Hsp num :1
+ Gi: 345100717 
+ Accession: 3NTU_A 
+ Score: 36.1946
+ E-value: 0.0396977
+ Identities: 51
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/345100717
+------------------------------------------------------------------
+
+
+Hit num: 29
+
+Hsp num :1
+ Gi: 52695616 
+ Accession: 1T4G_A 
+ Score: 36.1946
+ E-value: 0.0451651
+ Identities: 51
+ Function: Recombination
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/52695616
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

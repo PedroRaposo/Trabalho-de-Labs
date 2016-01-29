@@ -1,0 +1,130 @@
+LOCUS       2D4Y_A                   463 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of A 49k Fragment Of Hap1 (Flgk).
+ACCESSION   2D4Y_A
+VERSION     2D4Y_A  GI:119389100
+DBSOURCE    pdb: molecule 2D4Y, chain 65, release Jun 18, 2009;
+            deposition: Oct 25, 2005;
+            class: Structural Protein;
+            source: Mmdb_id: 42593, Pdb_id 1: 2D4Y;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium (Salmonella
+            typhimurium)
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (residues 1 to 463)
+  AUTHORS   Imada,K., Matsunami,H., Yamane,M., Samatey,A.F., Nagashima,S. and
+            Namba,K.
+  TITLE     Structure Of The Bacterial Flagellar Hook-Filament Junction
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 463)
+  AUTHORS   Imada,K., Matsunami,H., Samatey,A.F., Nagashima,S. and Namba,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-OCT-2005)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..463
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium"
+                     /db_xref="taxon:90371"
+     Region          join(1..268,356..463)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..463
+                     /region_name="flgK"
+                     /note="flagellar hook-associated protein FlgK; Validated;
+                     PRK08147"
+                     /db_xref="CDD:236165"
+     SecStr          7..36
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          42..59
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          63..112
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..121
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          135..148
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          151..157
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          159..166
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          168..174
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          175..178
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          179..184
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          192..199
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          201..206
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          215..224
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          227..251
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          263..267
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          269..355
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          269..274
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          284..289
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          297..305
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          306..314
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          315..321
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          328..332
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          333..338
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          345..352
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          359..363
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          390..397
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          410..446
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 meydafitnq lrgaqnqssg lttryeqmsk idnlladkss slsgslqsff tslqtlvsna
+       61 edpaarqali gkaeglvnqf kttdqylrdq dkqvniaigs svaqinnyak qianlndqis
+      121 rmtgvgagas pndlldqrdq lvselnkivg vevsvqdggt ynltmangyt lvqgstarql
+      181 aavpssadpt rttvayvdea agnieipekl lntgslggll tfrsqdldqt rntlgqlala
+      241 fadafnaqht kgydadgnkg kdffsigspv vysnsnnadk tvsltakvvd stkvqatdyk
+      301 ivfdgtdwqv trtadnttft atkdadgkle idglkvtvgt gaqkndsfll kpvsnaivdm
+      361 nvkvtneaei amaseskldp dvdtgdsdnr ngqalldlqn snvvggnktf ndayatlvsd
+      421 vgnktstlkt ssttqanvvk qlykqqqsvs gvnldeeygn lqr
+//
+

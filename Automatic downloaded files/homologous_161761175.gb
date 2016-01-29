@@ -1,0 +1,180 @@
+LOCUS       3B5X_A                   582 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Msba From Vibrio Cholerae.
+ACCESSION   3B5X_A
+VERSION     3B5X_A  GI:161761175
+DBSOURCE    pdb: molecule 3B5X, chain 65, release Jun 18, 2009;
+            deposition: Oct 26, 2007;
+            class: Membrane Protein;
+            source: Mmdb_id: 61093, Pdb_id 1: 3B5X;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Vibrio cholerae
+  ORGANISM  Vibrio cholerae
+            Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+            Vibrionaceae; Vibrio.
+REFERENCE   1  (residues 1 to 582)
+  AUTHORS   Ward,A., Reyes,C.L., Yu,J., Roth,C.B. and Chang,G.
+  TITLE     Flexibility in the ABC transporter MsbA: Alternating access with a
+            twist
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 104 (48), 19005-19010 (2007)
+   PUBMED   18024585
+REFERENCE   2  (residues 1 to 582)
+  AUTHORS   Ward,A., Reyes,C.L., Yu,J., Roth,C.B. and Chang,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-OCT-2007)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..582
+                     /organism="Vibrio cholerae"
+                     /db_xref="taxon:666"
+     Region          1..582
+                     /region_name="PRK11176"
+                     /note="lipid transporter ATP-binding/permease protein;
+                     Provisional"
+                     /db_xref="CDD:183016"
+     SecStr          13..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          25..162
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          28..40
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          29..298
+                     /region_name="ABC_membrane"
+                     /note="ABC transporter transmembrane region; pfam00664"
+                     /db_xref="CDD:250039"
+     SecStr          70..78
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          93..111
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          121..128
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          133..144
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          147..155
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          163..323
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          170..193
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          197..208
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          213..220
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          225..235
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          239..266
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          285..305
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          324..582
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          341..345
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          342..576
+                     /region_name="ABCC_MsbA"
+                     /note="ATP-binding cassette domain of the bacterial lipid
+                     flippase and related proteins, subfamily C; cd03251"
+                     /db_xref="CDD:213218"
+     SecStr          346..349
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          358..361
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          369..377
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            376..383
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213218"
+     Site            order(379..380,382..384,424,505..506,537)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213218"
+     SecStr          382..389
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          399..403
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          418..424
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            421..424
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213218"
+     SecStr          432..439
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          451..458
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          459..466
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     Site            481..490
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213218"
+     SecStr          486..495
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          500..506
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            501..506
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213218"
+     Site            509..512
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213218"
+     SecStr          514..525
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          530..535
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            533..539
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213218"
+     SecStr          546..552
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          557..561
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+ORIGIN      
+        1 mslhsdesnw qtfkrlwtyi rlykaglvvs tialvinaaa dtymisllkp lldegfgnae
+       61 snflrilpfm ilglmfvrgl sgfassycls wvsgnvvmqm rrrlfnhfmh mpvrffdqes
+      121 tggllsrity dseqvagats ralvsivreg asiiglltlm fwnswqlslv livvapvvaf
+      181 aisfvskrfr kisrnmqtam ghvtssaeqm lkghkvvlsy ggqeverkrf dkvsnsmrqq
+      241 tmklvsaqsi adpviqmias lalfavlfla svdsiraelt pgtftvvfsa mfglmrplka
+      301 ltsvtsefqr gmaacqtlfg lmdleterdn gkyeaervng evdvkdvtft yqgkekpals
+      361 hvsfsipqgk tvalvgrsgs gkstianlft rfydvdsgsi cldghdvrdy kltnlrrhfa
+      421 lvsqnvhlfn dtianniaya aegeytreqi eqaarqaham efienmpqgl dtvigengts
+      481 lsggqrqrva iarallrdap vlildeatsa ldteseraiq aaldelqknk tvlviahrls
+      541 tieqadeilv vdegeiierg rhadllaqdg ayaqlhriqf ge
+//
+

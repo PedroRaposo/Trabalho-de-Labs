@@ -1,0 +1,102 @@
+LOCUS       1ZD8_A                   227 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Structure Of Human Adenylate Kinase 3 Like 1.
+ACCESSION   1ZD8_A
+VERSION     1ZD8_A  GI:67464380
+DBSOURCE    pdb: molecule 1ZD8, chain 65, release Jun 18, 2009;
+            deposition: Apr 14, 2005;
+            class: Transferase;
+            source: Mmdb_id: 33381, Pdb_id 1: 1ZD8;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 227)
+  AUTHORS   Atanassova,A., Choe,J., Arrowsmith,C., Edwards,A., Sundstrom,M.,
+            Bochkarev,A. and Park,H.
+  TITLE     Structure Of Human Adenylate Kinase 3 Like 1
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 227)
+  AUTHORS   Choe,J., Atanassova,A., Arrowsmith,C., Edwards,A., Sundstrom,M.,
+            Bochkarev,A., Park,H. and Structural Genomics Consortium (Sgc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-APR-2005)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..227
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     SecStr          7..14
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          9..201
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     Region          12..192
+                     /region_name="ADK"
+                     /note="Adenylate kinase; pfam00406"
+                     /db_xref="CDD:249837"
+     SecStr          20..30
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          33..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(38,43,66,90..91,93..94,98)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          39..48
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(43,90,94,128,172,176)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          51..62
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          68..79
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          85..91
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          96..105
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          109..116
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          118..126
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          127..133
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          134..140
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          166..190
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          192..198
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          205..212
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 mgasarllra vimgapgsgk gtvssritth felkhlssgd llrdnmlrgt eigvlakafi
+       61 dqgklipddv mtrlalhelk nltqyswlld gfprtlpqae aldrayqidt vinlnvpfev
+      121 ikqrltarwi hpasgrvyni efnppktvgi ddltgepliq reddkpetvi krlkayedqt
+      181 kpvleyyqkk gvletfsgte tnkiwpyvya flqtkvpqrs qkasvtp
+//
+

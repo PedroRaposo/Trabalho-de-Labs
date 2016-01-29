@@ -1,0 +1,110 @@
+LOCUS       3FHJ_B                   292 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Independent Saturation Of Three Trprs Subsites Generates A
+            Partially-Assembled State Similar To Those Observed In Molecular
+            Simulations.
+ACCESSION   3FHJ_B
+VERSION     3FHJ_B  GI:222447089
+DBSOURCE    pdb: molecule 3FHJ, chain 66, release Feb 20, 2009;
+            deposition: Dec 9, 2008;
+            class: Translation;
+            source: Mmdb_id: 69442, Pdb_id 1: 3FHJ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus stearothermophilus
+  ORGANISM  Geobacillus stearothermophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 292)
+  AUTHORS   Laowanapiban,P., Kapustina,M., Vonrhein,C., Delarue,M., Koehl,P.
+            and Carter CW,Jr.
+  TITLE     Independent saturation of three TrpRS subsites generates a
+            partially assembled state similar to those observed in molecular
+            simulations
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 106 (6), 1790-1795 (2009)
+   PUBMED   19174517
+REFERENCE   2  (residues 1 to 292)
+  AUTHORS   Laowanapiban,P., Kapustina,M., Vonrhein,C., Delarue,M., Koehl,P.
+            and Carter,C.W. Jr.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..292
+                     /organism="Geobacillus stearothermophilus"
+                     /db_xref="taxon:1422"
+     Region          1..291
+                     /region_name="PRK00927"
+                     /note="tryptophanyl-tRNA synthetase; Reviewed"
+                     /db_xref="CDD:234866"
+     SecStr          2..8
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          3..243
+                     /region_name="TrpRS_core"
+                     /note="catalytic core domain of tryptophanyl-tRNA
+                     synthetase; cd00806"
+                     /db_xref="CDD:173903"
+     Site            order(5..9,10,12..13,16,33,38,75,110,114,117,126,128..129,
+                     131..132,135,156,166..167,169)
+                     /site_type="active"
+                     /db_xref="CDD:173903"
+     SecStr          10..17
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     Site            10..13
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173903"
+     SecStr          28..36
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            order(37,40..41,81..82,84..86,89..90,92..95,97..98,106,
+                     108..109,112..113)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173903"
+     SecStr          46..63
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          70..76
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          80..91
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          111..119
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          124..127
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          133..148
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     Site            166..170
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173903"
+     SecStr          184..192
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          204..214
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          218..225
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          231..257
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          260..287
+                     /sec_str_type="helix"
+                     /note="helix 29"
+ORIGIN      
+        1 mktifsgiqt ignyigalrq fvelqheync yfcivdqhai tvwqdphelr qnirrlaaly
+       61 lavgidptqa tlfiqsevpa haqaawmlqc ivyigelerm tqvsagllty pplmaadill
+      121 yntdivpvge dqkqhieltr dlaerfnkry ftiperimsl vdptkkmsks dpnpkayitl
+      181 lddaktiekk ikssegtiry pgisnllniy stlsgqsiee lerqyegkgy gvfkadlaqv
+      241 vietlrpiqe ryhhwmesee ldrvldegae kanrvasemv rkmeqamglg rw
+//
+

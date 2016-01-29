@@ -1,0 +1,86 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 567755171 
+ Accession: 3WKL_A 
+ Score: 62.7734
+ E-value: 3.89722e-11
+ Identities: 42
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/567755171
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 160285756 
+ Accession: 2P3W_A 
+ Score: 46.595
+ E-value: 5.02473e-06
+ Identities: 32
+ Function: Protein Binding
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/160285756
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hit num: 18
+
+Hsp num :1
+ Gi: 34811655 
+ Accession: 1OBZ_A 
+ Score: 35.4242
+ E-value: 0.0418313
+ Identities: 32
+ Function: Cell Adhesion
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/34811655
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

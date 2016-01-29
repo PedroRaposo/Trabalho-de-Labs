@@ -1,0 +1,167 @@
+LOCUS       3PNV_A                   505 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, V369m Mutant Of Glutamyl-Trna Synthetase From
+            Mycobacterium Tuberculosis.
+ACCESSION   3PNV_A
+VERSION     3PNV_A  GI:359545717
+DBSOURCE    pdb: molecule 3PNV, chain 65, release Dec 7, 2011;
+            deposition: Nov 19, 2010;
+            class: Ligase;
+            source: Mmdb_id: 95504, Pdb_id 1: 3PNV;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium tuberculosis H37Rv
+  ORGANISM  Mycobacterium tuberculosis H37Rv
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium; Mycobacterium tuberculosis complex.
+REFERENCE   1  (residues 1 to 505)
+  AUTHORS   Laurinavichiute,D., Bruning,M., Shkolnaya,L.A., Boure,G.P.,
+            Domanski,G., Konarev,P., Svergun,D., Strizhov,N.I., Kac,G.S. and
+            Bartunik,H.D.
+  TITLE     Structural Analysis Of The Non-Discriminating Gluta Synthetase From
+            Mycobacterium Tuberculosis Suggests Role Of Anticodon Recognition
+            In Trna(Gln) Discrimi
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 505)
+  AUTHORS   Kachalova,G.S., Laurinavichiute,D. and Bartunik,H.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-NOV-2010)
+COMMENT     1 Glutamyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..505
+                     /organism="Mycobacterium tuberculosis H37Rv"
+                     /db_xref="taxon:83332"
+     Region          join(1..94,264..350)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          18..499
+                     /region_name="gltX"
+                     /note="glutamyl-tRNA synthetase; Reviewed; PRK01406"
+                     /db_xref="CDD:234953"
+     Region          21..349
+                     /region_name="GluRS_core"
+                     /note="catalytic core domain of discriminating
+                     glutamyl-tRNA synthetase; cd00808"
+                     /db_xref="CDD:173905"
+     SecStr          22..29
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(25,27..29,37..38,40..41,61,211,215,229..230,
+                     232..233,263..264,272..273)
+                     /site_type="active"
+                     /db_xref="CDD:173905"
+     Site            35..38
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173905"
+     SecStr          36..52
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          54..61
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          69..83
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          95..263
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          106..119
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          121..126
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          129..139
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          156..165
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          169..174
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          177..185
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          186..195
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          199..205
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          207..210
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          211..222
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          225..230
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          237..250
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          257..262
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          264..267
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            272..276
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173905"
+     SecStr          282..289
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          292..301
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          314..322
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          331..334
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          336..349
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          352..366
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          374..384
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          397..505
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          409..416
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          421..432
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          440..451
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          463..471
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          479..486
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          487..498
+                     /sec_str_type="helix"
+                     /note="helix 19"
+ORIGIN      
+        1 hhhhhhssgl vprgsmtate tvrvrfcpsp tgtphvglvr talfnwayar htggtfvfri
+       61 edtdaqrdse esylalldal rwlgldwdeg pevggpygpy rqsqraeiyr dvlarllaag
+      121 eayhafstpe evearhvaag rnpklgydnf drhltdaqra aylaegrqpv vrlrmpdddl
+      181 awndlvrgpv tfaagsvpdf altrasgdpl ytlvnpcdda lmkithvlrg edllpstprq
+      241 lalhqaliri gvaeripkfa hlptvlgegt kklskrdpqs nlfahrdrgf ipegllnyla
+      301 llgwsiaddh dlfgldemva afdvadvnss parfdqkkad alnaehirml dvgdftvrlr
+      361 dhldthghhi aldeaafaaa aelmqtrivv lgdawellkf fnddqyvidp kaaakelgpd
+      421 gaavldaala altsvtdwta plieaalkda lieglalkpr kafspirvaa tgttvspplf
+      481 eslellgrdr smqrlraarq lvgha
+//
+

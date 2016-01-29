@@ -1,0 +1,143 @@
+LOCUS       1SGW_A                   214 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Putative Abc Transporter (Atp-Binding Protein) From
+            Pyrococcus Furiosus Pfu-867808-001.
+ACCESSION   1SGW_A
+VERSION     1SGW_A  GI:52695490
+DBSOURCE    pdb: molecule 1SGW, chain 65, release Sep 4, 2012;
+            deposition: Feb 24, 2004;
+            class: Transport Protein;
+            source: Mmdb_id: 28940, Pdb_id 1: 1SGW;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pyrococcus furiosus DSM 3638
+  ORGANISM  Pyrococcus furiosus DSM 3638
+            Archaea; Euryarchaeota; Thermococci; Thermococcales;
+            Thermococcaceae; Pyrococcus.
+REFERENCE   1  (residues 1 to 214)
+  AUTHORS   Liu,Z.J., Tempel,W., Shah,A., Chen,L., Lee,D., Kelley,L.-L.C.,
+            Dillard,B.D., Rose,J.P., Eneh,J.C., Hopkins,R.C., Jenne,F.E.,
+            Lee,H.S., Poole Ii,F.L., Shah,C., Sugar,F.J., Adams,M.W.W.,
+            Richardson,D.C., Richardson,J.S., Wang,B.C. and Southeast
+            Collaboratory For Structural Genomics.
+  TITLE     Putative Abc Transporter (Atp-Binding Protein) From Pyrococcus
+            Furiosus Pfu-867808-001
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 214)
+  AUTHORS   Liu,Z.J., Tempel,W., Shah,A., Chen,L., Lee,D., Kelley,L.-L.C.,
+            Dilla,B.D., Rose,J.P., Eneh,J.C., Hopkins,R.C., Jenney,F.E. Jr.,
+            Lee,H.S., Po,F.L., Shah,C., Sugar,F.J., Adams,M.W.W.,
+            Richardson,D.C., Richardson,J.S. and Southeast Collaboratory For
+            Structural Genomics (Secsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2004)
+COMMENT     1 Putative Abc Transporter.
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Pyrococcus furiosus DSM 3638"
+                     /db_xref="taxon:186497"
+     Region          join(1..88,151..214)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          9..14
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          11..198
+                     /region_name="ABC_DR_subfamily_A"
+                     /note="ATP-binding cassette domain of the drug resistance
+                     transporter and related proteins, subfamily A; cd03230"
+                     /db_xref="CDD:213197"
+     Region          11..195
+                     /region_name="PRK13538"
+                     /note="cytochrome c biogenesis protein CcmA; Provisional"
+                     /db_xref="CDD:184125"
+     SecStr          15..20
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          22..27
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          28..34
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          37..42
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            42..49
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213197"
+     Site            order(45..46,48..50,85,158..159,191)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213197"
+     SecStr          48..56
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          62..69
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          70..73
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          79..85
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            82..85
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213197"
+     Region          89..150
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          92..95
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          96..104
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          112..122
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          129..132
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Het             join(bond(133),bond(133),bond(133))
+                     /heterogen="( NA,1001 )"
+     Site            134..143
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213197"
+     SecStr          136..147
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          153..159
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            154..159
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213197"
+     Site            162..165
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213197"
+     SecStr          169..183
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          184..191
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            187..191
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213197"
+     SecStr          198..203
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 ahhhhhhgsk leirdlsvgy dkpvleritm tiekgnvvnf hgpngigktt llktistylk
+       61 plkgeiiyng vpitkvkgki fflpeeiivp rkisvedylk avaslygvkv nkneimdale
+      121 svevldlkkk lgelsqgtir rvqlastllv naeiyvlddp vvaidedskh kvlksileil
+      181 kekgiviiss reelsycdvn enlhkystki dkkd
+//
+

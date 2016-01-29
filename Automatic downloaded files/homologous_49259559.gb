@@ -1,0 +1,108 @@
+LOCUS       1VG7_A                   299 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Octaprenyl Pyrophosphate Synthase
+            From Hyperthermophilic Thermotoga Maritima F132aL128AI123AD62A
+            MUTANT.
+ACCESSION   1VG7_A
+VERSION     1VG7_A  GI:49259559
+DBSOURCE    pdb: molecule 1VG7, chain 65, release Sep 12, 2012;
+            deposition: Apr 23, 2004;
+            class: Transferase;
+            source: Mmdb_id: 28090, Pdb_id 1: 1VG7;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 299)
+  AUTHORS   Guo,R.T., Kuo,C.J., Ko,T.P., Chou,C.C., Liang,P.H. and Wang,A.H.
+  TITLE     A molecular ruler for chain elongation catalyzed by octaprenyl
+            pyrophosphate synthase and its structure-based engineering to
+            produce unprecedented long chain trans-prenyl products
+  JOURNAL   Biochemistry 43 (24), 7678-7686 (2004)
+   PUBMED   15196010
+REFERENCE   2  (residues 1 to 299)
+  AUTHORS   Guo,R.T., Kuo,C.J., Ko,T.P., Chou,C.C., Liang,P.H. and Wang,A.H.-J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2004)
+COMMENT     1 Octoprenyl-diphosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..299
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     Region          1..124
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          11..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          12..296
+                     /region_name="IspA"
+                     /note="Geranylgeranyl pyrophosphate synthase [Coenzyme
+                     transport and metabolism]; COG0142"
+                     /db_xref="CDD:223220"
+     SecStr          43..55
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(44,74,77..78,81,85,171,200..201,204,208,212)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173830"
+     SecStr          61..85
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(81..82,85,204..205,208,212)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173830"
+     Site            81..85
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173830"
+     SecStr          88..91
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          92..95
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          102..123
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          125..299
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          126..149
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          156..166
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          169..182
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          187..211
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Site            204..212
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173830"
+     SecStr          230..238
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          239..248
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          251..261
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          262..282
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mtknklnqns yelekvkeri eqilsqffpe qimkdlplyg kmlrvrlsil sfknrgveig
+       61 eaaisslaal elvhlasllh ddvidgarfr rgketinfmy gdkaavaagd lvlvsafhtv
+      121 eeagnnkarr aalnvigkms eaelieqlsr ykpitkeeyl rivegksgal fglalqlpal
+      181 legelgedly nlgvtigtiy qmfddimdfa gmekigkdgf ldlkngvasf plvtamekfp
+      241 earqmfenrd wsglmsfmre kgilkeceet lkvlvknvii enswlrdfvd gifkikiss
+//
+

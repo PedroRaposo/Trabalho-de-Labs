@@ -1,0 +1,159 @@
+LOCUS       2W8T_A                   427 aa            linear   BCT 18-NOV-2015
+DEFINITION  Chain A, Spt With Plp, N100c.
+ACCESSION   2W8T_A
+VERSION     2W8T_A  GI:953267794
+DBSOURCE    pdb: molecule 2W8T, chain 65, release Nov 18, 2015;
+            deposition: Jan 19, 2009;
+            class: Transferase;
+            source: Mmdb_id: 69259, Pdb_id 1: 2W8T;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Sphingomonas paucimobilis
+  ORGANISM  Sphingomonas paucimobilis
+            Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales;
+            Sphingomonadaceae; Sphingomonas.
+REFERENCE   1  (residues 1 to 427)
+  AUTHORS   Raman,M.C., Johnson,K.A., Yard,B.A., Lowther,J., Carter,L.G.,
+            Naismith,J.H. and Campopiano,D.J.
+  TITLE     The external aldimine form of serine palmitoyltransferase:
+            structural, kinetic, and spectroscopic analysis of the wild-type
+            enzyme and HSAN1 mutant mimics
+  JOURNAL   J. Biol. Chem. 284 (25), 17328-17339 (2009)
+   PUBMED   19376777
+REFERENCE   2  (residues 1 to 427)
+  AUTHORS   Raman,M.C.C., Johnson,K.A., Campopiano,D.J. and Naismith,J.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JAN-2009)
+COMMENT     On Nov 18, 2015 this sequence version replaced gi:222143010.
+            1 Serine Palmitoyltransferase.
+FEATURES             Location/Qualifiers
+     source          1..427
+                     /organism="Sphingomonas paucimobilis"
+                     /db_xref="taxon:13689"
+     SecStr          28..38
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          join(45..75,314..427)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          51..55
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          56..412
+                     /region_name="BioF"
+                     /note="7-keto-8-aminopelargonate synthetase or related
+                     enzyme [Coenzyme transport and metabolism]; COG0156"
+                     /db_xref="CDD:223234"
+     SecStr          57..62
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          63..70
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          64..412
+                     /region_name="KBL_like"
+                     /note="KBL_like; this family belongs to the pyridoxal
+                     phosphate (PLP)-dependent aspartate aminotransferase
+                     superfamily (fold I). The major groups in this CD
+                     corresponds to serine palmitoyltransferase (SPT),
+                     5-aminolevulinate synthase (ALAS); cd06454"
+                     /db_xref="CDD:99747"
+     Site            order(72,132..134,158,201,205..206,230,232..233,261,264,
+                     389)
+                     /site_type="other"
+                     /note="substrate-cofactor binding pocket"
+                     /db_xref="CDD:99747"
+     Region          join(76..123,288..313)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          81..93
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          110..122
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          124..287
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          125..131
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(132..134,158,201,205,230,232..233,261,264)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:99747"
+     SecStr          133..143
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          149..154
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          159..167
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          170..175
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          180..189
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          195..201
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          202..206
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          207..211
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          213..223
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          225..231
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          256..263
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            264
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99747"
+     Het             bond(264)
+                     /heterogen="(PLP,1000 )"
+     SecStr          269..276
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          298..311
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          315..335
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          347..353
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          356..369
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          370..377
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          386..392
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          398..415
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 teaaaqphal padapdiape rdllskfdgl iaerqkllds gvtdpfaivm eqvkspteav
+       61 irgkdtillg tynymgmtfd pdviaagkea lekfgsgtcg srmlngtfhd hmeveqalrd
+      121 fygttgaivf stgymanlgi istlagkgey vildadshas iydgcqqgna eivrfrhnsv
+      181 edldkrlgrl pkepaklvvl egvysmlgdi aplkemvava kkhgamvlvd eahsmgffgp
+      241 ngrgvyeaqg legqidfvvg tfsksvgtvg gfvvsnhpkf eavrlacrpy iftaslppsv
+      301 vatattsirk lmtahekrer lwsnaralhg glkamgfrlg tetcdsaiva vmledqeqaa
+      361 mmwqalldgg lyvnmarppa tpagtfllrc sicaehtpaq iqtvlgmfqa agravgvigl
+      421 ehhhhhh
+//
+

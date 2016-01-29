@@ -1,0 +1,107 @@
+LOCUS       1ZAK_A                   222 aa            linear   PLN 18-OCT-2012
+DEFINITION  Chain A, Adenylate Kinase From Maize In Complex With The Inhibitor
+            P1,P5-Bis(Adenosine-5'-)pentaphosphate (Ap5a).
+ACCESSION   1ZAK_A
+VERSION     1ZAK_A  GI:3114421
+DBSOURCE    pdb: molecule 1ZAK, chain 65, release Oct 13, 2012;
+            deposition: May 31, 1997;
+            class: Transferase;
+            source: Mmdb_id: 7549, Pdb_id 1: 1ZAK;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Zea mays
+  ORGANISM  Zea mays
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; PACMAD
+            clade; Panicoideae; Andropogonodae; Andropogoneae; Tripsacinae;
+            Zea.
+REFERENCE   1  (residues 1 to 222)
+  AUTHORS   Schiltz,E., Burger,S., Grafmuller,R., Deppert,W.R., Haehnel,W. and
+            Wagner,E.
+  TITLE     Primary structure of maize chloroplast adenylate kinase
+  JOURNAL   Eur. J. Biochem. 222 (3), 949-954 (1994)
+   PUBMED   8026505
+REFERENCE   2  (residues 1 to 222)
+  AUTHORS   Wild,K., Grafmuller,R., Wagner,E. and Schulz,G.E.
+  TITLE     Structure, catalysis and supramolecular assembly of adenylate
+            kinase from maize
+  JOURNAL   Eur. J. Biochem. 250 (2), 326-331 (1997)
+   PUBMED   9428681
+REFERENCE   3  (residues 1 to 222)
+  AUTHORS   Wild,K. and Schulz,G.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAY-1997)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..222
+                     /organism="Zea mays"
+                     /db_xref="taxon:4577"
+     SecStr          5..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..209
+                     /region_name="adk"
+                     /note="adenylate kinase; TIGR01351"
+                     /db_xref="CDD:273569"
+     Region          7..200
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          18..29
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..36
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(36,41,64,90..91,93..94,98)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          37..46
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(41,90,94,129,169,173)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          48..55
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          70..77
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          85..91
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          96..104
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          110..117
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          128..134
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          135..141
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          167..176
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          187..193
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          197..219
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 aladplkvmi sgapasgkgt qceliktkyq lahisagdll raeiaagsen gkrakefmek
+       61 gqlvpdeivv nmvkerlrqp daqengwlld gyprsysqam aletleirpd tfilldvpde
+      121 llvervvgrr ldpvtgkiyh lkysppenee iasrltqrfd dteekvklrl etyyqniesl
+      181 lstyeniivk vqgdatvdav fakidellgs ilekknemvs st
+//
+

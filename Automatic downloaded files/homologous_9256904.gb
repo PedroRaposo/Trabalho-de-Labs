@@ -1,0 +1,234 @@
+LOCUS       1EQR_A                   590 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Free Aspartyl-Trna Synthetase From
+            Escherichia Coli.
+ACCESSION   1EQR_A
+VERSION     1EQR_A  GI:9256904
+DBSOURCE    pdb: molecule 1EQR, chain 65, release Aug 27, 2007;
+            deposition: Apr 6, 2000;
+            class: Ligase;
+            source: Mmdb_id: 13567, Pdb_id 1: 1EQR;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 590)
+  AUTHORS   Rees,B., Webster,G., Delarue,M., Boeglin,M. and Moras,D.
+  TITLE     Aspartyl tRNA-synthetase from Escherichia coli: flexibility and
+            adaptability to the substrates
+  JOURNAL   J. Mol. Biol. 299 (5), 1157-1164 (2000)
+   PUBMED   10873442
+REFERENCE   2  (residues 1 to 590)
+  AUTHORS   Rees,B., Webster,G., Delarue,M., Boeglin,M. and Moras,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-APR-2000)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..590
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          1..587
+                     /region_name="aspS"
+                     /note="aspartyl-tRNA synthetase; Validated; PRK00476"
+                     /db_xref="CDD:234775"
+     Region          1..111
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..134
+                     /region_name="EcAspRS_like_N"
+                     /note="EcAspRS_like_N: N-terminal, anticodon recognition
+                     domain of the type found in Escherichia coli aspartyl-tRNA
+                     synthetase (AspRS), the human mitochondrial (mt) AspRS-2,
+                     the discriminating (D) Thermus thermophilus AspRS-1, and
+                     the nondiscriminating (ND)...; cd04317"
+                     /db_xref="CDD:239812"
+     Site            order(2,5,23,41,103,105..106)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239812"
+     SecStr          16..21
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          22..26
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(26,28..30,35,46,64,78,84,93,109)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:239812"
+     SecStr          27..31
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          32..41
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          42..50
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          54..61
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          66..70
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          71..78
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          91..96
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          97..101
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          102..105
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          117..125
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          join(129..271,422..557)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          132..155
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          138..558
+                     /region_name="AspRS_core"
+                     /note="Asp tRNA synthetase (aspRS) class II core domain.
+                     Class II assignment is based upon its structure and the
+                     presence of three characteristic sequence motifs. AspRS is
+                     a homodimer, which attaches a specific amino acid to the
+                     3' OH group of ribose of the...; cd00777"
+                     /db_xref="CDD:238400"
+     Site            order(141..143,146,149..150,153,156..159,161..167,174,
+                     177..181,185..188,203..204,207..208,214,218,228,238,243,
+                     516,519..520,522..525,553..554,556)
+                     /site_type="other"
+                     /note="homodimer interface [polypeptide binding]"
+                     /db_xref="CDD:238400"
+     SecStr          157..160
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            163..167
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238400"
+     Site            order(171..173,193,195,198,217,219,224..226,229,231,
+                     448..449,482,485,489,531..532,534,537)
+                     /site_type="active"
+                     /db_xref="CDD:238400"
+     SecStr          176..180
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          186..190
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          195..204
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          207..217
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            216..219
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238400"
+     SecStr          227..238
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          241..259
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          267..271
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Region          272..421
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          272..279
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          292..296
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          305..312
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          307..406
+                     /region_name="GAD"
+                     /note="GAD domain; pfam02938"
+                     /db_xref="CDD:251630"
+     SecStr          316..325
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          331..342
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          349..355
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          363..366
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          374..384
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          389..398
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          399..417
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          426..432
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          435..440
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          442..447
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          458..465
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          472..479
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          480..489
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     Het             join(bond(482),bond(482),bond(482))
+                     /heterogen="( MG, 901 )"
+     SecStr          493..503
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          507..520
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          527..535
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     Site            534..537
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238400"
+     SecStr          536..543
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          572..580
+                     /sec_str_type="helix"
+                     /note="helix 15"
+ORIGIN      
+        1 mrteycgqlr lshvgqqvtl cgwvnrrrdl gslifidmrd regivqvffd pdradalkla
+       61 selrnefciq vtgtvrarde kninrdmatg eievlasslt iinradvlpl dsnhvnteea
+      121 rlkyryldlr rpemaqrlkt rakitslvrr fmddhgfldi etpmltkatp egardylvps
+      181 rvhkgkfyal pqspqlfkql lmmsgfdryy qivkcfrded lradrqpeft qidvetsfmt
+      241 apqvrevmea lvrhlwlevk gvdlgdfpvm tfaeaerryg sdkpdlrnpm eltdvadllk
+      301 svefavfagp andpkgrvaa lrvpggaslt rkqideygnf vkiygakgla yikvnerakg
+      361 leginspvak flnaeiiedi ldrtaaqdgd miffgadnkk ivadamgalr lkvgkdlglt
+      421 deskwaplwv idfpmfeddg eggltamhhp ftspkdmtaa elkaapenav anaydmving
+      481 yevgggsvri hngdmqqtvf gilgineeeq rekfgfllda lkygtpphag lafgldrltm
+      541 lltgtdnird viafpkttaa aclmteapsf anptalaels iqvvkkaenn
+//
+

@@ -1,0 +1,189 @@
+LOCUS       2FKM_X                   462 aa            linear   BCT 01-FEB-2013
+DEFINITION  Chain X, Pmm/pgm S108d Mutant With Alpha-d-glucose 1,6-bisphosphate
+            Bound.
+ACCESSION   2FKM_X
+VERSION     2FKM_X  GI:93279553
+DBSOURCE    pdb: molecule 2FKM, chain 88, release Jan 25, 2013;
+            deposition: Jan 4, 2006;
+            class: Isomerase;
+            source: Mmdb_id: 38278, Pdb_id 1: 2FKM;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pseudomonas aeruginosa
+  ORGANISM  Pseudomonas aeruginosa
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (residues 1 to 462)
+  AUTHORS   Regni,C., Schramm,A.M. and Beamer,L.J.
+  TITLE     The reaction of phosphohexomutase from Pseudomonas aeruginosa:
+            structural insights into a simple processive enzyme
+  JOURNAL   J. Biol. Chem. 281 (22), 15564-15571 (2006)
+   PUBMED   16595672
+REFERENCE   2  (residues 1 to 462)
+  AUTHORS   Regni,C.A. and Beamer,L.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2006)
+COMMENT     1 Phosphomannomutase/phosphoglucomutase.
+FEATURES             Location/Qualifiers
+     source          1..462
+                     /organism="Pseudomonas aeruginosa"
+                     /db_xref="taxon:287"
+     Region          1..153
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          12..456
+                     /region_name="ManB"
+                     /note="Phosphomannomutase [Carbohydrate transport and
+                     metabolism]; COG1109"
+                     /db_xref="CDD:224034"
+     Region          12..451
+                     /region_name="PMM_PGM"
+                     /note="The phosphomannomutase/phosphoglucomutase (PMM/PGM)
+                     bifunctional enzyme catalyzes the reversible conversion of
+                     1-phospho to 6-phospho-sugars (e.g. between
+                     mannose-1-phosphate and mannose-6-phosphate or
+                     glucose-1-phosphate and glucose-6-phosphate) via a...;
+                     cd03089"
+                     /db_xref="CDD:100091"
+     SecStr          12..15
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(14,16,19,107..109,117,241,243,245..246,284,305..307,
+                     324,326,328,420,422..424)
+                     /site_type="active"
+                     /db_xref="CDD:100091"
+     Site            order(16,19,107,246,284,305,307,324,326,328,420,422..424)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:100091"
+     SecStr          16..22
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          28..45
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          48..55
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          60..74
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          76..83
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..95
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          99..106
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Het             join(bond(107),bond(107),bond(241),bond(245))
+                     /heterogen="( ZN,1001 )"
+     Site            order(107,241,243,245)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:100091"
+     SecStr          112..121
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          122..125
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          127..139
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          147..152
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          join(154..256,337..367)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          155..165
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          171..178
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          187..194
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          195..202
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          223..232
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          235..241
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          246..252
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Region          257..336
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          260..273
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          276..283
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          288..296
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          297..304
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          307..317
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          320..325
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          327..332
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          341..354
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          358..365
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          368..462
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          369..373
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          374..379
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          384..393
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          400..405
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          406..413
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          414..422
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          426..435
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          437..454
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 stakaptlpa sifraydirg vvgdtltaet aywigraigs eslargepcv avgrdgrlsg
+       61 pelvkqliqg lvdcgcqvsd vgmvptpvly yaanvlegks gvmltgdhnp pdyngfkivv
+      121 agetlaneqi qalreriekn dlasgvgsve qvdilpryfk qirddiamak pmkvvvdcgn
+      181 gvagviapql iealgcsvip lycevdgnfp nhhpdpgkpe nlkdliakvk aenadlglaf
+      241 dgdgdrvgvv tntgtiiypd rllmlfakdv vsrnpgadii fdvkctrrli alisgyggrp
+      301 vmwktghsli kkkmketgal lagemsghvf fkerwfgfdd giysaarlle ilsqdqrdse
+      361 hvfsafpsdi stpeinitvt edskfaiiea lqrdaqwgeg nittldgvrv dypkgwglvr
+      421 asnttpvlvl rfeadteeel eriktvfrnq lkavdsslpv pf
+//
+

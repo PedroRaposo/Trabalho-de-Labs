@@ -1,0 +1,185 @@
+LOCUS       3AL0_C                   592 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain C, Crystal Structure Of The Glutamine Transamidosome From
+            Thermotoga Maritima In The Glutamylation State.
+ACCESSION   3AL0_C
+VERSION     3AL0_C  GI:307776357
+DBSOURCE    pdb: molecule 3AL0, chain 67, release Oct 20, 2010;
+            deposition: Jul 19, 2010;
+            class: LigaseRNA;
+            source: Mmdb_id: 85169, Pdb_id 1: 3AL0;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima MSB8
+  ORGANISM  Thermotoga maritima MSB8
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 592)
+  AUTHORS   Ito,T. and Yokoyama,S.
+  TITLE     Two enzymes bound to one transfer RNA assume alternative
+            conformations for consecutive reactions
+  JOURNAL   Nature 467 (7315), 612-616 (2010)
+   PUBMED   20882017
+REFERENCE   2  (residues 1 to 592)
+  AUTHORS   Ito,T. and Yokoyama,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-JUL-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..592
+                     /organism="Thermotoga maritima MSB8"
+                     /db_xref="taxon:243274"
+     Region          5..97
+                     /region_name="gatC"
+                     /note="aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase, C
+                     subunit; TIGR00135"
+                     /db_xref="CDD:129241"
+     SecStr          10..18
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          31..40
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          84..87
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          88..91
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     Region          111..214
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     Region          130..586
+                     /region_name="gltX"
+                     /note="glutamyl-tRNA synthetase; Reviewed; PRK01406"
+                     /db_xref="CDD:234953"
+     Region          130..435
+                     /region_name="GluRS_core"
+                     /note="catalytic core domain of discriminating
+                     glutamyl-tRNA synthetase; cd00808"
+                     /db_xref="CDD:173905"
+     SecStr          130..138
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     Site            order(133,135..137,145..146,148..149,169,303,307,321..322,
+                     324..325,350..351,359..360)
+                     /site_type="active"
+                     /db_xref="CDD:173905"
+     Site            143..146
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173905"
+     SecStr          144..160
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          162..170
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          178..191
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          208..211
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     Region          215..349
+                     /region_name="Domain 8"
+                     /note="NCBI Domains"
+     SecStr          217..226
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          229..236
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          242..245
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     SecStr          251..258
+                     /sec_str_type="helix"
+                     /note="helix 32"
+     SecStr          259..266
+                     /sec_str_type="sheet"
+                     /note="strand 37"
+     SecStr          269..276
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+     SecStr          280..287
+                     /sec_str_type="sheet"
+                     /note="strand 39"
+     SecStr          291..297
+                     /sec_str_type="sheet"
+                     /note="strand 40"
+     SecStr          299..302
+                     /sec_str_type="sheet"
+                     /note="strand 41"
+     SecStr          304..314
+                     /sec_str_type="helix"
+                     /note="helix 33"
+     SecStr          317..322
+                     /sec_str_type="sheet"
+                     /note="strand 42"
+     SecStr          330..339
+                     /sec_str_type="helix"
+                     /note="helix 34"
+     SecStr          344..349
+                     /sec_str_type="sheet"
+                     /note="strand 43"
+     Region          350..497
+                     /region_name="Domain 9"
+                     /note="NCBI Domains"
+     SecStr          350..355
+                     /sec_str_type="sheet"
+                     /note="strand 44"
+     SecStr          356..359
+                     /sec_str_type="sheet"
+                     /note="strand 45"
+     Site            359..363
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173905"
+     SecStr          369..376
+                     /sec_str_type="helix"
+                     /note="helix 35"
+     SecStr          379..388
+                     /sec_str_type="helix"
+                     /note="helix 36"
+     SecStr          416..420
+                     /sec_str_type="sheet"
+                     /note="strand 46"
+     SecStr          422..434
+                     /sec_str_type="helix"
+                     /note="helix 37"
+     SecStr          439..452
+                     /sec_str_type="helix"
+                     /note="helix 38"
+     SecStr          463..471
+                     /sec_str_type="helix"
+                     /note="helix 39"
+     SecStr          478..485
+                     /sec_str_type="helix"
+                     /note="helix 40"
+     Region          498..592
+                     /region_name="Domain 10"
+                     /note="NCBI Domains"
+     SecStr          509..522
+                     /sec_str_type="helix"
+                     /note="helix 41"
+     SecStr          546..557
+                     /sec_str_type="helix"
+                     /note="helix 42"
+     SecStr          565..573
+                     /sec_str_type="helix"
+                     /note="helix 43"
+     SecStr          575..583
+                     /sec_str_type="helix"
+                     /note="helix 44"
+ORIGIN      
+        1 mgikvtkdlv lhlenlarle lsedqreslm kdfqeildyv ellnevdveg vepmytpved
+       61 saklrkgdpr ffemrdlikk nfpeekdghi kvpgihrgsg sgsgsmfitg affdilevgp
+      121 kkirrcfelv rvrfapsptg hlhvggarta lfnwmfarke ggkfilried tdterssrey
+      181 eqqileslrw cgldwdegpd iggdfgpyrq serleiyrey aeklvedkra yyvvydkedp
+      241 skelfttyey pheykekghp vtikfkvlpg ktsfedllkg ymefdnstle dfiimksngf
+      301 ptynfavvvd dhlmrishvf rgedhlsntp kqlmiyeafg weapvfmhip lilgsdrtpl
+      361 skrhgatsve hfrregilsr almnylallg wrvegdeift ieeklqsfdp kdisnkgvif
+      421 dyqklewvng khmrridled lkrefiewak yagkeipsvd eryfsetlri crekvntlsq
+      481 lydimypfmn ddyeyekdyv ekflkreeae rvleeakkaf kdlnswnmee iektlrdlse
+      541 kglaskkvvf qlirgavtgk lvtpglfeti evlgkertlk rlertlqflk kt
+//
+

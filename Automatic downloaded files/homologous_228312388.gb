@@ -1,0 +1,157 @@
+LOCUS       3GZC_A                   440 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Structure Of Human Selenocysteine Lyase.
+ACCESSION   3GZC_A
+VERSION     3GZC_A  GI:228312388
+DBSOURCE    pdb: molecule 3GZC, chain 65, release Jun 13, 2012;
+            deposition: Apr 7, 2009;
+            class: Lyase;
+            source: Mmdb_id: 71447, Pdb_id 1: 3GZC;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 440)
+  AUTHORS   Collins,R., Johansson,A.L., Karlberg,T., Markova,N., van den,Be.,
+            Olesen,K., Hammarstrom,M., Flores,A., Schuler,H., Schiavone,L.H.,
+            Brzezinski,P., Arner,E.S. and Hogbom,M.
+  TITLE     Biochemical discrimination between selenium and sulfur 1: a single
+            residue provides selenium specificity to human selenocysteine lyase
+  JOURNAL   PLoS ONE 7 (1), E30581 (2012)
+   PUBMED   22295093
+REFERENCE   2  (residues 1 to 440)
+  AUTHORS   Collins,R., Hogbom,M., Arrowsmith,C., Berglund,H., Edwards,A.,
+            Ehn,M., S, Flores,A., Graslund,S., Hallberg,B.M., Hammarstrom,M.,
+            Karlberg,T., Kotenyova,T., Nilsson-Ehle,P., Nordlund,P., Nyman,T.,
+            Ogg,D., Perss,C., Sagemark,J., Stenmark,P., Sundstrom,M.,
+            Thorsell,A.G., Uppenberg,J., Berg, Weigelt,J.,
+            Holmberg-Schiavone,L., Schuler,H., Structural Ge and Consortium
+            (Sgc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-APR-2009)
+COMMENT     1 Selenocysteine Lyase.
+FEATURES             Location/Qualifiers
+     source          1..440
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..34,310..440)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          25..436
+                     /region_name="NifS"
+                     /note="Cysteine sulfinate desulfinase/cysteine desulfurase
+                     or related enzyme [Amino acid transport and metabolism];
+                     COG1104"
+                     /db_xref="CDD:224029"
+     SecStr          26..29
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          27..425
+                     /region_name="Aminotran_5"
+                     /note="Aminotransferase class-V; pfam00266"
+                     /db_xref="CDD:249728"
+     Region          join(35..84,293..309)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          39..50
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          61..81
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          85..292
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          87..92
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(94..95,98,190,228,231,251,254)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     SecStr          94..112
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          130..136
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          141..153
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          155..161
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          171..179
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          184..190
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          201..218
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          223..230
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          246..253
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            254
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     Het             bond(254)
+                     /heterogen="(PLR,1000 )"
+     SecStr          259..266
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          281..284
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          287..290
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          294..309
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          310..332
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          337..342
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          352..359
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          364..372
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          374..377
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          392..399
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          401..408
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          409..413
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          419..438
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 smgrdapapa asqpsgcgkh nsperkvymd ynattplepe viqamtkamw eawgnpsspy
+       61 sagrkakdii naareslakm iggkpqdiif tsggtesnnl vihsvvkhfh anqtskghtg
+      121 ghhspvkgak phfitssveh dsirlplehl veeqvaavtf vpvskvsgqt evddilaavr
+      181 pttrlvtiml annetgivmp vpeisqrika lnqervaagl ppilvhtdaa qalgkqrvdv
+      241 edlgvdflti vghkfygpri galyirglge ftplypmlfg ggqernfrpg tentpmiagl
+      301 gkaaelvtqn ceayeahmrd vrdyleerle aefgqkrihl nsqfpgtqrl pntcnfsirg
+      361 prlqghvvla qcrvlmasvg aachsdhgdq pspvllsygv pfdvarnalr lsvgrsttra
+      421 evdlvvqdlk qavaqledqa
+//
+

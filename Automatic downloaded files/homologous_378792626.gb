@@ -1,0 +1,159 @@
+LOCUS       4DIM_A                   403 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Phosphoribosylglycinamide Synthetase
+            From Anaerococcus Prevotii.
+ACCESSION   4DIM_A
+VERSION     4DIM_A  GI:378792626
+DBSOURCE    pdb: molecule 4DIM, chain 65, release Feb 29, 2012;
+            deposition: Jan 31, 2012;
+            class: Ligase;
+            source: Mmdb_id: 97691, Pdb_id 1: 4DIM;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Anaerococcus prevotii DSM 20548
+  ORGANISM  Anaerococcus prevotii DSM 20548
+            Bacteria; Firmicutes; Tissierellia; Tissierellales;
+            Peptoniphilaceae; Anaerococcus.
+REFERENCE   1  (residues 1 to 403)
+  AUTHORS   Michalska,K., Wu,R., Clancy,S., Joachimiak,A. and Midwest Center
+            For Structural Genomics (Mcsg).
+  TITLE     Crystal Structure Of Phosphoribosylglycinamide Synt From
+            Anaerococcus Prevotii
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 403)
+  AUTHORS   Michalska,K., Wu,R., Clancy,S., Joachimiak,A., Midwest Center For
+            St and Genomics (Mcsg).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JAN-2012)
+COMMENT     1 Phosphoribosylglycinamide Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..403
+                     /organism="Anaerococcus prevotii DSM 20548"
+                     /db_xref="taxon:525919"
+     Region          join(1..123,192..403)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          7..14
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          21..29
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          30..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          42..49
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          50..55
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          59..67
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          73..77
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          84..94
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          101..109
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          109..285
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; pfam13535"
+                     /db_xref="CDD:257854"
+     SecStr          110..120
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          124..191
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          126..131
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          132..140
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          146..151
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          160..164
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          166..179
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          184..190
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          193..199
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          200..204
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          205..212
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          213..220
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          222..230
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          237..253
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          257..264
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          265..268
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          269..273
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          274..279
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          285..293
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          297..306
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          322..330
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          334..338
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          339..344
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          350..357
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          362..366
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          374..382
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          384..396
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          397..402
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+ORIGIN      
+        1 snaxydnkrl lilgagrgql glykaakelg ihtiagtxpn ahkpclnlad eisyxdisnp
+       61 deveqkvkdl nldgaatccl dtgivslari cdkenlvgln eeaaixcgdk ykxkeafkky
+      121 nvntarhfvv rnenelknal enlklpvivk atdlqgskgi yiakkeeeai dgfnetxnlt
+      181 krdyciveef iegyefgaqa fvykndvlfv xphgdetyxs htavpvghyv pldvkddiie
+      241 ktktevkkai kalglnncav nvdxilkdne vyiieltgrv ganclpelve inygieyykx
+      301 iasxaisenp lvfwsqkske nkaglarxii eteksgilke ilnsnakddd iveitffkee
+      361 ndeikkfens ndcigqiivk eetldkckdk ldviinnini ilk
+//
+

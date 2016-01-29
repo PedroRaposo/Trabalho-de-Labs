@@ -1,0 +1,121 @@
+LOCUS       1UDW_A                   252 aa            linear   PRI 11-FEB-2013
+DEFINITION  Chain A, Crystal Structure Of Human Uridine-cytidine Kinase 2
+            Complexed With A Feedback-inhibitor, Ctp.
+ACCESSION   1UDW_A
+VERSION     1UDW_A  GI:48425784
+DBSOURCE    pdb: molecule 1UDW, chain 65, release Feb 7, 2013;
+            deposition: May 7, 2003;
+            class: Transferase;
+            source: Mmdb_id: 27474, Pdb_id 1: 1UDW;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 252)
+  AUTHORS   Suzuki,N.N., Koizumi,K., Fukushima,M., Matsuda,A. and Inagaki,F.
+  TITLE     Crystallization and preliminary X-ray analysis of human
+            uridine-cytidine kinase 2
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 59 (PT 8), 1477-1478 (2003)
+   PUBMED   12876357
+REFERENCE   2  (residues 1 to 252)
+  AUTHORS   Suzuki,N.N., Koizumi,K., Fukushima,M., Matsuda,A. and Inagaki,F.
+  TITLE     Structural basis for the specificity, catalysis, and regulation of
+            human uridine-cytidine kinase
+  JOURNAL   Structure 12 (5), 751-764 (2004)
+   PUBMED   15130468
+REFERENCE   3  (residues 1 to 252)
+  AUTHORS   Suzuki,N.N., Koizumi,K., Fukushima,M., Matsuda,A. and Inagaki,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAY-2003)
+COMMENT     1 Uridine-cytidine Kinase 2.
+FEATURES             Location/Qualifiers
+     source          1..252
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..67,132..252)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          22..232
+                     /region_name="Udk"
+                     /note="Uridine kinase [Nucleotide transport and
+                     metabolism]; COG0572"
+                     /db_xref="CDD:223645"
+     SecStr          22..29
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          24..230
+                     /region_name="UMPK"
+                     /note="Uridine monophosphate kinase (UMPK, EC 2.7.1.48),
+                     also known as uridine kinase or uridine-cytidine kinase
+                     (UCK), catalyzes the reversible phosphoryl transfer from
+                     ATP to uridine or cytidine to yield UMP or CMP. In the
+                     primidine nucleotide-salvage pathway; cd02023"
+                     /db_xref="CDD:238981"
+     SecStr          35..44
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(36,167,215)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238981"
+     SecStr          57..63
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(64,88,168)
+                     /site_type="other"
+                     /note="Sugar specificity"
+                     /db_xref="CDD:238981"
+     Site            order(67,85,114,116,119,176)
+                     /site_type="other"
+                     /note="Pyrimidine base specificity"
+                     /db_xref="CDD:238981"
+     Region          68..131
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          72..80
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          93..105
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          107..112
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          113..116
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          119..122
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          125..130
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          132..139
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          152..159
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          161..174
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          180..197
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          207..212
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          217..230
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 pgmagdseqt lqnhqqpngg epfligvsgg tasgkssvca kivqllgqne vdyrqkqvvi
+       61 lsqdsfyrvl tseqkakalk gqfnfdhpda fdnelilktl keitegktvq ipvydfvshs
+      121 rkeetvtvyp advvlfegil afysqevrdl fqmklfvdtd adtrlsrrvl rdisergrdl
+      181 eqilsqyitf vkpafeefcl ptkkyadvii prgadnlvai nlivqhiqdi lnggpskrqt
+      241 ngclngytps rk
+//
+

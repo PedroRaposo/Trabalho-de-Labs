@@ -1,0 +1,316 @@
+LOCUS       3G60_A                  1284 aa            linear   ROD 13-NOV-2013
+DEFINITION  Chain A, Structure Of P-glycoprotein Reveals A Molecular Basis For
+            Poly- Specific Drug Binding.
+ACCESSION   3G60_A
+VERSION     3G60_A  GI:225734206
+DBSOURCE    pdb: molecule 3G60, chain 65, release Nov 13, 2013;
+            deposition: Feb 5, 2009;
+            class: Membrane Protein;
+            source: Mmdb_id: 70432, Pdb_id 1: 3G60;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (residues 1 to 1284)
+  AUTHORS   Aller,S.G., Yu,J., Ward,A., Weng,Y., Chittaboina,S., Zhuo,R.,
+            Harrell,P.M., Trinh,Y.T., Zhang,Q., Urbatsch,I.L. and Chang,G.
+  TITLE     Structure of P-glycoprotein reveals a molecular basis for
+            poly-specific drug binding
+  JOURNAL   Science 323 (5922), 1718-1722 (2009)
+   PUBMED   19325113
+REFERENCE   2  (residues 1 to 1284)
+  AUTHORS   Aller,S.G., Yu,J., Ward,A., Weng,Y., Chittaboina,S., Zhuo,R.,
+            Harrel,P.M., Trinh,Y.T., Zhang,Q., Urbatsch,I.L. and Chang,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-FEB-2009)
+COMMENT     1 Multidrug Resistance Protein 1a.
+FEATURES             Location/Qualifiers
+     source          1..1284
+                     /organism="Mus musculus"
+                     /db_xref="taxon:10090"
+     Region          join(1..374,660..1019)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          45..84
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          47..1263
+                     /region_name="PTZ00265"
+                     /note="multidrug resistance protein (mdr1); Provisional"
+                     /db_xref="CDD:240339"
+     Region          50..341
+                     /region_name="ABC_membrane"
+                     /note="ABC transporter transmembrane region; pfam00664"
+                     /db_xref="CDD:250039"
+     SecStr          92..128
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          129..153
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          164..187
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          188..203
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          209..243
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          256..264
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          269..287
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          290..320
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          328..363
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          375..659
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          386..394
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          389..625
+                     /region_name="ABC_MTABC3_MDL1_MDL2"
+                     /note="ATP-binding cassette domain of a mitochondrial
+                     protein MTABC3 and related proteins; cd03249"
+                     /db_xref="CDD:213216"
+     SecStr          407..415
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          416..423
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            423..430
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213216"
+     Site            order(426..427,429..431,471,551..552,583)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213216"
+     SecStr          428..436
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          445..450
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          458..465
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          466..471
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            468..471
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213216"
+     SecStr          477..480
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          493..503
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          518..521
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            527..536
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213216"
+     SecStr          529..543
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          546..552
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            547..552
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213216"
+     Site            555..558
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213216"
+     SecStr          559..572
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          576..582
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            579..585
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213216"
+     SecStr          592..599
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          600..607
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          608..615
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          617..624
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          695..703
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          708..737
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     Region          711..987
+                     /region_name="ABC_membrane"
+                     /note="ABC transporter transmembrane region; pfam00664"
+                     /db_xref="CDD:250039"
+     SecStr          743..791
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          807..819
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          820..846
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          852..888
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          889..899
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          909..920
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          921..951
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          970..988
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          995..1009
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     Region          1020..1284
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          1029..1035
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Region          1031..1270
+                     /region_name="ABC_MTABC3_MDL1_MDL2"
+                     /note="ATP-binding cassette domain of a mitochondrial
+                     protein MTABC3 and related proteins; cd03249"
+                     /db_xref="CDD:213216"
+     SecStr          1036..1039
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          1048..1058
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          1059..1067
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            1066..1073
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213216"
+     Site            order(1069..1070,1072..1074,1114,1196..1197,1228)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213216"
+     SecStr          1072..1080
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          1086..1093
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          1101..1108
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          1109..1114
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     Site            1111..1114
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213216"
+     SecStr          1122..1129
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          1138..1148
+                     /sec_str_type="helix"
+                     /note="helix 32"
+     Site            1172..1181
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213216"
+     SecStr          1174..1188
+                     /sec_str_type="helix"
+                     /note="helix 33"
+     SecStr          1191..1197
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Site            1192..1197
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213216"
+     Site            1200..1203
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213216"
+     SecStr          1205..1217
+                     /sec_str_type="helix"
+                     /note="helix 34"
+     SecStr          1221..1227
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Site            1224..1230
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213216"
+     SecStr          1237..1244
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          1245..1251
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          1252..1259
+                     /sec_str_type="helix"
+                     /note="helix 35"
+     SecStr          1262..1269
+                     /sec_str_type="helix"
+                     /note="helix 36"
+ORIGIN      
+        1 meleedlkgr adknfskmgk kskkekkekk pavsvltmfr yagwldrlym lvgtlaaiih
+       61 gvalplmmli fgdmtdsfas vgnvsknstn mseadkramf akleeemtty ayyytgigag
+      121 vlivayiqvs fwclaagrqi hkirqkffha imnqeigwfd vhdvgelntr ltddvskine
+      181 gigdkigmff qamatffggf iigftrgwkl tlvilaispv lglsagiwak ilssftdkel
+      241 hayakagava eevlaairtv iafggqkkel erynnnleea krlgikkait anismgaafl
+      301 liyasyalaf wygtslvisk eysigqvltv ffsvligafs vgqaspniea fanargaaye
+      361 vfkiidnkps idsfsksghk pdniqgnlef knihfsypsr kevqilkgln lkvksgqtva
+      421 lvgnsgcgks ttvqlmqrly dpldgmvsid gqdirtinvr ylreiigvvs qepvlfatti
+      481 aenirygred vtmdeiekav keanaydfim klphqfdtlv gergaqlsgg qkqriaiara
+      541 lvrnpkilll deatsaldte seavvqaald karegrttiv iahrlstvrn adviagfdgg
+      601 viveqgnhde lmrekgiyfk lvmtqtagne ielgneacks kdeidnldms skdsgsslir
+      661 rrstrksicg phdqdrklst kealdedvpp asfwrilkln stewpyfvvg ifcaiinggl
+      721 qpafsvifsk vvgvftnggp petqrqnsnl fsllflilgi isfitfflqg ftfgkageil
+      781 tkrlrymvfk smlrqdvswf ddpknttgal ttrlandaaq vkgatgsrla vifqnianlg
+      841 tgiiisliyg wqltllllai vpiiaiagvv emkmlsgqal kdkkelegsg kiateaienf
+      901 rtvvsltreq kfetmyaqsl qipyrnamkk ahvfgitfsf tqammyfsya acfrfgaylv
+      961 tqqlmtfenv llvfsaivfg amavgqvssf apdyakatvs ashiiriiek tpeidsystq
+     1021 glkpnmlegn vqfsgvvfny ptrpsipvlq glslevkkgq tlalvgssgc gkstvvqlle
+     1081 rfydpmagsv fldgkeikql nvqwlraqlg ivsqepilfd csiaeniayg dnsrvvsyee
+     1141 ivraakeani hqfidslpdk yntrvgdkgt qlsggqkqri aiaralvrqp hillldeats
+     1201 aldtesekvv qealdkareg rtciviahrl stiqnadliv viqngkvkeh gthqqllaqk
+     1261 giyfsmvsvq agakrsyvhh hhhh
+//
+

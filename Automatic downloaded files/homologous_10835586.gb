@@ -1,0 +1,111 @@
+LOCUS       1FJG_B                   256 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Structure Of The Thermus Thermophilus 30s Ribosomal
+            Subunit In Complex With The Antibiotics Streptomycin,
+            Spectinomycin, And Paromomycin.
+ACCESSION   1FJG_B
+VERSION     1FJG_B  GI:10835586
+DBSOURCE    pdb: molecule 1FJG, chain 66, release Jun 6, 2011;
+            deposition: Aug 8, 2000;
+            class: Ribosome;
+            source: Mmdb_id: 72071, Pdb_id 1: 1FJG;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus
+  ORGANISM  Thermus thermophilus
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 256)
+  AUTHORS   Clemons WM,Jr., May,J.L., Wimberly,B.T., McCutcheon,J.P.,
+            Capel,M.S. and Ramakrishnan,V.
+  TITLE     Structure of a bacterial 30S ribosomal subunit at 5.5 A resolution
+  JOURNAL   Nature 400 (6747), 833-840 (1999)
+   PUBMED   10476960
+REFERENCE   2  (residues 1 to 256)
+  AUTHORS   Wimberly,B.T., Brodersen,D.E., Clemons WM,Jr., Morgan-Warren,R.J.,
+            Carter,A.P., Vonrhein,C., Hartsch,T. and Ramakrishnan,V.
+  TITLE     Structure of the 30S ribosomal subunit
+  JOURNAL   Nature 407 (6802), 327-339 (2000)
+   PUBMED   11014182
+REFERENCE   3  (residues 1 to 256)
+  AUTHORS   Carter,A.P., Clemons,W.M., Brodersen,D.E., Morgan-Warren,R.J.,
+            Wimberly,B.T. and Ramakrishnan,V.
+  TITLE     Functional insights from the structure of the 30S ribosomal subunit
+            and its interactions with antibiotics
+  JOURNAL   Nature 407 (6802), 340-348 (2000)
+   PUBMED   11014183
+REFERENCE   4  (residues 1 to 256)
+  AUTHORS   Carter,A.P., Clemons,W.M. Jr., Brodersen,D.E., Wimberly,B.T.,
+            Morgan-Warren,R.J. and Ramakrishnan,V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2000)
+COMMENT     3 30s Ribosomal Protein S2.
+FEATURES             Location/Qualifiers
+     source          1..256
+                     /organism="Thermus thermophilus"
+                     /db_xref="taxon:274"
+     Region          10..219
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     Site            order(26..27,36..38,96,98..100,103..104,176,179)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          33..37
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          38..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          44..64
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          67..72
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          78..88
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          90..94
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          110..121
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          132..149
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          160..166
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          172..180
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(178..179,181,195..198)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          182..189
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          198..203
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          209..225
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          235..243
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 mpveitvkel leagvhfghe rkrwnpkfar yiyaerngih iidlqktmee lertfrfied
+       61 lamrggtilf vgtkkqaqdi vrmeaeragm pyvnqrwlgg mltnfktisq rvhrleelea
+      121 lfaspeieer pkkeqvrlkh elerlqkyls gfrllkrlpd aifvvdptke aiavrearkl
+      181 fipvialadt dsdpdlvdyi ipgnddairs iqlilsravd liiqarggvv epspsyalvq
+      241 eaeatetpeg esevea
+//
+

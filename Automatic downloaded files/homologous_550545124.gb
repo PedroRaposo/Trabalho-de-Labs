@@ -1,0 +1,149 @@
+LOCUS       4KP7_A                   427 aa            linear   INV 12-FEB-2014
+DEFINITION  Chain A, Structure Of Plasmodium Ispc In Complex With A
+            Beta-thia-isostere Derivative Of Fosmidomycin.
+ACCESSION   4KP7_A
+VERSION     4KP7_A  GI:550545124
+DBSOURCE    pdb: molecule 4KP7, chain 65, release Feb 12, 2014;
+            deposition: May 13, 2013;
+            class: OxidoreductaseOXIDOREDUCTASE INHIBITOR;
+            source: Mmdb_id: 114108, Pdb_id 1: 4KP7;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Plasmodium falciparum HB3
+  ORGANISM  Plasmodium falciparum HB3
+            Eukaryota; Alveolata; Apicomplexa; Aconoidasida; Haemosporida;
+            Plasmodiidae; Plasmodium; Plasmodium (Laverania).
+REFERENCE   1  (residues 1 to 427)
+  AUTHORS   Kunfermann,A., Lienau,C., Illarionov,B., Held,J., Grawert,T.,
+            Behrendt,C.T., Werner,P., Hahn,S., Eisenreich,W., Riederer,U.,
+            Mordmuller,B., Bacher,A., Fischer,M., Groll,M. and Kurz,T.
+  TITLE     IspC as Target for Antiinfective Drug Discovery: Synthesis,
+            Enantiomeric Separation, and Structural Biology of Fosmidomycin
+            Thia Isosters
+  JOURNAL   J. Med. Chem. 56 (20), 8151-8162 (2013)
+   PUBMED   24032981
+REFERENCE   2  (residues 1 to 427)
+  AUTHORS   Kunfermann,A., Bacher,A. and Groll,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAY-2013)
+COMMENT     1 1-deoxy-d-xylulose 5-phosphate Reductoisomerase, Apicoplast.
+FEATURES             Location/Qualifiers
+     source          1..427
+                     /organism="Plasmodium falciparum HB3"
+                     /db_xref="taxon:137071"
+     Region          1..170
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          18..424
+                     /region_name="PRK05447"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase;
+                     Provisional"
+                     /db_xref="CDD:235472"
+     SecStr          18..23
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          19..151
+                     /region_name="DXP_reductoisom"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase;
+                     pfam02670"
+                     /db_xref="CDD:251461"
+     SecStr          27..41
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          45..55
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          57..66
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          70..76
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          79..87
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          95..100
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          101..109
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          114..119
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          127..135
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          136..142
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          151..161
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          163..169
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          166..262
+                     /region_name="DXP_redisom_C"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase
+                     C-terminal; pfam08436"
+                     /db_xref="CDD:254800"
+     Het             join(bond(170),bond(172),bond(254))
+                     /heterogen="(MN3,1000 )"
+     Region          171..352
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          171..179
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          202..209
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          239..247
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          248..262
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          268..274
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          278..286
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          288..295
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          297..417
+                     /region_name="DXPR_C"
+                     /note="DXP reductoisomerase C-terminal domain; pfam13288"
+                     /db_xref="CDD:257629"
+     SecStr          300..308
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          340..350
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Region          353..427
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          354..371
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          378..389
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          399..422
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 mrgshhhhhh gsikkpinva ifgstgsigt nalniirecn kienvfnvka lyvnksvnel
+       61 yeqareflpe ylcihdksvy eelkelvkni kdykpiilcg degmkeicss nsidkivigi
+      121 dsfqglystm yaimnnkiva lankesivsa gfflkkllni hknakiipvd sehsaifqcl
+      181 dnnkvlktkc lqdnfskinn inkiflcssg gpfqnltmde lknvtsenal khpkwkmgkk
+      241 itidsatmmn kgleviethf lfdvdyndie vivhkeciih scvefidksv isqmyypdmq
+      301 ipilysltwp driktnlkpl dlaqvstltf hkpslehfpc iklayqagik gnfyptvlna
+      361 sneiannlfl nnkikyfdis siisqvlesf nsqkvsense dlmkqilqih swakdkatdi
+      421 ynkhnss
+//
+

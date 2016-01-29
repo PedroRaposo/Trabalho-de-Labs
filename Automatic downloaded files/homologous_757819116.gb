@@ -1,0 +1,139 @@
+LOCUS       4Q00_A                   261 aa            linear   BCT 25-FEB-2015
+DEFINITION  Chain A, Crystal Structure Of An S150a Mutant Of The E. Coli Feob
+            G-domain.
+ACCESSION   4Q00_A
+VERSION     4Q00_A  GI:757819116
+DBSOURCE    pdb: molecule 4Q00, chain 65, release Feb 25, 2015;
+            deposition: Mar 31, 2014;
+            class: Metal Transport;
+            source: Mmdb_id: 127091, Pdb_id 1: 4Q00;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 261)
+  AUTHORS   Guilfoyle,A.P., Deshpande,C.N., Schenk,G., Maher,M.J. and
+            Jormakka,M.
+  TITLE     Exploring the correlation between the sequence composition of the
+            nucleotide binding G5 loop of the FeoB GTPase domain (NFeoB) and
+            intrinsic rate of GDP release
+  JOURNAL   Biosci. Rep. 34 (6), E00158 (2014)
+   PUBMED   25374115
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 261)
+  AUTHORS   Jormakka,M., Guilfoyle,A.P. and Deshpande,C.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-MAR-2014)
+COMMENT     1 Ferrous Iron Transport Protein B.
+FEATURES             Location/Qualifiers
+     source          1..261
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..172
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          4..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          6..159
+                     /region_name="small_GTP"
+                     /note="small GTP-binding protein domain; TIGR00231"
+                     /db_xref="CDD:272973"
+     Region          8..169
+                     /region_name="FeoB"
+                     /note="Ferrous iron transport protein B (FeoB) family;
+                     cd01879"
+                     /db_xref="CDD:206667"
+     Site            10..17
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206667"
+     Site            order(13,15..18,120..121,123,149..151)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206667"
+     SecStr          16..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          27..32
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            36..40
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206667"
+     Site            37
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206667"
+     SecStr          39..48
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          49..57
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            56..59
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206667"
+     Site            order(59..67,72..81,85..86)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206667"
+     SecStr          72..82
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          87..95
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          103..111
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          114..121
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            120..123
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206667"
+     SecStr          122..129
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          134..141
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          143..148
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            149..151
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206667"
+     SecStr          154..165
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          173..261
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          179..191
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          198..210
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          226..236
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          240..258
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mkkltiglig npnsgkttlf nqltgsrqrv gnwagvtver kegqfsttdh qvtlvdlpgt
+       61 yslttissqt sldeqiachy ilsgdadlli nvvdasnler nlyltlqlle lgipcivaln
+      121 mldiaekqni rieidalsar lgcpviplva trgrgiealk laidrykane nvelvhyaqp
+      181 llneadslak vmpsdiplkq rrwlglqmle gdiysrayag easqhldaal arlrnemddp
+      241 alhiadaryq ciaaicdvvs n
+//
+

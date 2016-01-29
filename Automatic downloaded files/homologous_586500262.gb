@@ -1,0 +1,92 @@
+LOCUS       4L85_A                   123 aa            linear   BCT 19-MAR-2014
+DEFINITION  Chain A, Crystal Structure Of Receiver Domain Of Kdpe D52a Mutant
+            From E. Coli.
+ACCESSION   4L85_A
+VERSION     4L85_A  GI:586500262
+DBSOURCE    pdb: molecule 4L85, chain 65, release Mar 19, 2014;
+            deposition: Jun 15, 2013;
+            class: Transcription;
+            source: Mmdb_id: 117657, Pdb_id 1: 4L85;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 123)
+  AUTHORS   Narayanan,A., Kumar,S., Evrard,A.N., Paul,L.N. and Yernool,D.A.
+  TITLE     An asymmetric heterodomain interface stabilizes a response
+            regulator-DNA complex
+  JOURNAL   Nat Commun 5, 3282 (2014)
+   PUBMED   24526190
+REFERENCE   2  (residues 1 to 123)
+  AUTHORS   Kumar,S. and Yernool,D.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-JUN-2013)
+COMMENT     1 Kdp Operon Transcriptional Regulatory Protein Kdpe.
+FEATURES             Location/Qualifiers
+     source          1..123
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     SecStr          3..11
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..118
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(10..11,54,62,81,100,103..104)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          13..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          27..35
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          36..46
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          49..55
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            54
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Het             bond(55)
+                     /heterogen="(IOD,1004 )"
+     Site            order(57..58,60..62)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          63..70
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          75..82
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..95
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          98..103
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            103..105
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          107..118
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 gamanvlive deqairrflr talegdgmrv feaetlqrgl leaatrkpdl iilalglpdg
+       61 dgiefirdlr qwsavpvivl sarseesdki aaldagaddy lskpfgigel qarlrvalrr
+      121 hsa
+//
+

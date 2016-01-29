@@ -1,0 +1,236 @@
+LOCUS       1DGS_A                   667 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Nad+-Dependent Dna Ligase From T.
+            Filiformis.
+ACCESSION   1DGS_A
+VERSION     1DGS_A  GI:11513386
+DBSOURCE    pdb: molecule 1DGS, chain 65, release Aug 27, 2007;
+            deposition: Nov 25, 1999;
+            class: Ligase;
+            source: Mmdb_id: 14496, Pdb_id 1: 1DGS;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus filiformis
+  ORGANISM  Thermus filiformis
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 667)
+  AUTHORS   Lee,J.Y., Chang,C., Song,H.K., Moon,J., Yang,J.K., Kim,H.K.,
+            Kwon,S.T. and Suh,S.W.
+  TITLE     Crystal structure of NAD(+)-dependent DNA ligase: modular
+            architecture and functional implications
+  JOURNAL   EMBO J. 19 (5), 1119-1129 (2000)
+   PUBMED   10698952
+REFERENCE   2  (residues 1 to 667)
+  AUTHORS   Lee,J.Y., Chang,C., Song,H.K., Kwon,S.T. and Suh,S.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-NOV-1999)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..667
+                     /organism="Thermus filiformis"
+                     /db_xref="taxon:276"
+     SecStr          3..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          8..315
+                     /region_name="LIGANc"
+                     /note="NAD+ dependent DNA ligase adenylation domain. DNA
+                     ligases catalyze the crucial step of joining the breaks in
+                     duplex DNA during DNA replication, repair and
+                     recombination, utilizing either ATP or NAD(+) as a
+                     cofactor, but using the same basic reaction...; cd00114"
+                     /db_xref="CDD:238062"
+     Region          13..654
+                     /region_name="dnlj"
+                     /note="DNA ligase, NAD-dependent; TIGR00575"
+                     /db_xref="CDD:273148"
+     SecStr          34..51
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          72..77
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          join(82..117,232..315)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Site            order(85,114,116,169,221,286,288)
+                     /site_type="other"
+                     /note="nucleotide binding pocket [chemical binding]"
+                     /db_xref="CDD:238062"
+     SecStr          86..89
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          91..101
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          109..116
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(116,118..119)
+                     /site_type="other"
+                     /note="K-X-D-G motif"
+                     /db_xref="CDD:238062"
+     Site            116
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:238062"
+     Het             join(bond(116),bond(116),bond(116))
+                     /heterogen="(AMP, 700 )"
+     Region          118..231
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          118..127
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          128..137
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          138..144
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          162..172
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          174..187
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          196..204
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          216..225
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          237..247
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          254..260
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          261..274
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          283..290
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          298..302
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          303..307
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          308..313
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Region          316..426
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          317..322
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Region          318..399
+                     /region_name="DNA_ligase_OB"
+                     /note="NAD-dependent DNA ligase OB-fold domain; pfam03120"
+                     /db_xref="CDD:145978"
+     SecStr          323..331
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          333..342
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          343..347
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          348..352
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          353..358
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          359..366
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          370..378
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          382..389
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     Region          406..429
+                     /region_name="DNA_ligase_ZBD"
+                     /note="NAD-dependent DNA ligase C4 zinc finger domain;
+                     pfam03119"
+                     /db_xref="CDD:251739"
+     Het             join(bond(406),bond(409),bond(422),bond(427))
+                     /heterogen="( ZN, 701 )"
+     SecStr          413..417
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          418..422
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     Region          427..542
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          431..439
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          437..497
+                     /region_name="HHH_5"
+                     /note="Helix-hairpin-helix domain; pfam14520"
+                     /db_xref="CDD:258660"
+     SecStr          451..460
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          486..497
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          502..510
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          505..568
+                     /region_name="HHH_2"
+                     /note="Helix-hairpin-helix motif; pfam12826"
+                     /db_xref="CDD:257328"
+     SecStr          517..527
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          529..536
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          549..561
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          562..574
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     Region          590..659
+                     /region_name="BRCT"
+                     /note="Breast Cancer Suppressor Protein (BRCA1),
+                     carboxy-terminal domain. The BRCT domain is found within
+                     many DNA damage repair and cell cycle checkpoint proteins.
+                     The unique diversity of this domain superfamily allows
+                     BRCT modules to interact forming homo...; cd00027"
+                     /db_xref="CDD:237994"
+     Site            order(604,608,611,614,616)
+                     /site_type="other"
+                     /note="Dimer interface [polypeptide binding]"
+                     /db_xref="CDD:237994"
+     Site            order(653,657)
+                     /site_type="other"
+                     /note="BRCT sequence motif"
+                     /db_xref="CDD:237994"
+ORIGIN      
+        1 mtreearrri nelrdliryh nyryyvladp eisdaeydrl lrelkeleer fpefkspdsp
+       61 teqvgarple ptfrpvrhpt rmysldnaft yeevlafeer lereaeapsl ytvehkvdgl
+      121 svlyyeegvw stgsgdgevg eevtqnllti ptiprrlkgv pdrlevrgev ympieaflrl
+      181 neeleergek vfknprnaaa gslrqkdprv takrglratf yalglglgle esglksqyel
+      241 llwlkekgfp vehcyekalg aegveevyrr glaqrhalpf eadgvvlkld dltlwgelgy
+      301 taraprfala ykfpaeeket rlldvvfqvg rtgrvtpvgv lepvfiegse vsrvtlhnes
+      361 yieeldirig dwvlvhkagg vipevlrvlk errtgkerpi rwpeacpecg hrlvkegkvh
+      421 rcpnplcpak rfeairhyas rkamdieglg eklierllek glvrdvadly hlrkedllgl
+      481 ermgeksaqn llrqieeskh rglerllyal glpgvgevla rnlarrfgtm drlleaslee
+      541 lieveevgel tarailetlk dpafrdlvrr lkeagvsmes keevsdllsg ltfvltgels
+      601 rpreevkall grlgakvtds vsrktsylvv genpgsklek aralgvavlt eeefwrflke
+      661 kgapvpa
+//
+

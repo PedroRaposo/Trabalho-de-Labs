@@ -1,0 +1,97 @@
+LOCUS       3JYV_B                   193 aa            linear   PLN 11-OCT-2012
+DEFINITION  Chain B, Structure Of The 40s Rrna And Proteins And PE TRNA FOR
+            EUKARYOTIC Ribosome Based On Cryo-Em Map Of Thermomyces Lanuginosus
+            Ribosome At 8.9a Resolution.
+ACCESSION   3JYV_B
+VERSION     3JYV_B  GI:281500808
+DBSOURCE    pdb: molecule 3JYV, chain 66, release Mar 7, 2012;
+            deposition: Sep 22, 2009;
+            class: Ribosome;
+            source: Mmdb_id: 99509, Pdb_id 1: 3JYV, Pdb_id 2: 3JYW, Pdb_id 3:
+            3JYX;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Thermomyces lanuginosus
+  ORGANISM  Thermomyces lanuginosus
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Trichocomaceae;
+            Thermomyces.
+REFERENCE   1  (residues 1 to 193)
+  AUTHORS   Taylor,D.J., Devkota,B., Huang,A.D., Topf,M., Narayanan,E.,
+            Sali,A., Harvey,S.C. and Frank,J.
+  TITLE     Comprehensive molecular structure of the eukaryotic ribosome
+  JOURNAL   Structure 17 (12), 1591-1604 (2009)
+   PUBMED   20004163
+REFERENCE   2  (residues 1 to 193)
+  AUTHORS   Taylor,D.J., Devkota,B., Huang,A.D., Topf,M., Narayanan,E.,
+            Sali,A., C,S. and Frank,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-SEP-2009)
+COMMENT     2 40s Ribosomal Protein S0(a).
+FEATURES             Location/Qualifiers
+     source          1..193
+                     /organism="Thermomyces lanuginosus"
+                     /db_xref="taxon:5541"
+     Region          9..175
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     SecStr          15..18
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(25,33,35..36,93,95..97,100..101,127,130)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          30..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          36..40
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          43..58
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          64..70
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          75..84
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          87..92
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          111..116
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          123..131
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(129..130,132,146..149)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          133..140
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          149..154
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          159..177
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            164..169
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+ORIGIN      
+        1 ltpedaqlll aanthlgarn vqvhqepyvf narpdgvhvi nvgktweklv laariiaaip
+       61 npedvvaiss rtfgqravlk faahtgatpi agrftpgsft nyitrsfkep rlvivtdprs
+      121 daqaikeasy vnipvialtd ldspsefvdv aipcnnrgkh sigliwylla revlrlrgal
+      181 vdrtqpwsim pdl
+//
+

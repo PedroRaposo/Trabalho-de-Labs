@@ -1,0 +1,184 @@
+LOCUS       1WQA_A                   455 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Crystal Structure Of Pyrococcus Horikoshii
+            PhosphomannomutasePHOSPHOGLUCOMUTASE COMPLEXED WITH MG2+.
+ACCESSION   1WQA_A
+VERSION     1WQA_A  GI:78100844
+DBSOURCE    pdb: molecule 1WQA, chain 65, release Jan 4, 2013;
+            deposition: Sep 24, 2004;
+            class: Isomerase;
+            source: Mmdb_id: 35000, Pdb_id 1: 1WQA;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pyrococcus horikoshii
+  ORGANISM  Pyrococcus horikoshii
+            Archaea; Euryarchaeota; Thermococci; Thermococcales;
+            Thermococcaceae; Pyrococcus.
+REFERENCE   1  (residues 1 to 455)
+  AUTHORS   Kawamura,T., Tsuge,M., Watanabe,N. and Tanaka,I.
+  TITLE     Crystal Structure Of Pyrococcus Horikoshii
+            PhosphomannomutasePHOSPHOGLUCOMUTASE
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 455)
+  AUTHORS   Kawamura,T., Tsuge,M., Watanabe,N. and Tanaka,I.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-SEP-2004)
+COMMENT     1 Phospho-sugar Mutase.
+FEATURES             Location/Qualifiers
+     source          1..455
+                     /organism="Pyrococcus horikoshii"
+                     /db_xref="taxon:53953"
+     Region          1..152
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..450
+                     /region_name="Arch_GlmM"
+                     /note="phosphoglucosamine mutase; TIGR03990"
+                     /db_xref="CDD:274906"
+     Region          4..450
+                     /region_name="PGM_like1"
+                     /note="This archaeal PGM-like (phosphoglucomutase-like)
+                     protein of unknown function belongs to the
+                     alpha-D-phosphohexomutase superfamily which includes
+                     several related enzymes that catalyze a reversible
+                     intramolecular phosphoryl transfer on their sugar...;
+                     cd03087"
+                     /db_xref="CDD:100089"
+     Site            order(6,8,11,101..103,111,243,245,247..248,286,307..309,
+                     326,328,330,419,421..423,428)
+                     /site_type="active"
+                     /db_xref="CDD:100089"
+     Site            order(8,101,248,286,307,309,326,328,330,419,421..423,428)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:100089"
+     SecStr          9..13
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          20..37
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          41..49
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          54..68
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          69..77
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          80..90
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          93..100
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(101,243,245,247)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:100089"
+     Het             join(bond(101),bond(243),bond(245),bond(247))
+                     /heterogen="( MG,1000 )"
+     SecStr          107..115
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          122..134
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          145..151
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          join(153..260,338..368)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          154..162
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          166..173
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          174..182
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          190..197
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          198..205
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          225..234
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          237..243
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          248..254
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          256..259
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          261..337
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          262..276
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          277..284
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          290..297
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          298..305
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          311..319
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          322..327
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          329..333
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          342..355
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          359..366
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          369..455
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          370..379
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          383..397
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          400..404
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          406..412
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          413..421
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          425..434
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          436..454
+                     /sec_str_type="helix"
+                     /note="helix 15"
+ORIGIN      
+        1 mgklfgtfgv rgianekitp efamkigmaf gtllkregrk kplvvvgrdt rvsgemlkea
+       61 lisgllsvgc dvidvgiapt pavqwatkhf nadggavita shnppeyngi kllepngmgl
+      121 kkereaivee lffkedfdra kwyeigevrr ediikpyiea ikskvdveai kkrkpfvvvd
+      181 tsngagsltl pyllrelgck vitvnaqpdg yfparnpepn eenlkefmei vkalgadfgv
+      241 aqdgdadrav fidengrfiq gdktfalvad avlkekgggl lvttvatsnl lddiakkhga
+      301 kvmrtkvgdl ivaralyenn gtiggeengg vifpehvlgr dgamtvakvv eifaksgkkf
+      361 selidelpky yqiktkrhve gdrhaivnkv aemarergyt vdttdgakii fedgwvlvra
+      421 sgtepiirif seakskekaq eylnlgiell ekals
+//
+

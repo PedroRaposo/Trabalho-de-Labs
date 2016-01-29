@@ -1,0 +1,138 @@
+LOCUS       1FZQ_A                   181 aa            linear   ROD 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Murine Arl3-Gdp.
+ACCESSION   1FZQ_A
+VERSION     1FZQ_A  GI:12084691
+DBSOURCE    pdb: molecule 1FZQ, chain 65, release Aug 27, 2007;
+            deposition: Oct 4, 2000;
+            class: Signaling Protein;
+            source: Mmdb_id: 15179, Pdb_id 1: 1FZQ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia;
+            Sciurognathi; Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (residues 1 to 181)
+  AUTHORS   Linari,M., Hanzal-Bayer,M. and Becker,J.
+  TITLE     The delta subunit of rod specific cyclic GMP phosphodiesterase, PDE
+            delta, interacts with the Arf-like protein Arl3 in a GTP specific
+            manner
+  JOURNAL   FEBS Lett. 458 (1), 55-59 (1999)
+   PUBMED   10518933
+REFERENCE   2  (residues 1 to 181)
+  AUTHORS   Hillig,R.C., Hanzal-Bayer,M., Linari,M., Becker,J., Wittinghofer,A.
+            and Renault,L.
+  TITLE     Structural and biochemical properties show ARL3-GDP as a distinct
+            GTP binding protein
+  JOURNAL   Structure 8 (12), 1239-1245 (2000)
+   PUBMED   11188688
+REFERENCE   3  (residues 1 to 181)
+  AUTHORS   Hillig,R.C., Hanzal-Bayer,M., Linari,M., Becker,J., Wittinghofer,A.
+            and Renault,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2000)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..181
+                     /organism="Mus musculus"
+                     /db_xref="taxon:10090"
+     Region          2..175
+                     /region_name="Arl3"
+                     /note="Arf-like 3 (Arl3) GTPase; cd04155"
+                     /db_xref="CDD:206721"
+     Region          14..176
+                     /region_name="SAR"
+                     /note="Sar1p-like members of the Ras-family of small
+                     GTPases; smart00178"
+                     /db_xref="CDD:197556"
+     SecStr          16..24
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            23..30
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206721"
+     Site            order(25..26,30,34,46..53,75,80)
+                     /site_type="other"
+                     /note="putative GAP interaction site [polypeptide
+                     binding]"
+                     /db_xref="CDD:206721"
+     Site            order(26..31,125..126,128..129,158..160)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206721"
+     SecStr          29..36
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            35..50
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206721"
+     SecStr          41..46
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(47..51,56,66,70,76,78..80)
+                     /site_type="other"
+                     /note="putative GEF interaction site [polypeptide
+                     binding]"
+                     /db_xref="CDD:206721"
+     Site            47
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206721"
+     Site            order(48..55,65,76,79..80)
+                     /site_type="other"
+                     /note="putative effector interaction site"
+                     /db_xref="CDD:206721"
+     SecStr          50..58
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(51..57,60..65)
+                     /site_type="other"
+                     /note="interswitch region"
+                     /db_xref="CDD:206721"
+     SecStr          59..67
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            66..83
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206721"
+     Site            66..69
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206721"
+     SecStr          85..93
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          99..111
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          118..126
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            125..128
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206721"
+     SecStr          135..142
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          150..158
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            158..160
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206721"
+     SecStr          165..174
+                     /sec_str_type="helix"
+                     /note="helix 4"
+ORIGIN      
+        1 gllsilrklk sapdqevril llgldnagkt tllkqlased ishitptqgf niksvqsqgf
+       61 klnvwdiggq rkirpywrsy fentdiliyv idsadrkrfe etgqeltell eeeklscvpv
+      121 lifankqdll taapaseiae glnlhtirdr vwqiqscsal tgegvqdgmn wvcknvnakk
+      181 k
+//
+

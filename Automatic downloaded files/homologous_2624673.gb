@@ -1,0 +1,97 @@
+LOCUS       1AIP_C                   196 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain C, Ef-Tu Ef-Ts Complex From Thermus Thermophilus.
+ACCESSION   1AIP_C
+VERSION     1AIP_C  GI:2624673
+DBSOURCE    pdb: molecule 1AIP, chain 67, release Jun 18, 2009;
+            deposition: Apr 22, 1997;
+            class: Complex Of Two Elongation Factors;
+            source: Mmdb_id: 6639, Pdb_id 1: 1AIP;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus
+  ORGANISM  Thermus thermophilus
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 196)
+  AUTHORS   Wang,Y., Jiang,Y., Meyering-Voss,M., Sprinzl,M. and Sigler,P.B.
+  TITLE     Crystal structure of the EF-Tu.EF-Ts complex from Thermus
+            thermophilus
+  JOURNAL   Nat. Struct. Biol. 4 (8), 650-656 (1997)
+   PUBMED   9253415
+REFERENCE   2  (residues 1 to 196)
+  AUTHORS   Wang,Y., Jiang,Y., Meyering-Voss,M., Sprinzl,M. and Sigler,P.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-1997)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..196
+                     /organism="Thermus thermophilus"
+                     /db_xref="taxon:274"
+     Region          1..196
+                     /region_name="tsf"
+                     /note="elongation factor Ts; Reviewed; PRK12332"
+                     /db_xref="CDD:183447"
+     Region          join(1..104,164..196)
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     Region          5..41
+                     /region_name="UBA_EF-Ts"
+                     /note="UBA domain found in elongation factor Ts (EF-Ts)
+                     from bacteria, chloroplasts and mitochondria of
+                     eukaryotes; cd14275"
+                     /db_xref="CDD:270461"
+     SecStr          5..14
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Site            order(7..8,11..12,18..19,22)
+                     /site_type="other"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:270461"
+     SecStr          18..28
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          33..50
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          56..65
+                     /sec_str_type="sheet"
+                     /note="strand 50"
+     SecStr          69..79
+                     /sec_str_type="sheet"
+                     /note="strand 51"
+     Region          75..>149
+                     /region_name="EIN3"
+                     /note="Ethylene insensitive 3; cl04813"
+                     /db_xref="CDD:262303"
+     SecStr          87..103
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     Region          105..163
+                     /region_name="Domain 8"
+                     /note="NCBI Domains"
+     SecStr          106..109
+                     /sec_str_type="sheet"
+                     /note="strand 52"
+     SecStr          115..131
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          136..153
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          154..157
+                     /sec_str_type="sheet"
+                     /note="strand 53"
+     SecStr          169..180
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          184..194
+                     /sec_str_type="sheet"
+                     /note="strand 54"
+ORIGIN      
+        1 msqmelikkl reatgagmmd vkraledagw deekavqllr ergamkaakk adrearegii
+       61 ghyihhnqrv gvlvelncet dfvarnelfq nlakdlamhi ammnpryvsa eeipaeelek
+      121 erqiyiqaal negkpqqiae kiaegrlkky leevvlleqp fvkddkvkvk eliqqaiaki
+      181 genivvrrfc rfelga
+//
+

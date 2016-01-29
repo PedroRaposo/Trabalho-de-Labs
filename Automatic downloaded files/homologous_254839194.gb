@@ -1,0 +1,116 @@
+LOCUS       2WJJ_A                   168 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure And Function Of The Feob G-Domain From
+            Methanococcus Jannaschii.
+ACCESSION   2WJJ_A
+VERSION     2WJJ_A  GI:254839194
+DBSOURCE    pdb: molecule 2WJJ, chain 65, release May 25, 2011;
+            deposition: May 26, 2009;
+            class: Metal Transport;
+            source: Mmdb_id: 75556, Pdb_id 1: 2WJJ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanocaldococcus jannaschii
+  ORGANISM  Methanocaldococcus jannaschii
+            Archaea; Euryarchaeota; Methanococci; Methanococcales;
+            Methanocaldococcaceae; Methanocaldococcus.
+REFERENCE   1  (residues 1 to 168)
+  AUTHORS   Koster,S., Wehner,M., Herrmann,C., Kuhlbrandt,W. and Yildiz,O.
+  TITLE     Structure and function of the FeoB G-domain from Methanococcus
+            jannaschii
+  JOURNAL   J. Mol. Biol. 392 (2), 405-419 (2009)
+   PUBMED   19615379
+REFERENCE   2  (residues 1 to 168)
+  AUTHORS   Koester,S., Wehner,M., Herrmann,C., Kuehlbrandt,W. and Yildiz,O.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-MAY-2009)
+COMMENT     1 Ferrous Iron Transport Protein B Homolog.
+FEATURES             Location/Qualifiers
+     source          1..168
+                     /organism="Methanocaldococcus jannaschii"
+                     /db_xref="taxon:2190"
+     SecStr          3..11
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..160
+                     /region_name="small_GTP"
+                     /note="small GTP-binding protein domain; TIGR00231"
+                     /db_xref="CDD:272973"
+     Region          8..166
+                     /region_name="FeoB"
+                     /note="Ferrous iron transport protein B (FeoB) family;
+                     cd01879"
+                     /db_xref="CDD:206667"
+     Site            11..18
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206667"
+     Site            order(14,16..19,117..118,120,146..148)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206667"
+     SecStr          17..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          28..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            37..41
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206667"
+     Site            38
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206667"
+     SecStr          39..49
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          50..58
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            57..60
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206667"
+     Site            order(60..78,82..83)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206667"
+     SecStr          69..79
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          84..92
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          100..108
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          111..118
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            117..120
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206667"
+     SecStr          119..126
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          131..138
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          141..146
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            146..148
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206667"
+     SecStr          153..163
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 axksyeiali gnpnvgksti fnaltgenvy ignwpgvtve kkegefeyng ekfkvvdlpg
+       61 vysltansid eiiardyiin ekpdlvvniv datalernly ltlqlxexga nlllalnkxd
+      121 lakslgieid vdklekilgv kvvplsaakk xgieelkkai siavkdkk
+//
+

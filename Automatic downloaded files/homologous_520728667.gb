@@ -1,0 +1,87 @@
+LOCUS       4FZX_C                   175 aa            linear   BCT 19-OCT-2013
+DEFINITION  Chain C, Exonuclease X In Complex With 3' Overhanging Duplex Dna.
+ACCESSION   4FZX_C
+VERSION     4FZX_C  GI:520728667
+DBSOURCE    pdb: molecule 4FZX, chain 67, release Oct 17, 2013;
+            deposition: Jul 8, 2012;
+            class: HydrolaseDNA;
+            source: Mmdb_id: 111446, Pdb_id 1: 4FZX;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 175)
+  AUTHORS   Wang,T., Sun,H.L., Cheng,F., Zhang,X.E., Bi,L. and Jiang,T.
+  TITLE     Recognition and processing of double-stranded DNA by ExoX, a
+            distributive 3'-5' exonuclease
+  JOURNAL   Nucleic Acids Res. 41 (15), 7556-7565 (2013)
+   PUBMED   23771145
+REFERENCE   2  (residues 1 to 175)
+  AUTHORS   Wang,T., Sun,H., Cheng,F., Bi,L. and Jiang,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUL-2012)
+COMMENT     3 Exodeoxyribonuclease 10.
+FEATURES             Location/Qualifiers
+     source          1..175
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     SecStr          1..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          4..148
+                     /region_name="DEDDh"
+                     /note="DEDDh 3'-5' exonuclease domain family; cd06127"
+                     /db_xref="CDD:176648"
+     Site            order(6..9,11,80..81,83..85,134,139)
+                     /site_type="active"
+                     /db_xref="CDD:176648"
+     Site            order(6..9,11,80..81,83..84,134,139)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:176648"
+     Het             join(bond(6),bond(6),bond(8),bond(139))
+                     /heterogen="( NA,1002 )"
+     Site            order(6,8,85,134,139)
+                     /site_type="active"
+                     /note="catalytic site [active]"
+                     /db_xref="CDD:176648"
+     Het             bond(6)
+                     /heterogen="( NA,1000 )"
+     SecStr          15..26
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          27..34
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          44..51
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          75..80
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          82..89
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          94..99
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          100..107
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          114..121
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          136..154
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          158..165
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 xlriidtetc glqggiveia svdvidgkiv npxshlvrpd rpispqaxai hriteaxvad
+       61 kpwiedviph yygsewyvah nasfdrrvlp expgewictx klarrlwpgi kysnxalykt
+      121 rklnvqtppg lhhhralydc yitaallidi xntsgwtaeq xaditgrleh hhhhh
+//
+

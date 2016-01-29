@@ -1,0 +1,186 @@
+LOCUS       4AYT_A                   595 aa            linear   PRI 25-MAR-2015
+DEFINITION  Chain A, Structure Of The Human Mitochondrial Abc Transporter,
+            Abcb10.
+ACCESSION   4AYT_A
+VERSION     4AYT_A  GI:394986251
+DBSOURCE    pdb: molecule 4AYT, chain 65, release Mar 25, 2015;
+            deposition: Jun 22, 2012;
+            class: Membrane Protein;
+            source: Mmdb_id: 101196, Pdb_id 1: 4AYT;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 595)
+  AUTHORS   Shintre,C.A., Pike,A.C., Li,Q., Kim,J.I., Barr,A.J., Goubin,S.,
+            Shrestha,L., Yang,J., Berridge,G., Ross,J., Stansfeld,P.J.,
+            Sansom,M.S., Edwards,A.M., Bountra,C., Marsden,B.D., von Delft,F.,
+            Bullock,A.N., Gileadi,O., Burgess-Brown,N.A. and Carpenter,E.P.
+  TITLE     Structures of ABCB10, a human ATP-binding cassette transporter in
+            apo- and nucleotide-bound states
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 110 (24), 9710-9715 (2013)
+   PUBMED   23716676
+REFERENCE   2  (residues 1 to 595)
+  AUTHORS   Pike,A.C.W., Shintre,C.A., Li,Q., Kim,J., Von Delft,F., Barr,A.J.,
+            Das,S., Chaikuad,A., Xia,X., Quigley,A., Dong,Y., Dong,L.,
+            Krojer,T., Vollmar,M., Muniz,J.R.C., Bray,J.E., Berridge,G.,
+            Chalk,R., Gileadi,O., Burgess,N., Shrestha,L., Goubin,S., Yang,J.,
+            Mahajan,P., Mukhopadhyay,S., Bul,A.N., Arrowsmith,C.H., Weigelt,J.,
+            Bountra,C., Edwards,A.M. and Carpente,E.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUN-2012)
+COMMENT     1 Atp-binding Cassette Sub-family B Member 10 Mitochondrial.
+FEATURES             Location/Qualifiers
+     source          1..595
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          1..328
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          7..14
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          8..583
+                     /region_name="MsbA_rel"
+                     /note="ABC transporter, permease/ATP-binding protein;
+                     TIGR02204"
+                     /db_xref="CDD:131259"
+     SecStr          18..52
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          21..291
+                     /region_name="ABC_membrane"
+                     /note="ABC transporter transmembrane region; pfam00664"
+                     /db_xref="CDD:250039"
+     SecStr          58..103
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          118..134
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          138..160
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          161..176
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          177..211
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          220..271
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          278..317
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          329..595
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          340..345
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          343..583
+                     /region_name="ABC_MTABC3_MDL1_MDL2"
+                     /note="ATP-binding cassette domain of a mitochondrial
+                     protein MTABC3 and related proteins; cd03249"
+                     /db_xref="CDD:213216"
+     SecStr          346..350
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          359..369
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          370..377
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            377..384
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213216"
+     Site            order(380..381,383..385,425,508..509,540)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213216"
+     Het             join(bond(384),bond(425))
+                     /heterogen="( MG,1001 )"
+     SecStr          385..392
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          397..404
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          405..408
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          412..419
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          420..425
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            422..425
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213216"
+     SecStr          430..434
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          450..460
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          462..469
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          473..478
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            484..493
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213216"
+     SecStr          486..500
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          503..509
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            504..509
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213216"
+     Site            512..515
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213216"
+     SecStr          516..530
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          533..539
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            536..542
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213216"
+     SecStr          549..556
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          557..564
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 maglpearkl lglayperrr laaavgfltm ssvismsapf flgkiidviy tnptvdysdn
+       61 ltrlclglsa vflcgaaana irvylmqtsg qrivnrlrts lfssilrqev affdktrtge
+      121 linrlssdta llgrsvtenl sdglragaqa svgismmffv spnlatfvls vvppvsiiav
+      181 iygrylrklt kvtqdslaqa tqlaeerign vrtvrafgke mteiekyask vdhvmqlark
+      241 eafaragffg atglsgnliv lsvlykggll mgsahmtvge lssflmyafw vgisigglss
+      301 fyselmkglg aggrlwelle repklpfneg vilneksfqg alefknvhfa yparpevpif
+      361 qdfslsipsg svtalvgpsg sgkstvlsll lrlydpasgt isldghdirq lnpvwlrski
+      421 gtvsqepilf scsiaeniay gaddpssvta eeiqrvaeva navafirnfp qgfntvvgek
+      481 gvllsggqkq riaiarallk npkillldea tsaldaeney lvqealdrlm dgrtvlviah
+      541 rlstiknanm vavldqgkit eygkheells kpngiyrklm nkqsfisaae nlyfq
+//
+

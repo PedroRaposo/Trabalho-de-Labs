@@ -1,0 +1,159 @@
+LOCUS       4Q75_A                   429 aa            linear   PLN 06-OCT-2014
+DEFINITION  Chain A, Crystal Structure Of Nfs2, The Plastidial Cysteine
+            Desulfurase From Arabidopsis Thaliana.
+ACCESSION   4Q75_A
+VERSION     4Q75_A  GI:683437490
+DBSOURCE    pdb: molecule 4Q75, chain 65, release Sep 28, 2014;
+            deposition: Apr 24, 2014;
+            class: Transferase;
+            source: Mmdb_id: 123063, Pdb_id 1: 4Q75;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (residues 1 to 429)
+  AUTHORS   Roret,T., Pegeot,H., Couturier,J., Mulliert,G., Rouhier,N. and
+            Didierjean,C.
+  TITLE     X-ray structures of Nfs2, the plastidial cysteine desulfurase from
+            Arabidopsis thaliana
+  JOURNAL   Acta Crystallogr F Struct Biol Commun 70 (PT 9), 1180-1185 (2014)
+   PUBMED   25195888
+REFERENCE   2  (residues 1 to 429)
+  AUTHORS   Roret,T. and Didierjean,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-APR-2014)
+COMMENT     1 Cysteine Desulfurase 2, Chloroplastic.
+FEATURES             Location/Qualifiers
+     source          1..429
+                     /organism="Arabidopsis thaliana"
+                     /db_xref="taxon:3702"
+     Region          join(1..47,335..429)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          22..421
+                     /region_name="CsdA"
+                     /note="Selenocysteine lyase/Cysteine desulfurase [Amino
+                     acid transport and metabolism]; COG0520"
+                     /db_xref="CDD:223594"
+     SecStr          32..35
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          36..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          40..418
+                     /region_name="SufS_like"
+                     /note="Cysteine desulfurase (SufS)-like. This family
+                     belongs to the pyridoxal phosphate (PLP)-dependent
+                     aspartate aminotransferase superfamily (fold I). The major
+                     groups in this CD correspond to cysteine desulfurase
+                     (SufS) and selenocysteine lyase. SufS...; cd06453"
+                     /db_xref="CDD:99746"
+     Region          join(48..98,289..334)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          52..64
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          75..95
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          99..266
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          102..107
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(109..110,113,138,215,217..218,238,240..241)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99746"
+     SecStr          109..124
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          128..135
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          143..151
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          152..160
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          169..176
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          181..187
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          198..208
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          210..215
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          216..223
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          233..239
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            241
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99746"
+     SecStr          248..253
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          254..261
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          272..276
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          277..281
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          295..311
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          312..333
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          336..340
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          352..359
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          363..373
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          375..382
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          385..393
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          396..402
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          408..426
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 maaaassati stdsesvslg hrvrkdfril hqevngsklv yldsaatsqk paavldalqn
+       61 yyefynsnvh rgihylsaka tdefelarkk varfinasds reivftrnat eainlvaysw
+      121 glsnlkpgde viltvaehhs civpwqivsq ktgavlkfvt lnedevpdin klrelispkt
+      181 klvavhhvsn vlasslpiee ivvwahdvga kvlvdacqsv phmvvdvqkl nadflvassh
+      241 xmcgptgigf lygksdllhs mppflgggem isdvfldhst yaeppsrfea gtpaigeaia
+      301 lgaavdylsg igmpkiheye veigkylyek lsslpdvriy gprpsesvhr galcsfnveg
+      361 lhptdlatfl dqqhgvairs ghhxaqplhr ylgvnasara slyfyntkdd vdafivalad
+      421 tvsffnsfk
+//
+

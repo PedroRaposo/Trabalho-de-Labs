@@ -1,0 +1,87 @@
+LOCUS       3UGS_B                   225 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Crystal Structure Of A Probable Undecaprenyl Diphosphate
+            Synthase (Upps) From Campylobacter Jejuni.
+ACCESSION   3UGS_B
+VERSION     3UGS_B  GI:358439945
+DBSOURCE    pdb: molecule 3UGS, chain 66, release Nov 30, 2011;
+            deposition: Nov 2, 2011;
+            class: Transferase;
+            source: Mmdb_id: 95413, Pdb_id 1: 3UGS;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Campylobacter jejuni
+  ORGANISM  Campylobacter jejuni
+            Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+            Campylobacteraceae; Campylobacter.
+REFERENCE   1  (residues 1 to 225)
+  AUTHORS   Nocek,B., Gu,M., Grimshaw,S., Anderson,W.F., Joachimiak,A., Center
+            For Structural Genomics Of Infectious Diseas and (Csgid).
+  TITLE     Crystal Structure Of A Probable Undecaprenyl Diphos Synthase (Upps)
+            From Campylobacter Jejuni
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 225)
+  AUTHORS   Nocek,B., Gu,M., Grimshaw,S., Anderson,W.F., Joachimiak,A., Center
+            For and Structural Genomics Of Infectious Diseases (Csgid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2011)
+COMMENT     1 Undecaprenyl Pyrophosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..225
+                     /organism="Campylobacter jejuni"
+                     /db_xref="taxon:197"
+     SecStr          8..15
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          9..218
+                     /region_name="Cis_IPPS"
+                     /note="Cis (Z)-Isoprenyl Diphosphate Synthases; cd00475"
+                     /db_xref="CDD:259850"
+     Site            order(14..19,28,32,36,39,58,66,70,77..78,81,130,174,180,
+                     182)
+                     /site_type="active"
+                     /db_xref="CDD:259850"
+     SecStr          34..49
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          52..60
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          68..87
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          93..101
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          107..120
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          125..133
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          136..150
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(137..138,140..141,144..145,154..156,159,168,
+                     179..183,186..188,190..194,196)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:259850"
+     SecStr          155..163
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          170..176
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          192..198
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          206..218
+                     /sec_str_type="helix"
+                     /note="helix 6"
+ORIGIN      
+        1 snamnelkhl avvmdgnrrw arakgflakl gysqgvktmq klmevcmeen isnlslfafs
+       61 tenwkrpkde idfifelldr cldealekfe knnvrlraig dlsrledkvr ekitlveekt
+      121 khcdalcvnl aisygardei iraakrviek klelneenlt qnldlpldvd lmlrvgnakr
+      181 lsnfllwqcs yaeiyfsetl fpsltkrefk riikefrnre rtfgk
+//
+

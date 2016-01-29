@@ -1,0 +1,134 @@
+LOCUS       3AQB_B                   325 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, M. Luteus B-P 26 Heterodimeric Hexaprenyl Diphosphate
+            Synthase In Complex With Magnesium.
+ACCESSION   3AQB_B
+VERSION     3AQB_B  GI:311772001
+DBSOURCE    pdb: molecule 3AQB, chain 66, release Mar 30, 2011;
+            deposition: Oct 28, 2010;
+            class: Transferase;
+            source: Mmdb_id: 86059, Pdb_id 1: 3AQB;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Micrococcus luteus
+  ORGANISM  Micrococcus luteus
+            Bacteria; Actinobacteria; Micrococcales; Micrococcaceae;
+            Micrococcus.
+REFERENCE   1  (residues 1 to 325)
+  AUTHORS   Sasaki,D., Fujihashi,M., Okuyama,N., Kobayashi,Y., Noike,M.,
+            Koyama,T. and Miki,K.
+  TITLE     Crystal structure of heterodimeric hexaprenyl diphosphate synthase
+            from Micrococcus luteus B-P 26 reveals that the small subunit is
+            directly involved in the product chain length regulation
+  JOURNAL   J. Biol. Chem. 286 (5), 3729-3740 (2011)
+   PUBMED   21068379
+REFERENCE   2  (residues 1 to 325)
+  AUTHORS   Sasaki,D., Fujihashi,M., Okuyama,N., Kobayashi,Y., Noike,M. and
+            Koyama,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-2010)
+COMMENT     Component B Of Hexaprenyl Diphosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..325
+                     /organism="Micrococcus luteus"
+                     /db_xref="taxon:1270"
+     Region          1..126
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          11..25
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          27..323
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          30..41
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          47..57
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          66..88
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(76,79..81,83..85,87..88,93..94,146,149,170..171,174,
+                     211..212,215,225,230,235)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            79..88
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(84..85,88,93..94,149,170,211..212,215,225,230,235)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(84..85,88,93..94,170,211..212)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(84..85,88,93..94,149,170)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Het             join(bond(84),bond(88))
+                     /heterogen="( MG,1000 )"
+     Site            order(90..104,218..219,225..230,233..237)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          91..94
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          95..98
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          105..123
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Region          127..325
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          129..152
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          160..170
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          173..186
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          190..215
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     Site            order(211..212,215,225,230,235)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     Het             bond(211)
+                     /heterogen="( MG,1001 )"
+     SecStr          238..250
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          254..261
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          268..280
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          284..302
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          308..321
+                     /sec_str_type="helix"
+                     /note="helix 20"
+ORIGIN      
+        1 mialsykafl npyiievekr lyeciqsdse tinkaahhil ssggkrvrpm fvllsgflnd
+       61 tqkddlirta vslelvhmas lvhddyidns dmrrgntsvh iafdkdtair tghfllaral
+      121 qniatinnsk fhqifsktil evcfgefdqm adrfnypvsf taylrrinrk tailieasch
+      181 lgalssqlde qstyhikqfg hcigmsyqii ddildytsde atlgkpvgsd irnghitypl
+      241 maaianlkeq dddkleavvk hltstsddev yqyivsqvkq ygiepaells rkygdkakyh
+      301 lsqlqdsnik dyleeihekm lkrvy
+//
+

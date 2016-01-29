@@ -1,0 +1,113 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 20150940 
+ Accession: 1KO7_A 
+ Score: 258.84
+ E-value: 2.86131e-83
+ Identities: 133
+ Function: Transferase,Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KO7_A
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 23200244 
+ Accession: 1KKL_A 
+ Score: 182.956
+ E-value: 2.17354e-55
+ Identities: 89
+ Function: Transferase,HydrolaseTRANSPORT PROTEIN
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KKL_A
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 158430333 
+ Accession: 2QMH_A 
+ Score: 181.03
+ E-value: 1.11077e-54
+ Identities: 88
+ Function: Transferase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2QMH_A
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 15825818 
+ Accession: 1JB1_A 
+ Score: 176.792
+ E-value: 4.92428e-53
+ Identities: 87
+ Function: TransferaseHYDROLASE
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1JB1_A
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 27573717 
+ Accession: 1KNX_A 
+ Score: 168.703
+ E-value: 1.04587e-48
+ Identities: 105
+ Function: TransferaseHYDROLASE
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KNX_A
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 347447790 
+ Accession: 3TQF_A 
+ Score: 101.679
+ E-value: 3.343e-25
+ Identities: 58
+ Function: Transferase, Hydrolase
+ Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TQF_A
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

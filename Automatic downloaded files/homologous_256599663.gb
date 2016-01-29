@@ -1,0 +1,179 @@
+LOCUS       3FVQ_A                   359 aa            linear   BCT 17-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The Nucleotide Binding Domain Fbpc
+            Complexed With Atp.
+ACCESSION   3FVQ_A
+VERSION     3FVQ_A  GI:256599663
+DBSOURCE    pdb: molecule 3FVQ, chain 65, release Oct 17, 2012;
+            deposition: Jan 16, 2009;
+            class: Hydrolase;
+            source: Mmdb_id: 76233, Pdb_id 1: 3FVQ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 359)
+  AUTHORS   Newstead,S., Fowler,P.W., Bilton,P., Carpenter,E.P., Sadler,P.J.,
+            Campopiano,D.J., Sansom,M.S. and Iwata,S.
+  TITLE     Insights into how nucleotide-binding domains power ABC transport
+  JOURNAL   Structure 17 (9), 1213-1222 (2009)
+   PUBMED   19748342
+REFERENCE   2  (residues 1 to 359)
+  AUTHORS   Newstead,S., Bilton,P., Carpenter,E.P., Campopiano,D. and Iwata,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JAN-2009)
+COMMENT     1 Fe(3+) Ions Import Atp-binding Protein Fbpc.
+FEATURES             Location/Qualifiers
+     source          1..359
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Region          1..347
+                     /region_name="PotA"
+                     /note="ABC-type Fe3+/spermidine/putrescine transport
+                     systems, ATPase components [Amino acid transport and
+                     metabolism]; COG3842"
+                     /db_xref="CDD:226361"
+     Region          1..241
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          3..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..221
+                     /region_name="ABC_Carb_Solutes_like"
+                     /note="ATP-binding cassette domain of the carbohydrate and
+                     solute transporters-like; cd03259"
+                     /db_xref="CDD:213226"
+     SecStr          9..15
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          16..29
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          31..37
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            37..44
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213226"
+     Site            order(40..41,43..45,87,163..164,197)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213226"
+     SecStr          43..51
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             join(bond(44),bond(87))
+                     /heterogen="( CA,1001 )"
+     SecStr          57..64
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          65..71
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          72..75
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          82..87
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            84..87
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213226"
+     SecStr          96..103
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          113..126
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            139..148
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213226"
+     SecStr          141..153
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          158..164
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            159..164
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213226"
+     Site            167..170
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213226"
+     SecStr          171..188
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          190..196
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            193..199
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213226"
+     SecStr          198..206
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          207..214
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          215..221
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          222..229
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          232..240
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          242..285
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          242..251
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          253..258
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          259..264
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          271..279
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Region          286..359
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          292..296
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          297..301
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          302..306
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          307..316
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          317..323
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          334..341
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+ORIGIN      
+        1 mtaalhighl sksfqntpvl ndislsldpg eilfiigasg cgkttllrcl agfeqpdsge
+       61 islsgktifs kntnlpvrer rlgylvqegv lfphltvyrn iayglgngkg rtaqerqrie
+      121 amleltgise lagryphels ggqqqraala ralapdpeli lldepfsald eqlrrqired
+      181 miaalrangk savfvshdre ealqyadria vmkqgrilqt asphelyrqp adldaalfig
+      241 egivfpaaln adgtadcrlg rlpvqsgapa gtrgtllirp eqyslhphsa paasihavvl
+      301 kttpkarhte islragqtvl tlnlpsaptl sdgisavlhl dgpalffpgn tlehhhhhh
+//
+

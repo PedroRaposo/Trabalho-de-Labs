@@ -1,0 +1,168 @@
+LOCUS       1KJ8_A                   391 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Purt-Encoded Glycinamide
+            Ribonucleotide Transformylase In Complex With Mg-Atp And Gar.
+ACCESSION   1KJ8_A
+VERSION     1KJ8_A  GI:21730483
+DBSOURCE    pdb: molecule 1KJ8, chain 65, release Apr 27, 2009;
+            deposition: Dec 4, 2001;
+            class: Transferase;
+            source: Mmdb_id: 71089, Pdb_id 1: 1KJ8;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 391)
+  AUTHORS   Thoden,J.B., Firestine,S.M., Benkovic,S.J. and Holden,H.M.
+  TITLE     PurT-encoded glycinamide ribonucleotide transformylase.
+            Accommodation of adenosine nucleotide analogs within the active
+            site
+  JOURNAL   J. Biol. Chem. 277 (26), 23898-23908 (2002)
+   PUBMED   11953435
+REFERENCE   2  (residues 1 to 391)
+  AUTHORS   Thoden,J.B., Firestine,S.M., Benkovic,S.J. and Holden,H.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-DEC-2001)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..391
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          1..391
+                     /region_name="purT"
+                     /note="phosphoribosylglycinamide formyltransferase 2;
+                     Validated; PRK09288"
+                     /db_xref="CDD:236454"
+     Region          1..84
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          12..18
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          13..>79
+                     /region_name="NADB_Rossmann"
+                     /note="Rossmann-fold NAD(P)(+)-binding proteins; cl21454"
+                     /db_xref="CDD:277520"
+     SecStr          21..33
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          35..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          53..58
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          63..73
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          76..81
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          85..125
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          87..96
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Het             join(bond(99),bond(100),bond(102))
+                     /heterogen="( NA,1004 )"
+     SecStr          103..111
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          114..121
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          121..294
+                     /region_name="ATP-grasp"
+                     /note="ATP-grasp domain; pfam02222"
+                     /db_xref="CDD:251165"
+     Region          126..198
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          130..135
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          137..147
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          150..156
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          163..168
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          173..182
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          190..196
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          199..391
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          200..211
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          212..217
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          219..225
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          228..234
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          240..257
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          260..271
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Het             join(bond(266),bond(266),bond(278),bond(266))
+                     /heterogen="( MG,1001 )"
+     SecStr          272..281
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Het             join(bond(278),bond(278),bond(278))
+                     /heterogen="( MG,1000 )"
+     SecStr          298..307
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          319..328
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          329..332
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          334..338
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          346..352
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          356..359
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          360..364
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          365..370
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          373..385
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          387..391
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+ORIGIN      
+        1 tllgtalrpa atrvmllgsg elgkevaiec qrlgveviav dryadapamh vahrshvinm
+       61 ldgdalrrvv elekphyivp eieaiatdml iqleeeglnv vpcaratklt mnregirrla
+      121 aeelqlptst yrfadseslf reavadigyp civkpvmsss gkgqtfirsa eqlaqawkya
+      181 qqggragagr vivegvvkfd feitlltvsa vdgvhfcapv ghrqedgdyr eswqpqqmsp
+      241 laleraqeia rkvvlalggy glfgvelfvc gdevifsevs prphdtgmvt lisqdlsefa
+      301 lhvraflglp vggirqygpa asavilpqlt sqnvtfdnvq navgadlqir lfgkpeidgs
+      361 rrlgvalata esvvdaiera khaagqvkvq g
+//
+

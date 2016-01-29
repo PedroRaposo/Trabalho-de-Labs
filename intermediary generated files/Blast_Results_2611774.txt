@@ -1,0 +1,17 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 756142644 
+ Accession: 4S1B_A 
+ Score: 197.978
+ E-value: 1.60389e-57
+ Identities: 93
+ Function: Hydrolase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/756142644
+------------------------------------------------------------------
+
+
+
+
+
+

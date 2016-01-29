@@ -1,0 +1,147 @@
+LOCUS       1ELQ_A                   390 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Crystal Structure Of The Cystine C-S Lyase C-Des.
+ACCESSION   1ELQ_A
+VERSION     1ELQ_A  GI:7767009
+DBSOURCE    pdb: molecule 1ELQ, chain 65, release Jan 4, 2013;
+            deposition: Mar 14, 2000;
+            class: Lyase;
+            source: Mmdb_id: 13204, Pdb_id 1: 1ELQ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Synechocystis sp. PCC 6714
+  ORGANISM  Synechocystis sp. PCC 6714
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+            Synechocystis.
+REFERENCE   1  (residues 1 to 390)
+  AUTHORS   Clausen,T., Kaiser,J.T., Steegborn,C., Huber,R. and Kessler,D.
+  TITLE     Crystal structure of the cystine C-S lyase from Synechocystis:
+            stabilization of cysteine persulfide for FeS cluster biosynthesis
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 97 (8), 3856-3861 (2000)
+   PUBMED   10760256
+REFERENCE   2  (residues 1 to 390)
+  AUTHORS   Clausen,T., Kaiser,J.T., Steegborn,C., Huber,R. and Kessler,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-2000)
+COMMENT     1 L-cysteine/l-cystine C-s Lyase.
+FEATURES             Location/Qualifiers
+     source          1..390
+                     /organism="Synechocystis sp. PCC 6714"
+                     /db_xref="taxon:1147"
+     Region          join(1..25,294..390)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..388
+                     /region_name="CsdA"
+                     /note="Selenocysteine lyase/Cysteine desulfurase [Amino
+                     acid transport and metabolism]; COG0520"
+                     /db_xref="CDD:223594"
+     SecStr          17..21
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          join(26..75,243..293)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          30..46
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          51..72
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          65..385
+                     /region_name="AAT_I"
+                     /note="Aspartate aminotransferase (AAT) superfamily (fold
+                     type I) of pyridoxal phosphate (PLP)-dependent enzymes.
+                     PLP combines with an alpha-amino acid to form a compound
+                     called a Schiff base or aldimine intermediate, which
+                     depending on the reaction, is the...; cl18945"
+                     /db_xref="CDD:277505"
+     Region          76..242
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          78..83
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(85..86,89,162,194,197,217,220)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     SecStr          87..95
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          101..108
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          112..125
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          126..133
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          143..150
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          156..162
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          173..182
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          189..196
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          212..218
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            220
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     Het             bond(220)
+                     /heterogen="(PLP,1001 )"
+     SecStr          228..234
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          251..255
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          257..261
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          276..291
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          295..315
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Het             join(bond(313),bond(314),bond(316),bond(319),bond(314),
+                     bond(314))
+                     /heterogen="(  K,1000 )"
+     SecStr          318..322
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          330..337
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          342..352
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          353..360
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          363..369
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          375..385
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mtmitpslhq fpglanktyf nfggqgilpt valeaitamy gylqengpfs iaanqhiqql
+       61 iaqlrqalae tfnvdpntit itdnvttgcd ivlwgldwhq gdeilltdce hpgiiaivqa
+      121 iaarfgityr ffpvaatlnq gdaaavlanh lgpktrlvil shllwntgqv lplaeimavc
+      181 rrhqgnypvr vlvdgaqsag slpldfsrle vdyyaftghk wfagpagvgg lyihgdclge
+      241 inptyvgwrs itygakgept gwaeggkrfe vatsaypqya gllaalqlhq rqgtaeeryq
+      301 aicqrseflw rglnqlphvh clatsapqag lvsftvdspl ghraivqkle eqriylrtia
+      361 dpdciracch yitdeeeinh llarladfgp
+//
+

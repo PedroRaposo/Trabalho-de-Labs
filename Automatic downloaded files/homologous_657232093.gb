@@ -1,0 +1,181 @@
+LOCUS       4NHO_A                   488 aa            linear   PRI 06-OCT-2014
+DEFINITION  Chain A, Structure Of The Spliceosomal Dead-box Protein Prp28.
+ACCESSION   4NHO_A
+VERSION     4NHO_A  GI:657232093
+DBSOURCE    pdb: molecule 4NHO, chain 65, release Sep 28, 2014;
+            deposition: Nov 5, 2013;
+            class: Hydrolase;
+            source: Mmdb_id: 120810, Pdb_id 1: 4NHO;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 488)
+  AUTHORS   Mohlmann,S., Mathew,R., Neumann,P., Schmitt,A., Luhrmann,R. and
+            Ficner,R.
+  TITLE     Structural and functional analysis of the human spliceosomal
+            DEAD-box helicase Prp28
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 70 (PT 6), 1622-1630 (2014)
+   PUBMED   24914973
+REFERENCE   2  (residues 1 to 488)
+  AUTHORS   Moehlmann,S., Neumann,P. and Ficner,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-NOV-2013)
+COMMENT     1 Probable Atp-dependent Rna Helicase Ddx23.
+FEATURES             Location/Qualifiers
+     source          1..488
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          1..302
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          35..45
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          46..51
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          61..292
+                     /region_name="DEADc"
+                     /note="DEAD-box helicases. A diverse family of proteins
+                     involved in ATP-dependent RNA unwinding, needed in a
+                     variety of cellular processes including splicing, ribosome
+                     biogenesis and RNA degradation. The name derives from the
+                     sequence of the Walker B motif...; cd00268"
+                     /db_xref="CDD:238167"
+     SecStr          68..77
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          74..310
+                     /region_name="DEXDc"
+                     /note="DEAD-like helicases superfamily; smart00487"
+                     /db_xref="CDD:214692"
+     SecStr          84..95
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          97..103
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            106..110
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238167"
+     SecStr          109..123
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          138..143
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          146..160
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          166..171
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          176..183
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          188..193
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          194..203
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Het             join(bond(211),bond(238),bond(208))
+                     /heterogen="( HG,1008 )"
+     SecStr          212..218
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            217..220
+                     /site_type="other"
+                     /note="Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238167"
+     SecStr          219..226
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          228..236
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          253..261
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          268..275
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            274..276
+                     /site_type="other"
+                     /note="motif III"
+                     /db_xref="CDD:238167"
+     SecStr          279..288
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          292..298
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          303..488
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          307..314
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Region          311..435
+                     /region_name="HELICc"
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast
+                     initiation factor 4A, Ski2p, and Hepatitis C virus NS3
+                     helicases; this domain is found in a wide variety of
+                     helicases and helicase related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+     SecStr          320..329
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          334..339
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            order(340..343,363..364,389..391)
+                     /site_type="other"
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          342..355
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          358..361
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          373..380
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          384..389
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            order(397,418,422,425)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          402..407
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          413..420
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          430..437
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          444..453
+                     /sec_str_type="helix"
+                     /note="helix 16"
+ORIGIN      
+        1 gplgsarlrk lrkkeakqrw ddrhwsqkkl demtdrdwri fredysittk ggkipnpirs
+       61 wkdsslpphi levidkcgyk eptpiqrqai piglqnrdii gvaetgsgkt aaflipllvw
+      121 ittlpkidri eesdqgpyai ilaptrelaq qieeetikfg kplgirtvav iggisredqg
+      181 frlrmgxeiv iatpgrlidv lenrylvlsr ctyvvldead rmidmgfepd vqkilehmpv
+      241 snqkpdtdea edpekmlanf esgkhkyrqt vmftatmppa verlarsylr rpavvyigsa
+      301 gkpherveqk vflmsesekr kkllaileqg fdppiiifvn qkkgcdvlak slekmgynac
+      361 tlhggkgqeq refalsnlka gakdilvatd vagrgidiqd vsmvvnydma kniedyihri
+      421 grtgragksg vaitfltked savfyelkqa ilespvssxp pelanhpdaq hkpgtiltkk
+      481 rreetifa
+//
+

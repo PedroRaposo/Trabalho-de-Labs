@@ -1,0 +1,179 @@
+LOCUS       2EL9_A                   431 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of E.Coli Histidyl-Trna Synthetase
+            Complexed With A Histidyl-Adenylate Analogue.
+ACCESSION   2EL9_A
+VERSION     2EL9_A  GI:170292177
+DBSOURCE    pdb: molecule 2EL9, chain 65, release Jun 18, 2009;
+            deposition: Mar 27, 2007;
+            class: Ligase;
+            source: Mmdb_id: 63028, Pdb_id 1: 2EL9;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 431)
+  AUTHORS   Yanagisawa,T., Si,S.Y., Matsuno,M., Ishii,R. and Yokoyama,S.
+  TITLE     Crystal Structure Of E.Coli Histidyl-Trna Synthetase Complexed With
+            A Histidyl-Adenylate Analogue
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 431)
+  AUTHORS   Yanagisawa,T., Si,S.Y., Matsuno,M., Ishii,R., Yokoyama,S., Riken
+            and Structural GenomicsPROTEOMICS INITIATIVE (RSGI).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-MAR-2007)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..431
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..50,106..331)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          11..431
+                     /region_name="hisS"
+                     /note="histidyl-tRNA synthetase; Reviewed; PRK00037"
+                     /db_xref="CDD:234586"
+     SecStr          24..43
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          25..324
+                     /region_name="HisRS-like_core"
+                     /note="Class II Histidinyl-tRNA synthetase (HisRS)-like
+                     catalytic core domain. HisRS is a homodimer. It is
+                     responsible for the attachment of histidine to the 3' OH
+                     group of ribose of the appropriate tRNA. This domain is
+                     primarily responsible for ATP-dependent...; cd00773"
+                     /db_xref="CDD:238396"
+     Site            order(30,42,47..53,77..78,90,92,97..98,101..102,130..131,
+                     138,146,150,153,293,311..312)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238396"
+     Site            45..53
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238396"
+     SecStr          45..48
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          51..105
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          52..55
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          56..63
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          75..79
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          83..88
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(90,92,120,122,129,132,134,138,266,268,270..271,288,
+                     293,312,315,318)
+                     /site_type="active"
+                     /db_xref="CDD:238396"
+     SecStr          92..102
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          109..115
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          116..120
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            119..123
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238396"
+     SecStr          130..141
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          146..162
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          167..176
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          177..185
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          238..254
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          258..261
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          272..280
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          289..296
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          308..316
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            order(311..315,318)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238396"
+     SecStr          317..327
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          332..431
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          335..427
+                     /region_name="HisRS_anticodon"
+                     /note="HisRS Histidyl-anticodon binding domain. HisRS
+                     belongs to class II aminoacyl-tRNA synthetases (aaRS).
+                     This alignment contains the anticodon binding domain,
+                     which is responsible for specificity in tRNA-binding, so
+                     that the activated amino acid is...; cd00859"
+                     /db_xref="CDD:238436"
+     SecStr          335..344
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Site            order(343..344,381,387,395,405,407)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:238436"
+     SecStr          348..362
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          366..370
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          376..386
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          387..394
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          395..402
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          403..410
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          411..419
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          422..430
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 gpgyqdpmak niqairgmnd ylpgetaiwq riegtlknvl gsygyseirl piveqtplfk
+       61 raigevtdvv ekemytfedr ngdsltlrpe gtagcvragi ehgllynqeq rlwyigpmfr
+      121 herpqkgryr qfhqlgcevf glqgpdidae limltarwwr algisehvtl elnsigslea
+      181 ranyrdalva fleqhkekld edckrrmytn plrvldsknp evqallndap algdyldees
+      241 rehfaglckl lesagiaytv nqrlvrgldy ynrtvfewvt nslgsqgtvc aggrydglve
+      301 qlggratpav gfamglerlv llvqavnpef kadpvvdiyl vasgadtqsa amalaerlrd
+      361 elpgvklmtn hgggnfkkqf aradkwgarv avvlgeseva ngtavvkdlr sgeqtavaqd
+      421 svaahlrtll g
+//
+

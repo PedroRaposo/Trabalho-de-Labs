@@ -1,0 +1,103 @@
+LOCUS       3V8E_A                   216 aa            linear   PLN 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The Yeast Nicotinamidase Pnc1p Bound
+            To The Inhibitor Nicotinaldehyde.
+ACCESSION   3V8E_A
+VERSION     3V8E_A  GI:374074558
+DBSOURCE    pdb: molecule 3V8E, chain 65, release Jan 25, 2012;
+            deposition: Dec 22, 2011;
+            class: Hydrolase;
+            source: Mmdb_id: 96780, Pdb_id 1: 3V8E;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Saccharomyces cerevisiae S288c
+  ORGANISM  Saccharomyces cerevisiae S288c
+            Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina;
+            Saccharomycetes; Saccharomycetales; Saccharomycetaceae;
+            Saccharomyces.
+REFERENCE   1  (residues 1 to 216)
+  AUTHORS   Smith,B.C., Anderson,M.A., Hoadley,K.A., Keck,J.L., Cleland,W.W.
+            and Denu,J.M.
+  TITLE     Structural and Kinetic Isotope Effect Studies of Nicotinamidase
+            (Pnc1) from Saccharomyces cerevisiae
+  JOURNAL   Biochemistry 51 (1), 243-256 (2012)
+   PUBMED   22229411
+REFERENCE   2  (residues 1 to 216)
+  AUTHORS   Hoadley,K.A., Smith,B.C., Denu,J.M. and Keck,J.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-DEC-2011)
+COMMENT     1 Nicotinamidase.
+FEATURES             Location/Qualifiers
+     source          1..216
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /db_xref="taxon:559292"
+     Region          1..214
+                     /region_name="nicotinamidase"
+                     /note="Nicotinamidase/pyrazinamidase (PZase).
+                     Nicotinamidase, a ubiquitous enzyme in prokaryotes,
+                     converts nicotinamide to nicotinic acid (niacin) and
+                     ammonia, which in turn can be recycled to make
+                     nicotinamide adenine dinucleotide (NAD). The same enzyme
+                     is...; cd01011"
+                     /db_xref="CDD:238493"
+     SecStr          1..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(8,122,167)
+                     /site_type="active"
+                     /note="catalytic triad [active]"
+                     /db_xref="CDD:238493"
+     Het             join(bond(16),bond(18),bond(21))
+                     /heterogen="( MG,1001 )"
+     SecStr          29..37
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          44..52
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Het             join(bond(51),bond(53),bond(94),bond(167))
+                     /heterogen="( ZN,1000 )"
+     Site            order(51,53,94)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:238493"
+     SecStr          70..77
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          84..91
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          106..115
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          117..123
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          145..152
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          155..162
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            162..163
+                     /site_type="other"
+                     /note="conserved cis-peptide bond"
+                     /db_xref="CDD:238493"
+     SecStr          167..178
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          180..187
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          198..209
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          211..216
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+ORIGIN      
+        1 mktlivvdmq ndfisplgsl tvpkgeelin pisdlmqdad rdwhrivvtr dwhpsrhisf
+       61 aknhkdkepy stytyhsprp gddstqegil wpvhcvkntw gsqlvdqimd qvvtkhikiv
+      121 dkgfltdrey ysafhdiwnf hktdmnkyle khhtdevyiv gvaleyxvka taisaaelgy
+      181 kttvlldytr pisddpevin kvkeelkahn invvdk
+//
+

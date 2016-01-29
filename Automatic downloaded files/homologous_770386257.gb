@@ -1,0 +1,183 @@
+LOCUS       4OQF_A                   331 aa            linear   BCT 18-MAR-2015
+DEFINITION  Chain A, Mycobacterium Tuberculosis Reca Glycerol Bound Low
+            Temperature Structure Iib-sr.
+ACCESSION   4OQF_A
+VERSION     4OQF_A  GI:770386257
+DBSOURCE    pdb: molecule 4OQF, chain 65, release Mar 18, 2015;
+            deposition: Feb 9, 2014;
+            class: Dna Binding Protein;
+            source: Mmdb_id: 127822, Pdb_id 1: 4OQF;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium tuberculosis
+  ORGANISM  Mycobacterium tuberculosis
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium; Mycobacterium tuberculosis complex.
+REFERENCE   1  (residues 1 to 331)
+  AUTHORS   Datta,S., Prabu,M.M., Vaze,M.B., Ganesh,N., Chandra,N.R.,
+            Muniyappa,K. and Vijayan,M.
+  TITLE     Crystal structures of Mycobacterium tuberculosis RecA and its
+            complex with ADP-AlF(4): implications for decreased ATPase activity
+            and molecular aggregation
+  JOURNAL   Nucleic Acids Res. 28 (24), 4964-4973 (2000)
+   PUBMED   11121488
+REFERENCE   2  (residues 1 to 331)
+  AUTHORS   Datta,S., Ganesh,N., Chandra,N.R., Muniyappa,K. and Vijayan,M.
+  TITLE     Structural studies on MtRecA-nucleotide complexes: insights into
+            DNA and nucleotide binding and the structural signature of NTP
+            recognition
+  JOURNAL   Proteins 50 (3), 474-485 (2003)
+   PUBMED   12557189
+REFERENCE   3  (residues 1 to 331)
+  AUTHORS   Datta,S., Krishna,R., Ganesh,N., Chandra,N.R., Muniyappa,K. and
+            Vijayan,M.
+  TITLE     Crystal structures of Mycobacterium smegmatis RecA and its
+            nucleotide complexes
+  JOURNAL   J. Bacteriol. 185 (14), 4280-4284 (2003)
+   PUBMED   12837805
+REFERENCE   4  (residues 1 to 331)
+  AUTHORS   Krishna,R., Manjunath,G.P., Kumar,P., Surolia,A., Chandra,N.R.,
+            Muniyappa,K. and Vijayan,M.
+  TITLE     Crystallographic identification of an ordered C-terminal domain and
+            a second nucleotide-binding site in RecA: new insights into
+            allostery
+  JOURNAL   Nucleic Acids Res. 34 (8), 2186-2195 (2006)
+   PUBMED   16648362
+  REMARK    Publication Status: Online-Only
+REFERENCE   5  (residues 1 to 331)
+  AUTHORS   Prabu,J.R., Manjunath,G.P., Chandra,N.R., Muniyappa,K. and
+            Vijayan,M.
+  TITLE     Functionally important movements in RecA molecules and filaments:
+            studies involving mutation and environmental changes
+  JOURNAL   Acta Crystallogr. D Biol. Crystallogr. 64 (PT 11), 1146-1157 (2008)
+   PUBMED   19020353
+  REMARK    Erratum:[Acta Crystallogr D Biol Crystallogr. 2012 Jul;68(Pt
+            7):871]
+REFERENCE   6  (residues 1 to 331)
+  AUTHORS   Chandran,A.V., Prabu,J.R., Nautiyal,A., Patil,K.N., Muniyappa,K.
+            and Vijayan,M.
+  TITLE     Structural studies on Mycobacterium tuberculosis RecA: Molecular
+            plasticity and interspecies variability
+  JOURNAL   J. Biosci. 40 (1), 13-30 (2015)
+   PUBMED   25740138
+REFERENCE   7  (residues 1 to 331)
+  AUTHORS   Chandran,A.V., Prabu,J.R., Patil,N.K., Muniyappa,K. and Vijayan,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2014)
+COMMENT     1 Protein Reca.
+FEATURES             Location/Qualifiers
+     source          1..331
+                     /organism="Mycobacterium tuberculosis"
+                     /db_xref="taxon:1773"
+     Region          1..330
+                     /region_name="recA"
+                     /note="recombinase A; Provisional; PRK09354"
+                     /db_xref="CDD:236476"
+     Region          6..330
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     SecStr          7..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(14..15,17..18,21,25..29,98..99,101..107,112..113,
+                     214,218,266,312)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     Region          34..270
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          45..52
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          60..68
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            67..74
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(69..75,97,101,104,145,195,228,241,263..266)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          73..87
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          90..96
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          101..109
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          115..120
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          123..135
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          140..145
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            141..145
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          168..186
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          188..195
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          213..220
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          221..229
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          230..235
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          236..251
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          255..265
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          266..270
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Region          271..331
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          271..282
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          285..289
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          290..295
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          296..302
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          303..313
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          314..328
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mtqtpdreka lelavaqiek sygkgsvmrl gdearqpisv iptgsialdv algigglprg
+       61 rvieiygpes sgkttvalha vanaqaaggv aafidaehal dpdyakklgv dtdsllvsqp
+      121 dtgeqaleia dmlirsgald ivvidsvaal vpraelegem gdshvglqar lmsqalrkmt
+      181 galnnsgtta ifinqlrdki gvmfgspett tggkalkfya svrmdvrrve tlkdgtnavg
+      241 nrtrvkvvkn kcsppfkqae fdilygkgis regslidmgv dqglirksga wftyegeqlg
+      301 qgkenarnfl venadvadei ekkikeklgi g
+//
+

@@ -1,0 +1,105 @@
+LOCUS       3ZEY_C                   277 aa            linear   INV 06-MAR-2013
+DEFINITION  Chain C, High-resolution Cryo-electron Microscopy Structure Of The
+            Trypanosoma Brucei Ribosome.
+ACCESSION   3ZEY_C
+VERSION     3ZEY_C  GI:449802196
+DBSOURCE    pdb: molecule 3ZEY, chain 67, release Mar 6, 2013;
+            deposition: Dec 9, 2012;
+            class: Ribosome;
+            source: Mmdb_id: 107523, Pdb_id 1: 3ZEY;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Trypanosoma brucei brucei TREU927
+  ORGANISM  Trypanosoma brucei brucei TREU927
+            Eukaryota; Euglenozoa; Kinetoplastida; Trypanosomatidae;
+            Trypanosoma.
+REFERENCE   1  (residues 1 to 277)
+  AUTHORS   Hashem,Y., des Georges,A., Fu,J., Buss,S.N., Jossinet,F., Jobe,A.,
+            Zhang,Q., Liao,H.Y., Grassucci,R.A., Bajaj,C., Westhof,E.,
+            Madison-Antenucci,S. and Frank,J.
+  TITLE     High-resolution cryo-electron microscopy structure of the
+            Trypanosoma brucei ribosome
+  JOURNAL   Nature 494 (7437), 385-389 (2013)
+   PUBMED   23395961
+REFERENCE   2  (residues 1 to 277)
+  AUTHORS   Hashem,Y., Des Georges,A., Fu,J., Buss,S.N., Jossinet,F., Jobe,A.,
+            Zha,Q., Liao,H.Y., Grassucci,R.A., Bajaj,C., Westhof,E.,
+            Madison-Antenucc,S. and Frank,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2012)
+COMMENT     11 40s Ribosomal Protein Sa, Putative.
+FEATURES             Location/Qualifiers
+     source          1..277
+                     /organism="Trypanosoma brucei brucei TREU927"
+                     /db_xref="taxon:185431"
+     Region          37..277
+                     /region_name="PTZ00254"
+                     /note="40S ribosomal protein SA; Provisional"
+                     /db_xref="CDD:240331"
+     SecStr          48..57
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          54..220
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     SecStr          60..64
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     Site            order(68..69,79..81,138,140..142,145..146,172,175)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          73..79
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          81..86
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          88..102
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          109..115
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          120..129
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          132..137
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          156..161
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          167..176
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Site            order(174..175,177,191..194)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          179..185
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          194..199
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     SecStr          206..221
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Site            209..214
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+ORIGIN      
+        1 mtetsrrdli flvlspfsps lsskalrnsh trnmtsvssg akvlrmkesd vqkllamhch
+       61 lgtknsssam kkyihgrtsd gtniidihmt weklilaarv iaavenpqdv tvcstrlfgq
+      121 raifkfsqlv gtsflggrfi pgtftnqiqk kfmqprvlvv tdprtdhqal reaslvnipv
+      181 iafcdtdapl efvdiaipcn nrgrhsismm ywllarevlr lrgtiprsvp wevkvdlffy
+      241 rdpeealkqe eataaaevhe eadegygwve rdntweq
+//
+

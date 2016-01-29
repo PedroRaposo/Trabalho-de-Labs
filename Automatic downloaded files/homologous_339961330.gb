@@ -1,0 +1,141 @@
+LOCUS       3R0J_A                   250 aa            linear   BCT 29-OCT-2014
+DEFINITION  Chain A, Structure Of Phop From Mycobacterium Tuberculosis.
+ACCESSION   3R0J_A
+VERSION     3R0J_A  GI:339961330
+DBSOURCE    pdb: molecule 3R0J, chain 65, release Oct 29, 2014;
+            deposition: Mar 8, 2011;
+            class: Dna Binding Protein;
+            source: Mmdb_id: 91562, Pdb_id 1: 3R0J;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium tuberculosis
+  ORGANISM  Mycobacterium tuberculosis
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium; Mycobacterium tuberculosis complex.
+REFERENCE   1  (residues 1 to 250)
+  AUTHORS   Menon,S. and Wang,S.
+  TITLE     Structure of the response regulator PhoP from Mycobacterium
+            tuberculosis reveals a dimer through the receiver domain
+  JOURNAL   Biochemistry 50 (26), 5948-5957 (2011)
+   PUBMED   21634789
+  REMARK    Erratum:[Biochemistry. 2011 Aug 16;50(32):7076]
+REFERENCE   2  (residues 1 to 250)
+  AUTHORS   Menon,S. and Wang,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-MAR-2011)
+COMMENT     1 Possible Two Component System Response Transcriptional Positive
+            Regulator Phop.
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Mycobacterium tuberculosis"
+                     /db_xref="taxon:1773"
+     Region          1..147
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          24..31
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          25..249
+                     /region_name="OmpR"
+                     /note="DNA-binding response regulator, OmpR family,
+                     contains REC and winged-helix (wHTH) domain [Signal
+                     transduction mechanisms, Transcription]; COG0745"
+                     /db_xref="CDD:223816"
+     Region          27..139
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(30..31,74,82,102,121,124..125)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          33..46
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          48..55
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          56..66
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          69..75
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            74
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(77..78,80..82)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          83..92
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          96..103
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          118..124
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            124..126
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          128..142
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          148..175
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          152..157
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          154..246
+                     /region_name="trans_reg_C"
+                     /note="Effector domain of response regulator. Bacteria and
+                     certain eukaryotes like protozoa and higher plants use
+                     two-component signal transduction systems to detect and
+                     respond to changes in the environment. The system consists
+                     of a sensor histidine kinase and...; cd00383"
+                     /db_xref="CDD:238225"
+     SecStr          158..164
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          165..171
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          176..250
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Site            order(178,197..198,216,219,227..228,238,243)
+                     /site_type="DNA binding"
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238225"
+     SecStr          179..191
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          198..206
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          215..227
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          235..240
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          242..247
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+ORIGIN      
+        1 gthxrkgvdl vtagtpgent tpearvlvvd deanivells vslkfqgfev ytatngaqal
+       61 draretrpda vildvxxpgx dgfgvlrrlr adgidapalf ltardslqdk iagltlggdd
+      121 yvtkpfslee vvarlrvilr ragkgnkepr nvrltfadie ldeethevwk agqpvslspt
+      181 eftllryfvi nagtvlskpk ildhvwrydf ggdvnvvesy vsylrrkidt gekrllhtlr
+      241 gvgyvlrepr
+//
+

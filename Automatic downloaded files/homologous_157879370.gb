@@ -1,0 +1,98 @@
+LOCUS       1NA0_A                   125 aa            linear   UNA 31-OCT-2012
+DEFINITION  Chain A, Design Of Stable Alpha-Helical Arrays From An Idealized
+            Tpr Motif.
+ACCESSION   1NA0_A
+VERSION     1NA0_A  GI:157879370
+DBSOURCE    pdb: molecule 1NA0, chain 65, release Oct 25, 2012;
+            deposition: Nov 26, 2002;
+            class: De Novo Protein;
+            source: Mmdb_id: 50434, Pdb_id 1: 1NA0;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      unidentified
+  ORGANISM  unidentified
+            unclassified sequences.
+REFERENCE   1  (residues 1 to 125)
+  AUTHORS   Main,E.R., Xiong,Y., Cocco,M.J., D'Andrea,L. and Regan,L.
+  TITLE     Design of stable alpha-helical arrays from an idealized TPR motif
+  JOURNAL   Structure 11 (5), 497-508 (2003)
+   PUBMED   12737816
+REFERENCE   2  (residues 1 to 125)
+  AUTHORS   Main,E., Xiong,Y., Cocco,M., D'andrea,L. and Regan,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2002)
+COMMENT     On Oct 4, 2007 this sequence version replaced gi:31615650.
+            1 Designed Protein Ctpr3.
+FEATURES             Location/Qualifiers
+     source          1..125
+                     /organism="unidentified"
+                     /db_xref="taxon:32644"
+     Region          7..74
+                     /region_name="TPR_11"
+                     /note="TPR repeat; pfam13414"
+                     /db_xref="CDD:257739"
+     Region          9..42
+                     /region_name="TPR_1"
+                     /note="Tetratricopeptide repeat; pfam00515"
+                     /db_xref="CDD:249923"
+     Region          9..37
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     Site            order(10,13..14,17..18,20,44,47..48,51..52,54..55,78,
+                     81..82,85..86,89)
+                     /site_type="other"
+                     /note="putative protein binding surface [polypeptide
+                     binding]"
+                     /db_xref="CDD:276809"
+     SecStr          10..22
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          25..38
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          41..108
+                     /region_name="TPR_11"
+                     /note="TPR repeat; pfam13414"
+                     /db_xref="CDD:257739"
+     Region          42..72
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     Region          43..76
+                     /region_name="TPR_1"
+                     /note="Tetratricopeptide repeat; pfam00515"
+                     /db_xref="CDD:249923"
+     SecStr          43..56
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          59..72
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Het             join(bond(61),bond(64))
+                     /heterogen="( PB,1001 )"
+     Region          77..110
+                     /region_name="TPR_1"
+                     /note="Tetratricopeptide repeat; pfam00515"
+                     /db_xref="CDD:249923"
+     Region          77..105
+                     /region_name="TPR repeat"
+                     /note="TPR repeat [structural motif]"
+                     /db_xref="CDD:276809"
+     SecStr          77..90
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          93..106
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Het             join(bond(98),bond(99))
+                     /heterogen="( PB,1000 )"
+     SecStr          111..124
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 gamdpgnsae awynlgnayy kqgdydeaie yyqkaleldp nnaeawynlg nayykqgdyd
+       61 eaieyyqkal eldpnnaeaw ynlgnayykq gdydeaieyy qkaleldpnn aeakqnlgna
+      121 kqkqg
+//
+

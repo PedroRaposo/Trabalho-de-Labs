@@ -1,0 +1,144 @@
+LOCUS       1G18_A                   350 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Reca-Adp-Alf4 Complex.
+ACCESSION   1G18_A
+VERSION     1G18_A  GI:12084113
+DBSOURCE    pdb: molecule 1G18, chain 65, release May 9, 2012;
+            deposition: Oct 11, 2000;
+            class: Hydrolase;
+            source: Mmdb_id: 14942, Pdb_id 1: 1G18;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium tuberculosis
+  ORGANISM  Mycobacterium tuberculosis
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium; Mycobacterium tuberculosis complex.
+REFERENCE   1  (residues 1 to 350)
+  AUTHORS   Kumar,R.A., Vaze,M.B., Chandra,N.R., Vijayan,M. and Muniyappa,K.
+  TITLE     Functional characterization of the precursor and spliced forms of
+            RecA protein of Mycobacterium tuberculosis
+  JOURNAL   Biochemistry 35 (6), 1793-1802 (1996)
+   PUBMED   8639660
+REFERENCE   2  (residues 1 to 350)
+  AUTHORS   Datta,S., Prabu,M.M., Vaze,M.B., Ganesh,N., Chandra,N.R.,
+            Muniyappa,K. and Vijayan,M.
+  TITLE     Crystal structures of Mycobacterium tuberculosis RecA and its
+            complex with ADP-AlF(4): implications for decreased ATPase activity
+            and molecular aggregation
+  JOURNAL   Nucleic Acids Res. 28 (24), 4964-4973 (2000)
+   PUBMED   11121488
+REFERENCE   3  (residues 1 to 350)
+  AUTHORS   Datta,S., Prabu,M.M., Vaze,M.B., Ganesh,N., Chandra,N.R.,
+            Muniyappa,K., Vijayan,M. and Tb Structural Genomics Consortium
+            (Tbsgc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-OCT-2000)
+COMMENT     1 Reca Protein.
+FEATURES             Location/Qualifiers
+     source          1..350
+                     /organism="Mycobacterium tuberculosis"
+                     /db_xref="taxon:1773"
+     Region          1..341
+                     /region_name="recA"
+                     /note="recombinase A; Provisional; PRK09354"
+                     /db_xref="CDD:236476"
+     Region          6..330
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     SecStr          6..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(14..15,17..18,21,25..29,98..99,101..107,112..113,
+                     214,218,266,312)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     Region          34..268
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          45..52
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          60..68
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            67..74
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(69..75,97,101,104,145,195,228,241,263..266)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          73..85
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Het             bond(74)
+                     /heterogen="(ADP,1001 )"
+     SecStr          90..95
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          101..109
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          115..119
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          123..135
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          140..148
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            141..145
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          167..186
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          188..196
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          221..235
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          236..251
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          255..265
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          269..350
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          271..282
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          285..289
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          290..295
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          296..302
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          303..313
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          314..327
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 mtqtpdreka lelavaqiek sygkgsvmrl gdearqpisv iptgsialdv algigglprg
+       61 rvieiygpes sgkttvalha vanaqaaggv aafidaehal dpdyakklgv dtdsllvsqp
+      121 dtgeqaleia dmlirsgald ivvidsvaal vpraelegem gdshvglqar lmsqalrkmt
+      181 galnnsgtta ifinqlrdki gvmfgspett tggkalkfya svrmdvrrve tlkdgtnavg
+      241 nrtrvkvvkn kclapfkqae fdilygkgis regslidmgv dqglirksga wftyegeqlg
+      301 qgkenarnfl venadvadei ekkikeklgi gavvtddpsn dgvlpapvdf
+//
+

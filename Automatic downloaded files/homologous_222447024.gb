@@ -1,0 +1,132 @@
+LOCUS       3C41_J                   242 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain J, Abc Protein Artp In Complex With Amp-PnpMG2+.
+ACCESSION   3C41_J
+VERSION     3C41_J  GI:222447024
+DBSOURCE    pdb: molecule 3C41, chain 74, release Jun 18, 2009;
+            deposition: Jan 29, 2008;
+            class: Hydrolase;
+            source: Mmdb_id: 69406, Pdb_id 1: 3C41;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus stearothermophilus
+  ORGANISM  Geobacillus stearothermophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 242)
+  AUTHORS   Thaben,P.F., Eckey,V., Scheffel,F., Allings,C., Behlke,J.,
+            Saenger,W., Schneider,E. and Vahedi-Faridi,A.
+  TITLE     Crystal Structures Of The Atp-Binding Cassette (Abc) Protein Artp
+            From Geobacillus Stearothermophilus In Complexes With Nucleotides
+            And Nucleotide Analogs Reveal An Intermediate Semiclosed Dimer In
+            The Post Hydrolyses State And An Asymmetry In The Dimerisation
+            Region
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 242)
+  AUTHORS   Thaben,P.F., Eckey,V., Scheffel,F., Saenger,W., Schneider,E. and
+            Vahedi-Faridi,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..242
+                     /organism="Geobacillus stearothermophilus"
+                     /db_xref="taxon:1422"
+     Region          3..241
+                     /region_name="GlnQ"
+                     /note="ABC-type polar amino acid transport system, ATPase
+                     component [Amino acid transport and metabolism]; COG1126"
+                     /db_xref="CDD:224051"
+     SecStr          3..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          4..216
+                     /region_name="ABC_HisP_GlnQ"
+                     /note="ATP-binding cassette domain of the histidine and
+                     glutamine transporters; cd03262"
+                     /db_xref="CDD:213229"
+     SecStr          8..14
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          15..27
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          29..37
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            36..43
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213229"
+     Site            order(39..40,42..44,86,163..164,196)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213229"
+     SecStr          42..50
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             bond(43)
+                     /heterogen="( MG,1001 )"
+     SecStr          55..63
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          74..81
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          82..86
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            83..86
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213229"
+     SecStr          95..102
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          112..126
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            139..148
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213229"
+     SecStr          141..153
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          158..164
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            159..164
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213229"
+     Site            167..170
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213229"
+     SecStr          175..187
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          189..195
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            192..198
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213229"
+     SecStr          206..213
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          214..221
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          232..240
+                     /sec_str_type="helix"
+                     /note="helix 7"
+ORIGIN      
+        1 lqmidvhqlk ksfgslevlk ginvhirege vvvvigpsgs gkstflrcln lledfdegei
+       61 iidginlkak dtnlnkvree vgmvfqrfnl fphmtvlnni tlapmkvrkw prekaeakam
+      121 elldkvglkd kahaypdsls ggqaqrvaia ralamepkim lfdeptsald pemvgevlsv
+      181 mkqlanegmt mvvvthemgf arevgdrvlf mdggyiieeg kpedlfdrpq hertkaflsk
+      241 vf
+//
+

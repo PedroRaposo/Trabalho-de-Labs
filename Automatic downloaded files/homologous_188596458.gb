@@ -1,0 +1,698 @@
+LOCUS       3CMU_A                  2050 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Mechanism Of Homologous Recombination From The Reca-
+            SsdnaDSDNA STRUCTURES.
+ACCESSION   3CMU_A
+VERSION     3CMU_A  GI:188596458
+DBSOURCE    pdb: molecule 3CMU, chain 65, release Jun 18, 2009;
+            deposition: Mar 24, 2008;
+            class: RecombinationDNA;
+            source: Mmdb_id: 64583, Pdb_id 1: 3CMU;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 2050)
+  AUTHORS   Chen,Z., Yang,H. and Pavletich,N.P.
+  TITLE     Mechanism of homologous recombination from the RecA-ssDNA/dsDNA
+            structures
+  JOURNAL   Nature 453 (7194), 489-484 (2008)
+   PUBMED   18497818
+REFERENCE   2  (residues 1 to 2050)
+  AUTHORS   Pavletich,N.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..2050
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..244,315..356)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          4..304
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     Region          4..302
+                     /region_name="RecA"
+                     /note="recA bacterial DNA recombination protein;
+                     pfam00154"
+                     /db_xref="CDD:249635"
+     SecStr          19..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          34..42
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            41..48
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(43..49,71,75,78,119,169,202,215,237..240)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          47..61
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Het             join(bond(48),bond(48))
+                     /heterogen="( MG,1000 )"
+     SecStr          64..70
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(72..73,75..81,86..87,188,192,240,286)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     SecStr          75..83
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          89..94
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          97..110
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          114..120
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            115..119
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          141..160
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          162..173
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          181..185
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          195..203
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          204..208
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          211..225
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          231..239
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          240..244
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          245..314
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          245..256
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          259..263
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          264..269
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          270..276
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          277..287
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          288..301
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          324..661
+                     /region_name="recA"
+                     /note="recombinase A; Provisional; PRK09354"
+                     /db_xref="CDD:236476"
+     SecStr          328..345
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          329..653
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     Site            order(337..338,340..341,344,348..352,421..422,424..430,
+                     435..436,537,541,589,635)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     Region          join(357..593,665..705)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          368..376
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          383..391
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            390..397
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(392..398,420,424,427,468,518,551,564,586..589)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          396..410
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Het             join(bond(397),bond(397))
+                     /heterogen="( MG,1002 )"
+     SecStr          413..419
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          424..432
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          438..443
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          446..459
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          463..469
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Site            464..468
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          490..509
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          511..522
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          530..534
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          544..552
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          553..557
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          560..574
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          580..588
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          589..593
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     Region          594..664
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          594..605
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          608..612
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          613..618
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          619..625
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          626..636
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          637..651
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     Region          673..1010
+                     /region_name="recA"
+                     /note="recombinase A; Provisional; PRK09354"
+                     /db_xref="CDD:236476"
+     SecStr          677..694
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     Region          678..1002
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     Site            order(686..687,689..690,693,697..701,770..771,773..779,
+                     784..785,886,890,938,984)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     Region          join(706..942,1014..1054)
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          717..725
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          732..740
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     Site            739..746
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(741..747,769,773,776,817,867,900,913,935..938)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          745..759
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     Het             join(bond(746),bond(746))
+                     /heterogen="( MG,1004 )"
+     SecStr          762..768
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          773..781
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          787..792
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          795..808
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          812..818
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     Site            813..817
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          839..858
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          860..871
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          879..883
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          893..901
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          902..906
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     SecStr          909..923
+                     /sec_str_type="sheet"
+                     /note="strand 37"
+     SecStr          929..937
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+     SecStr          938..942
+                     /sec_str_type="sheet"
+                     /note="strand 39"
+     Region          943..1013
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          943..954
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          957..961
+                     /sec_str_type="sheet"
+                     /note="strand 40"
+     SecStr          962..967
+                     /sec_str_type="sheet"
+                     /note="strand 41"
+     SecStr          968..974
+                     /sec_str_type="sheet"
+                     /note="strand 42"
+     SecStr          975..985
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          986..1000
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     Region          1022..1359
+                     /region_name="recA"
+                     /note="recombinase A; Provisional; PRK09354"
+                     /db_xref="CDD:236476"
+     SecStr          1026..1043
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     Region          1027..1351
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     Site            order(1035..1036,1038..1039,1042,1046..1050,1119..1120,
+                     1122..1128,1133..1134,1235,1239,1287,1333)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     Region          join(1055..1291,1361..1404)
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     SecStr          1066..1074
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          1081..1089
+                     /sec_str_type="sheet"
+                     /note="strand 43"
+     Site            1088..1095
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(1090..1096,1118,1122,1125,1166,1216,1249,1262,
+                     1284..1287)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          1094..1108
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     Het             join(bond(1095),bond(1095))
+                     /heterogen="( MG,1006 )"
+     SecStr          1111..1117
+                     /sec_str_type="sheet"
+                     /note="strand 44"
+     SecStr          1122..1130
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          1136..1141
+                     /sec_str_type="sheet"
+                     /note="strand 45"
+     SecStr          1144..1157
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          1161..1167
+                     /sec_str_type="sheet"
+                     /note="strand 46"
+     Site            1162..1166
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          1188..1207
+                     /sec_str_type="helix"
+                     /note="helix 32"
+     SecStr          1209..1220
+                     /sec_str_type="sheet"
+                     /note="strand 47"
+     SecStr          1228..1232
+                     /sec_str_type="sheet"
+                     /note="strand 48"
+     SecStr          1242..1250
+                     /sec_str_type="sheet"
+                     /note="strand 49"
+     SecStr          1251..1255
+                     /sec_str_type="sheet"
+                     /note="strand 50"
+     SecStr          1258..1272
+                     /sec_str_type="sheet"
+                     /note="strand 51"
+     SecStr          1278..1286
+                     /sec_str_type="sheet"
+                     /note="strand 52"
+     SecStr          1287..1291
+                     /sec_str_type="sheet"
+                     /note="strand 53"
+     Region          1292..1360
+                     /region_name="Domain 8"
+                     /note="NCBI Domains"
+     SecStr          1292..1303
+                     /sec_str_type="helix"
+                     /note="helix 33"
+     SecStr          1306..1310
+                     /sec_str_type="sheet"
+                     /note="strand 54"
+     SecStr          1311..1316
+                     /sec_str_type="sheet"
+                     /note="strand 55"
+     SecStr          1317..1323
+                     /sec_str_type="sheet"
+                     /note="strand 56"
+     SecStr          1324..1334
+                     /sec_str_type="helix"
+                     /note="helix 34"
+     SecStr          1335..1349
+                     /sec_str_type="helix"
+                     /note="helix 35"
+     Region          1368..1699
+                     /region_name="recA"
+                     /note="recombinase A; Provisional; PRK09354"
+                     /db_xref="CDD:236476"
+     SecStr          1372..1389
+                     /sec_str_type="helix"
+                     /note="helix 36"
+     Region          1373..1697
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     Site            order(1381..1382,1384..1385,1388,1392..1396,1465..1466,
+                     1468..1474,1479..1480,1581,1585,1633,1679)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     SecStr          1393..1397
+                     /sec_str_type="sheet"
+                     /note="strand 57"
+     Region          1405..1637
+                     /region_name="Domain 9"
+                     /note="NCBI Domains"
+     SecStr          1412..1420
+                     /sec_str_type="helix"
+                     /note="helix 37"
+     SecStr          1427..1435
+                     /sec_str_type="sheet"
+                     /note="strand 58"
+     Site            1434..1441
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(1436..1442,1464,1468,1471,1512,1562,1595,1608,
+                     1630..1633)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          1440..1454
+                     /sec_str_type="helix"
+                     /note="helix 38"
+     Het             join(bond(1441),bond(1441))
+                     /heterogen="( MG,1008 )"
+     SecStr          1457..1463
+                     /sec_str_type="sheet"
+                     /note="strand 59"
+     SecStr          1468..1476
+                     /sec_str_type="helix"
+                     /note="helix 39"
+     SecStr          1482..1487
+                     /sec_str_type="sheet"
+                     /note="strand 60"
+     SecStr          1490..1503
+                     /sec_str_type="helix"
+                     /note="helix 40"
+     SecStr          1507..1513
+                     /sec_str_type="sheet"
+                     /note="strand 61"
+     Site            1508..1512
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          1534..1553
+                     /sec_str_type="helix"
+                     /note="helix 41"
+     SecStr          1555..1566
+                     /sec_str_type="sheet"
+                     /note="strand 62"
+     SecStr          1574..1578
+                     /sec_str_type="sheet"
+                     /note="strand 63"
+     SecStr          1588..1596
+                     /sec_str_type="sheet"
+                     /note="strand 64"
+     SecStr          1597..1601
+                     /sec_str_type="sheet"
+                     /note="strand 65"
+     SecStr          1604..1618
+                     /sec_str_type="sheet"
+                     /note="strand 66"
+     SecStr          1624..1632
+                     /sec_str_type="sheet"
+                     /note="strand 67"
+     SecStr          1633..1637
+                     /sec_str_type="sheet"
+                     /note="strand 68"
+     Region          1638..1707
+                     /region_name="Domain 10"
+                     /note="NCBI Domains"
+     SecStr          1638..1649
+                     /sec_str_type="helix"
+                     /note="helix 42"
+     SecStr          1652..1656
+                     /sec_str_type="sheet"
+                     /note="strand 69"
+     SecStr          1657..1662
+                     /sec_str_type="sheet"
+                     /note="strand 70"
+     SecStr          1663..1669
+                     /sec_str_type="sheet"
+                     /note="strand 71"
+     SecStr          1670..1680
+                     /sec_str_type="helix"
+                     /note="helix 43"
+     SecStr          1681..1695
+                     /sec_str_type="helix"
+                     /note="helix 44"
+     Region          1716..2050
+                     /region_name="recA"
+                     /note="recombinase A; Provisional; PRK09354"
+                     /db_xref="CDD:236476"
+     SecStr          1720..1737
+                     /sec_str_type="helix"
+                     /note="helix 45"
+     Region          1721..2045
+                     /region_name="recA"
+                     /note="RecA is a bacterial enzyme which has roles in
+                     homologous recombination, DNA repair, and the induction of
+                     the SOS response. RecA couples ATP hydrolysis to DNA
+                     strand exchange; cd00983"
+                     /db_xref="CDD:238483"
+     Site            order(1729..1730,1732..1733,1736,1740..1744,1813..1814,
+                     1816..1822,1827..1828,1929,1933,1981,2027)
+                     /site_type="other"
+                     /note="hexamer interface [polypeptide binding]"
+                     /db_xref="CDD:238483"
+     Region          1749..1985
+                     /region_name="Domain 11"
+                     /note="NCBI Domains"
+     SecStr          1760..1768
+                     /sec_str_type="helix"
+                     /note="helix 46"
+     SecStr          1775..1783
+                     /sec_str_type="sheet"
+                     /note="strand 72"
+     Site            1782..1789
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238483"
+     Site            order(1784..1790,1812,1816,1819,1860,1910,1943,1956,
+                     1978..1981)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238483"
+     SecStr          1788..1802
+                     /sec_str_type="helix"
+                     /note="helix 47"
+     Het             join(bond(1789),bond(1812))
+                     /heterogen="( MG,1010 )"
+     SecStr          1805..1811
+                     /sec_str_type="sheet"
+                     /note="strand 73"
+     SecStr          1816..1824
+                     /sec_str_type="helix"
+                     /note="helix 48"
+     SecStr          1830..1835
+                     /sec_str_type="sheet"
+                     /note="strand 74"
+     SecStr          1838..1851
+                     /sec_str_type="helix"
+                     /note="helix 49"
+     SecStr          1855..1861
+                     /sec_str_type="sheet"
+                     /note="strand 75"
+     Site            1856..1860
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238483"
+     SecStr          1882..1901
+                     /sec_str_type="helix"
+                     /note="helix 50"
+     SecStr          1903..1911
+                     /sec_str_type="sheet"
+                     /note="strand 76"
+     SecStr          1936..1944
+                     /sec_str_type="sheet"
+                     /note="strand 77"
+     SecStr          1945..1949
+                     /sec_str_type="sheet"
+                     /note="strand 78"
+     SecStr          1952..1966
+                     /sec_str_type="sheet"
+                     /note="strand 79"
+     SecStr          1972..1980
+                     /sec_str_type="sheet"
+                     /note="strand 80"
+     SecStr          1981..1985
+                     /sec_str_type="sheet"
+                     /note="strand 81"
+     Region          1986..2050
+                     /region_name="Domain 12"
+                     /note="NCBI Domains"
+     SecStr          1986..1997
+                     /sec_str_type="helix"
+                     /note="helix 51"
+     SecStr          2000..2004
+                     /sec_str_type="sheet"
+                     /note="strand 82"
+     SecStr          2005..2010
+                     /sec_str_type="sheet"
+                     /note="strand 83"
+     SecStr          2011..2017
+                     /sec_str_type="sheet"
+                     /note="strand 84"
+     SecStr          2018..2028
+                     /sec_str_type="helix"
+                     /note="helix 52"
+     SecStr          2029..2042
+                     /sec_str_type="helix"
+                     /note="helix 53"
+ORIGIN      
+        1 gahmgedrsm dvetistgsl sldialgagg lpmgriveiy gpessgkttl tlqviaaaqr
+       61 egktcafida ehaldpiyar klgvdidnll csqpdtgeqa leicdalars gavdvivvds
+      121 vaaltpkaei egeigdshmg laarmmsqam rklagnlkqs ntllifinqi rmkigvmfgn
+      181 petttggnal kfyasvrldi rrigavkege nvvgsetrvk vvknkiaapf kqaefqilyg
+      241 eginfygelv dlgvkeklie kagawysykg ekigqgkana tawlkdnpet akeiekkvre
+      301 lllsnpnstt gstgsgttgs tgsmaidenk qkalaaalgq iekqfgkgsi mrlgedrsmd
+      361 vetistgsls ldialgaggl pmgriveiyg pessgkttlt lqviaaaqre gktcafidae
+      421 haldpiyark lgvdidnllc sqpdtgeqal eicdalarsg avdvivvdsv aaltpkaeie
+      481 geigdshmgl aarmmsqamr klagnlkqsn tllifinqir mkigvmfgnp etttggnalk
+      541 fyasvrldir rigavkegen vvgsetrvkv vknkiaapfk qaefqilyge ginfygelvd
+      601 lgvkekliek agawysykge kigqgkanat awlkdnpeta keiekkvrel llsnpnsttg
+      661 stgsmghttg amsaidenkq kalaaalgqi ekqfgkgsim rlgedrsmdv etistgslsl
+      721 dialgagglp mgriveiygp essgkttltl qviaaaqreg ktcafidaeh aldpiyarkl
+      781 gvdidnllcs qpdtgeqale icdalarsga vdvivvdsva altpkaeieg eigdshmgla
+      841 armmsqamrk lagnlkqsnt llifinqirm kigvmfgnpe tttggnalkf yasvrldirr
+      901 igavkegenv vgsetrvkvv knkiaapfkq aefqilygeg infygelvdl gvkeklieka
+      961 gawysykgek igqgkanata wlkdnpetak eiekkvrell lsnpnsttgs tgsmastgst
+     1021 gsaidenkqk alaaalgqie kqfgkgsimr lgedrsmdve tistgslsld ialgagglpm
+     1081 griveiygpe ssgkttltlq viaaaqregk tcafidaeha ldpiyarklg vdidnllcsq
+     1141 pdtgeqalei cdalarsgav dvivvdsvaa ltpkaeiege igdshmglaa rmmsqamrkl
+     1201 agnlkqsntl lifinqirmk igvmfgnpet ttggnalkfy asvrldirri gavkegenvv
+     1261 gsetrvkvvk nkiaapfkqa efqilygegi nfygelvdlg vkekliekag awysykgeki
+     1321 gqgkanataw lkdnpetake iekkvrelll snpnsttgat gamsgrmsai denkqkalaa
+     1381 algqiekqfg kgsimrlged rsmdvetist gslsldialg agglpmgriv eiygpessgk
+     1441 ttltlqviaa aqregktcaf idaehaldpi yarklgvdid nllcsqpdtg eqaleicdal
+     1501 arsgavdviv vdsvaaltpk aeiegeigds hmglaarmms qamrklagnl kqsntllifi
+     1561 nqirmkigvm fgnpetttgg nalkfyasvr ldirrigavk egenvvgset rvkvvknkia
+     1621 apfkqaefqi lygeginfyg elvdlgvkek liekagawys ykgekigqgk anatawlkdn
+     1681 petakeiekk vrelllsnpn sttgstgsgs stgsmsaide nkqkalaaal gqiekqfgkg
+     1741 simrlgedrs mdvetistgs lsldialgag glpmgrivei ygpessgktt ltlqviaaaq
+     1801 regktcafid aehaldpiya rklgvdidnl lcsqpdtgeq aleicdalar sgavdvivvd
+     1861 svaaltpkae iegeigdshm glaarmmsqa mrklagnlkq sntllifinq irmkigvmfg
+     1921 npetttggna lkfyasvrld irrigavkeg envvgsetrv kvvknkiaap fkqaefqily
+     1981 geginfygel vdlgvkekli ekagawysyk gekigqgkan atawlkdnpe takeiekkvr
+     2041 elllsnpnst
+//
+

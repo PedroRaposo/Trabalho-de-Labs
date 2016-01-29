@@ -1,0 +1,154 @@
+LOCUS       1GCA_A                   309 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, The 1.7 Angstroms Refined X-Ray Structure Of The
+            Periplasmic Glucose(Slash)galactose Receptor From Salmonella
+            Typhimurium.
+ACCESSION   1GCA_A
+VERSION     1GCA_A  GI:157831160
+DBSOURCE    pdb: molecule 1GCA, chain 65, release Aug 27, 2007;
+            deposition: May 13, 1993;
+            class: Galactose-Binding Protein;
+            source: Mmdb_id: 56206, Pdb_id 1: 1GCA;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium (Salmonella
+            typhimurium)
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (residues 1 to 309)
+  AUTHORS   Alber,T., Fahnestock,M., Mowbray,S.L. and Petsko,G.A.
+  TITLE     Preliminary x-ray data for the galactose binding protein from
+            Salmonella typhimurium
+  JOURNAL   J. Mol. Biol. 147 (3), 471-474 (1981)
+   PUBMED   7031261
+REFERENCE   2  (residues 1 to 309)
+  AUTHORS   Mowbray,S.L., Smith,R.D. and Cole,L.B.
+  TITLE     Structure of the periplasmic glucose/galactose receptor of
+            Salmonella typhimurium
+  JOURNAL   Receptor 1 (1-2), 41-53 (1990)
+   PUBMED   1967096
+REFERENCE   3  (residues 1 to 309)
+  AUTHORS   Mowbray,S.L.
+  TITLE     Ribose and glucose-galactose receptors. Competitors in bacterial
+            chemotaxis
+  JOURNAL   J. Mol. Biol. 227 (2), 418-440 (1992)
+   PUBMED   1328650
+REFERENCE   4  (residues 1 to 309)
+  AUTHORS   Zou,J.Y., Flocco,M.M. and Mowbray,S.L.
+  TITLE     The 1.7 A refined X-ray structure of the periplasmic
+            glucose/galactose receptor from Salmonella typhimurium
+  JOURNAL   J. Mol. Biol. 233 (4), 739-752 (1993)
+   PUBMED   8240551
+REFERENCE   5  (residues 1 to 309)
+  AUTHORS   Zou,J.-Y. and Mowbray,S.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAY-1993)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..309
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium"
+                     /db_xref="taxon:90371"
+     Region          join(1..112,258..309)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          2..11
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          4..298
+                     /region_name="PBP1_GGBP"
+                     /note="Periplasmic glucose/galactose-binding protein
+                     (GGBP) involved in chemotaxis towards, and active
+                     transport of, glucose and galactose in various bacterial
+                     species; cd01539"
+                     /db_xref="CDD:107252"
+     Region          5..276
+                     /region_name="Peripla_BP_4"
+                     /note="Periplasmic binding protein domain; pfam13407"
+                     /db_xref="CDD:257732"
+     SecStr          15..30
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(16..17,66,91..92,154,158,183,211,236,256)
+                     /site_type="other"
+                     /note="ligand binding site [chemical binding]"
+                     /db_xref="CDD:107252"
+     SecStr          33..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          45..58
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          61..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          73..81
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          85..91
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          104..110
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          113..257
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          114..129
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(134,136,138,140,142,205)
+                     /site_type="other"
+                     /note="calcium binding site [ion binding]"
+                     /db_xref="CDD:107252"
+     Het             join(bond(134),bond(136),bond(138),bond(140),bond(142),
+                     bond(205),bond(205),bond(205))
+                     /heterogen="( CA,   1 )"
+     SecStr          140..149
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          153..169
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          172..175
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          176..182
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          185..197
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          205..210
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          212..225
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          230..236
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          239..247
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          251..256
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          258..274
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          289..293
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          295..299
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 adtrigvtiy kyddnfmsvv rkaiekdgks apdvqllmnd sqndqskqnd qidvllakgv
+       61 kalainlvdp aaagtvieka rgqnvpvvff nkepsrkald sydkayyvgt dskesgviqg
+      121 dliakhwqan qgwdlnkdgk iqyvllkgep ghpdaeartt yvvkelndkg iqteqlaldt
+      181 amwdtaqakd kmdawlsgpn ankievvian ndamamgave alkahnkssi pvfgvdalpe
+      241 alalvksgam agtvlndann qakatfdlak nlaegkgaad gtswkienki vrvpyvgvdk
+      301 dnlseftqk
+//
+

@@ -1,0 +1,81 @@
+LOCUS       4S1B_A                   222 aa            linear   BCT 04-MAR-2015
+DEFINITION  Chain A, Crystal Structure Of L. Monocytogenes Phosphodiesterase
+            Pgph Hd Domain In Complex With Cyclic-di-amp.
+ACCESSION   4S1B_A
+VERSION     4S1B_A  GI:756142644
+DBSOURCE    pdb: molecule 4S1B, chain 65, release Mar 4, 2015;
+            deposition: Jan 12, 2015;
+            class: Hydrolase;
+            source: Mmdb_id: 126877, Pdb_id 1: 4S1B;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Listeria monocytogenes EGD-e
+  ORGANISM  Listeria monocytogenes EGD-e
+            Bacteria; Firmicutes; Bacilli; Bacillales; Listeriaceae; Listeria.
+REFERENCE   1  (residues 1 to 222)
+  AUTHORS   Huynh,T.N., Luo,S., Pensinger,D., Sauer,J.D., Tong,L. and
+            Woodward,J.J.
+  TITLE     An HD-domain phosphodiesterase mediates cooperative hydrolysis of
+            c-di-AMP to affect bacterial growth and virulence
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 112 (7), E747-E756 (2015)
+   PUBMED   25583510
+REFERENCE   2  (residues 1 to 222)
+  AUTHORS   Luo,S. and Tong,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JAN-2015)
+COMMENT     1 Lmo1466 Protein.
+FEATURES             Location/Qualifiers
+     source          1..222
+                     /organism="Listeria monocytogenes EGD-e"
+                     /db_xref="taxon:169963"
+     SecStr          7..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          16..180
+                     /region_name="HDc"
+                     /note="Metal dependent phosphohydrolases with conserved
+                     'HD' motif; cd00077"
+                     /db_xref="CDD:238032"
+     SecStr          16..36
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(21,50..51,155)
+                     /site_type="other"
+                     /note="Zn2+ binding site [ion binding]"
+                     /db_xref="CDD:238032"
+     Het             join(bond(21),bond(50),bond(51),bond(155))
+                     /heterogen="( FE,1001 )"
+     SecStr          40..49
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Het             join(bond(51),bond(87),bond(111),bond(112))
+                     /heterogen="( FE,1000 )"
+     Site            51
+                     /site_type="other"
+                     /note="Mg2+ binding site [ion binding]"
+                     /db_xref="CDD:238032"
+     SecStr          77..98
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          102..110
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          118..126
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          146..163
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          169..186
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          196..214
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 anpnhpllkk ilmkapgtyh hsmmvanlae acadkigans llvrvgcfyh digktlrppy
+       61 fvenqlqgin phdrltpeqs rdiilshtkd gaeilkenhm pqpiidialq hhgttllkyf
+      121 yfkaketnpd vkeadyrysg pkpqtkeiai inisdsveaa vrssteptma kiteiidgii
+      181 kdrfldgqft ecditiqeik iirdtliatl ngiyhqriqy pd
+//
+

@@ -1,0 +1,119 @@
+LOCUS       5E8L_A                   309 aa            linear   PLN 11-NOV-2015
+DEFINITION  Chain A, Crystal Structure Of Geranylgeranyl Pyrophosphate Synthase
+            11 From Arabidopsis Thaliana.
+ACCESSION   5E8L_A
+VERSION     5E8L_A  GI:951273066
+DBSOURCE    pdb: molecule 5E8L, chain 65, release Nov 11, 2015;
+            deposition: Oct 14, 2015;
+            class: Transferase;
+            source: Mmdb_id: 134159, Pdb_id 1: 5E8L;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (residues 1 to 309)
+  AUTHORS   Wang,C., Chen,Q., Fan,D., Li,J., Wang,G. and Zhang,P.
+  TITLE     Structural analyses of short-chain prenyltransferases identify an
+            evolutionarily conserved GFPPS clade in Brassicaceae Plants
+  JOURNAL   Mol Plant (2015) In press
+   PUBMED   26537048
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 309)
+  AUTHORS   Wang,C., Chen,Q., Fan,D., Li,J., Wang,G. and Zhang,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2015)
+COMMENT     1 Heterodimeric Geranylgeranyl Pyrophosphate Synthase Large Subunit
+            1, Chloroplastic.
+FEATURES             Location/Qualifiers
+     source          1..309
+                     /organism="Arabidopsis thaliana"
+                     /db_xref="taxon:3702"
+     SecStr          6..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          32..42
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          33..299
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          48..60
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          68..86
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(77,80..82,84..86,90..91,96..97,160,163,186..187,190,
+                     227..228,231,241,246,251)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            order(80..87,90..91)
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(85..86,91,96..97,163,186,227..228,231,241,246,251)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(85..86,91,96..97,186,227..228)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(85..86,91,96..97,163,186)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(93..107,234..235,241..246,249..253)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          94..97
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          98..101
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          108..129
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          137..151
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          155..163
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          177..186
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          189..202
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          206..232
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(227..228,231,241,246,251)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          260..278
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          287..298
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 mssfdfmsyi itkaelvnka ldsavplrep lkiheamrys llaggkrvrp vlciaacelv
+       61 ggeestampa acavemihtm slihddlpcm dnddlrrgkp tnhkvfgedv avlagdalls
+      121 fafehlasat ssdvvspvrv vravgelaka igteglvagq vvdissegld lndvglehle
+      181 fihlhktaal leasavlgai vgggsddeie rlrkfarcig llfqvvddil dvtksskelg
+      241 ktagkdliad kltypkimgl eksrefaekl nreardqllg fdsdkvapll alanyiayrq
+      301 nlehhhhhh
+//
+

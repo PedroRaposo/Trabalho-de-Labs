@@ -1,0 +1,205 @@
+LOCUS       4S0F_A                   730 aa            linear   BCT 05-AUG-2015
+DEFINITION  Chain A, Crystal Structure Of The Peptidase-containing Abc
+            Transporter Pcat1 E648q Mutant Complexed With Atpgs In An Occluded
+            Conformation.
+ACCESSION   4S0F_A
+VERSION     4S0F_A  GI:901695599
+DBSOURCE    pdb: molecule 4S0F, chain 65, release Aug 5, 2015;
+            deposition: Dec 30, 2014;
+            class: Transport ProteinHYDROLASE;
+            source: Mmdb_id: 131079, Pdb_id 1: 4S0F;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Ruminiclostridium thermocellum ATCC 27405 (Clostridium thermocellum
+            ATCC 27405)
+  ORGANISM  Ruminiclostridium thermocellum ATCC 27405
+            Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae;
+            Ruminiclostridium.
+REFERENCE   1  (residues 1 to 730)
+  AUTHORS   Lin,D.Y., Huang,S. and Chen,J.
+  TITLE     Crystal structures of a polypeptide processing and secretion
+            transporter
+  JOURNAL   Nature 523 (7561), 425-430 (2015)
+   PUBMED   26201595
+REFERENCE   2  (residues 1 to 730)
+  AUTHORS   Lin,D.L., Huang,S. and Chen,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-DEC-2014)
+COMMENT     1 Abc-type Bacteriocin Transporter.
+FEATURES             Location/Qualifiers
+     source          1..730
+                     /organism="Ruminiclostridium thermocellum ATCC 27405"
+                     /db_xref="taxon:203119"
+     Region          1..478
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          12..723
+                     /region_name="SunT"
+                     /note="ABC-type bacteriocin/lantibiotic exporters, contain
+                     an N-terminal double-glycine peptidase domain [Defense
+                     mechanisms]; COG2274"
+                     /db_xref="CDD:225183"
+     Region          13..146
+                     /region_name="Peptidase_C39B"
+                     /note="A sub-family of peptidase family C39. Peptidase
+                     family C39 mostly contains bacteriocin-processing
+                     endopeptidases from bacteria. The cysteine peptidases in
+                     family C39 cleave the 'double-glycine' leader peptides
+                     from the precursors of various bacteriocins...; cd02418"
+                     /db_xref="CDD:239099"
+     Site            order(18,24,102,118)
+                     /site_type="active"
+                     /note="putative active site [active]"
+                     /db_xref="CDD:239099"
+     SecStr          164..172
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          172..442
+                     /region_name="ABC_membrane"
+                     /note="ABC transporter transmembrane region; pfam00664"
+                     /db_xref="CDD:250039"
+     SecStr          173..202
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          206..255
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          267..283
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          284..300
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          301..308
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          309..330
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          333..358
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          368..420
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          425..439
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          440..449
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          450..469
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          479..730
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          488..493
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          489..721
+                     /region_name="P-loop_NTPase"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; cl21455"
+                     /db_xref="CDD:277521"
+     SecStr          506..513
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          515..522
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            522..529
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213179"
+     Site            order(525..526,528..530,570,650..651,682)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213179"
+     SecStr          528..536
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          542..549
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          550..553
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          557..564
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          565..569
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            567..570
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213179"
+     SecStr          576..579
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          592..602
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          604..611
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          617..620
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            626..635
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213179"
+     SecStr          628..642
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          645..651
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            646..651
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213179"
+     Site            654..657
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213179"
+     SecStr          658..670
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          674..682
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            678..684
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213179"
+     SecStr          691..698
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          699..705
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          706..713
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          716..723
+                     /sec_str_type="helix"
+                     /note="helix 20"
+ORIGIN      
+        1 snamlrrlfk kkyvcvrqyd ltdcgaacls siaqyyglkm slakiremtg tdtqgtnayg
+       61 lihaakqlgf sakgvkaske dllkdfrlpa ianvivdnrl ahfvviysik nriitvadpg
+      121 kgivrysmdd fcsiwtgglv llepgeafqk gdytqnmmvk fagflkplkk tvlciflasl
+      181 lytalgiags fyikflfddl ikfeklndlh iisagfavif llqiflnyyr silvtklgms
+      241 idksimmeyy shvlklpmnf fnsrkvgeii srfmdaskir qaisgatlti midtimavig
+      301 gillyiqnss lffisfiiil lygiivtvfn kpiqnanrqi mednakltsa lvesvkgiet
+      361 iksfgaeeqt ekstrdkiet vmkssfkegm lyinlssltg ivaglggivi lwagaynvik
+      421 gnmsggqlla fnallayflt pvknlidlqp liqtavvasn rlgeilelat ekelredsdd
+      481 fvislkgdie frnvdfrygl rkpvlkninl tipkgktvai vgesgsgktt lakllmnfys
+      541 pekgdiling hsiknislel irkkiafvsq dvfifsgtvk enlclgnenv dmdeiikaak
+      601 manahdfiek lplkydtfln esganlsegq kqrlaiaral lkkpdilild qatsnldsit
+      661 enhikdaiyg leddvtviii ahrlstivnc dkiyllkdge ivesgshtel ialkgcyfkm
+      721 wkqtentlas
+//
+

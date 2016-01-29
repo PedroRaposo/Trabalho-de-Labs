@@ -1,0 +1,91 @@
+ID   O83634_TREPA            Unreviewed;       391 AA.
+AC   O83634;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 92.
+DE   SubName: Full=Exonuclease SbcD {ECO:0000313|EMBL:AGN75807.1};
+DE   SubName: Full=Exonuclease, putative {ECO:0000313|EMBL:AAC65598.1};
+GN   Name=sbcD {ECO:0000313|EMBL:AGN75807.1};
+GN   OrderedLocusNames=TP_0626 {ECO:0000313|EMBL:AAC65598.1};
+GN   ORFNames=TPANIC_0626 {ECO:0000313|EMBL:AGN75807.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65598.1, ECO:0000313|Proteomes:UP000000811};
+RN   [1] {ECO:0000313|EMBL:AAC65598.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65598.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75807.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75807.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -!- INTERACTION:
+CC       O83213:TP_0183; NbExp=2; IntAct=EBI-1198617, EBI-1589991;
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65598.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75807.1; -; Genomic_DNA.
+DR   PIR; C71302; C71302.
+DR   RefSeq; WP_010882072.1; NC_021490.2.
+DR   MINT; MINT-6480013; -.
+DR   STRING; 243276.TP0626; -.
+DR   EnsemblBacteria; AAC65598; AAC65598; TP_0626.
+DR   EnsemblBacteria; AGN75807; AGN75807; TPANIC_0626.
+DR   GeneID; 2611460; -.
+DR   KEGG; tpa:TP_0626; -.
+DR   KEGG; tpw:TPANIC_0626; -.
+DR   PATRIC; 20531321; VBITrePal57110_0668.
+DR   eggNOG; COG0420; LUCA.
+DR   eggNOG; ENOG4107RFY; Bacteria.
+DR   KO; K03547; -.
+DR   OMA; HYSKKEI; -.
+DR   OrthoDB; EOG60CWP4; -.
+DR   BioCyc; TPAL243276:GC1H-665-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   GO; GO:0008408; F:3\''-5\'' exonuclease activity; IEA:InterPro.
+DR   GO; GO:0004519; F:endonuclease activity; IEA:InterPro.
+DR   GO; GO:0006259; P:DNA metabolic process; IEA:InterPro.
+DR   Gene3D; 3.60.21.10; -; 1.
+DR   InterPro; IPR004843; Calcineurin-like_PHP_apaH.
+DR   InterPro; IPR029052; Metallo-depent_PP-like.
+DR   InterPro; IPR004593; SbcD.
+DR   Pfam; PF00149; Metallophos; 1.
+DR   SUPFAM; SSF56300; SSF56300; 1.
+DR   TIGRFAMs; TIGR00619; sbcd; 1.
+PE   1: Evidence at protein level;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Exonuclease {ECO:0000313|EMBL:AAC65598.1};
+KW   Hydrolase {ECO:0000313|EMBL:AAC65598.1};
+KW   Nuclease {ECO:0000313|EMBL:AAC65598.1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN        1    220       Metallophos. {ECO:0000259|Pfam:PF00149}.
+SQ   SEQUENCE   391 AA;  44298 MW;  7E6369124A3CEC85 CRC64;
+     MKILHTADLH LGKTLHEVSL FASQKKMLGD LCTLLAQDNY AALIIAGDIY DRCVPSAESV
+     SLFSSFLQNI KRSMPRLPIY LIPGNHDSAQ RLSFAQELLK QQGVFIAQDP EESTRPHLLC
+     HEGETVQLFL LPFLHAGAFS YLDEENTTCL IHTQSELLQE ASRRLQRAVS LDTPSILVAH
+     LFTQKGISCE SERPFVGNAV YADPHWFDFF TYVALGHLHK CQKITERMYY SGSPLPYSFD
+     EANTQKVALS VEIHCNTKGF PIHVTPLPLE PLIPLRTIRD SFHALYTGDR YLLYQRDFLE
+     ITLTDPALVH NPIGLLKPRY PGLLSIKQEN AFAFDIPPPY SSNEGIAPCT HHSLRTHFDV
+     FMHEVSPTPD DREKGALFQE LFDEMQQEFS S
+//

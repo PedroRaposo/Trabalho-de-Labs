@@ -1,0 +1,146 @@
+LOCUS       5DGX_A                   256 aa            linear   BCT 16-SEP-2015
+DEFINITION  Chain A, 1.73 Angstrom Resolution Crystal Structure Of The
+            Abc-atpase Domain (residues 357-609) Of Lipid A Transport Protein
+            (msba) From Francisella Tularensis Subsp. Tularensis Schu S4 In
+            Complex With Adp.
+ACCESSION   5DGX_A
+VERSION     5DGX_A  GI:927774915
+DBSOURCE    pdb: molecule 5DGX, chain 65, release Sep 16, 2015;
+            deposition: Aug 28, 2015;
+            class: Transport Protein;
+            source: Mmdb_id: 132726, Pdb_id 1: 5DGX;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Francisella tularensis subsp. tularensis FSC198
+  ORGANISM  Francisella tularensis subsp. tularensis FSC198
+            Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales;
+            Francisellaceae; Francisella.
+REFERENCE   1  (residues 1 to 256)
+  AUTHORS   Halavaty,A.S., Minasov,G., Dubrovska,I., Kiryukhina,O., G,S.,
+            Anderson,W.F., Center For Structural Genomics Of Infectious Diseas
+            and (Csgid).
+  TITLE     1.73 Angstrom Resolution Crystal Structure Of The A Domain
+            (Residues 357-609) Of Lipid A Transport Prot (Msba) From
+            Francisella Tularensis Subsp. Tularensi In Complex With Adp
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 256)
+  AUTHORS   Halavaty,A.S., Minasov,G., Dubrovska,I., Kiryukhina,O.,
+            Grimshaw,S., Anderson,W.F., Center For Structural Genomics Of
+            Infectious D and (Csgid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-AUG-2015)
+COMMENT     1 Lipid A Export Atp-binding/permease Protein Msba.
+FEATURES             Location/Qualifiers
+     source          1..256
+                     /organism="Francisella tularensis subsp. tularensis
+                     FSC198"
+                     /db_xref="taxon:393115"
+     SecStr          17..22
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          19..251
+                     /region_name="P-loop_NTPase"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; cl21455"
+                     /db_xref="CDD:277521"
+     Region          19..243
+                     /region_name="GlnQ"
+                     /note="ABC-type polar amino acid transport system, ATPase
+                     component [Amino acid transport and metabolism]; COG1126"
+                     /db_xref="CDD:224051"
+     SecStr          23..29
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          30..37
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          38..43
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          44..51
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            51..58
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213179"
+     Site            order(54..55,57..59,99,180..181,212)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213179"
+     SecStr          57..65
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          71..78
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          86..93
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          94..98
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            96..99
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213179"
+     SecStr          105..108
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          122..132
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          147..150
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            156..165
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213179"
+     SecStr          158..172
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          175..181
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            176..181
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213179"
+     Site            184..187
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213179"
+     SecStr          198..205
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          206..211
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            208..214
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213179"
+     SecStr          213..220
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          221..228
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          229..235
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          236..243
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          246..253
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 snaeketgsk elakvdgnvt ikdlsfafge hkvlsgvsvd ikagqtvafv gksgsgkttl
+       61 tsiisrfytq hegeilldgv dtreltlenl rshlsivsqn vhlfddtvyn niafglsrev
+      121 seeevidalk ranayefvqe lsdgintnig nngsklsggq rqrisiaral lknapvlifd
+      181 eatsaldnes ervvqqales ltkscttivi ahrlstvena dkivvmdggr vvesgkhqel
+      241 leqgglytrl yqsglq
+//
+

@@ -1,0 +1,116 @@
+LOCUS       3L0P_A                   223 aa            linear   BCT 12-FEB-2014
+DEFINITION  Chain A, Crystal Structures Of Iron Containing Adenylate Kinase
+            From Desulfovibrio Gigas.
+ACCESSION   3L0P_A
+VERSION     3L0P_A  GI:315113385
+DBSOURCE    pdb: molecule 3L0P, chain 65, release Feb 12, 2014;
+            deposition: Dec 10, 2009;
+            class: Transferase;
+            source: Mmdb_id: 87308, Pdb_id 1: 3L0P;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Desulfovibrio gigas
+  ORGANISM  Desulfovibrio gigas
+            Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales;
+            Desulfovibrionaceae; Desulfovibrio.
+REFERENCE   1  (residues 1 to 223)
+  AUTHORS   Mukhopadhyay,A., Kladova,A.V., Bursakov,S.A., Gavel,O.Y.,
+            Calvete,J.J., Shnyrov,V.L., Moura,I., Moura,J.J., Romao,M.J. and
+            Trincao,J.
+  TITLE     Crystal structure of the zinc-, cobalt-, and iron-containing
+            adenylate kinase from Desulfovibrio gigas: a novel metal-containing
+            adenylate kinase from Gram-negative bacteria
+  JOURNAL   J. Biol. Inorg. Chem. 16 (1), 51-61 (2011)
+   PUBMED   20821240
+REFERENCE   2  (residues 1 to 223)
+  AUTHORS   Mukhopadhyay,A., Trincao,J. and Romao,M.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-DEC-2009)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..223
+                     /organism="Desulfovibrio gigas"
+                     /db_xref="taxon:879"
+     Region          1..223
+                     /region_name="PRK14529"
+                     /note="adenylate kinase; Provisional"
+                     /db_xref="CDD:237746"
+     Region          join(1..115,182..223)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          1..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..214
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          13..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..30
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(31,36,59,83..84,86..87,91)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          31..38
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(36,83,87,126,173,177)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          44..55
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          61..74
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          79..84
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          89..102
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          107..114
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          116..181
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          116..125
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          127..131
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Het             join(bond(129),bond(135),bond(151),bond(154))
+                     /heterogen="( FE,1000 )"
+     SecStr          156..160
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          167..178
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          184..194
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          200..207
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          213..220
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 mnilifgpng sgkgtqgnlv kdkyslahie sggifrehig ggtelgkkak efidrgdlvp
+       61 dditipmvle tleskgkdgw lldgfprntv qaqklfealq ekgmkinfvi eillprevak
+      121 nrimgrrick nnpnhpnnif ieaikpngdv crvcggalsa raddqdegai nkrhdiyynt
+      181 vdgtlaaayy yknmaakegf vyieldgegs idsikdtlla qla
+//
+

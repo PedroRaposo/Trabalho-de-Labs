@@ -1,0 +1,143 @@
+LOCUS       2NQ2_C                   253 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain C, An Inward-Facing Conformation Of A Putative Metal-Chelate
+            Type Abc Transporter.
+ACCESSION   2NQ2_C
+VERSION     2NQ2_C  GI:122920966
+DBSOURCE    pdb: molecule 2NQ2, chain 67, release Jun 18, 2009;
+            deposition: Oct 30, 2006;
+            class: Metal Transport;
+            source: Mmdb_id: 43495, Pdb_id 1: 2NQ2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Haemophilus influenzae
+  ORGANISM  Haemophilus influenzae
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales;
+            Pasteurellaceae; Haemophilus.
+REFERENCE   1  (residues 1 to 253)
+  AUTHORS   Pinkett,H.W., Lee,A.T., Lum,P., Locher,K.P. and Rees,D.C.
+  TITLE     An inward-facing conformation of a putative metal-chelate-type ABC
+            transporter
+  JOURNAL   Science 315 (5810), 373-377 (2007)
+   PUBMED   17158291
+REFERENCE   2  (residues 1 to 253)
+  AUTHORS   Pinkett,H.P., Lee,A.T., Lum,P., Locher,K.P. and Rees,D.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2006)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..253
+                     /organism="Haemophilus influenzae"
+                     /db_xref="taxon:727"
+     Region          1..214
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          3..229
+                     /region_name="FepC"
+                     /note="ABC-type cobalamin/Fe3+-siderophores transport
+                     system, ATPase component [Inorganic ion transport and
+                     metabolism, Coenzyme transport and metabolism]; COG1120"
+                     /db_xref="CDD:224045"
+     SecStr          4..9
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          6..210
+                     /region_name="P-loop_NTPase"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; cl21455"
+                     /db_xref="CDD:277521"
+     SecStr          10..16
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          17..22
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          23..29
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            38..45
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213179"
+     Site            order(41..42,44..46,73,153..154,187)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213179"
+     SecStr          44..52
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          58..65
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          67..73
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            70..73
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213179"
+     SecStr          82..89
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          103..116
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     Site            129..138
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213179"
+     SecStr          131..145
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          148..154
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            149..154
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213179"
+     Site            157..160
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213179"
+     SecStr          161..176
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          180..187
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            183..189
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213179"
+     SecStr          189..196
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          197..204
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          205..211
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          215..253
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          218..225
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          228..237
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          238..247
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 mnkalsvenl gfyyqaenfl fqqlnfdlnk gdilavlgqn gcgkstlldl llgihrpiqg
+       61 kievyqsigf vpqffsspfa ysvldivlmg rsthintfak pkshdyqvam qaldylnlth
+      121 lakreftsls ggqrqlilia raiaseckli lldeptsald lanqdivlsl lidlaqsqnm
+      181 tvvftthqpn qvvaianktl llnkqnfkfg etrniltsen ltalfhlpmf eqqaqykesf
+      241 fthfvplykt llk
+//
+

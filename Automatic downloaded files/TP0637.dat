@@ -1,0 +1,97 @@
+ID   MIAA_TREPA              Reviewed;         316 AA.
+AC   O83644;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 94.
+DE   RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            EC=2.5.1.75 {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE   AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};
+DE            Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   Name=miaA {ECO:0000255|HAMAP-Rule:MF_00185};
+GN   OrderedLocusNames=TP_0637;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the
+CC       adenine at position 37 in tRNAs that read codons beginning with
+CC       uridine, leading to the formation of N6-(dimethylallyl)adenosine
+CC       (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- CATALYTIC ACTIVITY: Dimethylallyl diphosphate + adenine(37) in
+CC       tRNA = diphosphate + N(6)-dimethylallyladenine(37) in tRNA.
+CC       {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420;
+CC         Evidence={ECO:0000255|HAMAP-Rule:MF_00185};
+CC   -!- SUBUNIT: Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -!- SIMILARITY: Belongs to the IPP transferase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00185}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65611.1; -; Genomic_DNA.
+DR   PIR; B71301; B71301.
+DR   RefSeq; WP_010882082.1; NC_021490.2.
+DR   ProteinModelPortal; O83644; -.
+DR   IntAct; O83644; 4.
+DR   STRING; 243276.TP0637; -.
+DR   EnsemblBacteria; AAC65611; AAC65611; TP_0637.
+DR   GeneID; 2611718; -.
+DR   KEGG; tpa:TP_0637; -.
+DR   PATRIC; 20531345; VBITrePal57110_0680.
+DR   eggNOG; ENOG4105DKX; Bacteria.
+DR   eggNOG; COG0324; LUCA.
+DR   KO; K00791; -.
+DR   OMA; YGLEYKF; -.
+DR   OrthoDB; EOG661HB3; -.
+DR   BioCyc; TPAL243276:GC1H-675-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0052381; F:tRNA dimethylallyltransferase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0008033; P:tRNA processing; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_00185; IPP_trans; 1.
+DR   InterPro; IPR018022; IPP_trans.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   Pfam; PF01715; IPPT; 1.
+DR   SUPFAM; SSF52540; SSF52540; 1.
+DR   TIGRFAMs; TIGR00174; miaA; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Magnesium; Nucleotide-binding;
+KW   Reference proteome; Transferase; tRNA processing.
+FT   CHAIN         1    316       tRNA dimethylallyltransferase.
+FT                                /FTId=PRO_0000164001.
+FT   NP_BIND      27     34       ATP. {ECO:0000255|HAMAP-Rule:MF_00185}.
+FT   REGION       29     34       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00185}.
+FT   REGION       52     55       Interaction with substrate tRNA.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00185}.
+FT   SITE        117    117       Interaction with substrate tRNA.
+FT                                {ECO:0000255|HAMAP-Rule:MF_00185}.
+SQ   SEQUENCE   316 AA;  36174 MW;  E4BE144EE6ED5208 CRC64;
+     MRLETQALVP YPVRFDRSHH DALVVLGATA TGKTALAVAL AQKYQGEIIS ADSRQVYRGL
+     DVGTGKDLAL YGSVPYHLID VCDPYEEYNV FRFQQAVYGI VPSILRAHKV PIIVGGTGLY
+     LDAVLRQYAL VPVERNQALR ASLRGASLSH MRAVYFSLKD SHAVHNKTDL EDPARLMRAI
+     EIAVFHATHP ELLQQARETR PMMRAKVYGI QYPRSMLRAR IRARLEQRIR GGLIEEVAAL
+     HKGGVSWQRL EYFGLEYRFT AQYLQGIIAT RDEYVDLLFR AISRFAKRQE TWFRRMQRLG
+     VKIHWLVHTE NGFVLR
+//

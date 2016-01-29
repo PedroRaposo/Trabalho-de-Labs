@@ -1,0 +1,65 @@
+ID   CSRA_TREPA              Reviewed;          73 AA.
+AC   O83663;
+DT   01-DEC-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 80.
+DE   RecName: Full=Carbon storage regulator homolog;
+GN   Name=csrA; OrderedLocusNames=TP_0657;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Could accelerate the degradation of some genes
+CC       transcripts potentially through selective RNA binding.
+CC       {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the CsrA family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65631.1; -; Genomic_DNA.
+DR   PIR; B71297; B71297.
+DR   RefSeq; WP_010882102.1; NC_021490.2.
+DR   ProteinModelPortal; O83663; -.
+DR   IntAct; O83663; 4.
+DR   STRING; 243276.TP0657; -.
+DR   EnsemblBacteria; AAC65631; AAC65631; TP_0657.
+DR   GeneID; 2611156; -.
+DR   KEGG; tpa:TP_0657; -.
+DR   PATRIC; 20531387; VBITrePal57110_0698.
+DR   eggNOG; ENOG4105VM8; Bacteria.
+DR   eggNOG; COG1551; LUCA.
+DR   KO; K03563; -.
+DR   OMA; YLAIQAE; -.
+DR   OrthoDB; EOG6DC6PM; -.
+DR   BioCyc; TPAL243276:GC1H-698-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0003723; F:RNA binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006402; P:mRNA catabolic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006109; P:regulation of carbohydrate metabolic process; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00167; CsrA; 1.
+DR   InterPro; IPR003751; CsrA.
+DR   Pfam; PF02599; CsrA; 1.
+DR   ProDom; PD009007; CsrA; 1.
+DR   TIGRFAMs; TIGR00202; csrA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Reference proteome; RNA-binding.
+FT   CHAIN         1     73       Carbon storage regulator homolog.
+FT                                /FTId=PRO_0000177094.
+SQ   SEQUENCE   73 AA;  8336 MW;  45FA16B082FF25FF CRC64;
+     MLILSRKTNQ KIFIGDSIEL TIIEIRGDQV KVGVEAPRSV KIFRQEVYEE IQRENRAASD
+     SPWSPNSLPQ LPV
+//

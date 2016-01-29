@@ -1,0 +1,131 @@
+LOCUS       3ENO_A                   334 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Pyrococcus Furiosus Pcc1 In Complex
+            With Thermoplasma Acidophilum Kae1.
+ACCESSION   3ENO_A
+VERSION     3ENO_A  GI:210061045
+DBSOURCE    pdb: molecule 3ENO, chain 65, release Jan 13, 2010;
+            deposition: Sep 25, 2008;
+            class: HydrolaseUNKNOWN FUNCTION;
+            source: Mmdb_id: 67654, Pdb_id 1: 3ENO;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermoplasma acidophilum
+  ORGANISM  Thermoplasma acidophilum
+            Archaea; Euryarchaeota; Thermoplasmata; Thermoplasmatales;
+            Thermoplasmataceae; Thermoplasma.
+REFERENCE   1  (residues 1 to 334)
+  AUTHORS   Mao,D.Y., Neculai,D., Downey,M., Orlicky,S., Haffani,Y.Z.,
+            Ceccarelli,D.F., Ho,J.S., Szilard,R.K., Zhang,W., Ho,C.S., Wan,L.,
+            Fares,C., Rumpel,S., Kurinov,I., Arrowsmith,C.H., Durocher,D. and
+            Sicheri,F.
+  TITLE     Atomic structure of the KEOPS complex: an ancient protein
+            kinase-containing molecular machine
+  JOURNAL   Mol. Cell 32 (2), 259-275 (2008)
+   PUBMED   18951093
+REFERENCE   2  (residues 1 to 334)
+  AUTHORS   Neculai,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-SEP-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..334
+                     /organism="Thermoplasma acidophilum"
+                     /db_xref="taxon:2303"
+     Region          join(1..126,288..334)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          <6..263
+                     /region_name="NBD_sugar-kinase_HSP70_actin"
+                     /note="Nucleotide-Binding Domain of the sugar
+                     kinase/HSP70/actin superfamily; cl17037"
+                     /db_xref="CDD:277496"
+     SecStr          6..13
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          8..>111
+                     /region_name="TsaB"
+                     /note="tRNA A37 threonylcarbamoyladenosine modification
+                     protein TsaB [Translation, ribosomal structure and
+                     biogenesis]; cl22532"
+                     /db_xref="CDD:276486"
+     Region          9..329
+                     /region_name="arch_KAE1"
+                     /note="universal archaeal protein Kae1; TIGR03722"
+                     /db_xref="CDD:274747"
+     SecStr          16..25
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          26..36
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          45..57
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          58..67
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          75..80
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..103
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          105..110
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Het             join(bond(133),bond(290),bond(112),bond(116))
+                     /heterogen="( MG,1000 )"
+     SecStr          112..124
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          127..287
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          129..136
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          137..145
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          148..157
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          160..171
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          178..186
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          197..200
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          201..205
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          206..218
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          222..247
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          251..258
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          263..276
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          278..281
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          293..305
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 gamdpmivlg legtahtisc giidesrila messmyrpkt ggirpldaav hhsevidtvi
+       61 sralekakis ihdidligfs mgpglapslr vtataartis vltgkpiigv nhplghieig
+      121 rrvtgaidpv mlyvsggntq viahvngryr vlgetldigi gnmidkfare agipfpggpe
+      181 ieklamkgtk lldlpysvkg mdtafsgilt aalqylktgq aiedisysiq etafamlvev
+      241 leralyvsgk deilmaggva lnrrlrdmvt nmareagirs yltdreycmd ngimiaqaal
+      301 lmyksgvrms veetavnprf ridevdapwi tdas
+//
+

@@ -1,0 +1,151 @@
+LOCUS       1EG5_A                   384 aa            linear   BCT 11-FEB-2013
+DEFINITION  Chain A, Nifs-like Protein.
+ACCESSION   1EG5_A
+VERSION     1EG5_A  GI:7546280
+DBSOURCE    pdb: molecule 1EG5, chain 65, release Feb 7, 2013;
+            deposition: Feb 13, 2000;
+            class: Transferase;
+            source: Mmdb_id: 12892, Pdb_id 1: 1EG5;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 384)
+  AUTHORS   Kaiser,J.T., Clausen,T., Bourenkow,G.P., Bartunik,H.D.,
+            Steinbacher,S. and Huber,R.
+  TITLE     Crystal structure of a NifS-like protein from Thermotoga maritima:
+            implications for iron sulphur cluster assembly
+  JOURNAL   J. Mol. Biol. 297 (2), 451-464 (2000)
+   PUBMED   10715213
+REFERENCE   2  (residues 1 to 384)
+  AUTHORS   Kaiser,J.T., Clausen,T., Bourenkow,G.P., Bartunik,H.-D.,
+            Steinbach,S. and Huber,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-FEB-2000)
+COMMENT     1 Aminotransferase.
+FEATURES             Location/Qualifiers
+     source          1..384
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     Region          join(1..10,259..384)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..376
+                     /region_name="NifS"
+                     /note="Cysteine sulfinate desulfinase/cysteine desulfurase
+                     or related enzyme [Amino acid transport and metabolism];
+                     COG1104"
+                     /db_xref="CDD:224029"
+     SecStr          2..6
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          3..365
+                     /region_name="Aminotran_5"
+                     /note="Aminotransferase class-V; pfam00266"
+                     /db_xref="CDD:249728"
+     Region          join(11..60,240..258)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          14..22
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          37..57
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          61..222
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          63..68
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(70..71,74,147,177,180,200,203)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     SecStr          70..85
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          90..95
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          100..112
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          114..119
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          128..136
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          141..146
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          147..151
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          152..156
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          158..168
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          172..178
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          195..201
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            203
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     Het             bond(203)
+                     /heterogen="(PLP,1001 )"
+     SecStr          210..216
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          228..231
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          234..237
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          241..258
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          259..279
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          281..285
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          293..299
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          304..314
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          315..318
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          341..348
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          349..353
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          359..375
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 xrvyfdnnat trvddrvlee xivfyrekyg npnsahgxgi eanlhxekar ekvakvlgvs
+       61 pseifftsca tesinwilkt vaetfekrkr tiittpiehk avletxkyls xkgfkvkyvp
+      121 vdsrgvvkle eleklvdedt flvsixaann evgtiqpved vtrivkkknk etlvhvdavq
+      181 tigkipfsle klevdyasfs ahkfhgpkgv gityirkgvp irplihgggq erglrsgtqn
+      241 vpgivgaara xeiaveelse aakhxeklrs klvsglxnlg ahiitpleis lpntlsvsfp
+      301 nirgstlqnl lsgygiyvst ssactskder lrhvldaxgv drriaqgair islckyntee
+      361 evdyflkkie eilsfldltg nnrr
+//
+

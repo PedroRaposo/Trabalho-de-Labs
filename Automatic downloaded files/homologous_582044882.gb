@@ -1,0 +1,121 @@
+LOCUS       3J60_A                   260 aa            linear   PLN 12-MAR-2014
+DEFINITION  Chain A, Localization Of The Small Subunit Ribosomal Proteins Into
+            A 5.5 A Cryo-em Map Of Triticum Aestivum Translating 80s Ribosome.
+ACCESSION   3J60_A
+VERSION     3J60_A  GI:582044882
+DBSOURCE    pdb: molecule 3J60, chain 65, release Mar 12, 2014;
+            deposition: Nov 22, 2013;
+            class: Ribosome;
+            source: Mmdb_id: 117126, Pdb_id 1: 3J60;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Triticum aestivum (bread wheat)
+  ORGANISM  Triticum aestivum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Poales; Poaceae; BOP
+            clade; Pooideae; Triticodae; Triticeae; Triticinae; Triticum.
+REFERENCE   1  (residues 1 to 260)
+  AUTHORS   Armache,J.P., Jarasch,A., Anger,A.M., Villa,E., Becker,T.,
+            Bhushan,S., Jossinet,F., Habeck,M., Dindar,G., Franckenberg,S.,
+            Marquez,V., Mielke,T., Thomm,M., Berninghausen,O., Beatrix,B.,
+            Soding,J., Westhof,E., Wilson,D.N. and Beckmann,R.
+  TITLE     Localization of eukaryote-specific ribosomal proteins in a 5.5-A
+            cryo-EM map of the 80S eukaryotic ribosome
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (46), 19754-19759 (2010)
+   PUBMED   20974910
+REFERENCE   2  (residues 1 to 260)
+  AUTHORS   Armache,J.P., Jarasch,A., Anger,A.M., Villa,E., Becker,T.,
+            Bhushan,S., Jossinet,F., Habeck,M., Dindar,G., Franckenberg,S.,
+            Marquez,V., Mielke,T., Thomm,M., Berninghausen,O., Beatrix,B.,
+            Soding,J., Westhof,E., Wilson,D.N. and Beckmann,R.
+  TITLE     Cryo-EM structure and rRNA model of a translating eukaryotic 80S
+            ribosome at 5.5-A resolution
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 107 (46), 19748-19753 (2010)
+   PUBMED   20980660
+REFERENCE   3  (residues 1 to 260)
+  AUTHORS   Gogala,M., Becker,T., Beatrix,B., Armache,J.P., Barrio-Garcia,C.,
+            Berninghausen,O. and Beckmann,R.
+  TITLE     Structures of the Sec61 complex engaged in nascent peptide
+            translocation or membrane insertion
+  JOURNAL   Nature 506 (7486), 107-110 (2014)
+   PUBMED   24499919
+REFERENCE   4  (residues 1 to 260)
+  AUTHORS   Barrio-Garcia,C., Armache,J.-P., Jarasch,A., Anger,A.M., Villa,E.,
+            B,T., Bhushan,S., Jossinet,F., Habeck,M., Dindar,G.,
+            Franckenberg,S., Mar,V., Mielke,T., Thomm,M., Berninghausen,O.,
+            Beatrix,B., Soeding,J., West,E., Wilson,D.N. and Beckmann,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-NOV-2013)
+COMMENT     25 40s Ribosomal Protein S2.
+FEATURES             Location/Qualifiers
+     source          1..260
+                     /organism="Triticum aestivum"
+                     /db_xref="taxon:4565"
+     Region          12..211
+                     /region_name="PTZ00254"
+                     /note="40S ribosomal protein SA; Provisional"
+                     /db_xref="CDD:240331"
+     SecStr          16..25
+                     /sec_str_type="helix"
+                     /note="helix 51"
+     Region          22..188
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     SecStr          28..33
+                     /sec_str_type="sheet"
+                     /note="strand 132"
+     Site            order(36..37,46,48..49,106,108..110,113..114,140,143)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          49..53
+                     /sec_str_type="sheet"
+                     /note="strand 133"
+     SecStr          56..67
+                     /sec_str_type="helix"
+                     /note="helix 52"
+     SecStr          77..83
+                     /sec_str_type="sheet"
+                     /note="strand 134"
+     SecStr          85..97
+                     /sec_str_type="helix"
+                     /note="helix 53"
+     SecStr          100..105
+                     /sec_str_type="sheet"
+                     /note="strand 135"
+     SecStr          124..130
+                     /sec_str_type="sheet"
+                     /note="strand 136"
+     SecStr          135..144
+                     /sec_str_type="helix"
+                     /note="helix 54"
+     Site            order(142..143,145,159..162)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          146..153
+                     /sec_str_type="sheet"
+                     /note="strand 137"
+     SecStr          162..167
+                     /sec_str_type="sheet"
+                     /note="strand 138"
+     SecStr          174..187
+                     /sec_str_type="helix"
+                     /note="helix 55"
+     Site            177..182
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+ORIGIN      
+        1 maaeggaaar alsqreqdiq mmlaadvhlg tkncdfqmer yvykrrtdgi yiinlgktwe
+       61 klqlaarviv aienpqdiiv qsarpygqra vlkfaqytga haiagrhtpg tftnqlqtsf
+      121 seprlliltd prtdhqpike salgniptia fcdtdspmry vdigipannk gkqsigclfw
+      181 llarmvlqmr gtilpghkwd vmvdlffyrd peeakeqeee eaalvapdyg avaeyaapaa
+      241 dtwggewgtd aaaqpaaipa
+//
+

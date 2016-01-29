@@ -1,0 +1,151 @@
+LOCUS       2ODO_A                   357 aa            linear   BCT 12-NOV-2012
+DEFINITION  Chain A, Crystal Structure Of Pseudomonas Fluorescens Alanine
+            Racemase.
+ACCESSION   2ODO_A
+VERSION     2ODO_A  GI:167013239
+DBSOURCE    pdb: molecule 2ODO, chain 65, release Nov 8, 2012;
+            deposition: Dec 25, 2006;
+            class: Isomerase;
+            source: Mmdb_id: 62219, Pdb_id 1: 2ODO;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pseudomonas fluorescens
+  ORGANISM  Pseudomonas fluorescens
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (residues 1 to 357)
+  AUTHORS   Tsuge,H., Ohnishi,K. and Yokoigawa,K.
+  TITLE     Crystal Structure Of Pseudomonas Fluorescens Alanin Racemase
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 357)
+  AUTHORS   Tsuge,H., Ohnishi,K. and Yokoigawa,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-DEC-2006)
+COMMENT     1 Alanine Racemase.
+FEATURES             Location/Qualifiers
+     source          1..357
+                     /organism="Pseudomonas fluorescens"
+                     /db_xref="taxon:294"
+     Region          join(1..10,222..357)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..355
+                     /region_name="dadX"
+                     /note="alanine racemase; Reviewed; PRK03646"
+                     /db_xref="CDD:179622"
+     Region          3..354
+                     /region_name="PLPDE_III_AR_proteobact"
+                     /note="Type III Pyridoxal 5-phosphate (PLP)-Dependent
+                     Enzymes, Proteobacterial Alanine Racemases; cd06827"
+                     /db_xref="CDD:143500"
+     SecStr          3..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          11..221
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          11..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..32
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(31,33,37,78,122,129,156,158,192..194,208..211,341)
+                     /site_type="active"
+                     /db_xref="CDD:143500"
+     Site            order(31,33,37,78,158,192..193,208,210..211,341)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate (PLP) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:143500"
+     Site            order(33,37,129,158,341)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143500"
+     Site            order(33,253)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143500"
+     SecStr          41..48
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          53..58
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          61..69
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          74..78
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..94
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          95..100
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          103..110
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          117..123
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          137..146
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          151..157
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          169..181
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          187..190
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          205..210
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          232..240
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            order(240,243,249..250,252..254,267,272,278,300,302,339,
+                     341..342,347,349)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:143500"
+     SecStr          241..248
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          260..264
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          265..270
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          284..289
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          290..295
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          302..309
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          318..323
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          329..336
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          350..355
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+ORIGIN      
+        1 mrparalidl qalrhnyqla revtgakala vixadayghg avrcaqalea eadgfavaci
+       61 eealelraag irapillleg ffeadelpli vehdfwcvvh slwqldaieq arlakpihvw
+      121 lxldsgmhrv glhpndykaa yqrlqasanv akivlmshfa radeldctrs veqvavflga
+      181 radltaeisl rnspavlgwp rvpsdwvrpg lmlygsspfd epqatasrlq pvmtleskvi
+      241 cvrelpagep vgygarfitp kpmrigvvam gyadgyprqa ptgtpvfvdg vrsqllgrvs
+      301 mdmlcidltd vpqaglgstv elwgknilas evataadtip yqifcnlkrv prlysgn
+//
+

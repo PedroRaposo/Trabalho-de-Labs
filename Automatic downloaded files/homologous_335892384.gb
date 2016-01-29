@@ -1,0 +1,127 @@
+LOCUS       3PQC_A                   195 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Thermotoga Maritima Ribosome
+            Biogenesis Gtp- Binding Protein Engb (YsxcYIHA) IN COMPLEX WITH
+            GDP.
+ACCESSION   3PQC_A
+VERSION     3PQC_A  GI:335892384
+DBSOURCE    pdb: molecule 3PQC, chain 65, release Nov 23, 2011;
+            deposition: Nov 26, 2010;
+            class: Hydrolase;
+            source: Mmdb_id: 91217, Pdb_id 1: 3PQC;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 195)
+  AUTHORS   Chan,K.H. and Wong,K.B.
+  TITLE     Structure of an essential GTPase, YsxC, from Thermotoga maritima
+  JOURNAL   Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun. 67 (PT 6),
+            640-646 (2011)
+   PUBMED   21636901
+REFERENCE   2  (residues 1 to 195)
+  AUTHORS   Chan,K.H. and Wong,K.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2010)
+COMMENT     1 Probable Gtp-binding Protein Engb.
+FEATURES             Location/Qualifiers
+     source          1..195
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     Region          1..>44
+                     /region_name="P-loop_NTPase"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; cl21455"
+                     /db_xref="CDD:277521"
+     Region          3..195
+                     /region_name="EngB"
+                     /note="GTP-binding protein EngB required for normal cell
+                     division [Cell cycle control, cell division, chromosome
+                     partitioning]; COG0218"
+                     /db_xref="CDD:223296"
+     SecStr          5..13
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          23..30
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          25..192
+                     /region_name="YihA_EngB"
+                     /note="YihA (EngB) GTPase family; cd01876"
+                     /db_xref="CDD:206665"
+     Site            30..37
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206665"
+     Site            30..37
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213179"
+     Site            order(32..38,51..53,56..58,74,142,144,174..175)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206665"
+     SecStr          36..44
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            55..61
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206665"
+     Site            58
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206665"
+     SecStr          60..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          69..75
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            74..77
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206665"
+     Site            order(77..80,87..101,104..105)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206665"
+     SecStr          85..101
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          106..113
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          120..132
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          135..142
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            141..144
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206665"
+     SecStr          151..163
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          169..175
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            174..176
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206665"
+     SecStr          177..180
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          181..192
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 miirdvelvk vartpgdypp plkgevafvg rsnvgkssll nalfnrkiaf vsktpgktrs
+       61 infylvnsky yfvdlpgygy akvskkerml wkrlvedyfk nrwslqmvfl lvdgrippqd
+      121 sdlmmvewmk slnipftivl tkmdkvkmse rakkleehrk vfskygeyti iptssvtgeg
+      181 iselldlist llken
+//
+

@@ -1,0 +1,123 @@
+LOCUS       4JXN_A                   334 aa            linear   BCT 02-MAY-2013
+DEFINITION  Chain A, Crystal Structure Of Polyprenyl Synthase Isp_b (target
+            Efi-509198) From Roseobacter Denitrificans.
+ACCESSION   4JXN_A
+VERSION     4JXN_A  GI:485602195
+DBSOURCE    pdb: molecule 4JXN, chain 65, release May 1, 2013;
+            deposition: Mar 28, 2013;
+            class: Transferase;
+            source: Mmdb_id: 109732, Pdb_id 1: 4JXN;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Roseobacter denitrificans OCh 114
+  ORGANISM  Roseobacter denitrificans OCh 114
+            Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales;
+            Rhodobacteraceae; Roseobacter.
+REFERENCE   1  (residues 1 to 334)
+  AUTHORS   Patskovsky,Y., Toro,R., Bhosle,R., Hillerich,B., Seidel,R.D.,
+            Washington,E., Scott Glenn,A., Chowdhury,S., Evans,B., Ha,J.,
+            Zencheck,W.D., Imker,H.J., Al Obaidi,N., Stead,M., Love,J.,
+            Poulter,C.D., Gerlt,J.A. and Almo,S.C.
+  TITLE     Crystal Structure Of Isoprenoid Synthase Isp_b From Roseobacter
+            Denitrificans
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 334)
+  AUTHORS   Patskovsky,Y., Toro,R., Bhosle,R., Hillerich,B., Seidel,R.D.,
+            Washin,E., Scott Glenn,A., Chowdhury,S., Evans,B., Hammonds,J.,
+            Zencheck,W.D., H, Al Obaidi,N., Stead,M., Love,J., Poulter,C.D.,
+            Gerlt,J.A., Almo,S.C., E and Function Initiative (Efi).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAR-2013)
+COMMENT     1 Octaprenyl-diphosphate Synthase.
+FEATURES             Location/Qualifiers
+     source          1..334
+                     /organism="Roseobacter denitrificans OCh 114"
+                     /db_xref="taxon:375451"
+     SecStr          10..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          22..34
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          38..332
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          42..50
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          58..69
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          76..94
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(86,89..91,93..95,97..98,103..104,156,159,180..181,
+                     184,221..222,225,235,240,245)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            89..98
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(94..95,98,103..104,159,180,221..222,225,235,240,245)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(94..95,98,103..104,180,221..222)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(94..95,98,103..104,159,180)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(100..114,228..229,235..240,243..247)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          118..134
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          139..162
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          170..180
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          183..196
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          200..224
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(221..222,225,235,240,245)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          248..256
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          259..269
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          278..289
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          290..308
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          317..330
+                     /sec_str_type="helix"
+                     /note="helix 15"
+ORIGIN      
+        1 smsktenaqk phdrmaayle sdmaavstli rermaskhap ripevtahlv eaggkrlrpm
+       61 ltlaaahlcg ydgpfhinla atvefihtat llhddvvdes gqrrgrptan llwdnkssvl
+      121 vgdylfsrsf qlmvetgslr vldilanasa tiaegevlql tasqnlatte evylqvvrgk
+      181 taalfsaate vggviagapd dhvaalfeyg dalgiafqiv ddlldfqgda gaigknigdd
+      241 frerkltmpl ikavakadae erafwvrtie kgkqeegdlq haiallhkha altdtsvvar
+      301 tqaarakaal aplpahpvkd mlvdladyvv erin
+//
+

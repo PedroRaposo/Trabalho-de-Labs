@@ -1,0 +1,131 @@
+LOCUS       1L2T_A                   235 aa            linear   BCT 12-NOV-2012
+DEFINITION  Chain A, Dimeric Structure Of Mj0796, A Bacterial Abc Transporter
+            Cassette.
+ACCESSION   1L2T_A
+VERSION     1L2T_A  GI:22219193
+DBSOURCE    pdb: molecule 1L2T, chain 65, release Nov 8, 2012;
+            deposition: Feb 24, 2002;
+            class: Transport Protein;
+            source: Mmdb_id: 20214, Pdb_id 1: 1L2T;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanocaldococcus jannaschii
+  ORGANISM  Methanocaldococcus jannaschii
+            Archaea; Euryarchaeota; Methanococci; Methanococcales;
+            Methanocaldococcaceae; Methanocaldococcus.
+REFERENCE   1  (residues 1 to 235)
+  AUTHORS   Smith,P.C., Karpowich,N., Millen,L., Moody,J.E., Rosen,J.,
+            Thomas,P.J. and Hunt,J.F.
+  TITLE     ATP binding to the motor domain from an ABC transporter drives
+            formation of a nucleotide sandwich dimer
+  JOURNAL   Mol. Cell 10 (1), 139-149 (2002)
+   PUBMED   12150914
+REFERENCE   2  (residues 1 to 235)
+  AUTHORS   Smith,P.C., Karpowich,N., Rosen,J. and Hunt,J.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2002)
+COMMENT     1 Hypothetical Abc Transporter Atp-binding Protein Mj0796.
+FEATURES             Location/Qualifiers
+     source          1..235
+                     /organism="Methanocaldococcus jannaschii"
+                     /db_xref="taxon:2190"
+     Region          1..228
+                     /region_name="LolD"
+                     /note="ABC-type lipoprotein export system, ATPase
+                     component [Cell wall/membrane/envelope biogenesis];
+                     COG1136"
+                     /db_xref="CDD:224059"
+     SecStr          1..5
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..223
+                     /region_name="ABC_MJ0796_LolCDE_FtsE"
+                     /note="ATP-binding cassette domain of the transporters
+                     involved in export of lipoprotein and macrolide, and cell
+                     division protein; cd03255"
+                     /db_xref="CDD:213222"
+     SecStr          6..14
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          15..29
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            38..45
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213222"
+     Site            order(41..42,44..46,90,170..171,204)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213222"
+     SecStr          44..52
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             join(bond(45),bond(90))
+                     /heterogen="( NA,1000 )"
+     SecStr          58..65
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          66..70
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          74..83
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          84..90
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            87..90
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213222"
+     SecStr          99..106
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          118..132
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            146..155
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213222"
+     SecStr          148..160
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          165..171
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            166..171
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213222"
+     Site            174..177
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213222"
+     SecStr          178..193
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          197..203
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            200..206
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213222"
+     SecStr          213..220
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          221..229
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+ORIGIN      
+        1 miklknvtkt ykmgeeiiya lknvnlnike gefvsimgps gsgkstmlni igcldkpteg
+       61 evyidniktn dldddeltki rrdkigfvfq qfnlipllta lenvelplif kyrgamsgee
+      121 rrkraleclk maeleerfan hkpnqlsggq qqrvaiaral annppiilad qptgaldskt
+      181 gekimqllkk lneedgktvv vvthdinvar fgeriiylkd gevereeklr gfddr
+//
+

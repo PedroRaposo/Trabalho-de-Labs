@@ -1,0 +1,169 @@
+LOCUS       3QQ5_A                   423 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The [fefe]-Hydrogenase Maturation
+            Protein Hydf.
+ACCESSION   3QQ5_A
+VERSION     3QQ5_A  GI:357380559
+DBSOURCE    pdb: molecule 3QQ5, chain 65, release Jan 11, 2012;
+            deposition: Feb 15, 2011;
+            class: Oxidoreductase;
+            source: Mmdb_id: 95039, Pdb_id 1: 3QQ5;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga neapolitana DSM 4359
+  ORGANISM  Thermotoga neapolitana DSM 4359
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 423)
+  AUTHORS   Cendron,L., Berto,P., D'Adamo,S., Vallese,F., Govoni,C.,
+            Posewitz,M.C., Giacometti,G.M., Costantini,P. and Zanotti,G.
+  TITLE     Crystal Structure of HydF Scaffold Protein Provides Insights into
+            [FeFe]-Hydrogenase Maturation
+  JOURNAL   J. Biol. Chem. 286 (51), 43944-43950 (2011)
+   PUBMED   22057316
+REFERENCE   2  (residues 1 to 423)
+  AUTHORS   Cendron,L., Berto,P., D'adamo,S., Vallese,F., Govoni,C.,
+            Posewitz,M.C., Giacometti,G.M., Costantini,P. and Zanotti,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-FEB-2011)
+COMMENT     1 Small Gtp-binding Protein.
+FEATURES             Location/Qualifiers
+     source          1..423
+                     /organism="Thermotoga neapolitana DSM 4359"
+                     /db_xref="taxon:309803"
+     Region          1..203
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          29..420
+                     /region_name="GTP_HydF"
+                     /note="[FeFe] hydrogenase H-cluster maturation GTPase
+                     HydF; TIGR03918"
+                     /db_xref="CDD:274853"
+     SecStr          34..41
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          38..194
+                     /region_name="Era_like"
+                     /note="E. coli Ras-like protein (Era)-like GTPase;
+                     cd00880"
+                     /db_xref="CDD:206646"
+     Site            41..48
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206646"
+     Site            order(44..49,148..149,151,176..177)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206646"
+     Site            68..72
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206646"
+     Site            69
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206646"
+     SecStr          73..80
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          82..90
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(88..93,113)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206646"
+     Site            89..92
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206646"
+     SecStr          104..111
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          115..121
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          128..139
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          142..149
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            148..151
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206646"
+     SecStr          170..175
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            176..178
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206646"
+     SecStr          187..194
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          204..301
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          212..218
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          231..242
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          244..250
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          253..261
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          266..271
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          287..291
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          292..299
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          302..423
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          303..310
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          318..327
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Bond            bond(327,327)
+                     /bond_type="disulfide"
+     SecStr          340..348
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          352..361
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          373..378
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Bond            bond(378,381)
+                     /bond_type="disulfide"
+     SecStr          385..398
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          400..405
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          406..413
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 hhhhhhssgl vprgshmled prrytmrlpd agfrryivva grrnvgkssf mnalvgqnvs
+       61 ivsdyagttt dpvyksmelh pigpvtlvdt pglddvgelg rlrvekarrv fyradcgilv
+      121 tdsaptpyed dvvnlfkeme ipfvvvvnki dvlgekaeel kglyesryea kvllvsalqk
+      181 kgfddigkti seilpgdeei pylgdlidgg dlvilvvpid lgapkgrlim pqvhaireal
+      241 dreaialvvk erelryvmen igmkpklvit dsqvamkvas dvpedveltt fsivesryrg
+      301 dlayfvesvr kieeledgdt vvimegcthr pltedigrvk iprwlvnhtg aqlnfkviag
+      361 kdfpdleeie nakliihcgg cilnrsammr rvrmakrlgi pmtnygvtis ylhgvlerai
+      421 rpf
+//
+

@@ -1,0 +1,175 @@
+LOCUS       3OO2_A                   385 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, 2.37 Angstrom Resolution Crystal Structure Of An Alanine
+            Racemase (Alr) From Staphylococcus Aureus Subsp. Aureus Col.
+ACCESSION   3OO2_A
+VERSION     3OO2_A  GI:308198664
+DBSOURCE    pdb: molecule 3OO2, chain 65, release Oct 6, 2010;
+            deposition: Aug 30, 2010;
+            class: Isomerase;
+            source: Mmdb_id: 85389, Pdb_id 1: 3OO2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Staphylococcus aureus subsp. aureus COL
+  ORGANISM  Staphylococcus aureus subsp. aureus COL
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+            Staphylococcus.
+REFERENCE   1  (residues 1 to 385)
+  AUTHORS   Halavaty,A.S., Shuvalova,L., Minasov,G., Winsor,J., Dubro,I.,
+            Kwon,K., Anderson,W.F., Center For Structural Genomics Of
+            Infectious Diseas and (Csgid).
+  TITLE     2.37 Angstrom Resolution Crystal Structure Of An Al Racemase (Alr)
+            From Staphylococcus Aureus Subsp. Au
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 385)
+  AUTHORS   Halavaty,A.S., Shuvalova,L., Minasov,G., Winsor,J., Dubrovska,I.,
+            Kw,K., Anderson,W.F., Center For Structural Genomics Of Infectious
+            D and (Csgid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-AUG-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..385
+                     /organism="Staphylococcus aureus subsp. aureus COL"
+                     /db_xref="taxon:93062"
+     Region          join(1..18,244..385)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          8..373
+                     /region_name="Alr"
+                     /note="Alanine racemase [Cell wall/membrane/envelope
+                     biogenesis]; COG0787"
+                     /db_xref="CDD:223858"
+     Region          11..371
+                     /region_name="PLPDE_III_AR"
+                     /note="Type III Pyridoxal 5-phosphate (PLP)-Dependent
+                     Enzyme Alanine Racemase; cd00430"
+                     /db_xref="CDD:143481"
+     SecStr          11..18
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          19..243
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          19..32
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          35..41
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(40,42,46,88,134,141,171,206..207,222..225,268,287,
+                     314..315,357)
+                     /site_type="active"
+                     /db_xref="CDD:143481"
+     Site            order(40,42,46,88,141,171,206..207,222..225,357)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate (PLP) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:143481"
+     Site            order(42..43,68,71..72,109..110,139..142,171,173,255..258,
+                     260,264..265,267..269,282,287,293,316..317,353..354,
+                     357..358,366)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:143481"
+     Site            order(42,46,141,171,268,287,314..315,357)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143481"
+     Site            order(42,268)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143481"
+     SecStr          50..60
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          63..69
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          70..79
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          83..89
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          95..103
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          104..109
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          111..120
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          128..135
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          147..158
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Het             join(bond(157),bond(160),bond(163))
+                     /heterogen="( NA,1000 )"
+     SecStr          162..170
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          181..194
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          200..204
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Bond            bond(204,218)
+                     /bond_type="disulfide"
+     SecStr          206..213
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          219..224
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          233..240
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          247..254
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          255..262
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          276..285
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          298..303
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          304..310
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Het             bond(314)
+                     /heterogen="(BME,1002 )"
+     SecStr          316..322
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          330..337
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          345..352
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          355..362
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          367..374
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          375..381
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+ORIGIN      
+        1 snamsdkyyr saymnvdlna vasnfkvfst lhpnktvmav vkanayglgs vkvarhlmen
+       61 gatffavatl deaielrmhg itakilvlgv lpakdidkai qhrvaltvps kqwlkeaikn
+      121 isgeqekklw lhikldtgmg rlgikdtkty qevieiiqqy eqlvfegvft hfacadepgd
+      181 mtteqyqrfk dmvneaikpe yihcqnsags llmdcqfcna irpgislygy ypseyvqqkv
+      241 kvhlkpsvql ianvvqtktl qagesvsyga tytatdptti allpigyadg ylrimqgsfv
+      301 nvnghqcevi grvcmdqtiv kvpdqvkagd svilidnhre spqsvevvae kqhtinyevl
+      361 cnlsrrlpri yhdgdqrfvt nellk
+//
+

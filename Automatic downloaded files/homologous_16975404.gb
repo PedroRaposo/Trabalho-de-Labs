@@ -1,0 +1,258 @@
+LOCUS       1GM5_A                   780 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of Recg Bound To Three-Way Dna Junction.
+ACCESSION   1GM5_A
+VERSION     1GM5_A  GI:16975404
+DBSOURCE    pdb: molecule 1GM5, chain 65, release Jun 6, 2011;
+            deposition: Sep 11, 2001;
+            class: Helicase;
+            source: Mmdb_id: 72153, Pdb_id 1: 1GM5;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima
+  ORGANISM  Thermotoga maritima
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 780)
+  AUTHORS   Singleton,M.R., Scaife,S. and Wigley,D.B.
+  TITLE     Structural analysis of DNA replication fork reversal by RecG
+  JOURNAL   Cell 107 (1), 79-89 (2001)
+   PUBMED   11595187
+REFERENCE   2  (residues 1 to 780)
+  AUTHORS   Singleton,M.R., Scaife,S. and Wigley,D.B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-SEP-2001)
+COMMENT     1 Recg.
+FEATURES             Location/Qualifiers
+     source          1..780
+                     /organism="Thermotoga maritima"
+                     /db_xref="taxon:2336"
+     Region          1..111
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          22..34
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          39..48
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          57..70
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          82..98
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Bond            bond(106,282)
+                     /bond_type="disulfide"
+     Region          112..776
+                     /region_name="PRK10917"
+                     /note="ATP-dependent DNA helicase RecG; Provisional"
+                     /db_xref="CDD:236794"
+     SecStr          125..132
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          join(141..159,249..283)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          148..154
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          160..248
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          164..172
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          169..240
+                     /region_name="RecG_wedge_OBF"
+                     /note="RecG_wedge_OBF: A subfamily of OB folds
+                     corresponding to the OB fold found in the N-terminal
+                     (wedge) domain of Escherichia coli RecG. RecG is a
+                     branched-DNA-specific helicase, which catalyzes the
+                     interconversion of a DNA replication fork to a...;
+                     cd04488"
+                     /db_xref="CDD:239934"
+     Site            order(169,220,222,224)
+                     /site_type="other"
+                     /note="generic binding surface II"
+                     /db_xref="CDD:239934"
+     SecStr          173..183
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(180,187,204,208,238)
+                     /site_type="other"
+                     /note="ssDNA binding site"
+                     /db_xref="CDD:239934"
+     SecStr          184..194
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          197..205
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          221..229
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          236..240
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          241..245
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          252..258
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          266..276
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          290..297
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          join(300..346,735..780)
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          302..309
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          314..331
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          332..345
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          347..549
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          348..351
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          356..364
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          371..384
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          385..388
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          389..397
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Region          390..526
+                     /region_name="DEXDc"
+                     /note="DEAD-like helicases superfamily. A diverse family
+                     of proteins involved in ATP-dependent RNA or DNA
+                     unwinding. This domain contains the ATP-binding region;
+                     cd00046"
+                     /db_xref="CDD:238005"
+     Site            399..403
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+     SecStr          404..416
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          419..424
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          427..440
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          447..451
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          457..468
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          473..478
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          492..498
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            497..500
+                     /site_type="other"
+                     /note="putative Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238005"
+     SecStr          517..525
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     Het             bond(522)
+                     /heterogen="( MG,1001 )"
+     SecStr          528..536
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          540..545
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Region          550..734
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          553..560
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Region          559..693
+                     /region_name="HELICc"
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast
+                     initiation factor 4A, Ski2p, and Hepatitis C virus NS3
+                     helicases; this domain is found in a wide variety of
+                     helicases and helicase related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+     SecStr          566..577
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          580..585
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     Site            order(586..587,596..597,620..621,646..648)
+                     /site_type="other"
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          598..606
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          615..620
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          628..637
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          641..646
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     Site            order(654,676,680,683)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          659..665
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          671..679
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          687..694
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          700..710
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          715..724
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          744..751
+                     /sec_str_type="helix"
+                     /note="helix 23"
+ORIGIN      
+        1 mlcsryftss lflwgealpt lleeflneve kmlknqvntr rihqllkeld dpllenkdle
+       61 eklqafldyv keipnlpear kryriqksle mieklrswfl idylecsgee vdlstdiqya
+      121 kgvgpnrkkk lkklgietlr dlleffprdy edrrkifkln dllpgekvtt qgkivsvetk
+      181 kfqnmnilta vlsdglvhvp lkwfnqdylq tylkqltgke vfvtgtvksn aytgqyeihn
+      241 aevtpkegey vrrilpiyrl tsgisqkqmr kifeenipsl ccslketlpe rilekrkllg
+      301 vkdayygmhf pktfyhleka rerlayeelf vlqlafqkir kerekhggip kkiegklaee
+      361 fikslpfklt naqkrahqei rndmisekpm nrllqgdvgs gktvvaqlai ldnyeagfqt
+      421 afmvptsila iqhyrrtves fskfnihval ligattpsek ekiksglrng qidvvigtha
+      481 liqedvhfkn lglviideqh rfgvkqreal mnkgkmvdtl vmsatpiprs malafygdld
+      541 vtvidemppg rkevqtmlvp mdrvnevyef vrqevmrggq afivypliee sdklnvksav
+      601 emyeylskev fpefklglmh grlsqeekdr vmlefaegry dilvsttvie vgidvpranv
+      661 mvienperfg laqlhqlrgr vgrggqeayc flvvgdvgee amerlrfftl ntdgfkiaey
+      721 dlktrgpgef fgvkqhglsg fkvadlyrdl kllewaredv qeidvegiel peeiklievg
+//
+

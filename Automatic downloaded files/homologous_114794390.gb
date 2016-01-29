@@ -1,0 +1,234 @@
+LOCUS       2HJG_A                   436 aa            linear   BCT 18-OCT-2012
+DEFINITION  Chain A, The Crystal Structure Of The B. Subtilis Yphc Gtpase In
+            Complex With Gdp.
+ACCESSION   2HJG_A
+VERSION     2HJG_A  GI:114794390
+DBSOURCE    pdb: molecule 2HJG, chain 65, release Oct 13, 2012;
+            deposition: Jun 30, 2006;
+            class: Hydrolase;
+            source: Mmdb_id: 41063, Pdb_id 1: 2HJG;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis
+  ORGANISM  Bacillus subtilis
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 436)
+  AUTHORS   Xu,L., Muench,S.P., Roujeinikova,A., Sedelnikova,S.E. and Rice,D.W.
+  TITLE     Cloning, purification and preliminary crystallographic analysis of
+            the Bacillus subtilis GTPase YphC-GDP complex
+  JOURNAL   Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun. 62 (PT 5),
+            435-437 (2006)
+   PUBMED   16682769
+REFERENCE   2  (residues 1 to 436)
+  AUTHORS   Muench,S.P., Xu,L., Sedelnikova,S.E. and Rice,D.W.
+  TITLE     The essential GTPase YphC displays a major domain rearrangement
+            associated with nucleotide binding
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 103 (33), 12359-12364 (2006)
+   PUBMED   16894162
+REFERENCE   3  (residues 1 to 436)
+  AUTHORS   Muench,S.P., Xu,L., Sedelnikova,S.E. and W Rice,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2006)
+COMMENT     1 Gtp-binding Protein Enga.
+FEATURES             Location/Qualifiers
+     source          1..436
+                     /organism="Bacillus subtilis"
+                     /db_xref="taxon:1423"
+     Region          1..167
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          3..436
+                     /region_name="PRK00093"
+                     /note="GTP-binding protein Der; Reviewed"
+                     /db_xref="CDD:234628"
+     SecStr          4..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..163
+                     /region_name="EngA1"
+                     /note="EngA1 GTPase contains the first domain of EngA;
+                     cd01894"
+                     /db_xref="CDD:206681"
+     Site            10..17
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206681"
+     Site            order(13,15..18,119..120,122,145..147)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206681"
+     SecStr          16..23
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          25..28
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(28..34,38..41)
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206681"
+     Site            38
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206681"
+     SecStr          42..45
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          53..56
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(56..61,82..83)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206681"
+     Site            57..60
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206681"
+     SecStr          70..82
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          84..91
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          98..107
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          113..120
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            119..122
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206681"
+     SecStr          141..146
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            145..147
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206681"
+     SecStr          148..151
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          152..160
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          168..353
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Region          174..346
+                     /region_name="EngA2"
+                     /note="EngA2 GTPase contains the second domain of EngA;
+                     cd01895"
+                     /db_xref="CDD:206682"
+     SecStr          175..182
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            182..189
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206682"
+     Site            order(185,187..190,294..295,297,329..331)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206682"
+     SecStr          188..197
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(197,200..213)
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206682"
+     SecStr          200..203
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            210
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206682"
+     SecStr          214..221
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          223..229
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            229..232
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206682"
+     Site            order(232..233,257..258)
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206682"
+     SecStr          245..257
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          259..267
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          274..285
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          287..295
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            294..297
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206682"
+     SecStr          305..317
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          323..329
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Site            329..331
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206682"
+     SecStr          339..351
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          353..433
+                     /region_name="KH_dom-like"
+                     /note="KH-domain-like of EngA bacterial GTPase enzymes,
+                     C-terminal; pfam14714"
+                     /db_xref="CDD:258851"
+     Region          354..436
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          356..369
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          373..376
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Het             join(bond(375),bond(406))
+                     /heterogen="( ZN,1000 )"
+     SecStr          377..380
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          381..390
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          392..400
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          407..420
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          427..434
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+ORIGIN      
+        1 xgkpvvaivg rpnvgkstif nriagerisi vedtpgvtrd riyssaewln ydfnlidtgg
+       61 idigdepfla qirqqaeiax deadviifxv ngregvtaad eevakilyrt kkpvvlavnk
+      121 ldntexrani ydfyslgfge pypisgthgl glgdlldava ehfknipetk yneeviqfcl
+      181 igrpnvgkss lvnaxlgeer vivsnvagtt rdavdtsfty nqqefvivdt agxrkkgkvy
+      241 ettekysvlr alkaidrsev vavvldgeeg iieqdkriag yaheagkavv ivvnkwdavd
+      301 kdestxkefe enirdhfqfl dyapilfxsa ltkkrihtlx paiikasenh slrvqtnvln
+      361 dvixdavaxn ptpthngsrl kiyyatqvsv kppsfvvfvn dpelxhfsye rflenrirda
+      421 fgfegtpiki farark
+//
+

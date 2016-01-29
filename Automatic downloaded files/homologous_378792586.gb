@@ -1,0 +1,108 @@
+LOCUS       3ZX6_A                   341 aa            linear       11-JUN-2014
+DEFINITION  Chain A, Structure Of Hamp(af1503)-tsr Fusion - Hamp (a291v)
+            Mutant.
+ACCESSION   3ZX6_A
+VERSION     3ZX6_A  GI:378792586
+DBSOURCE    pdb: molecule 3ZX6, chain 65, release Jun 11, 2014;
+            deposition: Aug 8, 2011;
+            class: Signaling;
+            source: Mmdb_id: 97674, Pdb_id 1: 3ZX6;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Unknown.
+  ORGANISM  Unknown.
+            Unclassified.
+REFERENCE   1  (residues 1 to 341)
+  AUTHORS   Ferris,H.U., Zeth,K., Hulko,M., Dunin-Horkawicz,S. and Lupas,A.N.
+  TITLE     Axial helix rotation as a mechanism for signal regulation inferred
+            from the crystallographic analysis of the E. coli serine
+            chemoreceptor
+  JOURNAL   J. Struct. Biol. 186 (3), 349-356 (2014)
+   PUBMED   24680785
+REFERENCE   2  (residues 1 to 341)
+  AUTHORS   Zeth,K., Ferris,H.U. and Lupas,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2011)
+COMMENT     1 Hamp, Methyl-accepting Chemotaxis Protein I.
+FEATURES             Location/Qualifiers
+     source          1..341
+                     /organism="unknown"
+     Region          join(1..96,272..341)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          4..50
+                     /region_name="HAMP"
+                     /note="Histidine kinase, Adenylyl cyclase,
+                     Methyl-accepting protein, and Phosphatase (HAMP) domain.
+                     HAMP is a signaling domain which occurs in a wide variety
+                     of signaling proteins, many of which are bacterial. The
+                     HAMP domain consists of two alpha helices...; cd06225"
+                     /db_xref="CDD:100122"
+     Site            order(4..5,8..9,11..12,15..16,18,35..36,38..39,42..43,
+                     45..46,49..50)
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:100122"
+     SecStr          5..20
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          21..24
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          35..96
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          83..274
+                     /region_name="MCP_signal"
+                     /note="Methyl-accepting chemotaxis protein (MCP),
+                     signaling domain; cd11386"
+                     /db_xref="CDD:206779"
+     Site            order(91..92,95..96,99,102..103,105..106,109,112..113,116,
+                     119..120,123..124,127,130..131,133..134,138,140..141,144,
+                     147..148,151..152,155,158,161..162,165,169,172,179,183,
+                     186,189..190,193,196..197,200..201,203..204,207..208,
+                     221..222,225,228..229,232,235..236,238..239,242..243,246,
+                     249..250,253,256..257,259..260,263..264,266..267,270,
+                     273..274)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:206779"
+     Region          97..271
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          97..138
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          111..304
+                     /region_name="MCPsignal"
+                     /note="Methyl-accepting chemotaxis protein (MCP)
+                     signalling domain; pfam00015"
+                     /db_xref="CDD:249510"
+     SecStr          139..174
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            161..194
+                     /site_type="other"
+                     /note="putative CheW interface [polypeptide binding]"
+                     /db_xref="CDD:206779"
+     SecStr          181..229
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          230..271
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          272..299
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          302..305
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+ORIGIN      
+        1 mstitrpiie lsntvdkiae gnleaevphq nradeigila ksierlrrsl mrtvgdvrng
+       61 anaiysgase iatgnndlss rteqqaasle etaasmeqlt atvkqnaena rqashlalsa
+      121 setaqrggkv vdnvvqtmrd istssqkiad iisvidgiaf qtnilalnaa veaarageqg
+      181 rgfavvagev rnlaqrsaqa areikslied svgkvdvgst lvesagetma eivsavtrvt
+      241 dimgeiasas deqsrgidqv glavaemdrv tqqnaalvee saaaaaalee qasrlteava
+      301 vfriqqqqqq qretsavvkt vtpatprkma vadsgenwet f
+//
+

@@ -1,0 +1,58 @@
+LOCUS       4I98_A                   160 aa            linear   BCT 17-DEC-2014
+DEFINITION  Chain A, Crystal Structure Of The Complex Between Scpa(residues
+            1-160)- Scpb(residues 1-183).
+ACCESSION   4I98_A
+VERSION     4I98_A  GI:444302293
+DBSOURCE    pdb: molecule 4I98, chain 65, release Dec 17, 2014;
+            deposition: Dec 5, 2012;
+            class: Cell Cycle;
+            source: Mmdb_id: 107203, Pdb_id 1: 4I98;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptococcus pneumoniae P1031
+  ORGANISM  Streptococcus pneumoniae P1031
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+            Streptococcus.
+REFERENCE   1  (residues 1 to 160)
+  AUTHORS   Burmann,F., Shin,H.C., Basquin,J., Soh,Y.M., Gimenez-Oya,V.,
+            Kim,Y.G., Oh,B.H. and Gruber,S.
+  TITLE     An asymmetric SMC-kleisin bridge in prokaryotic condensin
+  JOURNAL   Nat. Struct. Mol. Biol. 20 (3), 371-379 (2013)
+   PUBMED   23353789
+REFERENCE   2  (residues 1 to 160)
+  AUTHORS   Shin,H.C. and Oh,B.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-DEC-2012)
+COMMENT     1 Segregation And Condensation Protein A.
+FEATURES             Location/Qualifiers
+     source          1..160
+                     /organism="Streptococcus pneumoniae P1031"
+                     /db_xref="taxon:488223"
+     Region          1..125
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..>154
+                     /region_name="ScpA_ScpB"
+                     /note="ScpA/B protein; cl00598"
+                     /db_xref="CDD:260520"
+     SecStr          11..19
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          32..46
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          57..70
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          81..113
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          137..152
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 xdiklkdfeg pldlllhlvs kyqxdiydvp itevieqyla yvstlqaxrl evtgeyxvxa
+       61 sqlxliksrk llpkvaevtd lgddleqdll sqieeyrkfk llgehleakh qeraqyyska
+      121 pteliyedae lvhdkttidl flafsnilak kkeefaqnht
+//
+

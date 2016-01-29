@@ -1,0 +1,168 @@
+LOCUS       1XQK_A                   388 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Effect Of A Y265f Mutant On The Transamination Based
+            Cycloserine Inactivation Of Alanine Racemase.
+ACCESSION   1XQK_A
+VERSION     1XQK_A  GI:60594046
+DBSOURCE    pdb: molecule 1XQK, chain 65, release Sep 22, 2012;
+            deposition: Oct 12, 2004;
+            class: Isomerase;
+            source: Mmdb_id: 31458, Pdb_id 1: 1XQK;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus stearothermophilus
+  ORGANISM  Geobacillus stearothermophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 388)
+  AUTHORS   Fenn,T.D., Holyoak,T., Stamper,G.F. and Ringe,D.
+  TITLE     Effect of a Y265F mutant on the transamination-based cycloserine
+            inactivation of alanine racemase
+  JOURNAL   Biochemistry 44 (14), 5317-5327 (2005)
+   PUBMED   15807525
+REFERENCE   2  (residues 1 to 388)
+  AUTHORS   Fenn,T.D., Holyoak,T., Stamper,G.F. and Ringe,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-OCT-2004)
+COMMENT     1 Alanine Racemase.
+FEATURES             Location/Qualifiers
+     source          1..388
+                     /organism="Geobacillus stearothermophilus"
+                     /db_xref="taxon:1422"
+     Region          join(1..14,233..388)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          5..368
+                     /region_name="alr"
+                     /note="alanine racemase; Reviewed; PRK00053"
+                     /db_xref="CDD:234600"
+     Region          7..369
+                     /region_name="PLPDE_III_AR"
+                     /note="Type III Pyridoxal 5-phosphate (PLP)-Dependent
+                     Enzyme Alanine Racemase; cd00430"
+                     /db_xref="CDD:143481"
+     SecStr          7..14
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          15..232
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          15..27
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          32..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(37,39,43,85,129,136,166,203..204,219..222,265,284,
+                     311..312,354)
+                     /site_type="active"
+                     /db_xref="CDD:143481"
+     Site            order(37,39,43,85,136,166,203..204,219..222,354)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate (PLP) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:143481"
+     Site            order(39..40,65,68..69,106..107,134..137,166,168,252..255,
+                     257,261..262,264..266,279,284,290,313..314,350..351,
+                     354..355,363)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:143481"
+     Site            order(39,43,136,166,265,284,311..312,354)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143481"
+     Site            order(39,265)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143481"
+     SecStr          47..57
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          60..65
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          68..76
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          81..85
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          92..100
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          101..106
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          109..117
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          123..130
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          142..154
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          157..165
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          176..188
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          197..201
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          203..210
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          216..221
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          244..251
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          252..260
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          272..276
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          277..282
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          295..300
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          301..307
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          313..319
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          327..330
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          331..336
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          337..341
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          342..349
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          365..371
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          372..379
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+ORIGIN      
+        1 mndfhrdtwa evdldaiydn venlrrllpd dthimavvka nayghgdvqv artaleagas
+       61 rlavafldea lalrekgiea pilvlgasrp adaalaaqqr ialtvfrsdw leeasalysg
+      121 pfpihfhlxm dtgmgrlgvk deeetkriva lierhphfvl eglythfata devntdyfsy
+      181 qytrflhmle wlpsrpplvh cansaaslrf pdrtfnmvrf giamyglaps pgikpllpyp
+      241 lkeafslhsr lvhvkklqpg ekvsfgatyt aqteewigti pigyadgwlr rlqhfhvlvd
+      301 gqkapivgri cmdqcmirlp gplpvgtkvt ligrqgdevi siddvarhle tinyevpcti
+      361 syrvpriffr hkrimevrna igrgessa
+//
+

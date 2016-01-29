@@ -1,0 +1,207 @@
+LOCUS       3BJU_A                   521 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Tetrameric Form Of Human Lysyl-Trna
+            Synthetase.
+ACCESSION   3BJU_A
+VERSION     3BJU_A  GI:167013425
+DBSOURCE    pdb: molecule 3BJU, chain 65, release Nov 30, 2010;
+            deposition: Dec 4, 2007;
+            class: Ligase;
+            source: Mmdb_id: 87051, Pdb_id 1: 3BJU;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 521)
+  AUTHORS   Guo,M., Ignatov,M., Musier-Forsyth,K., Schimmel,P. and Yang,X.L.
+  TITLE     Crystal structure of tetrameric form of human lysyl-tRNA
+            synthetase: Implications for multisynthetase complex formation
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (7), 2331-2336 (2008)
+   PUBMED   18272479
+REFERENCE   2  (residues 1 to 521)
+  AUTHORS   Guo,M., Yang,X.L. and Schimmel,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-DEC-2007)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..521
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          4..509
+                     /region_name="lysS"
+                     /note="lysyl-tRNA synthetase; Reviewed; PRK00484"
+                     /db_xref="CDD:234778"
+     SecStr          5..22
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          30..156
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          37..44
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          50..53
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          56..62
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          57..166
+                     /region_name="LysRS_N"
+                     /note="LysRS_N: N-terminal, anticodon recognition domain
+                     of lysyl-tRNA synthetases (LysRS). These enzymes are
+                     homodimeric class 2b aminoacyl-tRNA synthetases (aaRSs).
+                     This domain is a beta-barrel domain (OB fold) involved in
+                     binding the tRNA anticodon stem-loop; cd04322"
+                     /db_xref="CDD:239817"
+     Site            order(62..63,81..82,113,139,142..144)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239817"
+     SecStr          63..71
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(66,68..69,76,87,89,109,123,129)
+                     /site_type="other"
+                     /note="putative anticodon binding site"
+                     /db_xref="CDD:239817"
+     SecStr          73..82
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          83..92
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          98..107
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          111..116
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          117..124
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          126..132
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          133..137
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          138..141
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Region          157..521
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Region          169..507
+                     /region_name="LysRS_core"
+                     /note="Lys_tRNA synthetase (LysRS) class II core domain.
+                     Class II LysRS is a dimer which attaches a lysine to the
+                     3' OH group of ribose of the appropriate tRNA. Its
+                     assignment to class II aaRS is based upon its structure
+                     and the presence of three...; cd00775"
+                     /db_xref="CDD:238398"
+     SecStr          171..193
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          195..198
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            201..205
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238398"
+     SecStr          202..205
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          215..221
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          222..229
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Site            order(233,255,257,263,267,419,426,429,433,485)
+                     /site_type="active"
+                     /db_xref="CDD:238398"
+     SecStr          233..242
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          245..250
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          251..255
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            254..257
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238398"
+     SecStr          265..270
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          271..276
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          279..297
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          301..306
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          314..319
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          323..328
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          329..336
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          349..362
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          372..383
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          391..399
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          413..423
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     Het             join(bond(419),bond(426),bond(426),bond(426))
+                     /heterogen="( CA,1002 )"
+     SecStr          424..433
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     Het             bond(426)
+                     /heterogen="( CA,1004 )"
+     SecStr          437..453
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          463..471
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          475..483
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     Site            482..485
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238398"
+     SecStr          484..491
+                     /sec_str_type="helix"
+                     /note="helix 12"
+ORIGIN      
+        1 msvdpnqyyk irsqaihqlk vngedpyphk fhvdisltdf iqkyshlqpg dhltditlkv
+       61 agrihakras ggklifydlr gegvklqvma nsrnykseee fihinnklrr gdiigvqgnp
+      121 gktkkgelsi ipyeitllsp clhmlphlhf glkdketryr qryldlilnd fvrqkfiirs
+      181 kiityirsfl delgfleiet pmmniipgga vakpfityhn eldmnlymri apelyhkmlv
+      241 vggidrvyei grqfrnegid lthnpefttc efymayadyh dlmeitekmv sgmvkhitgs
+      301 ykvtyhpdgp egqaydvdft ppfrrinmve elekalgmkl petnlfetee trkilddicv
+      361 akavecpppr ttarlldklv geflevtcin ptficdhpqi msplakwhrs keglterfel
+      421 fvmkkeicna ytelndpmrq rqlfeeqaka kaagddeamf idenfctale yglpptagwg
+      481 mgidrvamfl tdsnnikevl lfpamkpedk kenlehhhhh h
+//
+

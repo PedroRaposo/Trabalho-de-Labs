@@ -1,0 +1,74 @@
+LOCUS       1SU0_B                   159 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain B, Crystal Structure Of A Hypothetical Protein At 2.3 A
+            Resolution.
+ACCESSION   1SU0_B
+VERSION     1SU0_B  GI:52695567
+DBSOURCE    pdb: molecule 1SU0, chain 66, release Sep 22, 2012;
+            deposition: Mar 25, 2004;
+            class: Structural Genomics, Unknown Function;
+            source: Mmdb_id: 28974, Pdb_id 1: 1SU0;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptococcus pyogenes
+  ORGANISM  Streptococcus pyogenes
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+            Streptococcus.
+REFERENCE   1  (residues 1 to 159)
+  AUTHORS   Liu,J., Oganesyan,N., Shin,D.H., Jancarik,J., Yokota,H., Kim,R. and
+            Kim,S.H.
+  TITLE     Structural characterization of an iron-sulfur cluster assembly
+            protein IscU in a zinc-bound form
+  JOURNAL   Proteins 59 (4), 875-881 (2005)
+   PUBMED   15815978
+  REMARK    Erratum:[Proteins. 2006 Jun 1;63(4):1137]
+REFERENCE   2  (residues 1 to 159)
+  AUTHORS   Liu,J., Oganesyan,N., Shin,D.-H., Jancarik,J., Pufan,R., Yokota,H.,
+            Ki,R., Kim,H. and Berkeley Structural Genomics Center (Bsgc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2004)
+COMMENT     1 Nifu Like Protein Iscu.
+FEATURES             Location/Qualifiers
+     source          1..159
+                     /organism="Streptococcus pyogenes"
+                     /db_xref="taxon:1314"
+     Region          9..138
+                     /region_name="IscU_like"
+                     /note="Iron-sulfur cluster scaffold-like proteins;
+                     cd06664"
+                     /db_xref="CDD:143480"
+     Site            order(9..12,15..16,40..41,65,67,123..124,126..127)
+                     /site_type="other"
+                     /note="trimerization site [polypeptide binding]"
+                     /db_xref="CDD:143480"
+     SecStr          9..19
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          32..37
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Het             join(bond(40),bond(42),bond(65),bond(127))
+                     /heterogen="( ZN,1000 )"
+     Site            order(40,65,127)
+                     /site_type="active"
+                     /db_xref="CDD:143480"
+     SecStr          42..50
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          56..64
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          66..79
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          84..99
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          130..140
+                     /sec_str_type="helix"
+                     /note="helix 4"
+ORIGIN      
+        1 malsklnhly mavvadhskr phhhgqldgv eavqlnnptc gdvisltvkf dedkiediaf
+       61 agngctista sssmmtdavi gkskeealal adifsemvqg qenpaqkelg eaellagvak
+      121 fpqrikcstl awnalkeaik rsanaqhltd qnvkegknv
+//
+

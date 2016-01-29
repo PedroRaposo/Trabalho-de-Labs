@@ -1,0 +1,190 @@
+LOCUS       2Z0F_A                   524 aa            linear   BCT 12-NOV-2012
+DEFINITION  Chain A, Crystal Structure Of Putative Phosphoglucomutase From
+            Thermus Thermophilus Hb8.
+ACCESSION   2Z0F_A
+VERSION     2Z0F_A  GI:160286310
+DBSOURCE    pdb: molecule 2Z0F, chain 65, release Nov 8, 2012;
+            deposition: May 7, 2007;
+            class: Isomerase;
+            source: Mmdb_id: 60678, Pdb_id 1: 2Z0F;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus HB8
+  ORGANISM  Thermus thermophilus HB8
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 524)
+  AUTHORS   Kanagawa,M., Handa,N., Kuramitsu,S. and Yokoyama,S.
+  TITLE     Crystal Structure Of Putative Phosphoglucomutase Fr Thermus
+            Thermophilus Hb8
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 524)
+  AUTHORS   Kanagawa,M., Handa,N., Kuramitsu,S., Yokoyama,S., Riken Structural
+            and GenomicsPROTEOMICS INITIATIVE (RSGI).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAY-2007)
+COMMENT     1 Putative Phosphoglucomutase.
+FEATURES             Location/Qualifiers
+     source          1..524
+                     /organism="Thermus thermophilus HB8"
+                     /db_xref="taxon:300852"
+     Region          1..524
+                     /region_name="PRK07564"
+                     /note="phosphoglucomutase; Validated"
+                     /db_xref="CDD:236050"
+     Region          1..188
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          3..12
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          4..519
+                     /region_name="PGM_like3"
+                     /note="This bacterial PGM-like (phosphoglucomutase-like)
+                     protein of unknown function belongs to the
+                     alpha-D-phosphohexomutase superfamily. The
+                     alpha-D-phosphohexomutases include several related enzymes
+                     that catalyze a reversible intramolecular phosphoryl...;
+                     cd05801"
+                     /db_xref="CDD:100094"
+     Site            order(27,29,32,130..132,140,286,288,290..291,330,351..353,
+                     370,372,374,487,489..491,496)
+                     /site_type="active"
+                     /db_xref="CDD:100094"
+     Site            order(29,130,291,330,351,353,370,372,374,487,489..491,496)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:100094"
+     SecStr          30..34
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          42..55
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          62..70
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          76..89
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          92..96
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          104..117
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          120..128
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(130,286,288,290)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:100094"
+     SecStr          136..144
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          151..167
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          176..183
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          184..187
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          189..421
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          189..196
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          202..209
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          212..217
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          223..233
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          236..240
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          280..286
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          291..297
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          298..301
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          303..317
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          322..329
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          334..342
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          345..350
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          356..363
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          364..371
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          373..378
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          391..405
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          409..419
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     Region          422..524
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          423..432
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          434..442
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          451..454
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          455..458
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          459..463
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          474..480
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          481..489
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          493..502
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          505..523
+                     /sec_str_type="helix"
+                     /note="helix 16"
+ORIGIN      
+        1 meitrlltly yeatpdpqnp legvrfgtsg hrgsslkatf teahvlaiaq aiaelrpsfg
+       61 atgplflakd thalsepawa talsvfaahg ievrveadgd ytptplvsla ilehnahhea
+      121 kadgvlltps hnppedggfk ynpptggpan aritraieer anallqeglk gvkrlplrea
+      181 larakpfdya glyvekvaea vdleairasg lrigvdplgg aslrvwerla eshglplevv
+      241 nptldptfrf mpkdhdgkir mdcsspyama gllalkdrfd laigndpdad rhgivtprgl
+      301 mnpnhylaaa lhhlyttrsw pgakvgktav tsalldrvaq algrevyetp vgfkhfvagl
+      361 legwlgfage esagasflrf dgrpfstdkd gilmgllaae lmakrgqapd alyealaekl
+      421 grpyyarkdl pvspeakarl arlsakevhp stlagepvlq vldratgnge plggikvvaa
+      481 nawfavrpsg tedvakvyae sflgeahler vleeatallh kala
+//
+

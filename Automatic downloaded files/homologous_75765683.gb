@@ -1,0 +1,147 @@
+LOCUS       1Z7M_A                   344 aa            linear   BCT 01-FEB-2013
+DEFINITION  Chain A, Atp Phosphoribosyl Transferase (hiszg Atp-prtase) From
+            Lactococcus Lactis.
+ACCESSION   1Z7M_A
+VERSION     1Z7M_A  GI:75765683
+DBSOURCE    pdb: molecule 1Z7M, chain 65, release Jan 25, 2013;
+            deposition: Mar 25, 2005;
+            class: Transferase;
+            source: Mmdb_id: 34706, Pdb_id 1: 1Z7M;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Lactococcus lactis
+  ORGANISM  Lactococcus lactis
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+            Lactococcus.
+REFERENCE   1  (residues 1 to 344)
+  AUTHORS   Champagne,K.S., Sissler,M., Larrabee,Y., Doublie,S. and
+            Francklyn,C.S.
+  TITLE     Activation of the hetero-octameric ATP phosphoribosyl transferase
+            through subunit interface rearrangement by a tRNA synthetase
+            paralog
+  JOURNAL   J. Biol. Chem. 280 (40), 34096-34104 (2005)
+   PUBMED   16051603
+REFERENCE   2  (residues 1 to 344)
+  AUTHORS   Champagne,K.S., Sissler,M., Larrabee,Y., Doublie,S. and
+            Francklyn,C.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-MAR-2005)
+COMMENT     1 Atp Phosphoribosyltransferase Regulatory Subunit.
+FEATURES             Location/Qualifiers
+     source          1..344
+                     /organism="Lactococcus lactis"
+                     /db_xref="taxon:1358"
+     Region          join(1..60,114..182,270..344)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          23..330
+                     /region_name="tRNA-synt_His"
+                     /note="Histidyl-tRNA synthetase; pfam13393"
+                     /db_xref="CDD:257718"
+     SecStr          33..53
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          35..335
+                     /region_name="HisRS-like_core"
+                     /note="Class II Histidinyl-tRNA synthetase (HisRS)-like
+                     catalytic core domain. HisRS is a homodimer. It is
+                     responsible for the attachment of histidine to the 3' OH
+                     group of ribose of the appropriate tRNA. This domain is
+                     primarily responsible for ATP-dependent...; cd00773"
+                     /db_xref="CDD:238396"
+     Site            order(40,52,57..63,87..88,100,102,107..108,111..112,
+                     138..139,146,154,158,161,305,322..323)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238396"
+     Site            55..63
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238396"
+     SecStr          55..58
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          61..100
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          62..65
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          85..90
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          92..98
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(100,102,128,130,137,140,142,146,280,282,284..285,
+                     300,305,323,326,329)
+                     /site_type="active"
+                     /db_xref="CDD:238396"
+     SecStr          103..110
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          117..123
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            127..131
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238396"
+     SecStr          140..149
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          152..169
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          174..182
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          183..269
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          183..191
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          196..205
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          208..217
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          222..231
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          237..247
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          250..266
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          272..275
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          287..295
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          301..308
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          318..327
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            order(322..326,329)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238396"
+     SecStr          328..337
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mrgshhhhhh gsiegrmeki nyllpeesae mtlnqvkslr qiegrlrklf slknyqevmp
+       61 psfeytqlyt alesngktfn qekmfqfikh egqsitlryd ftlplvrlys qikdstsary
+      121 syfgkifrke krhkgrsten yqigielfge sadkseleil slalqvieql glnktvfeig
+      181 sakffqrlcq ladgstellt elllkkdlsg lnafieknnf skelrgllke ifitnelsrl
+      241 enlvtntkdd vlissfdqlk efseklsmik piiidlgmvp kmdyytdlmf kayssaanqp
+      301 ilsggrydql lsnfqeeafa igfcchmdti lkalerqele ednd
+//
+

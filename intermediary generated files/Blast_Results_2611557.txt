@@ -1,0 +1,107 @@
+Hit num: 1
+
+Hsp num :1
+ Gi: 1942722 
+ Accession: 1EFU_B 
+ Score: 121.709
+ E-value: 9.36143e-32
+ Identities: 88
+ Function: Complex (Two Elongation Factors)
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/1942722
+------------------------------------------------------------------
+
+
+Hit num: 2
+
+Hsp num :1
+ Gi: 297787753 
+ Accession: 3MMP_A 
+ Score: 120.939
+ E-value: 4.10549e-30
+ Identities: 87
+ Function: Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/297787753
+------------------------------------------------------------------
+
+
+Hit num: 3
+
+Hsp num :1
+ Gi: 929984622 
+ Accession: 4R71_A 
+ Score: 120.939
+ E-value: 4.5222e-30
+ Identities: 88
+ Function: Viral ProteinRIBOSOMAL PROTEIN
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/929984622
+------------------------------------------------------------------
+
+
+Hit num: 4
+
+Hsp num :1
+ Gi: 305677666 
+ Accession: 3AGP_A 
+ Score: 120.168
+ E-value: 2.26567e-29
+ Identities: 88
+ Function: Translation, Transferase
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/305677666
+------------------------------------------------------------------
+
+
+Hit num: 5
+
+Hsp num :1
+ Gi: 157833929 
+ Accession: 1TFE_A 
+ Score: 92.8189
+ E-value: 1.38505e-22
+ Identities: 43
+ Function: Elongation Factor
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157833929
+------------------------------------------------------------------
+
+
+Hit num: 6
+
+Hsp num :1
+ Gi: 2624673 
+ Accession: 1AIP_C 
+ Score: 93.5893
+ E-value: 2.06104e-22
+ Identities: 43
+ Function: Complex Of Two Elongation Factors
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2624673
+------------------------------------------------------------------
+
+Hsp num :2
+ Gi: 2624673 
+ Accession: 1AIP_C 
+ Score: 63.1586
+ E-value: 8.98109e-12
+ Identities: 39
+ Function: Complex Of Two Elongation Factors
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2624673
+------------------------------------------------------------------
+
+
+Hit num: 7
+
+Hsp num :1
+ Gi: 56967055 
+ Accession: 1XB2_B 
+ Score: 69.707
+ E-value: 1.84283e-13
+ Identities: 52
+ Function: Translation
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/56967055
+------------------------------------------------------------------
+
+
+
+
+
+
+
+

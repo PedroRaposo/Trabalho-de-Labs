@@ -1,0 +1,311 @@
+LOCUS       3F2B_A                  1041 aa            linear   BCT 11-FEB-2013
+DEFINITION  Chain A, Dna Polymerase Polc From Geobacillus Kaustophilus Complex
+            With Dna, Dgtp, Mg And Zn.
+ACCESSION   3F2B_A
+VERSION     3F2B_A  GI:221046767
+DBSOURCE    pdb: molecule 3F2B, chain 65, release Feb 7, 2013;
+            deposition: Oct 29, 2008;
+            class: TransferaseDNA;
+            source: Mmdb_id: 69181, Pdb_id 1: 3F2B;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus kaustophilus
+  ORGANISM  Geobacillus kaustophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 1041)
+  AUTHORS   Evans,R.J., Davies,D.R., Bullard,J.M., Christensen,J., Green,L.S.,
+            Guiles,J.W., Pata,J.D., Ribble,W.K., Janjic,N. and Jarvis,T.C.
+  TITLE     Structure of PolC reveals unique DNA binding and fidelity
+            determinants
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (52), 20695-20700 (2008)
+   PUBMED   19106298
+REFERENCE   2  (residues 1 to 1041)
+  AUTHORS   Davies,D.R., Evans,R.J., Bullard,J.M., Christensen,J., Green,L.S.,
+            W,J., Ribble,W.K., Janjic,N. and Jarvis,T.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-OCT-2008)
+COMMENT     1 Dna-directed Dna Polymerase Iii Alpha Chain.
+FEATURES             Location/Qualifiers
+     source          1..1041
+                     /organism="Geobacillus kaustophilus"
+                     /db_xref="taxon:1462"
+     Region          1..110
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          11..1030
+                     /region_name="polC_Gram_pos"
+                     /note="DNA polymerase III, alpha chain, Gram-positive
+                     type; TIGR01405"
+                     /db_xref="CDD:273601"
+     SecStr          16..19
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          19..101
+                     /region_name="polC_OBF"
+                     /note="polC_OBF: A subfamily of OB folds corresponding to
+                     the N-terminal OB-fold nucleic acid binding domain of
+                     Bacillus subtilis type C replicative DNA polymerase III
+                     alpha subunit (polC). Replication in B. subtilis and
+                     Staphylococcus aureus requires two...; cd04484"
+                     /db_xref="CDD:239930"
+     SecStr          20..25
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(21,75,77,79,99)
+                     /site_type="other"
+                     /note="generic binding surface II"
+                     /db_xref="CDD:239930"
+     Site            order(26..28,42..45,47,53..55,57,74,81..83,90..92)
+                     /site_type="other"
+                     /note="generic binding surface I"
+                     /db_xref="CDD:239930"
+     SecStr          26..35
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          37..47
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          50..58
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          61..69
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          74..79
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          80..84
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          88..97
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          98..101
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Region          111..405
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Region          116..402
+                     /region_name="PHP_PolIIIA_POLC"
+                     /note="Polymerase and Histidinol Phosphatase domain of
+                     alpha-subunit of bacterial polymerase III at PolC gene;
+                     cd07435"
+                     /db_xref="CDD:213990"
+     SecStr          119..123
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Het             join(bond(120),bond(122),bond(179),bond(329))
+                     /heterogen="( MG,1006 )"
+     Site            order(122,129,154,179,329,331)
+                     /site_type="active"
+                     /db_xref="CDD:213990"
+     SecStr          134..144
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          148..153
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          160..170
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            order(168,172..174,398)
+                     /site_type="other"
+                     /note="putative PHP Thumb interface [polypeptide binding]"
+                     /db_xref="CDD:213990"
+     SecStr          173..184
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Het             join(bond(179),bond(206),bond(256))
+                     /heterogen="( MG,1005 )"
+     SecStr          206..212
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          214..228
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          237..240
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          249..255
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          281..286
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          303..320
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          322..330
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          339..346
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          367..374
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          379..395
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          join(406..496,551..689)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          415..430
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          417..841
+                     /region_name="DNA_pol3_alpha"
+                     /note="Bacterial DNA polymerase III alpha subunit;
+                     pfam07733"
+                     /db_xref="CDD:254393"
+     SecStr          437..453
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          456..472
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          476..479
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          485..492
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          497..550
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          500..505
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Het             join(bond(505),bond(508),bond(530),bond(533))
+                     /heterogen="( ZN,1003 )"
+     SecStr          510..515
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          528..531
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          534..542
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          559..565
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     Het             join(bond(559),bond(561))
+                     /heterogen="( MG,1004 )"
+     SecStr          569..580
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          584..594
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          596..610
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          616..626
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          629..636
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          638..643
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          653..657
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          667..671
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          681..688
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     Region          join(690..775,856..972)
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          690..701
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          747..756
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          761..771
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     Region          776..855
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          780..788
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          800..809
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          813..825
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          831..840
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          844..852
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          859..876
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          880..890
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          904..917
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          923..941
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     Region          942..1029
+                     /region_name="HHH_6"
+                     /note="Helix-hairpin-helix motif; pfam14579"
+                     /db_xref="CDD:258717"
+     SecStr          943..946
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          957..962
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          963..968
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     Region          973..1041
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     SecStr          977..989
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          995..1002
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          1006..1015
+                     /sec_str_type="helix"
+                     /note="helix 30"
+ORIGIN      
+        1 mrdeepvrrl etiveeerrv vvqgyvfdae vselksgrtl ltmkitdytn silvkmfsrd
+       61 kedaelmsgv kkgmwvkvrg svqndtfvrd lviiandlne iaanerqdta pegekrvelh
+      121 lhtpmsqmda vtsvtklieq akkwghpaia vtdhavvqsf peaysaakkh gmkviyglea
+      181 nivddgvpia ynethrrlgs gsgpfhvtll aqnetglknl fklvslshiq yfhrvpripr
+      241 svlvkhrdgl lvgsgcdkge lfdnliqkap eevediarfy dflevhppdv ykpliemdyv
+      301 kdeemiknii rsivalgekl dipvvatgnv hylnpedkiy rkilihsqgg anplnrhelp
+      361 dvyfrttnem ldcfsflgpe kakeivvdnt qkiasligdv kpikdelytp riegadeeir
+      421 emsyrrakei ygdplpklve erlekelksi ighgfaviyl ishklvkksl ddgylvgsrg
+      481 svgssfvatm teitevnplp phyvcpnckh seffndgsvg sgfdlpdknc prcgtkykkd
+      541 ghdipfetfl gfkgdkvpdi dlnfsgeyqp rahnytkvlf gednvyragt igtvadktay
+      601 gfvkayasdh nlelrgaeid rlaagctgvk rttgqhpggi ivvpdymeiy dftpiqypad
+      661 dtssewrtth fdfhsihdnl lkldilghdd ptvirmlqdl sgidpktipt ddpdvmgifs
+      721 steplgvtpe qimcnvgtig ipefgtrfvr qmleetrpkt fselvqisgl shgtdvwlgn
+      781 aqeliqngtc tlsevigcrd dimvyliyrg lepslafkim esvrkgkglt pefeaemrkh
+      841 dvpewyidsc kkikymfpka haaayvlmav riayfkvhhp llyyasyftv raedfdldam
+      901 ikgsaairkr ieeinakgiq atakeksllt vlevalemce rgfsfknidl yrsqatefvi
+      961 dgnslippfn aipglgtnva qaivrareeg eflskedlqq rgklsktlle ylesrgclds
+     1021 lpdhnqlslf sgghhhhhhh h
+//
+

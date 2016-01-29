@@ -1,0 +1,113 @@
+LOCUS       1P87_B                   240 aa            linear   BCT 11-OCT-2012
+DEFINITION  Chain B, Real Space Refined Coordinates Of The 30s Subunit Fitted
+            Into The Low Resolution Cryo-Em Map Of The Initiation-Like State Of
+            E. Coli 70s Ribosome.
+ACCESSION   1P87_B
+VERSION     1P87_B  GI:33357956
+DBSOURCE    pdb: molecule 1P87, chain 66, release Feb 15, 2012;
+            deposition: May 6, 2003;
+            class: Ribosome;
+            source: Mmdb_id: 99534, Pdb_id 1: 1P86, Pdb_id 2: 1P87;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 240)
+  AUTHORS   Gabashvili,I.S., Agrawal,R.K., Spahn,C.M., Grassucci,R.A.,
+            Svergun,D.I., Frank,J. and Penczek,P.
+  TITLE     Solution structure of the E. coli 70S ribosome at 11.5 A resolution
+  JOURNAL   Cell 100 (5), 537-549 (2000)
+   PUBMED   10721991
+REFERENCE   2  (residues 1 to 240)
+  AUTHORS   Frank,J. and Agrawal,R.K.
+  TITLE     A ratchet-like inter-subunit reorganization of the ribosome during
+            translocation
+  JOURNAL   Nature 406 (6793), 318-322 (2000)
+   PUBMED   10917535
+REFERENCE   3  (residues 1 to 240)
+  AUTHORS   Gao,H., Sengupta,J., Valle,M., Korostelev,A., Eswar,N., Stagg,S.M.,
+            Van Roey,P., Agrawal,R.K., Harvey,S.C., Sali,A., Chapman,M.S. and
+            Frank,J.
+  TITLE     Study of the structural dynamics of the E coli 70S ribosome using
+            real-space refinement
+  JOURNAL   Cell 113 (6), 789-801 (2003)
+   PUBMED   12809609
+REFERENCE   4  (residues 1 to 240)
+  AUTHORS   Gao,H., Sengupta,J., Valle,M., A Korostelev, Eswar,N., Stagg,S.M.,
+            Va,P., Agrawal,R.K., Harvey,S.T., Sali,A., Chapman,M.S. and
+            Frank,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-2003)
+COMMENT     2 30s Ribosomal Protein S2.
+FEATURES             Location/Qualifiers
+     source          1..240
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          8..222
+                     /region_name="RPS2"
+                     /note="Ribosomal protein S2 (RPS2), involved in formation
+                     of the translation initiation complex, where it might
+                     contact the messenger RNA and several components of the
+                     ribosome. It has been shown that in Escherichia coli RPS2
+                     is essential for the binding of...; cd01425"
+                     /db_xref="CDD:100106"
+     Site            order(24..25,34..36,94,96..98,101..102,174,177)
+                     /site_type="other"
+                     /note="rRNA interaction site [nucleotide binding]"
+                     /db_xref="CDD:100106"
+     SecStr          31..35
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          36..40
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          43..62
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          65..71
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          76..85
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          88..93
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          105..120
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          130..147
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          158..164
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          169..178
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(176..177,179,193..196)
+                     /site_type="other"
+                     /note="S8 interaction site"
+                     /db_xref="CDD:100106"
+     SecStr          180..187
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          196..201
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          208..221
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Site            211..216
+                     /site_type="other"
+                     /note="putative laminin-1 binding site"
+                     /db_xref="CDD:100106"
+ORIGIN      
+        1 atvsmrdmlk agvhfghqtr ywnpkmkpfi fgarnkvhii nlektvpmfn ealaelnkia
+       61 srkgkilfvg tkraaseavk daalscdqff vnhrwlggml tnwktvrqsi krlkdletqs
+      121 qdgtfdkltk kealmrtrel eklenslggi kdmgglpdal fvidadhehi aikeannlgi
+      181 pvfaivdtns dpdgvdfvip gnddairavt lylgavaatv regrsqdlas qaeesfveae
+//
+

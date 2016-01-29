@@ -1,0 +1,112 @@
+ID   HPRK_TREPA              Reviewed;         319 AA.
+AC   O83600;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 96.
+DE   RecName: Full=HPr kinase/phosphorylase;
+DE            Short=HPrK/P;
+DE            EC=2.7.11.-;
+DE            EC=2.7.4.-;
+DE   AltName: Full=HPr(Ser) kinase/phosphorylase;
+GN   Name=hprK; Synonyms=ptsK; OrderedLocusNames=TP_0591;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the ATP- as well as the pyrophosphate-
+CC       dependent phosphorylation of a specific serine residue in HPr, a
+CC       phosphocarrier protein of the phosphoenolpyruvate-dependent sugar
+CC       phosphotransferase system (PTS). HprK/P also catalyzes the
+CC       pyrophosphate-producing, inorganic phosphate-dependent
+CC       dephosphorylation (phosphorolysis) of seryl-phosphorylated HPr (P-
+CC       Ser-HPr) (By similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: ATP + HPr = ADP + P-Ser-HPr.
+CC   -!- CATALYTIC ACTIVITY: P-Ser-HPr + phosphate = HPr + diphosphate.
+CC   -!- COFACTOR:
+CC       Name=Mg(2+); Xref=ChEBI:CHEBI:18420; Evidence={ECO:0000250};
+CC   -!- SUBUNIT: Homohexamer. {ECO:0000250}.
+CC   -!- DOMAIN: The Walker A ATP-binding motif also binds Pi and PPi.
+CC       {ECO:0000250}.
+CC   -!- MISCELLANEOUS: Both phosphorylation and phosphorolysis are carried
+CC       out by the same active site and suggest a common mechanism for
+CC       both reactions. {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the HPrK/P family. {ECO:0000305}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65566.1; -; Genomic_DNA.
+DR   PIR; H71305; H71305.
+DR   ProteinModelPortal; O83600; -.
+DR   IntAct; O83600; 7.
+DR   STRING; 243276.TP0591; -.
+DR   EnsemblBacteria; AAC65566; AAC65566; TP_0591.
+DR   KEGG; tpa:TP_0591; -.
+DR   PATRIC; 20531233; VBITrePal57110_0629.
+DR   eggNOG; ENOG4105D1C; Bacteria.
+DR   eggNOG; COG1493; LUCA.
+DR   OMA; AVRRKMR; -.
+DR   OrthoDB; EOG6F55HT; -.
+DR   BioCyc; TPAL243276:GC1H-625-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005622; C:intracellular; IEA:GOC.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000287; F:magnesium ion binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0000155; F:phosphorelay sensor kinase activity; IEA:InterPro.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0004712; F:protein serine/threonine/tyrosine kinase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0006109; P:regulation of carbohydrate metabolic process; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 3.40.1390.20; -; 1.
+DR   Gene3D; 3.40.50.300; -; 1.
+DR   HAMAP; MF_01249; HPr_kinase; 1.
+DR   InterPro; IPR003755; HPr(Ser)_kin/Pase.
+DR   InterPro; IPR011104; Hpr_kin/Pase_C.
+DR   InterPro; IPR011126; Hpr_kin/Pase_Hpr_N.
+DR   InterPro; IPR027417; P-loop_NTPase.
+DR   InterPro; IPR028979; Ser_kin/Pase_Hpr_N-like.
+DR   Pfam; PF07475; Hpr_kinase_C; 1.
+DR   Pfam; PF02603; Hpr_kinase_N; 1.
+DR   SUPFAM; SSF75138; SSF75138; 1.
+DR   TIGRFAMs; TIGR00679; hpr-ser; 1.
+PE   3: Inferred from homology;
+KW   ATP-binding; Complete proteome; Kinase; Magnesium; Metal-binding;
+KW   Multifunctional enzyme; Nucleotide-binding; Reference proteome;
+KW   Serine/threonine-protein kinase; Transferase.
+FT   CHAIN         1    319       HPr kinase/phosphorylase.
+FT                                /FTId=PRO_0000059004.
+FT   NP_BIND     152    159       ATP. {ECO:0000250}.
+FT   REGION      201    210       Important for the catalytic mechanism of
+FT                                both phosphorylation and
+FT                                dephosphorylation. {ECO:0000250}.
+FT   REGION      264    269       Important for the catalytic mechanism of
+FT                                dephosphorylation. {ECO:0000250}.
+FT   ACT_SITE    137    137       {ECO:0000250}.
+FT   ACT_SITE    158    158       {ECO:0000250}.
+FT   ACT_SITE    176    176       Proton acceptor; for phosphorylation
+FT                                activity. Proton donor; for
+FT                                dephosphorylation activity.
+FT                                {ECO:0000250}.
+FT   ACT_SITE    243    243       {ECO:0000250}.
+FT   METAL       159    159       Magnesium. {ECO:0000255}.
+FT   METAL       202    202       Magnesium. {ECO:0000255}.
+SQ   SEQUENCE   319 AA;  35548 MW;  5ADF40485574B12D CRC64;
+     MLKLDLKERD SLDLRCIAGH HGLANPITIS DLNRPGLVLS GFFDFVAYRR IQLFGRGEHA
+     YLLALLEQGR YGAIEKMFTF DLPCCIFSHG ITPPEKFLHL AEPSSCPILV TRLTSSELSL
+     RLMRVLSNIF APTIALHGVL VEVYGVGILI SGDSGVGKSE TALELIERGH RLVADDLVEI
+     SCVNGNSLIG RGVHKSIGHH MEIRGLGIIN ITQLYGVGSI RERKEIQMVV QLEEWNSSKA
+     YDRLGTQELN TTILDVSVPL IEIPVRPGRN IPIILETAAM NERLKRMGYF SAKEFNQSVL
+     KLMEQNAAHA PYYRPDDTY
+//

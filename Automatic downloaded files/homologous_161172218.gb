@@ -1,0 +1,180 @@
+LOCUS       2R6G_A                   381 aa            linear   BCT 18-OCT-2012
+DEFINITION  Chain A, The Crystal Structure Of The E. Coli Maltose Transporter.
+ACCESSION   2R6G_A
+VERSION     2R6G_A  GI:161172218
+DBSOURCE    pdb: molecule 2R6G, chain 65, release Oct 13, 2012;
+            deposition: Sep 5, 2007;
+            class: HydrolaseTRANSPORT PROTEIN;
+            source: Mmdb_id: 60935, Pdb_id 1: 2R6G;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 381)
+  AUTHORS   Oldham,M.L., Khare,D., Quiocho,F.A., Davidson,A.L. and Chen,J.
+  TITLE     Crystal structure of a catalytic intermediate of the maltose
+            transporter
+  JOURNAL   Nature 450 (7169), 515-521 (2007)
+   PUBMED   18033289
+REFERENCE   2  (residues 1 to 381)
+  AUTHORS   L Oldham,M., Khare,D., Quiocho,F.A., Davidson,A.L. and Chen,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-SEP-2007)
+COMMENT     1 Maltose/maltodextrin Import Atp-binding Protein Malk.
+FEATURES             Location/Qualifiers
+     source          1..381
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..371
+                     /region_name="PRK11000"
+                     /note="maltose/maltodextrin transporter ATP-binding
+                     protein; Provisional"
+                     /db_xref="CDD:182893"
+     Region          1..236
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          4..216
+                     /region_name="ABC_MalK_N"
+                     /note="The N-terminal ATPase domain of the maltose
+                     transporter, MalK; cd03301"
+                     /db_xref="CDD:213268"
+     SecStr          4..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          8..14
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          15..21
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          22..28
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          29..36
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            36..43
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213268"
+     Site            order(39..40,42..44,82,158..159,192)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213268"
+     SecStr          42..50
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          56..63
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          76..82
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            79..82
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213268"
+     SecStr          91..98
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          107..121
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Site            134..143
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213268"
+     SecStr          136..150
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          153..159
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            154..159
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213268"
+     Site            162..165
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213268"
+     SecStr          166..183
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          185..191
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            188..194
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213268"
+     SecStr          193..201
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          202..209
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          210..216
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          217..224
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          227..234
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          join(237..292,350..381)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          239..243
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          244..248
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          252..259
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          264..270
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          279..286
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Region          283..355
+                     /region_name="TOBE_2"
+                     /note="TOBE domain; pfam08402"
+                     /db_xref="CDD:254779"
+     Region          293..349
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          298..304
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          305..311
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          312..320
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          326..333
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          341..347
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          352..356
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+ORIGIN      
+        1 masvqlqnvt kawgevvvsk dinldihege fvvfvgpsgc gkstllrmia gletitsgdl
+       61 figekrmndt ppaergvgmv fqsyalyphl svaenmsfgl klagakkevi nqrvnqvaev
+      121 lqlahlldrk pkalsggqrq rvaigrtlva epsvflldqp lsnldaalrv qmrieisrlh
+      181 krlgrtmiyv thdqveamtl adkivvldag rvaqvgkple lyhypadrfv agfigspkmn
+      241 flpvkvtata idqvqvelpm pnrqqvwlpv esrdvqvgan mslgirpehl lpsdiadvil
+      301 egevqvveql gnetqihiqi psirqnlvyr qndvvlveeg atfaiglppe rchlfredgt
+      361 acrrlhkepg vasashhhhh h
+//
+

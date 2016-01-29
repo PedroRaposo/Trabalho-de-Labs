@@ -1,0 +1,148 @@
+LOCUS       3VAX_A                   400 aa            linear   BCT 02-JAN-2013
+DEFINITION  Chain A, Crytal Structure Of Dnda From Streptomyces Lividans.
+ACCESSION   3VAX_A
+VERSION     3VAX_A  GI:436408763
+DBSOURCE    pdb: molecule 3VAX, chain 65, release Jan 2, 2013;
+            deposition: Dec 30, 2011;
+            class: Transferase;
+            source: Mmdb_id: 106280, Pdb_id 1: 3VAX;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptomyces lividans
+  ORGANISM  Streptomyces lividans
+            Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+            Streptomyces.
+REFERENCE   1  (residues 1 to 400)
+  AUTHORS   Chen,F., Zhang,Z., Lin,K., Qian,T., Zhang,Y., You,D., He,X.,
+            Wang,Z., Liang,J., Deng,Z. and Wu,G.
+  TITLE     Crystal structure of the cysteine desulfurase DndA from
+            Streptomyces lividans which is involved in DNA phosphorothioation
+  JOURNAL   PLoS ONE 7 (5), E36635 (2012)
+   PUBMED   22570733
+REFERENCE   2  (residues 1 to 400)
+  AUTHORS   Zhang,Z., Chen,F., Lin,K. and Wu,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-DEC-2011)
+COMMENT     1 Putative Uncharacterized Protein Dnda.
+FEATURES             Location/Qualifiers
+     source          1..400
+                     /organism="Streptomyces lividans"
+                     /db_xref="taxon:1916"
+     Region          join(1..78,254..282)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          22..360
+                     /region_name="Aminotran_5"
+                     /note="Aminotransferase class-V; pfam00266"
+                     /db_xref="CDD:249728"
+     Region          23..376
+                     /region_name="AAT_I"
+                     /note="Aspartate aminotransferase (AAT) superfamily (fold
+                     type I) of pyridoxal phosphate (PLP)-dependent enzymes.
+                     PLP combines with an alpha-amino acid to form a compound
+                     called a Schiff base or aldimine intermediate, which
+                     depending on the reaction, is the...; cl18945"
+                     /db_xref="CDD:277505"
+     SecStr          34..48
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          54..74
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          79..253
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          82..87
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(89..90,93,167,195,198,217,220)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     SecStr          89..97
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          100..108
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          110..115
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          120..132
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          134..139
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          149..156
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          161..166
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          167..171
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          172..176
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          178..185
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          190..197
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          212..218
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            220
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     SecStr          227..233
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          234..237
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          239..242
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          265..282
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          283..400
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          283..300
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          305..308
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          317..323
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          328..342
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          345..353
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          355..362
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          370..378
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+ORIGIN      
+        1 mgsshhhhhh ssglvprgsh mtyldaaatt rvdqrvadiv lhwmtaefgn agsrheygir
+       61 akrgverare ylastvsaep deliftsgat esnniallgl apygertgrr hiitsaiehk
+      121 avleplehla grgfevdflt pgpsgrisve gvmerlrpdt llvslmhvnn etgviqpvae
+      181 laqqlratpt ylhvdaaqgy gkvpgdlttp idmisisghk igapkgvgal vtrrreemdd
+      241 ervplepimf gggqerklrp gtlpvplimg laeaakifea ehaqwqvaaq dlrsrllagl
+      301 astsfqvngd qdhvvphiln lsfedvdaea flvtlkdlva vatgsastsa sftpshvlra
+      361 mglpeeaask slrfswtpgq atdldveela rgvaklkpsy
+//
+

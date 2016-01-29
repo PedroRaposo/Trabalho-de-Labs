@@ -1,0 +1,100 @@
+LOCUS       1DC7_A                   124 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of A Transiently Phosphorylated 'switch' In
+            Bacterial Signal Transduction.
+ACCESSION   1DC7_A
+VERSION     1DC7_A  GI:6730308
+DBSOURCE    pdb: molecule 1DC7, chain 65, release Jun 18, 2009;
+            deposition: Nov 4, 1999;
+            class: Signaling Protein;
+            source: Mmdb_id: 11660, Pdb_id 1: 1DC7;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium (Salmonella
+            typhimurium)
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (residues 1 to 124)
+  AUTHORS   Volkman,B.F., Nohaile,M.J., Amy,N.K., Kustu,S. and Wemmer,D.E.
+  TITLE     Three-dimensional solution structure of the N-terminal receiver
+            domain of NTRC
+  JOURNAL   Biochemistry 34 (4), 1413-1424 (1995)
+   PUBMED   7827089
+REFERENCE   2  (residues 1 to 124)
+  AUTHORS   Kern,D., Volkman,B.F., Luginbuhl,P., Nohaile,M.J., Kustu,S. and
+            Wemmer,D.E.
+  TITLE     Structure of a transiently phosphorylated switch in bacterial
+            signal transduction
+  JOURNAL   Nature 402 (6764), 894-898 (1999)
+   PUBMED   10622255
+REFERENCE   3  (residues 1 to 124)
+  AUTHORS   Kern,D., Volkman,B.F., Luginbuhl,P., Nohaile,M.J., Kustu,S. and
+            Wemmer,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-NOV-1999)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..124
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium"
+                     /db_xref="taxon:90371"
+     SecStr          4..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          8..119
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(10..11,54,62,82,101,104..105)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          14..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          28..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          36..45
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          49..54
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            54
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(57..58,60..62)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          66..73
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          77..82
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..93
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          100..103
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            104..106
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          108..121
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 xqrgivwvvd ddssirwvle ralagagltc ttfengnevl aalasktpdv llsdirmpgm
+       61 dglallkqik qrhpmlpvii mtahsdldaa vsayqqgafd ylpkpfdide avalverais
+      121 hyqe
+//
+

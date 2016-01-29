@@ -1,0 +1,214 @@
+LOCUS       2RD2_A                   556 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Glutaminyl-Trna Synthetase Mutant C229r With Bound Analog
+            5'-O-[n-(L- Glutaminyl)-Sulfamoyl]adenosine.
+ACCESSION   2RD2_A
+VERSION     2RD2_A  GI:165761087
+DBSOURCE    pdb: molecule 2RD2, chain 65, release Sep 4, 2012;
+            deposition: Sep 20, 2007;
+            class: LigaseRNA;
+            source: Mmdb_id: 61817, Pdb_id 1: 2RD2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 556)
+  AUTHORS   Sherlin,L.D., Bullock,T.L., Nissan,T.A., Perona,J.J.,
+            Lariviere,F.J., Uhlenbeck,O.C. and Scaringe,S.A.
+  TITLE     Chemical and enzymatic synthesis of tRNAs for high-throughput
+            crystallization
+  JOURNAL   RNA 7 (11), 1671-1678 (2001)
+   PUBMED   11720294
+REFERENCE   2  (residues 1 to 556)
+  AUTHORS   Bullock,T.L., Rodriguez-Hernandez,A., Corigliano,E.M. and
+            Perona,J.J.
+  TITLE     A rationally engineered misacylating aminoacyl-tRNA synthetase
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 105 (21), 7428-7433 (2008)
+   PUBMED   18477696
+REFERENCE   3  (residues 1 to 556)
+  AUTHORS   Bullock,T.L. and Perona,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-SEP-2007)
+COMMENT     1 Glutaminyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..556
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..548
+                     /region_name="PRK05347"
+                     /note="glutaminyl-tRNA synthetase; Provisional"
+                     /db_xref="CDD:235424"
+     Region          join(1..102,213..262)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          11..22
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          27..342
+                     /region_name="GlnRS_core"
+                     /note="catalytic core domain of glutaminyl-tRNA
+                     synthetase; cd00807"
+                     /db_xref="CDD:185676"
+     SecStr          28..36
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(31..35,41,43..44,46..47,67,69..70,212,216,229..231,
+                     234,237,256,261..262,271)
+                     /site_type="active"
+                     /db_xref="CDD:185676"
+     Site            41..44
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:185676"
+     SecStr          42..58
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          60..68
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          77..89
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          97..100
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          103..212
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          104..117
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          119..124
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          126..134
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          151..163
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          171..177
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          187..195
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          207..211
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          213..223
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          226..231
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          238..246
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          254..259
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Region          join(263..347,464..556)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          265..268
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            268..272
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:185676"
+     SecStr          271..280
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          293..301
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          304..314
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          326..338
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          340..528
+                     /region_name="tRNA-synt_1c_C"
+                     /note="tRNA synthetases class I (E and Q), anti-codon
+                     binding domain; pfam03950"
+                     /db_xref="CDD:252270"
+     SecStr          340..344
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          348..463
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          350..355
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          361..368
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          376..383
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          384..388
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          392..395
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          403..406
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          407..413
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          415..420
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          421..426
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          430..439
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          455..458
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          459..462
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          465..474
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          480..483
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          496..505
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          516..520
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          522..528
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          531..534
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          535..545
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+ORIGIN      
+        1 mseaearptn firqiidedl asgkhttvht rfppepngyl highaksicl nfgiaqdykg
+       61 qcnlrfddtn pvkedieyve sikndvewlg fhwsgnvrys sdyfdqlhay aielinkgla
+      121 yvdeltpeqi reyrgtltqp gknspyrdrs veenlalfek mraggfeegk aclrakidma
+      181 spfivmrdpv lyrikfaehh qtgnkwciyp mydfthcisd alegithslr tlefqdnrrl
+      241 ydwvldniti pvhprqyefs rlnleytvms krklnllvtd khvegwddpr mptisglrrr
+      301 gytaasiref ckrigvtkqd ntiemasles ciredlnena pramavidpv klvienyqge
+      361 gemvtmpnhp nkpemgsrqv pfsgeiwidr adfreeankq ykrlvlgkev rlrnayvika
+      421 ervekdaegn ittifctyda dtlskdpadg rkvkgvihwv saahalpvei rlydrlfsvp
+      481 npgaaddfls vinpeslvik qgfaepslkd avagkafqfe regyfcldsr hstaekpvfn
+      541 rtvglrdtle hhhhhh
+//
+

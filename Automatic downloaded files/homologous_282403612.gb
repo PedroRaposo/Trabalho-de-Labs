@@ -1,0 +1,100 @@
+LOCUS       3A8T_A                   339 aa            linear   PLN 10-OCT-2012
+DEFINITION  Chain A, Plant Adenylate Isopentenyltransferase In Complex With
+            Atp.
+ACCESSION   3A8T_A
+VERSION     3A8T_A  GI:282403612
+DBSOURCE    pdb: molecule 3A8T, chain 65, release Mar 24, 2010;
+            deposition: Oct 9, 2009;
+            class: Transferase;
+            source: Mmdb_id: 79050, Pdb_id 1: 3A8T;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Humulus lupulus (European hop)
+  ORGANISM  Humulus lupulus
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Rosales; Cannabaceae; Humulus.
+REFERENCE   1  (residues 1 to 339)
+  AUTHORS   Chu,H.M., Ko,T.P. and Wang,A.H.
+  TITLE     Crystal structure and substrate specificity of plant adenylate
+            isopentenyltransferase from Humulus lupulus: distinctive binding
+            affinity for purine and pyrimidine nucleotides
+  JOURNAL   Nucleic Acids Res. 38 (5), 1738-1748 (2010)
+   PUBMED   20007608
+REFERENCE   2  (residues 1 to 339)
+  AUTHORS   Chu,H.-M., Ko,T.-P. and Wang,A.H.-J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-OCT-2009)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..339
+                     /organism="Humulus lupulus"
+                     /db_xref="taxon:3486"
+     Region          join(1..183,295..339)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          35..339
+                     /region_name="P-loop_NTPase"
+                     /note="P-loop containing Nucleoside Triphosphate
+                     Hydrolases; cl21455"
+                     /db_xref="CDD:277521"
+     SecStr          40..47
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          53..60
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          65..73
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          96..99
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          112..129
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          131..139
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          140..147
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          173..182
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          184..294
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          184..201
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          202..210
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          234..243
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          257..292
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          296..301
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          302..309
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          315..323
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          326..337
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mrgshhhhhh mdyasvamaa apttttttnv slrrqrhrke kllvlmgatg tgksrlsidl
+       61 aahfplevin sdkmqvykgl dittnkisvp drggvphhll gevdpargel tpadfrslag
+      121 kavseitgrr klpvlvggsn sfihallvdr fdssgpgvfe egshsvvsse lrydccflwv
+      181 dvsvkvltdy lakrvddmle lgmfdelaef yspededhde dsatrtglrk aigvpefdry
+      241 fekfrpgdve gedpgrdrvr rgafeeavra ikentchlak rqigkilrlk gagwdlrrld
+      301 atesfraamt sdsgekctei wekqvlepsv kivsrflde
+//
+

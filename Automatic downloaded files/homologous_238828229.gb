@@ -1,0 +1,119 @@
+LOCUS       3GMT_A                   230 aa            linear   BCT 30-OCT-2013
+DEFINITION  Chain A, Crystal Structure Of Adenylate Kinase From Burkholderia
+            Pseudomallei.
+ACCESSION   3GMT_A
+VERSION     3GMT_A  GI:238828229
+DBSOURCE    pdb: molecule 3GMT, chain 65, release Oct 30, 2013;
+            deposition: Mar 15, 2009;
+            class: Transferase;
+            source: Mmdb_id: 73055, Pdb_id 1: 3GMT;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Burkholderia pseudomallei 1710b
+  ORGANISM  Burkholderia pseudomallei 1710b
+            Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+            Burkholderiaceae; Burkholderia; pseudomallei group.
+REFERENCE   1  (residues 1 to 230)
+  AUTHORS   Buchko,G.W., Robinson,H., Abendroth,J., Staker,B.L. and Myler,P.J.
+  TITLE     Structural characterization of Burkholderia pseudomallei adenylate
+            kinase (Adk): profound asymmetry in the crystal structure of the
+            'open' state
+  JOURNAL   Biochem. Biophys. Res. Commun. 394 (4), 1012-1017 (2010)
+   PUBMED   20331978
+REFERENCE   2  (residues 1 to 230)
+  AUTHORS   Baugh,L., Gallagher,L.A., Patrapuvich,R., Clifton,M.C.,
+            Gardberg,A.S., Edwards,T.E., Armour,B., Begley,D.W.,
+            Dieterich,S.H., Dranow,D.M., Abendroth,J., Fairman,J.W., Fox D,3r.,
+            Staker,B.L., Phan,I., Gillespie,A., Choi,R., Nakazawa-Hewitt,S.,
+            Nguyen,M.T., Napuli,A., Barrett,L., Buchko,G.W., Stacy,R.,
+            Myler,P.J., Stewart,L.J., Manoil,C. and Van Voorhis,W.C.
+  TITLE     Combining functional and structural genomics to sample the
+            essential Burkholderia structome
+  JOURNAL   PLoS ONE 8 (1), E53851 (2013)
+   PUBMED   23382856
+REFERENCE   3  (residues 1 to 230)
+  AUTHORS   Abendroth,J., Staker,B.L., Robinson,H., Buchko,G.W., Hewitt,S.N.,
+            J,A.J., Van Voorhis,W., Stacy,R., Myler,P.J., Stewart,L., Seattle
+            Structura and Genomics Center For Infectious Disease (Ssgcid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-MAR-2009)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..230
+                     /organism="Burkholderia pseudomallei 1710b"
+                     /db_xref="taxon:320372"
+     Region          join(1..119,201..230)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          10..226
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     Region          10..219
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          11..15
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          22..32
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          34..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(39,44,67,92..93,95..96,100)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          39..49
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(44,92,96,131,175,179)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          52..63
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          69..81
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          88..93
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          98..107
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          112..118
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          120..200
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          121..129
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          130..136
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          137..143
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          169..196
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          205..211
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+ORIGIN      
+        1 xahhhhhhxr lillgapgag kgtqanfike kfgipqistg dxlraavkag tplgveakty
+       61 xdegklvpds liiglvkerl keadcangyl fdgfprtiaq adaxkeagva idyvleidvp
+      121 fseiierxsg rrthpasgrt yhvkfnppkv egkddvtgep lvqrdddkee tvkkrldvye
+      181 aqtkplityy gdwarrgaen glkapayrki sglgaveeir arvrraqvse
+//
+

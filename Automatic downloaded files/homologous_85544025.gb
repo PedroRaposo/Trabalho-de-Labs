@@ -1,0 +1,95 @@
+LOCUS       1ZH2_A                   121 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The Calcium-Bound Receiver Domain Of
+            Kdp Potassium Transport System Response Regulator Kdpe.
+ACCESSION   1ZH2_A
+VERSION     1ZH2_A  GI:85544025
+DBSOURCE    pdb: molecule 1ZH2, chain 65, release Sep 22, 2012;
+            deposition: Apr 22, 2005;
+            class: Transcription;
+            source: Mmdb_id: 36627, Pdb_id 1: 1ZH2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 121)
+  AUTHORS   Toro-Roman,A., Wu,T. and Stock,A.M.
+  TITLE     A common dimerization interface in bacterial response regulators
+            KdpE and TorR
+  JOURNAL   Protein Sci. 14 (12), 3077-3088 (2005)
+   PUBMED   16322582
+REFERENCE   2  (residues 1 to 121)
+  AUTHORS   Toro-Roman,A., Wu,T. and Stock,A.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-2005)
+COMMENT     1 Kdp Operon Transcriptional Regulatory Protein Kdpe.
+FEATURES             Location/Qualifiers
+     source          1..121
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     SecStr          4..9
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          5..116
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(8..9,52,60,79,98,101..102)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     Het             join(bond(9),bond(52),bond(54))
+                     /heterogen="( CA,1000 )"
+     SecStr          12..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..33
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          34..44
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          47..56
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            52
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(55..56,58..60)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          57..60
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          61..68
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          73..80
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          84..93
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          96..101
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            101..103
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          105..120
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 mtnvlivede qairrflrta legdgmrvfe aetlqrglle aatrkpdlii ldlglpdgdg
+       61 iefirdlrqw savpvivlsa rseesdkiaa ldagaddyls kpfgigelqa rlrvalrrhs
+      121 q
+//
+

@@ -1,0 +1,137 @@
+LOCUS       4JYX_A                   345 aa            linear   BCT 10-APR-2013
+DEFINITION  Chain A, Crystal Structure Of Polyprenyl Synthase Patl_3739 (target
+            Efi-509195) From Pseudoalteromonas Atlantica, Complex With
+            Inorganic Phosphate And An Unknown Ligand.
+ACCESSION   4JYX_A
+VERSION     4JYX_A  GI:478247559
+DBSOURCE    pdb: molecule 4JYX, chain 65, release Apr 10, 2013;
+            deposition: Apr 1, 2013;
+            class: Transferase;
+            source: Mmdb_id: 109109, Pdb_id 1: 4JYX;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pseudoalteromonas atlantica T6c
+  ORGANISM  Pseudoalteromonas atlantica T6c
+            Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales;
+            Pseudoalteromonadaceae; Pseudoalteromonas.
+REFERENCE   1  (residues 1 to 345)
+  AUTHORS   Patskovsky,Y., Toro,R., Bhosle,R., Hillerich,B., Seidel,R.D.,
+            Washington,E., Scott Glenn,A., Chowdhury,S., Evans,B., Ha,J.,
+            Zencheck,W.D., Imker,H.J., Al Obaidi,N., Stead,M., Love,J.,
+            Poulter,C.D., Gerlt,J.A. and Almo,S.C.
+  TITLE     Crystal Structure Of Isoprenoid Synthase Patl_3739
+            Pseudoalteromonas Atlantica
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 345)
+  AUTHORS   Patskovsky,Y., Toro,R., Bhosle,R., Hillerich,B., Seidel,R.D.,
+            Washin,E., Scott Glenn,A., Chowdhury,S., Evans,B., Hammonds,J.,
+            Zencheck,W.D., H, Al Obaidi,N., Stead,M., Love,J., Poulter,C.D.,
+            Gerlt,J.A., Almo,S.C., E and Function Initiative (Efi).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-APR-2013)
+COMMENT     1 Trans-hexaprenyltranstransferase.
+FEATURES             Location/Qualifiers
+     source          1..345
+                     /organism="Pseudoalteromonas atlantica T6c"
+                     /db_xref="taxon:342610"
+     Region          join(1..149,325..345)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          25..34
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          35..45
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          49..343
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          52..63
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          69..81
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          88..110
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            order(98,101..103,105..107,109..110,115..116,168,171,
+                     192..193,196,233..234,237,247,252,257)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            101..110
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(106..107,110,115..116,171,192,233..234,237,247,252,
+                     257)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(106..107,110,115..116,192,233..234)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(106..107,110,115..116,171,192)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(112..126,240..241,247..252,255..259)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          113..116
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          117..120
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          127..147
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          150..324
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          151..174
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          182..192
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          195..208
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          212..236
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Site            order(233..234,237,247,252,257)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          260..268
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          271..283
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          291..300
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          301..321
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          328..339
+                     /sec_str_type="helix"
+                     /note="helix 15"
+ORIGIN      
+        1 mhhhhhhssg vdlgtenlyf qsmdldhils laepdmlavn qliqkqvnsd vslinqlgfy
+       61 ivnsggkrlr plltvlaara lniqteqhht laaiiefiht atllhddvvd estmrrgret
+      121 anevfgnqas vlvgdflytr sfqmmvtlds mrvmqilsda tnviaegevl qlmncndpdt
+      181 teesymeviy sktarlfeaa tllagvltkq seaienamqd ygkylgtafq lvddimdyas
+      241 dseemgknmg ddlaegkptl pllyamwhgn eqqtaiirea ietgngmdnl tpiletmeqt
+      301 galtytkqqa lkasqqaida lspieesvyk ealiglahis verva
+//
+

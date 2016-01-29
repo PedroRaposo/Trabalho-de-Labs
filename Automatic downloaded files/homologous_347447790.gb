@@ -1,0 +1,107 @@
+LOCUS       3TQF_A                   181 aa            linear   BCT 24-JUN-2015
+DEFINITION  Chain A, Structure Of The Hpr(ser) Kinase/phosphatase From Coxiella
+            Burnetii.
+ACCESSION   3TQF_A
+VERSION     3TQF_A  GI:347447790
+DBSOURCE    pdb: molecule 3TQF, chain 65, release Jun 24, 2015;
+            deposition: Sep 9, 2011;
+            class: Transferase, Hydrolase;
+            source: Mmdb_id: 93803, Pdb_id 1: 3TQF;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Coxiella burnetii
+  ORGANISM  Coxiella burnetii
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Coxiellaceae; Coxiella.
+REFERENCE   1  (residues 1 to 181)
+  AUTHORS   Franklin,M.C., Cheung,J., Rudolph,M.J., Burshteyn,F., Cassidy,M.,
+            Gary,E., Hillerich,B., Yao,Z.K., Carlier,P.R., Totrov,M. and
+            Love,J.D.
+  TITLE     Structural Genomics for Drug Design against the Pathogen Coxiella
+            burnetii
+  JOURNAL   Proteins (2015) In press
+   PUBMED   26033498
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 181)
+  AUTHORS   Franklin,M.C., Cheung,J., Rudolph,M., Cassidy,M., Gary,E. and
+            Burshteyn,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-SEP-2011)
+COMMENT     1 Hpr(ser) Kinase.
+FEATURES             Location/Qualifiers
+     source          1..181
+                     /organism="Coxiella burnetii"
+                     /db_xref="taxon:777"
+     Region          4..152
+                     /region_name="HprK_C"
+                     /note="HprK/P, the bifunctional histidine-containing
+                     protein kinase/phosphatase, controls the phosphorylation
+                     state of the phosphocarrier protein HPr and regulates the
+                     utilization of carbon sources by gram-positive bacteria.
+                     It catalyzes both the ATP-dependent...; cd01918"
+                     /db_xref="CDD:238899"
+     SecStr          5..8
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(6,8,25..26,29,34,38,47..48,50,65,71,75..77,82,
+                     112..113,132,143,146)
+                     /site_type="other"
+                     /note="Hpr binding site"
+                     /db_xref="CDD:238899"
+     Site            order(8,26,28..30,46..47,71,73)
+                     /site_type="active"
+                     /db_xref="CDD:238899"
+     SecStr          9..15
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          16..23
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          29..39
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(32,34,38..39,42,65,69,75,77..79,82..84,131,147..148,
+                     150)
+                     /site_type="other"
+                     /note="homohexamer subunit interaction site [polypeptide
+                     binding]"
+                     /db_xref="CDD:238899"
+     SecStr          41..47
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Bond            bond(45,62)
+                     /bond_type="disulfide"
+     SecStr          48..55
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          56..62
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          68..73
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          74..80
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          91..95
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          96..103
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          117..123
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          126..135
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          141..165
+                     /sec_str_type="helix"
+                     /note="helix 2"
+ORIGIN      
+        1 snakqtwhan flvidkxgvl itgeanigks elslalidrg hqlvcddvid lkqennqlig
+       61 scpsvangyi litgigiidv pklfgldavv nqhevhlsis lvkpekxpll ddplnplyrt
+      121 eiilginvpk ilfpihpgrn lpllietlvr nhrlkxegyd sshhfhehfr kardnydskk
+      181 n
+//
+

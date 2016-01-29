@@ -1,0 +1,157 @@
+LOCUS       1T3I_A                   420 aa            linear   BCT 04-MAR-2013
+DEFINITION  Chain A, Structure Of Slr0077/sufs, The Essential Cysteine
+            Desulfurase From Synechocystis Pcc 6803.
+ACCESSION   1T3I_A
+VERSION     1T3I_A  GI:55669832
+DBSOURCE    pdb: molecule 1T3I, chain 65, release Mar 3, 2013;
+            deposition: Apr 26, 2004;
+            class: Transferase;
+            source: Mmdb_id: 29405, Pdb_id 1: 1T3I;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Synechocystis sp.
+  ORGANISM  Synechocystis sp.
+            Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales;
+            Synechocystis.
+REFERENCE   1  (residues 1 to 420)
+  AUTHORS   Tirupati,B., Vey,J.L., Drennan,C.L. and Bollinger JM,Jr.
+  TITLE     Kinetic and structural characterization of Slr0077/SufS, the
+            essential cysteine desulfurase from Synechocystis sp. PCC 6803
+  JOURNAL   Biochemistry 43 (38), 12210-12219 (2004)
+   PUBMED   15379559
+REFERENCE   2  (residues 1 to 420)
+  AUTHORS   Tirupati,B., Vey,J.L., Drennan,C.L. and Bollinger,J.M. Jr.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-APR-2004)
+COMMENT     1 Probable Cysteine Desulfurase.
+FEATURES             Location/Qualifiers
+     source          1..420
+                     /organism="Synechocystis sp."
+                     /db_xref="taxon:1143"
+     Region          join(1..37,302..420)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          10..412
+                     /region_name="CsdA"
+                     /note="Selenocysteine lyase/Cysteine desulfurase [Amino
+                     acid transport and metabolism]; COG0520"
+                     /db_xref="CDD:223594"
+     SecStr          22..25
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          26..32
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          30..406
+                     /region_name="SufS_like"
+                     /note="Cysteine desulfurase (SufS)-like. This family
+                     belongs to the pyridoxal phosphate (PLP)-dependent
+                     aspartate aminotransferase superfamily (fold I). The major
+                     groups in this CD correspond to cysteine desulfurase
+                     (SufS) and selenocysteine lyase. SufS...; cd06453"
+                     /db_xref="CDD:99746"
+     Region          join(38..88,279..301)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          42..53
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          65..75
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          78..85
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          89..256
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          92..97
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(99..100,103,128,205,207..208,228,230..231)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99746"
+     SecStr          99..109
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          118..125
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          133..141
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          142..150
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          158..166
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          171..177
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          188..198
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          200..206
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          223..229
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Site            231
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99746"
+     Het             bond(231)
+                     /heterogen="(PLP,1001 )"
+     SecStr          238..243
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          244..251
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          262..266
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          267..271
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          285..301
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          302..320
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          326..330
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          341..348
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          352..361
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          363..370
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          374..381
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          384..390
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          396..412
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 mvalqipsla atvrqdfpil nqeinghplv yldnaatsqk pravleklmh yyendnanvh
+       61 rgahqlsvra tdayeavrnk vakfinarsp reivytrnat eainlvaysw gmnnlkagde
+      121 iittvmehhs nlvpwqmvaa ktgavlkfvq ldeqesfdle hfktllsekt klvtvvhisn
+      181 tlgcvnpaee iaqlahqaga kvlvdacqsa phypldvqli dcdwlvasgh kmcaptgigf
+      241 lygkeeilea mppffgggem iaevffdhft tgelphkfea gtpaiaeaia lgaavdyltd
+      301 lgmenihnye velthylwqg lgqipqlrly gpnpkhgdra alasfnvagl hasdvatmvd
+      361 qdgiairsgh hctqplhrlf dasgsarasl yfyntkeeid lflqslqati rffsdddftv
+//
+

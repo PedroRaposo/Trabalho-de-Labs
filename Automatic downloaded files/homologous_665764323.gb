@@ -1,0 +1,104 @@
+LOCUS       4K46_A                   214 aa            linear   BCT 16-JUL-2014
+DEFINITION  Chain A, Crystal Structure Of Adenylate Kinase From Photobacterium
+            Profundum.
+ACCESSION   4K46_A
+VERSION     4K46_A  GI:665764323
+DBSOURCE    pdb: molecule 4K46, chain 65, release Jul 16, 2014;
+            deposition: Apr 12, 2013;
+            class: Transferase;
+            source: Mmdb_id: 121463, Pdb_id 1: 4K46;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Photobacterium profundum
+  ORGANISM  Photobacterium profundum
+            Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales;
+            Vibrionaceae; Photobacterium.
+REFERENCE   1  (residues 1 to 214)
+  AUTHORS   Cho,Y.-J., Kerns,S.J. and Kern,D.
+  TITLE     Alike But Different: Adenylate Kinases From E. Coli Aquifex, And P.
+            Profundum
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 214)
+  AUTHORS   Cho,Y.-J., Kerns,S.J. and Kern,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-APR-2013)
+COMMENT     1 Adenylate Kinase.
+FEATURES             Location/Qualifiers
+     source          1..214
+                     /organism="Photobacterium profundum"
+                     /db_xref="taxon:74109"
+     Region          1..214
+                     /region_name="adk"
+                     /note="adenylate kinase; Reviewed; PRK00279"
+                     /db_xref="CDD:234711"
+     SecStr          1..7
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          2..205
+                     /region_name="ADK"
+                     /note="Adenylate kinase (ADK) catalyzes the reversible
+                     phosphoryl transfer from adenosine triphosphates (ATP) to
+                     adenosine monophosphates (AMP) and to yield adenosine
+                     diphosphates (ADP). This enzyme is required for the
+                     biosynthesis of ADP and is essential for...; cd01428"
+                     /db_xref="CDD:238713"
+     SecStr          13..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          26..31
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(31,36,59,84..85,87..88,92)
+                     /site_type="other"
+                     /note="AMP-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          32..41
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(36,84,88,123,167,171)
+                     /site_type="other"
+                     /note="ATP-AMP (Ap5A)-binding site [chemical binding]"
+                     /db_xref="CDD:238713"
+     SecStr          44..55
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          61..72
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          80..85
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          90..99
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          104..110
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          112..120
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          122..128
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          129..135
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          161..173
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          178..188
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          191..197
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          202..212
+                     /sec_str_type="helix"
+                     /note="helix 9"
+ORIGIN      
+        1 mriillgapg agkgtqaqfi makfgipqis tgdmlraaik agtelgkqak svidagqlvs
+       61 ddiilglvke riaqddcakg flldgfprti pqadglkevg vvvdyviefd vadsviverm
+      121 agrrahlasg rtyhnvynpp kvegkddvtg edlvireddk eetvlarlgv yhnqtaplia
+      181 yygkeaeagn tqylkfdgtk avaevsaele kala
+//
+

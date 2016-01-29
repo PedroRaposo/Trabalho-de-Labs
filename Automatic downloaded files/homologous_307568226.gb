@@ -1,0 +1,54 @@
+LOCUS       3LF9_A                   121 aa            linear       10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Hiv Epitope-Scaffold
+            4e10_d0_1is1a_001_c.
+ACCESSION   3LF9_A
+VERSION     3LF9_A  GI:307568226
+DBSOURCE    pdb: molecule 3LF9, chain 65, release Sep 22, 2010;
+            deposition: Jan 16, 2010;
+            class: Immune System;
+            source: Mmdb_id: 85010, Pdb_id 1: 3LF9;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Unknown.
+  ORGANISM  Unknown.
+            Unclassified.
+REFERENCE   1  (residues 1 to 121)
+  AUTHORS   Correia,B.E., Ban,Y.E., Holmes,M.A., Xu,H., Ellingson,K., Kraft,Z.,
+            Carrico,C., Boni,E., Sather,D.N., Zenobia,C., Burke,K.Y.,
+            Bradley-Hewitt,T., Bruhn-Johannsen,J.F., Kalyuzhniy,O., Baker,D.,
+            Strong,R.K., Stamatatos,L. and Schief,W.R.
+  TITLE     Computational design of epitope-scaffolds allows induction of
+            antibodies specific for a poorly immunogenic HIV vaccine epitope
+  JOURNAL   Structure 18 (9), 1116-1126 (2010)
+   PUBMED   20826338
+REFERENCE   2  (residues 1 to 121)
+  AUTHORS   Holmes,M.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JAN-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..121
+                     /organism="unknown"
+     Region          1..113
+                     /region_name="RRF"
+                     /note="Ribosome recycling factor (RRF). Ribosome recycling
+                     factor dissociates the posttermination complex, composed
+                     of the ribosome, deacylated tRNA, and mRNA, after
+                     termination of translation. Thus ribosomes are 'recycled'
+                     and ready for another round of...; cl00240"
+                     /db_xref="CDD:260292"
+     SecStr          2..26
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          35..69
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          78..111
+                     /sec_str_type="helix"
+                     /note="helix 3"
+ORIGIN      
+        1 mineikkdaq ermdksveal knnlskvrtg gggteerrkd lvkivrgeae ggrvavrnia
+       61 rdaandlaal gkdkevnwfd isqalweiqk ltdvavkkid evlaakekel mevlehhhhh
+      121 h
+//
+

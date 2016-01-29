@@ -1,0 +1,189 @@
+LOCUS       1WP9_A                   494 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Pyrococcus Furiosus Hef Helicase
+            Domain.
+ACCESSION   1WP9_A
+VERSION     1WP9_A  GI:60593908
+DBSOURCE    pdb: molecule 1WP9, chain 65, release Sep 4, 2012;
+            deposition: Aug 31, 2004;
+            class: Hydrolase;
+            source: Mmdb_id: 31401, Pdb_id 1: 1WP9;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pyrococcus furiosus DSM 3638
+  ORGANISM  Pyrococcus furiosus DSM 3638
+            Archaea; Euryarchaeota; Thermococci; Thermococcales;
+            Thermococcaceae; Pyrococcus.
+REFERENCE   1  (residues 1 to 494)
+  AUTHORS   Nishino,T., Komori,K., Tsuchiya,D., Ishino,Y. and Morikawa,K.
+  TITLE     Crystal structure and functional implications of Pyrococcus
+            furiosus hef helicase domain involved in branched DNA processing
+  JOURNAL   Structure 13 (1), 143-153 (2005)
+   PUBMED   15642269
+REFERENCE   2  (residues 1 to 494)
+  AUTHORS   Nishino,T., Komori,K., Tsuchiya,D., Ishino,Y. and Morikawa,K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-AUG-2004)
+COMMENT     1 Atp-dependent Rna Helicase, Putative.
+FEATURES             Location/Qualifiers
+     source          1..494
+                     /organism="Pyrococcus furiosus DSM 3638"
+                     /db_xref="taxon:186497"
+     Region          1..494
+                     /region_name="MPH1"
+                     /note="ERCC4-related helicase [Replication, recombination
+                     and repair]; COG1111"
+                     /db_xref="CDD:224036"
+     Region          1..196
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          12..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          24..30
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          25..166
+                     /region_name="DEXDc"
+                     /note="DEAD-like helicases superfamily. A diverse family
+                     of proteins involved in ATP-dependent RNA or DNA
+                     unwinding. This domain contains the ATP-binding region;
+                     cd00046"
+                     /db_xref="CDD:238005"
+     Site            33..37
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+     SecStr          36..50
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          54..59
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          62..75
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          82..87
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          92..101
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          103..108
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          110..118
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          127..133
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            132..135
+                     /site_type="other"
+                     /note="putative Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238005"
+     SecStr          143..153
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          157..164
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          170..180
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          183..188
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          join(197..211,342..494)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          204..210
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          212..341
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          213..236
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Region          216..335
+                     /region_name="Hef_ID"
+                     /note="insert domain of Archaeal Hef helicase/nuclease;
+                     cd12089"
+                     /db_xref="CDD:277188"
+     Site            order(219,290..292,295)
+                     /site_type="other"
+                     /note="helicase domain interface [polypeptide binding]"
+                     /db_xref="CDD:277188"
+     SecStr          249..264
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          273..291
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          294..310
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          315..322
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          323..338
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          341..471
+                     /region_name="HELICc"
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast
+                     initiation factor 4A, Ski2p, and Hepatitis C virus NS3
+                     helicases; this domain is found in a wide variety of
+                     helicases and helicase related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+     SecStr          344..358
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          363..369
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            order(369..372,392..393,426..428)
+                     /site_type="other"
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          371..383
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          387..392
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          407..417
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          421..427
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            order(434,455,459,462)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          439..444
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          448..458
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          466..474
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          477..484
+                     /sec_str_type="helix"
+                     /note="helix 18"
+ORIGIN      
+        1 mvlrrdliqp riyqeviyak cketnclivl ptglgktlia mmiaeyrltk yggkvlmlap
+       61 tkplvlqhae sfrrlfnlpp ekivaltgek speerskawa rakvivatpq tiendllagr
+      121 isledvsliv fdeahravgn yayvfiarey krqaknplvi gltaspgstp ekimevinnl
+      181 giehieyrse nspdvrpyvk girfewvrvd lpeiykevrk llremlrdal kplaetglle
+      241 ssspdipkke vlragqiine emakgnhdlr glllyhamal klhhaielle tqglsalray
+      301 ikklyeeaka gstkaskeif sdkrmkkais llvqakeigl dhpkmdklke iireqlqrkq
+      361 nskiivftny retakkivne lvkdgikakr fvgqaskend rglsqreqkl ildefargef
+      421 nvlvatsvge egldvpevdl vvfyepvpsa irsiqrrgrt grhmpgrvii lmakgtrdea
+      481 yywssrqkek imqe
+//
+

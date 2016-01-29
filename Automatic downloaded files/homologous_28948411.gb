@@ -1,0 +1,184 @@
+LOCUS       1J09_A                   468 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Crystal Structure Of Thermus Thermophilus Glutamyl-Trna
+            Synthetase Complexed With Atp And Glu.
+ACCESSION   1J09_A
+VERSION     1J09_A  GI:28948411
+DBSOURCE    pdb: molecule 1J09, chain 65, release Jan 4, 2013;
+            deposition: Nov 12, 2002;
+            class: Ligase;
+            source: Mmdb_id: 21970, Pdb_id 1: 1J09;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus
+  ORGANISM  Thermus thermophilus
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 468)
+  AUTHORS   Nureki,O., Vassylyev,D.G., Katayanagi,K., Shimizu,T., Sekine,S.,
+            Kigawa,T., Miyazawa,T., Yokoyama,S. and Morikawa,K.
+  TITLE     Architectures of class-defining and specific domains of
+            glutamyl-tRNA synthetase
+  JOURNAL   Science 267 (5206), 1958-1965 (1995)
+   PUBMED   7701318
+  REMARK    Erratum:[Science 1995 May 5;268(5211):625]
+REFERENCE   2  (residues 1 to 468)
+  AUTHORS   Sekine,S., Nureki,O., Shimada,A., Vassylyev,D.G. and Yokoyama,S.
+  TITLE     Structural basis for anticodon recognition by discriminating
+            glutamyl-tRNA synthetase
+  JOURNAL   Nat. Struct. Biol. 8 (3), 203-206 (2001)
+   PUBMED   11224561
+REFERENCE   3  (residues 1 to 468)
+  AUTHORS   Sekine,S., Nureki,O., Dubois,D.Y., Bernier,S., Chenevert,R.,
+            Lapointe,J., Vassylyev,D.G. and Yokoyama,S.
+  TITLE     ATP binding by glutamyl-tRNA synthetase is switched to the
+            productive mode by tRNA binding
+  JOURNAL   EMBO J. 22 (3), 676-688 (2003)
+   PUBMED   12554668
+REFERENCE   4  (residues 1 to 468)
+  AUTHORS   Sekine,S., Nureki,O., Dubois,D.Y., Bernier,S., Chenevert,R.,
+            Lapointe,J., Vassylyev,D.G., Yokoyama,S., Riken Structural and
+            GenomicsPROTEOMICS INITIATIVE (RSGI).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-NOV-2002)
+COMMENT     1 Glutamyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..468
+                     /organism="Thermus thermophilus"
+                     /db_xref="taxon:274"
+     Region          1..467
+                     /region_name="gltX"
+                     /note="glutamyl-tRNA synthetase; Reviewed; PRK01406"
+                     /db_xref="CDD:234953"
+     Region          join(1..85,235..321)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..320
+                     /region_name="GluRS_core"
+                     /note="catalytic core domain of discriminating
+                     glutamyl-tRNA synthetase; cd00808"
+                     /db_xref="CDD:173905"
+     SecStr          2..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(5,7..9,17..18,20..21,41,187,191,205..206,208..209,
+                     234..235,243..244)
+                     /site_type="active"
+                     /db_xref="CDD:173905"
+     Site            15..18
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173905"
+     SecStr          16..32
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          34..42
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          52..63
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          80..83
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          86..234
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          87..99
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          101..106
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          109..118
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          131..140
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          144..149
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          154..161
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          163..170
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          176..181
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          183..186
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          187..198
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          201..206
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          213..223
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          228..233
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          235..238
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            243..247
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173905"
+     SecStr          252..260
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          263..272
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          285..293
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          302..305
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          307..319
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          324..338
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          345..355
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          369..468
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          381..391
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          392..403
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          409..423
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          429..438
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          446..453
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          456..467
+                     /sec_str_type="helix"
+                     /note="helix 19"
+ORIGIN      
+        1 mvvtriapsp tgdphvgtay ialfnyawar rnggrfivri edtdraryvp gaeerilaal
+       61 kwlglsydeg pdvggphgpy rqserlplyq kyaeellkrg wayrafetpe eleqirkekg
+      121 gydgrarnip peeaeerarr gephvirlkv prpgttevkd elrgvvvydn qeipdvvllk
+      181 sdgyptyhla nvvddhlmgv tdviraeewl vstpihvlly rafgweaprf yhmpllrnpd
+      241 ktkiskrksh tsldwykaeg flpealrnyl clmgfsmpdg reiftleefi qaftwervsl
+      301 ggpvfdlekl rwmngkyire vlsleevaer vkpflreagl sweseaylrr avelmrprfd
+      361 tlkefpekar ylftedypvs ekaqrkleeg lpllkelypr lraqeewtea aleallrgfa
+      421 aekgvklgqv aqplraaltg sletpglfei lallgkeral rrlerala
+//
+

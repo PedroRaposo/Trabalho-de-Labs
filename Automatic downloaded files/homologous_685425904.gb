@@ -1,0 +1,91 @@
+LOCUS       4W83_A                   182 aa            linear   BCT 17-SEP-2014
+DEFINITION  Chain A, Crystal Structure Of Aminoglycoside Acetyltransferase
+            Aac(3)-ib.
+ACCESSION   4W83_A
+VERSION     4W83_A  GI:685425904
+DBSOURCE    pdb: molecule 4W83, chain 65, release Sep 17, 2014;
+            deposition: Aug 22, 2014;
+            class: Transferase;
+            source: Mmdb_id: 123305, Pdb_id 1: 4W83;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Pseudomonas aeruginosa
+  ORGANISM  Pseudomonas aeruginosa
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (residues 1 to 182)
+  AUTHORS   Stogios,P.J., Xu,Z., Evdokimova,E., Yim,V., Anderson,W.F.,
+            Savchenko,A., Center For Structural Genomics Of Infec and Diseases
+            (Csgid).
+  TITLE     Crystal Structure Of Aminoglycoside Acetyltransfera Aac(3)-Ib
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 182)
+  AUTHORS   Stogios,P.J., Xu,Z., Evdokimova,E., Yim,V., Anderson,W.F.,
+            Savchenko,A. and For Structural Genomics Of Infectious Diseases
+            (Csgid).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2014)
+COMMENT     1 Aminoglycoside 3'-n-acetyltransferase.
+FEATURES             Location/Qualifiers
+     source          1..182
+                     /organism="Pseudomonas aeruginosa"
+                     /db_xref="taxon:287"
+     Region          1..146
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          25..31
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          36..50
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          38..160
+                     /region_name="RimI"
+                     /note="Ribosomal protein S18 acetylase RimI and related
+                     acetyltransferases [Translation, ribosomal structure and
+                     biogenesis]; COG0456"
+                     /db_xref="CDD:223532"
+     SecStr          63..71
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          74..83
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          78..143
+                     /region_name="NAT_SF"
+                     /note="N-Acyltransferase superfamily: Various enzymes that
+                     characteristically catalyze the transfer of an acyl group
+                     to a substrate; cd04301"
+                     /db_xref="CDD:173926"
+     SecStr          84..88
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          89..97
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          102..107
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          108..113
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            order(110..112,122..123)
+                     /site_type="other"
+                     /note="Coenzyme A binding pocket [chemical binding]"
+                     /db_xref="CDD:173926"
+     SecStr          121..136
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          139..143
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          150..159
+                     /sec_str_type="helix"
+                     /note="helix 4"
+ORIGIN      
+        1 mlwssndvtq qgsrpktklg gsmsiiatvk igpdeisamr avldlfgkef ediptysdrq
+       61 ptneylanll hsetfialaa fdrgtaiggl aayvlpkfeq arseiyiydl avasshrrlg
+      121 vatalishlk rvavelgayv iyvqadygdd pavalytklg vredvmhfdi dprtathhhh
+      181 hh
+//
+

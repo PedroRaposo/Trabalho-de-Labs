@@ -1,0 +1,97 @@
+LOCUS       1DZ3_A                   130 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Domain-Swapping In The Sporulation Response Regulator
+            Spo0a.
+ACCESSION   1DZ3_A
+VERSION     1DZ3_A  GI:7767177
+DBSOURCE    pdb: molecule 1DZ3, chain 65, release Aug 27, 2007;
+            deposition: Feb 15, 2000;
+            class: Response Regulator;
+            source: Mmdb_id: 13279, Pdb_id 1: 1DZ3;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Geobacillus stearothermophilus
+  ORGANISM  Geobacillus stearothermophilus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae;
+            Geobacillus.
+REFERENCE   1  (residues 1 to 130)
+  AUTHORS   Lewis,R.J., Muchova,K., Brannigan,J.A., Barak,I., Leonard,G. and
+            Wilkinson,A.J.
+  TITLE     Domain swapping in the sporulation response regulator Spo0A
+  JOURNAL   J. Mol. Biol. 297 (3), 757-770 (2000)
+   PUBMED   10731426
+REFERENCE   2  (residues 1 to 130)
+  AUTHORS   Lewis,R.J., Brannigan,J.A., Muchova,K., Leonard,G., Barak,I. and
+            Wilkinson,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-FEB-2000)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..130
+                     /organism="Geobacillus stearothermophilus"
+                     /db_xref="taxon:1422"
+     Region          1..109
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          2..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..120
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(9..10,55,63,84,103,106..107)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          12..24
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          27..36
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          37..46
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          50..59
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            55
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(58..59,61..63)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          61..64
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          65..73
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          78..85
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          92..99
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          100..105
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            106..108
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          113..122
+                     /sec_str_type="helix"
+                     /note="helix 5"
+ORIGIN      
+        1 msikvciadd nrelvsllde yissqpdmev igtayngqdc lqmleekrpd illldiimph
+       61 ldglavleri ragfehqpnv imltafgqed vtkkavelga syfilkpfdm enlahhirqv
+      121 ygkttpvvrk
+//
+

@@ -1,0 +1,123 @@
+LOCUS       3E0M_A                   313 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Fusion Protein Of Msra And Msrb.
+ACCESSION   3E0M_A
+VERSION     3E0M_A  GI:240104348
+DBSOURCE    pdb: molecule 3E0M, chain 65, release Jun 17, 2009;
+            deposition: Jul 31, 2008;
+            class: Oxidoreductase;
+            source: Mmdb_id: 73311, Pdb_id 1: 3E0M;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptococcus pneumoniae
+  ORGANISM  Streptococcus pneumoniae
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae;
+            Streptococcus.
+REFERENCE   1  (residues 1 to 313)
+  AUTHORS   Kim,Y.K., Shin,Y.J., Lee,W.H., Kim,H.Y., Mm,M.H. and Hwang,K.Y.
+  TITLE     Structural and Kinetic Analysis of an MsrA-MsrB Fusion Protein from
+            Streptococcus pneumoniae
+  JOURNAL   Mol. Microbiol. (2009) In press
+   PUBMED   19400786
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 313)
+  AUTHORS   Kim,Y.K. and Hwang,K.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-JUL-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..313
+                     /organism="Streptococcus pneumoniae"
+                     /db_xref="taxon:1313"
+     Region          1..153
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..164
+                     /region_name="MsrA"
+                     /note="Peptide methionine sulfoxide reductase MsrA
+                     [Posttranslational modification, protein turnover,
+                     chaperones]; COG0225"
+                     /db_xref="CDD:223303"
+     SecStr          4..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          13..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          24..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          51..59
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          65..75
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          82..85
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          86..89
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          93..98
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          104..118
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          124..128
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          131..135
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     Region          154..313
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Region          168..310
+                     /region_name="MsrB"
+                     /note="Peptide methionine sulfoxide reductase MsrB
+                     [Posttranslational modification, protein turnover,
+                     chaperones]; COG0229"
+                     /db_xref="CDD:223307"
+     SecStr          172..180
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          181..189
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          207..212
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          217..222
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          232..236
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          243..252
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          253..263
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          264..272
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          273..277
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          280..287
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          291..296
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+ORIGIN      
+        1 hmaeiylagg cfwgleeyfs risgvletsv gyangqvett nyqllketdh aetvqviyde
+       61 kevslreill yyfrvidpls inqqgndrgr qyrtgiyyqd eadlpaiytv vqeqermlgr
+      121 kiaveveqlr hyilaedyhq dylrknpsgy chidvtdadk plidaanyek psqevlkasl
+      181 seesyrvtqe aateapftna ydqtfeegiy vdittgeplf fakdkfasgc gwpsfsrpls
+      241 kelihyykdl shgmerievr srsgsahlgh vftdgprelg glrycinsas lrfvakdeme
+      301 kagygyllpy lnk
+//
+

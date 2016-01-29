@@ -1,0 +1,86 @@
+ID   O83630_TREPA            Unreviewed;       593 AA.
+AC   O83630;
+DT   01-NOV-1998, integrated into UniProtKB/TrEMBL.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 87.
+DE   SubName: Full=Putative membrane protein {ECO:0000313|EMBL:AGN75803.1};
+DE   SubName: Full=Uncharacterized protein {ECO:0000313|EMBL:AAC65603.1};
+GN   OrderedLocusNames=TP_0622 {ECO:0000313|EMBL:AAC65603.1};
+GN   ORFNames=TPANIC_0622 {ECO:0000313|EMBL:AGN75803.1};
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276 {ECO:0000313|EMBL:AAC65603.1, ECO:0000313|Proteomes:UP000014259};
+RN   [1] {ECO:0000313|EMBL:AAC65603.1, ECO:0000313|Proteomes:UP000000811}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AAC65603.1,
+RC   ECO:0000313|Proteomes:UP000000811};
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+RN   [2] {ECO:0000313|EMBL:AGN75803.1, ECO:0000313|Proteomes:UP000014259}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols {ECO:0000313|EMBL:AGN75803.1,
+RC   ECO:0000313|Proteomes:UP000014259};
+RX   PubMed=24058545; DOI=10.1371/journal.pone.0074319;
+RA   Petrosova H., Pospisilova P., Strouhal M., Cejkova D., Zobanikova M.,
+RA   Mikalova L., Sodergren E., Weinstock G.M., Smajs D.;
+RT   "Resequencing of Treponema pallidum ssp. pallidum strains Nichols and
+RT   SS14: correction of sequencing errors resulted in increased separation
+RT   of syphilis treponeme subclusters.";
+RL   PLoS ONE 8:E74319-E74319(2013).
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65603.1; -; Genomic_DNA.
+DR   EMBL; CP004010; AGN75803.1; -; Genomic_DNA.
+DR   PIR; G71301; G71301.
+DR   RefSeq; WP_010882068.1; NC_021490.2.
+DR   STRING; 243276.TP0622; -.
+DR   EnsemblBacteria; AAC65603; AAC65603; TP_0622.
+DR   EnsemblBacteria; AGN75803; AGN75803; TPANIC_0622.
+DR   GeneID; 2611694; -.
+DR   KEGG; tpa:TP_0622; -.
+DR   KEGG; tpw:TPANIC_0622; -.
+DR   PATRIC; 20531311; VBITrePal57110_0663.
+DR   eggNOG; ENOG4106D7T; Bacteria.
+DR   eggNOG; ENOG410XYS1; LUCA.
+DR   OMA; ERRAVYY; -.
+DR   OrthoDB; EOG62NX0P; -.
+DR   BioCyc; TPAL243276:GC1H-661-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   Proteomes; UP000014259; Chromosome.
+DR   Gene3D; 1.25.40.10; -; 2.
+DR   InterPro; IPR013026; TPR-contain_dom.
+DR   InterPro; IPR011990; TPR-like_helical_dom.
+DR   InterPro; IPR019734; TPR_repeat.
+DR   SUPFAM; SSF48452; SSF48452; 3.
+DR   PROSITE; PS50005; TPR; 3.
+DR   PROSITE; PS50293; TPR_REGION; 2.
+PE   4: Predicted;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000811};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000811}.
+FT   DOMAIN      201    371       TPR_REGION.
+FT                                {ECO:0000259|PROSITE:PS50293}.
+FT   DOMAIN      544    577       TPR_REGION.
+FT                                {ECO:0000259|PROSITE:PS50293}.
+SQ   SEQUENCE   593 AA;  66777 MW;  0C47CE0F834B842F CRC64;
+     MGALTKSIDR AIGVSVGFVL IPVFLCCRSS SKVVPTRAGT DPVSSASQAP EVAAHPVRGT
+     ALDVPDRRAI RTKLMDPKIL FLIETASPAS LREAAACIQR DPAGLTPHNR LYLRVCAALM
+     QLVYPQEAVS WHVPLYNTAH PYLTALDDVE KGTYPLIPGE PDFFSDIIPP LTLLKKRLPD
+     EVHADCRERL TRARTQAPHS LLPFLLFGYL HEQHGELSEA ESAYRSAWEK DASCYPAGIC
+     YARMLVQRGE TALALPIARL LLHRFPKDRA VQLLQAQIHS ARQEWSAAQP YVAALLRQQP
+     EDNAALLLHI RILVAQREYQ KAHASLDSFA ERDSSDKTYL LLRAQVAKEW SKNDASAHDF
+     LQQAYRLYPR DVQVLLACAQ HCFETGHSLA QKNMRSFIAL VLRADAHNAQ ALRLLTQYEL
+     AQGNWEQAVS RAERLNTAYP SEAHQELLIR AYSGSGRAQE AISLARRLYH SAQPPSETVI
+     VLYLDTLYEA RHYREIRAVI AARSASARGT LRSIFSYYEA LLSVHEEERL SLLRASLLSD
+     PRNGRTLFAL YEWYRKKKDF RKAQYYLHQV IALDPNNAQH RALSKQLDTL IGQ
+//

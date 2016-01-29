@@ -1,0 +1,89 @@
+LOCUS       4Q2E_A                   290 aa            linear   BCT 15-AUG-2014
+DEFINITION  Chain A, Crystal Structure Of An Intramembrane Cdp-dag Synthetase
+            Central For Phospholipid Biosynthesis (s200c/s258c, Active Mutant).
+ACCESSION   4Q2E_A
+VERSION     4Q2E_A  GI:661918699
+DBSOURCE    pdb: molecule 4Q2E, chain 65, release Aug 14, 2014;
+            deposition: Apr 8, 2014;
+            class: Transferase;
+            source: Mmdb_id: 121228, Pdb_id 1: 4Q2E;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga maritima MSB8
+  ORGANISM  Thermotoga maritima MSB8
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 290)
+  AUTHORS   Liu,X., Yin,Y., Wu,J. and Liu,Z.
+  TITLE     Structure and mechanism of an intramembrane liponucleotide
+            synthetase central for phospholipid biosynthesis
+  JOURNAL   Nat Commun 5, 4244 (2014)
+   PUBMED   24968740
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (residues 1 to 290)
+  AUTHORS   Liu,X., Yin,Y., Wu,J. and Liu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2014)
+COMMENT     1 Phosphatidate Cytidylyltransferase.
+FEATURES             Location/Qualifiers
+     source          1..290
+                     /organism="Thermotoga maritima MSB8"
+                     /db_xref="taxon:243274"
+     Region          1..137
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          25..285
+                     /region_name="CTP_transf_1"
+                     /note="Cytidylyltransferase family; pfam01148"
+                     /db_xref="CDD:250399"
+     SecStr          34..41
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Het             join(bond(37),bond(41))
+                     /heterogen="( HG,1001 )"
+     SecStr          45..66
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          75..89
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          97..113
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          117..133
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          138..290
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          141..148
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          150..173
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          189..210
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     Het             bond(220)
+                     /heterogen="( HG,1000 )"
+     SecStr          225..249
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Het             join(bond(239),bond(239),bond(269),bond(239),bond(239),
+                     bond(239),bond(242),bond(242),bond(243))
+                     /heterogen="(  K,1004 )"
+     Het             join(bond(239),bond(269))
+                     /heterogen="( MG,1003 )"
+     Het             bond(243)
+                     /heterogen="( HG,1002 )"
+     SecStr          275..285
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 mgsshhhhhh ssglvprgsh mddlktrvit asvvapfvvl cfvsyeslig lvsaililag
+       61 yelitlemke rdarffyvil lalypvlygl vfeeptqpls ilfitgvvfs litdkdpsqv
+      121 fktvaafsia liyvtfflsf flpiyrdfga anallvltst wvfdsfayft glkfgrtris
+      181 prysprksle gviggflgvv iytflyrlvv ndllsvnvic frtflpfaat vaimdtfgdi
+      241 fecalkrhyg vkdsgktlpg hggmldridg llfvapvsyi vfkilegvvr
+//
+

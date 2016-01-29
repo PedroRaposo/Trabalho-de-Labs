@@ -1,0 +1,214 @@
+LOCUS       1ATI_A                   505 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Glycyl-Trna Synthetase From Thermus
+            Thermophilus.
+ACCESSION   1ATI_A
+VERSION     1ATI_A  GI:2392169
+DBSOURCE    pdb: molecule 1ATI, chain 65, release Sep 4, 2012;
+            deposition: Apr 23, 1996;
+            class: Protein Biosynthesis;
+            source: Mmdb_id: 6104, Pdb_id 1: 1ATI;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus HB8
+  ORGANISM  Thermus thermophilus HB8
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 505)
+  AUTHORS   Logan,D.T., Cura,V., Touzel,J.P., Kern,D. and Moras,D.
+  TITLE     Crystallisation of the glycyl-tRNA synthetase from Thermus
+            thermophilus and initial crystallographic data
+  JOURNAL   J. Mol. Biol. 241 (5), 732-735 (1994)
+   PUBMED   8071996
+REFERENCE   2  (residues 1 to 505)
+  AUTHORS   Logan,D.T., Mazauric,M.H., Kern,D. and Moras,D.
+  TITLE     Crystal structure of glycyl-tRNA synthetase from Thermus
+            thermophilus
+  JOURNAL   EMBO J. 14 (17), 4156-4167 (1995)
+   PUBMED   7556056
+REFERENCE   3  (residues 1 to 505)
+  AUTHORS   Logan,D.T., Mazauric,M.-H., Kern,D. and Moras,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-1996)
+COMMENT     1 Glycyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..505
+                     /organism="Thermus thermophilus HB8"
+                     /db_xref="taxon:300852"
+     Region          1..56
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..503
+                     /region_name="PRK04173"
+                     /note="glycyl-tRNA synthetase; Provisional"
+                     /db_xref="CDD:235240"
+     SecStr          6..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          8..372
+                     /region_name="GlyRS-like_core"
+                     /note="Glycyl-tRNA synthetase (GlyRS)-like class II core
+                     catalytic domain. GlyRS functions as a homodimer in
+                     eukaryotes, archaea and some bacteria and as a
+                     heterotetramer in the remainder of prokaryotes. It is
+                     responsible for the attachment of glycine to the 3'...;
+                     cd00774"
+                     /db_xref="CDD:238397"
+     Site            order(16,42,50,56,62..63,66..68,70,169..172,199,203,234,
+                     318)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238397"
+     SecStr          17..20
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          21..24
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          25..28
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          32..35
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          36..53
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          join(57..65,189..375)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          59..63
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            61..68
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238397"
+     Region          66..188
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          67..70
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          71..78
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          83..88
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          162..167
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          169..173
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          181..186
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            order(188,190,220,222,230..232,235,237,239,304..305,311,
+                     359,361,363,366)
+                     /site_type="active"
+                     /db_xref="CDD:238397"
+     SecStr          191..204
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          209..217
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            219..222
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238397"
+     SecStr          233..238
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          239..245
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          250..266
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          273..279
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          289..299
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          300..312
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          313..320
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          343..347
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          350..354
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          355..364
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Site            363..366
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238397"
+     SecStr          365..375
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          371..504
+                     /region_name="GlyRS_anticodon"
+                     /note="GlyRS Glycyl-anticodon binding domain. GlyRS
+                     belongs to class II aminoacyl-tRNA synthetases (aaRS).
+                     This alignment contains the anticodon binding domain,
+                     which is responsible for specificity in tRNA-binding, so
+                     that the activated amino acid is...; cd00858"
+                     /db_xref="CDD:238435"
+     Region          376..505
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          376..382
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          384..391
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          400..406
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     Site            order(406..407,445,451,459,478,480)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:238435"
+     SecStr          411..426
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          431..435
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          440..450
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          453..459
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          475..482
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          485..492
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          495..503
+                     /sec_str_type="helix"
+                     /note="helix 10"
+ORIGIN      
+        1 aassldelva lckrrgfifq sseiygglqg vydygplgve lknnlkqaww rrnvyerddm
+       61 egldasvlth rlvlhysghe atfadpmvdn ritkkryrld hllkeqpeev lkrlyramev
+      121 eeenlhalvq ammqaperag gamtaagvld pasgepgdwt ppryfnmmfq dlrgprggrg
+      181 llaylrpeta qgifvnfknv ldatsrklgf giaqigkafr neitprnfif rvrefeqmei
+      241 eyfvrpgede ywhrywveer lkwwqemgls renlvpyqqp pessahyaka tvdilyrfph
+      301 gslelegiaq rtdfdlgsht kdqealgita rvlrnehstq rlayrdpetg kwfvpyviep
+      361 sagvdrgvla llaeaftree lpngeerivl klkpqlapik vaviplvknr peiteyakrl
+      421 karllalglg rvlyedtgni gkayrrhdev gtpfavtvdy dtigqskdgt trlkdtvtvr
+      481 drdtmeqirl hvdelegflr erlrw
+//
+

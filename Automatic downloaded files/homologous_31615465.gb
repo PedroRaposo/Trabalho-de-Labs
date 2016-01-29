@@ -1,0 +1,92 @@
+LOCUS       1KA5_A                    88 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Refined Solution Structure Of Histidine Containing
+            Phosphocarrier Protein From Staphyloccocus Aureus.
+ACCESSION   1KA5_A
+VERSION     1KA5_A  GI:31615465
+DBSOURCE    pdb: molecule 1KA5, chain 65, release Jun 18, 2009;
+            deposition: Oct 31, 2001;
+            class: Ligand Transport;
+            source: Mmdb_id: 22937, Pdb_id 1: 1KA5;
+            Exp. method: Solution Nmr.
+KEYWORDS    .
+SOURCE      Staphylococcus aureus
+  ORGANISM  Staphylococcus aureus
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+            Staphylococcus.
+REFERENCE   1  (residues 1 to 88)
+  AUTHORS   Kalbitzer,H.R. and Hengstenberg,W.
+  TITLE     The solution structure of the histidine-containing protein (HPr)
+            from Staphylococcus aureus as determined by two-dimensional 1H-NMR
+            spectroscopy
+  JOURNAL   Eur. J. Biochem. 216 (1), 205-214 (1993)
+   PUBMED   8365407
+REFERENCE   2  (residues 1 to 88)
+  AUTHORS   Maurer,T., Meier,S., Kachel,N., Munte,C.E., Hasenbein,S., Koch,B.,
+            Hengstenberg,W. and Kalbitzer,H.R.
+  TITLE     High-resolution structure of the histidine-containing
+            phosphocarrier protein (HPr) from Staphylococcus aureus and
+            characterization of its interaction with the bifunctional HPr
+            kinase/phosphorylase
+  JOURNAL   J. Bacteriol. 186 (17), 5906-5918 (2004)
+   PUBMED   15317796
+REFERENCE   3  (residues 1 to 88)
+  AUTHORS   Maurer,T., Meier,S., Hengstenberg,W., Kalbitzer,H.R., Structural
+            and Proteomics In Europe (Spine).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (31-OCT-2001)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..88
+                     /organism="Staphylococcus aureus"
+                     /db_xref="taxon:1280"
+     SecStr          1..9
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            7..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          16..28
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          39..43
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          46..53
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          58..67
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          70..84
+                     /sec_str_type="helix"
+                     /note="helix 3"
+ORIGIN      
+        1 xeqnsyviid etgiharpat mlvqtaskfd sdiqleyngk kvnlksimgv mslgvgkdae
+       61 itiyadgsde sdaiqaisdv lskegltk
+//
+

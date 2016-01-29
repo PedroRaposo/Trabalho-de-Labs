@@ -1,0 +1,117 @@
+LOCUS       1XB2_B                   291 aa            linear   MAM 10-OCT-2012
+DEFINITION  Chain B, Crystal Structure Of Bos Taurus Mitochondrial Elongation
+            Factor TuTS COMPLEX.
+ACCESSION   1XB2_B
+VERSION     1XB2_B  GI:56967055
+DBSOURCE    pdb: molecule 1XB2, chain 66, release Jun 18, 2009;
+            deposition: Aug 27, 2004;
+            class: Translation;
+            source: Mmdb_id: 30682, Pdb_id 1: 1XB2;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (residues 1 to 291)
+  AUTHORS   Jeppesen,M.G., Navratil,T., Spremulli,L.L. and Nyborg,J.
+  TITLE     Crystal structure of the bovine mitochondrial elongation factor
+            Tu.Ts complex
+  JOURNAL   J. Biol. Chem. 280 (6), 5071-5081 (2005)
+   PUBMED   15557323
+REFERENCE   2  (residues 1 to 291)
+  AUTHORS   Jeppesen,M.G., Navratil,T., Spremulli,L.L. and Nyborg,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-AUG-2004)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..291
+                     /organism="Bos taurus"
+                     /db_xref="taxon:9913"
+     Region          1..45
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          2..15
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     Region          6..42
+                     /region_name="UBA_EF-Ts"
+                     /note="UBA domain found in elongation factor Ts (EF-Ts)
+                     from bacteria, chloroplasts and mitochondria of
+                     eukaryotes; cd14275"
+                     /db_xref="CDD:270461"
+     Site            order(8..9,12..13,19..20,23)
+                     /site_type="other"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:270461"
+     SecStr          19..29
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          33..45
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          46..291
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          46..55
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          60..275
+                     /region_name="EF_TS"
+                     /note="Elongation factor TS; pfam00889"
+                     /db_xref="CDD:250206"
+     SecStr          61..71
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          72..82
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     SecStr          90..109
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          117..122
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          123..130
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          131..134
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          135..138
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     SecStr          140..151
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          154..165
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          168..179
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          187..190
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          191..200
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     SecStr          208..221
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          263..267
+                     /sec_str_type="sheet"
+                     /note="strand 37"
+     SecStr          268..273
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+ORIGIN      
+        1 sasskellmk lrrktgysfi nckkaletcg gdlkqaeswl hkqaqkegws kaarlhgrkt
+       61 kegligllqe gdttvlvevn cetdfvsrnl kfqqlvqqva lgtllhcqnl kdqlstyskg
+      121 flnsselsel pagperegsl kdqlalaigk lgenmilkra awvkvpagfy vgsyvhgamh
+      181 spslhnlvlg kygalvicet selkanladl grrlgqhvvg maplsvgsld depggeaetk
+      241 mlsqpylldp sitlgqyvqp hgvsvvdfvr fecgegedaa daelehhhhh h
+//
+

@@ -1,0 +1,370 @@
+LOCUS       2EYQ_A                  1151 aa            linear   BCT 18-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Escherichia Coli Transcription-Repair
+            Coupling Factor.
+ACCESSION   2EYQ_A
+VERSION     2EYQ_A  GI:90109237
+DBSOURCE    pdb: molecule 2EYQ, chain 65, release Oct 13, 2012;
+            deposition: Nov 9, 2005;
+            class: Hydrolase;
+            source: Mmdb_id: 37688, Pdb_id 1: 2EYQ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 1151)
+  AUTHORS   Deaconescu,A.M., Chambers,A.L., Smith,A.J., Nickels,B.E.,
+            Hochschild,A., Savery,N.J. and Darst,S.A.
+  TITLE     Structural basis for bacterial transcription-coupled DNA repair
+  JOURNAL   Cell 124 (3), 507-520 (2006)
+   PUBMED   16469698
+REFERENCE   2  (residues 1 to 1151)
+  AUTHORS   Deaconescu,A.M. and Darst,S.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-NOV-2005)
+COMMENT     1 Transcription-repair Coupling Factor.
+FEATURES             Location/Qualifiers
+     source          1..1151
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..118,269..356)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          4..1150
+                     /region_name="PRK10689"
+                     /note="transcription-repair coupling factor; Provisional"
+                     /db_xref="CDD:182649"
+     SecStr          17..24
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          29..40
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          43..50
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          52..64
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          69..73
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          88..100
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          106..113
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          119..220
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          123..130
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          131..135
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          136..206
+                     /region_name="UB2H"
+                     /note="Bifunctional transglycosylase second domain;
+                     pfam14814"
+                     /db_xref="CDD:258951"
+     SecStr          141..151
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          153..156
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          163..169
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          170..176
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          182..189
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          190..195
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          196..200
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          203..209
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          210..216
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          224..237
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          246..254
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          282..289
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          292..309
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          327..334
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          337..344
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          352..356
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Region          357..459
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          357..360
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          375..383
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          386..393
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          395..405
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          412..415
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          424..431
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          435..441
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          442..449
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     Region          460..544
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          469..476
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     Region          479..576
+                     /region_name="CarD_TRCF"
+                     /note="CarD-like/TRCF domain; smart01058"
+                     /db_xref="CDD:215001"
+     SecStr          484..489
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          491..496
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          497..505
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          506..512
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          513..517
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          519..526
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          531..535
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+     Region          join(545..581,942..998)
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          553..580
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          582..783
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          583..586
+                     /sec_str_type="sheet"
+                     /note="strand 30"
+     SecStr          590..597
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          606..619
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          620..623
+                     /sec_str_type="sheet"
+                     /note="strand 31"
+     SecStr          624..631
+                     /sec_str_type="sheet"
+                     /note="strand 32"
+     Region          625..761
+                     /region_name="DEXDc"
+                     /note="DEAD-like helicases superfamily. A diverse family
+                     of proteins involved in ATP-dependent RNA or DNA
+                     unwinding. This domain contains the ATP-binding region;
+                     cd00046"
+                     /db_xref="CDD:238005"
+     Site            634..638
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+     SecStr          639..651
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          654..659
+                     /sec_str_type="sheet"
+                     /note="strand 33"
+     SecStr          662..676
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          682..687
+                     /sec_str_type="sheet"
+                     /note="strand 34"
+     SecStr          692..704
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          708..713
+                     /sec_str_type="sheet"
+                     /note="strand 35"
+     SecStr          727..733
+                     /sec_str_type="sheet"
+                     /note="strand 36"
+     Site            732..735
+                     /site_type="other"
+                     /note="putative Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238005"
+     SecStr          739..748
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          752..759
+                     /sec_str_type="sheet"
+                     /note="strand 37"
+     SecStr          775..779
+                     /sec_str_type="sheet"
+                     /note="strand 38"
+     Region          784..941
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     SecStr          788..796
+                     /sec_str_type="sheet"
+                     /note="strand 39"
+     Region          789..918
+                     /region_name="HELICc"
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast
+                     initiation factor 4A, Ski2p, and Hepatitis C virus NS3
+                     helicases; this domain is found in a wide variety of
+                     helicases and helicase related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+     SecStr          798..811
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          813..820
+                     /sec_str_type="sheet"
+                     /note="strand 40"
+     Site            order(820..823,845..846,871..873)
+                     /site_type="other"
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          825..836
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          840..844
+                     /sec_str_type="sheet"
+                     /note="strand 41"
+     SecStr          850..862
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          866..871
+                     /sec_str_type="sheet"
+                     /note="strand 42"
+     Site            order(879,901,905,908)
+                     /site_type="other"
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+     SecStr          882..890
+                     /sec_str_type="sheet"
+                     /note="strand 43"
+     SecStr          896..904
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          912..920
+                     /sec_str_type="sheet"
+                     /note="strand 44"
+     SecStr          927..937
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          945..962
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          965..973
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     SecStr          974..991
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     Region          999..1151
+                     /region_name="Domain 8"
+                     /note="NCBI Domains"
+     SecStr          1005..1010
+                     /sec_str_type="sheet"
+                     /note="strand 45"
+     Region          1008..1107
+                     /region_name="TRCF"
+                     /note="This domain is found in proteins necessary for
+                     strand-specific repair in DNA such as TRCF in Escherichia
+                     coli; smart00982"
+                     /db_xref="CDD:198050"
+     SecStr          1023..1035
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          1039..1052
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          1058..1076
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          1079..1085
+                     /sec_str_type="sheet"
+                     /note="strand 46"
+     SecStr          1086..1092
+                     /sec_str_type="sheet"
+                     /note="strand 47"
+     SecStr          1100..1110
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          1113..1119
+                     /sec_str_type="sheet"
+                     /note="strand 48"
+     SecStr          1120..1126
+                     /sec_str_type="sheet"
+                     /note="strand 49"
+     SecStr          1131..1148
+                     /sec_str_type="helix"
+                     /note="helix 32"
+ORIGIN      
+        1 gphmpeqyry tlpvkageqr llgeltgaac atlvaeiaer hagpvvliap dmqnalrlhd
+       61 eisqftdqmv mnladwetlp ydsfsphqdi issrlstlyq lptmqrgvli vpvntlmqrv
+      121 cphsflhgha lvmkkgqrls rdalrtqlds agyrhvdqvm ehgeyatrga lldlfpmgse
+      181 lpyrldffdd eidslrvfdv dsqrtleeve ainllpahef ptdkaaielf rsqwrdtfev
+      241 krdpehiyqq vskgtlpagi eywqplffse plpplfsyfp antllvntgd letsaerfqa
+      301 dtlarfenrg vdpmrpllpp qslwlrvdel fselknwprv qlktehlptk aananlgfqk
+      361 lpdlavqaqq kapldalrkf letfdgpvvf svesegrrea lgellariki apqrimrlde
+      421 asdrgrylmi gaaehgfvdt vrnlalices dllgervarr rqdsrrtinp dtlirnlael
+      481 higqpvvhle hgvgryagmt tleaggitge ylmltyanda klyvpvsslh lisryaggae
+      541 enaplhklgg dawsrarqka aekvrdvaae lldiyaqraa kegfafkhdr eqyqlfcdsf
+      601 pfettpdqaq ainavlsdmc qplamdrlvc gdvgfgktev amraaflavd nhkqvavlvp
+      661 ttllaqqhyd nfrdrfanwp vriemisrfr sakeqtqila evaegkidil igthkllqsd
+      721 vkfkdlglli vdeehrfgvr hkerikamra nvdiltltat piprtlnmam sgmrdlsiia
+      781 tpparrlavk tfvreydsmv vreailreil rggqvyylyn dveniqkaae rlaelvpear
+      841 iaighgqmre relervmndf hhqrfnvlvc ttiietgidi ptantiiier adhfglaqlh
+      901 qlrgrvgrsh hqayawlltp hpkamttdaq krleaiasle dlgagfalat hdleirgage
+      961 llgeeqsgsm etigfslyme llenavdalk agrepsledl tsqqtevelr mpsllpddfi
+     1021 pdvntrlsfy kriasakten eleeikveli drfgllpdpa rtlldiarlr qqaqklgirk
+     1081 legnekggvi efaeknhvnp awligllqkq pqhyrldgpt rlkfiqdlse rktriewvrq
+     1141 fmreleenai a
+//
+

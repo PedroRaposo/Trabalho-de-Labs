@@ -1,0 +1,336 @@
+LOCUS       5FKU_A                  1160 aa            linear   BCT 25-NOV-2015
+DEFINITION  Chain A, Cryo-em Structure Of The E. Coli Replicative Dna
+            Polymerase Complex In Dna Free State (dna Polymerase Iii Alpha,
+            Beta, Epsilon, Tau Complex).
+ACCESSION   5FKU_A
+VERSION     5FKU_A  GI:955265174
+DBSOURCE    pdb: molecule 5FKU, chain 65, release Nov 25, 2015;
+            deposition: Oct 20, 2015;
+            class: Transferase;
+            source: Mmdb_id: 134492, Pdb_id 1: 5FKU;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 1160)
+  AUTHORS   Fernandez-Leiro,R., Conrad,J., Scheres,S.H. and Lamers,M.H.
+  TITLE     cryo-EM structures of the E. coli replicative DNA polymerase reveal
+            dynamic interactions with clamp, exonuclease and tau
+  JOURNAL   Elife 4 (2015) In press
+   PUBMED   26499492
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 1160)
+  AUTHORS   Fernandez-Leiro,R., Conrad,J., Scheres,S.H.W. and Lamers,M.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-OCT-2015)
+COMMENT     1 Dna Polymerase Iii Subunit Alpha.
+FEATURES             Location/Qualifiers
+     source          1..1160
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          1..65
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          5..1151
+                     /region_name="dnaE"
+                     /note="DNA polymerase III subunit alpha; Validated;
+                     PRK05673"
+                     /db_xref="CDD:235554"
+     Region          5..281
+                     /region_name="PHP_PolIIIA_DnaE1"
+                     /note="Polymerase and Histidinol Phosphatase domain of
+                     alpha-subunit of bacterial polymerase III DnaE1; cd07433"
+                     /db_xref="CDD:213988"
+     Site            order(10,12,19,44,69,201,203)
+                     /site_type="active"
+                     /note="putative active site [active]"
+                     /db_xref="CDD:213988"
+     SecStr          24..34
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          37..40
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          50..60
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Site            order(58,62..64,268)
+                     /site_type="other"
+                     /note="putative PHP Thumb interface [polypeptide binding]"
+                     /db_xref="CDD:213988"
+     SecStr          62..65
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          66..277
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          66..74
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          81..89
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          91..106
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          115..118
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          127..133
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          138..145
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          148..156
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          165..171
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          178..192
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          195..199
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          210..221
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          243..250
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          255..266
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          278..389
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          288..307
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          290..735
+                     /region_name="DNA_pol3_alpha"
+                     /note="Bacterial DNA polymerase III alpha subunit;
+                     pfam07733"
+                     /db_xref="CDD:254393"
+     SecStr          311..318
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          319..335
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          339..353
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          368..375
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     Region          join(390..432,511..559)
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          403..407
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          411..421
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          426..431
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          433..436
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          438..502
+                     /region_name="Domain 5"
+                     /note="NCBI Domains"
+     SecStr          438..449
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          453..461
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          470..478
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          481..488
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          489..501
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          504..507
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          513..518
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          527..531
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          536..540
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          542..549
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          551..557
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Region          join(560..584,778..825)
+                     /region_name="Domain 6"
+                     /note="NCBI Domains"
+     SecStr          561..575
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     Region          join(585..671,755..777)
+                     /region_name="Domain 7"
+                     /note="NCBI Domains"
+     SecStr          594..602
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          614..623
+                     /sec_str_type="helix"
+                     /note="helix 24"
+     SecStr          627..634
+                     /sec_str_type="helix"
+                     /note="helix 25"
+     SecStr          647..656
+                     /sec_str_type="helix"
+                     /note="helix 26"
+     Region          672..754
+                     /region_name="Domain 8"
+                     /note="NCBI Domains"
+     SecStr          687..696
+                     /sec_str_type="helix"
+                     /note="helix 27"
+     SecStr          702..714
+                     /sec_str_type="helix"
+                     /note="helix 28"
+     SecStr          721..734
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          738..751
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     SecStr          758..777
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          778..790
+                     /sec_str_type="helix"
+                     /note="helix 32"
+     SecStr          794..807
+                     /sec_str_type="helix"
+                     /note="helix 33"
+     Region          808..898
+                     /region_name="HHH_6"
+                     /note="Helix-hairpin-helix motif; pfam14579"
+                     /db_xref="CDD:258717"
+     Region          826..973
+                     /region_name="Domain 9"
+                     /note="NCBI Domains"
+     SecStr          843..855
+                     /sec_str_type="helix"
+                     /note="helix 34"
+     SecStr          862..869
+                     /sec_str_type="helix"
+                     /note="helix 35"
+     SecStr          876..885
+                     /sec_str_type="helix"
+                     /note="helix 36"
+     SecStr          895..916
+                     /sec_str_type="helix"
+                     /note="helix 37"
+     SecStr          946..956
+                     /sec_str_type="helix"
+                     /note="helix 38"
+     Region          974..1080
+                     /region_name="Domain 10"
+                     /note="NCBI Domains"
+     SecStr          990..997
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     Region          995..1080
+                     /region_name="DnaE_OBF"
+                     /note="DnaE_OBF: A subfamily of OB folds corresponding to
+                     the C-terminal OB-fold nucleic acid binding domain of
+                     Thermus aquaticus and Escherichia coli type C replicative
+                     DNA polymerase III alpha subunit (DnaE). The DNA
+                     polymerase holoenzyme of E. coli contains...; cd04485"
+                     /db_xref="CDD:239931"
+     Site            order(995,1047,1049,1051,1071)
+                     /site_type="other"
+                     /note="generic binding surface II"
+                     /db_xref="CDD:239931"
+     SecStr          999..1002
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Site            order(1000..1002,1016..1019,1021,1027..1029,1031,1046,
+                     1053..1055,1064..1066)
+                     /site_type="other"
+                     /note="generic binding surface I"
+                     /db_xref="CDD:239931"
+     SecStr          1015..1020
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          1023..1028
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          1043..1046
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          1047..1056
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          1063..1067
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          1068..1071
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          1072..1079
+                     /sec_str_type="helix"
+                     /note="helix 39"
+     Region          1081..1160
+                     /region_name="Domain 11"
+                     /note="NCBI Domains"
+     SecStr          1082..1087
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          1099..1106
+                     /sec_str_type="helix"
+                     /note="helix 40"
+     SecStr          1115..1122
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          1123..1130
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          1150..1155
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+ORIGIN      
+        1 mseprfvhlr vhsdysmidg laktaplvkk aaalgmpala itdftnlcgl vkfygaghga
+       61 gikpivgadf nvqcdllgde lthltvlaan ntgyqnltll iskayqrgyg aagpiidrdw
+      121 lielneglil lsggrmgdvg rsllrgnsal vdecvafyee hfpdryflel irtgrpdees
+      181 ylhaavelae arglpvvatn dvrfidssdf daheirvaih dgftlddpkr prnyspqqym
+      241 rseeemcelf adipealant veiakrcnvt vrlgeyflpq fptgdmsted ylvkrakegl
+      301 eerlaflfpd eeerlkrrpe yderletelq vinqmgfpgy flivmefiqw skdngvpvgp
+      361 grgsgagslv ayalkitdld plefdllfer flnpervsmp dfdvdfcmek rdqviehvad
+      421 mygrdavsqi itfgtmaaka virdvgrvlg hpygfvdris klippdpgmt lakafeaepq
+      481 lpeiyeadee vkalidmark legvtrnagk haggvviapt kitdfaplyc deegkhpvtq
+      541 fdksdveyag lvkfdflglr tltiinwale minkrrakng eppldiaaip lddkksfdml
+      601 qrsettavfq lesrgmkdli krlqpdcfed mialvalfrp gplqsgmvdn fidrkhgree
+      661 isypdvqwqh eslkpvlept ygiilyqeqv mqiaqvlsgy tlggadmlrr amgkkkpeem
+      721 akqrsvfaeg aeknginael amkifdlvek fagygfnksh saayalvsyq tlwlkahypa
+      781 efmaavmtad mdntekvvgl vdecwrmglk ilppdinsgl yhfhvnddge ivygigaikg
+      841 vgegpieaii earnkggyfr elfdlcartd tkklnrrvle klimsgafdr lgphraalmn
+      901 slgdalkaad qhakaeaigq ldlfgvlaee peqieqsyas cqpwpeqvvl dgeretlgly
+      961 ltghpinqyl keieryvggv rlkdmhpter gkvitaaglv vaarvmvtkr gnrigictld
+     1021 drsgrlevml ftdaldkyqq llekdriliv sgqvsfddfs gglkmtarev mdideareky
+     1081 arglaisltd rqiddqllnr lrqslephrs gtipvhlyyq radararlrf gatwrvspsd
+     1141 rllndlrgli gseqvelefd
+//
+

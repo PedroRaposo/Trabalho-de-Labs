@@ -1,0 +1,164 @@
+LOCUS       3B8U_A                   379 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Crystal Structure Of Escherichia Coli Alaine Racemase
+            Mutant E221a.
+ACCESSION   3B8U_A
+VERSION     3B8U_A  GI:193885277
+DBSOURCE    pdb: molecule 3B8U, chain 65, release Jan 4, 2013;
+            deposition: Nov 2, 2007;
+            class: Isomerase;
+            source: Mmdb_id: 65384, Pdb_id 1: 3B8U;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 379)
+  AUTHORS   Wu,D., Hu,T., Zhang,L., Chen,J., Du,J., Ding,J., Jiang,H. and
+            Shen,X.
+  TITLE     Residues Asp164 and Glu165 at the substrate entryway function
+            potently in substrate orientation of alanine racemase from E. coli:
+            Enzymatic characterization with crystal structure analysis
+  JOURNAL   Protein Sci. 17 (6), 1066-1076 (2008)
+   PUBMED   18434499
+REFERENCE   2  (residues 1 to 379)
+  AUTHORS   Wu,D., Hu,T., Zhang,L., Jiang,H. and Shen,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2007)
+COMMENT     1 Alanine Racemase.
+FEATURES             Location/Qualifiers
+     source          1..379
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     Region          join(1..30,243..379)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          21..378
+                     /region_name="alr"
+                     /note="alanine racemase; Reviewed; PRK00053"
+                     /db_xref="CDD:234600"
+     SecStr          22..30
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          23..378
+                     /region_name="PLPDE_III_AR_proteobact"
+                     /note="Type III Pyridoxal 5-phosphate (PLP)-Dependent
+                     Enzymes, Proteobacterial Alanine Racemases; cd06827"
+                     /db_xref="CDD:143500"
+     Region          31..242
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          31..44
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          47..53
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(52,54,58,98,142,149,177,179,213..215,229..232,363)
+                     /site_type="active"
+                     /db_xref="CDD:143500"
+     Site            order(52,54,58,98,179,213..214,229,231..232,363)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate (PLP) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:143500"
+     Site            order(54,58,149,179,363)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143500"
+     Site            order(54,275)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143500"
+     Het             bond(54)
+                     /heterogen="(PLP,1003 )"
+     SecStr          61..69
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          73..78
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          81..89
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          94..98
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          106..114
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          115..120
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          122..130
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          138..143
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          158..166
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          173..179
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          190..202
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          206..212
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          226..231
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          254..261
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            order(262,265,271..272,274..276,289,294,300,322,324,361,
+                     363..364,369,372)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:143500"
+     SecStr          262..267
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          268..273
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          282..286
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          287..292
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          306..311
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          313..318
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          324..331
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          340..345
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          351..358
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          361..368
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          373..379
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+ORIGIN      
+        1 mgsshhhhhh ssglvprgsh mqaatvvinr ralrhnlqrl relapaskmv avvkanaygh
+       61 glletartlp dadafgvarl eealrlragg itkpvllleg ffdardlpti saqhfhtavh
+      121 neeqlaalee asldepvtvw mxldtgmhrl gvrpeqaeaf yhrltqcknv rqpvnivshf
+      181 aradepkcga tekqlaifnt fcegkpgqrs iaasggillw pqshfdwvrp giilygvspl
+      241 adrstgadfg cqpvmsltss liavrehkag epvgyggtwv serdtrlgvv amgygdgypr
+      301 aapsgtpvlv ngrevpivgr vamdmicvdl gpqaqdkagd pvilwgeglp veriaemtkv
+      361 sayelitrlt srvamkyvd
+//
+

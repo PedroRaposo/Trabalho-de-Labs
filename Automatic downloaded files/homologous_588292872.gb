@@ -1,0 +1,138 @@
+LOCUS       4ISY_A                   404 aa            linear   BCT 17-MAY-2014
+DEFINITION  Chain A, Crystal Structure Of Iscs From Mycobacterium Tuberculosis.
+ACCESSION   4ISY_A
+VERSION     4ISY_A  GI:588292872
+DBSOURCE    pdb: molecule 4ISY, chain 65, release May 16, 2014;
+            deposition: Jan 17, 2013;
+            class: Transferase;
+            source: Mmdb_id: 117801, Pdb_id 1: 4ISY;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium tuberculosis
+  ORGANISM  Mycobacterium tuberculosis
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium; Mycobacterium tuberculosis complex.
+REFERENCE   1  (residues 1 to 404)
+  AUTHORS   Rybniker,J., Pojer,F., Marienhagen,J., Kolly,G.S., Chen,J.M., van
+            Gumpel,E., Hartmann,P. and Cole,S.T.
+  TITLE     The cysteine desulfurase IscS of Mycobacterium tuberculosis is
+            involved in iron-sulfur cluster biogenesis and oxidative stress
+            defence
+  JOURNAL   Biochem. J. 459 (3), 467-478 (2014)
+   PUBMED   24548275
+REFERENCE   2  (residues 1 to 404)
+  AUTHORS   Rybniker,J., Pojer,F. and Cole,S.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-2013)
+COMMENT     1 Cysteine Desulfurase.
+FEATURES             Location/Qualifiers
+     source          1..404
+                     /organism="Mycobacterium tuberculosis"
+                     /db_xref="taxon:1773"
+     Region          join(1..20,272..404)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          12..16
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          13..380
+                     /region_name="Aminotran_5"
+                     /note="Aminotransferase class-V; pfam00266"
+                     /db_xref="CDD:249728"
+     Region          14..387
+                     /region_name="NifS"
+                     /note="Cysteine sulfinate desulfinase/cysteine desulfurase
+                     or related enzyme [Amino acid transport and metabolism];
+                     COG1104"
+                     /db_xref="CDD:224029"
+     Region          join(21..69,242..271)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          25..35
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          46..66
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          70..241
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          72..77
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(79..80,83,162,190,193,213,216)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate binding pocket [chemical
+                     binding]"
+                     /db_xref="CDD:99742"
+     SecStr          79..97
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          102..107
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          112..123
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          127..132
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          142..151
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          156..162
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          174..183
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          186..191
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          208..214
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            216
+                     /site_type="active"
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99742"
+     SecStr          223..229
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          254..271
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          272..289
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          295..299
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          309..316
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          320..330
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          331..335
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          348..355
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          363..369
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          376..396
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 mrgshhhhhh gsayldhaat tpmhpaaiea maavqrtign asslhtsgrs arrrieeare
+       61 liadklgarp seviftaggt esdnlavkgi ywarrdaeph rrrivtteve hhavldsvnw
+      121 lvehegahvt wlptaadgsv satalrealq shddvalvsv mwannevgti lpiaemsvva
+      181 mefgvpmhsd aiqavgqlpl dfgasglsam svaghxfggp pgvgalllrr dvtcvplmhg
+      241 ggqerdirsg tpdvasavgm ataaqiavdg leensarlrl lrdrlvegvl aeiddvclng
+      301 addpmrlagn ahftfrgceg dallmlldan giecstgsac tagvaqpshv liamgvdaas
+      361 argslrlslg htsveadvda alevlpgava rarraalaaa gasr
+//
+

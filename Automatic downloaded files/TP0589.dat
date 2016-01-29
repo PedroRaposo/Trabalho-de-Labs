@@ -1,0 +1,96 @@
+ID   PTHP_TREPA              Reviewed;          88 AA.
+AC   O83598;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 101.
+DE   RecName: Full=Phosphocarrier protein HPr;
+DE            EC=2.7.11.-;
+DE   AltName: Full=Histidine-containing protein;
+GN   Name=ptsH; OrderedLocusNames=TP_0589;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: General (non sugar-specific) component of the
+CC       phosphoenolpyruvate-dependent sugar phosphotransferase system
+CC       (sugar PTS). This major carbohydrate active-transport system
+CC       catalyzes the phosphorylation of incoming sugar substrates
+CC       concomitantly with their translocation across the cell membrane.
+CC       The phosphoryl group from phosphoenolpyruvate (PEP) is transferred
+CC       to the phosphoryl carrier protein HPr by enzyme I. Phospho-HPr
+CC       then transfers it to the permease (enzymes II/III) (By
+CC       similarity). {ECO:0000250}.
+CC   -!- CATALYTIC ACTIVITY: Protein HPr N(pi)-phospho-L-histidine +
+CC       protein EIIA = protein HPr + protein EIIA N(tau)-phospho-L-
+CC       histidine.
+CC   -!- ENZYME REGULATION: Phosphorylation on Ser-46 inhibits the
+CC       phosphoryl transfer from enzyme I to HPr. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000250}.
+CC   -!- SIMILARITY: Belongs to the HPr family. {ECO:0000305}.
+CC   -!- SIMILARITY: Contains 1 HPr domain. {ECO:0000255|PROSITE-
+CC       ProRule:PRU00681}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65564.1; -; Genomic_DNA.
+DR   PIR; F71305; F71305.
+DR   RefSeq; WP_010882035.1; NC_021490.2.
+DR   ProteinModelPortal; O83598; -.
+DR   IntAct; O83598; 3.
+DR   STRING; 243276.TP0589; -.
+DR   EnsemblBacteria; AAC65564; AAC65564; TP_0589.
+DR   GeneID; 2611753; -.
+DR   KEGG; tpa:TP_0589; -.
+DR   PATRIC; 20531231; VBITrePal57110_0628.
+DR   eggNOG; ENOG4105KZ7; Bacteria.
+DR   eggNOG; COG1925; LUCA.
+DR   KO; K11189; -.
+DR   OMA; AEVWVTR; -.
+DR   OrthoDB; EOG6XDGX2; -.
+DR   BioCyc; TPAL243276:GC1H-623-MONOMER; -.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004674; F:protein serine/threonine kinase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0009401; P:phosphoenolpyruvate-dependent sugar phosphotransferase system; IEA:UniProtKB-KW.
+DR   Gene3D; 3.30.1340.10; -; 1.
+DR   InterPro; IPR000032; HPr_prot-like.
+DR   InterPro; IPR001020; PTS_HPr_His_P_site.
+DR   InterPro; IPR002114; PTS_HPr_Ser_P_site.
+DR   Pfam; PF00381; PTS-HPr; 1.
+DR   PRINTS; PR00107; PHOSPHOCPHPR.
+DR   SUPFAM; SSF55594; SSF55594; 1.
+DR   TIGRFAMs; TIGR01003; PTS_HPr_family; 1.
+DR   PROSITE; PS51350; PTS_HPR_DOM; 1.
+DR   PROSITE; PS00369; PTS_HPR_HIS; 1.
+DR   PROSITE; PS00589; PTS_HPR_SER; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Cytoplasm; Kinase; Phosphoprotein;
+KW   Phosphotransferase system; Reference proteome;
+KW   Serine/threonine-protein kinase; Sugar transport; Transferase;
+KW   Transport.
+FT   CHAIN         1     88       Phosphocarrier protein HPr.
+FT                                /FTId=PRO_0000107887.
+FT   DOMAIN        1     88       HPr. {ECO:0000255|PROSITE-
+FT                                ProRule:PRU00681}.
+FT   ACT_SITE     15     15       Pros-phosphohistidine intermediate.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00681}.
+FT   MOD_RES      46     46       Phosphoserine; by HPrK/P.
+FT                                {ECO:0000255|PROSITE-ProRule:PRU00681}.
+SQ   SEQUENCE   88 AA;  9527 MW;  016FB95A2ED5C611 CRC64;
+     MVVKTVRVLN RAGVHARPAA LIVQAASRFD SKIMLVRDTI RVNAKSIMGV MAMAAGCGSE
+     LELVVEGPDE VAALSAIERL FQNKFEEE
+//

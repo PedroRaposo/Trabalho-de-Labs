@@ -1,0 +1,135 @@
+LOCUS       4HPW_A                   310 aa            linear   BCT 27-MAY-2015
+DEFINITION  Chain A, Crystal Structure Of Tyrosine-trna Ligase Mutant Complexed
+            With Unnatural Amino Acid 3-o-methyl-tyrosine.
+ACCESSION   4HPW_A
+VERSION     4HPW_A  GI:554793464
+DBSOURCE    pdb: molecule 4HPW, chain 65, release May 27, 2015;
+            deposition: Oct 24, 2012;
+            class: Ligase;
+            source: Mmdb_id: 114687, Pdb_id 1: 4HPW;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Methanocaldococcus jannaschii DSM 2661
+  ORGANISM  Methanocaldococcus jannaschii DSM 2661
+            Archaea; Euryarchaeota; Methanococci; Methanococcales;
+            Methanocaldococcaceae; Methanocaldococcus.
+REFERENCE   1  (residues 1 to 310)
+  AUTHORS   Yu,Y., Zhou,Q., Dong,J., Li,J., Xiaoxuan,L., Mukherjee,A., Ou,H.,
+            Nilges,M., Li,H., Gao,F., Gong,W., Lu,Y. and Wang,J.
+  TITLE     Crystal Structure Of Tyrosine-Trna Ligase Mutant Co With Unnatural
+            Amino Acid 3-O-Methyl-Tyrosine
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 310)
+  AUTHORS   Yu,Y., Zhou,Q., Dong,J., Li,J., Xiaoxuan,L., Mukherjee,A.,
+            Ouyang,H., Ni,M., Li,H., Gao,F., Gong,W., Lu,Y. and Wang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-OCT-2012)
+COMMENT     1 Tyrosine--trna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..310
+                     /organism="Methanocaldococcus jannaschii DSM 2661"
+                     /db_xref="taxon:243232"
+     Region          1..307
+                     /region_name="tyrS"
+                     /note="tyrosyl-tRNA synthetase; TIGR00234"
+                     /db_xref="CDD:272976"
+     Region          1..206
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          2..9
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          12..15
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          16..24
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          29..298
+                     /region_name="TyrRS_core"
+                     /note="catalytic core domain of tyrosinyl-tRNA synthetase;
+                     cd00805"
+                     /db_xref="CDD:173902"
+     SecStr          29..37
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(32,34..36,42,44..45,151,155,158,167,169..170,173,
+                     195..196,204..207)
+                     /site_type="active"
+                     /db_xref="CDD:173902"
+     Site            42..45
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173902"
+     SecStr          43..58
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          60..67
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          68..75
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(69,72..73,115..116,118..120,122..123,125..128,
+                     130..131,147,149..150,153..154)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:173902"
+     SecStr          79..95
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          100..105
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          112..124
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          127..134
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          151..162
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          165..170
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          174..183
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          188..193
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            204..208
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173902"
+     Region          207..310
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          219..228
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          240..247
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          252..257
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          263..268
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          270..279
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          284..308
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 mdefemikrn tseiiseeel revlkkdeks aeigfepsgk ihlghylqik kmidlqnagf
+       61 diiisladlg aylnqkgeld eirkigdynk kvfeamglka kyvygsefgl dkdytlnvyr
+      121 lalkttlkra rrsmeliare denpkvaevi ypimqvnnih yvgvdvavgg meqrkihmla
+      181 rellpkkvvc ihnpvltgld gegkmssskg nfiavddspe eirakikkay cpagvvegnp
+      241 imeiakyfle ypltikrpek fggdltvnsy eeleslfknk elhpmdlkna vaeelikile
+      301 pirkrlaahh
+//
+

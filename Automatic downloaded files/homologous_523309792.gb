@@ -1,0 +1,123 @@
+LOCUS       4JDF_A                   353 aa            linear   BCT 10-JUL-2013
+DEFINITION  Chain A, Crystal Structure Of A Potf Mutant Complexed With
+            Spermidine.
+ACCESSION   4JDF_A
+VERSION     4JDF_A  GI:523309792
+DBSOURCE    pdb: molecule 4JDF, chain 65, release Jul 10, 2013;
+            deposition: Feb 25, 2013;
+            class: Protein Binding;
+            source: Mmdb_id: 111670, Pdb_id 1: 4JDF;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Escherichia coli K-12
+  ORGANISM  Escherichia coli K-12
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 353)
+  AUTHORS   Scheib,U., Shanmugaratnam,S., Farias-Rico,J.A. and Hocker,B.
+  TITLE     Change in protein-ligand specificity through binding pocket
+            grafting
+  JOURNAL   J. Struct. Biol. (2013) In press
+   PUBMED   23792166
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 353)
+  AUTHORS   Scheib,U., Shanmugaratnam,S., Farias-Rico,J.A. and Hocker,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-FEB-2013)
+COMMENT     1 Putrescine-binding Periplasmic Protein.
+FEATURES             Location/Qualifiers
+     source          1..353
+                     /organism="Escherichia coli K-12"
+                     /db_xref="taxon:83333"
+     SecStr          5..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          6..338
+                     /region_name="PBP2_PotF"
+                     /note="The periplasmic substrate-binding component of an
+                     ABC putrescine transport system and related proteins;
+                     contains the type 2 periplasmic-binding fold; cd13659"
+                     /db_xref="CDD:270377"
+     Site            order(12,219,222,251,253,289)
+                     /site_type="other"
+                     /note="chemical substrate binding site [chemical binding]"
+                     /db_xref="CDD:270377"
+     SecStr          20..28
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(23,26..27,277..278)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:270377"
+     SecStr          30..37
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          41..49
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          55..60
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          61..68
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          88..96
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          105..118
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          119..126
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          140..148
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          151..155
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          158..169
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          184..192
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          197..200
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          204..211
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          214..218
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          220..233
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          238..243
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          247..258
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          264..275
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          278..287
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          319..322
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          328..342
+                     /sec_str_type="helix"
+                     /note="helix 13"
+ORIGIN      
+        1 maeqktlhiy nwteyiapdt vanfeketgi kvvydvfdsn evlegklmag stgfdlvvps
+       61 ayflerqlta gvfqpldksk lpewknldpe llklvakhdp dnkfampymw attgigynvd
+      121 kvkavlgena pvdswdlilk penleklksc gvsflddpee vfatvlnylg kdpnstkadd
+      181 ytgpatdlll klrpniryfh ssqyindlan gdicvaigwa gsvwqasnra keakngvnvs
+      241 fsipkegama wfdvfampad aknkdeayqf lnyllrpdvv ahisdhvfya nankaatplv
+      301 saevrenpgi yppadvrakl ftqkvqdpki drvrtrawtk vksgklehhh hhh
+//
+

@@ -1,0 +1,146 @@
+LOCUS       2JCX_A                   398 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, X-Ray Structure Of Mutant 1-Deoxy-D-Xylulose 5-Phosphate
+            Reductoisomerase, Dxr, Rv2870c, From Mycobacterium Tuberculosis, In
+            Complex With Fosmidomycin And Nadph.
+ACCESSION   2JCX_A
+VERSION     2JCX_A  GI:149242282
+DBSOURCE    pdb: molecule 2JCX, chain 65, release Sep 22, 2012;
+            deposition: Jan 4, 2007;
+            class: Oxidoreductase;
+            source: Mmdb_id: 46305, Pdb_id 1: 2JCX;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Mycobacterium tuberculosis H37Rv
+  ORGANISM  Mycobacterium tuberculosis H37Rv
+            Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+            Mycobacterium; Mycobacterium tuberculosis complex.
+REFERENCE   1  (residues 1 to 398)
+  AUTHORS   Henriksson,L.M., Unge,T., Carlsson,J., Aqvist,J., Mowbray,S.L. and
+            Jones,T.A.
+  TITLE     Structures of Mycobacterium tuberculosis
+            1-deoxy-D-xylulose-5-phosphate reductoisomerase provide new
+            insights into catalysis
+  JOURNAL   J. Biol. Chem. 282 (27), 19905-19916 (2007)
+   PUBMED   17491006
+REFERENCE   2  (residues 1 to 398)
+  AUTHORS   Henriksson,L.M., Unge,T., Jones,T.A. and Mowbray,S.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JAN-2007)
+COMMENT     1 1-deoxy-d-xylulose 5-phosphate Reductoisomerase.
+FEATURES             Location/Qualifiers
+     source          1..398
+                     /organism="Mycobacterium tuberculosis H37Rv"
+                     /db_xref="taxon:83332"
+     Region          1..160
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          21..28
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          23..396
+                     /region_name="PRK05447"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase;
+                     Provisional"
+                     /db_xref="CDD:235472"
+     Region          24..144
+                     /region_name="DXP_reductoisom"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase;
+                     pfam02670"
+                     /db_xref="CDD:251461"
+     SecStr          32..44
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          47..57
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          60..70
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          74..79
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          80..87
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          90..93
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          96..103
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          107..113
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          119..128
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          130..136
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          138..150
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          155..159
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Region          156..239
+                     /region_name="DXP_redisom_C"
+                     /note="1-deoxy-D-xylulose 5-phosphate reductoisomerase
+                     C-terminal; pfam08436"
+                     /db_xref="CDD:254800"
+     Region          161..329
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          161..169
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          179..187
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          216..224
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          225..239
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          245..252
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          255..263
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          265..272
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Region          272..391
+                     /region_name="DXPR_C"
+                     /note="DXP reductoisomerase C-terminal domain; pfam13288"
+                     /db_xref="CDD:257629"
+     SecStr          277..285
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          317..327
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Region          330..398
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          331..348
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          356..366
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          378..396
+                     /sec_str_type="helix"
+                     /note="helix 14"
+ORIGIN      
+        1 tmahhhhhhv tnstdgradg rlrvvvlgst gsigtqalqv iadnpdrfev vglaaggahl
+       61 dtllrqraqt gvtniavade haaqrvgdip yhgsdaatrl veqteadvvl nalvgalglr
+      121 ptlaalktga rlalankesl vaggslvlra arpgqivpvn sehsalaqcl rggtpdevak
+      181 lvltasggpf rgwsaadleh vtpeqagahp twsmgpmntl nsaslvnkgl qviethllfg
+      241 ipydridvvv hpqsiihsmv tfidgstiaq asppdmklpi slalgwprrv sgaaaacdfh
+      301 tasswefepl dtdvfpavel arqagvaggc mtavynaane eaaaaflagr igfpaivgii
+      361 advlhaadqw avepatvddv ldaqrwarer aqravsgm
+//
+

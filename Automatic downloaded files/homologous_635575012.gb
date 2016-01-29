@@ -1,0 +1,171 @@
+LOCUS       3WNZ_A                   470 aa            linear   BCT 17-MAY-2014
+DEFINITION  Chain A, Crystal Structure Of Bacillus Subtilis Ywfe, An L-amino
+            Acid Ligase, With Bound Adp-mg-pi.
+ACCESSION   3WNZ_A
+VERSION     3WNZ_A  GI:635575012
+DBSOURCE    pdb: molecule 3WNZ, chain 65, release May 16, 2014;
+            deposition: Dec 19, 2013;
+            class: Ligase;
+            source: Mmdb_id: 119300, Pdb_id 1: 3WNZ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis subsp. subtilis str. 168
+  ORGANISM  Bacillus subtilis subsp. subtilis str. 168
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 470)
+  AUTHORS   Tsuda,T., Asami,M., Koguchi,Y. and Kojima,S.
+  TITLE     Single Mutation Alters the Substrate Specificity of l-Amino Acid
+            Ligase
+  JOURNAL   Biochemistry 53 (16), 2650-2660 (2014)
+   PUBMED   24702628
+REFERENCE   2  (residues 1 to 470)
+  AUTHORS   Tsuda,T. and Kojima,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-DEC-2013)
+COMMENT     1 Alanine-anticapsin Ligase Bacd.
+FEATURES             Location/Qualifiers
+     source          1..470
+                     /organism="Bacillus subtilis subsp. subtilis str. 168"
+                     /strain="168"
+                     /db_xref="taxon:224308"
+     Region          1..127
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          6..12
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..470
+                     /region_name="AccC"
+                     /note="Biotin carboxylase [Lipid transport and
+                     metabolism]; COG0439"
+                     /db_xref="CDD:223516"
+     SecStr          21..28
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          30..37
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          44..53
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          55..60
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          87..101
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          104..108
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          114..124
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Region          join(128..152,238..470)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          131..139
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          137..334
+                     /region_name="ATP-grasp_4"
+                     /note="ATP-grasp domain; pfam13535"
+                     /db_xref="CDD:257854"
+     SecStr          140..149
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     Region          153..237
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          156..161
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          163..173
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          176..182
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          189..194
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          199..212
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          224..229
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          246..256
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          257..263
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          264..268
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          276..280
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          286..303
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          306..309
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          310..318
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Het             join(bond(313),bond(326))
+                     /heterogen="( MG,1001 )"
+     SecStr          320..326
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     Het             join(bond(326),bond(326),bond(326))
+                     /heterogen="( MG,1002 )"
+     SecStr          327..330
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          336..343
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          348..357
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          374..382
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          383..390
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          397..401
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          402..406
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          415..423
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          426..431
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          440..448
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          450..463
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          464..470
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+ORIGIN      
+        1 gplgsktvlv iadlggcpph mfyksaaeky nlvsfiprpf aitashaali ekysvavikd
+       61 kdyfksladf ehpdsiywah edhnkpeeev veqivkvaem fgadaittnn elfiapmaka
+      121 cerlglrgag vqaaenardk nkmrdafnka gvksiknkrv ttledfraal eeigtplilk
+      181 ptylassigv tlitdtetae defnrvndyl ksinvpkavt feapfiaeef lqgeygdwyq
+      241 tegysdyisi egimadgeyf piaihdktpq igftetshit psildeeakk kiveaakkan
+      301 eglglqncat hteiklmknr epgliesaar fagwnmipni kkvfgldmaq llldvlcfgk
+      361 dadlpdglld qepyyvadch lypqhfkqng qipetaedlv ieaidipdgl lkgdteivsf
+      421 saaapgtsvd ltlfeafnsi aafelkgsns qdvaesirqi qqhakltaky
+//
+

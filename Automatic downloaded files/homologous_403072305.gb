@@ -1,0 +1,166 @@
+LOCUS       4GRI_A                   512 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of A Glutamyl-Trna Synthetase Glurs From
+            Borrelia Burgdorferi Bound To Glutamic Acid And Zinc.
+ACCESSION   4GRI_A
+VERSION     4GRI_A  GI:403072305
+DBSOURCE    pdb: molecule 4GRI, chain 65, release Sep 5, 2012;
+            deposition: Aug 24, 2012;
+            class: Ligase;
+            source: Mmdb_id: 102787, Pdb_id 1: 4GRI;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Borrelia burgdorferi B31
+  ORGANISM  Borrelia burgdorferi B31
+            Bacteria; Spirochaetes; Spirochaetales; Borreliaceae; Borreliella.
+REFERENCE   1  (residues 1 to 512)
+  AUTHORS   Edwards,T.E. and Clifton,M.C.
+  TITLE     Crystal Structure Of A Glutamyl-Trna Synthetase Glu Borrelia
+            Burgdorferi Bound To Glutamic Acid And Zin
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 512)
+  AUTHORS   Seattle Structural Genomics Center For Infectious Disease (S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-AUG-2012)
+COMMENT     1 Glutamate--trna Ligase.
+FEATURES             Location/Qualifiers
+     source          1..512
+                     /organism="Borrelia burgdorferi B31"
+                     /db_xref="taxon:224326"
+     Region          join(1..108,265..351)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          24..510
+                     /region_name="gltX_bact"
+                     /note="glutamyl-tRNA synthetase, bacterial family;
+                     TIGR00464"
+                     /db_xref="CDD:273092"
+     SecStr          25..33
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          26..350
+                     /region_name="GluRS_core"
+                     /note="catalytic core domain of discriminating
+                     glutamyl-tRNA synthetase; cd00808"
+                     /db_xref="CDD:173905"
+     Site            order(28,30..32,40..41,43..44,64,217,221,235..236,
+                     238..239,264..265,273..274)
+                     /site_type="active"
+                     /db_xref="CDD:173905"
+     Site            38..41
+                     /site_type="other"
+                     /note="HIGH motif"
+                     /db_xref="CDD:173905"
+     SecStr          39..54
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          57..65
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          73..86
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          103..106
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Region          109..264
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          111..122
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          124..129
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Het             join(bond(128),bond(130),bond(151),bond(155))
+                     /heterogen="( ZN,1000 )"
+     SecStr          132..145
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          160..169
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          173..179
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          182..190
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          191..200
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          204..211
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          213..216
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          217..228
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          231..236
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          243..253
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          258..263
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          265..268
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     Site            273..277
+                     /site_type="other"
+                     /note="KMSKS motif"
+                     /db_xref="CDD:173905"
+     SecStr          283..290
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          293..302
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          315..323
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          332..335
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          337..350
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          353..367
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          376..385
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Region          407..512
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          428..435
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          447..459
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          469..477
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          485..492
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          493..509
+                     /sec_str_type="helix"
+                     /note="helix 18"
+ORIGIN      
+        1 mahhhhhhmg tleaqtqgpg smlstrvrya psptglqhig girtalfnyf fakscggkfl
+       61 lriedtdqsr yspeaendly sslkwlgisf degpvvggdy apyvqsqrsa iykqyakyli
+      121 esghayycyc sperlerikk iqninkmppg ydrhcrnlsn eevenalikk ikpvvrfkip
+      181 legdtsfddi llgritwank dispdpvilk sdglptyhla nvvddylmki thvlraqewv
+      241 ssgplhvlly kafkwkppiy chlpmvmgnd gqklskrhgs talrqfiedg ylpeaiinyv
+      301 tllgwsyddk reffskndle qffsiekink spaifdyhkl dffnsyyire kkdedlfnll
+      361 lpffqkkgyv skpstleenq klklliplik srikklsdal nmtkffyedi kswnldefls
+      421 rkktakevcs ilelikpile gfekrsseen dkifydfaes ngfklgeill piriaalgsk
+      481 vspplfdslk ligkskvfer iklaqeflri ne
+//
+

@@ -1,0 +1,168 @@
+LOCUS       2DQ3_A                   425 aa            linear   BCT 09-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Aq_298.
+ACCESSION   2DQ3_A
+VERSION     2DQ3_A  GI:149241134
+DBSOURCE    pdb: molecule 2DQ3, chain 65, release Oct 6, 2012;
+            deposition: May 18, 2006;
+            class: Ligase;
+            source: Mmdb_id: 46060, Pdb_id 1: 2DQ3;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Aquifex aeolicus VF5
+  ORGANISM  Aquifex aeolicus VF5
+            Bacteria; Aquificae; Aquificales; Aquificaceae; Aquifex.
+REFERENCE   1  (residues 1 to 425)
+  AUTHORS   Itoh,Y., Sekine,S. and Yokoyama,S.
+  TITLE     Crystal Structure Of Aq_298
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 425)
+  AUTHORS   Itoh,Y., Sekine,S., Yokoyama,S., Riken Structural GenomicsPROTEOM
+            and Initiative (Rsgi).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAY-2006)
+COMMENT     1 Seryl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..425
+                     /organism="Aquifex aeolicus VF5"
+                     /db_xref="taxon:224324"
+     Region          1..112
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          2..425
+                     /region_name="PRK05431"
+                     /note="seryl-tRNA synthetase; Provisional"
+                     /db_xref="CDD:235461"
+     Region          2..109
+                     /region_name="Seryl_tRNA_N"
+                     /note="Seryl-tRNA synthetase N-terminal domain; pfam02403"
+                     /db_xref="CDD:251274"
+     SecStr          11..21
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          27..63
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          71..103
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          113..425
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     Region          121..416
+                     /region_name="SerRS_core"
+                     /note="Seryl-tRNA synthetase (SerRS) class II core
+                     catalytic domain. SerRS is responsible for the attachment
+                     of serine to the 3' OH group of ribose of the appropriate
+                     tRNA. This domain It is primarily responsible for
+                     ATP-dependent formation of the enzyme bound...; cd00770"
+                     /db_xref="CDD:238393"
+     SecStr          121..126
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          141..148
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          150..153
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(155..160,163..169,173,175,177,180,192..195,197..199,
+                     201,219..220,222,226,235,239,243,259,280,416)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238393"
+     Site            order(162,231,233,262,264,270,273,276,278,281,283,285,
+                     349..352,383,385,391)
+                     /site_type="active"
+                     /db_xref="CDD:238393"
+     SecStr          165..168
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          169..189
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Site            192..199
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238393"
+     SecStr          198..201
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          202..209
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          219..222
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          225..229
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          232..239
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          242..247
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          251..257
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          258..262
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            261..264
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238393"
+     SecStr          279..284
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          285..291
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          295..313
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          316..323
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          332..342
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          345..357
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          358..365
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          366..370
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          376..390
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            order(386..388,391)
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238393"
+     SecStr          391..399
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          400..403
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          405..409
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          420..423
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+ORIGIN      
+        1 xidinlirek pdyvkerlat rdkelvslvd kvleldkrrr eiikrlealr sernklskei
+       61 gklkregkdt teiqnrvkel keeidrleee lrkveeelkn tllwipnlph psvpvgedek
+      121 dnvevrrwge prkfdfepkp hweigerlgi ldfkrgakls gsrftviagw garleralin
+      181 fxldlhtkkg ykeicpphlv kpeiligtgq lpkfeedlyk cerdnlylip taevpltnly
+      241 reeilkeenl piyltaytpc yrreagaygk dirgiirqhq fdkvelvkiv hpdtsydele
+      301 klvkdaeevl qllglpyrvv elctgdlgfs aaktydievw fpsqnkyrei sscsncedfq
+      361 arrxntrfkd sktgknrfvh tlngsglavg rtlaaileny qqedgsvvvp evlrdyvgtd
+      421 virpe
+//
+

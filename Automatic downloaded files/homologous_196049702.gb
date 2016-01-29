@@ -1,0 +1,134 @@
+LOCUS       2ZJB_A                   343 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of The Human Dmc1-M200v Polymorphic
+            Variant.
+ACCESSION   2ZJB_A
+VERSION     2ZJB_A  GI:196049702
+DBSOURCE    pdb: molecule 2ZJB, chain 65, release Jun 18, 2009;
+            deposition: Mar 2, 2008;
+            class: Recombination;
+            source: Mmdb_id: 65996, Pdb_id 1: 2ZJB;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 343)
+  AUTHORS   Hikiba,J., Hirota,K., Kagawa,W., Ikawa,S., Kinebuchi,T., Sakane,I.,
+            Takizawa,Y., Yokoyama,S., Mandon-Pepin,B., Nicolas,A., Shibata,T.,
+            Ohta,K. and Kurumizaka,H.
+  TITLE     Structural and functional analyses of the DMC1-M200V polymorphism
+            found in the human population
+  JOURNAL   Nucleic Acids Res. 36 (12), 4181-4190 (2008)
+   PUBMED   18566005
+REFERENCE   2  (residues 1 to 343)
+  AUTHORS   Hikiba,J., Hirota,K., Kagawa,W., Ikawa,S., Kinebuchi,T., Sakane,I.,
+            Takizawa,Y., Yokoyama,S., Mandon-Pepin,B., Nicolas,A., Shibata,T.,
+            Ohta,K. and Kurumizaka,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-MAR-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..343
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          27..341
+                     /region_name="recomb_DMC1"
+                     /note="meiotic recombinase Dmc1; TIGR02238"
+                     /db_xref="CDD:131292"
+     Region          28..82
+                     /region_name="HHH_5"
+                     /note="Helix-hairpin-helix domain; pfam14520"
+                     /db_xref="CDD:258660"
+     SecStr          91..98
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          104..343
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          104..339
+                     /region_name="Rad51_DMC1_radA"
+                     /note="Rad51_DMC1_radA,B. This group of recombinases
+                     includes the eukaryotic proteins RAD51, RAD55/57 and the
+                     meiosis-specific protein DMC1, and the archaeal proteins
+                     radA and radB. They are closely related to the bacterial
+                     RecA group. Rad51 proteins catalyze a...; cd01123"
+                     /db_xref="CDD:238543"
+     SecStr          108..115
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          122..129
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            129..136
+                     /site_type="other"
+                     /note="Walker A motif"
+                     /db_xref="CDD:238543"
+     Site            order(131,135..136,161,163,165,226)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238543"
+     SecStr          135..145
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          147..151
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          153..157
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          158..164
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            order(160,162,170,173,188,191..192,194,205..210,212,255,
+                     258..259,262..263)
+                     /site_type="other"
+                     /note="multimer (BRC) interface"
+                     /db_xref="CDD:238543"
+     SecStr          169..177
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          183..190
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          191..196
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          199..215
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          221..226
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            222..226
+                     /site_type="other"
+                     /note="Walker B motif"
+                     /db_xref="CDD:238543"
+     SecStr          242..262
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          265..272
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          301..310
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          312..319
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          328..335
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          336..340
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+ORIGIN      
+        1 gshmkedqvv aeepgfqdee eslfqdidll qkhginvadi kklksvgict ikgiqmttrr
+       61 alcnvkglse akvdkikeaa nkliepgflt afeysekrkm vfhittgsqe fdkllgggie
+      121 smaiteafge frtgktqlsh tlcvtaqlpg aggypggkii fidtentfrp drlrdiadrf
+      181 nvdhdavldn vlyaraytse hqvelldyva akfheeagif klliidsima lfrvdfsgrg
+      241 elaerqqkla qmlsrlqkis eeynvavfvt nqmtadpgat mtfqadpkkp igghilahas
+      301 ttrislrkgr gelriakiyd spempeneat faitaggigd ake
+//
+

@@ -1,0 +1,209 @@
+LOCUS       2WB4_A                   459 aa            linear   BCT 10-JAN-2013
+DEFINITION  Chain A, Activated Diguanylate Cyclase Pled In Complex With
+            C-Di-Gmp.
+ACCESSION   2WB4_A
+VERSION     2WB4_A  GI:294979306
+DBSOURCE    pdb: molecule 2WB4, chain 65, release Jan 4, 2013;
+            deposition: Feb 20, 2009;
+            class: Transferase;
+            source: Mmdb_id: 81477, Pdb_id 1: 2WB4;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Caulobacter crescentus CB15
+  ORGANISM  Caulobacter crescentus CB15
+            Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales;
+            Caulobacteraceae; Caulobacter.
+REFERENCE   1  (residues 1 to 459)
+  AUTHORS   Wassmann,P., Massa,C., Zaehringer,F. and Schirmer,T.
+  TITLE     Crystal Structure Of Activated Pled, Identification Dimerization
+            And Catalysis Relevant Regulatory Mech
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 459)
+  AUTHORS   Wassmann,P. and Schirmer,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-FEB-2009)
+COMMENT     1 Diguanylate Cyclase.
+FEATURES             Location/Qualifiers
+     source          1..459
+                     /organism="Caulobacter crescentus CB15"
+                     /db_xref="taxon:190650"
+     Region          1..454
+                     /region_name="pleD"
+                     /note="response regulator PleD; Reviewed; PRK09581"
+                     /db_xref="CDD:236577"
+     Region          1..107
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          3..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          6..119
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(9..10,53,61,83,102,105..106)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     Het             join(bond(10),bond(53),bond(55))
+                     /heterogen="( MG,1001 )"
+     SecStr          12..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          27..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          35..45
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          48..54
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            53
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Het             bond(53)
+                     /heterogen="(BEF,1000 )"
+     Site            order(56..57,59..61)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          61..70
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          77..84
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          88..97
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          100..105
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            105..107
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     Region          108..288
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          109..123
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          124..139
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          152..160
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Region          156..266
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cl19078"
+                     /db_xref="CDD:271833"
+     SecStr          163..173
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          176..183
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          184..192
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          197..203
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          210..219
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          227..233
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          237..246
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          249..254
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          258..286
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     Region          289..459
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          291..450
+                     /region_name="GGDEF"
+                     /note="Diguanylate-cyclase (DGC) or GGDEF domain; cd01949"
+                     /db_xref="CDD:143635"
+     SecStr          291..294
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          295..298
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          300..316
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          320..329
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     Site            order(327,370)
+                     /site_type="metal-binding"
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:143635"
+     SecStr          330..338
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     Site            order(332,335..336,340,344,366,368..371)
+                     /site_type="active"
+                     /db_xref="CDD:143635"
+     SecStr          341..357
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     Site            order(362,390)
+                     /site_type="other"
+                     /note="I-site"
+                     /db_xref="CDD:143635"
+     SecStr          362..368
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          370..378
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          381..396
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          399..403
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          406..410
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          412..420
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          427..444
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          447..452
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+ORIGIN      
+        1 msarilvvdd ieanvrllea kltaeyyevs tamdgptala maardlpdii lldvmmpgmd
+       61 gftvcrklkd dpttrhipvv litaldgrgd riqglesgas dfltkpiddv mlfarvrslt
+      121 rfklvidelr qreasgrrmg viagaaarld glggrvlivd dnerqaqrva aelgvehrpv
+      181 iesdpekaki saggpvdlvi vnaaaknfdg lrftaalrse ertrqlpvla mvdpddrgrm
+      241 vkaleigvnd ilsrpidpqe lsarvktqiq rkrytdylrn nldhslelav tdqltglhnr
+      301 rymtgqldsl vkratlggdp vsallididf fkkindtfgh digdevlref alrlasnvra
+      361 idlpcrygge efvvimpdta ladalriaer irmhvsgspf tvahgremln vtisigvsat
+      421 agegdtpeal lkradegvyq akasgrnavv gkaahhhhh
+//
+

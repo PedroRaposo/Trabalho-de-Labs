@@ -1,0 +1,119 @@
+ID   SYS_TREPA               Reviewed;         426 AA.
+AC   O83653;
+DT   15-DEC-1998, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 101.
+DE   RecName: Full=Serine--tRNA ligase {ECO:0000255|HAMAP-Rule:MF_00176};
+DE            EC=6.1.1.11 {ECO:0000255|HAMAP-Rule:MF_00176};
+DE   AltName: Full=Seryl-tRNA synthetase {ECO:0000255|HAMAP-Rule:MF_00176};
+DE            Short=SerRS {ECO:0000255|HAMAP-Rule:MF_00176};
+DE   AltName: Full=Seryl-tRNA(Ser/Sec) synthetase {ECO:0000255|HAMAP-Rule:MF_00176};
+GN   Name=serS {ECO:0000255|HAMAP-Rule:MF_00176};
+GN   OrderedLocusNames=TP_0647;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the attachment of serine to tRNA(Ser). Is also
+CC       able to aminoacylate tRNA(Sec) with serine, to form the
+CC       misacylated tRNA L-seryl-tRNA(Sec), which will be further
+CC       converted into selenocysteinyl-tRNA(Sec). {ECO:0000255|HAMAP-
+CC       Rule:MF_00176}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-serine + tRNA(Ser) = AMP + diphosphate
+CC       + L-seryl-tRNA(Ser). {ECO:0000255|HAMAP-Rule:MF_00176}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-serine + tRNA(Sec) = AMP + diphosphate
+CC       + L-seryl-tRNA(Sec). {ECO:0000255|HAMAP-Rule:MF_00176}.
+CC   -!- PATHWAY: Aminoacyl-tRNA biosynthesis; selenocysteinyl-tRNA(Sec)
+CC       biosynthesis; L-seryl-tRNA(Sec) from L-serine and tRNA(Sec): step
+CC       1/1. {ECO:0000255|HAMAP-Rule:MF_00176}.
+CC   -!- SUBUNIT: Homodimer. The tRNA molecule binds across the dimer.
+CC       {ECO:0000255|HAMAP-Rule:MF_00176}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00176}.
+CC   -!- DOMAIN: Consists of two distinct domains, a catalytic core and a
+CC       N-terminal extension that is involved in tRNA binding.
+CC       {ECO:0000255|HAMAP-Rule:MF_00176}.
+CC   -!- SIMILARITY: Belongs to the class-II aminoacyl-tRNA synthetase
+CC       family. Type-1 seryl-tRNA synthetase subfamily.
+CC       {ECO:0000255|HAMAP-Rule:MF_00176}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65620.1; -; Genomic_DNA.
+DR   PIR; F71299; F71299.
+DR   RefSeq; WP_010882092.1; NC_021490.2.
+DR   ProteinModelPortal; O83653; -.
+DR   IntAct; O83653; 2.
+DR   STRING; 243276.TP0647; -.
+DR   EnsemblBacteria; AAC65620; AAC65620; TP_0647.
+DR   GeneID; 2611725; -.
+DR   KEGG; tpa:TP_0647; -.
+DR   PATRIC; 20531369; VBITrePal57110_0689.
+DR   eggNOG; ENOG4105CGR; Bacteria.
+DR   eggNOG; COG0172; LUCA.
+DR   KO; K01875; -.
+DR   OMA; YRVVDTC; -.
+DR   OrthoDB; EOG61KBH9; -.
+DR   BioCyc; TPAL243276:GC1H-688-MONOMER; -.
+DR   UniPathway; UPA00906; UER00895.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0004828; F:serine-tRNA ligase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0016260; P:selenocysteine biosynthetic process; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0097056; P:selenocysteinyl-tRNA(Sec) biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   GO; GO:0006434; P:seryl-tRNA aminoacylation; IEA:UniProtKB-HAMAP.
+DR   Gene3D; 1.10.287.40; -; 1.
+DR   HAMAP; MF_00176; Ser_tRNA_synth_type1; 1.
+DR   InterPro; IPR002314; aa-tRNA-synt_IIb.
+DR   InterPro; IPR006195; aa-tRNA-synth_II.
+DR   InterPro; IPR002317; Ser-tRNA-ligase_type_1.
+DR   InterPro; IPR015866; Ser-tRNA-synth_1_N.
+DR   InterPro; IPR010978; tRNA-bd_arm.
+DR   PANTHER; PTHR11778; PTHR11778; 1.
+DR   Pfam; PF02403; Seryl_tRNA_N; 1.
+DR   Pfam; PF00587; tRNA-synt_2b; 1.
+DR   PIRSF; PIRSF001529; Ser-tRNA-synth_IIa; 1.
+DR   PRINTS; PR00981; TRNASYNTHSER.
+DR   SUPFAM; SSF46589; SSF46589; 1.
+DR   TIGRFAMs; TIGR00414; serS; 1.
+DR   PROSITE; PS50862; AA_TRNA_LIGASE_II; 1.
+PE   3: Inferred from homology;
+KW   Aminoacyl-tRNA synthetase; ATP-binding; Complete proteome; Cytoplasm;
+KW   Ligase; Nucleotide-binding; Protein biosynthesis; Reference proteome.
+FT   CHAIN         1    426       Serine--tRNA ligase.
+FT                                /FTId=PRO_0000122149.
+FT   NP_BIND     260    262       ATP. {ECO:0000255|HAMAP-Rule:MF_00176}.
+FT   NP_BIND     349    352       ATP. {ECO:0000255|HAMAP-Rule:MF_00176}.
+FT   REGION      229    231       Serine binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00176}.
+FT   BINDING     276    276       ATP; via amide nitrogen and carbonyl
+FT                                oxygen. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00176}.
+FT   BINDING     283    283       Serine. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00176}.
+FT   BINDING     384    384       Serine. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00176}.
+SQ   SEQUENCE   426 AA;  48014 MW;  807C51405D29CEF9 CRC64;
+     MLDYRFIREN VDAVKENVKV RNVHADVDAI VHLYDQRVKL LAELQELQRA RNENAQTMKS
+     SLDALARSAC VETGRALKDR IAHSERLLVQ ISDQLLSATQ ALPNMTHMCT PHGRSDSDNL
+     EIKRCGVPPC FSFSPRDHVE LARLLDIVDF EAGKKVSGIK FYYLKREGVL LEQALIMFGL
+     QFLQERGFVP FLTPDIAREG MVCGLGFNPR GSGSNIYRIE GEHRCLVATA EITLGAYHAG
+     EVLEERSLPR LYAGLSHCFR KEAGAAGQFS RGLYRVHQFT KLEMFAYCTP SDSECLHERL
+     RSLEEEIFTA LEIPFRVVEV CAGDLGAPAY RKWDLEAWMP GRQGGSWGEV TSASNCTDYQ
+     ARRLNVRYKD AEGKKHYVHM LNGTALAISR VLIALLENGQ DAEGRVRIPQ ALVPFCGFEY
+     LYPRVL
+//

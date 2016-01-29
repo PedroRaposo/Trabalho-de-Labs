@@ -1,0 +1,192 @@
+LOCUS       4B43_A                   363 aa            linear   BCT 18-SEP-2013
+DEFINITION  Chain A, Bacterial Translation Initiation Factor If2 (1-363), Apo
+            Form, Double Mutant K86l H130a.
+ACCESSION   4B43_A
+VERSION     4B43_A  GI:544191773
+DBSOURCE    pdb: molecule 4B43, chain 65, release Sep 18, 2013;
+            deposition: Jul 27, 2012;
+            class: Translation;
+            source: Mmdb_id: 113486, Pdb_id 1: 4B43;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus thermophilus HB8
+  ORGANISM  Thermus thermophilus HB8
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 363)
+  AUTHORS   Simonetti,A., Marzi,S., Fabbretti,A., Myasnikov,A.G., Haz,I.,
+            Jenner,L., Urzhumtsev,A., Gualerzi,C.O. and Klaholz,B.P.
+  TITLE     Molecular Basis Of Gtp Hydrolysis By Bacterial Tran Initiation
+            Factor If2
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 363)
+  AUTHORS   Simonetti,A., Urzhumtsev,A. and Klaholz,B.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-JUL-2012)
+COMMENT     1 Translation Initiation Factor If-2.
+FEATURES             Location/Qualifiers
+     source          1..363
+                     /organism="Thermus thermophilus HB8"
+                     /db_xref="taxon:300852"
+     Region          1..67
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          1..48
+                     /region_name="IF2_N"
+                     /note="Translation initiation factor IF-2, N-terminal
+                     region; pfam04760"
+                     /db_xref="CDD:252785"
+     SecStr          6..13
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          17..27
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          40..66
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     Region          join(68..72,239..363)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          69..72
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          73..238
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          73..231
+                     /region_name="small_GTP"
+                     /note="small GTP-binding protein domain; TIGR00231"
+                     /db_xref="CDD:272973"
+     SecStr          73..80
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          74..237
+                     /region_name="IF2_eIF5B"
+                     /note="Initiation Factor 2 (IF2)/ eukaryotic Initiation
+                     Factor 5B (eIF5B) family; cd01887"
+                     /db_xref="CDD:206674"
+     Site            80..87
+                     /site_type="other"
+                     /note="G1 box"
+                     /db_xref="CDD:206674"
+     Site            order(81,83,87..88,91,94..95,111..112,130..131,154..155,
+                     190,194)
+                     /site_type="other"
+                     /note="putative GEF interaction site [polypeptide
+                     binding]"
+                     /db_xref="CDD:206674"
+     Site            order(82..88,131,180..181,183..184,216..218)
+                     /site_type="other"
+                     /note="GTP/Mg2+ binding site [chemical binding]"
+                     /db_xref="CDD:206674"
+     SecStr          86..95
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            105..111
+                     /site_type="other"
+                     /note="Switch I region"
+                     /db_xref="CDD:206674"
+     Site            107
+                     /site_type="other"
+                     /note="G2 box"
+                     /db_xref="CDD:206674"
+     SecStr          111..118
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          119..126
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            126..129
+                     /site_type="other"
+                     /note="G3 box"
+                     /db_xref="CDD:206674"
+     Site            128..146
+                     /site_type="other"
+                     /note="Switch II region"
+                     /db_xref="CDD:206674"
+     SecStr          145..153
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          159..171
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          173..181
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            180..183
+                     /site_type="other"
+                     /note="G4 box"
+                     /db_xref="CDD:206674"
+     SecStr          189..199
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          211..216
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     Site            216..218
+                     /site_type="other"
+                     /note="G5 box"
+                     /db_xref="CDD:206674"
+     SecStr          223..237
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          239..242
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          246..252
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Region          247..335
+                     /region_name="IF2_mtIF2_II"
+                     /note="This family represents the domain II of bacterial
+                     Initiation Factor 2 (IF2) and its eukaryotic mitochondrial
+                     homologue mtIF2. IF2, the largest initiation factor is an
+                     essential GTP binding protein. In E. coli three natural
+                     forms of IF2 exist in the cell; cd03702"
+                     /db_xref="CDD:239673"
+     SecStr          253..258
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          263..268
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          269..275
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          277..282
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          283..288
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          289..294
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          296..299
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          300..304
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          305..315
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          321..326
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Het             bond(322)
+                     /heterogen="( MG,1000 )"
+     SecStr          329..352
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 makvriyqla kelgmetqel lelldqmgva ykshastlee kdaeavrelv keqrglqekl
+       61 aeeerrkslp rrppvvvimg hvdhglttll dylrksriae keaggitqhv gafevktpqg
+      121 tvvfidtpga eafttirqrg akvadiaviv iaaddgimpq teeaiahaka agaklifain
+      181 kidlpqadpe kvkrqlmerg fvpeeyggda ivipisaktg qgvqdllemi lllaeledyr
+      241 adpnaeprgv ileskldkqa giianmlvqe gtfrvgdyvv ageaygrira mmdadgnqrk
+      301 eagpgsavqv lgfqelphag dvvewvpdle aakeiaeerk eerkareeee karrprtmae
+      361 llr
+//
+

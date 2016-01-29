@@ -1,0 +1,88 @@
+LOCUS       3F6P_A                   120 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Unphosphorelated Receiver Domain Of
+            Yycf.
+ACCESSION   3F6P_A
+VERSION     3F6P_A  GI:290560102
+DBSOURCE    pdb: molecule 3F6P, chain 65, release Mar 3, 2010;
+            deposition: Nov 6, 2008;
+            class: Transcription Regulator;
+            source: Mmdb_id: 80408, Pdb_id 1: 3F6P;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus subtilis subsp. subtilis str. 168
+  ORGANISM  Bacillus subtilis subsp. subtilis str. 168
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 120)
+  AUTHORS   Zhao,H., Heroux,A., Sequeira,R.D. and Tang,L.
+  TITLE     Preliminary crystallographic studies of the regulatory domain of
+            response regulator YycF from an essential two-component signal
+            transduction system
+  JOURNAL   Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun. 65 (PT 7),
+            719-722 (2009)
+   PUBMED   19574649
+REFERENCE   2  (residues 1 to 120)
+  AUTHORS   Zhao,H. and Tang,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-NOV-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..120
+                     /organism="Bacillus subtilis subsp. subtilis str. 168"
+                     /strain="168"
+                     /db_xref="taxon:224308"
+     SecStr          3..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          6..117
+                     /region_name="REC"
+                     /note="Signal receiver domain; originally thought to be
+                     unique to bacteria (CheY, OmpR, NtrC, and PhoB), now
+                     recently identified in eukaroytes ETR1 Arabidopsis
+                     thaliana; this domain receives the signal from the sensor
+                     partner in a two-component systems; cd00156"
+                     /db_xref="CDD:238088"
+     Site            order(9..10,53,61,80,99,102..103)
+                     /site_type="active"
+                     /db_xref="CDD:238088"
+     SecStr          12..25
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          27..34
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          35..44
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          48..54
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            53
+                     /site_type="phosphorylation"
+                     /note="phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238088"
+     Site            order(56..57,59..61)
+                     /site_type="other"
+                     /note="intermolecular recognition site"
+                     /db_xref="CDD:238088"
+     SecStr          60..69
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          74..81
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          97..102
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Site            102..104
+                     /site_type="other"
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238088"
+     SecStr          106..118
+                     /sec_str_type="helix"
+                     /note="helix 4"
+ORIGIN      
+        1 mdkkilvvdd ekpiadilef nlrkegyevh cahdgneave mveelqpdli lldimlpnkd
+       61 gvevcrevrk kydmpiimlt akdseidkvi gleigaddyv tkpfstrell arvkanlrrq
+//
+

@@ -1,0 +1,245 @@
+LOCUS       2PMF_A                   693 aa            linear   PRI 01-FEB-2013
+DEFINITION  Chain A, The Crystal Structure Of A Human Glycyl-trna Synthetase
+            Mutant.
+ACCESSION   2PMF_A
+VERSION     2PMF_A  GI:149243239
+DBSOURCE    pdb: molecule 2PMF, chain 65, release Jan 25, 2013;
+            deposition: Apr 21, 2007;
+            class: Ligase;
+            source: Mmdb_id: 46613, Pdb_id 1: 2PMF;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 693)
+  AUTHORS   Xie,W., Nangle,L.A., Zhang,W., Schimmel,P. and Yang,X.L.
+  TITLE     Long-range structural effects of a Charcot-Marie-Tooth
+            disease-causing mutation in human glycyl-tRNA synthetase
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 104 (24), 9976-9981 (2007)
+   PUBMED   17545306
+REFERENCE   2  (residues 1 to 693)
+  AUTHORS   Xie,W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-APR-2007)
+COMMENT     1 Glycyl-trna Synthetase.
+FEATURES             Location/Qualifiers
+     source          1..693
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          1..117
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          7..670
+                     /region_name="PLN02734"
+                     /note="glycyl-tRNA synthetase"
+                     /db_xref="CDD:178335"
+     Region          10..60
+                     /region_name="GlyRS_RNA"
+                     /note="GlyRS_RNA binding domain. This short RNA-binding
+                     domain is found at the N-terminus of GlyRS in several
+                     higher eukaryote aminoacyl-tRNA synthetases (aaRSs). This
+                     domain consists of a helix-turn-helix structure, which is
+                     similar to other RNA-binding...; cd00935"
+                     /db_xref="CDD:238472"
+     Site            order(20,22,25,30,35,39,47,55)
+                     /site_type="other"
+                     /note="tRNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238472"
+     SecStr          67..77
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          70..416
+                     /region_name="GlyRS-like_core"
+                     /note="Glycyl-tRNA synthetase (GlyRS)-like class II core
+                     catalytic domain. GlyRS functions as a homodimer in
+                     eukaryotes, archaea and some bacteria and as a
+                     heterotetramer in the remainder of prokaryotes. It is
+                     responsible for the attachment of glycine to the 3'...;
+                     cd00774"
+                     /db_xref="CDD:238397"
+     Site            order(78,104,112,118,123..124,127..129,131,228..231,256,
+                     260,291,378)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238397"
+     SecStr          79..82
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     SecStr          94..97
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          98..114
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          join(118..138,228..537)
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          121..124
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            122..129
+                     /site_type="other"
+                     /note="motif 1"
+                     /db_xref="CDD:238397"
+     SecStr          128..132
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Region          139..227
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          144..151
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          156..160
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          161..173
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          179..191
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          197..207
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          222..226
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          228..232
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          238..243
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            order(245,247,277,279,287..289,292,294,296,364..365,371,
+                     403,405,407,410)
+                     /site_type="active"
+                     /db_xref="CDD:238397"
+     SecStr          248..261
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          265..272
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          273..277
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            276..279
+                     /site_type="other"
+                     /note="motif 2"
+                     /db_xref="CDD:238397"
+     SecStr          290..295
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          296..302
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          316..322
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          323..330
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          333..337
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          338..345
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          351..366
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          372..378
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          388..397
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          400..411
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     Site            407..410
+                     /site_type="other"
+                     /note="motif 3"
+                     /db_xref="CDD:238397"
+     SecStr          507..511
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          513..517
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          518..527
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          528..537
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     Region          534..657
+                     /region_name="GlyRS_anticodon"
+                     /note="GlyRS Glycyl-anticodon binding domain. GlyRS
+                     belongs to class II aminoacyl-tRNA synthetases (aaRS).
+                     This alignment contains the anticodon binding domain,
+                     which is responsible for specificity in tRNA-binding, so
+                     that the activated amino acid is...; cd00858"
+                     /db_xref="CDD:238435"
+     Region          538..693
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          538..544
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     SecStr          546..552
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     SecStr          561..567
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     Site            order(567..568,605,611,619,631,633)
+                     /site_type="other"
+                     /note="anticodon binding site"
+                     /db_xref="CDD:238435"
+     SecStr          574..587
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          590..594
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          600..610
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          613..619
+                     /sec_str_type="sheet"
+                     /note="strand 26"
+     SecStr          629..635
+                     /sec_str_type="sheet"
+                     /note="strand 27"
+     SecStr          638..644
+                     /sec_str_type="sheet"
+                     /note="strand 28"
+     SecStr          648..657
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          661..668
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          669..672
+                     /sec_str_type="sheet"
+                     /note="strand 29"
+ORIGIN      
+        1 mdgagaeevl aplrlavrqq gdlvrklked kapqvdvdka vaelkarkrv leakelalqp
+       61 kddivdrakm edtlkrrffy dqafaiyggv sglydfgpvg calknniiqt wrqhfiqeeq
+      121 ileidctmlt pepvlktsgh vdkfadfmvk dvkngecfra dhllkahlqk lmsdkkcsve
+      181 kksemesvla qldnygqqel adlfvnynvk spitgndlsp pvsfnlmfkt figpggnmpg
+      241 ylrpetaqgi flnfkrllef nqgklpfaaa qignsfrnei sprsglirvr eftmaeiehf
+      301 vdpsekdhpk fqnvadlhly lysakaqvsg qsarkmrlgd aveqgvinnt vlgyfigriy
+      361 lyltkvgisp dklrfrqhme nemahyacdc wdaesktsyg wieivgcadr scydlschar
+      421 atkvplvaek plkepktvnv vqfepskgai gkaykkdakl vmeylaicde cyitememll
+      481 nekgeftiet egktfqltkd minvkrfqkt lyveevvpnv iepsfrlgri mytvfehtfh
+      541 vregdeqrtf fsfpavvapf kcsvlplsqn qefmpfvkel sealtrhgvs hkvddssgsi
+      601 grryartdei gvafgvtidf dtvnktphta tlrdrdsmrq iraeiselps ivqdlangni
+      661 twadvearyp lfegqetgkk etieelehhh hhh
+//
+

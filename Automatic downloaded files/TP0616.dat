@@ -1,0 +1,89 @@
+ID   RPIA_TREPA              Reviewed;         254 AA.
+AC   O83625;
+DT   30-MAY-2000, integrated into UniProtKB/Swiss-Prot.
+DT   01-NOV-1998, sequence version 1.
+DT   09-DEC-2015, entry version 89.
+DE   RecName: Full=Ribose-5-phosphate isomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            EC=5.3.1.6 {ECO:0000255|HAMAP-Rule:MF_00170};
+DE   AltName: Full=Phosphoriboisomerase A {ECO:0000255|HAMAP-Rule:MF_00170};
+DE            Short=PRI {ECO:0000255|HAMAP-Rule:MF_00170};
+GN   Name=rpiA {ECO:0000255|HAMAP-Rule:MF_00170};
+GN   OrderedLocusNames=TP_0616;
+OS   Treponema pallidum (strain Nichols).
+OC   Bacteria; Spirochaetes; Spirochaetales; Spirochaetaceae; Treponema.
+OX   NCBI_TaxID=243276;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Nichols;
+RX   PubMed=9665876; DOI=10.1126/science.281.5375.375;
+RA   Fraser C.M., Norris S.J., Weinstock G.M., White O., Sutton G.G.,
+RA   Dodson R.J., Gwinn M.L., Hickey E.K., Clayton R.A., Ketchum K.A.,
+RA   Sodergren E., Hardham J.M., McLeod M.P., Salzberg S.L., Peterson J.D.,
+RA   Khalak H.G., Richardson D.L., Howell J.K., Chidambaram M.,
+RA   Utterback T.R., McDonald L.A., Artiach P., Bowman C., Cotton M.D.,
+RA   Fujii C., Garland S.A., Hatch B., Horst K., Roberts K.M., Sandusky M.,
+RA   Weidman J.F., Smith H.O., Venter J.C.;
+RT   "Complete genome sequence of Treponema pallidum, the syphilis
+RT   spirochete.";
+RL   Science 281:375-388(1998).
+CC   -!- FUNCTION: Catalyzes the reversible conversion of ribose-5-
+CC       phosphate to ribulose 5-phosphate. {ECO:0000255|HAMAP-
+CC       Rule:MF_00170}.
+CC   -!- CATALYTIC ACTIVITY: D-ribose 5-phosphate = D-ribulose 5-phosphate.
+CC       {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- PATHWAY: Carbohydrate degradation; pentose phosphate pathway; D-
+CC       ribose 5-phosphate from D-ribulose 5-phosphate (non-oxidative
+CC       stage): step 1/1. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SUBUNIT: Homodimer. {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -!- SIMILARITY: Belongs to the ribose 5-phosphate isomerase family.
+CC       {ECO:0000255|HAMAP-Rule:MF_00170}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE000520; AAC65592.1; -; Genomic_DNA.
+DR   PIR; E71303; E71303.
+DR   RefSeq; WP_010882062.1; NC_021490.2.
+DR   ProteinModelPortal; O83625; -.
+DR   STRING; 243276.TP0616; -.
+DR   EnsemblBacteria; AAC65592; AAC65592; TP_0616.
+DR   GeneID; 2611225; -.
+DR   KEGG; tpa:TP_0616; -.
+DR   PATRIC; 20531297; VBITrePal57110_0656.
+DR   eggNOG; ENOG4105E66; Bacteria.
+DR   eggNOG; COG0120; LUCA.
+DR   KO; K01807; -.
+DR   OMA; DEVDRHM; -.
+DR   OrthoDB; EOG67MF61; -.
+DR   BioCyc; TPAL243276:GC1H-655-MONOMER; -.
+DR   UniPathway; UPA00115; UER00412.
+DR   Proteomes; UP000000811; Chromosome.
+DR   GO; GO:0004751; F:ribose-5-phosphate isomerase activity; IEA:UniProtKB-HAMAP.
+DR   GO; GO:0009052; P:pentose-phosphate shunt, non-oxidative branch; IEA:UniProtKB-HAMAP.
+DR   HAMAP; MF_00170; Rib_5P_isom_A; 1.
+DR   InterPro; IPR004788; Ribose5P_isomerase_typA.
+DR   InterPro; IPR020672; Ribose5P_isomerase_typA_subgr.
+DR   PANTHER; PTHR11934; PTHR11934; 1.
+DR   Pfam; PF06026; Rib_5-P_isom_A; 1.
+DR   TIGRFAMs; TIGR00021; rpiA; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome; Isomerase; Reference proteome.
+FT   CHAIN         1    254       Ribose-5-phosphate isomerase A.
+FT                                /FTId=PRO_0000158489.
+FT   REGION       45     48       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   REGION      105    108       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   REGION      118    121       Substrate binding. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   ACT_SITE    127    127       Proton acceptor. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+FT   BINDING     145    145       Substrate. {ECO:0000255|HAMAP-
+FT                                Rule:MF_00170}.
+SQ   SEQUENCE   254 AA;  27573 MW;  028FACD2FC5F3751 CRC64;
+     MHERNTTTNT PLDVTAQKLL VAQRSVDTLV QEGVLHAHMS IGLGTGSTAM PAVKRIADHL
+     ARGTLSDIAA VPTSFQTALI CERYNIPLFS LSSKRIGGKL DVTIDGADEI DTQNFVIKGG
+     GAALLQEKIA AYNSAHFVII VDETKVVETL GTRAALPIEV VPEARMSVMR TLQDWGLSVH
+     IREAVRKKGP VVTDHGNFIL DARWQSLPTR TPQDMERALN ALPGVIENGL FTERTVRVFV
+     AHADGSVEER SASF
+//

@@ -1,0 +1,145 @@
+LOCUS       4Z0N_A                   337 aa            linear   BCT 17-APR-2015
+DEFINITION  Chain A, Crystal Structure Of A Periplasmic Solute Binding Protein
+            (ipr025997) From Streptobacillus Moniliformis Dsm-12112 (smon_0317,
+            Target Efi- 511281) With Bound D-galactose.
+ACCESSION   4Z0N_A
+VERSION     4Z0N_A  GI:808043242
+DBSOURCE    pdb: molecule 4Z0N, chain 65, release Apr 15, 2015;
+            deposition: Mar 26, 2015;
+            class: Transcription;
+            source: Mmdb_id: 128681, Pdb_id 1: 4Z0N;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptobacillus moniliformis DSM 12112
+  ORGANISM  Streptobacillus moniliformis DSM 12112
+            Bacteria; Fusobacteria; Fusobacteriales; Leptotrichiaceae;
+            Streptobacillus.
+REFERENCE   1  (residues 1 to 337)
+  AUTHORS   Yadava,U., Vetting,M.W., Al Obaidi,N.F., Toro,R., Moris,L.L.,
+            Benach,J., Koss,J., Wasserman,S.R., Attonito,J.D., Scott,A.,
+            Chamala,S., Chowdhury,S., Lafleur,J., Love,J., Seidel,R.D.,
+            Whalen,K.L., Gerlt,J.A., Almo,S.C. and Enzyme Function Initiative
+            (Efi).
+  TITLE     Crystal Structure Of A Periplasmic Solute Binding P (Ipr025997)
+            From Streptobacillus Moniliformis Dsm-1 (Smon_0317, Target
+            Efi-511281) With Bound D-Galacto
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 337)
+  AUTHORS   Yadava,U., Vetting,M.W., Al Obaidi,N.F., Toro,R., Morisco,L.L.,
+            Bena,J., Koss,J., Wasserman,S.R., Attonito,J.D., Scott Glenn,A.,
+            Chamala,S., Chowdhury,S., Lafleur,J., Love,J., Seidel,R.D.,
+            Whalen,K.L., Gerl,J.A., Almo,S.C. and Enzyme Function Initiative
+            (Efi).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-MAR-2015)
+COMMENT     1 Periplasmic Binding Protein/laci Transcriptional Regulator.
+FEATURES             Location/Qualifiers
+     source          1..337
+                     /organism="Streptobacillus moniliformis DSM 12112"
+                     /db_xref="taxon:519441"
+     Region          join(1..141,287..323)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          33..39
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          35..327
+                     /region_name="PBP1_GGBP"
+                     /note="Periplasmic glucose/galactose-binding protein
+                     (GGBP) involved in chemotaxis towards, and active
+                     transport of, glucose and galactose in various bacterial
+                     species; cd01539"
+                     /db_xref="CDD:107252"
+     Region          35..306
+                     /region_name="Peripla_BP_4"
+                     /note="Periplasmic binding protein domain; pfam13407"
+                     /db_xref="CDD:257732"
+     Het             join(bond(37),bond(38),bond(71),bond(96),bond(37),
+                     bond(38),bond(38))
+                     /heterogen="( NA,1008 )"
+     SecStr          44..59
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Site            order(45..46,96,121..122,184,188,213,241,265,285)
+                     /site_type="other"
+                     /note="ligand binding site [chemical binding]"
+                     /db_xref="CDD:107252"
+     SecStr          63..71
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          75..88
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          91..97
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          103..113
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          116..121
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          134..140
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     Region          142..286
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          143..159
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(164,166,168,170,172,235)
+                     /site_type="other"
+                     /note="calcium binding site [ion binding]"
+                     /db_xref="CDD:107252"
+     Het             join(bond(164),bond(166),bond(168),bond(170),bond(172),
+                     bond(235),bond(235),bond(235))
+                     /heterogen="( CA,1006 )"
+     SecStr          170..179
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          184..199
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          202..205
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          206..212
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          215..227
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          235..240
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          243..255
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          259..265
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          268..276
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          279..285
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          287..303
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          318..322
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          324..328
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+ORIGIN      
+        1 xhhhhhhssg vdlgtenlyf qsxgskkdts kitlgvtyyk fddnflagxr ndxiqiakek
+       61 ypniellnnd sqnsqsilnd qievlinkgv nvlvinlvdp tagqsvidka kaanipiilf
+      121 nkdpgvdaln sydkawyvgt tpkdsgilqg qviekawlan paydlngdgv iqyvxlfgep
+      181 gqpdaeartk ysieylnekg ikteelhkdi anwdaaqakd kxdawlsgpn ankievvian
+      241 ndgxalgave sikavkkelp vfgvdaiqea ltliekgexv gtvlqdatgq arailelann
+      301 iangkepteg tewklidkav rvpyvgvdkd nykefqk
+//
+

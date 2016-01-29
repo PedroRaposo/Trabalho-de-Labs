@@ -1,0 +1,121 @@
+LOCUS       2FJK_A                   305 aa            linear   BCT 26-NOV-2012
+DEFINITION  Chain A, Crystal Structure Of Fructose-1,6-Bisphosphate Aldolase In
+            Thermus Caldophilus.
+ACCESSION   2FJK_A
+VERSION     2FJK_A  GI:114793829
+DBSOURCE    pdb: molecule 2FJK, chain 65, release Nov 16, 2012;
+            deposition: Jan 3, 2006;
+            class: Lyase;
+            source: Mmdb_id: 40846, Pdb_id 1: 2FJK;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermus caldophilus
+  ORGANISM  Thermus caldophilus
+            Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae;
+            Thermus.
+REFERENCE   1  (residues 1 to 305)
+  AUTHORS   Lee,J.H., Bae,J., Kim,D., Choi,Y., Im,Y.J., Koh,S., Kim,J.S.,
+            Kim,M.K., Kang,G.B., Hong,S.I., Lee,D.S. and Eom,S.H.
+  TITLE     Stereoselectivity of fructose-1,6-bisphosphate aldolase in Thermus
+            caldophilus
+  JOURNAL   Biochem. Biophys. Res. Commun. 347 (3), 616-625 (2006)
+   PUBMED   16843441
+REFERENCE   2  (residues 1 to 305)
+  AUTHORS   Lee,J.H., Im,Y.J., Rho,S.-H., Kim,M.-K., Kang,G.B. and Eom,S.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-JAN-2006)
+COMMENT     1 Fructose-bisphosphate Aldolase.
+FEATURES             Location/Qualifiers
+     source          1..305
+                     /organism="Thermus caldophilus"
+                     /db_xref="taxon:272"
+     SecStr          6..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     Region          7..303
+                     /region_name="TBP_aldolase_IIB"
+                     /note="Tagatose-1,6-bisphosphate (TBP) aldolase and
+                     related Type B Class II aldolases. TBP aldolase is a
+                     tetrameric class II aldolase that catalyzes the reversible
+                     condensation of dihydroxyacetone phosphate with
+                     glyceraldehyde 3-phsophate to produce tagatose 1; cd00947"
+                     /db_xref="CDD:238477"
+     SecStr          18..24
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(26..28,31,51,54..56,59,63,66..67,140,254..255,
+                     257..258,261,265,268)
+                     /site_type="other"
+                     /note="intersubunit interface [polypeptide binding]"
+                     /db_xref="CDD:238477"
+     SecStr          27..40
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          42..49
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          57..70
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          73..81
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Site            order(80..81,177..179,181,208..209,232,251,253..254)
+                     /site_type="active"
+                     /db_xref="CDD:238477"
+     Site            order(81,178,208)
+                     /site_type="other"
+                     /note="zinc binding site [ion binding]"
+                     /db_xref="CDD:238477"
+     SecStr          85..94
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          97..102
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          108..125
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          127..134
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          155..164
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          168..173
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            order(177,179,181,209,232)
+                     /site_type="other"
+                     /note="Na+ binding site [ion binding]"
+                     /db_xref="CDD:238477"
+     SecStr          191..200
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          203..208
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          215..223
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          236..245
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          248..253
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          254..271
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          279..299
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 xlvtgleilr karaegygvg afntnnxeft qaileaaeex kspvilalse gaxkyggral
+       61 trxvvalaqe arvpvavhld hgssyesvlk alregftsvx idkshedfet nvretkrvve
+      121 aahavgvtve aelgrlagie ehvavdekda lltnpeeari fxertgadyl avaigtshga
+      181 ykgkgrpfid hprlariakl vpaplvlhga savpqelver fraaggeige asgihpedik
+      241 kaislgiaki ntdtdlrlaf talvretlgk npkefdprky lgpareavke vvksrxelfg
+      301 svgra
+//
+

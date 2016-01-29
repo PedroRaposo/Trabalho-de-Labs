@@ -1,0 +1,118 @@
+LOCUS       4WK5_A                   294 aa            linear   BCT 19-NOV-2014
+DEFINITION  Chain A, Crystal Structure Of A Isoprenoid Synthase Family Member
+            From Thermotoga Neapolitana Dsm 4359, Target Efi-509458.
+ACCESSION   4WK5_A
+VERSION     4WK5_A  GI:723587084
+DBSOURCE    pdb: molecule 4WK5, chain 65, release Nov 19, 2014;
+            deposition: Oct 1, 2014;
+            class: Transferase;
+            source: Mmdb_id: 124939, Pdb_id 1: 4WK5;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Thermotoga neapolitana DSM 4359
+  ORGANISM  Thermotoga neapolitana DSM 4359
+            Bacteria; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga.
+REFERENCE   1  (residues 1 to 294)
+  AUTHORS   Toro,R., Bhosle,R., Vetting,M.W., Al Obaidi,N.F., Moris,L.L.,
+            Wasserman,S.R., Sojitra,S., Stead,M., Washington,E., Scot,A.,
+            Chowdhury,S., Evans,B., Hillerich,B., Love,J., Seidel,R.D.,
+            Whalen,K.L., Gerlt,J.A., Poulter,C.D., Almo,S.C. and Enzyme
+            Function Initiative (Efi).
+  TITLE     Crystal Structure Of A Isoprenoid Synthase Family M From Thermotoga
+            Neapolitana Dsm 4359, Target Efi-50
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 294)
+  AUTHORS   Toro,R., Bhosle,R., Vetting,M.W., Al Obaidi,N.F., Morisco,L.L.,
+            Wa,S.R., Sojitra,S., Stead,M., Washington,E., Scott Glenn,A.,
+            Chowdhury,S., B,B., Hillerich,B., Love,J., Seidel,R.D.,
+            Whalen,K.L., Gerlt,J.A., Poul,C.D., Almo,S.C. and Enzyme Function
+            Initiative (Efi).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2014)
+COMMENT     1 Geranyltranstransferase.
+FEATURES             Location/Qualifiers
+     source          1..294
+                     /organism="Thermotoga neapolitana DSM 4359"
+                     /db_xref="taxon:309803"
+     Region          join(1..140,277..294)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     SecStr          25..36
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          43..53
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     Region          47..294
+                     /region_name="Trans_IPPS_HT"
+                     /note="Trans-Isoprenyl Diphosphate Synthases,
+                     head-to-tail; cd00685"
+                     /db_xref="CDD:173833"
+     SecStr          59..71
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          76..97
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            order(88,91..93,95..97,101..102,107..108,160,163,185..186,
+                     189,223..224,227,237,242,245)
+                     /site_type="other"
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:173833"
+     Site            order(91..98,101..102)
+                     /site_type="other"
+                     /note="chain length determination region"
+                     /db_xref="CDD:173833"
+     Site            order(96..97,102,107..108,163,185,223..224,227,237,242,
+                     245)
+                     /site_type="other"
+                     /note="substrate-Mg2+ binding site"
+                     /db_xref="CDD:173833"
+     Site            order(96..97,102,107..108,185,223..224)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:173833"
+     Site            order(96..97,102,107..108,163,185)
+                     /site_type="other"
+                     /note="aspartate-rich region 1"
+                     /db_xref="CDD:173833"
+     Site            order(104..118,230..231,237..242,245..247)
+                     /site_type="active"
+                     /note="active site lid residues [active]"
+                     /db_xref="CDD:173833"
+     SecStr          119..138
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     Region          141..276
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          143..166
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          175..185
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          188..201
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          206..229
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Site            order(223..224,227,237,242,245)
+                     /site_type="other"
+                     /note="aspartate-rich region 2"
+                     /db_xref="CDD:173833"
+     SecStr          254..275
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          278..287
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 mhhhhhhssg vdlgtenlyf qsmkketier rieelvkphf nlltesamqy svtaggkrir
+       61 pllvltvged igveeerlvd vavavelfht aslvhddlpp idnadfrrgk pschraygeg
+      121 iallagdglf flafsqiakv repklfeefs etayklllge amdveferqe keisvemvek
+      181 mysfktgalf afcfsapfll kgldhtfvkk lgekfgvafq iyddlkdvlg sleklgkdvg
+      241 kdvkkvtlvk kmgvqkakql adkyyeevle aleseglhrt fdflrnlkkm veer
+//
+

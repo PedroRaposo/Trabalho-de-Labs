@@ -1,0 +1,141 @@
+LOCUS       1B0U_A                   262 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Atp-Binding Subunit Of The Histidine Permease From
+            Salmonella Typhimurium.
+ACCESSION   1B0U_A
+VERSION     1B0U_A  GI:6573453
+DBSOURCE    pdb: molecule 1B0U, chain 65, release Aug 27, 2007;
+            deposition: Nov 12, 1998;
+            class: Transport Protein;
+            source: Mmdb_id: 11516, Pdb_id 1: 1B0U;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium (Salmonella
+            typhimurium)
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (residues 1 to 262)
+  AUTHORS   Hung,L.W., Wang,I.X., Nikaido,K., Liu,P.Q., Ames,G.F. and Kim,S.H.
+  TITLE     Crystal structure of the ATP-binding subunit of an ABC transporter
+  JOURNAL   Nature 396 (6712), 703-707 (1998)
+   PUBMED   9872322
+REFERENCE   2  (residues 1 to 262)
+  AUTHORS   Hung,L.-W., Wang,I.X., Nikaido,K., Liu,P.-Q., Ames,G.F.-L. and
+            Kim,S.-H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-NOV-1998)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..262
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium"
+                     /db_xref="taxon:90371"
+     Region          2..258
+                     /region_name="PRK10619"
+                     /note="histidine/lysine/arginine/ornithine transporter
+                     subunit; Provisional"
+                     /db_xref="CDD:182592"
+     SecStr          6..10
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          7..231
+                     /region_name="ABC_HisP_GlnQ"
+                     /note="ATP-binding cassette domain of the histidine and
+                     glutamine transporters; cd03262"
+                     /db_xref="CDD:213229"
+     SecStr          11..17
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          18..30
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          32..39
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Site            39..46
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213229"
+     Site            order(42..43,45..47,100,178..179,211)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213229"
+     SecStr          44..52
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          59..66
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          67..70
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          71..76
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          78..83
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          85..94
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          95..100
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     Site            97..100
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213229"
+     SecStr          109..116
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          126..140
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     Site            154..163
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213229"
+     SecStr          156..170
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          173..179
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     Site            174..179
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213229"
+     Site            182..185
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213229"
+     SecStr          190..202
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          204..210
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     Site            207..213
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213229"
+     SecStr          212..219
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          221..228
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          229..236
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          247..255
+                     /sec_str_type="helix"
+                     /note="helix 8"
+ORIGIN      
+        1 mmsenklhvi dlhkrygghe vlkgvslqar agdvisiigs sgsgkstflr cinflekpse
+       61 gaiivngqni nlvrdkdgql kvadknqlrl lrtrltmvfq hfnlwshmtv lenvmeapiq
+      121 vlglskhdar eralkylakv gideraqgky pvhlsggqqq rvsiaralam epdvllfdep
+      181 tsaldpelvg evlrimqqla eegktmvvvt hemgfarhvs shviflhqgk ieeegdpeqv
+      241 fgnpqsprlq qflkgslkkl eh
+//
+

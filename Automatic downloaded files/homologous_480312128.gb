@@ -1,0 +1,142 @@
+LOCUS       4HUQ_B                   279 aa            linear   BCT 22-MAY-2013
+DEFINITION  Chain B, Crystal Structure Of A Transporter.
+ACCESSION   4HUQ_B
+VERSION     4HUQ_B  GI:480312128
+DBSOURCE    pdb: molecule 4HUQ, chain 66, release May 22, 2013;
+            deposition: Nov 3, 2012;
+            class: Hydrolase;
+            source: Mmdb_id: 109209, Pdb_id 1: 4HUQ;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Lactobacillus brevis ATCC 367
+  ORGANISM  Lactobacillus brevis ATCC 367
+            Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae;
+            Lactobacillus.
+REFERENCE   1  (residues 1 to 279)
+  AUTHORS   Xu,K., Zhang,M., Zhao,Q., Yu,F., Guo,H., Wang,C., He,F., Ding,J.
+            and Zhang,P.
+  TITLE     Crystal structure of a folate energy-coupling factor transporter
+            from Lactobacillus brevis
+  JOURNAL   Nature 497 (7448), 268-271 (2013)
+   PUBMED   23584589
+REFERENCE   2  (residues 1 to 279)
+  AUTHORS   Zhang,P., Xu,K., Zhang,M., Zhao,Q. and Yu,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-NOV-2012)
+COMMENT     2 Energy-coupling Factor Transporter Atp-binding Protein Ecfa 2.
+FEATURES             Location/Qualifiers
+     source          1..279
+                     /organism="Lactobacillus brevis ATCC 367"
+                     /db_xref="taxon:387344"
+     Region          1..279
+                     /region_name="cbiO"
+                     /note="cobalt transporter ATP-binding subunit;
+                     Provisional; PRK13635"
+                     /db_xref="CDD:184195"
+     Region          join(1..92,159..233)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     SecStr          5..12
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     Region          7..217
+                     /region_name="ABC_cobalt_CbiO_domain1"
+                     /note="First domain of the ATP-binding cassette component
+                     of cobalt transport system; cd03225"
+                     /db_xref="CDD:213192"
+     SecStr          22..31
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          33..40
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     Site            40..47
+                     /site_type="other"
+                     /note="Walker A/P-loop"
+                     /db_xref="CDD:213192"
+     Site            order(43..44,46..48,88,165..166,199)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:213192"
+     SecStr          45..53
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          62..67
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          68..71
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          82..88
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     Site            85..88
+                     /site_type="other"
+                     /note="Q-loop/lid"
+                     /db_xref="CDD:213192"
+     Region          93..158
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          97..100
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          101..110
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          118..128
+                     /sec_str_type="helix"
+                     /note="helix 11"
+     SecStr          134..137
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     Site            141..150
+                     /site_type="other"
+                     /note="ABC transporter signature motif"
+                     /db_xref="CDD:213192"
+     SecStr          143..157
+                     /sec_str_type="helix"
+                     /note="helix 12"
+     SecStr          160..166
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     Site            161..166
+                     /site_type="other"
+                     /note="Walker B"
+                     /db_xref="CDD:213192"
+     Site            169..172
+                     /site_type="other"
+                     /note="D-loop"
+                     /db_xref="CDD:213192"
+     SecStr          173..189
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          192..198
+                     /sec_str_type="sheet"
+                     /note="strand 23"
+     Site            195..201
+                     /site_type="other"
+                     /note="H-loop/switch region"
+                     /db_xref="CDD:213192"
+     SecStr          200..207
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          208..215
+                     /sec_str_type="sheet"
+                     /note="strand 24"
+     SecStr          216..223
+                     /sec_str_type="sheet"
+                     /note="strand 25"
+     SecStr          243..254
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          265..276
+                     /sec_str_type="helix"
+                     /note="helix 16"
+ORIGIN      
+        1 mteniisvdh ltyqydenqa paltdvsftv hagewlaivg hngsgkstla ksldgllpft
+       61 qgsvtvggit ltpetvwqvr eqigmifqnp dnqfvgatve ddvafglenr qisrdemvpr
+      121 vqaalaqvgm tsfaqrepss lsggqkqrva lagivaiapk ilildeatsm ldpqgrieml
+      181 aivrqlrqqq nltvisithd ideaasadrv lviddgrlvd eavpsqifer gtqlvemgld
+      241 lpfteklkaa lrqrgitppt tyqtaaemee wlwqslsnt
+//
+

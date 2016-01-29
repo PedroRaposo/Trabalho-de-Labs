@@ -1,0 +1,171 @@
+LOCUS       1VFH_A                   386 aa            linear   BCT 11-FEB-2013
+DEFINITION  Chain A, Crystal Structure Of Alanine Racemase From D-cycloserine
+            Producing Streptomyces Lavendulae.
+ACCESSION   1VFH_A
+VERSION     1VFH_A  GI:55670437
+DBSOURCE    pdb: molecule 1VFH, chain 65, release Feb 7, 2013;
+            deposition: Apr 13, 2004;
+            class: Isomerase;
+            source: Mmdb_id: 29656, Pdb_id 1: 1VFH;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Streptomyces lavendulae
+  ORGANISM  Streptomyces lavendulae
+            Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+            Streptomyces.
+REFERENCE   1  (residues 1 to 386)
+  AUTHORS   Noda,M., Kawahara,Y., Ichikawa,A., Matoba,Y., Matsuo,H., Lee,D.G.,
+            Kumagai,T. and Sugiyama,M.
+  TITLE     Self-protection mechanism in D-cycloserine-producing Streptomyces
+            lavendulae. Gene cloning, characterization, and kinetics of its
+            alanine racemase and D-alanyl-D-alanine ligase, which are target
+            enzymes of D-cycloserine
+  JOURNAL   J. Biol. Chem. 279 (44), 46143-46152 (2004)
+   PUBMED   15302885
+REFERENCE   2  (residues 1 to 386)
+  AUTHORS   Noda,M., Matoba,Y., Kumagai,T. and Sugiyama,M.
+  TITLE     Structural evidence that alanine racemase from a
+            D-cycloserine-producing microorganism exhibits resistance to its
+            own product
+  JOURNAL   J. Biol. Chem. 279 (44), 46153-46161 (2004)
+   PUBMED   15302886
+REFERENCE   3  (residues 1 to 386)
+  AUTHORS   Noda,M., Matoba,Y., Kumagai,T. and Sugiyama,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-APR-2004)
+COMMENT     1 Alanine Racemase.
+FEATURES             Location/Qualifiers
+     source          1..386
+                     /organism="Streptomyces lavendulae"
+                     /db_xref="taxon:1914"
+     Region          join(1..14,238..386)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          7..376
+                     /region_name="PLPDE_III_AR"
+                     /note="Type III Pyridoxal 5-phosphate (PLP)-Dependent
+                     Enzyme Alanine Racemase; cd00430"
+                     /db_xref="CDD:143481"
+     Region          7..376
+                     /region_name="alr"
+                     /note="alanine racemase; Reviewed; PRK00053"
+                     /db_xref="CDD:234600"
+     SecStr          7..14
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Region          15..237
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          15..28
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          31..37
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Site            order(36,38,42,84,129,136,168,208..209,224..227,270,289,
+                     317..318,361)
+                     /site_type="active"
+                     /db_xref="CDD:143481"
+     Site            order(36,38,42,84,136,168,208..209,224..227,361)
+                     /site_type="other"
+                     /note="pyridoxal 5'-phosphate (PLP) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:143481"
+     Site            order(38..39,64,67..68,105..106,134..137,168,170,257..260,
+                     262,266..267,269..271,284,289,295,319..320,357..358,
+                     361..362,370)
+                     /site_type="other"
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:143481"
+     Site            order(38,42,136,168,270,289,317..318,361)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:143481"
+     Site            order(38,270)
+                     /site_type="active"
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:143481"
+     Het             bond(38)
+                     /heterogen="(PLP,1000 )"
+     SecStr          47..56
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          59..65
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     SecStr          66..75
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          80..85
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          91..99
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          100..105
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          107..120
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          123..130
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          144..157
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          159..167
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          180..197
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          202..206
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          208..215
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          221..226
+                     /sec_str_type="sheet"
+                     /note="strand 9"
+     SecStr          249..256
+                     /sec_str_type="sheet"
+                     /note="strand 10"
+     SecStr          257..265
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          277..281
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          282..287
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          301..306
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          307..312
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          319..326
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          334..339
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          349..356
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          371..378
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+ORIGIN      
+        1 mnetptrvya eidldavran vralrarapr salmavvksn ayghgavpca raaqeagaaw
+       61 lgtatpeeal elraagiqgr imcwlwtpgg pwreaietdi dvsvsgmwal devraaaraa
+      121 grtariqlxa dtglgrngcq padwaelvga avaaqaegtv qvtgvwshfa cadepghpsi
+      181 rlqldafrdm layaekegvd pevrhiansp atltlpethf dlvrtglavy gvspspelgt
+      241 paqlglrpam tlraslalvk tvpaghgvsy ghhyvteset hlalvpagya dgiprnasgr
+      301 gpvlvagkir raagriamdq fvvdlgedla eagdeavilg daergeptae dwaqaahtia
+      361 yeivtriggr vprvylggle hhhhhh
+//
+

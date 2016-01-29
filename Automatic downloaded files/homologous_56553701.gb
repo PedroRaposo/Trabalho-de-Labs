@@ -1,0 +1,78 @@
+LOCUS       1RZR_T                    88 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain T, Crystal Structure Of Transcriptional Regulator-
+            Phosphoprotein-Dna Complex.
+ACCESSION   1RZR_T
+VERSION     1RZR_T  GI:56553701
+DBSOURCE    pdb: molecule 1RZR, chain 84, release Sep 12, 2012;
+            deposition: Dec 27, 2003;
+            class: TranscriptionTRANSPORT PROTEINDNA;
+            source: Mmdb_id: 102942, Pdb_id 1: 1RZR;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Bacillus megaterium
+  ORGANISM  Bacillus megaterium
+            Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (residues 1 to 88)
+  AUTHORS   Schumacher,M.A., Allen,G.S., Diel,M., Seidel,G., Hillen,W. and
+            Brennan,R.G.
+  TITLE     Structural basis for allosteric control of the transcription
+            regulator CcpA by the phosphoprotein HPr-Ser46-P
+  JOURNAL   Cell 118 (6), 731-741 (2004)
+   PUBMED   15369672
+REFERENCE   2  (residues 1 to 88)
+  AUTHORS   Schumacher,M.A., Allen,G.S. and Brennan,R.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-DEC-2003)
+COMMENT     5 Phosphocarrier Protein Hpr.
+FEATURES             Location/Qualifiers
+     source          1..88
+                     /organism="Bacillus megaterium"
+                     /db_xref="taxon:1404"
+     SecStr          4..9
+                     /sec_str_type="sheet"
+                     /note="strand 49"
+     Region          5..81
+                     /region_name="PTS-HPr_like"
+                     /note="Histidine-containing phosphocarrier protein
+                     (HPr)-like proteins. HPr is a central component of the
+                     bacterial phosphoenolpyruvate sugar phosphotransferase
+                     system (PTS). The PTS catalyses the phosphorylation of
+                     sugar substrates during their translocation...; cd00367"
+                     /db_xref="CDD:238217"
+     Site            5..8
+                     /site_type="other"
+                     /note="dimerization domain swap beta strand [polypeptide
+                     binding]"
+                     /db_xref="CDD:238217"
+     Site            order(14,16..17,19..20,24,27,45..48,51..52)
+                     /site_type="other"
+                     /note="regulatory protein interface [polypeptide binding]"
+                     /db_xref="CDD:238217"
+     Site            15
+                     /site_type="active"
+                     /db_xref="CDD:238217"
+     SecStr          17..27
+                     /sec_str_type="helix"
+                     /note="helix 49"
+     SecStr          31..38
+                     /sec_str_type="sheet"
+                     /note="strand 50"
+     SecStr          39..43
+                     /sec_str_type="sheet"
+                     /note="strand 51"
+     Site            46
+                     /site_type="other"
+                     /note="regulatory phosphorylation site [posttranslational
+                     modification]"
+                     /db_xref="CDD:238217"
+     SecStr          58..67
+                     /sec_str_type="sheet"
+                     /note="strand 52"
+     SecStr          71..84
+                     /sec_str_type="helix"
+                     /note="helix 50"
+ORIGIN      
+        1 maqktftvta dsgiharpat tlvqaaskfd sdinlefngk tvnlkximgv mslgiqkgat
+       61 itisaegsde adalaaledt mskeglge
+//
+

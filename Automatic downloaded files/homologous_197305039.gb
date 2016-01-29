@@ -1,0 +1,126 @@
+LOCUS       3C4U_A                   307 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain A, Structure Of Class Ii Fructose-Biphosphate Aldolase From
+            Helicobacter Pylori.
+ACCESSION   3C4U_A
+VERSION     3C4U_A  GI:197305039
+DBSOURCE    pdb: molecule 3C4U, chain 65, release Jun 18, 2009;
+            deposition: Jan 30, 2008;
+            class: Lyase;
+            source: Mmdb_id: 66299, Pdb_id 1: 3C4U;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Helicobacter pylori
+  ORGANISM  Helicobacter pylori
+            Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales;
+            Helicobacteraceae; Helicobacter.
+REFERENCE   1  (residues 1 to 307)
+  AUTHORS   Fonvielle,M., Coincon,M., Daher,R., Desbenoit,N., Kosieradzka,K.,
+            Barilone,N., Gicquel,B., Sygusch,J., Jackson,M. and Therisod,M.
+  TITLE     Synthesis and biochemical evaluation of selective inhibitors of
+            class II fructose bisphosphate aldolases: towards new synthetic
+            antibiotics
+  JOURNAL   Chemistry 14 (28), 8521-8529 (2008)
+   PUBMED   18688832
+REFERENCE   2  (residues 1 to 307)
+  AUTHORS   Coincon,M. and Sygusch,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JAN-2008)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..307
+                     /organism="Helicobacter pylori"
+                     /db_xref="taxon:210"
+     Region          5..305
+                     /region_name="TBP_aldolase_IIB"
+                     /note="Tagatose-1,6-bisphosphate (TBP) aldolase and
+                     related Type B Class II aldolases. TBP aldolase is a
+                     tetrameric class II aldolase that catalyzes the reversible
+                     condensation of dihydroxyacetone phosphate with
+                     glyceraldehyde 3-phsophate to produce tagatose 1; cd00947"
+                     /db_xref="CDD:238477"
+     SecStr          6..15
+                     /sec_str_type="helix"
+                     /note="helix 1"
+     SecStr          18..24
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Site            order(26..28,31,51,54..56,60,64,67..68,142,256..257,
+                     259..260,263,267,270)
+                     /site_type="other"
+                     /note="intersubunit interface [polypeptide binding]"
+                     /db_xref="CDD:238477"
+     SecStr          27..40
+                     /sec_str_type="helix"
+                     /note="helix 2"
+     SecStr          43..49
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     SecStr          57..72
+                     /sec_str_type="helix"
+                     /note="helix 3"
+     SecStr          76..82
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Het             bond(80)
+                     /heterogen="( NA,1000 )"
+     Site            order(82..83,179..181,183,210..211,213,253,255..256)
+                     /site_type="active"
+                     /db_xref="CDD:238477"
+     Het             join(bond(83),bond(134),bond(180),bond(210))
+                     /heterogen="( ZN,1001 )"
+     Site            order(83,180,210)
+                     /site_type="other"
+                     /note="zinc binding site [ion binding]"
+                     /db_xref="CDD:238477"
+     SecStr          87..96
+                     /sec_str_type="helix"
+                     /note="helix 4"
+     SecStr          99..104
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     SecStr          110..127
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          129..136
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          157..167
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          170..175
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     Site            order(179,181,183,211,213)
+                     /site_type="other"
+                     /note="Na+ binding site [ion binding]"
+                     /db_xref="CDD:238477"
+     SecStr          193..203
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          207..210
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          217..226
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          239..247
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     SecStr          250..255
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+     SecStr          256..272
+                     /sec_str_type="helix"
+                     /note="helix 10"
+     SecStr          284..301
+                     /sec_str_type="helix"
+                     /note="helix 11"
+ORIGIN      
+        1 mlvkgneill kahkegygvg afnfvnfeml naifeagnee nsplfiqase gaikymgidm
+       61 avgmvkimce ryphipvalh ldhgttfesc ekavkagfts vmidashhaf eenleltskv
+      121 vkmahnagvs veaelgrlmg iednisvdek davlvnpkea eqfvkesqvd ylapaigtsh
+      181 gafkfkgepk ldferlqevk rltniplvlh gasaipdnvr ksyldaggdl kgskgvpfef
+      241 lqesvkggin kvntdtdlri afiaevrkva nedksqfdlr kffspaqlal knvvkermkl
+      301 lgsanki
+//
+

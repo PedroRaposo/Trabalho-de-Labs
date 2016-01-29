@@ -1,0 +1,73 @@
+LOCUS       3JA6_H                   307 aa            linear   BCT 09-DEC-2015
+DEFINITION  Chain H, Cryo-electron Tomography And All-atom Molecular Dynamics
+            Simulations Reveal A Novel Kinase Conformational Switch In
+            Bacterial Chemotaxis Signaling.
+ACCESSION   3JA6_H
+VERSION     3JA6_H  GI:960515320
+DBSOURCE    pdb: molecule 3JA6, chain 72, release Dec 9, 2015;
+            deposition: Apr 21, 2015;
+            class: Signaling Protein;
+            source: Mmdb_id: 134626, Pdb_id 1: 3JA6;
+            Exp. method: Electron Microscopy.
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (residues 1 to 307)
+  AUTHORS   Cassidy,C.K., Himes,B.A., Alvarez,F.J., Ma,J., Zhao,G.,
+            Perilla,J.R., Schulten,K. and Zhang,P.
+  TITLE     CryoEM and computer simulations reveal a novel kinase
+            conformational switch in bacterial chemotaxis signaling
+  JOURNAL   Elife 4 (2015) In press
+   PUBMED   26583751
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 307)
+  AUTHORS   Cassidy,C.K., Himes,B.A., Alvarez,F.J., Ma,J., Zhao,G.,
+            Perilla,J.R., K,K. and Zhang,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-APR-2015)
+COMMENT     4 Methyl-accepting Chemotaxis Protein 2.
+FEATURES             Location/Qualifiers
+     source          1..307
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Region          join(1..85,227..307)
+                     /region_name="Domain 17"
+                     /note="NCBI Domains"
+     SecStr          4..43
+                     /sec_str_type="helix"
+                     /note="helix 29"
+     SecStr          44..85
+                     /sec_str_type="helix"
+                     /note="helix 30"
+     Region          86..226
+                     /region_name="Domain 18"
+                     /note="NCBI Domains"
+     SecStr          86..129
+                     /sec_str_type="helix"
+                     /note="helix 31"
+     SecStr          130..150
+                     /sec_str_type="helix"
+                     /note="helix 32"
+     SecStr          158..195
+                     /sec_str_type="helix"
+                     /note="helix 33"
+     SecStr          196..226
+                     /sec_str_type="helix"
+                     /note="helix 34"
+     SecStr          227..264
+                     /sec_str_type="helix"
+                     /note="helix 35"
+     SecStr          265..304
+                     /sec_str_type="helix"
+                     /note="helix 36"
+ORIGIN      
+        1 shmkdvqtet fsvaesieei skaneeitnq llgiskemdn istriesisa svqettagse
+       61 eissatknia dsaqqaasfa dqstqlakea gdalkkviev trmisnsakd vervvesfqk
+      121 gaeeitsfve tinaiaeqtn llalnaaiea arageagrgf avvadeirkl aeesqqasen
+      181 vrrvvneirs iaedagkvss eitarveegt kladeadekl nsivgaveri nemlqniaaa
+      241 ieeqnaavde ittamtenak naeeitnsvk evnarlqeis asteevtsrv qtirenvqml
+      301 keivarx
+//
+

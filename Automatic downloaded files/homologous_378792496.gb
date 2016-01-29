@@ -1,0 +1,125 @@
+LOCUS       3V47_C                   425 aa            linear   BCT 10-OCT-2012
+DEFINITION  Chain C, Crystal Structure Of The N-Tetminal Fragment Of Zebrafish
+            Tlr5 In Complex With Salmonella Flagellin.
+ACCESSION   3V47_C
+VERSION     3V47_C  GI:378792496
+DBSOURCE    pdb: molecule 3V47, chain 67, release Mar 7, 2012;
+            deposition: Dec 14, 2011;
+            class: Immune System;
+            source: Mmdb_id: 97642, Pdb_id 1: 3V47;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Dublin
+  ORGANISM  Salmonella enterica subsp. enterica serovar Dublin
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (residues 1 to 425)
+  AUTHORS   Yoon,S.I., Kurnasov,O., Natarajan,V., Hong,M., Gudkov,A.V.,
+            Osterman,A.L. and Wilson,I.A.
+  TITLE     Structural basis of TLR5-flagellin recognition and signaling
+  JOURNAL   Science 335 (6070), 859-864 (2012)
+   PUBMED   22344444
+REFERENCE   2  (residues 1 to 425)
+  AUTHORS   Yoon,S.I., Hong,H. and Wilson,I.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-DEC-2011)
+COMMENT     2 Flagellin.
+FEATURES             Location/Qualifiers
+     source          1..425
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Dublin"
+                     /db_xref="taxon:98360"
+     Region          join(1..131,372..425)
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          2..425
+                     /region_name="PRK08026"
+                     /note="flagellin; Validated"
+                     /db_xref="CDD:236140"
+     Region          <7..101
+                     /region_name="Flagellin_N"
+                     /note="Bacterial flagellin N-terminal helical region;
+                     pfam00669"
+                     /db_xref="CDD:250043"
+     SecStr          25..60
+                     /sec_str_type="helix"
+                     /note="helix 5"
+     SecStr          65..88
+                     /sec_str_type="helix"
+                     /note="helix 6"
+     SecStr          89..92
+                     /sec_str_type="sheet"
+                     /note="strand 66"
+     SecStr          93..96
+                     /sec_str_type="sheet"
+                     /note="strand 67"
+     SecStr          98..107
+                     /sec_str_type="sheet"
+                     /note="strand 68"
+     SecStr          113..122
+                     /sec_str_type="sheet"
+                     /note="strand 69"
+     Region          132..371
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          141..149
+                     /sec_str_type="helix"
+                     /note="helix 7"
+     SecStr          152..161
+                     /sec_str_type="sheet"
+                     /note="strand 70"
+     SecStr          162..170
+                     /sec_str_type="sheet"
+                     /note="strand 71"
+     SecStr          171..176
+                     /sec_str_type="sheet"
+                     /note="strand 72"
+     SecStr          184..187
+                     /sec_str_type="sheet"
+                     /note="strand 73"
+     SecStr          192..195
+                     /sec_str_type="sheet"
+                     /note="strand 74"
+     SecStr          197..200
+                     /sec_str_type="sheet"
+                     /note="strand 75"
+     SecStr          304..307
+                     /sec_str_type="sheet"
+                     /note="strand 76"
+     SecStr          311..319
+                     /sec_str_type="helix"
+                     /note="helix 8"
+     SecStr          320..330
+                     /sec_str_type="sheet"
+                     /note="strand 77"
+     SecStr          331..338
+                     /sec_str_type="sheet"
+                     /note="strand 78"
+     SecStr          342..345
+                     /sec_str_type="sheet"
+                     /note="strand 79"
+     SecStr          349..355
+                     /sec_str_type="sheet"
+                     /note="strand 80"
+     SecStr          359..365
+                     /sec_str_type="sheet"
+                     /note="strand 81"
+     SecStr          377..410
+                     /sec_str_type="helix"
+                     /note="helix 9"
+     Region          378..>425
+                     /region_name="Flagellin_C"
+                     /note="Bacterial flagellin C-terminal helical region;
+                     pfam00700"
+                     /db_xref="CDD:144340"
+ORIGIN      
+        1 gsakdpqaia nrftsnikgl tqasrnandg isiaqttega lneinnnlqr vrelsvqatn
+       61 gtnsdsdlks iqdeiqqrle eidrvsnqtq fngvkvlsqd nqmkiqvgan dgetitidlq
+      121 kidvkslgld gfnvngpkea tvgdlkssfk nvtgydtyaa gadkyrvdin sgavvtdava
+      181 pdkvyvnaan gqlttddaen ntavdlfktt kstagtaeak aiagaikggk egdtfdykgv
+      241 tftidtktgd dgngkvstti ngekvtltva diaigaadvn aatlqssknv ytsvvngqft
+      301 fddktknesa klsdleanna vkgeskitvn gaeytanatg dkitlagktm fidktasgvs
+      361 tlinedaaaa kkstanplas idsalskvda vrsslgaiqn rfdsaitnlg ntvtnlnsar
+      421 sried
+//
+

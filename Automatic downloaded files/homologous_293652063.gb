@@ -1,0 +1,81 @@
+LOCUS       3MAO_A                   105 aa            linear   PRI 10-OCT-2012
+DEFINITION  Chain A, Crystal Structure Of Human Methionine-R-Sulfoxide
+            Reductase B1 (Msrb1).
+ACCESSION   3MAO_A
+VERSION     3MAO_A  GI:293652063
+DBSOURCE    pdb: molecule 3MAO, chain 65, release Apr 7, 2010;
+            deposition: Mar 24, 2010;
+            class: Oxidoreductase;
+            source: Mmdb_id: 81308, Pdb_id 1: 3MAO;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 105)
+  AUTHORS   Chaikuad,A., Shafqat,N., Yue,W.W., Savitsky,P., Krojer,T.,
+            Ugochukwu,E., Muniz,J.R.C., Pike,A.C.W., Von Delft,F., H
+            Arrowsmith,C., Edwards,A.M., Weigelt,J., Bountra,C., Oppermann,U.
+            and Structural Genomics Consortium (Sgc).
+  TITLE     Crystal Structure Of Human Methionine-R-Sulfoxide Reductase B1
+            (Msrb1)
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 105)
+  AUTHORS   Chaikuad,A., Shafqat,N., Yue,W.W., Savitsky,P., Krojer,T.,
+            Ugochukwu,E., Muniz,J.R.C., Pike,A.C.W., Von Delft,F., H,C.,
+            Arrowsmith, Edwards,A.M., Weigelt,J., Bountra,C., Oppermann,U. and
+            Structural Genomics Consortium (Sgc).
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2010)
+COMMENT     SEQRES.
+FEATURES             Location/Qualifiers
+     source          1..105
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          join(1..31,93..105)
+                     /region_name="Domain 1"
+                     /note="NCBI Domains"
+     Region          <7..102
+                     /region_name="SelR"
+                     /note="SelR domain; cl15841"
+                     /db_xref="CDD:265802"
+     SecStr          11..16
+                     /sec_str_type="sheet"
+                     /note="strand 1"
+     Het             join(bond(16),bond(19),bond(64),bond(67))
+                     /heterogen="( FE,1000 )"
+     SecStr          21..26
+                     /sec_str_type="sheet"
+                     /note="strand 2"
+     Region          32..92
+                     /region_name="Domain 2"
+                     /note="NCBI Domains"
+     SecStr          36..40
+                     /sec_str_type="sheet"
+                     /note="strand 3"
+     Het             join(bond(41),bond(42))
+                     /heterogen="( NA,1002 )"
+     SecStr          48..53
+                     /sec_str_type="sheet"
+                     /note="strand 4"
+     Het             join(bond(53),bond(56),bond(59))
+                     /heterogen="( NA,1001 )"
+     SecStr          58..64
+                     /sec_str_type="sheet"
+                     /note="strand 5"
+     SecStr          69..77
+                     /sec_str_type="sheet"
+                     /note="strand 6"
+     SecStr          84..90
+                     /sec_str_type="sheet"
+                     /note="strand 7"
+     SecStr          94..99
+                     /sec_str_type="sheet"
+                     /note="strand 8"
+ORIGIN      
+        1 smevfqnhfe pgvyvcakcg yelfssrsky ahsspwpaft etihadsvak rpehnrseal
+       61 kvscgkcgng lgheflndgp kpgqsrfsif ssslkfvpkg ketsa
+//
+
