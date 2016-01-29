@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 2.08012e-14
  Identities: 78
  Function: Chemotaxis
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2CH7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/99031960
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 2.34496e-14
  Identities: 74
  Function: Chemotaxis
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2CH7_B
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/99031961
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 2.9394e-14
  Identities: 78
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3JA6_H
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/960515320
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 2.5509e-13
  Identities: 47
  Function: Signaling
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ZX6_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/378792586
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 5.00578e-13
  Identities: 47
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1QU7_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/9955271
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 1.25049e-09
  Identities: 53
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3G6B_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254839312
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 1.321e-09
  Identities: 53
  Function: Signaling Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3G67_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254839310
 ------------------------------------------------------------------
 
 

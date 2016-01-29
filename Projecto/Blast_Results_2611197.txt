@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.43079e-88
  Identities: 147
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ISV_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/122920737
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 5.45511e-88
  Identities: 147
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GAK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/226192705
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 8.90534e-87
  Identities: 146
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3GB6_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/226192709
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 2.04777e-71
  Identities: 138
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1RV8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/42543612
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 1.58168e-68
  Identities: 129
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4TO8_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/726969037
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 3.9278e-68
  Identities: 135
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FJK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/114793829
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 9.47428e-68
  Identities: 131
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3C4U_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/197305039
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 8.67214e-63
  Identities: 123
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3Q94_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/320089957
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 4.25847e-52
  Identities: 117
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1GVF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/21730242
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 2.05786e-21
  Identities: 92
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3PM6_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/315113776
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 2.27277e-19
  Identities: 95
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4A21_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/349587956
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 2.43464e-19
  Identities: 95
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3EKL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/223365866
 ------------------------------------------------------------------
 
 
@@ -163,7 +163,7 @@ Hsp num :1
  E-value: 1.65339e-13
  Identities: 91
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3QM3_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/323714681
 ------------------------------------------------------------------
 
 
@@ -176,7 +176,7 @@ Hsp num :1
  E-value: 1.27552e-12
  Identities: 78
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1DOS_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/2392284
 ------------------------------------------------------------------
 
 
@@ -189,7 +189,7 @@ Hsp num :1
  E-value: 4.91973e-12
  Identities: 79
  Function: Lyase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1B57_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/6980737
 ------------------------------------------------------------------
 
 

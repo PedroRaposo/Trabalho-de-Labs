@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 3.10526e-14
  Identities: 31
  Function: Structural Genomics, Unknown Function
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1YDM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/60594282
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 8.46539e-12
  Identities: 48
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1SOU_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/50513600
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 9.15519e-11
  Identities: 58
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HXT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/254221105
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 2.75731e-09
  Identities: 54
  Function: Structural Genomics, Unknown Function
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1WKC_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/58177181
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 1.86397e-05
  Identities: 47
  Function: Ligase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2JCB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/134104769
 ------------------------------------------------------------------
 
 

@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 0.0
  Identities: 324
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2V84_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/158431076
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 1.33882e-46
  Identities: 107
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1POY_1
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/1633142
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 1.62147e-46
  Identities: 107
  Function: Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1POT_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/157833547
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 2.33496e-38
  Identities: 91
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4GL0_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/401871804
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 1.02158e-37
  Identities: 101
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TTK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/381352983
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 1.05034e-37
  Identities: 101
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TTM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/381352988
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 5.98704e-36
  Identities: 84
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4EQB_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/385867927
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 1.13607e-33
  Identities: 92
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TTL_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/381352986
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 1.74649e-32
  Identities: 81
  Function: Protein Binding
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4JDF_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/523309792
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 2.0016e-32
  Identities: 91
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3TTN_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/381352990
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 7.85182e-31
  Identities: 79
  Function: Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1A99_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/3891734
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 1.31728e-10
  Identities: 76
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4EDP_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/383875763
 ------------------------------------------------------------------
 
 
@@ -164,7 +164,7 @@ Hsp num :1
  E-value: 0.0125847
  Identities: 37
  Function: Sugar Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2FNC_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/126030432
 ------------------------------------------------------------------
 
 
@@ -177,7 +177,7 @@ Hsp num :1
  E-value: 0.0260521
  Identities: 55
  Function: Transport Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4I1D_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/427931090
 ------------------------------------------------------------------
 
 

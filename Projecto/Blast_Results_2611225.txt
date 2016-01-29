@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 7.99959e-52
  Identities: 90
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1LK5_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/21730740
 ------------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ Hsp num :1
  E-value: 3.80979e-47
  Identities: 91
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3IXQ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/260656416
 ------------------------------------------------------------------
 
 
@@ -33,7 +33,7 @@ Hsp num :1
  E-value: 2.23048e-35
  Identities: 82
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3HHE_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/238538032
 ------------------------------------------------------------------
 
 
@@ -46,7 +46,7 @@ Hsp num :1
  E-value: 8.71653e-34
  Identities: 87
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1UJ5_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/51247842
 ------------------------------------------------------------------
 
 
@@ -59,7 +59,7 @@ Hsp num :1
  E-value: 2.00456e-33
  Identities: 83
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1UJ4_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/51247841
 ------------------------------------------------------------------
 
 
@@ -72,7 +72,7 @@ Hsp num :1
  E-value: 4.69771e-33
  Identities: 80
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2F8M_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/85544643
 ------------------------------------------------------------------
 
 
@@ -85,7 +85,7 @@ Hsp num :1
  E-value: 7.94767e-33
  Identities: 82
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1XTZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/75765507
 ------------------------------------------------------------------
 
 
@@ -98,7 +98,7 @@ Hsp num :1
  E-value: 4.63544e-32
  Identities: 90
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4NML_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/563321000
 ------------------------------------------------------------------
 
 
@@ -111,7 +111,7 @@ Hsp num :1
  E-value: 1.04464e-31
  Identities: 79
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1M0S_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/23200407
 ------------------------------------------------------------------
 
 
@@ -124,7 +124,7 @@ Hsp num :1
  E-value: 3.42333e-30
  Identities: 81
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3ENQ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/260099879
 ------------------------------------------------------------------
 
 
@@ -137,7 +137,7 @@ Hsp num :1
  E-value: 8.90048e-30
  Identities: 87
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4X84_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/742261595
 ------------------------------------------------------------------
 
 
@@ -150,7 +150,7 @@ Hsp num :1
  E-value: 1.88514e-28
  Identities: 81
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3L7O_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/316983217
 ------------------------------------------------------------------
 
 
@@ -163,7 +163,7 @@ Hsp num :1
  E-value: 1.18157e-27
  Identities: 82
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3U7J_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/357380759
 ------------------------------------------------------------------
 
 
@@ -176,7 +176,7 @@ Hsp num :1
  E-value: 7.58725e-26
  Identities: 81
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=4GMK_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/402550779
 ------------------------------------------------------------------
 
 
@@ -189,7 +189,7 @@ Hsp num :1
  E-value: 1.53136e-25
  Identities: 67
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=3KWM_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/283135401
 ------------------------------------------------------------------
 
 
@@ -202,7 +202,7 @@ Hsp num :1
  E-value: 2.28878e-25
  Identities: 76
  Function: Structural Genomics, Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1KS2_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/23200281
 ------------------------------------------------------------------
 
 
@@ -215,7 +215,7 @@ Hsp num :1
  E-value: 2.35881e-25
  Identities: 76
  Function: Isomerase
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1LKZ_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/21466109
 ------------------------------------------------------------------
 
 

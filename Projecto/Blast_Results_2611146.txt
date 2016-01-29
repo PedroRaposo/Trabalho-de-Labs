@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 0.00665549
  Identities: 34
  Function: Membrane Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=2ONK_C
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/134105247
 ------------------------------------------------------------------
 
 

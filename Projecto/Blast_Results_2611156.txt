@@ -7,7 +7,7 @@ Hsp num :1
  E-value: 1.19066e-15
  Identities: 32
  Function: Rna Binding Protein
- Link to PDB: http://www.rcsb.org/pdb/explore/explore.do?structureId=1T3O_A
+ Link to PDB: http://www.ncbi.nlm.nih.gov/protein/82407304
 ------------------------------------------------------------------
 
 
